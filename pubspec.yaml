@@ -1,0 +1,69 @@
+name: infinity_health_tracker
+description: Infinity Health Tracker - Better Health Every Day. A bilingual AI nutrition tracking app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # HTTP / API
+  dio: ^5.4.3+1
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Camera & Image
+  camera: ^0.12.0
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.3.0
+
+  # Machine Learning
+  tflite_flutter: ^0.12.1
+  image: ^4.2.0
+
+  # Export & Share
+  share_plus: ^10.0.0
+
+  # Fonts & UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.3.3
+  path_provider: ^2.1.3
+  connectivity_plus: ^6.0.3
+  permission_handler: ^11.3.1
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/models/
