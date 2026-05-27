@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Infinity Health Tracker';
+  static const String appName = 'Infinite Health Tracker';
   static const String appTagline = 'Better Health Every Day';
 
   static const String demoUsdaApiKey = 'DEMO_KEY';
@@ -11,7 +11,7 @@ class AppConstants {
   // Search & Cache
   static const int maxRecentSearches = 10;
   static const int maxCachedFoods = 200;
-  static const int minSearchQueryLength = 2;
+  static const int minSearchQueryLength = 1;
   static const int searchCacheTtlMinutes = 10;
   static const int maxSessionCacheEntries = 50;
 
@@ -26,6 +26,7 @@ class AppConstants {
   static const String hiveUserBox = 'user_box';
   static const String hiveMealsBox = 'meals_box';
   static const String hiveFoodCacheBox = 'food_cache_box';
+  static const String hiveLocalFoodBox = 'local_food_box';
   static const String hiveSettingsBox = 'settings_box';
   static const String hiveDailyLogsBox = 'daily_logs_box';
   static const String hiveMonthlySummaryBox = 'monthly_summary_box';
@@ -38,8 +39,9 @@ class AppConstants {
   static const String keyOnboardingDone = 'onboarding_done';
   static const String keyLegalAcceptance = 'legal_acceptance';
   static const String keyApiKey = 'usda_api_key';
+  static const String keyLocalDatasetLoaded = 'local_dataset_loaded';
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.0.0';
+  static const String currentAppVersion = '1.0';
 }

@@ -37,13 +37,17 @@ class FoodItemAdapter extends TypeAdapter<FoodItem> {
       zincMg: fields[17] as double?,
       usdaFdcId: fields[18] as String?,
       isCustom: fields[19] as bool,
+      nameBn: fields[20] as String?,
+      category: fields[21] as String?,
+      source: fields[22] as String?,
+      keywords: (fields[23] as List?)?.cast<String>(),
     );
   }
 
   @override
   void write(BinaryWriter writer, FoodItem obj) {
     writer
-      ..writeByte(20)
+      ..writeByte(24)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -83,7 +87,15 @@ class FoodItemAdapter extends TypeAdapter<FoodItem> {
       ..writeByte(18)
       ..write(obj.usdaFdcId)
       ..writeByte(19)
-      ..write(obj.isCustom);
+      ..write(obj.isCustom)
+      ..writeByte(20)
+      ..write(obj.nameBn)
+      ..writeByte(21)
+      ..write(obj.category)
+      ..writeByte(22)
+      ..write(obj.source)
+      ..writeByte(23)
+      ..write(obj.keywords);
   }
 
   @override

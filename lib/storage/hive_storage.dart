@@ -7,8 +7,13 @@ import '../models/legal_acceptance.dart';
 import '../core/constants/app_constants.dart';
 
 class HiveStorage {
+  // Named subfolder keeps user data isolated and clearly scoped to this app.
+  // Hive places it inside the OS-managed app documents directory, so data
+  // survives upgrades automatically and is wiped when the user uninstalls.
+  static const _dataFolder = 'infinite_health_data';
+
   static Future<void> init() async {
-    await Hive.initFlutter();
+    await Hive.initFlutter(_dataFolder);
     _registerAdapters();
     await _openBoxes();
   }
@@ -26,8 +31,8 @@ class HiveStorage {
       Hive.openBox(AppConstants.hiveUserBox),
       Hive.openBox<MealEntry>(AppConstants.hiveMealsBox),
       Hive.openBox<FoodItem>(AppConstants.hiveFoodCacheBox),
+      Hive.openBox<FoodItem>(AppConstants.hiveLocalFoodBox),
       Hive.openBox(AppConstants.hiveSettingsBox),
-      Hive.openBox(AppConstants.hiveDailyLogsBox),
       Hive.openBox<MonthlySummary>(AppConstants.hiveMonthlySummaryBox),
       Hive.openBox(AppConstants.hiveLegalBox),
     ]);
@@ -37,8 +42,8 @@ class HiveStorage {
   static Box get userBox => Hive.box(AppConstants.hiveUserBox);
   static Box<MealEntry> get mealsBox => Hive.box<MealEntry>(AppConstants.hiveMealsBox);
   static Box<FoodItem> get foodCacheBox => Hive.box<FoodItem>(AppConstants.hiveFoodCacheBox);
+  static Box<FoodItem> get localFoodBox => Hive.box<FoodItem>(AppConstants.hiveLocalFoodBox);
   static Box get settingsBox => Hive.box(AppConstants.hiveSettingsBox);
-  static Box get dailyLogsBox => Hive.box(AppConstants.hiveDailyLogsBox);
   static Box<MonthlySummary> get monthlySummaryBox =>
       Hive.box<MonthlySummary>(AppConstants.hiveMonthlySummaryBox);
   static Box get legalBox => Hive.box(AppConstants.hiveLegalBox);
@@ -211,14 +216,39 @@ class HiveStorage {
 
   // ── Reset ─────────────────────────────────────────────────────────────────
 
+  // ── Local Dataset ─────────────────────────────────────────────────────────
+
+  static bool get isLocalDatasetLoaded =>
+      settingsBox.get(AppConstants.keyLocalDatasetLoaded, defaultValue: false) as bool;
+
+  // ── Custom Foods ──────────────────────────────────────────────────────────
+
+  static List<FoodItem> getCustomFoods() {
+    return localFoodBox.values
+        .where((f) => f.isCustom || f.source == 'custom')
+        .toList()
+      ..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+  }
+
+  static Future<void> saveCustomFood(FoodItem food) async {
+    await localFoodBox.put(food.id, food);
+  }
+
+  static Future<void> deleteCustomFood(String id) async {
+    await localFoodBox.delete(id);
+  }
+
+  static Future<void> setLocalDatasetLoaded() async {
+    await settingsBox.put(AppConstants.keyLocalDatasetLoaded, true);
+  }
+
   static Future<void> resetAllData() async {
     await userBox.clear();
     await mealsBox.clear();
     await foodCacheBox.clear();
     await settingsBox.clear();
-    await dailyLogsBox.clear();
     await monthlySummaryBox.clear();
-    // Legal acceptance is intentionally preserved — the user already agreed
-    // to the terms; resetting their nutrition data doesn't invalidate that.
+    // Note: localFoodBox is NOT cleared on reset — dataset is immutable app data.
+    // Legal acceptance is intentionally preserved — the user already agreed.
   }
 }

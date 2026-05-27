@@ -236,11 +236,18 @@ class AppStrings {
   String get unableToIdentify => _t('unableToIdentify');
   String get modelNotAvailable => _t('modelNotAvailable');
 
+  // Local dataset
+  String get localDatasetReady => _t('localDatasetReady');
+  String get searchBilingual => _t('searchBilingual');
+  String get localResults => _t('localResults');
+  String get searchUsda => _t('searchUsda');
+  String get noLocalResults => _t('noLocalResults');
+
   String _t(String key) => _translations[language]?[key] ?? _translations['en']![key] ?? key;
 
   static const Map<String, Map<String, String>> _translations = {
     'en': {
-      'appName': 'Infinity Health Tracker',
+      'appName': 'Infinite Health Tracker',
       'tagline': 'Better Health Every Day',
       'dashboard': 'Dashboard',
       'foodSearch': 'Food Search',
@@ -317,7 +324,7 @@ class AppStrings {
       'nutritionFacts': 'Nutrition Facts',
       'vitamins': 'Vitamins',
       'minerals': 'Minerals',
-      'welcomeTitle': 'Welcome to\nInfinity Health Tracker',
+      'welcomeTitle': 'Welcome to\nInfinite Health Tracker',
       'welcomeSubtitle': 'Your personal nutrition companion.\nTrack calories, macros & vitamins.',
       'getStarted': 'Get Started',
       'profile': 'Profile',
@@ -462,9 +469,15 @@ class AppStrings {
       // Food detection
       'unableToIdentify': 'Unable to confidently identify this food. Try again with better lighting.',
       'modelNotAvailable': 'Food detection model unavailable. Please install the model file.',
+      // Local dataset
+      'localDatasetReady': '1,057 foods available offline',
+      'searchBilingual': 'Search in English or Bengali…',
+      'localResults': 'Results from local dataset',
+      'searchUsda': 'Search USDA Database',
+      'noLocalResults': 'No local results — try USDA search',
     },
     'bn': {
-      'appName': 'ইনফিনিটি হেলথ ট্র্যাকার',
+      'appName': 'ইনফিনিট হেলথ ট্র্যাকার',
       'tagline': 'প্রতিদিন সুস্বাস্থ্য',
       'dashboard': 'ড্যাশবোর্ড',
       'foodSearch': 'খাবার খুঁজুন',
@@ -476,8 +489,8 @@ class AppStrings {
       'carbs': 'কার্বস',
       'fat': 'ফ্যাট',
       'fiber': 'ফাইবার',
-      'water': 'পানি',
-      'breakfast': 'সকালের নাস্তা',
+      'water': 'জল',
+      'breakfast': 'সকালের খাবার',
       'lunch': 'দুপুরের খাবার',
       'dinner': 'রাতের খাবার',
       'snack': 'স্ন্যাকস',
@@ -541,7 +554,7 @@ class AppStrings {
       'nutritionFacts': 'পুষ্টির তথ্য',
       'vitamins': 'ভিটামিন',
       'minerals': 'খনিজ',
-      'welcomeTitle': 'ইনফিনিটি হেলথ\nট্র্যাকারে স্বাগতম',
+      'welcomeTitle': 'ইনফিনিট হেলথ\nট্র্যাকারে স্বাগতম',
       'welcomeSubtitle': 'আপনার ব্যক্তিগত পুষ্টি সহায়ক।\nক্যালোরি, ম্যাক্রো এবং ভিটামিন ট্র্যাক করুন।',
       'getStarted': 'শুরু করুন',
       'profile': 'প্রোফাইল',
@@ -686,6 +699,12 @@ class AppStrings {
       // Food detection
       'unableToIdentify': 'এই খাবারটি আত্মবিশ্বাসের সাথে চিহ্নিত করা সম্ভব হয়নি। আরও ভালো আলোতে আবার চেষ্টা করুন।',
       'modelNotAvailable': 'ফুড ডিটেকশন মডেল পাওয়া যাচ্ছে না। মডেল ফাইলটি ইনস্টল করুন।',
+      // Local dataset
+      'localDatasetReady': '১,০৫৭টি খাবার অফলাইনে উপলব্ধ',
+      'searchBilingual': 'বাংলা বা ইংরেজিতে খুঁজুন…',
+      'localResults': 'স্থানীয় ডেটা থেকে ফলাফল',
+      'searchUsda': 'USDA ডেটাবেজে খুঁজুন',
+      'noLocalResults': 'স্থানীয় ডেটায় নেই — USDA খুঁজুন',
     },
   };
 }

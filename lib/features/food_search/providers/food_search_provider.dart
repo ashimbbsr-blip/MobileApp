@@ -1,151 +1,254 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../models/food_item.dart';
 import '../../../services/usda_api_service.dart';
+import '../../../services/local_food_repository.dart';
 import '../../../storage/hive_storage.dart';
 import '../../../core/constants/app_constants.dart';
 
-enum FoodSearchStatus { idle, loading, success, error, offline, rateLimited }
+enum UsdaSearchStatus { idle, loading, success, error, offline, rateLimited }
 
-class _CacheEntry {
-  final List<FoodItem> results;
-  final DateTime cachedAt;
-  _CacheEntry(this.results) : cachedAt = DateTime.now();
-
-  bool get isExpired =>
-      DateTime.now().difference(cachedAt).inMinutes >= AppConstants.searchCacheTtlMinutes;
-}
-
+/// State for the Food Search screen — three fully independent sections.
 class FoodSearchState {
-  final List<FoodItem> results;
+  // ── Section 1: Local Indian & Bengali DB ─────────────────────────────────
+  final String localQuery;
+  final String? localCategory;
+  final List<FoodItem> localResults;
+  final bool localHasSearched;
+
+  // ── Section 2: USDA International API ────────────────────────────────────
+  final String usdaQuery;
+  final List<FoodItem> usdaResults;
+  final UsdaSearchStatus usdaStatus;
+  final String? usdaError;
+  final int? usdaCooldownSeconds;
+
+  // ── Section 3: Custom (user-created) foods ────────────────────────────────
+  final List<FoodItem> customFoods;
+
+  // ── Shared ────────────────────────────────────────────────────────────────
   final List<FoodItem> recentFoods;
-  final FoodSearchStatus status;
-  final String? errorMessage;
-  final String query;
-  final bool fromCache;
 
   const FoodSearchState({
-    this.results = const [],
+    this.localQuery = '',
+    this.localCategory,
+    this.localResults = const [],
+    this.localHasSearched = false,
+    this.usdaQuery = '',
+    this.usdaResults = const [],
+    this.usdaStatus = UsdaSearchStatus.idle,
+    this.usdaError,
+    this.usdaCooldownSeconds,
+    this.customFoods = const [],
     this.recentFoods = const [],
-    this.status = FoodSearchStatus.idle,
-    this.errorMessage,
-    this.query = '',
-    this.fromCache = false,
   });
 
-  FoodSearchState copyWith({
-    List<FoodItem>? results,
-    List<FoodItem>? recentFoods,
-    FoodSearchStatus? status,
-    String? errorMessage,
-    String? query,
-    bool? fromCache,
-  }) {
-    return FoodSearchState(
-      results: results ?? this.results,
-      recentFoods: recentFoods ?? this.recentFoods,
-      status: status ?? this.status,
-      errorMessage: errorMessage,
-      query: query ?? this.query,
-      fromCache: fromCache ?? this.fromCache,
-    );
-  }
+  bool get localHasResults => localResults.isNotEmpty;
+  bool get usdaHasResults => usdaResults.isNotEmpty;
+  bool get hasCustomFoods => customFoods.isNotEmpty;
 }
 
 class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
   final UsdaApiService _apiService;
-
-  // Session-level cache: query → results (10-min TTL, cleared on app restart)
   final Map<String, _CacheEntry> _sessionCache = {};
   bool _disposed = false;
 
   FoodSearchNotifier(this._apiService) : super(const FoodSearchState()) {
-    _loadRecent();
+    _loadInitial();
   }
 
-  void _loadRecent() {
-    state = state.copyWith(recentFoods: HiveStorage.getCachedFoods().take(10).toList());
-  }
-
-  Future<void> search(String query) async {
-    final normalized = query.trim().toLowerCase();
-
-    // Ignore very short queries — don't waste API calls
-    if (normalized.length < AppConstants.minSearchQueryLength) {
-      state = state.copyWith(
-        status: FoodSearchStatus.idle,
-        results: [],
-        query: '',
-        fromCache: false,
+  void _loadInitial() {
+    if (!_disposed) {
+      state = FoodSearchState(
+        recentFoods: HiveStorage.getCachedFoods().take(10).toList(),
+        customFoods: HiveStorage.getCustomFoods(),
       );
-      return;
     }
+  }
 
-    // ── 1. Session cache (fast path, avoids all network) ────────────────────
+  // ── Section 1: Local ──────────────────────────────────────────────────────
+
+  /// Explicit search — called when user taps the Search button.
+  void searchLocal(String query) {
+    if (_disposed) return;
+    final q = query.trim().toLowerCase();
+    final results = LocalFoodRepository.search(q, category: state.localCategory);
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: query,
+        localCategory: state.localCategory,
+        localResults: results,
+        localHasSearched: true,
+        usdaQuery: state.usdaQuery,
+        usdaResults: state.usdaResults,
+        usdaStatus: state.usdaStatus,
+        usdaError: state.usdaError,
+        usdaCooldownSeconds: state.usdaCooldownSeconds,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
+      );
+    }
+  }
+
+  /// Category chip tap — instant browse, no search button needed.
+  void setLocalCategory(String? category) {
+    if (_disposed) return;
+    final newCat = category == state.localCategory ? null : category;
+    final q = state.localQuery.trim().toLowerCase();
+    final results = LocalFoodRepository.search(q, category: newCat);
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: state.localQuery,
+        localCategory: newCat,
+        localResults: results,
+        localHasSearched: state.localHasSearched || newCat != null,
+        usdaQuery: state.usdaQuery,
+        usdaResults: state.usdaResults,
+        usdaStatus: state.usdaStatus,
+        usdaError: state.usdaError,
+        usdaCooldownSeconds: state.usdaCooldownSeconds,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
+      );
+    }
+  }
+
+  void clearLocalSearch() {
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: '',
+        localCategory: null,
+        localResults: const [],
+        localHasSearched: false,
+        usdaQuery: state.usdaQuery,
+        usdaResults: state.usdaResults,
+        usdaStatus: state.usdaStatus,
+        usdaError: state.usdaError,
+        usdaCooldownSeconds: state.usdaCooldownSeconds,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
+      );
+    }
+  }
+
+  // ── Section 2: USDA ───────────────────────────────────────────────────────
+
+  /// Explicit USDA search — called when user taps the USDA Search button.
+  Future<void> searchUsda(String query) async {
+    if (_disposed) return;
+    final q = query.trim();
+    if (q.isEmpty) return;
+    final normalized = q.toLowerCase();
+
+    // Session cache
     final cached = _sessionCache[normalized];
     if (cached != null && !cached.isExpired) {
-      _setIfMounted(state.copyWith(
-        status: FoodSearchStatus.success,
-        results: cached.results,
-        query: query,
-        fromCache: true,
-      ));
-      // Silently refresh in the background without showing a loading state
-      _silentApiRefresh(query, normalized);
+      if (!_disposed) {
+        state = FoodSearchState(
+          localQuery: state.localQuery,
+          localCategory: state.localCategory,
+          localResults: state.localResults,
+          localHasSearched: state.localHasSearched,
+          usdaQuery: query,
+          usdaResults: cached.results,
+          usdaStatus: UsdaSearchStatus.success,
+          customFoods: state.customFoods,
+          recentFoods: state.recentFoods,
+        );
+      }
+      _silentApiRefresh(q, normalized);
       return;
     }
 
-    // ── 2. Local Hive food cache (instant, no network) ───────────────────────
-    final localResults = HiveStorage.searchLocalCache(normalized);
-    if (localResults.isNotEmpty) {
-      _setIfMounted(state.copyWith(
-        status: FoodSearchStatus.success,
-        results: localResults,
-        query: query,
-        fromCache: true,
-      ));
-      // Silently refresh to get fresher/more results
-      _silentApiRefresh(query, normalized);
+    // Hive USDA cache
+    final hiveResults = HiveStorage.searchLocalCache(normalized);
+    if (hiveResults.isNotEmpty) {
+      if (!_disposed) {
+        state = FoodSearchState(
+          localQuery: state.localQuery,
+          localCategory: state.localCategory,
+          localResults: state.localResults,
+          localHasSearched: state.localHasSearched,
+          usdaQuery: query,
+          usdaResults: hiveResults,
+          usdaStatus: UsdaSearchStatus.success,
+          customFoods: state.customFoods,
+          recentFoods: state.recentFoods,
+        );
+      }
+      _silentApiRefresh(q, normalized);
       return;
     }
 
-    // ── 3. USDA API (only when cache is empty) ───────────────────────────────
-    _setIfMounted(state.copyWith(
-      status: FoodSearchStatus.loading,
-      query: query,
-      fromCache: false,
-    ));
-    await _fetchFromApi(query, normalized);
+    // Live API call
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: state.localQuery,
+        localCategory: state.localCategory,
+        localResults: state.localResults,
+        localHasSearched: state.localHasSearched,
+        usdaQuery: query,
+        usdaResults: const [],
+        usdaStatus: UsdaSearchStatus.loading,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
+      );
+    }
+    await _fetchFromApi(q, normalized);
   }
 
   Future<void> _fetchFromApi(String query, String normalized) async {
     try {
       final results = await _apiService.searchFoods(query);
       _sessionCache[normalized] = _CacheEntry(results);
-      _evictOldestSessionEntries();
+      _evictOldest();
       for (final food in results.take(5)) {
         await HiveStorage.cacheFoodItem(food);
       }
-      _setIfMounted(state.copyWith(
-        status: FoodSearchStatus.success,
-        results: results,
-        fromCache: false,
-      ));
+      if (!_disposed) {
+        state = FoodSearchState(
+          localQuery: state.localQuery,
+          localCategory: state.localCategory,
+          localResults: state.localResults,
+          localHasSearched: state.localHasSearched,
+          usdaQuery: state.usdaQuery,
+          usdaResults: results,
+          usdaStatus: UsdaSearchStatus.success,
+          customFoods: state.customFoods,
+          recentFoods: state.recentFoods,
+        );
+      }
     } on RateLimitException catch (e) {
-      _setIfMounted(state.copyWith(
-        status: FoodSearchStatus.rateLimited,
-        errorMessage: e.message,
-        results: [],
-      ));
+      if (!_disposed) {
+        state = FoodSearchState(
+          localQuery: state.localQuery,
+          localCategory: state.localCategory,
+          localResults: state.localResults,
+          localHasSearched: state.localHasSearched,
+          usdaQuery: state.usdaQuery,
+          usdaStatus: UsdaSearchStatus.rateLimited,
+          usdaError: e.message,
+          usdaCooldownSeconds: e.cooldownSeconds,
+          customFoods: state.customFoods,
+          recentFoods: state.recentFoods,
+        );
+      }
     } catch (e) {
       if (_disposed) return;
-      final msg = e.toString();
+      final msg = e.toString().replaceAll('Exception: ', '');
       final isOffline = msg.contains('connection') ||
           msg.contains('network') ||
           msg.contains('timeout');
-      state = state.copyWith(
-        status: isOffline ? FoodSearchStatus.offline : FoodSearchStatus.error,
-        errorMessage: msg.replaceAll('Exception: ', ''),
-        results: [],
+      state = FoodSearchState(
+        localQuery: state.localQuery,
+        localCategory: state.localCategory,
+        localResults: state.localResults,
+        localHasSearched: state.localHasSearched,
+        usdaQuery: state.usdaQuery,
+        usdaStatus:
+            isOffline ? UsdaSearchStatus.offline : UsdaSearchStatus.error,
+        usdaError: msg,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
       );
     }
   }
@@ -158,31 +261,58 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
       for (final food in results.take(5)) {
         HiveStorage.cacheFoodItem(food);
       }
-      // Only update state if the user is still on the same query
-      if (!_disposed && state.query == query) {
-        state = state.copyWith(results: results, fromCache: false);
+      if (!_disposed && state.usdaQuery.trim() == query.trim()) {
+        state = FoodSearchState(
+          localQuery: state.localQuery,
+          localCategory: state.localCategory,
+          localResults: state.localResults,
+          localHasSearched: state.localHasSearched,
+          usdaQuery: state.usdaQuery,
+          usdaResults: results,
+          usdaStatus: UsdaSearchStatus.success,
+          customFoods: state.customFoods,
+          recentFoods: state.recentFoods,
+        );
       }
-    }).catchError((_) {
-      // Suppress all background refresh errors — user already has cached results
-    });
+    }).catchError((_) {});
   }
 
-  void _evictOldestSessionEntries() {
+  void _evictOldest() {
     if (_sessionCache.length <= AppConstants.maxSessionCacheEntries) return;
     final oldest = _sessionCache.entries
-        .reduce((a, b) =>
-            a.value.cachedAt.isBefore(b.value.cachedAt) ? a : b)
+        .reduce((a, b) => a.value.cachedAt.isBefore(b.value.cachedAt) ? a : b)
         .key;
     _sessionCache.remove(oldest);
   }
 
-  void _setIfMounted(FoodSearchState newState) {
-    if (!_disposed) state = newState;
+  // ── Section 3: Custom foods ───────────────────────────────────────────────
+
+  Future<void> addCustomFood(FoodItem food) async {
+    await HiveStorage.saveCustomFood(food);
+    _refreshCustomFoods();
   }
 
-  void clearSearch() {
-    state = const FoodSearchState();
-    _loadRecent();
+  Future<void> deleteCustomFood(String id) async {
+    await HiveStorage.deleteCustomFood(id);
+    _refreshCustomFoods();
+  }
+
+  void _refreshCustomFoods() {
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: state.localQuery,
+        localCategory: state.localCategory,
+        localResults: state.localResults,
+        localHasSearched: state.localHasSearched,
+        usdaQuery: state.usdaQuery,
+        usdaResults: state.usdaResults,
+        usdaStatus: state.usdaStatus,
+        usdaError: state.usdaError,
+        usdaCooldownSeconds: state.usdaCooldownSeconds,
+        customFoods: HiveStorage.getCustomFoods(),
+        recentFoods: state.recentFoods,
+      );
+    }
   }
 
   @override
@@ -190,6 +320,15 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
     _disposed = true;
     super.dispose();
   }
+}
+
+class _CacheEntry {
+  final List<FoodItem> results;
+  final DateTime cachedAt;
+  _CacheEntry(this.results) : cachedAt = DateTime.now();
+  bool get isExpired =>
+      DateTime.now().difference(cachedAt).inMinutes >=
+      AppConstants.searchCacheTtlMinutes;
 }
 
 final foodSearchProvider =

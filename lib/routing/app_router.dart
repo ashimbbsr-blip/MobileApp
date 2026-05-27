@@ -12,11 +12,11 @@ import '../features/food_search/food_search_screen.dart';
 import '../features/food_search/food_detail_screen.dart';
 import '../features/meal_tracking/meal_log_screen.dart';
 import '../features/meal_tracking/add_food_screen.dart';
-import '../features/camera_scan/camera_scan_screen.dart';
 import '../features/micronutrients/micronutrient_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/history/history_screen.dart';
 import '../features/profile/profile_screen.dart';
+import '../features/help/help_screen.dart';
 import '../models/food_item.dart';
 
 final appRouterProvider = Provider<GoRouter>((ref) {
@@ -70,7 +70,8 @@ final appRouterProvider = Provider<GoRouter>((ref) {
               GoRoute(
                 path: 'detail',
                 builder: (context, state) {
-                  final food = state.extra as FoodItem;
+                  final food = state.extra as FoodItem?;
+                  if (food == null) return const Scaffold(body: SizedBox.shrink());
                   return FoodDetailScreen(foodItem: food);
                 },
               ),
@@ -100,15 +101,12 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         ],
       ),
       GoRoute(
-        path: '/camera',
-        builder: (context, state) {
-          final mealType = state.extra as String? ?? 'snack';
-          return CameraScanScreen(mealType: mealType);
-        },
-      ),
-      GoRoute(
         path: '/micronutrients',
         builder: (context, state) => const MicronutrientScreen(),
+      ),
+      GoRoute(
+        path: '/help',
+        builder: (context, state) => const HelpScreen(),
       ),
     ],
     redirect: (context, state) {
@@ -138,16 +136,9 @@ final appRouterProvider = Provider<GoRouter>((ref) {
   );
 });
 
-class MainShell extends StatefulWidget {
+class MainShell extends StatelessWidget {
   final Widget child;
   const MainShell({super.key, required this.child});
-
-  @override
-  State<MainShell> createState() => _MainShellState();
-}
-
-class _MainShellState extends State<MainShell> {
-  int _currentIndex = 0;
 
   static const _routes = [
     '/dashboard',
@@ -157,16 +148,23 @@ class _MainShellState extends State<MainShell> {
     '/settings',
   ];
 
+  static int _indexForLocation(String location) {
+    for (int i = 0; i < _routes.length; i++) {
+      if (location.startsWith(_routes[i])) return i;
+    }
+    return 0;
+  }
+
   @override
   Widget build(BuildContext context) {
+    final location = GoRouterState.of(context).matchedLocation;
+    final currentIndex = _indexForLocation(location);
+
     return Scaffold(
-      body: widget.child,
+      body: child,
       bottomNavigationBar: NavigationBar(
-        selectedIndex: _currentIndex,
-        onDestinationSelected: (index) {
-          setState(() => _currentIndex = index);
-          context.go(_routes[index]);
-        },
+        selectedIndex: currentIndex,
+        onDestinationSelected: (index) => context.go(_routes[index]),
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.search_outlined), selectedIcon: Icon(Icons.search), label: 'Search'),

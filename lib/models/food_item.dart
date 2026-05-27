@@ -14,7 +14,7 @@ class FoodItem extends HiveObject {
   String? brand;
 
   @HiveField(3)
-  double servingSize; // in grams
+  double servingSize;
 
   @HiveField(4)
   String servingUnit;
@@ -64,6 +64,20 @@ class FoodItem extends HiveObject {
   @HiveField(19)
   bool isCustom;
 
+  // ── Bilingual & classification fields (added v2) ──────────────────────────
+
+  @HiveField(20)
+  String? nameBn;
+
+  @HiveField(21)
+  String? category;
+
+  @HiveField(22)
+  String? source; // 'local' | 'indb' | 'usda' | 'custom'
+
+  @HiveField(23)
+  List<String>? keywords;
+
   FoodItem({
     required this.id,
     required this.name,
@@ -85,13 +99,129 @@ class FoodItem extends HiveObject {
     this.zincMg,
     this.usdaFdcId,
     this.isCustom = false,
+    this.nameBn,
+    this.category,
+    this.source,
+    this.keywords,
   });
+
+  // ── Factory: compact local JSON schema ───────────────────────────────────
+
+  factory FoodItem.fromLocalJson(Map<String, dynamic> m) {
+    final (size, unit) = _parseServing((m['s'] as String?) ?? '100g');
+    return FoodItem(
+      id: 'local_${m['id']}',
+      name: (m['en'] as String?) ?? '',
+      nameBn: m['bn'] as String?,
+      brand: null,
+      servingSize: size,
+      servingUnit: unit,
+      calories: (m['k'] as num?)?.toDouble() ?? 0.0,
+      proteinG: (m['p'] as num?)?.toDouble() ?? 0.0,
+      carbsG: (m['c'] as num?)?.toDouble() ?? 0.0,
+      fatG: (m['f'] as num?)?.toDouble() ?? 0.0,
+      fiberG: (m['fi'] as num?)?.toDouble() ?? 0.0,
+      vitaminAMcg: (m['va'] as num?)?.toDouble(),
+      vitaminCMg:  (m['vc'] as num?)?.toDouble(),
+      vitaminDMcg: (m['vd'] as num?)?.toDouble(),
+      calciumMg:   (m['ca'] as num?)?.toDouble(),
+      ironMg:      (m['fe'] as num?)?.toDouble(),
+      zincMg:      (m['zn'] as num?)?.toDouble(),
+      magnesiumMg: (m['mg'] as num?)?.toDouble(),
+      potassiumMg: (m['pot'] as num?)?.toDouble(),
+      category: _normalizeCategory(m['cat'] as String?),
+      keywords: (m['kw'] as List?)?.cast<String>(),
+      source: m['src'] as String? ?? 'local',
+      isCustom: false,
+    );
+  }
+
+  // Normalise dataset category names to UI category names.
+  static String? _normalizeCategory(String? cat) {
+    switch (cat) {
+      case 'veg':       return 'vegetable';
+      case 'drink':     return 'beverage';
+      case 'dessert':   return 'sweets';
+      case 'salad':     return 'vegetable';
+      case 'fitness':   return 'protein';
+      case 'brand':     return 'snack';
+      case 'condiment': return 'other';
+      case 'diet':      return 'other';
+      case 'meal':      return 'other';
+      default:          return cat;
+    }
+  }
+
+  // Converts any serving string to (grams, 'g') or (ml, 'ml').
+  // All dataset entries are pre-normalised to "Xg"/"Xml"; this also handles
+  // legacy custom foods that may carry old descriptive serving strings.
+  static (double, String) _parseServing(String s) {
+    final raw = s.trim();
+
+    // (Xg) in parentheses  →  "1 bowl (14g)"
+    final pg = RegExp(r'\((\d+(?:\.\d+)?)\s*g\)', caseSensitive: false).firstMatch(raw);
+    if (pg != null) {
+      final g = double.tryParse(pg.group(1)!);
+      if (g != null && g > 0) return (g, 'g');
+    }
+
+    // (Xml) in parentheses  →  "1 glass (200ml)"
+    final pm = RegExp(r'\((\d+(?:\.\d+)?)\s*ml\)', caseSensitive: false).firstMatch(raw);
+    if (pm != null) {
+      final ml = double.tryParse(pm.group(1)!);
+      if (ml != null && ml > 0) return (ml, 'ml');
+    }
+
+    // Leading "Xg"  →  "250g" or "250g serving"
+    final gm = RegExp(r'^(\d+(?:\.\d+)?)\s*g\b', caseSensitive: false).firstMatch(raw);
+    if (gm != null) return (double.tryParse(gm.group(1)!) ?? 100.0, 'g');
+
+    // Leading "Xml"
+    final mm = RegExp(r'^(\d+(?:\.\d+)?)\s*ml\b', caseSensitive: false).firstMatch(raw);
+    if (mm != null) return (double.tryParse(mm.group(1)!) ?? 200.0, 'ml');
+
+    // "X unit" with known unit → gram equivalent
+    final um = RegExp(r'^(\d+(?:\.\d+)?)\s+(.+)$').firstMatch(raw);
+    if (um != null) {
+      final n = double.tryParse(um.group(1)!) ?? 1.0;
+      final u = um.group(2)!.trim().toLowerCase();
+      const _u = <String, double>{
+        'bowl': 250, 'plate': 300, 'cup': 240, 'glass': 240,
+        'serving': 100, 'portion': 150,
+        'tablespoon': 15, 'tbsp': 15, 'teaspoon': 5, 'tsp': 5,
+        'slice': 30, 'large slice': 50,
+        'pc': 60, 'pcs': 60, 'piece': 60, 'pieces': 60,
+        'oz': 28.35, 'kg': 1000,
+        'small': 100, 'medium': 150, 'large': 200,
+        'scoop': 30, 'handful': 30, 'sachet': 30,
+      };
+      for (final e in _u.entries) {
+        if (u.startsWith(e.key)) return ((n * e.value).roundToDouble(), 'g');
+      }
+      // numeric-only fallback: treat the number as grams
+      if (n >= 5) return (n, 'g');
+    }
+
+    // Bare number
+    final num = double.tryParse(raw);
+    if (num != null && num > 0) return (num, 'g');
+
+    return (100.0, 'g');
+  }
+
+  // ── Display name (language-aware) ────────────────────────────────────────
+
+  String displayName(String lang) =>
+      lang == 'bn' && nameBn != null && nameBn!.isNotEmpty ? nameBn! : name;
+
+  // ── Scaling ───────────────────────────────────────────────────────────────
 
   FoodItem scaledTo(double grams) {
     final factor = grams / servingSize;
     return FoodItem(
       id: id,
       name: name,
+      nameBn: nameBn,
       brand: brand,
       servingSize: grams,
       servingUnit: servingUnit,
@@ -110,12 +240,16 @@ class FoodItem extends HiveObject {
       zincMg: zincMg != null ? zincMg! * factor : null,
       usdaFdcId: usdaFdcId,
       isCustom: isCustom,
+      category: category,
+      source: source,
+      keywords: keywords,
     );
   }
 
   Map<String, dynamic> toJson() => {
     'id': id,
     'name': name,
+    'nameBn': nameBn,
     'brand': brand,
     'servingSize': servingSize,
     'servingUnit': servingUnit,
@@ -126,5 +260,7 @@ class FoodItem extends HiveObject {
     'fiberG': fiberG,
     'usdaFdcId': usdaFdcId,
     'isCustom': isCustom,
+    'category': category,
+    'source': source,
   };
 }

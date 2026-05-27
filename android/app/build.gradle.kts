@@ -28,11 +28,6 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        ndk {
-            // LiteRT 1.4.0 only ships arm64-v8a and armeabi-v7a native libs.
-            // x86_64 emulators need to use ARM translation (Houdini) or an ARM64 AVD image.
-            abiFilters += listOf("armeabi-v7a", "arm64-v8a")
-        }
     }
 
     buildTypes {
@@ -40,6 +35,12 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
+            // LiteRT 1.4.0 only ships arm64-v8a and armeabi-v7a native libs.
+            // Restrict ABI for release to keep APK size down; debug builds allow all
+            // ABIs so x86_64 emulators work without ARM translation.
+            ndk {
+                abiFilters += listOf("armeabi-v7a", "arm64-v8a")
+            }
         }
     }
 }

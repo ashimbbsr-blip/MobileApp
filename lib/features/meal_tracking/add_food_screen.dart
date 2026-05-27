@@ -1,15 +1,83 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
-import '../../localization/app_localizations.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
 import '../../services/usda_api_service.dart';
-import '../../widgets/common/loading_indicator.dart';
+import '../../services/local_food_repository.dart';
+import '../../storage/hive_storage.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../meal_tracking/providers/meal_provider.dart';
-import 'package:uuid/uuid.dart';
+
+// ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
+
+const _localCategories = [
+  'rice', 'roti', 'dal', 'fish', 'meat', 'vegetable', 'fruit',
+  'dairy', 'snack', 'sweets', 'beverage', 'soup', 'breakfast',
+  'protein', 'grain', 'noodle', 'nut',
+];
+
+const _catIcons = <String, IconData>{
+  'rice':      Icons.rice_bowl_outlined,
+  'roti':      Icons.breakfast_dining_outlined,
+  'dal':       Icons.soup_kitchen_outlined,
+  'vegetable': Icons.eco_outlined,
+  'fruit':     Icons.apple_outlined,
+  'fish':      Icons.set_meal_outlined,
+  'meat':      Icons.lunch_dining_outlined,
+  'dairy':     Icons.water_drop_outlined,
+  'snack':     Icons.cookie_outlined,
+  'sweets':    Icons.cake_outlined,
+  'beverage':  Icons.local_drink_outlined,
+  'soup':      Icons.soup_kitchen_outlined,
+  'breakfast': Icons.free_breakfast_outlined,
+  'grain':     Icons.grain_outlined,
+  'nut':       Icons.circle_outlined,
+  'protein':   Icons.fitness_center_outlined,
+  'noodle':    Icons.ramen_dining_outlined,
+  'other':     Icons.fastfood_outlined,
+};
+
+Color _catColor(String? cat) {
+  switch (cat) {
+    case 'rice':      return const Color(0xFFFF8C42);
+    case 'roti':      return const Color(0xFFE6A020);
+    case 'dal':       return const Color(0xFFD4A017);
+    case 'vegetable': return const Color(0xFF43A047);
+    case 'fruit':     return const Color(0xFFD81B60);
+    case 'fish':      return const Color(0xFF1E88E5);
+    case 'meat':      return const Color(0xFFD32F2F);
+    case 'dairy':     return const Color(0xFF0288D1);
+    case 'snack':     return const Color(0xFF6D4C41);
+    case 'sweets':    return const Color(0xFFC2185B);
+    case 'beverage':  return const Color(0xFF00897B);
+    case 'soup':      return const Color(0xFFEF6C00);
+    case 'breakfast': return const Color(0xFFF9A825);
+    case 'grain':     return const Color(0xFF8D6E63);
+    case 'nut':       return const Color(0xFF795548);
+    case 'protein':   return const Color(0xFF6A1B9A);
+    case 'noodle':    return const Color(0xFFF57F17);
+    default:          return const Color(0xFF546E7A);
+  }
+}
+
+String _catLabel(String cat, String lang) {
+  if (lang == 'bn') {
+    const bn = <String, String>{
+      'rice': 'ভাত', 'roti': 'রুটি', 'dal': 'ডাল',
+      'vegetable': 'সবজি', 'fruit': 'ফল', 'fish': 'মাছ',
+      'meat': 'মাংস', 'dairy': 'দুগ্ধ', 'snack': 'স্ন্যাকস',
+      'sweets': 'মিষ্টি', 'beverage': 'পানীয়', 'soup': 'স্যুপ',
+      'breakfast': 'সকালের খাবার', 'protein': 'প্রোটিন',
+      'grain': 'শস্য', 'noodle': 'নুডলস', 'nut': 'বাদাম',
+    };
+    return bn[cat] ?? cat;
+  }
+  return cat[0].toUpperCase() + cat.substring(1);
+}
+
+// ── Root screen ───────────────────────────────────────────────────────────────
 
 class AddFoodScreen extends ConsumerStatefulWidget {
   final String mealType;
@@ -19,274 +87,1429 @@ class AddFoodScreen extends ConsumerStatefulWidget {
   ConsumerState<AddFoodScreen> createState() => _AddFoodScreenState();
 }
 
-class _AddFoodScreenState extends ConsumerState<AddFoodScreen> with SingleTickerProviderStateMixin {
-  late TabController _tabController;
-  final _searchController = TextEditingController();
-  final _apiService = UsdaApiService();
-
-  List<FoodItem> _searchResults = [];
-  bool _isSearching = false;
-  String? _searchError;
-
-  // Custom food form
-  final _nameController = TextEditingController();
-  final _caloriesController = TextEditingController();
-  final _proteinController = TextEditingController();
-  final _carbsController = TextEditingController();
-  final _fatController = TextEditingController();
-  final _servingController = TextEditingController(text: '100');
+class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
+    with SingleTickerProviderStateMixin {
+  late final TabController _tabController;
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 2, vsync: this);
+    _tabController = TabController(length: 3, vsync: this);
   }
 
   @override
   void dispose() {
     _tabController.dispose();
-    _searchController.dispose();
-    _nameController.dispose();
-    _caloriesController.dispose();
-    _proteinController.dispose();
-    _carbsController.dispose();
-    _fatController.dispose();
-    _servingController.dispose();
     super.dispose();
-  }
-
-  Future<void> _search(String query) async {
-    if (query.trim().isEmpty) return;
-    setState(() { _isSearching = true; _searchError = null; });
-    try {
-      final results = await _apiService.searchFoods(query);
-      setState(() { _searchResults = results; _isSearching = false; });
-    } catch (e) {
-      setState(() { _searchError = e.toString().replaceAll('Exception: ', ''); _isSearching = false; });
-    }
   }
 
   Future<void> _addFood(FoodItem food, double quantity) async {
     await ref.read(mealProvider.notifier).addFood(food, widget.mealType, quantity);
     ref.read(dashboardProvider.notifier).refresh();
-    if (mounted) context.pop();
-  }
-
-  Future<void> _addCustomFood() async {
-    final name = _nameController.text.trim();
-    if (name.isEmpty) return;
-    final calories = double.tryParse(_caloriesController.text) ?? 0;
-    final protein = double.tryParse(_proteinController.text) ?? 0;
-    final carbs = double.tryParse(_carbsController.text) ?? 0;
-    final fat = double.tryParse(_fatController.text) ?? 0;
-    final serving = double.tryParse(_servingController.text) ?? 100;
-
-    final food = FoodItem(
-      id: const Uuid().v4(),
-      name: name,
-      servingSize: serving,
-      servingUnit: 'g',
-      calories: calories,
-      proteinG: protein,
-      carbsG: carbs,
-      fatG: fat,
-      fiberG: 0,
-      isCustom: true,
-    );
-    await _addFood(food, serving);
+    if (mounted) Navigator.of(context).pop();
   }
 
   @override
   Widget build(BuildContext context) {
-    final l10n = ref.watch(appStringsProvider);
+    final lang = ref.watch(appStringsProvider).language;
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final surfaceColor = isDark ? AppColors.darkBackground : AppColors.lightSurface;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(l10n.addFood),
-        bottom: TabBar(
-          controller: _tabController,
-          tabs: [
-            Tab(text: l10n.searchFood),
-            Tab(text: l10n.customFood),
-          ],
+        title: Text(lang == 'bn' ? 'খাবার যোগ করুন' : 'Add Food'),
+        bottom: PreferredSize(
+          preferredSize: const Size.fromHeight(48),
+          child: Container(
+            color: surfaceColor,
+            child: TabBar(
+              controller: _tabController,
+              labelStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+              unselectedLabelStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
+              indicatorSize: TabBarIndicatorSize.tab,
+              tabs: [
+                Tab(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.inventory_2_outlined, size: 15),
+                      const SizedBox(width: 4),
+                      Text(lang == 'bn' ? 'দেশি' : 'Local'),
+                    ],
+                  ),
+                ),
+                const Tab(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.travel_explore_rounded, size: 15),
+                      SizedBox(width: 4),
+                      Text('USDA'),
+                    ],
+                  ),
+                ),
+                Tab(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.edit_note_rounded, size: 15),
+                      const SizedBox(width: 4),
+                      Text(lang == 'bn' ? 'কাস্টম' : 'Custom'),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
       ),
       body: TabBarView(
         controller: _tabController,
         children: [
-          _SearchTab(
-            controller: _searchController,
-            results: _searchResults,
-            isLoading: _isSearching,
-            error: _searchError,
-            onSearch: _search,
-            onAdd: _addFood,
-            l10n: l10n,
-          ),
-          _CustomFoodTab(
-            nameController: _nameController,
-            caloriesController: _caloriesController,
-            proteinController: _proteinController,
-            carbsController: _carbsController,
-            fatController: _fatController,
-            servingController: _servingController,
-            onAdd: _addCustomFood,
-            l10n: l10n,
-          ),
+          _LocalTab(lang: lang, isDark: isDark, onAdd: _addFood),
+          _UsdaTab(lang: lang, isDark: isDark, onAdd: _addFood),
+          _CustomTab(lang: lang, isDark: isDark, onAdd: _addFood),
         ],
       ),
     );
   }
 }
 
-class _SearchTab extends StatelessWidget {
-  final TextEditingController controller;
-  final List<FoodItem> results;
-  final bool isLoading;
-  final String? error;
-  final void Function(String) onSearch;
-  final Future<void> Function(FoodItem, double) onAdd;
-  final AppStrings l10n;
+// ═══════════════════════════════════════════════════════════════════════════════
+// TAB 1 — Local Indian & Bengali Foods
+// ═══════════════════════════════════════════════════════════════════════════════
 
-  const _SearchTab({
-    required this.controller, required this.results, required this.isLoading,
-    required this.error, required this.onSearch, required this.onAdd, required this.l10n,
-  });
+class _LocalTab extends StatefulWidget {
+  final String lang;
+  final bool isDark;
+  final Future<void> Function(FoodItem, double) onAdd;
+
+  const _LocalTab({required this.lang, required this.isDark, required this.onAdd});
+
+  @override
+  State<_LocalTab> createState() => _LocalTabState();
+}
+
+class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin {
+  final _ctrl = TextEditingController();
+  final _focus = FocusNode();
+  String? _selectedCategory;
+  List<FoodItem> _results = [];
+  bool _hasSearched = false;
+
+  @override
+  bool get wantKeepAlive => true;
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    _focus.dispose();
+    super.dispose();
+  }
+
+  List<FoodItem> _mergedSearch(String q, String? category) {
+    final localResults = LocalFoodRepository.search(q, category: category);
+    // Also search custom foods and prepend them so user's own entries rank first
+    final customFoods = HiveStorage.getCustomFoods();
+    final matchedCustom = customFoods.where((f) {
+      final nameMatch = q.isEmpty ||
+          f.name.toLowerCase().contains(q) ||
+          (f.nameBn?.toLowerCase().contains(q) ?? false);
+      final catMatch = category == null || f.category == category;
+      return nameMatch && catMatch;
+    }).toList();
+    // Deduplicate by id in case a custom food was somehow duplicated
+    final seen = <String>{};
+    final merged = <FoodItem>[];
+    for (final f in [...matchedCustom, ...localResults]) {
+      if (seen.add(f.id)) merged.add(f);
+    }
+    return merged;
+  }
+
+  void _doSearch() {
+    FocusScope.of(context).unfocus();
+    final q = _ctrl.text.trim().toLowerCase();
+    setState(() {
+      _results = _mergedSearch(q, _selectedCategory);
+      _hasSearched = true;
+    });
+  }
+
+  void _setCategory(String cat) {
+    final newCat = _selectedCategory == cat ? null : cat;
+    final q = _ctrl.text.trim().toLowerCase();
+    setState(() {
+      _selectedCategory = newCat;
+      _results = _mergedSearch(q, newCat);
+      _hasSearched = _hasSearched || newCat != null;
+    });
+  }
+
+  void _clear() {
+    _ctrl.clear();
+    setState(() {
+      _selectedCategory = null;
+      _results = [];
+      _hasSearched = false;
+    });
+    _focus.requestFocus();
+  }
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
+    final lang = widget.lang;
+    final isDark = widget.isDark;
+    final theme = Theme.of(context);
+    final fieldFill = isDark ? AppColors.darkCard : AppColors.lightBackground;
+
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child: TextField(
-            controller: controller,
-            decoration: InputDecoration(
-              hintText: l10n.searchFood,
-              prefixIcon: const Icon(Icons.search),
-              suffixIcon: IconButton(
-                icon: const Icon(Icons.send),
-                onPressed: () => onSearch(controller.text),
+        Container(
+          color: isDark ? AppColors.darkBackground : AppColors.lightSurface,
+          padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: TextField(
+                      controller: _ctrl,
+                      focusNode: _focus,
+                      autocorrect: false,
+                      enableSuggestions: false,
+                      textInputAction: TextInputAction.search,
+                      onChanged: (_) => setState(() {}),
+                      onSubmitted: (_) => _doSearch(),
+                      decoration: InputDecoration(
+                        hintText: lang == 'bn'
+                            ? 'ভাত, ডাল, মুরগি, rice…'
+                            : 'rice, dal, chicken, paneer…',
+                        prefixIcon: const Icon(Icons.search_rounded,
+                            color: AppColors.primary, size: 20),
+                        suffixIcon: _ctrl.text.isNotEmpty
+                            ? GestureDetector(
+                                onTap: _clear,
+                                child: const Icon(Icons.cancel_rounded,
+                                    size: 18, color: Colors.grey),
+                              )
+                            : null,
+                        filled: true,
+                        fillColor: fieldFill,
+                        contentPadding: const EdgeInsets.symmetric(
+                            vertical: 12, horizontal: 14),
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: BorderSide.none),
+                        enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: BorderSide.none),
+                        focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: const BorderSide(
+                                color: AppColors.primary, width: 2)),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  FilledButton(
+                    onPressed: _doSearch,
+                    style: FilledButton.styleFrom(
+                      backgroundColor: AppColors.primary,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 13),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12)),
+                    ),
+                    child: Text(
+                      lang == 'bn' ? 'খুঁজুন' : 'Search',
+                      style: const TextStyle(
+                          fontWeight: FontWeight.w700, fontSize: 14),
+                    ),
+                  ),
+                ],
               ),
-            ),
-            onSubmitted: onSearch,
+              const SizedBox(height: 8),
+              SizedBox(
+                height: 32,
+                child: ListView.separated(
+                  scrollDirection: Axis.horizontal,
+                  padding: EdgeInsets.zero,
+                  itemCount: _localCategories.length,
+                  separatorBuilder: (_, __) => const SizedBox(width: 6),
+                  itemBuilder: (context, i) {
+                    final cat = _localCategories[i];
+                    final sel = _selectedCategory == cat;
+                    final color = _catColor(cat);
+                    return GestureDetector(
+                      onTap: () => _setCategory(cat),
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 180),
+                        padding: const EdgeInsets.symmetric(horizontal: 10),
+                        decoration: BoxDecoration(
+                          color: sel ? color : color.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(
+                              color: sel
+                                  ? color
+                                  : color.withValues(alpha: 0.4),
+                              width: 1.2),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(
+                                _catIcons[cat] ?? Icons.fastfood_outlined,
+                                size: 12,
+                                color: sel ? Colors.white : color),
+                            const SizedBox(width: 4),
+                            Text(
+                              _catLabel(cat, lang),
+                              style: TextStyle(
+                                fontSize: 11,
+                                fontWeight: FontWeight.w600,
+                                color: sel ? Colors.white : color,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
+              const SizedBox(height: 10),
+            ],
           ),
         ),
-        if (isLoading) const Expanded(child: LoadingIndicator()),
-        if (error != null) Expanded(child: Center(child: Text(error!, textAlign: TextAlign.center))),
-        if (!isLoading && error == null)
-          Expanded(
-            child: results.isEmpty
-                ? Center(child: Text(l10n.searchFood))
-                : ListView.builder(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    itemCount: results.length,
-                    itemBuilder: (ctx, i) => _QuickAddTile(food: results[i], onAdd: onAdd),
-                  ),
-          ),
+        Expanded(
+          child: _hasSearched
+              ? (_results.isEmpty
+                  ? _EmptyState(
+                      icon: Icons.search_off_rounded,
+                      title: lang == 'bn'
+                          ? 'কোনো খাবার পাওয়া যায়নি'
+                          : 'No Results Found',
+                      subtitle: lang == 'bn'
+                          ? 'International ট্যাবে খুঁজুন'
+                          : 'Try the International tab',
+                    )
+                  : ListView.builder(
+                      padding: const EdgeInsets.fromLTRB(16, 10, 16, 20),
+                      itemCount: _results.length,
+                      itemBuilder: (_, i) => _AddFoodTile(
+                        food: _results[i],
+                        lang: lang,
+                        isDark: isDark,
+                        onAdd: widget.onAdd,
+                      ),
+                    ))
+              : _LocalIdle(lang: lang, theme: theme, onAdd: widget.onAdd, isDark: isDark),
+        ),
       ],
     );
   }
 }
 
-class _QuickAddTile extends StatefulWidget {
-  final FoodItem food;
+class _LocalIdle extends StatelessWidget {
+  final String lang;
+  final ThemeData theme;
   final Future<void> Function(FoodItem, double) onAdd;
-  const _QuickAddTile({required this.food, required this.onAdd});
+  final bool isDark;
+
+  const _LocalIdle({
+    required this.lang,
+    required this.theme,
+    required this.onAdd,
+    required this.isDark,
+  });
 
   @override
-  State<_QuickAddTile> createState() => _QuickAddTileState();
+  Widget build(BuildContext context) {
+    final count = LocalFoodRepository.itemCount;
+    final customFoods = HiveStorage.getCustomFoods();
+    final bn = lang == 'bn';
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 20),
+      children: [
+        // ── Dataset banner ────────────────────────────────────────────────
+        Container(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            gradient: AppColors.primaryGradient,
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      bn ? 'ভারতীয় ও বাংলাদেশি খাবার' : 'Indian & Bengali Foods',
+                      style: const TextStyle(
+                          color: Colors.white, fontSize: 16, fontWeight: FontWeight.w800),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      bn ? '$count টি খাবার — সম্পূর্ণ অফলাইনে' : '$count foods — works offline',
+                      style: const TextStyle(color: Colors.white70, fontSize: 12),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.offline_bolt_rounded, color: Colors.white30, size: 44),
+            ],
+          ),
+        ),
+
+        // ── My Custom Foods quick-access ──────────────────────────────────
+        if (customFoods.isNotEmpty) ...[
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(6),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF7B61FF).withValues(alpha: 0.12),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: const Icon(Icons.star_rounded, color: Color(0xFF7B61FF), size: 16),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                bn ? 'আমার খাবার (${customFoods.length})' : 'My Foods (${customFoods.length})',
+                style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700),
+              ),
+              const Spacer(),
+              Text(
+                bn ? 'সার্চে দেখা যাবে' : 'included in search',
+                style: theme.textTheme.bodySmall?.copyWith(
+                    color: const Color(0xFF7B61FF), fontSize: 11),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          ...customFoods.take(3).map((food) => _AddFoodTile(
+                food: food,
+                lang: lang,
+                isDark: isDark,
+                onAdd: onAdd,
+              )),
+          if (customFoods.length > 3)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text(
+                bn
+                    ? '+ আরও ${customFoods.length - 3}টি কাস্টম খাবার — সার্চ করুন'
+                    : '+ ${customFoods.length - 3} more custom foods — use search',
+                style: theme.textTheme.bodySmall?.copyWith(
+                    color: const Color(0xFF7B61FF), fontStyle: FontStyle.italic),
+              ),
+            ),
+        ],
+
+        // ── Search tips ───────────────────────────────────────────────────
+        const SizedBox(height: 12),
+        Container(
+          padding: const EdgeInsets.all(14),
+          decoration: BoxDecoration(
+            color: AppColors.primary.withValues(alpha: 0.05),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: AppColors.primary.withValues(alpha: 0.12)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(Icons.tips_and_updates_outlined, size: 14, color: AppColors.primary),
+                  const SizedBox(width: 6),
+                  Text(
+                    bn ? 'কিভাবে ব্যবহার করবেন' : 'How to search',
+                    style: theme.textTheme.titleSmall?.copyWith(
+                        color: AppColors.primary, fontWeight: FontWeight.w700),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              for (final tip in (bn
+                  ? [
+                      'বাংলা বা ইংরেজিতে খাবারের নাম লিখুন',
+                      '"খুঁজুন" বাটন চাপুন',
+                      'ক্যাটাগরি চিপ ট্যাপ করে ব্রাউজ করুন',
+                      'কাস্টম খাবারও সার্চে দেখা যাবে',
+                    ]
+                  : [
+                      'Type food name in English or Bengali',
+                      'Tap "Search" or press keyboard Search',
+                      'Tap a category chip to browse by type',
+                      'Your custom foods also appear in results',
+                    ]))
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 4),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Icon(Icons.circle, size: 5, color: AppColors.primary),
+                      const SizedBox(width: 8),
+                      Expanded(child: Text(tip, style: theme.textTheme.bodySmall)),
+                    ],
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
 }
 
-class _QuickAddTileState extends State<_QuickAddTile> {
-  double _qty = 100;
-  late final TextEditingController _qtyController;
+// ═══════════════════════════════════════════════════════════════════════════════
+// TAB 2 — International (USDA API)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+enum _UsdaStatus { idle, loading, success, error, offline, rateLimited }
+
+class _UsdaTab extends StatefulWidget {
+  final String lang;
+  final bool isDark;
+  final Future<void> Function(FoodItem, double) onAdd;
+
+  const _UsdaTab({required this.lang, required this.isDark, required this.onAdd});
 
   @override
-  void initState() {
-    super.initState();
-    _qtyController = TextEditingController(text: '100');
-  }
+  State<_UsdaTab> createState() => _UsdaTabState();
+}
+
+class _UsdaTabState extends State<_UsdaTab> with AutomaticKeepAliveClientMixin {
+  final _ctrl = TextEditingController();
+  final _focus = FocusNode();
+  final _apiService = UsdaApiService();
+  List<FoodItem> _results = [];
+  _UsdaStatus _status = _UsdaStatus.idle;
+  String? _error;
+
+  @override
+  bool get wantKeepAlive => true;
 
   @override
   void dispose() {
-    _qtyController.dispose();
+    _ctrl.dispose();
+    _focus.dispose();
     super.dispose();
+  }
+
+  Future<void> _doSearch() async {
+    final q = _ctrl.text.trim();
+    if (q.isEmpty) return;
+    FocusScope.of(context).unfocus();
+    setState(() {
+      _status = _UsdaStatus.loading;
+      _error = null;
+    });
+    try {
+      final results = await _apiService.searchFoods(q);
+      if (!mounted) return;
+      setState(() {
+        _results = results;
+        _status = _UsdaStatus.success;
+      });
+    } on RateLimitException {
+      if (!mounted) return;
+      setState(() => _status = _UsdaStatus.rateLimited);
+    } catch (e) {
+      if (!mounted) return;
+      final msg = e.toString().replaceAll('Exception: ', '');
+      final isOffline = msg.contains('connection') ||
+          msg.contains('network') || msg.contains('timeout');
+      setState(() {
+        _error = msg;
+        _status = isOffline ? _UsdaStatus.offline : _UsdaStatus.error;
+      });
+    }
+  }
+
+  void _clear() {
+    _ctrl.clear();
+    setState(() {
+      _results = [];
+      _status = _UsdaStatus.idle;
+      _error = null;
+    });
+    _focus.requestFocus();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      margin: const EdgeInsets.only(bottom: 8),
-      child: Padding(
-        padding: const EdgeInsets.all(12),
-        child: Row(
-          children: [
-            Expanded(
+    super.build(context);
+    final lang = widget.lang;
+    final isDark = widget.isDark;
+    final theme = Theme.of(context);
+    final fieldFill = isDark ? AppColors.darkCard : AppColors.lightBackground;
+
+    return Column(
+      children: [
+        Container(
+          color: isDark ? AppColors.darkBackground : AppColors.lightSurface,
+          padding: const EdgeInsets.fromLTRB(16, 10, 16, 10),
+          child: Row(
+            children: [
+              Expanded(
+                child: TextField(
+                  controller: _ctrl,
+                  focusNode: _focus,
+                  autocorrect: false,
+                  enableSuggestions: false,
+                  textInputAction: TextInputAction.search,
+                  onChanged: (_) => setState(() {}),
+                  onSubmitted: (_) => _doSearch(),
+                  decoration: InputDecoration(
+                    hintText: lang == 'bn'
+                        ? 'যেমন: Coca-Cola, Oreo, Pizza…'
+                        : 'e.g. Coca-Cola, Oreo, Pizza…',
+                    prefixIcon: const Icon(Icons.travel_explore_rounded,
+                        color: AppColors.secondary, size: 20),
+                    suffixIcon: _ctrl.text.isNotEmpty
+                        ? GestureDetector(
+                            onTap: _clear,
+                            child: const Icon(Icons.cancel_rounded,
+                                size: 18, color: Colors.grey),
+                          )
+                        : null,
+                    filled: true,
+                    fillColor: fieldFill,
+                    contentPadding: const EdgeInsets.symmetric(
+                        vertical: 12, horizontal: 14),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide.none),
+                    enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide.none),
+                    focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: const BorderSide(
+                            color: AppColors.secondary, width: 2)),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              FilledButton(
+                onPressed: _ctrl.text.trim().isNotEmpty ? _doSearch : null,
+                style: FilledButton.styleFrom(
+                  backgroundColor: AppColors.secondary,
+                  disabledBackgroundColor:
+                      AppColors.secondary.withValues(alpha: 0.4),
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 16, vertical: 13),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12)),
+                ),
+                child: Text(
+                  lang == 'bn' ? 'খুঁজুন' : 'Search',
+                  style: const TextStyle(
+                      fontWeight: FontWeight.w700, fontSize: 14),
+                ),
+              ),
+            ],
+          ),
+        ),
+        Expanded(child: _buildBody(lang, isDark, theme)),
+      ],
+    );
+  }
+
+  Widget _buildBody(String lang, bool isDark, ThemeData theme) {
+    switch (_status) {
+      case _UsdaStatus.idle:
+        return _UsdaIdle(lang: lang, theme: theme);
+
+      case _UsdaStatus.loading:
+        return Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const CircularProgressIndicator(color: AppColors.secondary),
+              const SizedBox(height: 16),
+              Text(
+                lang == 'bn'
+                    ? 'USDA ডেটাবেজে খুঁজছে…'
+                    : 'Searching USDA database…',
+                style: const TextStyle(
+                    color: AppColors.secondary, fontWeight: FontWeight.w500),
+              ),
+            ],
+          ),
+        );
+
+      case _UsdaStatus.success:
+        if (_results.isEmpty) {
+          return _EmptyState(
+            icon: Icons.search_off_rounded,
+            title: lang == 'bn' ? 'কোনো ফলাফল নেই' : 'No Results',
+            subtitle: lang == 'bn'
+                ? 'ভিন্ন শব্দ দিয়ে চেষ্টা করুন'
+                : 'Try different keywords',
+          );
+        }
+        return ListView.builder(
+          padding: const EdgeInsets.fromLTRB(16, 10, 16, 20),
+          itemCount: _results.length,
+          itemBuilder: (_, i) => _AddFoodTile(
+            food: _results[i],
+            lang: lang,
+            isDark: isDark,
+            onAdd: widget.onAdd,
+          ),
+        );
+
+      case _UsdaStatus.offline:
+        return _EmptyState(
+          icon: Icons.wifi_off_rounded,
+          iconColor: Colors.orange,
+          title: lang == 'bn' ? 'ইন্টারনেট নেই' : 'No Internet',
+          subtitle: lang == 'bn'
+              ? 'USDA সার্চের জন্য ইন্টারনেট প্রয়োজন'
+              : 'Internet required for USDA search',
+          actionLabel: lang == 'bn' ? 'আবার চেষ্টা' : 'Retry',
+          onAction: _doSearch,
+        );
+
+      case _UsdaStatus.rateLimited:
+        return _EmptyState(
+          icon: Icons.hourglass_top_rounded,
+          iconColor: Colors.amber,
+          title: lang == 'bn' ? 'সাময়িক সীমাবদ্ধতা' : 'Rate Limited',
+          subtitle: lang == 'bn'
+              ? 'কিছুক্ষণ পরে আবার চেষ্টা করুন'
+              : 'Please try again in a few minutes',
+          actionLabel: lang == 'bn' ? 'আবার চেষ্টা' : 'Retry',
+          onAction: _doSearch,
+        );
+
+      case _UsdaStatus.error:
+        return _EmptyState(
+          icon: Icons.error_outline_rounded,
+          iconColor: Colors.redAccent,
+          title: lang == 'bn' ? 'সংযোগ ব্যর্থ' : 'Search Failed',
+          subtitle: _error ?? (lang == 'bn' ? 'একটি সমস্যা হয়েছে' : 'Something went wrong'),
+          actionLabel: lang == 'bn' ? 'আবার চেষ্টা' : 'Retry',
+          onAction: _doSearch,
+        );
+    }
+  }
+}
+
+class _UsdaIdle extends StatelessWidget {
+  final String lang;
+  final ThemeData theme;
+  const _UsdaIdle({required this.lang, required this.theme});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 20),
+      children: [
+        Container(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                AppColors.secondary.withValues(alpha: 0.85),
+                AppColors.secondary,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      lang == 'bn' ? 'আন্তর্জাতিক ডেটাবেজ' : 'International Database',
+                      style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      lang == 'bn'
+                          ? 'USDA — ইন্টারনেট প্রয়োজন'
+                          : 'USDA FoodData Central — requires internet',
+                      style: const TextStyle(color: Colors.white70, fontSize: 12),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(Icons.public_rounded, color: Colors.white30, size: 44),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// TAB 3 — Custom Food (inline form + saved list)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _CustomTab extends StatefulWidget {
+  final String lang;
+  final bool isDark;
+  final Future<void> Function(FoodItem, double) onAdd;
+
+  const _CustomTab({required this.lang, required this.isDark, required this.onAdd});
+
+  @override
+  State<_CustomTab> createState() => _CustomTabState();
+}
+
+class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMixin {
+  final _formKey = GlobalKey<FormState>();
+  final _nameCtrl = TextEditingController();
+  final _servingCtrl = TextEditingController(text: '100');
+  final _calCtrl = TextEditingController();
+  final _proteinCtrl = TextEditingController(text: '0');
+  final _carbCtrl = TextEditingController(text: '0');
+  final _fatCtrl = TextEditingController(text: '0');
+  String _unit = 'g';
+  List<FoodItem> _customFoods = [];
+
+  @override
+  bool get wantKeepAlive => true;
+
+  @override
+  void initState() {
+    super.initState();
+    _reload();
+  }
+
+  @override
+  void dispose() {
+    _nameCtrl.dispose();
+    _servingCtrl.dispose();
+    _calCtrl.dispose();
+    _proteinCtrl.dispose();
+    _carbCtrl.dispose();
+    _fatCtrl.dispose();
+    super.dispose();
+  }
+
+  void _reload() {
+    setState(() => _customFoods = HiveStorage.getCustomFoods());
+  }
+
+  void _clearForm() {
+    _nameCtrl.clear();
+    _servingCtrl.text = '100';
+    _calCtrl.clear();
+    _proteinCtrl.text = '0';
+    _carbCtrl.text = '0';
+    _fatCtrl.text = '0';
+    setState(() => _unit = 'g');
+  }
+
+  Future<void> _save() async {
+    if (!_formKey.currentState!.validate()) return;
+    final food = FoodItem(
+      id: 'custom_${DateTime.now().millisecondsSinceEpoch}',
+      name: _nameCtrl.text.trim(),
+      servingSize: double.tryParse(_servingCtrl.text) ?? 100,
+      servingUnit: _unit,
+      calories: double.tryParse(_calCtrl.text) ?? 0,
+      proteinG: double.tryParse(_proteinCtrl.text) ?? 0,
+      carbsG: double.tryParse(_carbCtrl.text) ?? 0,
+      fatG: double.tryParse(_fatCtrl.text) ?? 0,
+      fiberG: 0,
+      isCustom: true,
+      source: 'custom',
+    );
+    await HiveStorage.saveCustomFood(food);
+    _clearForm();
+    _reload();
+    if (mounted) {
+      final bn = widget.lang == 'bn';
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(bn ? 'সংরক্ষণ হয়েছে!' : 'Saved!'),
+          duration: const Duration(seconds: 2),
+          backgroundColor: const Color(0xFF7B61FF),
+        ),
+      );
+    }
+  }
+
+  Future<void> _delete(String id) async {
+    await HiveStorage.deleteCustomFood(id);
+    _reload();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    super.build(context);
+    final lang = widget.lang;
+    final isDark = widget.isDark;
+    final theme = Theme.of(context);
+    final bn = lang == 'bn';
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // ── Inline form ──────────────────────────────────────────────────
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: isDark ? AppColors.darkCard : Colors.white,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: const Color(0xFF7B61FF).withValues(alpha: 0.25),
+              ),
+              boxShadow: isDark
+                  ? null
+                  : [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: 0.04),
+                        blurRadius: 8,
+                        offset: const Offset(0, 2),
+                      ),
+                    ],
+            ),
+            child: Form(
+              key: _formKey,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(widget.food.name, style: Theme.of(context).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600), maxLines: 1, overflow: TextOverflow.ellipsis),
-                  Text('${(widget.food.calories * _qty / widget.food.servingSize).toStringAsFixed(0)} kcal', style: TextStyle(color: AppColors.calories, fontSize: 12)),
+                  Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF7B61FF).withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: const Icon(Icons.edit_note_rounded,
+                            color: Color(0xFF7B61FF), size: 20),
+                      ),
+                      const SizedBox(width: 10),
+                      Text(
+                        bn ? 'কাস্টম খাবার তৈরি করুন' : 'Create Custom Food',
+                        style: theme.textTheme.titleSmall
+                            ?.copyWith(fontWeight: FontWeight.w800),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 14),
+                  _SheetField(
+                    controller: _nameCtrl,
+                    label: bn ? 'খাবারের নাম *' : 'Food Name *',
+                    hint: bn ? 'মায়ের হাতের ডাল' : "Mom's Dal",
+                    validator: (v) => (v == null || v.trim().isEmpty)
+                        ? (bn ? 'নাম দিন' : 'Required')
+                        : null,
+                  ),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Expanded(
+                        flex: 3,
+                        child: _SheetField(
+                          controller: _servingCtrl,
+                          label: bn ? 'পরিমাণ *' : 'Serving *',
+                          hint: '100',
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [
+                            FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                          ],
+                          validator: (v) => (double.tryParse(v ?? '') ?? 0) <= 0
+                              ? (bn ? 'পরিমাণ দিন' : 'Enter amount')
+                              : null,
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        flex: 2,
+                        child: DropdownButtonFormField<String>(
+                          value: _unit,
+                          decoration: InputDecoration(
+                            labelText: bn ? 'একক' : 'Unit',
+                            contentPadding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 14),
+                            border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10)),
+                          ),
+                          items: ['g', 'ml', 'pcs', 'oz', 'cup']
+                              .map((u) => DropdownMenuItem(value: u, child: Text(u)))
+                              .toList(),
+                          onChanged: (v) => setState(() => _unit = v ?? 'g'),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  _SheetField(
+                    controller: _calCtrl,
+                    label: bn ? 'ক্যালোরি (kcal) *' : 'Calories (kcal) *',
+                    hint: '250',
+                    keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                    inputFormatters: [
+                      FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                    ],
+                    validator: (v) => double.tryParse(v ?? '') == null
+                        ? (bn ? 'ক্যালোরি দিন' : 'Required')
+                        : null,
+                  ),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: _SheetField(
+                          controller: _proteinCtrl,
+                          label: bn ? 'প্রোটিন (g)' : 'Protein (g)',
+                          hint: '0',
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [
+                            FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: _SheetField(
+                          controller: _carbCtrl,
+                          label: bn ? 'কার্বস (g)' : 'Carbs (g)',
+                          hint: '0',
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [
+                            FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: _SheetField(
+                          controller: _fatCtrl,
+                          label: bn ? 'ফ্যাট (g)' : 'Fat (g)',
+                          hint: '0',
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [
+                            FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 14),
+                  SizedBox(
+                    width: double.infinity,
+                    child: FilledButton.icon(
+                      onPressed: _save,
+                      icon: const Icon(Icons.save_rounded, size: 18),
+                      label: Text(
+                        bn ? 'সংরক্ষণ করুন' : 'Save Food',
+                        style: const TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 15),
+                      ),
+                      style: FilledButton.styleFrom(
+                        backgroundColor: const Color(0xFF7B61FF),
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 13),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12)),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
-            SizedBox(
-              width: 70,
-              child: TextField(
-                keyboardType: TextInputType.number,
-                decoration: const InputDecoration(suffix: Text('g'), isDense: true, contentPadding: EdgeInsets.all(8)),
-                controller: _qtyController,
-                onChanged: (v) {
-                  final parsed = double.tryParse(v);
-                  if (parsed != null && parsed > 0) setState(() => _qty = parsed);
+          ),
+
+          // ── Saved custom foods ───────────────────────────────────────────
+          if (_customFoods.isNotEmpty) ...[
+            const SizedBox(height: 20),
+            Text(
+              bn
+                  ? 'সংরক্ষিত কাস্টম খাবার (${_customFoods.length})'
+                  : 'Saved Custom Foods (${_customFoods.length})',
+              style: theme.textTheme.titleSmall
+                  ?.copyWith(fontWeight: FontWeight.w700),
+            ),
+            const SizedBox(height: 8),
+            ..._customFoods.map((food) => _AddFoodTile(
+              food: food,
+              lang: lang,
+              isDark: isDark,
+              onAdd: widget.onAdd,
+              trailing: GestureDetector(
+                onTap: () async {
+                  final ok = await showDialog<bool>(
+                    context: context,
+                    builder: (_) => AlertDialog(
+                      title: Text(bn ? 'মুছে ফেলবেন?' : 'Delete?'),
+                      content: Text('"${food.name}"'),
+                      actions: [
+                        TextButton(
+                            onPressed: () => Navigator.pop(context, false),
+                            child: Text(bn ? 'বাতিল' : 'Cancel')),
+                        FilledButton(
+                            onPressed: () => Navigator.pop(context, true),
+                            style: FilledButton.styleFrom(
+                                backgroundColor: Colors.red),
+                            child: Text(bn ? 'মুছুন' : 'Delete')),
+                      ],
+                    ),
+                  );
+                  if (ok == true) _delete(food.id);
                 },
+                child: Padding(
+                  padding: const EdgeInsets.all(6),
+                  child: Icon(Icons.delete_outline_rounded,
+                      size: 20,
+                      color: Colors.red.withValues(alpha: 0.7)),
+                ),
               ),
-            ),
-            const SizedBox(width: 8),
-            IconButton(
-              icon: const Icon(Icons.add_circle, color: AppColors.primary),
-              onPressed: () => widget.onAdd(widget.food, _qty),
-            ),
+            )),
           ],
-        ),
+        ],
       ),
     );
   }
 }
 
-class _CustomFoodTab extends StatelessWidget {
-  final TextEditingController nameController, caloriesController, proteinController, carbsController, fatController, servingController;
-  final VoidCallback onAdd;
-  final AppStrings l10n;
+class _SheetField extends StatelessWidget {
+  final TextEditingController controller;
+  final String label;
+  final String hint;
+  final TextInputType? keyboardType;
+  final List<TextInputFormatter>? inputFormatters;
+  final FormFieldValidator<String>? validator;
 
-  const _CustomFoodTab({
-    required this.nameController, required this.caloriesController,
-    required this.proteinController, required this.carbsController,
-    required this.fatController, required this.servingController,
-    required this.onAdd, required this.l10n,
+  const _SheetField({
+    required this.controller,
+    required this.label,
+    required this.hint,
+    this.keyboardType,
+    this.inputFormatters,
+    this.validator,
   });
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
+    return TextFormField(
+      controller: controller,
+      keyboardType: keyboardType,
+      inputFormatters: inputFormatters,
+      validator: validator,
+      decoration: InputDecoration(
+        labelText: label,
+        hintText: hint,
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 12, vertical: 14),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+      ),
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// Shared: food tile with inline quantity + add button
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _AddFoodTile extends StatefulWidget {
+  final FoodItem food;
+  final String lang;
+  final bool isDark;
+  final Future<void> Function(FoodItem, double) onAdd;
+  final Widget? trailing;
+
+  const _AddFoodTile({
+    required this.food,
+    required this.lang,
+    required this.isDark,
+    required this.onAdd,
+    this.trailing,
+  });
+
+  @override
+  State<_AddFoodTile> createState() => _AddFoodTileState();
+}
+
+class _AddFoodTileState extends State<_AddFoodTile> {
+  late double _qty;
+  late final TextEditingController _qtyCtrl;
+  bool _adding = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _qty = widget.food.servingSize > 0 ? widget.food.servingSize : 100;
+    _qtyCtrl = TextEditingController(text: _qty.toStringAsFixed(0));
+  }
+
+  @override
+  void dispose() {
+    _qtyCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _add() async {
+    if (_adding) return;
+    setState(() => _adding = true);
+    await widget.onAdd(widget.food, _qty);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final food = widget.food;
+    final lang = widget.lang;
+    final isDark = widget.isDark;
+    final theme = Theme.of(context);
+    final color = _catColor(food.category);
+    final scaledCal = food.calories * _qty / (food.servingSize > 0 ? food.servingSize : 100);
+
+    return Container(
+      margin: const EdgeInsets.only(bottom: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: isDark ? AppColors.darkCard : Colors.white,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: isDark ? AppColors.darkDivider : const Color(0xFFEEEEEE),
+        ),
+        boxShadow: isDark
+            ? null
+            : [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: 0.04),
+                  blurRadius: 6,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+      ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          TextField(controller: nameController, decoration: InputDecoration(labelText: 'Food Name')),
-          const SizedBox(height: 12),
-          TextField(controller: servingController, keyboardType: TextInputType.number, decoration: const InputDecoration(labelText: 'Serving Size (g)')),
-          const SizedBox(height: 12),
-          TextField(controller: caloriesController, keyboardType: TextInputType.number, decoration: InputDecoration(labelText: '${l10n.calories} (kcal)')),
-          const SizedBox(height: 12),
-          TextField(controller: proteinController, keyboardType: TextInputType.number, decoration: InputDecoration(labelText: '${l10n.protein} (g)')),
-          const SizedBox(height: 12),
-          TextField(controller: carbsController, keyboardType: TextInputType.number, decoration: InputDecoration(labelText: '${l10n.carbs} (g)')),
-          const SizedBox(height: 12),
-          TextField(controller: fatController, keyboardType: TextInputType.number, decoration: InputDecoration(labelText: '${l10n.fat} (g)')),
-          const SizedBox(height: 24),
-          ElevatedButton(onPressed: onAdd, child: Text(l10n.addFood)),
+          Row(
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: color.withValues(alpha: 0.12),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Icon(
+                  _catIcons[food.category] ?? Icons.fastfood_outlined,
+                  color: color,
+                  size: 20,
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      food.displayName(lang),
+                      style: theme.textTheme.titleSmall?.copyWith(
+                          fontWeight: FontWeight.w700, fontSize: 13),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    if (lang == 'bn' && food.name.isNotEmpty)
+                      Text(food.name,
+                          style: theme.textTheme.bodySmall
+                              ?.copyWith(fontSize: 10),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis)
+                    else if (food.nameBn != null && food.nameBn!.isNotEmpty)
+                      Text(food.nameBn!,
+                          style: theme.textTheme.bodySmall
+                              ?.copyWith(fontSize: 10),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis),
+                  ],
+                ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Text(
+                    '${scaledCal.toStringAsFixed(0)} kcal',
+                    style: const TextStyle(
+                      color: AppColors.calories,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 13,
+                    ),
+                  ),
+                  Text(
+                    'per ${_qty.toStringAsFixed(0)}${food.servingUnit}',
+                    style: theme.textTheme.labelSmall?.copyWith(fontSize: 9),
+                  ),
+                ],
+              ),
+              if (widget.trailing != null) widget.trailing!,
+            ],
+          ),
+          const SizedBox(height: 8),
+          Row(
+            children: [
+              // Macro pills
+              _MacroPill('P ${(food.proteinG * _qty / (food.servingSize > 0 ? food.servingSize : 100)).toStringAsFixed(0)}g', AppColors.protein),
+              const SizedBox(width: 4),
+              _MacroPill('C ${(food.carbsG * _qty / (food.servingSize > 0 ? food.servingSize : 100)).toStringAsFixed(0)}g', AppColors.carbs),
+              const SizedBox(width: 4),
+              _MacroPill('F ${(food.fatG * _qty / (food.servingSize > 0 ? food.servingSize : 100)).toStringAsFixed(0)}g', AppColors.fat),
+              const Spacer(),
+              // Quantity input
+              SizedBox(
+                width: 72,
+                child: TextField(
+                  controller: _qtyCtrl,
+                  keyboardType: TextInputType.number,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
+                  decoration: InputDecoration(
+                    suffix: Text(food.servingUnit,
+                        style: const TextStyle(fontSize: 11)),
+                    isDense: true,
+                    contentPadding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(8)),
+                  ),
+                  onChanged: (v) {
+                    final parsed = double.tryParse(v);
+                    if (parsed != null && parsed > 0) {
+                      setState(() => _qty = parsed);
+                    }
+                  },
+                ),
+              ),
+              const SizedBox(width: 8),
+              // Add button
+              FilledButton(
+                onPressed: _adding ? null : _add,
+                style: FilledButton.styleFrom(
+                  backgroundColor: AppColors.primary,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 14, vertical: 9),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10)),
+                  minimumSize: Size.zero,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                ),
+                child: _adding
+                    ? const SizedBox(
+                        width: 16,
+                        height: 16,
+                        child: CircularProgressIndicator(
+                            strokeWidth: 2, color: Colors.white))
+                    : Text(
+                        lang == 'bn' ? 'যোগ' : 'Add',
+                        style: const TextStyle(
+                            fontSize: 13, fontWeight: FontWeight.w700),
+                      ),
+              ),
+            ],
+          ),
         ],
+      ),
+    );
+  }
+}
+
+// ── Shared utility widgets ────────────────────────────────────────────────────
+
+class _MacroPill extends StatelessWidget {
+  final String label;
+  final Color color;
+  const _MacroPill(this.label, this.color);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 2),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      child: Text(label,
+          style: TextStyle(
+              fontSize: 10, color: color, fontWeight: FontWeight.w600)),
+    );
+  }
+}
+
+class _EmptyState extends StatelessWidget {
+  final IconData icon;
+  final Color? iconColor;
+  final String title;
+  final String subtitle;
+  final String? actionLabel;
+  final VoidCallback? onAction;
+
+  const _EmptyState({
+    required this.icon,
+    this.iconColor,
+    required this.title,
+    required this.subtitle,
+    this.actionLabel,
+    this.onAction,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final color = iconColor ?? Colors.grey;
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 72,
+              height: 72,
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.1),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, size: 36, color: color),
+            ),
+            const SizedBox(height: 16),
+            Text(title,
+                style: theme.textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
+                textAlign: TextAlign.center),
+            const SizedBox(height: 6),
+            Text(subtitle,
+                style: theme.textTheme.bodySmall?.copyWith(fontSize: 13),
+                textAlign: TextAlign.center),
+            if (actionLabel != null && onAction != null) ...[
+              const SizedBox(height: 16),
+              FilledButton.icon(
+                onPressed: onAction,
+                icon: const Icon(Icons.refresh_rounded, size: 16),
+                label: Text(actionLabel!),
+              ),
+            ],
+          ],
+        ),
       ),
     );
   }

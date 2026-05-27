@@ -2,6 +2,7 @@ name: infinity_health_tracker
 description: Infinity Health Tracker - Better Health Every Day. A bilingual AI nutrition tracking app.
 publish_to: 'none'
 version: 1.0.0+1
+# Display version: 1.0
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -28,14 +29,9 @@ dependencies:
   # Charts
   fl_chart: ^0.68.0
 
-  # Camera & Image
-  camera: ^0.12.0
+  # Profile photo picker & compression (camera scan removed)
   image_picker: ^1.1.2
   flutter_image_compress: ^2.3.0
-
-  # Machine Learning
-  tflite_flutter: ^0.12.1
-  image: ^4.2.0
 
   # Export & Share
   share_plus: ^10.0.0
@@ -67,3 +63,4 @@ flutter:
     - assets/images/
     - assets/animations/
     - assets/models/
+    - assets/data/

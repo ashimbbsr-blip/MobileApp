@@ -245,6 +245,12 @@ class SettingsScreen extends ConsumerWidget {
             child: Column(
               children: [
                 _SettingsTile(
+                  icon: Icons.help_outline_rounded,
+                  title: 'Help & Guide',
+                  onTap: () => context.push('/help'),
+                ),
+                const Divider(height: 1),
+                _SettingsTile(
                   icon: Icons.science_outlined,
                   title: l10n.micronutrients,
                   onTap: () => context.push('/micronutrients'),
@@ -264,7 +270,7 @@ class SettingsScreen extends ConsumerWidget {
           const SizedBox(height: 8),
           Center(
             child: Text(
-              '${l10n.version} 1.0.0',
+              '${l10n.version} ${AppConstants.currentAppVersion}',
               style: theme.textTheme.bodySmall,
             ),
           ),

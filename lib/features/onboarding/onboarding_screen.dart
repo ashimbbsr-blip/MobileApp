@@ -4,17 +4,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
-import '../../core/constants/app_constants.dart';
 import '../../core/utils/validators.dart';
-import '../../services/api_key_service.dart';
 import '../../widgets/common/app_logo.dart';
 import 'providers/onboarding_provider.dart';
 
 // Total page count (including welcome)
-const _kTotalSteps = 6;
+const _kTotalSteps = 5;
 
 class OnboardingScreen extends ConsumerStatefulWidget {
   const OnboardingScreen({super.key});
@@ -152,17 +149,11 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                     onBack: _animatePrev,
                   ),
 
-                  // Page 4: Fitness goal
+                  // Page 4: Fitness goal → completes onboarding
                   _GoalPage(
                     selected: state.fitnessGoal,
                     onSelected: (v) => ref.read(onboardingProvider.notifier).setFitnessGoal(v),
-                    onNext: _animateNext,
-                    onBack: _animatePrev,
-                  ),
-
-                  // Page 5: USDA API setup
-                  _UsdaSetupPage(
-                    onComplete: _complete,
+                    onNext: _complete,
                     onBack: _animatePrev,
                   ),
                 ],
@@ -285,7 +276,7 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
             Text(l10n.personalInfo,
                 style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('${l10n.step} 1 ${l10n.ofWord} 5',
+            Text('${l10n.step} 1 ${l10n.ofWord} 4',
                 style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 24),
 
@@ -475,7 +466,7 @@ class _BodyPage extends ConsumerWidget {
             Text(l10n.bodyMeasurements,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('${l10n.step} 2 ${l10n.ofWord} 5',
+            Text('${l10n.step} 2 ${l10n.ofWord} 4',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 28),
 
@@ -569,7 +560,7 @@ class _ActivityPage extends StatelessWidget {
             Text(l10n.activityLevel,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('${l10n.step} 3 ${l10n.ofWord} 5',
+            Text('${l10n.step} 3 ${l10n.ofWord} 4',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 20),
             Expanded(
@@ -627,7 +618,7 @@ class _GoalPage extends StatelessWidget {
             Text(l10n.fitnessGoal,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('${l10n.step} 4 ${l10n.ofWord} 5',
+            Text('${l10n.step} 4 ${l10n.ofWord} 4',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 20),
             Expanded(
@@ -651,264 +642,6 @@ class _GoalPage extends StatelessWidget {
   }
 }
 
-// ── USDA API Setup Page ───────────────────────────────────────────────────────
-
-enum _ApiKeyStatus { idle, loading, valid, invalid }
-
-class _UsdaSetupPage extends ConsumerStatefulWidget {
-  final Future<void> Function() onComplete;
-  final VoidCallback onBack;
-
-  const _UsdaSetupPage({required this.onComplete, required this.onBack});
-
-  @override
-  ConsumerState<_UsdaSetupPage> createState() => _UsdaSetupPageState();
-}
-
-class _UsdaSetupPageState extends ConsumerState<_UsdaSetupPage> {
-  final _keyCtrl = TextEditingController();
-  _ApiKeyStatus _status = _ApiKeyStatus.idle;
-
-  @override
-  void dispose() {
-    _keyCtrl.dispose();
-    super.dispose();
-  }
-
-  Future<void> _openRegistration() async {
-    final uri = Uri.parse(AppConstants.usdaApiKeySignupUrl);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-  }
-
-  Future<void> _validateAndSave() async {
-    final key = _keyCtrl.text.trim();
-    if (key.isEmpty) {
-      setState(() => _status = _ApiKeyStatus.invalid);
-      return;
-    }
-    setState(() => _status = _ApiKeyStatus.loading);
-    final valid = await ApiKeyService.instance.validateKey(key);
-    if (!mounted) return;
-    if (valid) {
-      await ApiKeyService.instance.saveKey(key);
-      setState(() => _status = _ApiKeyStatus.valid);
-      await Future.delayed(const Duration(milliseconds: 800));
-      if (mounted) await widget.onComplete();
-    } else {
-      setState(() => _status = _ApiKeyStatus.invalid);
-    }
-  }
-
-  Future<void> _skip() async {
-    await widget.onComplete();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = ref.watch(appStringsProvider);
-    final theme = Theme.of(context);
-    final isLoading = _status == _ApiKeyStatus.loading;
-
-    return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(24, 12, 24, 32),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(l10n.usdaSetupTitle,
-              style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
-          const SizedBox(height: 4),
-          Text('${l10n.step} 5 ${l10n.ofWord} 5',
-              style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
-          const SizedBox(height: 20),
-
-          // Icon + description card
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppColors.primary.withOpacity(0.06),
-              borderRadius: BorderRadius.circular(14),
-              border: Border.all(color: AppColors.primary.withOpacity(0.18)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(children: [
-                  Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: AppColors.primary.withOpacity(0.15),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: const Icon(Icons.cloud_outlined,
-                        color: AppColors.primary, size: 24),
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Text(
-                      l10n.usdaSetupDesc,
-                      style: theme.textTheme.bodyMedium,
-                    ),
-                  ),
-                ]),
-                const SizedBox(height: 14),
-                _UsdaBullet(Icons.check_circle_outline, l10n.usdaBullet1),
-                _UsdaBullet(Icons.timer_outlined, l10n.usdaBullet2),
-                _UsdaBullet(Icons.email_outlined, l10n.usdaBullet3),
-                _UsdaBullet(Icons.phone_android_outlined, l10n.usdaBullet4),
-                _UsdaBullet(Icons.lock_outline, l10n.usdaBullet5),
-              ],
-            ),
-          ),
-
-          const SizedBox(height: 20),
-
-          // Register button
-          SizedBox(
-            width: double.infinity,
-            child: OutlinedButton.icon(
-              onPressed: _openRegistration,
-              icon: const Icon(Icons.open_in_browser_outlined),
-              label: Text(l10n.usdaRegisterKey),
-              style: OutlinedButton.styleFrom(
-                foregroundColor: AppColors.primary,
-                side: const BorderSide(color: AppColors.primary),
-                padding: const EdgeInsets.symmetric(vertical: 14),
-              ),
-            ),
-          ),
-
-          const SizedBox(height: 24),
-
-          // API key input
-          Text(l10n.usdaEnterKeyLabel,
-              style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700)),
-          const SizedBox(height: 6),
-          Text(l10n.usdaEnterKeyHint,
-              style: theme.textTheme.bodySmall?.copyWith(color: theme.hintColor)),
-          const SizedBox(height: 10),
-
-          TextField(
-            controller: _keyCtrl,
-            decoration: InputDecoration(
-              hintText: l10n.usdaPasteKey,
-              prefixIcon: const Icon(Icons.vpn_key_outlined),
-              suffixIcon: _keyCtrl.text.isNotEmpty
-                  ? IconButton(
-                      icon: const Icon(Icons.clear, size: 18),
-                      onPressed: () {
-                        _keyCtrl.clear();
-                        setState(() => _status = _ApiKeyStatus.idle);
-                      },
-                    )
-                  : null,
-              errorText: _status == _ApiKeyStatus.invalid ? l10n.usdaKeyInvalid : null,
-            ),
-            onChanged: (_) {
-              if (_status != _ApiKeyStatus.idle) {
-                setState(() => _status = _ApiKeyStatus.idle);
-              }
-            },
-          ),
-
-          if (_status == _ApiKeyStatus.valid) ...[
-            const SizedBox(height: 10),
-            Row(children: [
-              const Icon(Icons.check_circle, color: Colors.green, size: 18),
-              const SizedBox(width: 8),
-              Text(
-                l10n.usdaKeyValid,
-                style: const TextStyle(color: Colors.green, fontWeight: FontWeight.w600),
-              ),
-            ]),
-          ],
-
-          const SizedBox(height: 20),
-
-          // Validate & Save button
-          SizedBox(
-            width: double.infinity,
-            height: 50,
-            child: ElevatedButton(
-              onPressed: isLoading ? null : _validateAndSave,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primary,
-                foregroundColor: Colors.white,
-                disabledBackgroundColor: AppColors.primary.withOpacity(0.4),
-              ),
-              child: isLoading
-                  ? const SizedBox(
-                      width: 22,
-                      height: 22,
-                      child: CircularProgressIndicator(
-                          strokeWidth: 2.5, color: Colors.white),
-                    )
-                  : Text(l10n.usdaValidateAndSave,
-                      style: const TextStyle(fontWeight: FontWeight.w700)),
-            ),
-          ),
-
-          const SizedBox(height: 14),
-
-          // Skip button
-          Row(children: [
-            Expanded(
-              child: OutlinedButton(
-                onPressed: isLoading ? null : widget.onBack,
-                child: Text(l10n.back),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: TextButton(
-                onPressed: isLoading ? null : _skip,
-                child: Text(
-                  l10n.usdaSkip,
-                  style: TextStyle(color: theme.hintColor),
-                ),
-              ),
-            ),
-          ]),
-
-          const SizedBox(height: 8),
-          Center(
-            child: Text(
-              l10n.usdaSkipNote,
-              style: theme.textTheme.bodySmall?.copyWith(
-                color: theme.hintColor,
-                fontSize: 11,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _UsdaBullet extends StatelessWidget {
-  final IconData icon;
-  final String text;
-  const _UsdaBullet(this.icon, this.text);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 6),
-      child: Row(
-        children: [
-          Icon(icon, size: 16, color: AppColors.primary),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Text(text, style: Theme.of(context).textTheme.bodySmall?.copyWith(height: 1.4)),
-          ),
-        ],
-      ),
-    );
-  }
-}
 
 // ── Shared Widgets ────────────────────────────────────────────────────────────
 

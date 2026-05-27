@@ -14,29 +14,15 @@ class AppLogo extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Container(
+        Image.asset(
+          'assets/images/healthtrackerlogo.png',
           width: size,
           height: size,
-          decoration: BoxDecoration(
-            gradient: AppColors.primaryGradient,
-            borderRadius: BorderRadius.circular(size * 0.25),
-            boxShadow: [
-              BoxShadow(
-                color: AppColors.primary.withOpacity(0.4),
-                blurRadius: 20,
-                spreadRadius: 2,
-              ),
-            ],
-          ),
-          child: Icon(
-            Icons.favorite,
-            color: Colors.white,
-            size: size * 0.5,
-          ),
+          fit: BoxFit.contain,
         ),
         const SizedBox(height: 12),
         Text(
-          'Infinity Health Tracker',
+          'Infinite Health Tracker',
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
             fontWeight: FontWeight.w700,
             color: textColor,

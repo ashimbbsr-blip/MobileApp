@@ -18,22 +18,24 @@ class ExportService {
       final goalCalories = profile != null ? _estimateGoal(profile) : 2000.0;
 
       final buffer = StringBuffer();
-      buffer.writeln(
-          'Date,Calories,Goal Calories,Goal %,Protein(g),Carbs(g),Fat(g),Fiber(g)');
+      buffer.writeln([
+        'Date', 'Calories', 'Goal Calories', 'Goal %',
+        'Protein(g)', 'Carbs(g)', 'Fat(g)', 'Fiber(g)',
+      ].map(_csvField).join(','));
 
       for (final d in data) {
         if (!d.hasData) continue;
         final pct = (d.goalCompletion(goalCalories) * 100).toStringAsFixed(1);
-        buffer.writeln(
-          '${_formatDate(d.date)},'
-          '${d.calories.toStringAsFixed(0)},'
-          '${goalCalories.toStringAsFixed(0)},'
-          '$pct,'
-          '${d.protein.toStringAsFixed(1)},'
-          '${d.carbs.toStringAsFixed(1)},'
-          '${d.fat.toStringAsFixed(1)},'
-          '${d.fiber.toStringAsFixed(1)}',
-        );
+        buffer.writeln([
+          _csvField(_formatDate(d.date)),
+          d.calories.toStringAsFixed(0),
+          goalCalories.toStringAsFixed(0),
+          pct,
+          d.protein.toStringAsFixed(1),
+          d.carbs.toStringAsFixed(1),
+          d.fat.toStringAsFixed(1),
+          d.fiber.toStringAsFixed(1),
+        ].join(','));
       }
 
       final dir = await getTemporaryDirectory();
@@ -90,6 +92,14 @@ class ExportService {
 
   static String _formatDate(DateTime d) =>
       '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
+
+  // RFC 4180: quote fields that contain commas, quotes, or newlines.
+  static String _csvField(String value) {
+    if (value.contains(',') || value.contains('"') || value.contains('\n') || value.contains('\r')) {
+      return '"${value.replaceAll('"', '""')}"';
+    }
+    return value;
+  }
 
   static double _estimateGoal(UserProfile p) {
     double bmr;

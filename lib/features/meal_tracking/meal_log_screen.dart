@@ -10,10 +10,39 @@ import '../dashboard/providers/dashboard_provider.dart';
 class MealLogScreen extends ConsumerWidget {
   const MealLogScreen({super.key});
 
+  Future<void> _pickDate(BuildContext context, WidgetRef ref, String currentDateKey, bool isBengali) async {
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final parts = currentDateKey.split('_');
+    final current = parts.length == 3
+        ? DateTime(int.parse(parts[0]), int.parse(parts[1]), int.parse(parts[2]))
+        : today;
+
+    final picked = await showDatePicker(
+      context: context,
+      initialDate: current,
+      firstDate: DateTime(2020),
+      lastDate: today,
+      helpText: isBengali ? 'তারিখ বেছে নিন' : 'Select Date',
+    );
+    if (picked == null) return;
+    ref.read(mealProvider.notifier).setDate(picked);
+    ref.read(dashboardProvider.notifier).selectDate(picked);
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final state = ref.watch(mealProvider);
     final l10n = ref.watch(appStringsProvider);
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final parts = state.dateKey.split('_');
+    final selectedDate = parts.length == 3
+        ? DateTime(int.parse(parts[0]), int.parse(parts[1]), int.parse(parts[2]))
+        : today;
+    final isToday = selectedDate.year == today.year &&
+        selectedDate.month == today.month &&
+        selectedDate.day == today.day;
 
     final mealTypes = [
       ('breakfast', l10n.breakfast, Icons.wb_sunny_outlined),
@@ -24,8 +53,44 @@ class MealLogScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(l10n.meals),
+        title: GestureDetector(
+          onTap: () => _pickDate(context, ref, state.dateKey, l10n.isBengali),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                isToday
+                    ? l10n.meals
+                    : '${selectedDate.day}/${selectedDate.month}/${selectedDate.year}',
+                style: TextStyle(
+                  color: isToday ? null : AppColors.secondary,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              const SizedBox(width: 4),
+              Icon(
+                Icons.calendar_month_outlined,
+                size: 16,
+                color: isToday ? Colors.grey : AppColors.secondary,
+              ),
+            ],
+          ),
+        ),
         actions: [
+          if (!isToday)
+            TextButton(
+              onPressed: () {
+                ref.read(mealProvider.notifier).setDate(today);
+                ref.read(dashboardProvider.notifier).selectDate(today);
+              },
+              child: Text(
+                l10n.today,
+                style: const TextStyle(
+                  color: AppColors.primary,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
           IconButton(
             icon: const Icon(Icons.camera_alt_outlined),
             onPressed: () => context.push('/camera', extra: 'snack'),
