@@ -60,7 +60,7 @@ class MicronutrientScreen extends ConsumerWidget {
             _MicroCard(
               name: l10n.iron,
               current: totals['iron'] ?? 0,
-              goal: NutritionConstants.ironMg,
+              goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'),
               unit: 'mg',
               color: AppColors.iron,
             ),
@@ -81,7 +81,7 @@ class MicronutrientScreen extends ConsumerWidget {
             _MicroCard(
               name: l10n.zinc,
               current: totals['zinc'] ?? 0,
-              goal: NutritionConstants.zincMg,
+              goal: NutritionConstants.zincForGender(state.userProfile?.gender ?? 'male'),
               unit: 'mg',
               color: AppColors.zinc,
             ),

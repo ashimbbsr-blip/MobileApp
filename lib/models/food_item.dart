@@ -78,6 +78,9 @@ class FoodItem extends HiveObject {
   @HiveField(23)
   List<String>? keywords;
 
+  @HiveField(24)
+  double? vitaminB12Mcg;
+
   FoodItem({
     required this.id,
     required this.name,
@@ -103,6 +106,7 @@ class FoodItem extends HiveObject {
     this.category,
     this.source,
     this.keywords,
+    this.vitaminB12Mcg,
   });
 
   // ── Factory: compact local JSON schema ───────────────────────────────────
@@ -238,6 +242,7 @@ class FoodItem extends HiveObject {
       potassiumMg: potassiumMg != null ? potassiumMg! * factor : null,
       magnesiumMg: magnesiumMg != null ? magnesiumMg! * factor : null,
       zincMg: zincMg != null ? zincMg! * factor : null,
+      vitaminB12Mcg: vitaminB12Mcg != null ? vitaminB12Mcg! * factor : null,
       usdaFdcId: usdaFdcId,
       isCustom: isCustom,
       category: category,

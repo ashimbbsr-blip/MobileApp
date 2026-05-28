@@ -6,7 +6,11 @@ class NutritionCalculator {
   static NutritionGoals calculate(UserProfile profile) {
     final bmr = _calculateBMR(profile);
     final tdee = bmr * (NutritionConstants.activityMultipliers[profile.activityLevel] ?? 1.55);
-    final calories = _adjustForGoal(tdee, profile.fitnessGoal);
+    final baseCalories = _adjustForGoal(tdee, profile.fitnessGoal);
+    final pregnancyBonus = _pregnancyCalorieBonus(profile.gender, profile.pregnancyStatus);
+    final calories = baseCalories + pregnancyBonus;
+    final calorieFloor = profile.gender == 'male' ? 1500.0 : 1200.0;
+
     final protein = _calculateProtein(profile.weightKg, profile.fitnessGoal);
     final fat = _calculateFat(calories);
     final remainingCalories = calories - (protein * NutritionConstants.proteinCaloriesPerGram) - (fat * NutritionConstants.fatCaloriesPerGram);
@@ -14,7 +18,7 @@ class NutritionCalculator {
     final water = _calculateWater(profile.weightKg, profile.activityLevel);
 
     return NutritionGoals(
-      calories: calories.clamp(1200, 4000),
+      calories: calories.clamp(calorieFloor, 4000),
       proteinG: protein.clamp(50, 300),
       carbsG: carbs.clamp(50, 500),
       fatG: fat.clamp(30, 200),
@@ -71,6 +75,18 @@ class NutritionCalculator {
       base += 250;
     }
     return base;
+  }
+
+  // ICMR 2020 extra calorie allowances for pregnancy/lactation
+  static double _pregnancyCalorieBonus(String gender, String? status) {
+    if (gender != 'female' || status == null) return 0;
+    switch (status) {
+      case 'pregnant_1st': return 350;
+      case 'pregnant_2nd': return 350;
+      case 'pregnant_3rd': return 450;
+      case 'lactating':    return 550;
+      default:             return 0;
+    }
   }
 
   static double calculateBMI(double weightKg, double heightCm) {

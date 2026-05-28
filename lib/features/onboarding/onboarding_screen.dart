@@ -10,8 +10,8 @@ import '../../core/utils/validators.dart';
 import '../../widgets/common/app_logo.dart';
 import 'providers/onboarding_provider.dart';
 
-// Total page count (including welcome)
-const _kTotalSteps = 5;
+// Total page count (including welcome + pregnancy page)
+const _kTotalSteps = 6;
 
 class OnboardingScreen extends ConsumerStatefulWidget {
   const OnboardingScreen({super.key});
@@ -149,10 +149,19 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                     onBack: _animatePrev,
                   ),
 
-                  // Page 4: Fitness goal → completes onboarding
+                  // Page 4: Fitness goal
                   _GoalPage(
                     selected: state.fitnessGoal,
                     onSelected: (v) => ref.read(onboardingProvider.notifier).setFitnessGoal(v),
+                    onNext: state.gender == 'female' ? _animateNext : _complete,
+                    onBack: _animatePrev,
+                    isFemale: state.gender == 'female',
+                  ),
+
+                  // Page 5: Pregnancy/Lactation (females only — males never navigate here)
+                  _PregnancyPage(
+                    selected: state.pregnancyStatus,
+                    onSelected: (v) => ref.read(onboardingProvider.notifier).setPregnancyStatus(v),
                     onNext: _complete,
                     onBack: _animatePrev,
                   ),
@@ -591,12 +600,14 @@ class _GoalPage extends StatelessWidget {
   final void Function(String) onSelected;
   final VoidCallback onNext;
   final VoidCallback onBack;
+  final bool isFemale;
 
   const _GoalPage({
     required this.selected,
     required this.onSelected,
     required this.onNext,
     required this.onBack,
+    this.isFemale = false,
   });
 
   @override
@@ -618,7 +629,7 @@ class _GoalPage extends StatelessWidget {
             Text(l10n.fitnessGoal,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('${l10n.step} 4 ${l10n.ofWord} 4',
+            Text('${l10n.step} 4 ${l10n.ofWord} ${isFemale ? 5 : 4}',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 20),
             Expanded(
@@ -642,6 +653,113 @@ class _GoalPage extends StatelessWidget {
   }
 }
 
+
+// ── Pregnancy / Lactation Page (females only) ─────────────────────────────────
+
+class _PregnancyPage extends StatelessWidget {
+  final String? selected;
+  final void Function(String?) onSelected;
+  final VoidCallback onNext;
+  final VoidCallback onBack;
+
+  const _PregnancyPage({
+    required this.selected,
+    required this.onSelected,
+    required this.onNext,
+    required this.onBack,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Consumer(builder: (context, ref, _) {
+      final l10n = ref.watch(appStringsProvider);
+      final options = <(String?, String, String, IconData)>[
+        (null, 'Not Applicable', 'I am not pregnant or breastfeeding', Icons.person_outline),
+        ('pregnant_1st', '1st Trimester', 'Weeks 1–12 (+350 kcal/day)', Icons.pregnant_woman),
+        ('pregnant_2nd', '2nd Trimester', 'Weeks 13–26 (+350 kcal/day)', Icons.pregnant_woman),
+        ('pregnant_3rd', '3rd Trimester', 'Weeks 27–40 (+450 kcal/day)', Icons.pregnant_woman),
+        ('lactating', 'Breastfeeding', 'Lactation period (+550 kcal/day)', Icons.child_care),
+      ];
+
+      return Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Pregnancy & Lactation',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
+            const SizedBox(height: 4),
+            Text('${l10n.step} 5 ${l10n.ofWord} 5',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
+            const SizedBox(height: 8),
+            Text('We adjust your calorie goal per ICMR 2020 guidelines.',
+                style: Theme.of(context).textTheme.bodySmall),
+            const SizedBox(height: 16),
+            Expanded(
+              child: ListView(
+                children: options.map((o) => GestureDetector(
+                  onTap: () => onSelected(o.$1),
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 200),
+                    margin: const EdgeInsets.only(bottom: 10),
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: selected == o.$1
+                          ? AppColors.primary.withOpacity(0.1)
+                          : Theme.of(context).cardTheme.color,
+                      border: Border.all(
+                        color: selected == o.$1 ? AppColors.primary : Colors.transparent,
+                        width: 2,
+                      ),
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    child: Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            color: selected == o.$1
+                                ? AppColors.primary
+                                : AppColors.primary.withOpacity(0.1),
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          child: Icon(o.$4,
+                              color: selected == o.$1 ? Colors.white : AppColors.primary,
+                              size: 20),
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(o.$2,
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .titleSmall
+                                      ?.copyWith(fontWeight: FontWeight.w600)),
+                              Text(o.$3, style: Theme.of(context).textTheme.bodySmall),
+                            ],
+                          ),
+                        ),
+                        if (selected == o.$1)
+                          const Icon(Icons.check_circle, color: AppColors.primary),
+                      ],
+                    ),
+                  ),
+                )).toList(),
+              ),
+            ),
+            Row(children: [
+              Expanded(child: OutlinedButton(onPressed: onBack, child: Text(l10n.back))),
+              const SizedBox(width: 12),
+              Expanded(child: ElevatedButton(onPressed: onNext, child: Text(l10n.done))),
+            ]),
+          ],
+        ),
+      );
+    });
+  }
+}
 
 // ── Shared Widgets ────────────────────────────────────────────────────────────
 

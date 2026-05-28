@@ -18,6 +18,7 @@ class OnboardingState {
   final double weightKg;
   final String activityLevel;
   final String fitnessGoal;
+  final String? pregnancyStatus;
   final bool isComplete;
 
   const OnboardingState({
@@ -31,6 +32,7 @@ class OnboardingState {
     this.weightKg = 70,
     this.activityLevel = 'moderately_active',
     this.fitnessGoal = 'healthy_fat_loss',
+    this.pregnancyStatus,
     this.isComplete = false,
   });
 
@@ -45,8 +47,10 @@ class OnboardingState {
     double? weightKg,
     String? activityLevel,
     String? fitnessGoal,
+    String? pregnancyStatus,
     bool? isComplete,
     bool clearProfileImage = false,
+    bool clearPregnancyStatus = false,
   }) {
     return OnboardingState(
       currentStep: currentStep ?? this.currentStep,
@@ -59,6 +63,7 @@ class OnboardingState {
       weightKg: weightKg ?? this.weightKg,
       activityLevel: activityLevel ?? this.activityLevel,
       fitnessGoal: fitnessGoal ?? this.fitnessGoal,
+      pregnancyStatus: clearPregnancyStatus ? null : (pregnancyStatus ?? this.pregnancyStatus),
       isComplete: isComplete ?? this.isComplete,
     );
   }
@@ -79,6 +84,9 @@ class OnboardingNotifier extends StateNotifier<OnboardingState> {
   void setWeight(double weight) => state = state.copyWith(weightKg: weight);
   void setActivityLevel(String level) => state = state.copyWith(activityLevel: level);
   void setFitnessGoal(String goal) => state = state.copyWith(fitnessGoal: goal);
+  void setPregnancyStatus(String? status) => state = status == null
+      ? state.copyWith(clearPregnancyStatus: true)
+      : state.copyWith(pregnancyStatus: status);
 
   Future<void> pickAndSaveProfileImage(ImageSource source) async {
     try {
@@ -128,6 +136,7 @@ class OnboardingNotifier extends StateNotifier<OnboardingState> {
       email: state.email.trim().isEmpty ? null : state.email.trim(),
       dateOfBirth: state.dateOfBirth,
       profileImagePath: state.profileImagePath,
+      pregnancyStatus: state.gender == 'female' ? state.pregnancyStatus : null,
     );
     await HiveStorage.saveUserProfile(profile);
     await HiveStorage.setOnboardingDone();

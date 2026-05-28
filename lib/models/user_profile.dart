@@ -40,6 +40,9 @@ class UserProfile extends HiveObject {
   @HiveField(11)
   String? email;
 
+  @HiveField(12)
+  String? pregnancyStatus; // null | 'pregnant_1st' | 'pregnant_2nd' | 'pregnant_3rd' | 'lactating'
+
   UserProfile({
     required this.id,
     required this.age,
@@ -53,6 +56,7 @@ class UserProfile extends HiveObject {
     this.dateOfBirth,
     this.profileImagePath,
     this.email,
+    this.pregnancyStatus,
   });
 
   int get computedAge {
@@ -90,7 +94,9 @@ class UserProfile extends HiveObject {
     DateTime? dateOfBirth,
     String? profileImagePath,
     String? email,
+    String? pregnancyStatus,
     bool clearProfileImage = false,
+    bool clearPregnancyStatus = false,
   }) {
     return UserProfile(
       id: id,
@@ -105,6 +111,7 @@ class UserProfile extends HiveObject {
       dateOfBirth: dateOfBirth ?? this.dateOfBirth,
       profileImagePath: clearProfileImage ? null : (profileImagePath ?? this.profileImagePath),
       email: email ?? this.email,
+      pregnancyStatus: clearPregnancyStatus ? null : (pregnancyStatus ?? this.pregnancyStatus),
     );
   }
 }

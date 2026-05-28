@@ -7,6 +7,7 @@ import '../../theme/app_colors.dart';
 import '../../widgets/charts/macro_ring_chart.dart';
 import '../../widgets/common/nutrition_progress_bar.dart';
 import '../../models/nutrition_goals.dart';
+import '../../core/constants/nutrition_constants.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../../services/recommendation_engine.dart';
@@ -901,21 +902,23 @@ class _DailySummarySheet extends StatelessWidget {
                     title: l10n.micronutrients,
                     rows: [
                       if (state.totalVitaminA > 0)
-                        _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: 800, unit: l10n.mcg, l10n: l10n),
+                        _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: NutritionConstants.vitaminAMcg, unit: l10n.mcg, l10n: l10n),
+                      if (state.totalVitaminB12 > 0)
+                        _SummaryRow(label: l10n.vitaminB, consumed: state.totalVitaminB12, goal: NutritionConstants.vitaminB12Mcg, unit: l10n.mcg, l10n: l10n),
                       if (state.totalVitaminC > 0)
-                        _SummaryRow(label: l10n.vitaminC, consumed: state.totalVitaminC, goal: 80, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.vitaminC, consumed: state.totalVitaminC, goal: NutritionConstants.vitaminCMg, unit: l10n.mg, l10n: l10n),
                       if (state.totalVitaminD > 0)
-                        _SummaryRow(label: l10n.vitaminD, consumed: state.totalVitaminD, goal: 15, unit: l10n.mcg, l10n: l10n),
+                        _SummaryRow(label: l10n.vitaminD, consumed: state.totalVitaminD, goal: NutritionConstants.vitaminDMcg, unit: l10n.mcg, l10n: l10n),
                       if (state.totalCalcium > 0)
-                        _SummaryRow(label: l10n.calcium, consumed: state.totalCalcium, goal: 1000, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.calcium, consumed: state.totalCalcium, goal: NutritionConstants.calciumMg, unit: l10n.mg, l10n: l10n),
                       if (state.totalIron > 0)
-                        _SummaryRow(label: l10n.iron, consumed: state.totalIron, goal: 14, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.iron, consumed: state.totalIron, goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
                       if (state.totalPotassium > 0)
-                        _SummaryRow(label: l10n.potassium, consumed: state.totalPotassium, goal: 3500, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.potassium, consumed: state.totalPotassium, goal: NutritionConstants.potassiumMg, unit: l10n.mg, l10n: l10n),
                       if (state.totalMagnesium > 0)
-                        _SummaryRow(label: l10n.magnesium, consumed: state.totalMagnesium, goal: 375, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.magnesium, consumed: state.totalMagnesium, goal: NutritionConstants.magnesiumMg, unit: l10n.mg, l10n: l10n),
                       if (state.totalZinc > 0)
-                        _SummaryRow(label: l10n.zinc, consumed: state.totalZinc, goal: 10, unit: l10n.mg, l10n: l10n),
+                        _SummaryRow(label: l10n.zinc, consumed: state.totalZinc, goal: NutritionConstants.zincForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
                     ],
                   ),
                 const SizedBox(height: 16),

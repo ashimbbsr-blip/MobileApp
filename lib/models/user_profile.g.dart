@@ -29,13 +29,14 @@ class UserProfileAdapter extends TypeAdapter<UserProfile> {
       dateOfBirth: fields[9] as DateTime?,
       profileImagePath: fields[10] as String?,
       email: fields[11] as String?,
+      pregnancyStatus: fields[12] as String?,
     );
   }
 
   @override
   void write(BinaryWriter writer, UserProfile obj) {
     writer
-      ..writeByte(12)
+      ..writeByte(13)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -59,7 +60,9 @@ class UserProfileAdapter extends TypeAdapter<UserProfile> {
       ..writeByte(10)
       ..write(obj.profileImagePath)
       ..writeByte(11)
-      ..write(obj.email);
+      ..write(obj.email)
+      ..writeByte(12)
+      ..write(obj.pregnancyStatus);
   }
 
   @override

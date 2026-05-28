@@ -89,7 +89,7 @@ class RecommendationEngine {
     // Default to 30 min when on-target; cap at 60 min to stay actionable.
     final excess = (cal - goals.calories).clamp(0.0, 500.0);
     final walkMins = (excess > 0 ? excess / 4.0 : 30.0).clamp(15.0, 60.0).round();
-    final walkSteps = walkMins * 100; // ~100 steps/min moderate pace
+    final walkSteps = walkMins * 115; // ~115 steps/min moderate pace
 
     // ── Food-pattern detection ────────────────────────────────────────────────
     final p = _detectPatterns(meals);
@@ -231,7 +231,8 @@ class RecommendationEngine {
       if (cat == 'sweets') sweets++;
       if (cat == 'beverage') bev++;
       if (cat == 'vegetable' || cat == 'fruit') veg++;
-      if (cat == 'meat' || cat == 'fish' || cat == 'dairy' || cat == 'protein') prot++;
+      if (cat == 'meat' || cat == 'fish' || cat == 'dairy' || cat == 'protein' ||
+          cat == 'dal' || cat == 'egg' || cat == 'nut' || cat == 'grain') prot++;
 
       // Fried food detection
       if (kws.contains('fried') || kws.contains('fry') ||

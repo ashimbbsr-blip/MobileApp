@@ -24,8 +24,8 @@ class NutritionGoals {
     proteinG: 120,
     carbsG: 225,
     fatG: 65,
-    fiberG: 38,
-    waterMl: 2500,
+    fiberG: 40,
+    waterMl: 2450,
     bmr: 1700,
     tdee: 2500,
   );

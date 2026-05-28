@@ -40,6 +40,7 @@ class DashboardState {
   double get totalPotassium => _microSum((f) => f.potassiumMg);
   double get totalMagnesium => _microSum((f) => f.magnesiumMg);
   double get totalZinc => _microSum((f) => f.zincMg);
+  double get totalVitaminB12 => _microSum((f) => f.vitaminB12Mcg);
 
   double get calorieProgress => goals != null && goals!.calories > 0
       ? (totalCalories / goals!.calories).clamp(0.0, 1.0)
