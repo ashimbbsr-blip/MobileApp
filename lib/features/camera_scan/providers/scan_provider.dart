@@ -1,28 +1,50 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:permission_handler/permission_handler.dart';
+import '../../../models/food_item.dart';
+import '../../../services/food_label_matcher.dart';
+import '../../../services/image_label_service.dart';
 
-enum ScanStatus { idle, scanning, detected, error, permissionDenied }
-
-class ScanResult {
-  final String foodName;
-  final double confidence;
-  ScanResult({required this.foodName, required this.confidence});
+enum ScanPhase {
+  idle,
+  capturing,
+  analyzing,
+  done,
+  noResults,
+  error,
+  permissionDenied,
 }
 
 class ScanState {
-  final ScanStatus status;
-  final ScanResult? result;
+  final ScanPhase phase;
+  final List<String> detectedLabels;
+  final List<FoodItem> suggestions;
+  final String? capturedImagePath;
   final String? errorMessage;
 
   const ScanState({
-    this.status = ScanStatus.idle,
-    this.result,
+    this.phase = ScanPhase.idle,
+    this.detectedLabels = const [],
+    this.suggestions = const [],
+    this.capturedImagePath,
     this.errorMessage,
   });
 
-  ScanState copyWith({ScanStatus? status, ScanResult? result, String? errorMessage}) {
+  bool get isLoading =>
+      phase == ScanPhase.capturing || phase == ScanPhase.analyzing;
+
+  ScanState copyWith({
+    ScanPhase? phase,
+    List<String>? detectedLabels,
+    List<FoodItem>? suggestions,
+    String? capturedImagePath,
+    String? errorMessage,
+  }) {
     return ScanState(
-      status: status ?? this.status,
-      result: result ?? this.result,
+      phase: phase ?? this.phase,
+      detectedLabels: detectedLabels ?? this.detectedLabels,
+      suggestions: suggestions ?? this.suggestions,
+      capturedImagePath: capturedImagePath ?? this.capturedImagePath,
       errorMessage: errorMessage,
     );
   }
@@ -31,24 +53,83 @@ class ScanState {
 class ScanNotifier extends StateNotifier<ScanState> {
   ScanNotifier() : super(const ScanState());
 
-  void setScanning() => state = const ScanState(status: ScanStatus.scanning);
+  final _picker = ImagePicker();
 
-  void setDetected(String foodName, double confidence) {
-    state = ScanState(
-      status: ScanStatus.detected,
-      result: ScanResult(foodName: foodName, confidence: confidence),
+  Future<void> captureAndAnalyze() async {
+    // ── 1. Camera permission ──────────────────────────────────────────
+    final camStatus = await Permission.camera.status;
+    if (camStatus.isDenied) {
+      final result = await Permission.camera.request();
+      if (!result.isGranted) {
+        state = state.copyWith(phase: ScanPhase.permissionDenied);
+        return;
+      }
+    } else if (camStatus.isPermanentlyDenied) {
+      state = state.copyWith(phase: ScanPhase.permissionDenied);
+      return;
+    }
+
+    // ── 2. Open camera ────────────────────────────────────────────────
+    state = state.copyWith(phase: ScanPhase.capturing);
+
+    final XFile? picked = await _picker.pickImage(
+      source: ImageSource.camera,
+      maxWidth: 1280,
+      maxHeight: 1280,
+      imageQuality: 88,
+      preferredCameraDevice: CameraDevice.rear,
     );
+
+    if (picked == null) {
+      // User cancelled — return to idle without error.
+      state = state.copyWith(phase: ScanPhase.idle);
+      return;
+    }
+
+    // ── 3. Compress + label ───────────────────────────────────────────
+    state = state.copyWith(
+      phase: ScanPhase.analyzing,
+      capturedImagePath: picked.path,
+    );
+
+    try {
+      final labels = await ImageLabelService.labelsFromFile(picked.path);
+
+      if (labels.isEmpty) {
+        state = state.copyWith(
+          phase: ScanPhase.noResults,
+          detectedLabels: const [],
+        );
+        return;
+      }
+
+      final suggestions = await FoodLabelMatcher.match(labels, maxResults: 6);
+
+      if (suggestions.isEmpty) {
+        state = state.copyWith(
+          phase: ScanPhase.noResults,
+          detectedLabels: labels,
+        );
+        return;
+      }
+
+      state = state.copyWith(
+        phase: ScanPhase.done,
+        detectedLabels: labels,
+        suggestions: suggestions,
+      );
+    } catch (e) {
+      state = state.copyWith(
+        phase: ScanPhase.error,
+        errorMessage: e.toString(),
+      );
+    }
   }
 
-  void setError(String message) {
-    state = ScanState(status: ScanStatus.error, errorMessage: message);
+  void reset() {
+    FoodLabelMatcher.clearCache();
+    state = const ScanState();
   }
-
-  void setPermissionDenied() {
-    state = const ScanState(status: ScanStatus.permissionDenied);
-  }
-
-  void reset() => state = const ScanState();
 }
 
 final scanProvider = StateNotifierProvider<ScanNotifier, ScanState>(

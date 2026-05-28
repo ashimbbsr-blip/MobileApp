@@ -5,6 +5,10 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
     <!-- Android 13+ granular media permissions (for profile photo picker) -->
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!-- Camera permission for food scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Camera is used for scan but app works without it -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
 
     <application
         android:label="Infinite Health Tracker"

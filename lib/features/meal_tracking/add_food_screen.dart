@@ -198,6 +198,42 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
   List<FoodItem> _results = [];
   bool _hasSearched = false;
 
+  Future<void> _handleEditCustom(FoodItem food) async {
+    final updated = await showEditCustomFoodSheet(context, food, widget.lang);
+    if (updated) _refreshResults();
+  }
+
+  Future<void> _handleDeleteCustom(FoodItem food) async {
+    final bn = widget.lang == 'bn';
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (_) => AlertDialog(
+        title: Text(bn ? 'মুছে ফেলবেন?' : 'Delete?'),
+        content: Text('"${food.name}"'),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.pop(context, false),
+              child: Text(bn ? 'বাতিল' : 'Cancel')),
+          FilledButton(
+              onPressed: () => Navigator.pop(context, true),
+              style: FilledButton.styleFrom(backgroundColor: Colors.red),
+              child: Text(bn ? 'মুছুন' : 'Delete')),
+        ],
+      ),
+    );
+    if (ok == true) {
+      await HiveStorage.deleteCustomFood(food.id);
+      _refreshResults();
+    }
+  }
+
+  void _refreshResults() {
+    final q = _ctrl.text.trim().toLowerCase();
+    setState(() {
+      _results = _mergedSearch(q, _selectedCategory);
+    });
+  }
+
   @override
   bool get wantKeepAlive => true;
 
@@ -400,14 +436,31 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
                   : ListView.builder(
                       padding: const EdgeInsets.fromLTRB(16, 10, 16, 20),
                       itemCount: _results.length,
-                      itemBuilder: (_, i) => _AddFoodTile(
-                        food: _results[i],
-                        lang: lang,
-                        isDark: isDark,
-                        onAdd: widget.onAdd,
-                      ),
+                      itemBuilder: (_, i) {
+                        final f = _results[i];
+                        final isCustom = f.isCustom || f.source == 'custom';
+                        return _AddFoodTile(
+                          food: f,
+                          lang: lang,
+                          isDark: isDark,
+                          onAdd: widget.onAdd,
+                          trailing: isCustom
+                              ? _CustomFoodActions(
+                                  onEdit: () => _handleEditCustom(f),
+                                  onDelete: () => _handleDeleteCustom(f),
+                                )
+                              : null,
+                        );
+                      },
                     ))
-              : _LocalIdle(lang: lang, theme: theme, onAdd: widget.onAdd, isDark: isDark),
+              : _LocalIdle(
+                  lang: lang,
+                  theme: theme,
+                  onAdd: widget.onAdd,
+                  isDark: isDark,
+                  onEditCustom: _handleEditCustom,
+                  onDeleteCustom: _handleDeleteCustom,
+                ),
         ),
       ],
     );
@@ -419,12 +472,16 @@ class _LocalIdle extends StatelessWidget {
   final ThemeData theme;
   final Future<void> Function(FoodItem, double) onAdd;
   final bool isDark;
+  final Future<void> Function(FoodItem)? onEditCustom;
+  final Future<void> Function(FoodItem)? onDeleteCustom;
 
   const _LocalIdle({
     required this.lang,
     required this.theme,
     required this.onAdd,
     required this.isDark,
+    this.onEditCustom,
+    this.onDeleteCustom,
   });
 
   @override
@@ -499,6 +556,16 @@ class _LocalIdle extends StatelessWidget {
                 lang: lang,
                 isDark: isDark,
                 onAdd: onAdd,
+                trailing: (onEditCustom != null || onDeleteCustom != null)
+                    ? _CustomFoodActions(
+                        onEdit: onEditCustom != null
+                            ? () => onEditCustom!(food)
+                            : null,
+                        onDelete: onDeleteCustom != null
+                            ? () => onDeleteCustom!(food)
+                            : null,
+                      )
+                    : null,
               )),
           if (customFoods.length > 3)
             Padding(
@@ -911,6 +978,11 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
     setState(() => _customFoods = HiveStorage.getCustomFoods());
   }
 
+  Future<void> _editFood(FoodItem food) async {
+    final updated = await showEditCustomFoodSheet(context, food, widget.lang);
+    if (updated) _reload();
+  }
+
   void _clearForm() {
     _nameCtrl.clear();
     _servingCtrl.text = '100';
@@ -1153,8 +1225,9 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
               lang: lang,
               isDark: isDark,
               onAdd: widget.onAdd,
-              trailing: GestureDetector(
-                onTap: () async {
+              trailing: _CustomFoodActions(
+                onEdit: () => _editFood(food),
+                onDelete: () async {
                   final ok = await showDialog<bool>(
                     context: context,
                     builder: (_) => AlertDialog(
@@ -1174,12 +1247,6 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                   );
                   if (ok == true) _delete(food.id);
                 },
-                child: Padding(
-                  padding: const EdgeInsets.all(6),
-                  child: Icon(Icons.delete_outline_rounded,
-                      size: 20,
-                      color: Colors.red.withValues(alpha: 0.7)),
-                ),
               ),
             )),
           ],
@@ -1428,6 +1495,307 @@ class _AddFoodTileState extends State<_AddFoodTile> {
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+// ── Custom food edit helpers ──────────────────────────────────────────────────
+
+/// Shows the edit sheet for [food]. Returns true if the user saved changes.
+Future<bool> showEditCustomFoodSheet(
+    BuildContext context, FoodItem food, String lang) async {
+  final result = await showModalBottomSheet<bool>(
+    context: context,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (_) => _EditCustomFoodSheet(food: food, lang: lang),
+  );
+  return result == true;
+}
+
+class _CustomFoodActions extends StatelessWidget {
+  final VoidCallback? onEdit;
+  final VoidCallback? onDelete;
+
+  const _CustomFoodActions({this.onEdit, this.onDelete});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        if (onEdit != null)
+          GestureDetector(
+            onTap: onEdit,
+            child: Padding(
+              padding: const EdgeInsets.all(6),
+              child: Icon(Icons.edit_outlined,
+                  size: 18,
+                  color: AppColors.secondary.withValues(alpha: 0.8)),
+            ),
+          ),
+        if (onDelete != null)
+          GestureDetector(
+            onTap: onDelete,
+            child: Padding(
+              padding: const EdgeInsets.all(6),
+              child: Icon(Icons.delete_outline_rounded,
+                  size: 18,
+                  color: Colors.red.withValues(alpha: 0.7)),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+class _EditCustomFoodSheet extends StatefulWidget {
+  final FoodItem food;
+  final String lang;
+  const _EditCustomFoodSheet({required this.food, required this.lang});
+
+  @override
+  State<_EditCustomFoodSheet> createState() => _EditCustomFoodSheetState();
+}
+
+class _EditCustomFoodSheetState extends State<_EditCustomFoodSheet> {
+  final _formKey = GlobalKey<FormState>();
+  late final TextEditingController _nameCtrl;
+  late final TextEditingController _servingCtrl;
+  late final TextEditingController _calCtrl;
+  late final TextEditingController _proteinCtrl;
+  late final TextEditingController _carbCtrl;
+  late final TextEditingController _fatCtrl;
+  late String _unit;
+  bool _saving = false;
+
+  @override
+  void initState() {
+    super.initState();
+    final f = widget.food;
+    _nameCtrl    = TextEditingController(text: f.name);
+    _servingCtrl = TextEditingController(text: f.servingSize.toStringAsFixed(0));
+    _calCtrl     = TextEditingController(text: f.calories.toStringAsFixed(0));
+    _proteinCtrl = TextEditingController(text: f.proteinG.toStringAsFixed(1));
+    _carbCtrl    = TextEditingController(text: f.carbsG.toStringAsFixed(1));
+    _fatCtrl     = TextEditingController(text: f.fatG.toStringAsFixed(1));
+    _unit        = f.servingUnit;
+  }
+
+  @override
+  void dispose() {
+    _nameCtrl.dispose();
+    _servingCtrl.dispose();
+    _calCtrl.dispose();
+    _proteinCtrl.dispose();
+    _carbCtrl.dispose();
+    _fatCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _save() async {
+    if (!_formKey.currentState!.validate() || _saving) return;
+    setState(() => _saving = true);
+    final updated = FoodItem(
+      id: widget.food.id,
+      name: _nameCtrl.text.trim(),
+      nameBn: widget.food.nameBn,
+      servingSize: double.tryParse(_servingCtrl.text) ?? widget.food.servingSize,
+      servingUnit: _unit,
+      calories: double.tryParse(_calCtrl.text) ?? widget.food.calories,
+      proteinG: double.tryParse(_proteinCtrl.text) ?? widget.food.proteinG,
+      carbsG: double.tryParse(_carbCtrl.text) ?? widget.food.carbsG,
+      fatG: double.tryParse(_fatCtrl.text) ?? widget.food.fatG,
+      fiberG: widget.food.fiberG,
+      isCustom: true,
+      source: 'custom',
+      category: widget.food.category,
+      keywords: widget.food.keywords,
+    );
+    await HiveStorage.saveCustomFood(updated);
+    if (mounted) Navigator.of(context).pop(true);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final bn = widget.lang == 'bn';
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      child: Container(
+        decoration: BoxDecoration(
+          color: isDark ? AppColors.darkCard : Colors.white,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(22)),
+        ),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.fromLTRB(20, 16, 20, 24),
+          child: Form(
+            key: _formKey,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Handle
+                Center(
+                  child: Container(
+                    width: 40, height: 4,
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade300,
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 14),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF7B61FF).withValues(alpha: 0.12),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: const Icon(Icons.edit_rounded,
+                          color: Color(0xFF7B61FF), size: 20),
+                    ),
+                    const SizedBox(width: 10),
+                    Text(
+                      bn ? 'খাবার সম্পাদনা' : 'Edit Custom Food',
+                      style: theme.textTheme.titleMedium
+                          ?.copyWith(fontWeight: FontWeight.w800),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                _SheetField(
+                  controller: _nameCtrl,
+                  label: bn ? 'খাবারের নাম *' : 'Food Name *',
+                  hint: '',
+                  validator: (v) => (v == null || v.trim().isEmpty)
+                      ? (bn ? 'নাম দিন' : 'Required')
+                      : null,
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: _SheetField(
+                        controller: _servingCtrl,
+                        label: bn ? 'পরিমাণ *' : 'Serving *',
+                        hint: '100',
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        inputFormatters: [
+                          FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                        ],
+                        validator: (v) => (double.tryParse(v ?? '') ?? 0) <= 0
+                            ? (bn ? 'পরিমাণ দিন' : 'Enter amount')
+                            : null,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      flex: 2,
+                      child: DropdownButtonFormField<String>(
+                        value: ['g', 'ml', 'pcs', 'oz', 'cup'].contains(_unit) ? _unit : 'g',
+                        decoration: InputDecoration(
+                          labelText: bn ? 'একক' : 'Unit',
+                          contentPadding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 14),
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10)),
+                        ),
+                        items: ['g', 'ml', 'pcs', 'oz', 'cup']
+                            .map((u) => DropdownMenuItem(value: u, child: Text(u)))
+                            .toList(),
+                        onChanged: (v) => setState(() => _unit = v ?? 'g'),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 10),
+                _SheetField(
+                  controller: _calCtrl,
+                  label: bn ? 'ক্যালোরি (kcal) *' : 'Calories (kcal) *',
+                  hint: '0',
+                  keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                  inputFormatters: [
+                    FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                  ],
+                  validator: (v) => double.tryParse(v ?? '') == null
+                      ? (bn ? 'ক্যালোরি দিন' : 'Required')
+                      : null,
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  children: [
+                    Expanded(
+                      child: _SheetField(
+                        controller: _proteinCtrl,
+                        label: bn ? 'প্রোটিন (g)' : 'Protein (g)',
+                        hint: '0',
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        inputFormatters: [
+                          FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                        ],
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: _SheetField(
+                        controller: _carbCtrl,
+                        label: bn ? 'কার্বস (g)' : 'Carbs (g)',
+                        hint: '0',
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        inputFormatters: [
+                          FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                        ],
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: _SheetField(
+                        controller: _fatCtrl,
+                        label: bn ? 'ফ্যাট (g)' : 'Fat (g)',
+                        hint: '0',
+                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        inputFormatters: [
+                          FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                SizedBox(
+                  width: double.infinity,
+                  child: FilledButton.icon(
+                    onPressed: _saving ? null : _save,
+                    icon: _saving
+                        ? const SizedBox(
+                            width: 16, height: 16,
+                            child: CircularProgressIndicator(
+                                strokeWidth: 2, color: Colors.white))
+                        : const Icon(Icons.save_rounded, size: 18),
+                    label: Text(
+                      bn ? 'সংরক্ষণ করুন' : 'Save Changes',
+                      style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
+                    ),
+                    style: FilledButton.styleFrom(
+                      backgroundColor: const Color(0xFF7B61FF),
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 13),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12)),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

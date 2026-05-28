@@ -29,9 +29,10 @@ dependencies:
   # Charts
   fl_chart: ^0.68.0
 
-  # Profile photo picker & compression (camera scan removed)
+  # Camera scan: image capture, compression, ML Kit on-device labeling
   image_picker: ^1.1.2
   flutter_image_compress: ^2.3.0
+  google_mlkit_image_labeling: ^0.11.0
 
   # Export & Share
   share_plus: ^10.0.0
