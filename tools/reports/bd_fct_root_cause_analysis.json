@@ -1,5 +1,5 @@
 {
-  "source_mode": "v5_3_raw_parse",
+  "source_mode": "pdf",
   "pdf_path_checked": [
     "C:\\Users\\ideapad\\IdeaProjects\\MobileApp\\assets\\data\\FCT_10_2_14_final_version.pdf",
     "C:\\Users\\ideapad\\IdeaProjects\\MobileApp\\FCT_10_2_14_final_version.pdf",
@@ -7,7 +7,7 @@
     "C:\\Users\\ideapad\\Desktop\\FCT_10_2_14_final_version.pdf",
     "C:\\Users\\ideapad\\Documents\\FCT_10_2_14_final_version.pdf"
   ],
-  "pdf_found": null,
+  "pdf_found": "C:\\Users\\ideapad\\IdeaProjects\\MobileApp\\assets\\data\\FCT_10_2_14_final_version.pdf",
   "total_bd_fct_records_v5_3": 287,
   "total_bd_fct_records_v5_8": 283,
   "dropped_between_v5_3_v5_8": {

@@ -16,7 +16,7 @@ class LocalSearchService {
     try {
       final results = await Future.wait([
         rootBundle.loadString('assets/data/index_en_v6_0.json'),
-        rootBundle.loadString('assets/data/index_bn_v6_0.json'),
+        rootBundle.loadString('assets/data/index_bn_v6_1.json'),
       ]);
       _indexEn = _parseIndex(results[0]);
       _indexBn = _parseIndex(results[1]);

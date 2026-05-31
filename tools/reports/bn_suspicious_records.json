@@ -1,0 +1,1920 @@
+{
+  "total_suspicious": 228,
+  "records": [
+    {
+      "id": 2,
+      "en": "Coffee drops",
+      "bn": "কফি দরোপস",
+      "reasons": [
+        "contains_ocr_artifact: 'দরোপস'"
+      ]
+    },
+    {
+      "id": 3,
+      "en": "Coffee pear alaska",
+      "bn": "কফি পোর ালাসকা",
+      "reasons": [
+        "contains_ocr_artifact: 'ালাসকা'",
+        "contains_ocr_artifact: 'পোর '",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 6,
+      "en": "Espreso coffee",
+      "bn": "েসপরেসো কফি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 19,
+      "en": "Bacon and mushroom pancake",
+      "bn": "বাকোন ানদ মুশরুম পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 22,
+      "en": "Buckwheat pancake",
+      "bn": "বুককওহোত পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 24,
+      "en": "Cereal pulse mix with amylase rice flour",
+      "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'ফলউর'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 30,
+      "en": "Instant idli",
+      "bn": "িনসতানত ইডলি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 31,
+      "en": "Jam and fruit pancake",
+      "bn": "জাম ানদ ফরুিত পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 41,
+      "en": "Pancake",
+      "bn": "পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 51,
+      "en": "Vegetable pancake",
+      "bn": "ভেগেতাবলে পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 56,
+      "en": "Butter icing",
+      "bn": "মাখন িকিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 58,
+      "en": "Cheese and chilli sandwich",
+      "bn": "চিজ ানদ চিললি স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 61,
+      "en": "Cheese open sandwich",
+      "bn": "চিজ োপেন স্যান্ডউইচ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 65,
+      "en": "Cheese sauce",
+      "bn": "চিজ সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 71,
+      "en": "Chocolate butter icing",
+      "bn": "চোকোলাতে মাখন িকিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 72,
+      "en": "Chocolate cream shells",
+      "bn": "চোকোলাতে ক্রিম শেললস",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 73,
+      "en": "Chocolate ice cream",
+      "bn": "চোকোলাতে আইসক্রিম",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 77,
+      "en": "Cornflakes with milk",
+      "bn": "কর্নফ্লেক্স ওিথ দুধ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 81,
+      "en": "Cream of tomato soup",
+      "bn": "ক্রিম োফ টমেটো স্যুপ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 83,
+      "en": "Cucumber and yogurt salad",
+      "bn": "কুকুমবের ানদ দই সালাদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 88,
+      "en": "Curd with potatoes",
+      "bn": "দই ওিথ পোতাতোেস",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 90,
+      "en": "Gulab Jamun with khoya",
+      "bn": "গুলাব জামুন ওিথ খোয়া",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 94,
+      "en": "Khoa and coconut pancake",
+      "bn": "খোয়া ানদ নারকেল পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 100,
+      "en": "Mashed banana with milk",
+      "bn": "মাশেদ কলা ওিথ দুধ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 102,
+      "en": "Milk cake",
+      "bn": "দুধ কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 104,
+      "en": "Mushroom and cheese sandwich",
+      "bn": "মুশরুম ানদ চিজ স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 105,
+      "en": "Orange and pineapple cream",
+      "bn": "কমলা ানদ আনারস ক্রিম",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 107,
+      "en": "Paneer and pea samosa",
+      "bn": "পনির ানদ পো সমোসা",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 109,
+      "en": "Paneer in butter sauce",
+      "bn": "পনির িন মাখন সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 120,
+      "en": "Paneer stuffed cheela/chilla",
+      "bn": "পনির সতুফফেদ চেেলা/চিললা",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 121,
+      "en": "Paneer, apple and pineapple salad",
+      "bn": "পানির, আপেল ানদ আনারস সালাদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 122,
+      "en": "Pasta cheese sauce",
+      "bn": "পাস্তা চিজ সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 126,
+      "en": "Plain cream cake",
+      "bn": "সাদা ক্রিম কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 127,
+      "en": "Poha with curd",
+      "bn": "চিড়া ওিথ দই",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 131,
+      "en": "Semolina ladoo with khoya",
+      "bn": "সেমোলিনা লাড্ডু ওিথ খোয়া",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 134,
+      "en": "Spaghetti and cheese balls in tomato sauce",
+      "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'",
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 135,
+      "en": "Strawberry and vanilla cake with butter icing",
+      "bn": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 140,
+      "en": "Atta dal burfi",
+      "bn": "াততা ডাল বুরফি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 148,
+      "en": "Instant dhokla",
+      "bn": "িনসতানত ঢোকলা",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 150,
+      "en": "Maa chaane ki dal",
+      "bn": "মআ চাানে কি ডাল",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 159,
+      "en": "Rasam with tamarind",
+      "bn": "রসম ওিথ তেঁতুল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 161,
+      "en": "Rice moong dal cheela",
+      "bn": "ভাত মুগ ডাল চেেলা",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 165,
+      "en": "Washed moong dal",
+      "bn": "ওাশেদ মুগ ডাল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওাশেদ'"
+      ]
+    },
+    {
+      "id": 166,
+      "en": "Washed urad dal",
+      "bn": "ওাশেদ উড়দ ডাল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওাশেদ'"
+      ]
+    },
+    {
+      "id": 167,
+      "en": "Wheat flour and moong dal burfi",
+      "bn": "গম ফলউর ানদ মুগ ডাল বুরফি",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'ফলউর'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 197,
+      "en": "Baked fish with cheese sauce",
+      "bn": "বেক মাছ ওিথ চিজ সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 204,
+      "en": "Crispy baked fish",
+      "bn": "করিসপয বেক মাছ",
+      "reasons": [
+        "contains_ocr_artifact: 'করিসপয'"
+      ]
+    },
+    {
+      "id": 212,
+      "en": "Fish in coconut milk",
+      "bn": "মাছ িন নারকেল দুধ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 213,
+      "en": "Fish orly",
+      "bn": "মাছ োরলয",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 233,
+      "en": "Tandoori fish",
+      "bn": "তানদুরি মাছ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 249,
+      "en": "Beans with coconut",
+      "bn": "শিম ওিথ নারকেল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 261,
+      "en": "Grape and orange whip",
+      "bn": "গরাপে ানদ কমলা ওহিপ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 268,
+      "en": "Mango cheesecake",
+      "bn": "আম চেেসেকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 271,
+      "en": "Mango murabba candy",
+      "bn": "আম মুরাববা কানদয",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 280,
+      "en": "Orange omelette/omlet",
+      "bn": "কমলা োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 292,
+      "en": "Raw papaya with coconut",
+      "bn": "রাও পেঁপে ওিথ নারকেল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 293,
+      "en": "Raw turnip with coconut",
+      "bn": "রাও তুরনিপ ওিথ নারকেল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 294,
+      "en": "Vegetable curry with coconut",
+      "bn": "সবজির তরকারি ওিথ নারকেল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 315,
+      "en": "Afghani chicken",
+      "bn": "াফঘানি চিকেন",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 318,
+      "en": "Broccoli chicken ala king",
+      "bn": "বরোককোলি চিকেন ালা কিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'বরোককোলি'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 324,
+      "en": "Chicken and tomato towers",
+      "bn": "চিকেন ানদ টমেটো তোওেরস",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 340,
+      "en": "Fried chicken with tomato sauce",
+      "bn": "ভাজা চিকেন ওিথ টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 342,
+      "en": "Handi chicken",
+      "bn": "হানদি চিকেন",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 345,
+      "en": "Keema pancake",
+      "bn": "কিমা পানকাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 359,
+      "en": "Tandoori chicken",
+      "bn": "তানদুরি চিকেন",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 361,
+      "en": "Beans and macaroni",
+      "bn": "শিম ানদ মাকারোনি",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 363,
+      "en": "Classic italian pasta",
+      "bn": "কলাসসিক িতালিান পাস্তা",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 366,
+      "en": "Meat and macaroni casserole",
+      "bn": "মোত ানদ মাকারোনি কাসসেরোলে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 370,
+      "en": "Spaghetti with meat balls and tomato sauce",
+      "bn": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'",
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 377,
+      "en": "Cherry and walnut cookies",
+      "bn": "চেররয ানদ আখরোট কুকিেস",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 378,
+      "en": "Chocolate walnut cookies",
+      "bn": "চোকোলাতে আখরোট কুকিেস",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 386,
+      "en": "Al yakhani",
+      "bn": "াল যাখানি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 387,
+      "en": "American frosting",
+      "bn": "ামেরিকান ফরোসতিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 388,
+      "en": "Apricot fool",
+      "bn": "াপরিকোত ফুল",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 389,
+      "en": "Assorted pastry",
+      "bn": "াসসোরতেদ পাসতরয",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 390,
+      "en": "Avial",
+      "bn": "াভিাল",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 391,
+      "en": "Baked eggs in tomato sauce",
+      "bn": "বেক েগগস িন টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 393,
+      "en": "Barbeque sauce",
+      "bn": "বারবেকুে সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 397,
+      "en": "Besan bathua chilla/cheela",
+      "bn": "বেসান বাথুা চিললা/চেেলা",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 399,
+      "en": "Besan kadhi with pakodies",
+      "bn": "বেসান কাড়ি ওিথ পাকোদিেস",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 403,
+      "en": "Broccoli delight",
+      "bn": "বরোককোলি দেলিঘত",
+      "reasons": [
+        "contains_ocr_artifact: 'বরোককোলি'"
+      ]
+    },
+    {
+      "id": 404,
+      "en": "Brown sauce",
+      "bn": "বাদামি সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 408,
+      "en": "Carrot and fenugreek leaves",
+      "bn": "গাজর ানদ ফেনুগরিক লোভেস",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 416,
+      "en": "Chickpea flour cookies",
+      "bn": "চিককপো ফলউর কুকিেস",
+      "reasons": [
+        "contains_ocr_artifact: 'ফলউর'"
+      ]
+    },
+    {
+      "id": 418,
+      "en": "Chocolate burfi",
+      "bn": "চোকোলাতে বুরফি",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 419,
+      "en": "Chocolate chip cookies",
+      "bn": "চোকোলাতে চিপ কুকিেস",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 420,
+      "en": "Chocolate eclairs",
+      "bn": "চোকোলাতে েকলআইরস",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 421,
+      "en": "Chocolate glace icing",
+      "bn": "চোকোলাতে গলাকে িকিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 422,
+      "en": "Chocolate meringue pie",
+      "bn": "চোকোলাতে মেরিনগুে পিে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 423,
+      "en": "Chocolate pastry",
+      "bn": "চোকোলাতে পাসতরয",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 424,
+      "en": "Chocolate sauce",
+      "bn": "চোকোলাতে সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 425,
+      "en": "Chocolate souffle",
+      "bn": "চোকোলাতে সউফফলে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 430,
+      "en": "Cold chocolate souffle",
+      "bn": "কোলদ চোকোলাতে সউফফলে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 435,
+      "en": "Coriander chutney",
+      "bn": "কোরিানদের চাটনি",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 436,
+      "en": "Corn omelette/omlet",
+      "bn": "ভুট্টা োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 444,
+      "en": "Date and nut pie",
+      "bn": "দাতে ানদ নুত পিে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 448,
+      "en": "Dry arbi",
+      "bn": "দরয ারবি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 450,
+      "en": "Dry washed urad",
+      "bn": "দরয ওাশেদ ুরাদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওাশেদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 451,
+      "en": "Fermented bamboo shoot pickle",
+      "bn": "ফেরমেনতেদ বামবু শোোত আচার",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 456,
+      "en": "French omelette/omlet",
+      "bn": "ফরেনচ োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 457,
+      "en": "Fricassee of Mushroom",
+      "bn": "ফরিকাসসি োফ মুশরুম",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 466,
+      "en": "Ginger candy",
+      "bn": "আদা কানদয",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 468,
+      "en": "Glace icing",
+      "bn": "গলাকে িকিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 472,
+      "en": "Gram flour burfi",
+      "bn": "গরাম ফলউর বুরফি",
+      "reasons": [
+        "contains_ocr_artifact: 'ফলউর'"
+      ]
+    },
+    {
+      "id": 475,
+      "en": "Green gram whole with baghar",
+      "bn": "গরিন গরাম ওহোলে ওিথ বাঘার",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 478,
+      "en": "Gujarati handvo",
+      "bn": "গুজারাতি হানদভো",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 479,
+      "en": "Gum icing",
+      "bn": "গুম িকিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 483,
+      "en": "Hot cherry sauce",
+      "bn": "হোত চেররয সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 484,
+      "en": "Hot chocolate souffle",
+      "bn": "হোত চোকোলাতে সউফফলে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 488,
+      "en": "Ice box cookies",
+      "bn": "িকে বোক্স কুকিেস",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 491,
+      "en": "Jhatpat achar with carrot",
+      "bn": "ঝাতপাত াচার ওিথ গাজর",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 502,
+      "en": "Lasagne with meat sauce",
+      "bn": "লাসাগনে ওিথ মোত সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 504,
+      "en": "Lemon and ginger squash",
+      "bn": "লেবু ানদ আদা সকুাশ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 512,
+      "en": "Lentils and semolina porridge",
+      "bn": "লেনতিলস ানদ সেমোলিনা পোররিদগে",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 520,
+      "en": "Masala arbi",
+      "bn": "মশলা ারবি",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 524,
+      "en": "Mayonnaise without eggs",
+      "bn": "মেয়োনিজ ওিথোুত েগগস",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 530,
+      "en": "Mint and coriander chutney",
+      "bn": "মিনত ানদ কোরিানদের চাটনি",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 537,
+      "en": "Mushroom sauce",
+      "bn": "মুশরুম সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 538,
+      "en": "Mustard sauce",
+      "bn": "মুসতারদ সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 550,
+      "en": "Pear chocholate sunday",
+      "bn": "পোর চোচোলাতে সুনদায",
+      "reasons": [
+        "contains_ocr_artifact: 'পোর '"
+      ]
+    },
+    {
+      "id": 551,
+      "en": "Pear preserves",
+      "bn": "পোর পরেসেরভেস",
+      "reasons": [
+        "contains_ocr_artifact: 'পোর '"
+      ]
+    },
+    {
+      "id": 558,
+      "en": "Plain omelette/omlet",
+      "bn": "সাদা োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 562,
+      "en": "Poshtik chilla/cheela",
+      "bn": "পোশতিক চিললা/চেেলা",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 565,
+      "en": "Puffy omelette/omlet",
+      "bn": "পুফফয োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 573,
+      "en": "Royal icing",
+      "bn": "রোযাল িকিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 579,
+      "en": "Saunth/Sonth chutney with tamarind/imli",
+      "bn": "সআউনথ/সোনথ চাটনি ওিথ তামারিনদ/িমলি",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 580,
+      "en": "Sauteed radishes with green beans",
+      "bn": "সআউতিদ রাদিশেস ওিথ গরিন শিম",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 590,
+      "en": "Shishu ahar",
+      "bn": "শিশু াহার",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 599,
+      "en": "Spanish omelette/omlet",
+      "bn": "সপানিশ োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 601,
+      "en": "Stewed fruit",
+      "bn": "সতেওেদ ফরুিত",
+      "reasons": [
+        "contains_ocr_artifact: 'সতেওেদ'"
+      ]
+    },
+    {
+      "id": 609,
+      "en": "Tartare sauce",
+      "bn": "তারতারে সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 610,
+      "en": "Thandai",
+      "bn": "থানদআই",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 611,
+      "en": "Thousand island dressing",
+      "bn": "থোুসানদ িসলানদ দরেসসিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 612,
+      "en": "Tomato aspic",
+      "bn": "টমেটো াসপিক",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 616,
+      "en": "Tomato sauce",
+      "bn": "টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 617,
+      "en": "Urad sabut special",
+      "bn": "ুরাদ সাবুত সপেকিাল",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 618,
+      "en": "Urad special dehusked",
+      "bn": "ুরাদ সপেকিাল দেহুসকেদ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 630,
+      "en": "White sauce",
+      "bn": "সাদা সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 635,
+      "en": "Whole urad",
+      "bn": "ওহোলে ুরাদ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 639,
+      "en": "Beetroot and egg salad",
+      "bn": "বিতরুত ানদ ডিম সালাদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'বিতরুত'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 644,
+      "en": "Egg and tomato sandwich",
+      "bn": "ডিম ানদ টমেটো স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 648,
+      "en": "Egg in a pepper",
+      "bn": "ডিম িন া পেপপের",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 651,
+      "en": "Egg sauce",
+      "bn": "ডিম সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 655,
+      "en": "Indian lamb and egg curry",
+      "bn": "িনদিান লামব ানদ ডিমের ঝোল",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 656,
+      "en": "Indian style egg bhujia",
+      "bn": "িনদিান সতযলে ডিম ভুজিা )",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 662,
+      "en": "Stuffed egg omelette/omlet",
+      "bn": "সতুফফেদ ডিম োমেলেততে/োমলেত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 663,
+      "en": "Vanilla ice cream without egg",
+      "bn": "ভানিললা আইসক্রিম ওিথোুত ডিম",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 700,
+      "en": "Beetroot poori",
+      "bn": "বিতরুত পুরি",
+      "reasons": [
+        "contains_ocr_artifact: 'বিতরুত'"
+      ]
+    },
+    {
+      "id": 701,
+      "en": "Besan and spinach parantha/paratha",
+      "bn": "বেসান ানদ পালং পারানথা/পারাথা",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 704,
+      "en": "Bread and butter pudding",
+      "bn": "পাউরুটি ানদ মাখন পুদদিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 707,
+      "en": "Bread sauce",
+      "bn": "পাউরুটি সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 719,
+      "en": "Onion-green chilli parantha/paratha",
+      "bn": "োনিোন-গরিন চিললি পারানথা/পারাথা",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 735,
+      "en": "Tandoori parantha/paratha",
+      "bn": "তানদুরি পারানথা/পারাথা",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 750,
+      "en": "Mixed pulse and vegetable salad",
+      "bn": "মিশ্র পুলসে ানদ ভেগেতাবলে সালাদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 771,
+      "en": "Chocolate biscuit",
+      "bn": "চোকোলাতে বিসকুিত",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 772,
+      "en": "Chocolate swiss roll",
+      "bn": "চোকোলাতে সওিসস রোল",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 808,
+      "en": "Olive biscuit",
+      "bn": "োলিভে বিসকুিত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 813,
+      "en": "Peanut and tomato sandwich",
+      "bn": "চিনাবাদাম ানদ টমেটো স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 835,
+      "en": "Sunset and sunrise open sandwich",
+      "bn": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 837,
+      "en": "Tomato and cucumber sandwich",
+      "bn": "টমেটো ানদ কুকুমবের স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 843,
+      "en": "Vegetable and mayonnaise sandwich",
+      "bn": "ভেগেতাবলে ানদ মেয়োনিজ স্যান্ডউইচ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 861,
+      "en": "Ham and Bean soup",
+      "bn": "হাম ানদ বোন স্যুপ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 862,
+      "en": "Hot and sour soup",
+      "bn": "হোত ানদ সউর স্যুপ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 863,
+      "en": "Lemon coriander soup",
+      "bn": "লেবু কোরিানদের স্যুপ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'"
+      ]
+    },
+    {
+      "id": 872,
+      "en": "Almond cardamom cake",
+      "bn": "বাদাম কারদামোম কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 873,
+      "en": "Amaranth ladoo",
+      "bn": "ামারানথ লাড্ডু",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 874,
+      "en": "Apple and honey sorbet",
+      "bn": "আপেল ানদ হোনেয সোরবেত",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 875,
+      "en": "Apple cake",
+      "bn": "আপেল কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 879,
+      "en": "Baked custard",
+      "bn": "বেক কুসতারদ",
+      "reasons": [
+        "contains_ocr_artifact: 'কুসতারদ'"
+      ]
+    },
+    {
+      "id": 880,
+      "en": "Banana cake",
+      "bn": "কলা কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 882,
+      "en": "Caramel custard",
+      "bn": "কারামেল কুসতারদ",
+      "reasons": [
+        "contains_ocr_artifact: 'কুসতারদ'"
+      ]
+    },
+    {
+      "id": 883,
+      "en": "Carrot cake",
+      "bn": "গাজর কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 886,
+      "en": "Chocolate cake",
+      "bn": "চোকোলাতে কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 887,
+      "en": "Chocolate chiffon cake",
+      "bn": "চোকোলাতে চিফফোন কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 888,
+      "en": "Chocolate eggless cake",
+      "bn": "চোকোলাতে েগগলেসস কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 889,
+      "en": "Chocolate pudding",
+      "bn": "চোকোলাতে পুদদিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 890,
+      "en": "Chocolate sponge cake",
+      "bn": "চোকোলাতে সপোনগে কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 891,
+      "en": "Christmas cake",
+      "bn": "চরিসতমাস কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 893,
+      "en": "Creamy chocolate mousse",
+      "bn": "করোময চোকোলাতে মউসসে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 894,
+      "en": "Custard tart",
+      "bn": "কুসতারদ তারত",
+      "reasons": [
+        "contains_ocr_artifact: 'কুসতারদ'"
+      ]
+    },
+    {
+      "id": 895,
+      "en": "Dundee cake",
+      "bn": "দুনদি কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 896,
+      "en": "Eggless cake",
+      "bn": "েগগলেসস কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 898,
+      "en": "Honey cake",
+      "bn": "হোনেয কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 901,
+      "en": "Lemon cake",
+      "bn": "লেবু কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 906,
+      "en": "Mango vanilla custard",
+      "bn": "আম ভানিললা কুসতারদ",
+      "reasons": [
+        "contains_ocr_artifact: 'কুসতারদ'"
+      ]
+    },
+    {
+      "id": 907,
+      "en": "Marble cake",
+      "bn": "মারবলে কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 908,
+      "en": "Meringue and rice pudding",
+      "bn": "মেরিনগুে ানদ ভাত পুদদিনগ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 909,
+      "en": "Orange cake",
+      "bn": "কমলা কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 910,
+      "en": "Orange eggless cake",
+      "bn": "কমলা েগগলেসস কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 913,
+      "en": "Pineapple cake",
+      "bn": "আনারস কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 915,
+      "en": "Pineapple upside down pudding",
+      "bn": "আনারস ুপসিদে দোওন পুদদিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 916,
+      "en": "Queen of pudding",
+      "bn": "কুিন োফ পুদদিনগ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 919,
+      "en": "Rich chocolate mousse",
+      "bn": "রিচ চোকোলাতে মউসসে",
+      "reasons": [
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 920,
+      "en": "Semolina cake",
+      "bn": "সেমোলিনা কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 926,
+      "en": "Soft Custard",
+      "bn": "সোফত কুসতারদ",
+      "reasons": [
+        "contains_ocr_artifact: 'কুসতারদ'"
+      ]
+    },
+    {
+      "id": 927,
+      "en": "Soya chunks sweet and sour",
+      "bn": "সোযা চুনকস মিষ্টি ানদ সউর",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 928,
+      "en": "Sponge cake",
+      "bn": "সপোনগে কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 929,
+      "en": "Steamed cake with chocolate sauce",
+      "bn": "স্টিম কাকে ওিথ চোকোলাতে সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'",
+        "contains_ocr_artifact: 'কাকে'",
+        "contains_ocr_artifact: 'চোকোলাতে'"
+      ]
+    },
+    {
+      "id": 931,
+      "en": "Stewed apple with custard",
+      "bn": "সতেওেদ আপেল ওিথ কুসতারদ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'কুসতারদ'",
+        "contains_ocr_artifact: 'সতেওেদ'"
+      ]
+    },
+    {
+      "id": 932,
+      "en": "Sweet and salty biscuit",
+      "bn": "মিষ্টি ানদ সালতয বিসকুিত",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 936,
+      "en": "Sweet open sandwich",
+      "bn": "মিষ্টি োপেন স্যান্ডউইচ",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 943,
+      "en": "Tutti frutti cake",
+      "bn": "তুততি ফরুততি কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 945,
+      "en": "Victorian sandwich cake",
+      "bn": "ভিকতোরিান স্যান্ডউইচ কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 946,
+      "en": "Wheat and gram flour ladoo",
+      "bn": "গম ানদ গরাম ফলউর লাড্ডু",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "contains_ocr_artifact: 'ফলউর'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 947,
+      "en": "Wheat cake",
+      "bn": "গম কাকে",
+      "reasons": [
+        "contains_ocr_artifact: 'কাকে'"
+      ]
+    },
+    {
+      "id": 971,
+      "en": "Arhar with spinach",
+      "bn": "ারহার ওিথ পালং",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 972,
+      "en": "Baked brinjal in tomato sauce",
+      "bn": "বেক বেগুন িন টমেটো সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 973,
+      "en": "Baked potato with skin",
+      "bn": "বেক আলু ওিথ সকিন",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 977,
+      "en": "Cabbage and peas",
+      "bn": "বাঁধাকপি ানদ মটর",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 991,
+      "en": "Cauliflower with coconut",
+      "bn": "ফুলকপি ওিথ নারকেল",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 992,
+      "en": "Cauliflower, pea and potato bhujia",
+      "bn": "কআউলিফলোওের, পো ানদ আলু ভুজিা",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 993,
+      "en": "Chinese cabbage and meat ball soup",
+      "bn": "চিনেসে বাঁধাকপি ানদ মোত বালল স্যুপ",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 994,
+      "en": "Creamed spinach and mushroom",
+      "bn": "করোমেদ পালং ানদ মুশরুম",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 995,
+      "en": "Crispy okra/Crispy lady's fingers",
+      "bn": "করিসপয োকরা/করিসপয লাদয'স ফিনগেরস",
+      "reasons": [
+        "contains_ocr_artifact: 'করিসপয'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 998,
+      "en": "Ducheese potato",
+      "bn": "দুচেেসে আলু",
+      "reasons": [
+        "duplicate_vowel_signs"
+      ]
+    },
+    {
+      "id": 999,
+      "en": "Dum aloo",
+      "bn": "দুম ালু",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 1000,
+      "en": "Eggplant/Brinjal rice",
+      "bn": "েগগপলানত/বরিনজাল ভাত",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 1001,
+      "en": "Fettuccine with spinach sauce",
+      "bn": "ফেততুককিনে ওিথ পালং সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'",
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 1010,
+      "en": "Okra/Lady's fingers fry",
+      "bn": "োকরা/লাদয'স ফিনগেরস ভাজা",
+      "reasons": [
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 1013,
+      "en": "Pasta spinach sauce",
+      "bn": "পাস্তা পালং সআউকে",
+      "reasons": [
+        "contains_ocr_artifact: 'সআউকে'"
+      ]
+    },
+    {
+      "id": 1032,
+      "en": "Potato with curd",
+      "bn": "আলু ওিথ দই",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 1041,
+      "en": "Spinach and potato",
+      "bn": "পালং ানদ আলু",
+      "reasons": [
+        "contains_ocr_artifact: 'ানদ'",
+        "dangling_vowel_sign"
+      ]
+    },
+    {
+      "id": 1053,
+      "en": "Split bengal gram with bottle gourd",
+      "bn": "সপলিত বেনগাল গরাম ওিথ বোততলে লাউ",
+      "reasons": [
+        "contains_ocr_artifact: 'ওিথ'"
+      ]
+    },
+    {
+      "id": 1079,
+      "en": "Rice, BR-28, parboiled, milled, raw",
+      "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া",
+      "reasons": [
+        "mixed_latin_bengali_script"
+      ]
+    },
+    {
+      "id": 1094,
+      "en": "Rice, BR-28, boiled* (without salt)",
+      "bn": "ভাত, BR-28",
+      "reasons": [
+        "mixed_latin_bengali_script"
+      ]
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP4)",
+      "reasons": [
+        "mixed_latin_bengali_script"
+      ]
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP8)",
+      "reasons": [
+        "mixed_latin_bengali_script"
+      ]
+    },
+    {
+      "id": 1194,
+      "en": "Potato, Diamond, raw",
+      "bn": "গোল আলু, Diamond জাত",
+      "reasons": [
+        "mixed_latin_bengali_script"
+      ]
+    }
+  ]
+}

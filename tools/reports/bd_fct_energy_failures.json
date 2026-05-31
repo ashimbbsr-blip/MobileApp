@@ -1,79 +1,25 @@
 {
-  "total_sources_checked": 287,
-  "failures": 8,
+  "total_sources_checked": 364,
+  "failures": 2,
   "threshold_pct": 25.0,
   "records": [
     {
-      "source_id": 1124,
-      "food": "Garlic, raw",
-      "energy_kcal": 623.0,
-      "expected_kcal": 256.8,
-      "diff_pct": 58.8,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
+      "source_id": "14_0010",
+      "food": "Water, drinking Khabar pani",
+      "energy_kcal": 0.0,
+      "expected_kcal": 0.0,
+      "diff_pct": 100.0,
+      "tier": "pdf",
+      "note": "Residual mismatch after reconstruction"
     },
     {
-      "source_id": 1159,
-      "food": "Amaranth, leaves, red, raw",
-      "energy_kcal": 32.0,
-      "expected_kcal": 4.7,
-      "diff_pct": 85.3,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1182,
-      "food": "Sweet potato leaves, SP7, dark green, mature, raw",
-      "energy_kcal": 45.0,
-      "expected_kcal": 7.5,
-      "diff_pct": 83.3,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1244,
-      "food": "Dates, dried",
-      "energy_kcal": 1270.0,
-      "expected_kcal": 640.7,
-      "diff_pct": 49.6,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1272,
-      "food": "Tamarind, pulp, ripe, raw",
-      "energy_kcal": 1140.0,
-      "expected_kcal": 567.6,
-      "diff_pct": 50.2,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1274,
-      "food": "Wood apple, ripe, raw",
-      "energy_kcal": 469.0,
-      "expected_kcal": 216.1,
-      "diff_pct": 53.9,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1361,
-      "food": "Milk, cow, powder, skimmed",
-      "energy_kcal": 1520.0,
-      "expected_kcal": 448.2,
-      "diff_pct": 70.5,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
-    },
-    {
-      "source_id": 1367,
-      "food": "Milk, human, mature, raw",
-      "energy_kcal": 260.0,
-      "expected_kcal": 64.8,
-      "diff_pct": 75.1,
-      "tier": "TX_unresolvable",
-      "note": "TX tier — fix algorithm could not fully reconcile"
+      "source_id": "15_0007",
+      "food": "Salt Lobon",
+      "energy_kcal": 0.0,
+      "expected_kcal": 199.6,
+      "diff_pct": 100.0,
+      "tier": "pdf",
+      "note": "Residual mismatch after reconstruction"
     }
   ]
 }

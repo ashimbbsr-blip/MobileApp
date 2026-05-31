@@ -1,0 +1,9459 @@
+{
+  "total_bad_tokens": 291,
+  "tokens": [
+    {
+      "token": "না",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 32,
+      "sample_ids": [
+        1,
+        12,
+        94,
+        95,
+        212,
+        249,
+        250,
+        251,
+        252,
+        253
+      ],
+      "source_records": [
+        {
+          "id": 1,
+          "en": "Coco pine cooler",
+          "bn": "নারকেল পাইনাপেল ড্রিংক"
+        },
+        {
+          "id": 12,
+          "en": "Nannari sharbat",
+          "bn": "নাননারি শরবত"
+        },
+        {
+          "id": 94,
+          "en": "Khoa and coconut pancake",
+          "bn": "খোয়া ানদ নারকেল পানকাকে"
+        },
+        {
+          "id": 95,
+          "en": "Khoa coconut burfi",
+          "bn": "খোয়া নারকেল বুরফি"
+        },
+        {
+          "id": 212,
+          "en": "Fish in coconut milk",
+          "bn": "মাছ িন নারকেল দুধ"
+        }
+      ]
+    },
+    {
+      "token": "পা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 139,
+      "sample_ids": [
+        1,
+        14,
+        19,
+        22,
+        31,
+        41,
+        51,
+        62,
+        94,
+        111
+      ],
+      "source_records": [
+        {
+          "id": 1,
+          "en": "Coco pine cooler",
+          "bn": "নারকেল পাইনাপেল ড্রিংক"
+        },
+        {
+          "id": 14,
+          "en": "Summer cooler",
+          "bn": "গ্রীষ্মের পানীয়"
+        },
+        {
+          "id": 19,
+          "en": "Bacon and mushroom pancake",
+          "bn": "বাকোন ানদ মুশরুম পানকাকে"
+        },
+        {
+          "id": 22,
+          "en": "Buckwheat pancake",
+          "bn": "বুককওহোত পানকাকে"
+        },
+        {
+          "id": 31,
+          "en": "Jam and fruit pancake",
+          "bn": "জাম ানদ ফরুিত পানকাকে"
+        }
+      ]
+    },
+    {
+      "token": "ড্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1,
+        185
+      ],
+      "source_records": [
+        {
+          "id": 1,
+          "en": "Coco pine cooler",
+          "bn": "নারকেল পাইনাপেল ড্রিংক"
+        },
+        {
+          "id": 185,
+          "en": "Fat Burn Drink",
+          "bn": "ফ্যাট বার্ন ড্রিংক"
+        }
+      ]
+    },
+    {
+      "token": "কফ",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 12,
+      "sample_ids": [
+        2,
+        3,
+        6,
+        9,
+        13,
+        75,
+        76,
+        180,
+        192,
+        781
+      ],
+      "source_records": [
+        {
+          "id": 2,
+          "en": "Coffee drops",
+          "bn": "কফি দরোপস"
+        },
+        {
+          "id": 3,
+          "en": "Coffee pear alaska",
+          "bn": "কফি পোর ালাসকা"
+        },
+        {
+          "id": 6,
+          "en": "Espreso coffee",
+          "bn": "েসপরেসো কফি"
+        },
+        {
+          "id": 9,
+          "en": "Instant coffee",
+          "bn": "ইনস্ট্যান্ট কফি"
+        },
+        {
+          "id": 13,
+          "en": "Steeped hot coffee",
+          "bn": "সতিপেদ হোত কফি"
+        }
+      ]
+    },
+    {
+      "token": "দর",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 12,
+      "sample_ids": [
+        2,
+        85,
+        132,
+        259,
+        448,
+        449,
+        450,
+        455,
+        578,
+        611
+      ],
+      "source_records": [
+        {
+          "id": 2,
+          "en": "Coffee drops",
+          "bn": "কফি দরোপস"
+        },
+        {
+          "id": 85,
+          "en": "Curd dressing",
+          "bn": "দই দরেসসিনগ"
+        },
+        {
+          "id": 132,
+          "en": "Semolina milk drink",
+          "bn": "সেমোলিনা দুধ দরিনক"
+        },
+        {
+          "id": 259,
+          "en": "Dry mango chutney",
+          "bn": "দরয আমের চাটনি"
+        },
+        {
+          "id": 448,
+          "en": "Dry arbi",
+          "bn": "দরয ারবি"
+        }
+      ]
+    },
+    {
+      "token": "পো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 60,
+      "sample_ids": [
+        3,
+        43,
+        88,
+        107,
+        117,
+        123,
+        124,
+        158,
+        160,
+        163
+      ],
+      "source_records": [
+        {
+          "id": 3,
+          "en": "Coffee pear alaska",
+          "bn": "কফি পোর ালাসকা"
+        },
+        {
+          "id": 43,
+          "en": "Poha",
+          "bn": "পোহা (রান্না)"
+        },
+        {
+          "id": 88,
+          "en": "Curd with potatoes",
+          "bn": "দই ওিথ পোতাতোেস"
+        },
+        {
+          "id": 107,
+          "en": "Paneer and pea samosa",
+          "bn": "পনির ানদ পো সমোসা"
+        },
+        {
+          "id": 117,
+          "en": "Paneer pea sandwich",
+          "bn": "পনির পো স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "াল",
+      "issues": [
+        "known_bad_token",
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        3,
+        318,
+        386,
+        999
+      ],
+      "source_records": [
+        {
+          "id": 3,
+          "en": "Coffee pear alaska",
+          "bn": "কফি পোর ালাসকা"
+        },
+        {
+          "id": 318,
+          "en": "Broccoli chicken ala king",
+          "bn": "বরোককোলি চিকেন ালা কিনগ"
+        },
+        {
+          "id": 386,
+          "en": "Al yakhani",
+          "bn": "াল যাখানি"
+        },
+        {
+          "id": 999,
+          "en": "Dum aloo",
+          "bn": "দুম ালু"
+        }
+      ]
+    },
+    {
+      "token": "কু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 58,
+      "sample_ids": [
+        4,
+        83,
+        103,
+        108,
+        125,
+        210,
+        298,
+        377,
+        378,
+        382
+      ],
+      "source_records": [
+        {
+          "id": 4,
+          "en": "Cucumber sharbat",
+          "bn": "কুকুমবের শরবত"
+        },
+        {
+          "id": 83,
+          "en": "Cucumber and yogurt salad",
+          "bn": "কুকুমবের ানদ দই সালাদ"
+        },
+        {
+          "id": 103,
+          "en": "Milk cookies",
+          "bn": "দুধ কুকিেস"
+        },
+        {
+          "id": 108,
+          "en": "Paneer cutlet",
+          "bn": "পনির কুতলেত"
+        },
+        {
+          "id": 125,
+          "en": "Peanut butter cucumber sandwich",
+          "bn": "চিনাবাদাম মাখন কুকুমবের স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "শর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        4,
+        12,
+        511
+      ],
+      "source_records": [
+        {
+          "id": 4,
+          "en": "Cucumber sharbat",
+          "bn": "কুকুমবের শরবত"
+        },
+        {
+          "id": 12,
+          "en": "Nannari sharbat",
+          "bn": "নাননারি শরবত"
+        },
+        {
+          "id": 511,
+          "en": "Lemonade",
+          "bn": "লেবুর শরবত"
+        }
+      ]
+    },
+    {
+      "token": "জি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        5,
+        489,
+        745,
+        1065,
+        1225
+      ],
+      "source_records": [
+        {
+          "id": 5,
+          "en": "Cumin infused water",
+          "bn": "জিরা জল"
+        },
+        {
+          "id": 489,
+          "en": "Jal jeera",
+          "bn": "জাল জিরা"
+        },
+        {
+          "id": 745,
+          "en": "Gym Salad",
+          "bn": "জিম সালাদ"
+        },
+        {
+          "id": 1065,
+          "en": "Jalebi (Jilapi)",
+          "bn": "জিলেপি"
+        },
+        {
+          "id": 1225,
+          "en": "Cumin seeds",
+          "bn": "জিরা"
+        }
+      ]
+    },
+    {
+      "token": "জল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        5,
+        183,
+        184,
+        189,
+        190,
+        1268
+      ],
+      "source_records": [
+        {
+          "id": 5,
+          "en": "Cumin infused water",
+          "bn": "জিরা জল"
+        },
+        {
+          "id": 183,
+          "en": "Coconut Water",
+          "bn": "ডাবের জল"
+        },
+        {
+          "id": 184,
+          "en": "Detox Water",
+          "bn": "ডিটক্স জল"
+        },
+        {
+          "id": 189,
+          "en": "Lemon Honey Water",
+          "bn": "লেবু মধু জল"
+        },
+        {
+          "id": 190,
+          "en": "Lemon Water",
+          "bn": "লেবু জল"
+        }
+      ]
+    },
+    {
+      "token": "েস",
+      "issues": [
+        "known_bad_token",
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        6
+      ],
+      "source_records": [
+        {
+          "id": 6,
+          "en": "Espreso coffee",
+          "bn": "েসপরেসো কফি"
+        }
+      ]
+    },
+    {
+      "token": "গর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 28,
+      "sample_ids": [
+        7,
+        246,
+        261,
+        400,
+        472,
+        473,
+        475,
+        476,
+        477,
+        485
+      ],
+      "source_records": [
+        {
+          "id": 7,
+          "en": "Hot tea",
+          "bn": "গরম চা"
+        },
+        {
+          "id": 246,
+          "en": "Banana groundnut paste/puree",
+          "bn": "কলা গরউনদনুত পাসতে/পুরি"
+        },
+        {
+          "id": 261,
+          "en": "Grape and orange whip",
+          "bn": "গরাপে ানদ কমলা ওহিপ"
+        },
+        {
+          "id": 400,
+          "en": "Black channa curry/Bengal gram curry",
+          "bn": "বলাকক চাননা কুররয/বেনগাল গরাম তরকারি"
+        },
+        {
+          "id": 472,
+          "en": "Gram flour burfi",
+          "bn": "গরাম ফলউর বুরফি"
+        }
+      ]
+    },
+    {
+      "token": "চা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 56,
+      "sample_ids": [
+        7,
+        8,
+        10,
+        54,
+        55,
+        150,
+        181,
+        186,
+        187,
+        193
+      ],
+      "source_records": [
+        {
+          "id": 7,
+          "en": "Hot tea",
+          "bn": "গরম চা"
+        },
+        {
+          "id": 8,
+          "en": "Iced tea",
+          "bn": "ঠান্ডা চা"
+        },
+        {
+          "id": 10,
+          "en": "Kashmiri tea",
+          "bn": "কাশমিরি চা"
+        },
+        {
+          "id": 54,
+          "en": "Aam Chutney",
+          "bn": "আমের চাটনি"
+        },
+        {
+          "id": 55,
+          "en": "Tomato Chutney",
+          "bn": "টমেটো চাটনি"
+        }
+      ]
+    },
+    {
+      "token": "ঠা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        8
+      ],
+      "source_records": [
+        {
+          "id": 8,
+          "en": "Iced tea",
+          "bn": "ঠান্ডা চা"
+        }
+      ]
+    },
+    {
+      "token": "ইন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        9,
+        16
+      ],
+      "source_records": [
+        {
+          "id": 9,
+          "en": "Instant coffee",
+          "bn": "ইনস্ট্যান্ট কফি"
+        },
+        {
+          "id": 16,
+          "en": "Infinity Wellness Bowl",
+          "bn": "ইনফিনিটি বোল"
+        }
+      ]
+    },
+    {
+      "token": "কা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 114,
+      "sample_ids": [
+        10,
+        57,
+        93,
+        102,
+        123,
+        126,
+        135,
+        181,
+        207,
+        223
+      ],
+      "source_records": [
+        {
+          "id": 10,
+          "en": "Kashmiri tea",
+          "bn": "কাশমিরি চা"
+        },
+        {
+          "id": 57,
+          "en": "Caramel ice cream",
+          "bn": "কারামেল আইসক্রিম"
+        },
+        {
+          "id": 93,
+          "en": "Kadhai Paneer",
+          "bn": "কাধাি পনির"
+        },
+        {
+          "id": 102,
+          "en": "Milk cake",
+          "bn": "দুধ কাকে"
+        },
+        {
+          "id": 123,
+          "en": "Pea paneer curry",
+          "bn": "পো পনির কারি"
+        }
+      ]
+    },
+    {
+      "token": "লা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 27,
+      "sample_ids": [
+        11,
+        96,
+        113,
+        131,
+        194,
+        195,
+        311,
+        328,
+        465,
+        502
+      ],
+      "source_records": [
+        {
+          "id": 11,
+          "en": "Lassi",
+          "bn": "লাচ্ছি (প্লেইন)"
+        },
+        {
+          "id": 96,
+          "en": "Khoa ladoo",
+          "bn": "খোয়া লাড্ডু"
+        },
+        {
+          "id": 113,
+          "en": "Paneer lababdar",
+          "bn": "পনির লাবাবদার"
+        },
+        {
+          "id": 131,
+          "en": "Semolina ladoo with khoya",
+          "bn": "সেমোলিনা লাড্ডু ওিথ খোয়া"
+        },
+        {
+          "id": 194,
+          "en": "Salt Lassi",
+          "bn": "নোনতা লাচ্ছি"
+        }
+      ]
+    },
+    {
+      "token": "(প",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        11
+      ],
+      "source_records": [
+        {
+          "id": 11,
+          "en": "Lassi",
+          "bn": "লাচ্ছি (প্লেইন)"
+        }
+      ]
+    },
+    {
+      "token": "সত",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 30,
+      "sample_ids": [
+        13,
+        67,
+        120,
+        139,
+        198,
+        333,
+        405,
+        515,
+        526,
+        533
+      ],
+      "source_records": [
+        {
+          "id": 13,
+          "en": "Steeped hot coffee",
+          "bn": "সতিপেদ হোত কফি"
+        },
+        {
+          "id": 67,
+          "en": "Cheese straws",
+          "bn": "চিজ সতরাওস"
+        },
+        {
+          "id": 120,
+          "en": "Paneer stuffed cheela/chilla",
+          "bn": "পনির সতুফফেদ চেেলা/চিললা"
+        },
+        {
+          "id": 139,
+          "en": "Veg paneer stew",
+          "bn": "সবজি পনির সতেও"
+        },
+        {
+          "id": 198,
+          "en": "Baked stuffed fish",
+          "bn": "বেক সতুফফেদ মাছ"
+        }
+      ]
+    },
+    {
+      "token": "হো",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 21,
+      "sample_ids": [
+        13,
+        80,
+        91,
+        92,
+        130,
+        147,
+        221,
+        265,
+        367,
+        483
+      ],
+      "source_records": [
+        {
+          "id": 13,
+          "en": "Steeped hot coffee",
+          "bn": "সতিপেদ হোত কফি"
+        },
+        {
+          "id": 80,
+          "en": "Cream horns",
+          "bn": "ক্রিম হোরনস"
+        },
+        {
+          "id": 91,
+          "en": "Honey banana cream",
+          "bn": "হোনেয কলা ক্রিম"
+        },
+        {
+          "id": 92,
+          "en": "Hot cheese souffle",
+          "bn": "হোত চিজ সউফফলে"
+        },
+        {
+          "id": 130,
+          "en": "Savoury cheese horns",
+          "bn": "সাভউরয চিজ হোরনস"
+        }
+      ]
+    },
+    {
+      "token": "গ্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        14,
+        322,
+        900,
+        956,
+        1230
+      ],
+      "source_records": [
+        {
+          "id": 14,
+          "en": "Summer cooler",
+          "bn": "গ্রীষ্মের পানীয়"
+        },
+        {
+          "id": 322,
+          "en": "Chicken Grill",
+          "bn": "গ্রিল চিকেন"
+        },
+        {
+          "id": 900,
+          "en": "Kiwi granola pudding",
+          "bn": "কিউই গ্রানোলা পুদদিনগ"
+        },
+        {
+          "id": 956,
+          "en": "Grilled Paneer",
+          "bn": "গ্রিল পনির"
+        },
+        {
+          "id": 1230,
+          "en": "Lemon grass, raw",
+          "bn": "লেমন গ্রাস"
+        }
+      ]
+    },
+    {
+      "token": "ওু",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        15
+      ],
+      "source_records": [
+        {
+          "id": 15,
+          "en": "Woodapple juice",
+          "bn": "ওুদাপপলে রস"
+        }
+      ]
+    },
+    {
+      "token": "রস",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 15,
+      "sample_ids": [
+        15,
+        158,
+        159,
+        463,
+        464,
+        858,
+        859,
+        917,
+        1064,
+        1124
+      ],
+      "source_records": [
+        {
+          "id": 15,
+          "en": "Woodapple juice",
+          "bn": "ওুদাপপলে রস"
+        },
+        {
+          "id": 158,
+          "en": "Rasam powder",
+          "bn": "রসম পোওদের"
+        },
+        {
+          "id": 159,
+          "en": "Rasam with tamarind",
+          "bn": "রসম ওিথ তেঁতুল"
+        },
+        {
+          "id": 463,
+          "en": "Garlic chutney/Poondu chutney",
+          "bn": "রসুন চুতনেয/পুনদু চাটনি"
+        },
+        {
+          "id": 464,
+          "en": "Garlic pickle",
+          "bn": "রসুন আচার"
+        }
+      ]
+    },
+    {
+      "token": "বো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 21,
+      "sample_ids": [
+        16,
+        36,
+        176,
+        236,
+        237,
+        275,
+        310,
+        314,
+        369,
+        402
+      ],
+      "source_records": [
+        {
+          "id": 16,
+          "en": "Infinity Wellness Bowl",
+          "bn": "ইনফিনিটি বোল"
+        },
+        {
+          "id": 36,
+          "en": "Moong bean dosa",
+          "bn": "মুনগ বোন ডোসা"
+        },
+        {
+          "id": 176,
+          "en": "Detox Bowl",
+          "bn": "ডিটক্স বোল"
+        },
+        {
+          "id": 236,
+          "en": "Fitness Bowl",
+          "bn": "ফিটনেস বোল"
+        },
+        {
+          "id": 237,
+          "en": "Low Carb Bowl",
+          "bn": "লো কার্ব বোল"
+        }
+      ]
+    },
+    {
+      "token": "আপ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 20,
+      "sample_ids": [
+        17,
+        18,
+        21,
+        121,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "source_records": [
+        {
+          "id": 17,
+          "en": "Appam",
+          "bn": "আপ্পম"
+        },
+        {
+          "id": 18,
+          "en": "Apple oats chia seed smoothie",
+          "bn": "আপেল ওটস চিা সিদ সমুথিে"
+        },
+        {
+          "id": 21,
+          "en": "Banana appam",
+          "bn": "কলা আপ্পম"
+        },
+        {
+          "id": 121,
+          "en": "Paneer, apple and pineapple salad",
+          "bn": "পানির, আপেল ানদ আনারস সালাদ"
+        },
+        {
+          "id": 238,
+          "en": "Apple",
+          "bn": "আপেল"
+        }
+      ]
+    },
+    {
+      "token": "ওট",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        18,
+        20,
+        37,
+        38,
+        39,
+        540
+      ],
+      "source_records": [
+        {
+          "id": 18,
+          "en": "Apple oats chia seed smoothie",
+          "bn": "আপেল ওটস চিা সিদ সমুথিে"
+        },
+        {
+          "id": 20,
+          "en": "Banana Oats",
+          "bn": "কলা ওটস"
+        },
+        {
+          "id": 37,
+          "en": "Oats Milk Bowl",
+          "bn": "ওটস দুধ"
+        },
+        {
+          "id": 38,
+          "en": "Oats Porridge",
+          "bn": "ওটস"
+        },
+        {
+          "id": 39,
+          "en": "Oats burfi",
+          "bn": "ওটস বুরফি"
+        }
+      ]
+    },
+    {
+      "token": "চি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 117,
+      "sample_ids": [
+        18,
+        25,
+        26,
+        52,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "source_records": [
+        {
+          "id": 18,
+          "en": "Apple oats chia seed smoothie",
+          "bn": "আপেল ওটস চিা সিদ সমুথিে"
+        },
+        {
+          "id": 25,
+          "en": "Chitoi Pitha",
+          "bn": "চিতই পিঠা"
+        },
+        {
+          "id": 26,
+          "en": "Doi Chire",
+          "bn": "দই চিঁড়ে"
+        },
+        {
+          "id": 52,
+          "en": "Vegetable poha",
+          "bn": "ভেগেতাবলে চিড়া"
+        },
+        {
+          "id": 58,
+          "en": "Cheese and chilli sandwich",
+          "bn": "চিজ ানদ চিললি স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "সি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 31,
+      "sample_ids": [
+        18,
+        312,
+        313,
+        352,
+        439,
+        539,
+        594,
+        625,
+        826,
+        829
+      ],
+      "source_records": [
+        {
+          "id": 18,
+          "en": "Apple oats chia seed smoothie",
+          "bn": "আপেল ওটস চিা সিদ সমুথিে"
+        },
+        {
+          "id": 312,
+          "en": "Simple Chicken Meal",
+          "bn": "সিম্পল চিকেন"
+        },
+        {
+          "id": 313,
+          "en": "Simple Veg Meal",
+          "bn": "সিম্পল ভেজ"
+        },
+        {
+          "id": 352,
+          "en": "Mutton seekh kebab",
+          "bn": "মাটন সিখ কেবাব"
+        },
+        {
+          "id": 439,
+          "en": "Cumin seeds baghar",
+          "bn": "কুমিন সিদস বাঘার"
+        }
+      ]
+    },
+    {
+      "token": "সম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        18,
+        107,
+        592,
+        803,
+        825,
+        846,
+        1031
+      ],
+      "source_records": [
+        {
+          "id": 18,
+          "en": "Apple oats chia seed smoothie",
+          "bn": "আপেল ওটস চিা সিদ সমুথিে"
+        },
+        {
+          "id": 107,
+          "en": "Paneer and pea samosa",
+          "bn": "পনির ানদ পো সমোসা"
+        },
+        {
+          "id": 592,
+          "en": "Small onion pickle",
+          "bn": "সমালল পেঁয়াজ আচার"
+        },
+        {
+          "id": 803,
+          "en": "Minced meat samosa",
+          "bn": "মিনকেদ মোত সমোসা"
+        },
+        {
+          "id": 825,
+          "en": "Samosa",
+          "bn": "সমোসা"
+        }
+      ]
+    },
+    {
+      "token": "বা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 54,
+      "sample_ids": [
+        19,
+        59,
+        128,
+        134,
+        185,
+        370,
+        374,
+        375,
+        393,
+        394
+      ],
+      "source_records": [
+        {
+          "id": 19,
+          "en": "Bacon and mushroom pancake",
+          "bn": "বাকোন ানদ মুশরুম পানকাকে"
+        },
+        {
+          "id": 59,
+          "en": "Cheese balls",
+          "bn": "চিজ বাললস"
+        },
+        {
+          "id": 128,
+          "en": "Raspberry bavarian cream",
+          "bn": "রাসপবেররয বাভারিান ক্রিম"
+        },
+        {
+          "id": 134,
+          "en": "Spaghetti and cheese balls in tomato sauce",
+          "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে"
+        },
+        {
+          "id": 185,
+          "en": "Fat Burn Drink",
+          "bn": "ফ্যাট বার্ন ড্রিংক"
+        }
+      ]
+    },
+    {
+      "token": "ান",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 45,
+      "sample_ids": [
+        19,
+        31,
+        58,
+        83,
+        94,
+        104,
+        105,
+        107,
+        121,
+        134
+      ],
+      "source_records": [
+        {
+          "id": 19,
+          "en": "Bacon and mushroom pancake",
+          "bn": "বাকোন ানদ মুশরুম পানকাকে"
+        },
+        {
+          "id": 31,
+          "en": "Jam and fruit pancake",
+          "bn": "জাম ানদ ফরুিত পানকাকে"
+        },
+        {
+          "id": 58,
+          "en": "Cheese and chilli sandwich",
+          "bn": "চিজ ানদ চিললি স্যান্ডউইচ"
+        },
+        {
+          "id": 83,
+          "en": "Cucumber and yogurt salad",
+          "bn": "কুকুমবের ানদ দই সালাদ"
+        },
+        {
+          "id": 94,
+          "en": "Khoa and coconut pancake",
+          "bn": "খোয়া ানদ নারকেল পানকাকে"
+        }
+      ]
+    },
+    {
+      "token": "মু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 47,
+      "sample_ids": [
+        19,
+        36,
+        104,
+        145,
+        161,
+        165,
+        167,
+        271,
+        303,
+        321
+      ],
+      "source_records": [
+        {
+          "id": 19,
+          "en": "Bacon and mushroom pancake",
+          "bn": "বাকোন ানদ মুশরুম পানকাকে"
+        },
+        {
+          "id": 36,
+          "en": "Moong bean dosa",
+          "bn": "মুনগ বোন ডোসা"
+        },
+        {
+          "id": 104,
+          "en": "Mushroom and cheese sandwich",
+          "bn": "মুশরুম ানদ চিজ স্যান্ডউইচ"
+        },
+        {
+          "id": 145,
+          "en": "Dal moong",
+          "bn": "ডাল মুনগ"
+        },
+        {
+          "id": 161,
+          "en": "Rice moong dal cheela",
+          "bn": "ভাত মুগ ডাল চেেলা"
+        }
+      ]
+    },
+    {
+      "token": "কল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 26,
+      "sample_ids": [
+        20,
+        21,
+        91,
+        100,
+        179,
+        239,
+        245,
+        246,
+        247,
+        248
+      ],
+      "source_records": [
+        {
+          "id": 20,
+          "en": "Banana Oats",
+          "bn": "কলা ওটস"
+        },
+        {
+          "id": 21,
+          "en": "Banana appam",
+          "bn": "কলা আপ্পম"
+        },
+        {
+          "id": 91,
+          "en": "Honey banana cream",
+          "bn": "হোনেয কলা ক্রিম"
+        },
+        {
+          "id": 100,
+          "en": "Mashed banana with milk",
+          "bn": "মাশেদ কলা ওিথ দুধ"
+        },
+        {
+          "id": 179,
+          "en": "Banana Shake",
+          "bn": "কলা শেক"
+        }
+      ]
+    },
+    {
+      "token": "বু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 21,
+      "sample_ids": [
+        22,
+        39,
+        79,
+        95,
+        140,
+        167,
+        250,
+        380,
+        410,
+        418
+      ],
+      "source_records": [
+        {
+          "id": 22,
+          "en": "Buckwheat pancake",
+          "bn": "বুককওহোত পানকাকে"
+        },
+        {
+          "id": 39,
+          "en": "Oats burfi",
+          "bn": "ওটস বুরফি"
+        },
+        {
+          "id": 79,
+          "en": "Cream buns",
+          "bn": "ক্রিম বুনস"
+        },
+        {
+          "id": 95,
+          "en": "Khoa coconut burfi",
+          "bn": "খোয়া নারকেল বুরফি"
+        },
+        {
+          "id": 140,
+          "en": "Atta dal burfi",
+          "bn": "াততা ডাল বুরফি"
+        }
+      ]
+    },
+    {
+      "token": "কে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        23,
+        24,
+        326,
+        352,
+        402,
+        495,
+        588,
+        594,
+        614,
+        625
+      ],
+      "source_records": [
+        {
+          "id": 23,
+          "en": "Cereal mix",
+          "bn": "কেরোল মিক্স"
+        },
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 326,
+          "en": "Chicken kebab",
+          "bn": "চিকেন কেবাব"
+        },
+        {
+          "id": 352,
+          "en": "Mutton seekh kebab",
+          "bn": "মাটন সিখ কেবাব"
+        },
+        {
+          "id": 402,
+          "en": "Boti kebab",
+          "bn": "বোতি কেবাব"
+        }
+      ]
+    },
+    {
+      "token": "মি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 53,
+      "sample_ids": [
+        23,
+        24,
+        86,
+        153,
+        169,
+        182,
+        195,
+        247,
+        270,
+        279
+      ],
+      "source_records": [
+        {
+          "id": 23,
+          "en": "Cereal mix",
+          "bn": "কেরোল মিক্স"
+        },
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 86,
+          "en": "Curd mint dip",
+          "bn": "দই মিনত দিপ"
+        },
+        {
+          "id": 153,
+          "en": "Mixed Dal",
+          "bn": "মিক্সড ডাল"
+        },
+        {
+          "id": 169,
+          "en": "Mishti Doi",
+          "bn": "মিষ্টি দই"
+        }
+      ]
+    },
+    {
+      "token": "পু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 34,
+      "sample_ids": [
+        24,
+        64,
+        82,
+        300,
+        304,
+        518,
+        565,
+        566,
+        567,
+        581
+      ],
+      "source_records": [
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 64,
+          "en": "Cheese pudding",
+          "bn": "চিজ পুদদিনগ"
+        },
+        {
+          "id": 82,
+          "en": "Cream puffs",
+          "bn": "ক্রিম পুফফস"
+        },
+        {
+          "id": 300,
+          "en": "Puffed wheat",
+          "bn": "পুফফেদ গম"
+        },
+        {
+          "id": 304,
+          "en": "Rice puttu",
+          "bn": "ভাত পুততু"
+        }
+      ]
+    },
+    {
+      "token": "ওি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 32,
+      "sample_ids": [
+        24,
+        77,
+        88,
+        90,
+        100,
+        127,
+        131,
+        135,
+        159,
+        197
+      ],
+      "source_records": [
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 77,
+          "en": "Cornflakes with milk",
+          "bn": "কর্নফ্লেক্স ওিথ দুধ"
+        },
+        {
+          "id": 88,
+          "en": "Curd with potatoes",
+          "bn": "দই ওিথ পোতাতোেস"
+        },
+        {
+          "id": 90,
+          "en": "Gulab Jamun with khoya",
+          "bn": "গুলাব জামুন ওিথ খোয়া"
+        },
+        {
+          "id": 100,
+          "en": "Mashed banana with milk",
+          "bn": "মাশেদ কলা ওিথ দুধ"
+        }
+      ]
+    },
+    {
+      "token": "াম",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        24,
+        387,
+        873
+      ],
+      "source_records": [
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 387,
+          "en": "American frosting",
+          "bn": "ামেরিকান ফরোসতিনগ"
+        },
+        {
+          "id": 873,
+          "en": "Amaranth ladoo",
+          "bn": "ামারানথ লাড্ডু"
+        }
+      ]
+    },
+    {
+      "token": "ভা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 54,
+      "sample_ids": [
+        24,
+        44,
+        135,
+        160,
+        161,
+        168,
+        201,
+        219,
+        222,
+        226
+      ],
+      "source_records": [
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 44,
+          "en": "Rice upma",
+          "bn": "ভাত উপমা"
+        },
+        {
+          "id": 135,
+          "en": "Strawberry and vanilla cake with butter icing",
+          "bn": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ"
+        },
+        {
+          "id": 160,
+          "en": "Rice dal porridge",
+          "bn": "ভাত ডাল পোররিদগে"
+        },
+        {
+          "id": 161,
+          "en": "Rice moong dal cheela",
+          "bn": "ভাত মুগ ডাল চেেলা"
+        }
+      ]
+    },
+    {
+      "token": "ফল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 18,
+      "sample_ids": [
+        24,
+        167,
+        260,
+        275,
+        298,
+        302,
+        416,
+        452,
+        453,
+        454
+      ],
+      "source_records": [
+        {
+          "id": 24,
+          "en": "Cereal pulse mix with amylase rice flour",
+          "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "id": 167,
+          "en": "Wheat flour and moong dal burfi",
+          "bn": "গম ফলউর ানদ মুগ ডাল বুরফি"
+        },
+        {
+          "id": 260,
+          "en": "Fruit Salad",
+          "bn": "ফল সালাদ"
+        },
+        {
+          "id": 275,
+          "en": "Mixed Fruit Bowl",
+          "bn": "ফল বোল"
+        },
+        {
+          "id": 298,
+          "en": "Flattened rice cutlet",
+          "bn": "ফলাততেনেদ ভাত কুতলেত"
+        }
+      ]
+    },
+    {
+      "token": "পি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 23,
+      "sample_ids": [
+        25,
+        63,
+        78,
+        98,
+        168,
+        215,
+        239,
+        240,
+        276,
+        350
+      ],
+      "source_records": [
+        {
+          "id": 25,
+          "en": "Chitoi Pitha",
+          "bn": "চিতই পিঠা"
+        },
+        {
+          "id": 63,
+          "en": "Cheese pizza",
+          "bn": "চিজ পিজজা"
+        },
+        {
+          "id": 78,
+          "en": "Cottage cheese pie",
+          "bn": "পনির পিে"
+        },
+        {
+          "id": 98,
+          "en": "Macroni cheese pie",
+          "bn": "মাকরোনি চিজ পিে"
+        },
+        {
+          "id": 168,
+          "en": "Bhapa Pitha",
+          "bn": "ভাপা পিঠা"
+        }
+      ]
+    },
+    {
+      "token": "দই",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 16,
+      "sample_ids": [
+        26,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        97,
+        127,
+        137
+      ],
+      "source_records": [
+        {
+          "id": 26,
+          "en": "Doi Chire",
+          "bn": "দই চিঁড়ে"
+        },
+        {
+          "id": 83,
+          "en": "Cucumber and yogurt salad",
+          "bn": "কুকুমবের ানদ দই সালাদ"
+        },
+        {
+          "id": 84,
+          "en": "Curd dip",
+          "bn": "দই দিপ"
+        },
+        {
+          "id": 85,
+          "en": "Curd dressing",
+          "bn": "দই দরেসসিনগ"
+        },
+        {
+          "id": 86,
+          "en": "Curd mint dip",
+          "bn": "দই মিনত দিপ"
+        }
+      ]
+    },
+    {
+      "token": "টো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        27,
+        48,
+        68
+      ],
+      "source_records": [
+        {
+          "id": 27,
+          "en": "Egg Toast",
+          "bn": "টোস্ট"
+        },
+        {
+          "id": 48,
+          "en": "Sesame toast",
+          "bn": "সেসামে টোস্ট"
+        },
+        {
+          "id": 68,
+          "en": "Cheese toast",
+          "bn": "চিজ টোস্ট"
+        }
+      ]
+    },
+    {
+      "token": "হে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        28,
+        309,
+        1185
+      ],
+      "source_records": [
+        {
+          "id": 28,
+          "en": "Healthy Breakfast Bowl",
+          "bn": "হেলদি ব্রেকফাস্ট"
+        },
+        {
+          "id": 309,
+          "en": "Healthy Curry Bowl",
+          "bn": "হেলদি কারি"
+        },
+        {
+          "id": 1185,
+          "en": "Watercress, raw",
+          "bn": "হেলেঞ্চা শাক"
+        }
+      ]
+    },
+    {
+      "token": "ব্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        28,
+        308,
+        549,
+        849
+      ],
+      "source_records": [
+        {
+          "id": 28,
+          "en": "Healthy Breakfast Bowl",
+          "bn": "হেলদি ব্রেকফাস্ট"
+        },
+        {
+          "id": 308,
+          "en": "Balanced Diet Bowl",
+          "bn": "ব্যালান্স ডায়েট"
+        },
+        {
+          "id": 549,
+          "en": "Peach blueberry preserves",
+          "bn": "পোচ ব্লুবেরি পরেসেরভেস"
+        },
+        {
+          "id": 849,
+          "en": "Bone Broth Chicken",
+          "bn": "বোন ব্রথ"
+        }
+      ]
+    },
+    {
+      "token": "ইড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        29,
+        30,
+        46
+      ],
+      "source_records": [
+        {
+          "id": 29,
+          "en": "Idli",
+          "bn": "ইডলি"
+        },
+        {
+          "id": 30,
+          "en": "Instant idli",
+          "bn": "িনসতানত ইডলি"
+        },
+        {
+          "id": 46,
+          "en": "Semolina idli",
+          "bn": "সেমোলিনা ইডলি"
+        }
+      ]
+    },
+    {
+      "token": "িন",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        30,
+        109,
+        134,
+        148,
+        212,
+        391,
+        648,
+        655,
+        656,
+        972
+      ],
+      "source_records": [
+        {
+          "id": 30,
+          "en": "Instant idli",
+          "bn": "িনসতানত ইডলি"
+        },
+        {
+          "id": 109,
+          "en": "Paneer in butter sauce",
+          "bn": "পনির িন মাখন সআউকে"
+        },
+        {
+          "id": 134,
+          "en": "Spaghetti and cheese balls in tomato sauce",
+          "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে"
+        },
+        {
+          "id": 148,
+          "en": "Instant dhokla",
+          "bn": "িনসতানত ঢোকলা"
+        },
+        {
+          "id": 212,
+          "en": "Fish in coconut milk",
+          "bn": "মাছ িন নারকেল দুধ"
+        }
+      ]
+    },
+    {
+      "token": "জা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 13,
+      "sample_ids": [
+        31,
+        90,
+        241,
+        283,
+        489,
+        490,
+        560,
+        622,
+        845,
+        899
+      ],
+      "source_records": [
+        {
+          "id": 31,
+          "en": "Jam and fruit pancake",
+          "bn": "জাম ানদ ফরুিত পানকাকে"
+        },
+        {
+          "id": 90,
+          "en": "Gulab Jamun with khoya",
+          "bn": "গুলাব জামুন ওিথ খোয়া"
+        },
+        {
+          "id": 241,
+          "en": "Apple jam",
+          "bn": "আপেল জাম"
+        },
+        {
+          "id": 283,
+          "en": "Pineapple jam",
+          "bn": "আনারস জাম"
+        },
+        {
+          "id": 489,
+          "en": "Jal jeera",
+          "bn": "জাল জিরা"
+        }
+      ]
+    },
+    {
+      "token": "ফর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 17,
+      "sample_ids": [
+        31,
+        89,
+        387,
+        455,
+        456,
+        457,
+        458,
+        460,
+        461,
+        601
+      ],
+      "source_records": [
+        {
+          "id": 31,
+          "en": "Jam and fruit pancake",
+          "bn": "জাম ানদ ফরুিত পানকাকে"
+        },
+        {
+          "id": 89,
+          "en": "Fruit Ice cream",
+          "bn": "ফরুিত আইসক্রিম"
+        },
+        {
+          "id": 387,
+          "en": "American frosting",
+          "bn": "ামেরিকান ফরোসতিনগ"
+        },
+        {
+          "id": 455,
+          "en": "French dressing",
+          "bn": "ফরেনচ দরেসসিনগ"
+        },
+        {
+          "id": 456,
+          "en": "French omelette/omlet",
+          "bn": "ফরেনচ োমেলেততে/োমলেত"
+        }
+      ]
+    },
+    {
+      "token": "জো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        32,
+        572,
+        1086
+      ],
+      "source_records": [
+        {
+          "id": 32,
+          "en": "Jowar dosa",
+          "bn": "জোওার ডোসা"
+        },
+        {
+          "id": 572,
+          "en": "Roghan josh",
+          "bn": "রোঘান জোশ"
+        },
+        {
+          "id": 1086,
+          "en": "Sorghum, raw",
+          "bn": "জোয়ার"
+        }
+      ]
+    },
+    {
+      "token": "ডো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        32,
+        35,
+        36,
+        42,
+        45
+      ],
+      "source_records": [
+        {
+          "id": 32,
+          "en": "Jowar dosa",
+          "bn": "জোওার ডোসা"
+        },
+        {
+          "id": 35,
+          "en": "Masala dosa",
+          "bn": "মশলা ডোসা"
+        },
+        {
+          "id": 36,
+          "en": "Moong bean dosa",
+          "bn": "মুনগ বোন ডোসা"
+        },
+        {
+          "id": 42,
+          "en": "Plain dosa",
+          "bn": "সাদা ডোসা"
+        },
+        {
+          "id": 45,
+          "en": "Semolina dosa",
+          "bn": "সেমোলিনা ডোসা"
+        }
+      ]
+    },
+    {
+      "token": "কচ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        33,
+        1168,
+        1169,
+        1190,
+        1192,
+        1197
+      ],
+      "source_records": [
+        {
+          "id": 33,
+          "en": "Kochuri",
+          "bn": "কচুরি"
+        },
+        {
+          "id": 1168,
+          "en": "Colocasia leaves, black, raw",
+          "bn": "কালো কচু শাক"
+        },
+        {
+          "id": 1169,
+          "en": "Colocasia leaves, green, raw",
+          "bn": "সবুজ কচু শাক"
+        },
+        {
+          "id": 1190,
+          "en": "Colocasia/Taro, corm, raw",
+          "bn": "কচুর মুখী"
+        },
+        {
+          "id": 1192,
+          "en": "Elephant foot, corm, raw",
+          "bn": "ওল কচু"
+        }
+      ]
+    },
+    {
+      "token": "লু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        34,
+        783,
+        1431
+      ],
+      "source_records": [
+        {
+          "id": 34,
+          "en": "Luchi",
+          "bn": "লুচি"
+        },
+        {
+          "id": 783,
+          "en": "Danish luncheon sandwich",
+          "bn": "দানিশ লুনচেোন স্যান্ডউইচ"
+        },
+        {
+          "id": 1431,
+          "en": "Luchi alur dom",
+          "bn": "লুচি আলুর দম"
+        }
+      ]
+    },
+    {
+      "token": "মশ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 15,
+      "sample_ids": [
+        35,
+        151,
+        356,
+        396,
+        413,
+        449,
+        462,
+        494,
+        520,
+        521
+      ],
+      "source_records": [
+        {
+          "id": 35,
+          "en": "Masala dosa",
+          "bn": "মশলা ডোসা"
+        },
+        {
+          "id": 151,
+          "en": "Masala urad dal vada",
+          "bn": "মশলা উড়দ ডাল বড়া"
+        },
+        {
+          "id": 356,
+          "en": "Shahi chicken masala",
+          "bn": "শাহি চিকেন মশলা"
+        },
+        {
+          "id": 396,
+          "en": "Bengal 5 Spice Blend",
+          "bn": "বেনগাল 5 মশলা বলেনদ"
+        },
+        {
+          "id": 413,
+          "en": "Chat masala",
+          "bn": "চাত মশলা"
+        }
+      ]
+    },
+    {
+      "token": "দু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 27,
+      "sample_ids": [
+        37,
+        77,
+        100,
+        102,
+        103,
+        129,
+        132,
+        138,
+        192,
+        212
+      ],
+      "source_records": [
+        {
+          "id": 37,
+          "en": "Oats Milk Bowl",
+          "bn": "ওটস দুধ"
+        },
+        {
+          "id": 77,
+          "en": "Cornflakes with milk",
+          "bn": "কর্নফ্লেক্স ওিথ দুধ"
+        },
+        {
+          "id": 100,
+          "en": "Mashed banana with milk",
+          "bn": "মাশেদ কলা ওিথ দুধ"
+        },
+        {
+          "id": 102,
+          "en": "Milk cake",
+          "bn": "দুধ কাকে"
+        },
+        {
+          "id": 103,
+          "en": "Milk cookies",
+          "bn": "দুধ কুকিেস"
+        }
+      ]
+    },
+    {
+      "token": "পে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 20,
+      "sample_ids": [
+        40,
+        262,
+        263,
+        264,
+        292,
+        541,
+        553,
+        592,
+        648,
+        752
+      ],
+      "source_records": [
+        {
+          "id": 40,
+          "en": "Onion tomato uttapam",
+          "bn": "পেঁয়াজ টমেটো উত্তাপম"
+        },
+        {
+          "id": 262,
+          "en": "Guava",
+          "bn": "পেয়ারা"
+        },
+        {
+          "id": 263,
+          "en": "Guava jelly",
+          "bn": "পেয়ারা জেললয"
+        },
+        {
+          "id": 264,
+          "en": "Guava raita",
+          "bn": "পেয়ারা রায়তা"
+        },
+        {
+          "id": 292,
+          "en": "Raw papaya with coconut",
+          "bn": "রাও পেঁপে ওিথ নারকেল"
+        }
+      ]
+    },
+    {
+      "token": "টম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 28,
+      "sample_ids": [
+        40,
+        55,
+        81,
+        134,
+        235,
+        324,
+        340,
+        360,
+        370,
+        391
+      ],
+      "source_records": [
+        {
+          "id": 40,
+          "en": "Onion tomato uttapam",
+          "bn": "পেঁয়াজ টমেটো উত্তাপম"
+        },
+        {
+          "id": 55,
+          "en": "Tomato Chutney",
+          "bn": "টমেটো চাটনি"
+        },
+        {
+          "id": 81,
+          "en": "Cream of tomato soup",
+          "bn": "ক্রিম োফ টমেটো স্যুপ"
+        },
+        {
+          "id": 134,
+          "en": "Spaghetti and cheese balls in tomato sauce",
+          "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে"
+        },
+        {
+          "id": 235,
+          "en": "Tomato fish",
+          "bn": "টমেটো মাছ"
+        }
+      ]
+    },
+    {
+      "token": "উত",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        40,
+        50
+      ],
+      "source_records": [
+        {
+          "id": 40,
+          "en": "Onion tomato uttapam",
+          "bn": "পেঁয়াজ টমেটো উত্তাপম"
+        },
+        {
+          "id": 50,
+          "en": "Uttapam",
+          "bn": "উত্তাপম"
+        }
+      ]
+    },
+    {
+      "token": "সা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 59,
+      "sample_ids": [
+        42,
+        83,
+        121,
+        126,
+        129,
+        130,
+        157,
+        162,
+        163,
+        178
+      ],
+      "source_records": [
+        {
+          "id": 42,
+          "en": "Plain dosa",
+          "bn": "সাদা ডোসা"
+        },
+        {
+          "id": 83,
+          "en": "Cucumber and yogurt salad",
+          "bn": "কুকুমবের ানদ দই সালাদ"
+        },
+        {
+          "id": 121,
+          "en": "Paneer, apple and pineapple salad",
+          "bn": "পানির, আপেল ানদ আনারস সালাদ"
+        },
+        {
+          "id": 126,
+          "en": "Plain cream cake",
+          "bn": "সাদা ক্রিম কাকে"
+        },
+        {
+          "id": 129,
+          "en": "Saffron milk",
+          "bn": "সাফফরোন দুধ"
+        }
+      ]
+    },
+    {
+      "token": "(র",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        43
+      ],
+      "source_records": [
+        {
+          "id": 43,
+          "en": "Poha",
+          "bn": "পোহা (রান্না)"
+        }
+      ]
+    },
+    {
+      "token": "উপ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        44,
+        47,
+        49,
+        53,
+        373,
+        708
+      ],
+      "source_records": [
+        {
+          "id": 44,
+          "en": "Rice upma",
+          "bn": "ভাত উপমা"
+        },
+        {
+          "id": 47,
+          "en": "Semolina upma",
+          "bn": "সেমোলিনা উপমা"
+        },
+        {
+          "id": 49,
+          "en": "Sprouts upma",
+          "bn": "স্প্রাউটস উপমা"
+        },
+        {
+          "id": 53,
+          "en": "Vegetable upma",
+          "bn": "ভেগেতাবলে উপমা"
+        },
+        {
+          "id": 373,
+          "en": "Vermicelli upma",
+          "bn": "সেমাই উপমা"
+        }
+      ]
+    },
+    {
+      "token": "সে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 28,
+      "sample_ids": [
+        45,
+        46,
+        47,
+        48,
+        131,
+        132,
+        164,
+        296,
+        317,
+        373
+      ],
+      "source_records": [
+        {
+          "id": 45,
+          "en": "Semolina dosa",
+          "bn": "সেমোলিনা ডোসা"
+        },
+        {
+          "id": 46,
+          "en": "Semolina idli",
+          "bn": "সেমোলিনা ইডলি"
+        },
+        {
+          "id": 47,
+          "en": "Semolina upma",
+          "bn": "সেমোলিনা উপমা"
+        },
+        {
+          "id": 48,
+          "en": "Sesame toast",
+          "bn": "সেসামে টোস্ট"
+        },
+        {
+          "id": 131,
+          "en": "Semolina ladoo with khoya",
+          "bn": "সেমোলিনা লাড্ডু ওিথ খোয়া"
+        }
+      ]
+    },
+    {
+      "token": "স্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 88,
+      "sample_ids": [
+        49,
+        58,
+        61,
+        66,
+        81,
+        104,
+        117,
+        119,
+        125,
+        135
+      ],
+      "source_records": [
+        {
+          "id": 49,
+          "en": "Sprouts upma",
+          "bn": "স্প্রাউটস উপমা"
+        },
+        {
+          "id": 58,
+          "en": "Cheese and chilli sandwich",
+          "bn": "চিজ ানদ চিললি স্যান্ডউইচ"
+        },
+        {
+          "id": 61,
+          "en": "Cheese open sandwich",
+          "bn": "চিজ োপেন স্যান্ডউইচ"
+        },
+        {
+          "id": 66,
+          "en": "Cheese soup",
+          "bn": "চিজ স্যুপ"
+        },
+        {
+          "id": 81,
+          "en": "Cream of tomato soup",
+          "bn": "ক্রিম োফ টমেটো স্যুপ"
+        }
+      ]
+    },
+    {
+      "token": "ভে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 39,
+      "sample_ids": [
+        51,
+        52,
+        53,
+        87,
+        200,
+        313,
+        371,
+        372,
+        392,
+        523
+      ],
+      "source_records": [
+        {
+          "id": 51,
+          "en": "Vegetable pancake",
+          "bn": "ভেগেতাবলে পানকাকে"
+        },
+        {
+          "id": 52,
+          "en": "Vegetable poha",
+          "bn": "ভেগেতাবলে চিড়া"
+        },
+        {
+          "id": 53,
+          "en": "Vegetable upma",
+          "bn": "ভেগেতাবলে উপমা"
+        },
+        {
+          "id": 87,
+          "en": "Curd vegetable dip",
+          "bn": "দই ভেগেতাবলে দিপ"
+        },
+        {
+          "id": 200,
+          "en": "Bhetki Paturi",
+          "bn": "ভেটকি পাতুরি"
+        }
+      ]
+    },
+    {
+      "token": "আম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 18,
+      "sample_ids": [
+        54,
+        99,
+        191,
+        259,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "source_records": [
+        {
+          "id": 54,
+          "en": "Aam Chutney",
+          "bn": "আমের চাটনি"
+        },
+        {
+          "id": 99,
+          "en": "Mango ice cream",
+          "bn": "আম আইসক্রিম"
+        },
+        {
+          "id": 191,
+          "en": "Mango Shake",
+          "bn": "আম শেক"
+        },
+        {
+          "id": 259,
+          "en": "Dry mango chutney",
+          "bn": "দরয আমের চাটনি"
+        },
+        {
+          "id": 267,
+          "en": "Mango",
+          "bn": "আম"
+        }
+      ]
+    },
+    {
+      "token": "মা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 134,
+      "sample_ids": [
+        56,
+        71,
+        98,
+        100,
+        101,
+        109,
+        114,
+        125,
+        135,
+        144
+      ],
+      "source_records": [
+        {
+          "id": 56,
+          "en": "Butter icing",
+          "bn": "মাখন িকিনগ"
+        },
+        {
+          "id": 71,
+          "en": "Chocolate butter icing",
+          "bn": "চোকোলাতে মাখন িকিনগ"
+        },
+        {
+          "id": 98,
+          "en": "Macroni cheese pie",
+          "bn": "মাকরোনি চিজ পিে"
+        },
+        {
+          "id": 100,
+          "en": "Mashed banana with milk",
+          "bn": "মাশেদ কলা ওিথ দুধ"
+        },
+        {
+          "id": 101,
+          "en": "Methi malai paneer",
+          "bn": "মেথি মালাই পনির"
+        }
+      ]
+    },
+    {
+      "token": "িক",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        56,
+        71,
+        135,
+        421,
+        468,
+        479,
+        488,
+        573
+      ],
+      "source_records": [
+        {
+          "id": 56,
+          "en": "Butter icing",
+          "bn": "মাখন িকিনগ"
+        },
+        {
+          "id": 71,
+          "en": "Chocolate butter icing",
+          "bn": "চোকোলাতে মাখন িকিনগ"
+        },
+        {
+          "id": 135,
+          "en": "Strawberry and vanilla cake with butter icing",
+          "bn": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ"
+        },
+        {
+          "id": 421,
+          "en": "Chocolate glace icing",
+          "bn": "চোকোলাতে গলাকে িকিনগ"
+        },
+        {
+          "id": 468,
+          "en": "Glace icing",
+          "bn": "গলাকে িকিনগ"
+        }
+      ]
+    },
+    {
+      "token": "আই",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 12,
+      "sample_ids": [
+        57,
+        70,
+        73,
+        74,
+        75,
+        76,
+        89,
+        99,
+        124,
+        136
+      ],
+      "source_records": [
+        {
+          "id": 57,
+          "en": "Caramel ice cream",
+          "bn": "কারামেল আইসক্রিম"
+        },
+        {
+          "id": 70,
+          "en": "Chocochip ice cream",
+          "bn": "চোকোচিপ আইসক্রিম"
+        },
+        {
+          "id": 73,
+          "en": "Chocolate ice cream",
+          "bn": "চোকোলাতে আইসক্রিম"
+        },
+        {
+          "id": 74,
+          "en": "Choconut ice cream",
+          "bn": "চোকোনুত আইসক্রিম"
+        },
+        {
+          "id": 75,
+          "en": "Coffee ice cream",
+          "bn": "কফি আইসক্রিম"
+        }
+      ]
+    },
+    {
+      "token": "নু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        60,
+        444,
+        654
+      ],
+      "source_records": [
+        {
+          "id": 60,
+          "en": "Cheese noodle ring",
+          "bn": "চিজ নুদলে রিনগ"
+        },
+        {
+          "id": 444,
+          "en": "Date and nut pie",
+          "bn": "দাতে ানদ নুত পিে"
+        },
+        {
+          "id": 654,
+          "en": "Home made egg noodles",
+          "bn": "হোমে মাদে ডিম নুডলস"
+        }
+      ]
+    },
+    {
+      "token": "রি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        60,
+        820,
+        919
+      ],
+      "source_records": [
+        {
+          "id": 60,
+          "en": "Cheese noodle ring",
+          "bn": "চিজ নুদলে রিনগ"
+        },
+        {
+          "id": 820,
+          "en": "Ribbon sandwich",
+          "bn": "রিববোন স্যান্ডউইচ"
+        },
+        {
+          "id": 919,
+          "en": "Rich chocolate mousse",
+          "bn": "রিচ চোকোলাতে মউসসে"
+        }
+      ]
+    },
+    {
+      "token": "োপ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        61,
+        835,
+        936
+      ],
+      "source_records": [
+        {
+          "id": 61,
+          "en": "Cheese open sandwich",
+          "bn": "চিজ োপেন স্যান্ডউইচ"
+        },
+        {
+          "id": 835,
+          "en": "Sunset and sunrise open sandwich",
+          "bn": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ"
+        },
+        {
+          "id": 936,
+          "en": "Sweet open sandwich",
+          "bn": "মিষ্টি োপেন স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "সআ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 27,
+      "sample_ids": [
+        65,
+        109,
+        122,
+        134,
+        197,
+        340,
+        370,
+        391,
+        393,
+        404
+      ],
+      "source_records": [
+        {
+          "id": 65,
+          "en": "Cheese sauce",
+          "bn": "চিজ সআউকে"
+        },
+        {
+          "id": 109,
+          "en": "Paneer in butter sauce",
+          "bn": "পনির িন মাখন সআউকে"
+        },
+        {
+          "id": 122,
+          "en": "Pasta cheese sauce",
+          "bn": "পাস্তা চিজ সআউকে"
+        },
+        {
+          "id": 134,
+          "en": "Spaghetti and cheese balls in tomato sauce",
+          "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে"
+        },
+        {
+          "id": 197,
+          "en": "Baked fish with cheese sauce",
+          "bn": "বেক মাছ ওিথ চিজ সআউকে"
+        }
+      ]
+    },
+    {
+      "token": "পন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 29,
+      "sample_ids": [
+        69,
+        78,
+        93,
+        101,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "source_records": [
+        {
+          "id": 69,
+          "en": "Chilli paneer",
+          "bn": "চিললি পনির"
+        },
+        {
+          "id": 78,
+          "en": "Cottage cheese pie",
+          "bn": "পনির পিে"
+        },
+        {
+          "id": 93,
+          "en": "Kadhai Paneer",
+          "bn": "কাধাি পনির"
+        },
+        {
+          "id": 101,
+          "en": "Methi malai paneer",
+          "bn": "মেথি মালাই পনির"
+        },
+        {
+          "id": 107,
+          "en": "Paneer and pea samosa",
+          "bn": "পনির ানদ পো সমোসা"
+        }
+      ]
+    },
+    {
+      "token": "চো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 32,
+      "sample_ids": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        349,
+        378,
+        418,
+        419,
+        420
+      ],
+      "source_records": [
+        {
+          "id": 70,
+          "en": "Chocochip ice cream",
+          "bn": "চোকোচিপ আইসক্রিম"
+        },
+        {
+          "id": 71,
+          "en": "Chocolate butter icing",
+          "bn": "চোকোলাতে মাখন িকিনগ"
+        },
+        {
+          "id": 72,
+          "en": "Chocolate cream shells",
+          "bn": "চোকোলাতে ক্রিম শেললস"
+        },
+        {
+          "id": 73,
+          "en": "Chocolate ice cream",
+          "bn": "চোকোলাতে আইসক্রিম"
+        },
+        {
+          "id": 74,
+          "en": "Choconut ice cream",
+          "bn": "চোকোনুত আইসক্রিম"
+        }
+      ]
+    },
+    {
+      "token": "ক্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 13,
+      "sample_ids": [
+        72,
+        79,
+        80,
+        81,
+        82,
+        91,
+        105,
+        106,
+        126,
+        128
+      ],
+      "source_records": [
+        {
+          "id": 72,
+          "en": "Chocolate cream shells",
+          "bn": "চোকোলাতে ক্রিম শেললস"
+        },
+        {
+          "id": 79,
+          "en": "Cream buns",
+          "bn": "ক্রিম বুনস"
+        },
+        {
+          "id": 80,
+          "en": "Cream horns",
+          "bn": "ক্রিম হোরনস"
+        },
+        {
+          "id": 81,
+          "en": "Cream of tomato soup",
+          "bn": "ক্রিম োফ টমেটো স্যুপ"
+        },
+        {
+          "id": 82,
+          "en": "Cream puffs",
+          "bn": "ক্রিম পুফফস"
+        }
+      ]
+    },
+    {
+      "token": "শে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        72,
+        179,
+        191,
+        589
+      ],
+      "source_records": [
+        {
+          "id": 72,
+          "en": "Chocolate cream shells",
+          "bn": "চোকোলাতে ক্রিম শেললস"
+        },
+        {
+          "id": 179,
+          "en": "Banana Shake",
+          "bn": "কলা শেক"
+        },
+        {
+          "id": 191,
+          "en": "Mango Shake",
+          "bn": "আম শেক"
+        },
+        {
+          "id": 589,
+          "en": "Shepherd's pie",
+          "bn": "শেফেরদ'স পিে"
+        }
+      ]
+    },
+    {
+      "token": "কর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 14,
+      "sample_ids": [
+        77,
+        204,
+        297,
+        338,
+        437,
+        438,
+        591,
+        876,
+        893,
+        994
+      ],
+      "source_records": [
+        {
+          "id": 77,
+          "en": "Cornflakes with milk",
+          "bn": "কর্নফ্লেক্স ওিথ দুধ"
+        },
+        {
+          "id": 204,
+          "en": "Crispy baked fish",
+          "bn": "করিসপয বেক মাছ"
+        },
+        {
+          "id": 297,
+          "en": "Cracked wheat porridge",
+          "bn": "করাককেদ গম পোররিদগে"
+        },
+        {
+          "id": 338,
+          "en": "Creamy chicken",
+          "bn": "করোময চিকেন"
+        },
+        {
+          "id": 437,
+          "en": "Cranberry cookies",
+          "bn": "করানবেররয কুকিেস"
+        }
+      ]
+    },
+    {
+      "token": "োফ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        81,
+        457,
+        916
+      ],
+      "source_records": [
+        {
+          "id": 81,
+          "en": "Cream of tomato soup",
+          "bn": "ক্রিম োফ টমেটো স্যুপ"
+        },
+        {
+          "id": 457,
+          "en": "Fricassee of Mushroom",
+          "bn": "ফরিকাসসি োফ মুশরুম"
+        },
+        {
+          "id": 916,
+          "en": "Queen of pudding",
+          "bn": "কুিন োফ পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "token": "দি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        84,
+        86,
+        87,
+        447,
+        523,
+        1170
+      ],
+      "source_records": [
+        {
+          "id": 84,
+          "en": "Curd dip",
+          "bn": "দই দিপ"
+        },
+        {
+          "id": 86,
+          "en": "Curd mint dip",
+          "bn": "দই মিনত দিপ"
+        },
+        {
+          "id": 87,
+          "en": "Curd vegetable dip",
+          "bn": "দই ভেগেতাবলে দিপ"
+        },
+        {
+          "id": 447,
+          "en": "Dil bahar",
+          "bn": "দিল বাহার"
+        },
+        {
+          "id": 523,
+          "en": "Mayonnaise vegetable dip",
+          "bn": "মেয়োনিজ ভেগেতাবলে দিপ"
+        }
+      ]
+    },
+    {
+      "token": "গু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 20,
+      "sample_ids": [
+        90,
+        170,
+        469,
+        470,
+        471,
+        478,
+        479,
+        480,
+        481,
+        1222
+      ],
+      "source_records": [
+        {
+          "id": 90,
+          "en": "Gulab Jamun with khoya",
+          "bn": "গুলাব জামুন ওিথ খোয়া"
+        },
+        {
+          "id": 170,
+          "en": "Nolen Gur Sandesh",
+          "bn": "নলেন গুড় সন্দেশ"
+        },
+        {
+          "id": 469,
+          "en": "Gooseberry chutney",
+          "bn": "গুসেবেররয চাটনি"
+        },
+        {
+          "id": 470,
+          "en": "Gooseberry marmalade",
+          "bn": "গুসেবেররয মারমালাদে"
+        },
+        {
+          "id": 471,
+          "en": "Gooseberry pickle",
+          "bn": "গুসেবেররয আচার"
+        }
+      ]
+    },
+    {
+      "token": "খো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 9,
+      "sample_ids": [
+        90,
+        94,
+        95,
+        96,
+        131,
+        1231,
+        1236,
+        1237,
+        1244
+      ],
+      "source_records": [
+        {
+          "id": 90,
+          "en": "Gulab Jamun with khoya",
+          "bn": "গুলাব জামুন ওিথ খোয়া"
+        },
+        {
+          "id": 94,
+          "en": "Khoa and coconut pancake",
+          "bn": "খোয়া ানদ নারকেল পানকাকে"
+        },
+        {
+          "id": 95,
+          "en": "Khoa coconut burfi",
+          "bn": "খোয়া নারকেল বুরফি"
+        },
+        {
+          "id": 96,
+          "en": "Khoa ladoo",
+          "bn": "খোয়া লাড্ডু"
+        },
+        {
+          "id": 131,
+          "en": "Semolina ladoo with khoya",
+          "bn": "সেমোলিনা লাড্ডু ওিথ খোয়া"
+        }
+      ]
+    },
+    {
+      "token": "সউ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 25,
+      "sample_ids": [
+        92,
+        217,
+        221,
+        254,
+        255,
+        265,
+        281,
+        287,
+        425,
+        430
+      ],
+      "source_records": [
+        {
+          "id": 92,
+          "en": "Hot cheese souffle",
+          "bn": "হোত চিজ সউফফলে"
+        },
+        {
+          "id": 217,
+          "en": "Fish souffle",
+          "bn": "মাছ সউফফলে"
+        },
+        {
+          "id": 221,
+          "en": "Hot fish souffle",
+          "bn": "হোত মাছ সউফফলে"
+        },
+        {
+          "id": 254,
+          "en": "Cold orange souffle",
+          "bn": "কোলদ কমলা সউফফলে"
+        },
+        {
+          "id": 255,
+          "en": "Cold pineapple souffle",
+          "bn": "কোলদ আনারস সউফফলে"
+        }
+      ]
+    },
+    {
+      "token": "লে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 26,
+      "sample_ids": [
+        97,
+        189,
+        190,
+        225,
+        346,
+        431,
+        486,
+        503,
+        504,
+        505
+      ],
+      "source_records": [
+        {
+          "id": 97,
+          "en": "Lemon curd filling",
+          "bn": "লেবু দই ফিললিনগ"
+        },
+        {
+          "id": 189,
+          "en": "Lemon Honey Water",
+          "bn": "লেবু মধু জল"
+        },
+        {
+          "id": 190,
+          "en": "Lemon Water",
+          "bn": "লেবু জল"
+        },
+        {
+          "id": 225,
+          "en": "Lemon butter fish",
+          "bn": "লেবু মাখন মাছ"
+        },
+        {
+          "id": 346,
+          "en": "Lemon chicken",
+          "bn": "লেবু চিকেন"
+        }
+      ]
+    },
+    {
+      "token": "ফি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        97,
+        206,
+        211,
+        236,
+        252,
+        490,
+        554,
+        788,
+        995,
+        1010
+      ],
+      "source_records": [
+        {
+          "id": 97,
+          "en": "Lemon curd filling",
+          "bn": "লেবু দই ফিললিনগ"
+        },
+        {
+          "id": 206,
+          "en": "Fish Fry",
+          "bn": "ফিশ ফ্রাই"
+        },
+        {
+          "id": 211,
+          "en": "Fish finger",
+          "bn": "মাছ ফিনগের"
+        },
+        {
+          "id": 236,
+          "en": "Fitness Bowl",
+          "bn": "ফিটনেস বোল"
+        },
+        {
+          "id": 252,
+          "en": "Coconut finger",
+          "bn": "নারকেল ফিনগের"
+        }
+      ]
+    },
+    {
+      "token": "মে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 20,
+      "sample_ids": [
+        101,
+        124,
+        299,
+        422,
+        508,
+        516,
+        522,
+        523,
+        524,
+        527
+      ],
+      "source_records": [
+        {
+          "id": 101,
+          "en": "Methi malai paneer",
+          "bn": "মেথি মালাই পনির"
+        },
+        {
+          "id": 124,
+          "en": "Peach melba ice cream",
+          "bn": "পোচ মেলবা আইসক্রিম"
+        },
+        {
+          "id": 299,
+          "en": "Mexican rice",
+          "bn": "মেক্সিকান ভাত"
+        },
+        {
+          "id": 422,
+          "en": "Chocolate meringue pie",
+          "bn": "চোকোলাতে মেরিনগুে পিে"
+        },
+        {
+          "id": 508,
+          "en": "Lemon meringue pie",
+          "bn": "লেবু মেরিনগুে পিে"
+        }
+      ]
+    },
+    {
+      "token": "কম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 20,
+      "sample_ids": [
+        105,
+        106,
+        177,
+        254,
+        261,
+        265,
+        276,
+        277,
+        278,
+        279
+      ],
+      "source_records": [
+        {
+          "id": 105,
+          "en": "Orange and pineapple cream",
+          "bn": "কমলা ানদ আনারস ক্রিম"
+        },
+        {
+          "id": 106,
+          "en": "Orange cream tart",
+          "bn": "কমলা ক্রিম তারত"
+        },
+        {
+          "id": 177,
+          "en": "Weight Loss Soup",
+          "bn": "ওজন কমানোর স্যুপ"
+        },
+        {
+          "id": 254,
+          "en": "Cold orange souffle",
+          "bn": "কোলদ কমলা সউফফলে"
+        },
+        {
+          "id": 261,
+          "en": "Grape and orange whip",
+          "bn": "গরাপে ানদ কমলা ওহিপ"
+        }
+      ]
+    },
+    {
+      "token": "আন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 14,
+      "sample_ids": [
+        105,
+        121,
+        255,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        913
+      ],
+      "source_records": [
+        {
+          "id": 105,
+          "en": "Orange and pineapple cream",
+          "bn": "কমলা ানদ আনারস ক্রিম"
+        },
+        {
+          "id": 121,
+          "en": "Paneer, apple and pineapple salad",
+          "bn": "পানির, আপেল ানদ আনারস সালাদ"
+        },
+        {
+          "id": 255,
+          "en": "Cold pineapple souffle",
+          "bn": "কোলদ আনারস সউফফলে"
+        },
+        {
+          "id": 283,
+          "en": "Pineapple jam",
+          "bn": "আনারস জাম"
+        },
+        {
+          "id": 284,
+          "en": "Pineapple milkshake",
+          "bn": "আনারস মিলকশাকে"
+        }
+      ]
+    },
+    {
+      "token": "তা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 15,
+      "sample_ids": [
+        106,
+        233,
+        359,
+        579,
+        609,
+        735,
+        867,
+        894,
+        897,
+        899
+      ],
+      "source_records": [
+        {
+          "id": 106,
+          "en": "Orange cream tart",
+          "bn": "কমলা ক্রিম তারত"
+        },
+        {
+          "id": 233,
+          "en": "Tandoori fish",
+          "bn": "তানদুরি মাছ"
+        },
+        {
+          "id": 359,
+          "en": "Tandoori chicken",
+          "bn": "তানদুরি চিকেন"
+        },
+        {
+          "id": 579,
+          "en": "Saunth/Sonth chutney with tamarind/imli",
+          "bn": "সআউনথ/সোনথ চাটনি ওিথ তামারিনদ/িমলি"
+        },
+        {
+          "id": 609,
+          "en": "Tartare sauce",
+          "bn": "তারতারে সআউকে"
+        }
+      ]
+    },
+    {
+      "token": "কআ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        110,
+        992
+      ],
+      "source_records": [
+        {
+          "id": 110,
+          "en": "Paneer kaathi roll",
+          "bn": "পনির কআথি রোল"
+        },
+        {
+          "id": 992,
+          "en": "Cauliflower, pea and potato bhujia",
+          "bn": "কআউলিফলোওের, পো ানদ আলু ভুজিা"
+        }
+      ]
+    },
+    {
+      "token": "রো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 18,
+      "sample_ids": [
+        110,
+        323,
+        571,
+        572,
+        573,
+        706,
+        768,
+        772,
+        795,
+        822
+      ],
+      "source_records": [
+        {
+          "id": 110,
+          "en": "Paneer kaathi roll",
+          "bn": "পনির কআথি রোল"
+        },
+        {
+          "id": 323,
+          "en": "Chicken Roast",
+          "bn": "চিকেন রোস্ট"
+        },
+        {
+          "id": 571,
+          "en": "Roast potatoes",
+          "bn": "রোাসত পোতাতোেস"
+        },
+        {
+          "id": 572,
+          "en": "Roghan josh",
+          "bn": "রোঘান জোশ"
+        },
+        {
+          "id": 573,
+          "en": "Royal icing",
+          "bn": "রোযাল িকিনগ"
+        }
+      ]
+    },
+    {
+      "token": "কো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 38,
+      "sample_ids": [
+        112,
+        114,
+        254,
+        255,
+        290,
+        325,
+        327,
+        343,
+        344,
+        351
+      ],
+      "source_records": [
+        {
+          "id": 112,
+          "en": "Paneer kofta curry",
+          "bn": "পনির কোফতা তরকারি"
+        },
+        {
+          "id": 114,
+          "en": "Paneer makhana korma",
+          "bn": "পনির মাখানা কোরমা"
+        },
+        {
+          "id": 254,
+          "en": "Cold orange souffle",
+          "bn": "কোলদ কমলা সউফফলে"
+        },
+        {
+          "id": 255,
+          "en": "Cold pineapple souffle",
+          "bn": "কোলদ আনারস সউফফলে"
+        },
+        {
+          "id": 290,
+          "en": "Raw banana kofta curry",
+          "bn": "রাও কলা কোফতা তরকারি"
+        }
+      ]
+    },
+    {
+      "token": "তর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 38,
+      "sample_ids": [
+        112,
+        152,
+        223,
+        290,
+        294,
+        295,
+        344,
+        357,
+        398,
+        400
+      ],
+      "source_records": [
+        {
+          "id": 112,
+          "en": "Paneer kofta curry",
+          "bn": "পনির কোফতা তরকারি"
+        },
+        {
+          "id": 152,
+          "en": "Masoor Dal",
+          "bn": "মসুর ডালের তরকারি"
+        },
+        {
+          "id": 223,
+          "en": "Katla Curry",
+          "bn": "কাতলা মাছের তরকারি"
+        },
+        {
+          "id": 290,
+          "en": "Raw banana kofta curry",
+          "bn": "রাও কলা কোফতা তরকারি"
+        },
+        {
+          "id": 294,
+          "en": "Vegetable curry with coconut",
+          "bn": "সবজির তরকারি ওিথ নারকেল"
+        }
+      ]
+    },
+    {
+      "token": "শা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 38,
+      "sample_ids": [
+        118,
+        133,
+        356,
+        357,
+        587,
+        588,
+        924,
+        962,
+        1142,
+        1156
+      ],
+      "source_records": [
+        {
+          "id": 118,
+          "en": "Paneer shaslik/tikka",
+          "bn": "পনির শাসলিক/তিককা"
+        },
+        {
+          "id": 133,
+          "en": "Shahi paneer",
+          "bn": "শাহি পনির"
+        },
+        {
+          "id": 356,
+          "en": "Shahi chicken masala",
+          "bn": "শাহি চিকেন মশলা"
+        },
+        {
+          "id": 357,
+          "en": "Shahi keema kofta curry",
+          "bn": "শাহি কিমা কোফতা তরকারি"
+        },
+        {
+          "id": 587,
+          "en": "Shahi tukre",
+          "bn": "শাহি তুকরে"
+        }
+      ]
+    },
+    {
+      "token": "চে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 9,
+      "sample_ids": [
+        120,
+        161,
+        268,
+        377,
+        414,
+        483,
+        767,
+        1304,
+        1306
+      ],
+      "source_records": [
+        {
+          "id": 120,
+          "en": "Paneer stuffed cheela/chilla",
+          "bn": "পনির সতুফফেদ চেেলা/চিললা"
+        },
+        {
+          "id": 161,
+          "en": "Rice moong dal cheela",
+          "bn": "ভাত মুগ ডাল চেেলা"
+        },
+        {
+          "id": 268,
+          "en": "Mango cheesecake",
+          "bn": "আম চেেসেকাকে"
+        },
+        {
+          "id": 377,
+          "en": "Cherry and walnut cookies",
+          "bn": "চেররয ানদ আখরোট কুকিেস"
+        },
+        {
+          "id": 414,
+          "en": "Chenna murki",
+          "bn": "চেননা মুরকি"
+        }
+      ]
+    },
+    {
+      "token": "রা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 35,
+      "sample_ids": [
+        128,
+        248,
+        264,
+        273,
+        286,
+        289,
+        290,
+        292,
+        293,
+        383
+      ],
+      "source_records": [
+        {
+          "id": 128,
+          "en": "Raspberry bavarian cream",
+          "bn": "রাসপবেররয বাভারিান ক্রিম"
+        },
+        {
+          "id": 248,
+          "en": "Banana raita",
+          "bn": "কলা রায়তা"
+        },
+        {
+          "id": 264,
+          "en": "Guava raita",
+          "bn": "পেয়ারা রায়তা"
+        },
+        {
+          "id": 273,
+          "en": "Mango raita",
+          "bn": "আম রায়তা"
+        },
+        {
+          "id": 286,
+          "en": "Pineapple raita",
+          "bn": "আনারস রায়তা"
+        }
+      ]
+    },
+    {
+      "token": "সপ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 16,
+      "sample_ids": [
+        134,
+        305,
+        369,
+        370,
+        599,
+        617,
+        618,
+        732,
+        734,
+        754
+      ],
+      "source_records": [
+        {
+          "id": 134,
+          "en": "Spaghetti and cheese balls in tomato sauce",
+          "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে"
+        },
+        {
+          "id": 305,
+          "en": "Spanish rice",
+          "bn": "সপানিশ ভাত"
+        },
+        {
+          "id": 369,
+          "en": "Spaghetti bolognese",
+          "bn": "সপাঘেততি বোলোগনেসে"
+        },
+        {
+          "id": 370,
+          "en": "Spaghetti with meat balls and tomato sauce",
+          "bn": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে"
+        },
+        {
+          "id": 599,
+          "en": "Spanish omelette/omlet",
+          "bn": "সপানিশ োমেলেততে/োমলেত"
+        }
+      ]
+    },
+    {
+      "token": "সও",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        137,
+        138,
+        427,
+        772,
+        836
+      ],
+      "source_records": [
+        {
+          "id": 137,
+          "en": "Sweetened yogurt",
+          "bn": "সওিতেনেদ দই"
+        },
+        {
+          "id": 138,
+          "en": "Thickened sweetened milk",
+          "bn": "থিককেনেদ সওিতেনেদ দুধ"
+        },
+        {
+          "id": 427,
+          "en": "Choux swans",
+          "bn": "চোুক্স সওানস"
+        },
+        {
+          "id": 772,
+          "en": "Chocolate swiss roll",
+          "bn": "চোকোলাতে সওিসস রোল"
+        },
+        {
+          "id": 836,
+          "en": "Swiss roll",
+          "bn": "সওিসস রোল"
+        }
+      ]
+    },
+    {
+      "token": "থি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        138
+      ],
+      "source_records": [
+        {
+          "id": 138,
+          "en": "Thickened sweetened milk",
+          "bn": "থিককেনেদ সওিতেনেদ দুধ"
+        }
+      ]
+    },
+    {
+      "token": "সব",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 17,
+      "sample_ids": [
+        139,
+        294,
+        474,
+        620,
+        696,
+        757,
+        869,
+        870,
+        951,
+        959
+      ],
+      "source_records": [
+        {
+          "id": 139,
+          "en": "Veg paneer stew",
+          "bn": "সবজি পনির সতেও"
+        },
+        {
+          "id": 294,
+          "en": "Vegetable curry with coconut",
+          "bn": "সবজির তরকারি ওিথ নারকেল"
+        },
+        {
+          "id": 474,
+          "en": "Green chutney",
+          "bn": "সবুজ চাটনি"
+        },
+        {
+          "id": 620,
+          "en": "Veg manchurian",
+          "bn": "সবজি মানচুরিান"
+        },
+        {
+          "id": 696,
+          "en": "Veg Pulao",
+          "bn": "সবজি পোলাও"
+        }
+      ]
+    },
+    {
+      "token": "াত",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        140
+      ],
+      "source_records": [
+        {
+          "id": 140,
+          "en": "Atta dal burfi",
+          "bn": "াততা ডাল বুরফি"
+        }
+      ]
+    },
+    {
+      "token": "ডা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 45,
+      "sample_ids": [
+        140,
+        142,
+        143,
+        144,
+        145,
+        147,
+        149,
+        150,
+        151,
+        152
+      ],
+      "source_records": [
+        {
+          "id": 140,
+          "en": "Atta dal burfi",
+          "bn": "াততা ডাল বুরফি"
+        },
+        {
+          "id": 142,
+          "en": "Cholar Dal",
+          "bn": "ছোলার ডাল"
+        },
+        {
+          "id": 143,
+          "en": "Dal dhokli",
+          "bn": "ডাল ধোকলি"
+        },
+        {
+          "id": 144,
+          "en": "Dal makhani",
+          "bn": "ডাল মাখানি"
+        },
+        {
+          "id": 145,
+          "en": "Dal moong",
+          "bn": "ডাল মুনগ"
+        }
+      ]
+    },
+    {
+      "token": "ছো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        141,
+        142,
+        740,
+        821,
+        1323
+      ],
+      "source_records": [
+        {
+          "id": 141,
+          "en": "Chana Bhuna",
+          "bn": "ছোলা ভুনা"
+        },
+        {
+          "id": 142,
+          "en": "Cholar Dal",
+          "bn": "ছোলার ডাল"
+        },
+        {
+          "id": 740,
+          "en": "Chickpea Salad",
+          "bn": "ছোলা সালাদ"
+        },
+        {
+          "id": 821,
+          "en": "Roasted Chana",
+          "bn": "ছোলা ভাজা"
+        },
+        {
+          "id": 1323,
+          "en": "Shrimp, Speckled, raw",
+          "bn": "চিংড়ি, ছোট"
+        }
+      ]
+    },
+    {
+      "token": "ভু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 15,
+      "sample_ids": [
+        141,
+        334,
+        394,
+        436,
+        534,
+        642,
+        656,
+        832,
+        933,
+        963
+      ],
+      "source_records": [
+        {
+          "id": 141,
+          "en": "Chana Bhuna",
+          "bn": "ছোলা ভুনা"
+        },
+        {
+          "id": 334,
+          "en": "Chicken sweet corn soup",
+          "bn": "চিকেন মিষ্টি ভুট্টা স্যুপ"
+        },
+        {
+          "id": 394,
+          "en": "Bathua bhujia",
+          "bn": "বাথুা ভুজিা"
+        },
+        {
+          "id": 436,
+          "en": "Corn omelette/omlet",
+          "bn": "ভুট্টা োমেলেততে/োমলেত"
+        },
+        {
+          "id": 534,
+          "en": "Mooli bhujia",
+          "bn": "মুলি ভুজিা"
+        }
+      ]
+    },
+    {
+      "token": "ধো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        143
+      ],
+      "source_records": [
+        {
+          "id": 143,
+          "en": "Dal dhokli",
+          "bn": "ডাল ধোকলি"
+        }
+      ]
+    },
+    {
+      "token": "ঢো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        146,
+        148,
+        164,
+        955
+      ],
+      "source_records": [
+        {
+          "id": 146,
+          "en": "Dhokla",
+          "bn": "ঢোকলা"
+        },
+        {
+          "id": 148,
+          "en": "Instant dhokla",
+          "bn": "িনসতানত ঢোকলা"
+        },
+        {
+          "id": 164,
+          "en": "Semolina dhokla",
+          "bn": "সেমোলিনা ঢোকলা"
+        },
+        {
+          "id": 955,
+          "en": "Dhokar Dalna",
+          "bn": "ঢোকার ডালনা"
+        }
+      ]
+    },
+    {
+      "token": "মস",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        149,
+        152,
+        1104,
+        1110
+      ],
+      "source_records": [
+        {
+          "id": 149,
+          "en": "Lentil soup",
+          "bn": "মসুর ডালের স্যুপ"
+        },
+        {
+          "id": 152,
+          "en": "Masoor Dal",
+          "bn": "মসুর ডালের তরকারি"
+        },
+        {
+          "id": 1104,
+          "en": "Lentil, dried, raw",
+          "bn": "মসুর ডাল, শুকনো"
+        },
+        {
+          "id": 1110,
+          "en": "Lentil, boiled* (without salt)",
+          "bn": "মসুর ডাল সিদ্ধ"
+        }
+      ]
+    },
+    {
+      "token": "মআ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        150,
+        517
+      ],
+      "source_records": [
+        {
+          "id": 150,
+          "en": "Maa chaane ki dal",
+          "bn": "মআ চাানে কি ডাল"
+        },
+        {
+          "id": 517,
+          "en": "Maize porridge",
+          "bn": "মআইজে পোররিদগে"
+        }
+      ]
+    },
+    {
+      "token": "কি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 11,
+      "sample_ids": [
+        150,
+        240,
+        318,
+        344,
+        345,
+        354,
+        357,
+        500,
+        714,
+        900
+      ],
+      "source_records": [
+        {
+          "id": 150,
+          "en": "Maa chaane ki dal",
+          "bn": "মআ চাানে কি ডাল"
+        },
+        {
+          "id": 240,
+          "en": "Apple cinnamon pie",
+          "bn": "আপেল কিননামোন পিে"
+        },
+        {
+          "id": 318,
+          "en": "Broccoli chicken ala king",
+          "bn": "বরোককোলি চিকেন ালা কিনগ"
+        },
+        {
+          "id": 344,
+          "en": "Keema kofta curry",
+          "bn": "কিমা কোফতা তরকারি"
+        },
+        {
+          "id": 345,
+          "en": "Keema pancake",
+          "bn": "কিমা পানকাকে"
+        }
+      ]
+    },
+    {
+      "token": "উড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        151,
+        157,
+        166
+      ],
+      "source_records": [
+        {
+          "id": 151,
+          "en": "Masala urad dal vada",
+          "bn": "মশলা উড়দ ডাল বড়া"
+        },
+        {
+          "id": 157,
+          "en": "Plain urad dal vada",
+          "bn": "সাদা উড়দ ডাল বড়া"
+        },
+        {
+          "id": 166,
+          "en": "Washed urad dal",
+          "bn": "ওাশেদ উড়দ ডাল"
+        }
+      ]
+    },
+    {
+      "token": "বড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        151,
+        157,
+        787,
+        800,
+        815,
+        827,
+        1403
+      ],
+      "source_records": [
+        {
+          "id": 151,
+          "en": "Masala urad dal vada",
+          "bn": "মশলা উড়দ ডাল বড়া"
+        },
+        {
+          "id": 157,
+          "en": "Plain urad dal vada",
+          "bn": "সাদা উড়দ ডাল বড়া"
+        },
+        {
+          "id": 787,
+          "en": "Fermented bengal gram vada",
+          "bn": "ফেরমেনতেদ বেনগাল গরাম বড়া"
+        },
+        {
+          "id": 800,
+          "en": "Masala vada",
+          "bn": "মশলা বড়া"
+        },
+        {
+          "id": 815,
+          "en": "Peanut sago vada",
+          "bn": "চিনাবাদাম সাগো বড়া"
+        }
+      ]
+    },
+    {
+      "token": "মো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 12,
+      "sample_ids": [
+        155,
+        366,
+        370,
+        502,
+        525,
+        526,
+        527,
+        634,
+        803,
+        804
+      ],
+      "source_records": [
+        {
+          "id": 155,
+          "en": "Moti mahal dal",
+          "bn": "মোতি মাহাল ডাল"
+        },
+        {
+          "id": 366,
+          "en": "Meat and macaroni casserole",
+          "bn": "মোত ানদ মাকারোনি কাসসেরোলে"
+        },
+        {
+          "id": 370,
+          "en": "Spaghetti with meat balls and tomato sauce",
+          "bn": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে"
+        },
+        {
+          "id": 502,
+          "en": "Lasagne with meat sauce",
+          "bn": "লাসাগনে ওিথ মোত সআউকে"
+        },
+        {
+          "id": 525,
+          "en": "Meat consomme",
+          "bn": "মোত কোনসোমমে"
+        }
+      ]
+    },
+    {
+      "token": "তে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 13,
+      "sample_ids": [
+        159,
+        306,
+        608,
+        1219,
+        1272,
+        1278,
+        1369,
+        1370,
+        1375,
+        1376
+      ],
+      "source_records": [
+        {
+          "id": 159,
+          "en": "Rasam with tamarind",
+          "bn": "রসম ওিথ তেঁতুল"
+        },
+        {
+          "id": 306,
+          "en": "Tamarind rice",
+          "bn": "তেঁতুল ভাত"
+        },
+        {
+          "id": 608,
+          "en": "Tamarind chutney",
+          "bn": "তেঁতুলের চাটনি"
+        },
+        {
+          "id": 1219,
+          "en": "Bay leaf, dried",
+          "bn": "তেজপাতা"
+        },
+        {
+          "id": 1272,
+          "en": "Tamarind, pulp, ripe, raw",
+          "bn": "তেঁতুল, পাকা"
+        }
+      ]
+    },
+    {
+      "token": "ওা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        165,
+        166,
+        450,
+        759,
+        848
+      ],
+      "source_records": [
+        {
+          "id": 165,
+          "en": "Washed moong dal",
+          "bn": "ওাশেদ মুগ ডাল"
+        },
+        {
+          "id": 166,
+          "en": "Washed urad dal",
+          "bn": "ওাশেদ উড়দ ডাল"
+        },
+        {
+          "id": 450,
+          "en": "Dry washed urad",
+          "bn": "দরয ওাশেদ ুরাদ"
+        },
+        {
+          "id": 759,
+          "en": "Waldroff salad",
+          "bn": "ওালদরোফফ সালাদ"
+        },
+        {
+          "id": 848,
+          "en": "Watercress sandwich",
+          "bn": "ওাতেরকরেসস স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "গম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        167,
+        297,
+        300,
+        307,
+        941,
+        946,
+        947,
+        1090
+      ],
+      "source_records": [
+        {
+          "id": 167,
+          "en": "Wheat flour and moong dal burfi",
+          "bn": "গম ফলউর ানদ মুগ ডাল বুরফি"
+        },
+        {
+          "id": 297,
+          "en": "Cracked wheat porridge",
+          "bn": "করাককেদ গম পোররিদগে"
+        },
+        {
+          "id": 300,
+          "en": "Puffed wheat",
+          "bn": "পুফফেদ গম"
+        },
+        {
+          "id": 307,
+          "en": "Wheat flakes",
+          "bn": "গমের ফ্লেক্স"
+        },
+        {
+          "id": 941,
+          "en": "Sweet wheat porridge",
+          "bn": "মিষ্টি গম পোররিদগে"
+        }
+      ]
+    },
+    {
+      "token": "নল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        170,
+        1394,
+        1442
+      ],
+      "source_records": [
+        {
+          "id": 170,
+          "en": "Nolen Gur Sandesh",
+          "bn": "নলেন গুড় সন্দেশ"
+        },
+        {
+          "id": 1394,
+          "en": "Jaggery, liquid, date palm",
+          "bn": "নলেন গুড়"
+        },
+        {
+          "id": 1442,
+          "en": "Patishapta Nolen Gur",
+          "bn": "নলেন গুড় পাটিসাপটা"
+        }
+      ]
+    },
+    {
+      "token": "সন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        170,
+        174,
+        244,
+        925,
+        1404
+      ],
+      "source_records": [
+        {
+          "id": 170,
+          "en": "Nolen Gur Sandesh",
+          "bn": "নলেন গুড় সন্দেশ"
+        },
+        {
+          "id": 174,
+          "en": "Sandesh",
+          "bn": "সন্দেশ"
+        },
+        {
+          "id": 244,
+          "en": "Apple snowballs",
+          "bn": "আপেল সনোওবাললস"
+        },
+        {
+          "id": 925,
+          "en": "Snow flakes pudding",
+          "bn": "সনোও ফলাকেস পুদদিনগ"
+        },
+        {
+          "id": 1404,
+          "en": "Santula",
+          "bn": "সন্তুলা"
+        }
+      ]
+    },
+    {
+      "token": "ডি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 35,
+      "sample_ids": [
+        176,
+        184,
+        310,
+        339,
+        638,
+        639,
+        640,
+        641,
+        642,
+        644
+      ],
+      "source_records": [
+        {
+          "id": 176,
+          "en": "Detox Bowl",
+          "bn": "ডিটক্স বোল"
+        },
+        {
+          "id": 184,
+          "en": "Detox Water",
+          "bn": "ডিটক্স জল"
+        },
+        {
+          "id": 310,
+          "en": "Light Dinner Bowl",
+          "bn": "ডিনার বোল"
+        },
+        {
+          "id": 339,
+          "en": "Egg Curry",
+          "bn": "ডিমের ঝোল"
+        },
+        {
+          "id": 638,
+          "en": "Baked egg",
+          "bn": "বেক ডিম"
+        }
+      ]
+    },
+    {
+      "token": "ওজ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        177
+      ],
+      "source_records": [
+        {
+          "id": 177,
+          "en": "Weight Loss Soup",
+          "bn": "ওজন কমানোর স্যুপ"
+        }
+      ]
+    },
+    {
+      "token": "অ্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        178
+      ],
+      "source_records": [
+        {
+          "id": 178,
+          "en": "Apple Cider Drink",
+          "bn": "অ্যাপল সাইডার"
+        }
+      ]
+    },
+    {
+      "token": "চক",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        182
+      ],
+      "source_records": [
+        {
+          "id": 182,
+          "en": "Chocolate Milk",
+          "bn": "চকো মিল্ক"
+        }
+      ]
+    },
+    {
+      "token": "ফ্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        185,
+        196,
+        206,
+        307,
+        316,
+        459,
+        670,
+        675
+      ],
+      "source_records": [
+        {
+          "id": 185,
+          "en": "Fat Burn Drink",
+          "bn": "ফ্যাট বার্ন ড্রিংক"
+        },
+        {
+          "id": 196,
+          "en": "Air Fry Fish",
+          "bn": "এয়ার ফ্রাই মাছ"
+        },
+        {
+          "id": 206,
+          "en": "Fish Fry",
+          "bn": "ফিশ ফ্রাই"
+        },
+        {
+          "id": 307,
+          "en": "Wheat flakes",
+          "bn": "গমের ফ্লেক্স"
+        },
+        {
+          "id": 316,
+          "en": "Air Fry Chicken",
+          "bn": "এয়ার ফ্রাই চিকেন"
+        }
+      ]
+    },
+    {
+      "token": "আদ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        186,
+        341,
+        466,
+        504,
+        613,
+        713,
+        791,
+        1228
+      ],
+      "source_records": [
+        {
+          "id": 186,
+          "en": "Ginger Tea",
+          "bn": "আদা চা"
+        },
+        {
+          "id": 341,
+          "en": "Ginger chicken",
+          "bn": "আদা চিকেন"
+        },
+        {
+          "id": 466,
+          "en": "Ginger candy",
+          "bn": "আদা কানদয"
+        },
+        {
+          "id": 504,
+          "en": "Lemon and ginger squash",
+          "bn": "লেবু ানদ আদা সকুাশ"
+        },
+        {
+          "id": 613,
+          "en": "Tomato ginger chutney",
+          "bn": "টমেটো আদা চাটনি"
+        }
+      ]
+    },
+    {
+      "token": "হা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 23,
+      "sample_ids": [
+        187,
+        220,
+        342,
+        347,
+        478,
+        482,
+        647,
+        746,
+        861,
+        884
+      ],
+      "source_records": [
+        {
+          "id": 187,
+          "en": "Herbal Tea",
+          "bn": "হারবাল চা"
+        },
+        {
+          "id": 220,
+          "en": "Hariyali Fish Tikka",
+          "bn": "হারিযালি মাছ তিককা"
+        },
+        {
+          "id": 342,
+          "en": "Handi chicken",
+          "bn": "হানদি চিকেন"
+        },
+        {
+          "id": 347,
+          "en": "Light Chicken Curry",
+          "bn": "হালকা চিকেন কারি"
+        },
+        {
+          "id": 478,
+          "en": "Gujarati handvo",
+          "bn": "গুজারাতি হানদভো"
+        }
+      ]
+    },
+    {
+      "token": "মধ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        189,
+        1391
+      ],
+      "source_records": [
+        {
+          "id": 189,
+          "en": "Lemon Honey Water",
+          "bn": "লেবু মধু জল"
+        },
+        {
+          "id": 1391,
+          "en": "Honey",
+          "bn": "মধু"
+        }
+      ]
+    },
+    {
+      "token": "নো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        194,
+        649,
+        1241
+      ],
+      "source_records": [
+        {
+          "id": 194,
+          "en": "Salt Lassi",
+          "bn": "নোনতা লাচ্ছি"
+        },
+        {
+          "id": 649,
+          "en": "Egg nog",
+          "bn": "ডিম নোগ"
+        },
+        {
+          "id": 1241,
+          "en": "Bullocks Heart, ripe, raw Nona ata",
+          "bn": "নোনা আতা"
+        }
+      ]
+    },
+    {
+      "token": "এয",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        196,
+        316
+      ],
+      "source_records": [
+        {
+          "id": 196,
+          "en": "Air Fry Fish",
+          "bn": "এয়ার ফ্রাই মাছ"
+        },
+        {
+          "id": 316,
+          "en": "Air Fry Chicken",
+          "bn": "এয়ার ফ্রাই চিকেন"
+        }
+      ]
+    },
+    {
+      "token": "বে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 34,
+      "sample_ids": [
+        197,
+        198,
+        199,
+        204,
+        391,
+        392,
+        396,
+        397,
+        398,
+        399
+      ],
+      "source_records": [
+        {
+          "id": 197,
+          "en": "Baked fish with cheese sauce",
+          "bn": "বেক মাছ ওিথ চিজ সআউকে"
+        },
+        {
+          "id": 198,
+          "en": "Baked stuffed fish",
+          "bn": "বেক সতুফফেদ মাছ"
+        },
+        {
+          "id": 199,
+          "en": "Bengal fish curry",
+          "bn": "বেনগাল মাছের ঝোল"
+        },
+        {
+          "id": 204,
+          "en": "Crispy baked fish",
+          "bn": "করিসপয বেক মাছ"
+        },
+        {
+          "id": 391,
+          "en": "Baked eggs in tomato sauce",
+          "bn": "বেক েগগস িন টমেটো সআউকে"
+        }
+      ]
+    },
+    {
+      "token": "ঝো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 9,
+      "sample_ids": [
+        199,
+        227,
+        228,
+        231,
+        234,
+        321,
+        339,
+        655,
+        1410
+      ],
+      "source_records": [
+        {
+          "id": 199,
+          "en": "Bengal fish curry",
+          "bn": "বেনগাল মাছের ঝোল"
+        },
+        {
+          "id": 227,
+          "en": "Macher Jhol",
+          "bn": "মাছের ঝোল"
+        },
+        {
+          "id": 228,
+          "en": "Pabda Jhol",
+          "bn": "পাবদা ঝোল"
+        },
+        {
+          "id": 231,
+          "en": "Rohu Curry",
+          "bn": "রুই মাছের ঝোল"
+        },
+        {
+          "id": 234,
+          "en": "Tangra Jhol",
+          "bn": "ট্যাংরা ঝোল"
+        }
+      ]
+    },
+    {
+      "token": "ভর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        202
+      ],
+      "source_records": [
+        {
+          "id": 202,
+          "en": "Chingri Bhorta",
+          "bn": "চিংড়ি ভর্তা"
+        }
+      ]
+    },
+    {
+      "token": "োর",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        213
+      ],
+      "source_records": [
+        {
+          "id": 213,
+          "en": "Fish orly",
+          "bn": "মাছ োরলয"
+        }
+      ]
+    },
+    {
+      "token": "তি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        218,
+        220,
+        598,
+        1211,
+        1217,
+        1378
+      ],
+      "source_records": [
+        {
+          "id": 218,
+          "en": "Fish tikka",
+          "bn": "মাছ তিককা"
+        },
+        {
+          "id": 220,
+          "en": "Hariyali Fish Tikka",
+          "bn": "হারিযালি মাছ তিককা"
+        },
+        {
+          "id": 598,
+          "en": "Soyabean tikki",
+          "bn": "সোযাবোন তিককি"
+        },
+        {
+          "id": 1211,
+          "en": "Linseed, raw",
+          "bn": "তিসি"
+        },
+        {
+          "id": 1217,
+          "en": "Sesame seeds, whole, dried",
+          "bn": "তিল"
+        }
+      ]
+    },
+    {
+      "token": "ইল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        222,
+        232,
+        1300
+      ],
+      "source_records": [
+        {
+          "id": 222,
+          "en": "Ilish Bhapa",
+          "bn": "ইলিশ ভাপা"
+        },
+        {
+          "id": 232,
+          "en": "Shorshe Ilish",
+          "bn": "সরষে ইলিশ"
+        },
+        {
+          "id": 1300,
+          "en": "Hilsha, without bones, raw",
+          "bn": "ইলিশ মাছ, কাঁটা ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "লি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        224,
+        513,
+        657,
+        1370,
+        1387
+      ],
+      "source_records": [
+        {
+          "id": 224,
+          "en": "Lean Fish Bowl",
+          "bn": "লিন মাছ"
+        },
+        {
+          "id": 513,
+          "en": "Lichi squash",
+          "bn": "লিচি সকুাশ"
+        },
+        {
+          "id": 657,
+          "en": "Lean Chicken Bowl",
+          "bn": "লিন চিকেন"
+        },
+        {
+          "id": 1370,
+          "en": "Fish oil, cod liver",
+          "bn": "কড লিভার তেল"
+        },
+        {
+          "id": 1387,
+          "en": "Tea, infusion (with sugar)",
+          "bn": "লিকার চা (চিনিসহ)"
+        }
+      ]
+    },
+    {
+      "token": "রু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 11,
+      "sample_ids": [
+        231,
+        715,
+        721,
+        730,
+        734,
+        753,
+        1096,
+        1240,
+        1312,
+        1321
+      ],
+      "source_records": [
+        {
+          "id": 231,
+          "en": "Rohu Curry",
+          "bn": "রুই মাছের ঝোল"
+        },
+        {
+          "id": 715,
+          "en": "Makki ki roti",
+          "bn": "মাকইর রুটি"
+        },
+        {
+          "id": 721,
+          "en": "Paushtik roti",
+          "bn": "পআউশতিক রুটি"
+        },
+        {
+          "id": 730,
+          "en": "Soya roti",
+          "bn": "সোযা রুটি"
+        },
+        {
+          "id": 734,
+          "en": "Sweet split chickpea roti",
+          "bn": "মিষ্টি সপলিত চিককপো রুটি"
+        }
+      ]
+    },
+    {
+      "token": "সর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        232,
+        1214,
+        1280,
+        1375
+      ],
+      "source_records": [
+        {
+          "id": 232,
+          "en": "Shorshe Ilish",
+          "bn": "সরষে ইলিশ"
+        },
+        {
+          "id": 1214,
+          "en": "Mustard seeds, dried",
+          "bn": "সরিষা"
+        },
+        {
+          "id": 1280,
+          "en": "Barb, Olive, without bones, raw",
+          "bn": "সরপুঁটি মাছ, কাঁটা ছাড়া"
+        },
+        {
+          "id": 1375,
+          "en": "Mustard oil",
+          "bn": "সরিষার তেল"
+        }
+      ]
+    },
+    {
+      "token": "ট্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        234
+      ],
+      "source_records": [
+        {
+          "id": 234,
+          "en": "Tangra Jhol",
+          "bn": "ট্যাংরা ঝোল"
+        }
+      ]
+    },
+    {
+      "token": "লো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        237,
+        408,
+        458,
+        514,
+        515,
+        516,
+        903
+      ],
+      "source_records": [
+        {
+          "id": 237,
+          "en": "Low Carb Bowl",
+          "bn": "লো কার্ব বোল"
+        },
+        {
+          "id": 408,
+          "en": "Carrot and fenugreek leaves",
+          "bn": "গাজর ানদ ফেনুগরিক লোভেস"
+        },
+        {
+          "id": 458,
+          "en": "Fruit Loaf",
+          "bn": "ফরুিত লোাফ"
+        },
+        {
+          "id": 514,
+          "en": "Lobia curry",
+          "bn": "লোবিা তরকারি"
+        },
+        {
+          "id": 515,
+          "en": "Lotus stem curry",
+          "bn": "লোতুস সতেম তরকারি"
+        }
+      ]
+    },
+    {
+      "token": "জে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        242,
+        263,
+        747,
+        793
+      ],
+      "source_records": [
+        {
+          "id": 242,
+          "en": "Apple jelly",
+          "bn": "আপেল জেললয"
+        },
+        {
+          "id": 263,
+          "en": "Guava jelly",
+          "bn": "পেয়ারা জেললয"
+        },
+        {
+          "id": 747,
+          "en": "Jellied sunshine fruit salad",
+          "bn": "জেললিেদ সুনশিনে ফল সালাদ"
+        },
+        {
+          "id": 793,
+          "en": "Jelly biscuit",
+          "bn": "জেললয বিসকুিত"
+        }
+      ]
+    },
+    {
+      "token": "শি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        249,
+        361,
+        395,
+        429,
+        580,
+        590,
+        1112,
+        1113,
+        1116,
+        1327
+      ],
+      "source_records": [
+        {
+          "id": 249,
+          "en": "Beans with coconut",
+          "bn": "শিম ওিথ নারকেল"
+        },
+        {
+          "id": 361,
+          "en": "Beans and macaroni",
+          "bn": "শিম ানদ মাকারোনি"
+        },
+        {
+          "id": 395,
+          "en": "Beans foogath",
+          "bn": "শিম ফুগাথ"
+        },
+        {
+          "id": 429,
+          "en": "Classic seasoned black beans",
+          "bn": "কলাসসিক সোসোনেদ বলাকক শিম"
+        },
+        {
+          "id": 580,
+          "en": "Sauteed radishes with green beans",
+          "bn": "সআউতিদ রাদিশেস ওিথ গরিন শিম"
+        }
+      ]
+    },
+    {
+      "token": "আচ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 13,
+      "sample_ids": [
+        253,
+        272,
+        445,
+        451,
+        464,
+        471,
+        476,
+        507,
+        592,
+        935
+      ],
+      "source_records": [
+        {
+          "id": 253,
+          "en": "Coconut pickle",
+          "bn": "নারকেল আচার"
+        },
+        {
+          "id": 272,
+          "en": "Mango pickle",
+          "bn": "আম আচার"
+        },
+        {
+          "id": 445,
+          "en": "Date pickle",
+          "bn": "দাতে আচার"
+        },
+        {
+          "id": 451,
+          "en": "Fermented bamboo shoot pickle",
+          "bn": "ফেরমেনতেদ বামবু শোোত আচার"
+        },
+        {
+          "id": 464,
+          "en": "Garlic pickle",
+          "bn": "রসুন আচার"
+        }
+      ]
+    },
+    {
+      "token": "খে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        256,
+        257,
+        1103,
+        1245,
+        1393
+      ],
+      "source_records": [
+        {
+          "id": 256,
+          "en": "Dates",
+          "bn": "খেজুর"
+        },
+        {
+          "id": 257,
+          "en": "Dates chutney",
+          "bn": "খেজুর চাটনি"
+        },
+        {
+          "id": 1103,
+          "en": "Grass pea, split, dried, raw",
+          "bn": "খেসারি ডাল"
+        },
+        {
+          "id": 1245,
+          "en": "Dates, raw",
+          "bn": "খেজুর, পাকা, তাজা"
+        },
+        {
+          "id": 1393,
+          "en": "Jaggery/Panela, date palm",
+          "bn": "খেজুর গুড়"
+        }
+      ]
+    },
+    {
+      "token": "দে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        258,
+        403,
+        460,
+        618,
+        641,
+        934,
+        1351,
+        1355
+      ],
+      "source_records": [
+        {
+          "id": 258,
+          "en": "Dessicated coconut chutney",
+          "bn": "দেসসিকাতেদ নারকেল চাটনি"
+        },
+        {
+          "id": 403,
+          "en": "Broccoli delight",
+          "bn": "বরোককোলি দেলিঘত"
+        },
+        {
+          "id": 460,
+          "en": "Fruit delight",
+          "bn": "ফরুিত দেলিঘত"
+        },
+        {
+          "id": 618,
+          "en": "Urad special dehusked",
+          "bn": "ুরাদ সপেকিাল দেহুসকেদ"
+        },
+        {
+          "id": 641,
+          "en": "Deviled egg",
+          "bn": "দেভিলেদ ডিম"
+        }
+      ]
+    },
+    {
+      "token": "ওহ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        261,
+        475,
+        632,
+        633,
+        634,
+        635,
+        817,
+        871
+      ],
+      "source_records": [
+        {
+          "id": 261,
+          "en": "Grape and orange whip",
+          "bn": "গরাপে ানদ কমলা ওহিপ"
+        },
+        {
+          "id": 475,
+          "en": "Green gram whole with baghar",
+          "bn": "গরিন গরাম ওহোলে ওিথ বাঘার"
+        },
+        {
+          "id": 632,
+          "en": "Whole masoor",
+          "bn": "ওহোলে মাসুর"
+        },
+        {
+          "id": 633,
+          "en": "Whole moong",
+          "bn": "ওহোলে মুনগ"
+        },
+        {
+          "id": 634,
+          "en": "Whole moth",
+          "bn": "ওহোলে মোথ"
+        }
+      ]
+    },
+    {
+      "token": "সক",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        274,
+        282,
+        288,
+        504,
+        510,
+        513,
+        561,
+        660,
+        666,
+        973
+      ],
+      "source_records": [
+        {
+          "id": 274,
+          "en": "Mango squash",
+          "bn": "আম সকুাশ"
+        },
+        {
+          "id": 282,
+          "en": "Orange squash",
+          "bn": "কমলা সকুাশ"
+        },
+        {
+          "id": 288,
+          "en": "Pineapple squash",
+          "bn": "আনারস সকুাশ"
+        },
+        {
+          "id": 504,
+          "en": "Lemon and ginger squash",
+          "bn": "লেবু ানদ আদা সকুাশ"
+        },
+        {
+          "id": 510,
+          "en": "Lemon squash",
+          "bn": "লেবু সকুাশ"
+        }
+      ]
+    },
+    {
+      "token": "গা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 16,
+      "sample_ids": [
+        277,
+        398,
+        408,
+        409,
+        462,
+        491,
+        739,
+        766,
+        827,
+        853
+      ],
+      "source_records": [
+        {
+          "id": 277,
+          "en": "Orange gateau",
+          "bn": "কমলা গাতেআউ"
+        },
+        {
+          "id": 398,
+          "en": "Besan gatte curry",
+          "bn": "বেসান গাততে তরকারি"
+        },
+        {
+          "id": 408,
+          "en": "Carrot and fenugreek leaves",
+          "bn": "গাজর ানদ ফেনুগরিক লোভেস"
+        },
+        {
+          "id": 409,
+          "en": "Carrot murabba",
+          "bn": "গাজর মুরাববা"
+        },
+        {
+          "id": 462,
+          "en": "Garam masala",
+          "bn": "গারাম মশলা"
+        }
+      ]
+    },
+    {
+      "token": "োম",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        280,
+        436,
+        456,
+        558,
+        565,
+        599,
+        662
+      ],
+      "source_records": [
+        {
+          "id": 280,
+          "en": "Orange omelette/omlet",
+          "bn": "কমলা োমেলেততে/োমলেত"
+        },
+        {
+          "id": 436,
+          "en": "Corn omelette/omlet",
+          "bn": "ভুট্টা োমেলেততে/োমলেত"
+        },
+        {
+          "id": 456,
+          "en": "French omelette/omlet",
+          "bn": "ফরেনচ োমেলেততে/োমলেত"
+        },
+        {
+          "id": 558,
+          "en": "Plain omelette/omlet",
+          "bn": "সাদা োমেলেততে/োমলেত"
+        },
+        {
+          "id": 565,
+          "en": "Puffy omelette/omlet",
+          "bn": "পুফফয োমেলেততে/োমলেত"
+        }
+      ]
+    },
+    {
+      "token": "তু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        293,
+        587,
+        839,
+        943,
+        1369
+      ],
+      "source_records": [
+        {
+          "id": 293,
+          "en": "Raw turnip with coconut",
+          "bn": "রাও তুরনিপ ওিথ নারকেল"
+        },
+        {
+          "id": 587,
+          "en": "Shahi tukre",
+          "bn": "শাহি তুকরে"
+        },
+        {
+          "id": 839,
+          "en": "Tutti fruitti biscuit",
+          "bn": "তুততি ফরুিততি বিসকুিত"
+        },
+        {
+          "id": 943,
+          "en": "Tutti frutti cake",
+          "bn": "তুততি ফরুততি কাকে"
+        },
+        {
+          "id": 1369,
+          "en": "Cottonseed oil",
+          "bn": "তুলার বিচির তেল"
+        }
+      ]
+    },
+    {
+      "token": "ওয",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        314,
+        1428,
+        1429
+      ],
+      "source_records": [
+        {
+          "id": 314,
+          "en": "Wellness Bowl",
+          "bn": "ওয়েলনেস বোল"
+        },
+        {
+          "id": 1428,
+          "en": "Red Wine (150ml)",
+          "bn": "রেড ওয়াইন"
+        },
+        {
+          "id": 1429,
+          "en": "White Wine (150ml)",
+          "bn": "হোয়াইট ওয়াইন"
+        }
+      ]
+    },
+    {
+      "token": "াফ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        315
+      ],
+      "source_records": [
+        {
+          "id": 315,
+          "en": "Afghani chicken",
+          "bn": "াফঘানি চিকেন"
+        }
+      ]
+    },
+    {
+      "token": "বর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        318,
+        379,
+        403,
+        585,
+        1121,
+        1147,
+        1256,
+        1320
+      ],
+      "source_records": [
+        {
+          "id": 318,
+          "en": "Broccoli chicken ala king",
+          "bn": "বরোককোলি চিকেন ালা কিনগ"
+        },
+        {
+          "id": 379,
+          "en": "Peanut brittle",
+          "bn": "চিনাবাদাম বরিততলে"
+        },
+        {
+          "id": 403,
+          "en": "Broccoli delight",
+          "bn": "বরোককোলি দেলিঘত"
+        },
+        {
+          "id": 585,
+          "en": "Sesame chickpeas brittle",
+          "bn": "সেসামে চিককপোস বরিততলে"
+        },
+        {
+          "id": 1121,
+          "en": "Cowpea, pods and seeds, raw",
+          "bn": "বরবটি"
+        }
+      ]
+    },
+    {
+      "token": "তো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        324,
+        606,
+        757,
+        758
+      ],
+      "source_records": [
+        {
+          "id": 324,
+          "en": "Chicken and tomato towers",
+          "bn": "চিকেন ানদ টমেটো তোওেরস"
+        },
+        {
+          "id": 606,
+          "en": "Stuffed tomatoes",
+          "bn": "সতুফফেদ তোমাতোেস"
+        },
+        {
+          "id": 757,
+          "en": "Tossed green salad",
+          "bn": "তোসসেদ সবুজ সালাদ"
+        },
+        {
+          "id": 758,
+          "en": "Tossed salad",
+          "bn": "তোসসেদ সালাদ"
+        }
+      ]
+    },
+    {
+      "token": "(ক",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        331,
+        1351
+      ],
+      "source_records": [
+        {
+          "id": 331,
+          "en": "Chicken salad",
+          "bn": "চিকেন সালাদ (ক্রিমি)"
+        },
+        {
+          "id": 1351,
+          "en": "Egg, chicken, native, raw",
+          "bn": "মুরগির ডিম, দেশি (কাঁচা)"
+        }
+      ]
+    },
+    {
+      "token": "আখ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        335,
+        377,
+        378,
+        384,
+        385,
+        1385,
+        1392
+      ],
+      "source_records": [
+        {
+          "id": 335,
+          "en": "Chicken walnut sandwich",
+          "bn": "চিকেন আখরোট স্যান্ডউইচ"
+        },
+        {
+          "id": 377,
+          "en": "Cherry and walnut cookies",
+          "bn": "চেররয ানদ আখরোট কুকিেস"
+        },
+        {
+          "id": 378,
+          "en": "Chocolate walnut cookies",
+          "bn": "চোকোলাতে আখরোট কুকিেস"
+        },
+        {
+          "id": 384,
+          "en": "Walnut chutney",
+          "bn": "আখরোট চাটনি"
+        },
+        {
+          "id": 385,
+          "en": "Walnuts",
+          "bn": "আখরোট"
+        }
+      ]
+    },
+    {
+      "token": "যা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        336,
+        353,
+        386,
+        627,
+        636,
+        637
+      ],
+      "source_records": [
+        {
+          "id": 336,
+          "en": "Chicken yakhni",
+          "bn": "চিকেন যাখনি"
+        },
+        {
+          "id": 353,
+          "en": "Mutton yakhni",
+          "bn": "মাটন যাখনি"
+        },
+        {
+          "id": 386,
+          "en": "Al yakhani",
+          "bn": "াল যাখানি"
+        },
+        {
+          "id": 627,
+          "en": "Vegetable yakhni",
+          "bn": "ভেগেতাবলে যাখনি"
+        },
+        {
+          "id": 636,
+          "en": "Yam fried",
+          "bn": "যাম ভাজা"
+        }
+      ]
+    },
+    {
+      "token": "দো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        350,
+        542,
+        915
+      ],
+      "source_records": [
+        {
+          "id": 350,
+          "en": "Mutton do piaza",
+          "bn": "মাটন দো পিাজা"
+        },
+        {
+          "id": 542,
+          "en": "Paaner do pyaza",
+          "bn": "পআনের দো পযাজা"
+        },
+        {
+          "id": 915,
+          "en": "Pineapple upside down pudding",
+          "bn": "আনারস ুপসিদে দোওন পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "token": "িত",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        363
+      ],
+      "source_records": [
+        {
+          "id": 363,
+          "en": "Classic italian pasta",
+          "bn": "কলাসসিক িতালিান পাস্তা"
+        }
+      ]
+    },
+    {
+      "token": "এগ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        364,
+        643,
+        784,
+        1435
+      ],
+      "source_records": [
+        {
+          "id": 364,
+          "en": "Egg Chowmein",
+          "bn": "এগ চাওমিন"
+        },
+        {
+          "id": 643,
+          "en": "Egg White Omelette",
+          "bn": "এগ হোয়াইট অমলেট"
+        },
+        {
+          "id": 784,
+          "en": "Egg Devil",
+          "bn": "এগ ডেভিল"
+        },
+        {
+          "id": 1435,
+          "en": "Egg roll Kolkata style",
+          "bn": "এগ রোল"
+        }
+      ]
+    },
+    {
+      "token": "াপ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        388
+      ],
+      "source_records": [
+        {
+          "id": 388,
+          "en": "Apricot fool",
+          "bn": "াপরিকোত ফুল"
+        }
+      ]
+    },
+    {
+      "token": "ফু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 22,
+      "sample_ids": [
+        388,
+        395,
+        709,
+        816,
+        953,
+        983,
+        984,
+        985,
+        986,
+        987
+      ],
+      "source_records": [
+        {
+          "id": 388,
+          "en": "Apricot fool",
+          "bn": "াপরিকোত ফুল"
+        },
+        {
+          "id": 395,
+          "en": "Beans foogath",
+          "bn": "শিম ফুগাথ"
+        },
+        {
+          "id": 709,
+          "en": "Cauliflower parantha/paratha",
+          "bn": "ফুলকপি পারানথা/পারাথা"
+        },
+        {
+          "id": 816,
+          "en": "Phuchka",
+          "bn": "ফুচকা"
+        },
+        {
+          "id": 953,
+          "en": "Cauliflower Curry",
+          "bn": "ফুলকপি কারি"
+        }
+      ]
+    },
+    {
+      "token": "াস",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        389,
+        612
+      ],
+      "source_records": [
+        {
+          "id": 389,
+          "en": "Assorted pastry",
+          "bn": "াসসোরতেদ পাসতরয"
+        },
+        {
+          "id": 612,
+          "en": "Tomato aspic",
+          "bn": "টমেটো াসপিক"
+        }
+      ]
+    },
+    {
+      "token": "াভ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        390
+      ],
+      "source_records": [
+        {
+          "id": 390,
+          "en": "Avial",
+          "bn": "াভিাল"
+        }
+      ]
+    },
+    {
+      "token": "েগ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        391,
+        524,
+        888,
+        896,
+        910,
+        1000
+      ],
+      "source_records": [
+        {
+          "id": 391,
+          "en": "Baked eggs in tomato sauce",
+          "bn": "বেক েগগস িন টমেটো সআউকে"
+        },
+        {
+          "id": 524,
+          "en": "Mayonnaise without eggs",
+          "bn": "মেয়োনিজ ওিথোুত েগগস"
+        },
+        {
+          "id": 888,
+          "en": "Chocolate eggless cake",
+          "bn": "চোকোলাতে েগগলেসস কাকে"
+        },
+        {
+          "id": 896,
+          "en": "Eggless cake",
+          "bn": "েগগলেসস কাকে"
+        },
+        {
+          "id": 910,
+          "en": "Orange eggless cake",
+          "bn": "কমলা েগগলেসস কাকে"
+        }
+      ]
+    },
+    {
+      "token": "বল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        396,
+        400,
+        401,
+        429,
+        881
+      ],
+      "source_records": [
+        {
+          "id": 396,
+          "en": "Bengal 5 Spice Blend",
+          "bn": "বেনগাল 5 মশলা বলেনদ"
+        },
+        {
+          "id": 400,
+          "en": "Black channa curry/Bengal gram curry",
+          "bn": "বলাকক চাননা কুররয/বেনগাল গরাম তরকারি"
+        },
+        {
+          "id": 401,
+          "en": "Black forest pastry",
+          "bn": "বলাকক ফোরেসত পাসতরয"
+        },
+        {
+          "id": 429,
+          "en": "Classic seasoned black beans",
+          "bn": "কলাসসিক সোসোনেদ বলাকক শিম"
+        },
+        {
+          "id": 881,
+          "en": "Black rice kheer",
+          "bn": "বলাকক চালের পায়েস"
+        }
+      ]
+    },
+    {
+      "token": "ফো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        401,
+        473
+      ],
+      "source_records": [
+        {
+          "id": 401,
+          "en": "Black forest pastry",
+          "bn": "বলাকক ফোরেসত পাসতরয"
+        },
+        {
+          "id": 473,
+          "en": "Gravy for kofta",
+          "bn": "গরাভয ফোর কোফতা"
+        }
+      ]
+    },
+    {
+      "token": "ফে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        408,
+        451,
+        787,
+        1001,
+        1023,
+        1275,
+        1276,
+        1278
+      ],
+      "source_records": [
+        {
+          "id": 408,
+          "en": "Carrot and fenugreek leaves",
+          "bn": "গাজর ানদ ফেনুগরিক লোভেস"
+        },
+        {
+          "id": 451,
+          "en": "Fermented bamboo shoot pickle",
+          "bn": "ফেরমেনতেদ বামবু শোোত আচার"
+        },
+        {
+          "id": 787,
+          "en": "Fermented bengal gram vada",
+          "bn": "ফেরমেনতেদ বেনগাল গরাম বড়া"
+        },
+        {
+          "id": 1001,
+          "en": "Fettuccine with spinach sauce",
+          "bn": "ফেততুককিনে ওিথ পালং সআউকে"
+        },
+        {
+          "id": 1023,
+          "en": "Potato fenugreek",
+          "bn": "আলু ফেনুগরিক"
+        }
+      ]
+    },
+    {
+      "token": "পর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        411,
+        549,
+        551,
+        600,
+        1367
+      ],
+      "source_records": [
+        {
+          "id": 411,
+          "en": "Channa murmura premix",
+          "bn": "চাননা মুরমুরা পরেমিক্স"
+        },
+        {
+          "id": 549,
+          "en": "Peach blueberry preserves",
+          "bn": "পোচ ব্লুবেরি পরেসেরভেস"
+        },
+        {
+          "id": 551,
+          "en": "Pear preserves",
+          "bn": "পোর পরেসেরভেস"
+        },
+        {
+          "id": 600,
+          "en": "Starfruit preserves",
+          "bn": "সতারফরুিত পরেসেরভেস"
+        },
+        {
+          "id": 1367,
+          "en": "Milk, human, mature, raw",
+          "bn": "মায়ের পরিপক্ব দুধ"
+        }
+      ]
+    },
+    {
+      "token": "রউ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        412,
+        605
+      ],
+      "source_records": [
+        {
+          "id": 412,
+          "en": "Charlotte rousse",
+          "bn": "চারলোততে রউসসে"
+        },
+        {
+          "id": 605,
+          "en": "Stuffed round gourd",
+          "bn": "সতুফফেদ রউনদ লাউ"
+        }
+      ]
+    },
+    {
+      "token": "েক",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        420
+      ],
+      "source_records": [
+        {
+          "id": 420,
+          "en": "Chocolate eclairs",
+          "bn": "চোকোলাতে েকলআইরস"
+        }
+      ]
+    },
+    {
+      "token": "গল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        421,
+        468
+      ],
+      "source_records": [
+        {
+          "id": 421,
+          "en": "Chocolate glace icing",
+          "bn": "চোকোলাতে গলাকে িকিনগ"
+        },
+        {
+          "id": 468,
+          "en": "Glace icing",
+          "bn": "গলাকে িকিনগ"
+        }
+      ]
+    },
+    {
+      "token": "চু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 6,
+      "sample_ids": [
+        428,
+        463,
+        927,
+        1161,
+        1403,
+        1411
+      ],
+      "source_records": [
+        {
+          "id": 428,
+          "en": "Chum chum",
+          "bn": "চুম চুম"
+        },
+        {
+          "id": 463,
+          "en": "Garlic chutney/Poondu chutney",
+          "bn": "রসুন চুতনেয/পুনদু চাটনি"
+        },
+        {
+          "id": 927,
+          "en": "Soya chunks sweet and sour",
+          "bn": "সোযা চুনকস মিষ্টি ানদ সউর"
+        },
+        {
+          "id": 1161,
+          "en": "Dock leaves, raw",
+          "bn": "চুকাই শাক"
+        },
+        {
+          "id": 1403,
+          "en": "Odia Badi Chura",
+          "bn": "বড়ি চুরা"
+        }
+      ]
+    },
+    {
+      "token": "সো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 11,
+      "sample_ids": [
+        429,
+        594,
+        595,
+        596,
+        597,
+        598,
+        730,
+        830,
+        874,
+        926
+      ],
+      "source_records": [
+        {
+          "id": 429,
+          "en": "Classic seasoned black beans",
+          "bn": "কলাসসিক সোসোনেদ বলাকক শিম"
+        },
+        {
+          "id": 594,
+          "en": "Soya seekh kebab",
+          "bn": "সোযা সিখ কেবাব"
+        },
+        {
+          "id": 595,
+          "en": "Soyabean curry",
+          "bn": "সোযাবোন তরকারি"
+        },
+        {
+          "id": 596,
+          "en": "Soyabean muthias",
+          "bn": "সোযাবোন মুথিাস"
+        },
+        {
+          "id": 597,
+          "en": "Soyabean namak paras",
+          "bn": "সোযাবোন নামাক পারাস"
+        }
+      ]
+    },
+    {
+      "token": "আউ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        434,
+        983
+      ],
+      "source_records": [
+        {
+          "id": 434,
+          "en": "Consomme au julienne",
+          "bn": "কোনসোমমে আউ জুলিেননে"
+        },
+        {
+          "id": 983,
+          "en": "Cauliflower au gratin",
+          "bn": "ফুলকপি আউ গরাতিন"
+        }
+      ]
+    },
+    {
+      "token": "জু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        434
+      ],
+      "source_records": [
+        {
+          "id": 434,
+          "en": "Consomme au julienne",
+          "bn": "কোনসোমমে আউ জুলিেননে"
+        }
+      ]
+    },
+    {
+      "token": "দা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        440,
+        442,
+        443,
+        444,
+        445,
+        783,
+        806,
+        1222
+      ],
+      "source_records": [
+        {
+          "id": 440,
+          "en": "Dahi vadas/Dahi bhalla",
+          "bn": "দাহি ভাদাস/দাহি ভাললা"
+        },
+        {
+          "id": 442,
+          "en": "Danedar burfi",
+          "bn": "দানেদার বুরফি"
+        },
+        {
+          "id": 443,
+          "en": "Danish cookies",
+          "bn": "দানিশ কুকিেস"
+        },
+        {
+          "id": 444,
+          "en": "Date and nut pie",
+          "bn": "দাতে ানদ নুত পিে"
+        },
+        {
+          "id": 445,
+          "en": "Date pickle",
+          "bn": "দাতে আচার"
+        }
+      ]
+    },
+    {
+      "token": "ধা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        446,
+        1074
+      ],
+      "source_records": [
+        {
+          "id": 446,
+          "en": "Dhansak",
+          "bn": "ধানসাক"
+        },
+        {
+          "id": 1074,
+          "en": "Millet, Proso, whole-grain, raw",
+          "bn": "চিনা ধান, গোটা"
+        }
+      ]
+    },
+    {
+      "token": "ার",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        448,
+        520,
+        971
+      ],
+      "source_records": [
+        {
+          "id": 448,
+          "en": "Dry arbi",
+          "bn": "দরয ারবি"
+        },
+        {
+          "id": 520,
+          "en": "Masala arbi",
+          "bn": "মশলা ারবি"
+        },
+        {
+          "id": 971,
+          "en": "Arhar with spinach",
+          "bn": "ারহার ওিথ পালং"
+        }
+      ]
+    },
+    {
+      "token": "ুর",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        450,
+        617,
+        618,
+        635
+      ],
+      "source_records": [
+        {
+          "id": 450,
+          "en": "Dry washed urad",
+          "bn": "দরয ওাশেদ ুরাদ"
+        },
+        {
+          "id": 617,
+          "en": "Urad sabut special",
+          "bn": "ুরাদ সাবুত সপেকিাল"
+        },
+        {
+          "id": 618,
+          "en": "Urad special dehusked",
+          "bn": "ুরাদ সপেকিাল দেহুসকেদ"
+        },
+        {
+          "id": 635,
+          "en": "Whole urad",
+          "bn": "ওহোলে ুরাদ"
+        }
+      ]
+    },
+    {
+      "token": "শো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        451,
+        570,
+        591,
+        729,
+        1329
+      ],
+      "source_records": [
+        {
+          "id": 451,
+          "en": "Fermented bamboo shoot pickle",
+          "bn": "ফেরমেনতেদ বামবু শোোত আচার"
+        },
+        {
+          "id": 570,
+          "en": "Raspberry shortbread cookies",
+          "bn": "রাসপবেররয শোরতবরোদ কুকিেস"
+        },
+        {
+          "id": 591,
+          "en": "Short crust pastry",
+          "bn": "শোরত করুসত পাসতরয"
+        },
+        {
+          "id": 729,
+          "en": "Short bread cookies",
+          "bn": "শোরত পাউরুটি কুকিেস"
+        },
+        {
+          "id": 1329,
+          "en": "Striped snake-head, raw",
+          "bn": "শোল মাছ, কাঁটা ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "ঘু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        465,
+        790,
+        1402
+      ],
+      "source_records": [
+        {
+          "id": 465,
+          "en": "Ghujia/Lavang latika",
+          "bn": "ঘুজিা/লাভানগ লাতিকা"
+        },
+        {
+          "id": 790,
+          "en": "Ghugni",
+          "bn": "ঘুগনি"
+        },
+        {
+          "id": 1402,
+          "en": "Ghuguni",
+          "bn": "ঘুগুনি (ওড়িয়া)"
+        }
+      ]
+    },
+    {
+      "token": "গি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        467,
+        792
+      ],
+      "source_records": [
+        {
+          "id": 467,
+          "en": "Gingo",
+          "bn": "গিনগো"
+        },
+        {
+          "id": 792,
+          "en": "Gingerman biscuit",
+          "bn": "গিনগেরমান বিসকুিত"
+        }
+      ]
+    },
+    {
+      "token": "ঝা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        491,
+        794,
+        1436
+      ],
+      "source_records": [
+        {
+          "id": 491,
+          "en": "Jhatpat achar with carrot",
+          "bn": "ঝাতপাত াচার ওিথ গাজর"
+        },
+        {
+          "id": 794,
+          "en": "Jhalmuri",
+          "bn": "ঝালমুড়ি"
+        },
+        {
+          "id": 1436,
+          "en": "Pabda Jhal",
+          "bn": "পাবদা ঝাল"
+        }
+      ]
+    },
+    {
+      "token": "াচ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        491
+      ],
+      "source_records": [
+        {
+          "id": 491,
+          "en": "Jhatpat achar with carrot",
+          "bn": "ঝাতপাত াচার ওিথ গাজর"
+        }
+      ]
+    },
+    {
+      "token": "'ত",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        493
+      ],
+      "source_records": [
+        {
+          "id": 493,
+          "en": "Kashmiri 'tahar'",
+          "bn": "কাশমিরি 'তাহার'"
+        }
+      ]
+    },
+    {
+      "token": "খা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        496,
+        497,
+        498,
+        499,
+        796,
+        1344,
+        1421
+      ],
+      "source_records": [
+        {
+          "id": 496,
+          "en": "Khakhra",
+          "bn": "খাখরা"
+        },
+        {
+          "id": 497,
+          "en": "Khaman",
+          "bn": "খামান"
+        },
+        {
+          "id": 498,
+          "en": "Khasta kachori",
+          "bn": "খাসতা কাচোরি"
+        },
+        {
+          "id": 499,
+          "en": "Khatta channa",
+          "bn": "খাততা চাননা"
+        },
+        {
+          "id": 796,
+          "en": "Khakhra chaat",
+          "bn": "খাখরা চাট"
+        }
+      ]
+    },
+    {
+      "token": "থে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        529
+      ],
+      "source_records": [
+        {
+          "id": 529,
+          "en": "Methi thepla",
+          "bn": "মেথি থেপলা"
+        }
+      ]
+    },
+    {
+      "token": "পআ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        542,
+        721,
+        911
+      ],
+      "source_records": [
+        {
+          "id": 542,
+          "en": "Paaner do pyaza",
+          "bn": "পআনের দো পযাজা"
+        },
+        {
+          "id": 721,
+          "en": "Paushtik roti",
+          "bn": "পআউশতিক রুটি"
+        },
+        {
+          "id": 911,
+          "en": "Paushtik ladoo",
+          "bn": "পআউশতিক লাড্ডু"
+        }
+      ]
+    },
+    {
+      "token": "পয",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        542
+      ],
+      "source_records": [
+        {
+          "id": 542,
+          "en": "Paaner do pyaza",
+          "bn": "পআনের দো পযাজা"
+        }
+      ]
+    },
+    {
+      "token": "সু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        550,
+        607,
+        747,
+        834,
+        835,
+        853,
+        924,
+        1085
+      ],
+      "source_records": [
+        {
+          "id": 550,
+          "en": "Pear chocholate sunday",
+          "bn": "পোর চোচোলাতে সুনদায"
+        },
+        {
+          "id": 607,
+          "en": "Sunflower cookies",
+          "bn": "সুনফলোওের কুকিেস"
+        },
+        {
+          "id": 747,
+          "en": "Jellied sunshine fruit salad",
+          "bn": "জেললিেদ সুনশিনে ফল সালাদ"
+        },
+        {
+          "id": 834,
+          "en": "Submarine sandwich",
+          "bn": "সুবমারিনে স্যান্ডউইচ"
+        },
+        {
+          "id": 835,
+          "en": "Sunset and sunrise open sandwich",
+          "bn": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "মট",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 8,
+      "sample_ids": [
+        552,
+        690,
+        723,
+        977,
+        1015,
+        1105,
+        1136,
+        1413
+      ],
+      "source_records": [
+        {
+          "id": 552,
+          "en": "Peas kachori",
+          "bn": "মটর কাচোরি"
+        },
+        {
+          "id": 690,
+          "en": "Peas pulao",
+          "bn": "মটর পোলাও"
+        },
+        {
+          "id": 723,
+          "en": "Peas poori",
+          "bn": "মটর পুরি"
+        },
+        {
+          "id": 977,
+          "en": "Cabbage and peas",
+          "bn": "বাঁধাকপি ানদ মটর"
+        },
+        {
+          "id": 1015,
+          "en": "Peas brinjal bhartha",
+          "bn": "মটর বেগুন ভারথা"
+        }
+      ]
+    },
+    {
+      "token": "পল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        553,
+        559,
+        560,
+        561
+      ],
+      "source_records": [
+        {
+          "id": 553,
+          "en": "Penne platter",
+          "bn": "পেননে পলাততের"
+        },
+        {
+          "id": 559,
+          "en": "Plum chutney",
+          "bn": "পলুম চাটনি"
+        },
+        {
+          "id": 560,
+          "en": "Plum jam",
+          "bn": "পলুম জাম"
+        },
+        {
+          "id": 561,
+          "en": "Plum squash",
+          "bn": "পলুম সকুাশ"
+        }
+      ]
+    },
+    {
+      "token": "খি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 11,
+      "sample_ids": [
+        557,
+        575,
+        668,
+        677,
+        692,
+        693,
+        694,
+        698,
+        1044,
+        1092
+      ],
+      "source_records": [
+        {
+          "id": 557,
+          "en": "Plain khitchdi",
+          "bn": "সাদা খিতচদি"
+        },
+        {
+          "id": 575,
+          "en": "Sago khitchdi/khichri",
+          "bn": "সাগো খিতচদি/খিচরি"
+        },
+        {
+          "id": 668,
+          "en": "Chicken Khichdi",
+          "bn": "চিকেন খিচুড়ি"
+        },
+        {
+          "id": 677,
+          "en": "Khichuri",
+          "bn": "খিচুড়ি"
+        },
+        {
+          "id": 692,
+          "en": "Poshtik khichdi/khichri",
+          "bn": "পোশতিক খিচদি/খিচরি"
+        }
+      ]
+    },
+    {
+      "token": "সচ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        582
+      ],
+      "source_records": [
+        {
+          "id": 582,
+          "en": "Schezwan chutney",
+          "bn": "সচেজওান চাটনি"
+        }
+      ]
+    },
+    {
+      "token": "াহ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        590
+      ],
+      "source_records": [
+        {
+          "id": 590,
+          "en": "Shishu ahar",
+          "bn": "শিশু াহার"
+        }
+      ]
+    },
+    {
+      "token": "বি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 41,
+      "sample_ids": [
+        603,
+        639,
+        678,
+        684,
+        697,
+        700,
+        760,
+        764,
+        765,
+        771
+      ],
+      "source_records": [
+        {
+          "id": 603,
+          "en": "Stuffed bittergourd",
+          "bn": "সতুফফেদ বিততেরগউরদ"
+        },
+        {
+          "id": 639,
+          "en": "Beetroot and egg salad",
+          "bn": "বিতরুত ানদ ডিম সালাদ"
+        },
+        {
+          "id": 678,
+          "en": "Kolkata Biryani",
+          "bn": "কলকাতা বিরিয়ানি"
+        },
+        {
+          "id": 684,
+          "en": "Mutton biryani/biriyani",
+          "bn": "মাটন বিরযানি/বিরিযানি"
+        },
+        {
+          "id": 697,
+          "en": "Vegetable biryani/biriyani",
+          "bn": "ভেগেতাবলে বিরযানি/বিরিযানি"
+        }
+      ]
+    },
+    {
+      "token": "থা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        610,
+        1229
+      ],
+      "source_records": [
+        {
+          "id": 610,
+          "en": "Thandai",
+          "bn": "থানদআই"
+        },
+        {
+          "id": 1229,
+          "en": "Indian pennywort, raw",
+          "bn": "থানকুনি পাতা"
+        }
+      ]
+    },
+    {
+      "token": "থো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        611,
+        1437
+      ],
+      "source_records": [
+        {
+          "id": 611,
+          "en": "Thousand island dressing",
+          "bn": "থোুসানদ িসলানদ দরেসসিনগ"
+        },
+        {
+          "id": 1437,
+          "en": "Thor Ghonto",
+          "bn": "থোর ঘন্ট"
+        }
+      ]
+    },
+    {
+      "token": "িস",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        611
+      ],
+      "source_records": [
+        {
+          "id": 611,
+          "en": "Thousand island dressing",
+          "bn": "থোুসানদ িসলানদ দরেসসিনগ"
+        }
+      ]
+    },
+    {
+      "token": "অম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        643
+      ],
+      "source_records": [
+        {
+          "id": 643,
+          "en": "Egg White Omelette",
+          "bn": "এগ হোয়াইট অমলেট"
+        }
+      ]
+    },
+    {
+      "token": "া",
+      "issues": [
+        "length=1",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        648
+      ],
+      "source_records": [
+        {
+          "id": 648,
+          "en": "Egg in a pepper",
+          "bn": "ডিম িন া পেপপের"
+        }
+      ]
+    },
+    {
+      "token": "প্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        653,
+        659,
+        664,
+        693,
+        1366
+      ],
+      "source_records": [
+        {
+          "id": 653,
+          "en": "High Protein Bowl",
+          "bn": "প্রোটিন বোল"
+        },
+        {
+          "id": 659,
+          "en": "Protein Bar",
+          "bn": "প্রোটিন বার"
+        },
+        {
+          "id": 664,
+          "en": "Veg Protein Bowl",
+          "bn": "ভেজ প্রোটিন"
+        },
+        {
+          "id": 693,
+          "en": "Protein Khichdi",
+          "bn": "প্রোটিন খিচুড়ি"
+        },
+        {
+          "id": 1366,
+          "en": "Milk, human, colostrum, raw",
+          "bn": "শালদুধ (মায়ের প্রথম দুধ)"
+        }
+      ]
+    },
+    {
+      "token": "বস",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        667
+      ],
+      "source_records": [
+        {
+          "id": 667,
+          "en": "Basanti Pulao",
+          "bn": "বসন্তী পোলাও"
+        }
+      ]
+    },
+    {
+      "token": "োন",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        719
+      ],
+      "source_records": [
+        {
+          "id": 719,
+          "en": "Onion-green chilli parantha/paratha",
+          "bn": "োনিোন-গরিন চিললি পারানথা/পারাথা"
+        }
+      ]
+    },
+    {
+      "token": "আল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 46,
+      "sample_ids": [
+        726,
+        727,
+        761,
+        948,
+        949,
+        973,
+        990,
+        992,
+        997,
+        998
+      ],
+      "source_records": [
+        {
+          "id": 726,
+          "en": "Potato parantha/paratha",
+          "bn": "আলু পারানথা/পারাথা"
+        },
+        {
+          "id": 727,
+          "en": "Potato stuffed poori",
+          "bn": "আলু সতুফফেদ পুরি"
+        },
+        {
+          "id": 761,
+          "en": "Aloo Bhaja",
+          "bn": "আলু ভাজা"
+        },
+        {
+          "id": 948,
+          "en": "Aloo Posto",
+          "bn": "আলু পোস্ত"
+        },
+        {
+          "id": 949,
+          "en": "Alur Dom",
+          "bn": "আলুর দম"
+        }
+      ]
+    },
+    {
+      "token": "আঙ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        743,
+        1249
+      ],
+      "source_records": [
+        {
+          "id": 743,
+          "en": "Grapes raita",
+          "bn": "আঙুর রায়তা"
+        },
+        {
+          "id": 1249,
+          "en": "Grapes, green, raw",
+          "bn": "আঙুর, হালকা সবুজ"
+        }
+      ]
+    },
+    {
+      "token": "ঘো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        765,
+        1357
+      ],
+      "source_records": [
+        {
+          "id": 765,
+          "en": "Buttermilk biscuit",
+          "bn": "ঘোল বিসকুিত"
+        },
+        {
+          "id": 1357,
+          "en": "Buttermilk, fluid, low fat",
+          "bn": "ঘোল"
+        }
+      ]
+    },
+    {
+      "token": "চর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        773,
+        774,
+        775,
+        776,
+        777,
+        891,
+        1335,
+        1336,
+        1337,
+        1344
+      ],
+      "source_records": [
+        {
+          "id": 773,
+          "en": "Christmas bell biscuit",
+          "bn": "চরিসতমাস বেলল বিসকুিত"
+        },
+        {
+          "id": 774,
+          "en": "Christmas biscuit",
+          "bn": "চরিসতমাস বিসকুিত"
+        },
+        {
+          "id": 775,
+          "en": "Christmas star biscuit",
+          "bn": "চরিসতমাস সতার বিসকুিত"
+        },
+        {
+          "id": 776,
+          "en": "Christmas tree biscuit",
+          "bn": "চরিসতমাস তরি বিসকুিত"
+        },
+        {
+          "id": 777,
+          "en": "Christmas wreath biscuit",
+          "bn": "চরিসতমাস ওরোথ বিসকুিত"
+        }
+      ]
+    },
+    {
+      "token": "ওর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        777
+      ],
+      "source_records": [
+        {
+          "id": 777,
+          "en": "Christmas wreath biscuit",
+          "bn": "চরিসতমাস ওরোথ বিসকুিত"
+        }
+      ]
+    },
+    {
+      "token": "ডে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        784,
+        1067
+      ],
+      "source_records": [
+        {
+          "id": 784,
+          "en": "Egg Devil",
+          "bn": "এগ ডেভিল"
+        },
+        {
+          "id": 1067,
+          "en": "Egg devil (Dimer devil)",
+          "bn": "ডিমের ডেভিল"
+        }
+      ]
+    },
+    {
+      "token": "এন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        786,
+        1399
+      ],
+      "source_records": [
+        {
+          "id": 786,
+          "en": "Energy Bar",
+          "bn": "এনার্জি বার"
+        },
+        {
+          "id": 1399,
+          "en": "Enduri Pitha",
+          "bn": "এন্দুরি পিঠা"
+        }
+      ]
+    },
+    {
+      "token": "োল",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        808
+      ],
+      "source_records": [
+        {
+          "id": 808,
+          "en": "Olive biscuit",
+          "bn": "োলিভে বিসকুিত"
+        }
+      ]
+    },
+    {
+      "token": "রআ",
+      "issues": [
+        "known_bad_token",
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        819
+      ],
+      "source_records": [
+        {
+          "id": 819,
+          "en": "Rainbow sandwich",
+          "bn": "রআইনবোও স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "token": "চপ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        840
+      ],
+      "source_records": [
+        {
+          "id": 840,
+          "en": "Veg Chop",
+          "bn": "চপ"
+        }
+      ]
+    },
+    {
+      "token": "মউ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        878,
+        893,
+        905,
+        919
+      ],
+      "source_records": [
+        {
+          "id": 878,
+          "en": "Apple mousse",
+          "bn": "আপেল মউসসে"
+        },
+        {
+          "id": 893,
+          "en": "Creamy chocolate mousse",
+          "bn": "করোময চোকোলাতে মউসসে"
+        },
+        {
+          "id": 905,
+          "en": "Mango mousse",
+          "bn": "আম মউসসে"
+        },
+        {
+          "id": 919,
+          "en": "Rich chocolate mousse",
+          "bn": "রিচ চোকোলাতে মউসসে"
+        }
+      ]
+    },
+    {
+      "token": "ুপ",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        915
+      ],
+      "source_records": [
+        {
+          "id": 915,
+          "en": "Pineapple upside down pudding",
+          "bn": "আনারস ুপসিদে দোওন পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "token": "কউ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        934
+      ],
+      "source_records": [
+        {
+          "id": 934,
+          "en": "Sweet couscous dessert",
+          "bn": "মিষ্টি কউসকউস দেসসেরত"
+        }
+      ]
+    },
+    {
+      "token": "ভি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        945
+      ],
+      "source_records": [
+        {
+          "id": 945,
+          "en": "Victorian sandwich cake",
+          "bn": "ভিকতোরিান স্যান্ডউইচ কাকে"
+        }
+      ]
+    },
+    {
+      "token": "দম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        949,
+        1431
+      ],
+      "source_records": [
+        {
+          "id": 949,
+          "en": "Alur Dom",
+          "bn": "আলুর দম"
+        },
+        {
+          "id": 1431,
+          "en": "Luchi alur dom",
+          "bn": "লুচি আলুর দম"
+        }
+      ]
+    },
+    {
+      "token": "ঘন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        958,
+        961,
+        1437
+      ],
+      "source_records": [
+        {
+          "id": 958,
+          "en": "Lau Ghonto",
+          "bn": "লাউ ঘন্ট"
+        },
+        {
+          "id": 961,
+          "en": "Mochar Ghonto",
+          "bn": "মোচার ঘন্ট"
+        },
+        {
+          "id": 1437,
+          "en": "Thor Ghonto",
+          "bn": "থোর ঘন্ট"
+        }
+      ]
+    },
+    {
+      "token": "পট",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        966,
+        1061,
+        1128,
+        1148
+      ],
+      "source_records": [
+        {
+          "id": 966,
+          "en": "Potol Posto",
+          "bn": "পটল পোস্ত"
+        },
+        {
+          "id": 1061,
+          "en": "Pointed gourd curry (Potol er dalna)",
+          "bn": "পটলের ডালনা"
+        },
+        {
+          "id": 1128,
+          "en": "Gourd, pointed, raw",
+          "bn": "পটল"
+        },
+        {
+          "id": 1148,
+          "en": "Gourd, pointed, boiled* (without salt)",
+          "bn": "পটল সিদ্ধ"
+        }
+      ]
+    },
+    {
+      "token": "শু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 7,
+      "sample_ids": [
+        968,
+        1072,
+        1104,
+        1208,
+        1212,
+        1221,
+        1275
+      ],
+      "source_records": [
+        {
+          "id": 968,
+          "en": "Shukto",
+          "bn": "শুক্তো"
+        },
+        {
+          "id": 1072,
+          "en": "Maize/corn, yellow, dried, raw",
+          "bn": "শুকনো ভুট্টা, হলুদ"
+        },
+        {
+          "id": 1104,
+          "en": "Lentil, dried, raw",
+          "bn": "মসুর ডাল, শুকনো"
+        },
+        {
+          "id": 1208,
+          "en": "Coconut, desiccated",
+          "bn": "শুকনো নারকেল"
+        },
+        {
+          "id": 1212,
+          "en": "Lotus seeds, dried",
+          "bn": "পদ্মের গোটা, শুকনো"
+        }
+      ]
+    },
+    {
+      "token": "োক",
+      "issues": [
+        "length=2",
+        "dangling_vowel"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        995,
+        1010
+      ],
+      "source_records": [
+        {
+          "id": 995,
+          "en": "Crispy okra/Crispy lady's fingers",
+          "bn": "করিসপয োকরা/করিসপয লাদয'স ফিনগেরস"
+        },
+        {
+          "id": 1010,
+          "en": "Okra/Lady's fingers fry",
+          "bn": "োকরা/লাদয'স ফিনগেরস ভাজা"
+        }
+      ]
+    },
+    {
+      "token": "ঘি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1002,
+        1371
+      ],
+      "source_records": [
+        {
+          "id": 1002,
+          "en": "Ghiya/Lauki Kofta Curry",
+          "bn": "ঘিযা/লআউকি কোফতা তরকারি"
+        },
+        {
+          "id": 1371,
+          "en": "Ghee, cow",
+          "bn": "ঘি, গরু"
+        }
+      ]
+    },
+    {
+      "token": "গো",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 10,
+      "sample_ids": [
+        1003,
+        1068,
+        1074,
+        1075,
+        1090,
+        1194,
+        1198,
+        1212,
+        1213,
+        1255
+      ],
+      "source_records": [
+        {
+          "id": 1003,
+          "en": "Gobi 65",
+          "bn": "গোবি 65"
+        },
+        {
+          "id": 1068,
+          "en": "Barley, whole-grain, raw",
+          "bn": "যব, গোটা শস্য, কাঁচা"
+        },
+        {
+          "id": 1074,
+          "en": "Millet, Proso, whole-grain, raw",
+          "bn": "চিনা ধান, গোটা"
+        },
+        {
+          "id": 1075,
+          "en": "Pear millet, whole-grain, raw",
+          "bn": "বাজরা, গোটা শস্য"
+        },
+        {
+          "id": 1090,
+          "en": "Wheat, whole, raw",
+          "bn": "গম, গোটা"
+        }
+      ]
+    },
+    {
+      "token": "নে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1026
+      ],
+      "source_records": [
+        {
+          "id": 1026,
+          "en": "Potato nests",
+          "bn": "আলু নেসতস"
+        }
+      ]
+    },
+    {
+      "token": "ঢে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1056,
+        1172
+      ],
+      "source_records": [
+        {
+          "id": 1056,
+          "en": "Stuffed okra",
+          "bn": "সতুফফেদ ঢেঁড়স"
+        },
+        {
+          "id": 1172,
+          "en": "Fern, leaves, raw",
+          "bn": "ঢেঁকি শাক"
+        }
+      ]
+    },
+    {
+      "token": "যব",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1068
+      ],
+      "source_records": [
+        {
+          "id": 1068,
+          "en": "Barley, whole-grain, raw",
+          "bn": "যব, গোটা শস্য, কাঁচা"
+        }
+      ]
+    },
+    {
+      "token": "শস",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1068,
+        1075,
+        1122
+      ],
+      "source_records": [
+        {
+          "id": 1068,
+          "en": "Barley, whole-grain, raw",
+          "bn": "যব, গোটা শস্য, কাঁচা"
+        },
+        {
+          "id": 1075,
+          "en": "Pear millet, whole-grain, raw",
+          "bn": "বাজরা, গোটা শস্য"
+        },
+        {
+          "id": 1122,
+          "en": "Cucumber, peeled, raw",
+          "bn": "শসা"
+        }
+      ]
+    },
+    {
+      "token": "বন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        1069,
+        1196,
+        1202,
+        1372
+      ],
+      "source_records": [
+        {
+          "id": 1069,
+          "en": "Bread, bun/roll",
+          "bn": "বনরুটি / বান / রোল"
+        },
+        {
+          "id": 1196,
+          "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+          "bn": "বন আলু"
+        },
+        {
+          "id": 1202,
+          "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+          "bn": "বন আলু সিদ্ধ"
+        },
+        {
+          "id": 1372,
+          "en": "Ghee, vegetable",
+          "bn": "ডালডা / বনস্পতি"
+        }
+      ]
+    },
+    {
+      "token": "আট",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1071,
+        1089
+      ],
+      "source_records": [
+        {
+          "id": 1071,
+          "en": "Maize/corn flour, whole, white",
+          "bn": "ভুট্টার আটা"
+        },
+        {
+          "id": 1089,
+          "en": "Wheat, flour, white",
+          "bn": "আটা, সাদা"
+        }
+      ]
+    },
+    {
+      "token": "হল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1072,
+        1087,
+        1235
+      ],
+      "source_records": [
+        {
+          "id": 1072,
+          "en": "Maize/corn, yellow, dried, raw",
+          "bn": "শুকনো ভুট্টা, হলুদ"
+        },
+        {
+          "id": 1087,
+          "en": "Sweet corn, yellow, on the cob, raw",
+          "bn": "কাঁচা ভুট্টা, হলুদ"
+        },
+        {
+          "id": 1235,
+          "en": "Turmeric, dried",
+          "bn": "হলুদ"
+        }
+      ]
+    },
+    {
+      "token": "পপ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1076
+      ],
+      "source_records": [
+        {
+          "id": 1076,
+          "en": "Popcorn, maize (salt added)",
+          "bn": "পপকর্ন (লবণ সহ)"
+        }
+      ]
+    },
+    {
+      "token": "(ল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1076
+      ],
+      "source_records": [
+        {
+          "id": 1076,
+          "en": "Popcorn, maize (salt added)",
+          "bn": "পপকর্ন (লবণ সহ)"
+        }
+      ]
+    },
+    {
+      "token": "সহ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        1076,
+        1203,
+        1381,
+        1386
+      ],
+      "source_records": [
+        {
+          "id": 1076,
+          "en": "Popcorn, maize (salt added)",
+          "bn": "পপকর্ন (লবণ সহ)"
+        },
+        {
+          "id": 1203,
+          "en": "Potato Mash",
+          "bn": "আলু সিদ্ধ, লবণ সহ"
+        },
+        {
+          "id": 1381,
+          "en": "Coffee, instant, with sugar and milk",
+          "bn": "তাৎক্ষণিক কফি (চিনি ও দুধ সহ)"
+        },
+        {
+          "id": 1386,
+          "en": "Tea, milk tea (with sugar and milk powder)",
+          "bn": "দুধ চা (চিনি ও গুঁড়া দুধ সহ)"
+        }
+      ]
+    },
+    {
+      "token": "ছা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 19,
+      "sample_ids": [
+        1079,
+        1236,
+        1280,
+        1283,
+        1291,
+        1298,
+        1300,
+        1310,
+        1322,
+        1327
+      ],
+      "source_records": [
+        {
+          "id": 1079,
+          "en": "Rice, BR-28, parboiled, milled, raw",
+          "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া"
+        },
+        {
+          "id": 1236,
+          "en": "Apple, without skin, raw",
+          "bn": "আপেল, খোসা ছাড়া"
+        },
+        {
+          "id": 1280,
+          "en": "Barb, Olive, without bones, raw",
+          "bn": "সরপুঁটি মাছ, কাঁটা ছাড়া"
+        },
+        {
+          "id": 1283,
+          "en": "Boal, without bones, raw",
+          "bn": "বোয়াল মাছ, কাঁটা ছাড়া"
+        },
+        {
+          "id": 1291,
+          "en": "Common carp, without bones, raw",
+          "bn": "কমন কার্প মাছ, কাঁটা ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "খই",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1082
+      ],
+      "source_records": [
+        {
+          "id": 1082,
+          "en": "Rice, popped",
+          "bn": "খই"
+        }
+      ]
+    },
+    {
+      "token": "লব",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 4,
+      "sample_ids": [
+        1083,
+        1203,
+        1223,
+        1368
+      ],
+      "source_records": [
+        {
+          "id": 1083,
+          "en": "Rice, puffed, salted",
+          "bn": "মুড়ি, লবণযুক্ত"
+        },
+        {
+          "id": 1203,
+          "en": "Potato Mash",
+          "bn": "আলু সিদ্ধ, লবণ সহ"
+        },
+        {
+          "id": 1223,
+          "en": "Cloves, dried",
+          "bn": "লবঙ্গ"
+        },
+        {
+          "id": 1368,
+          "en": "Butter, salted",
+          "bn": "মাখন, লবণযুক্ত"
+        }
+      ]
+    },
+    {
+      "token": "আস",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1099,
+        1102
+      ],
+      "source_records": [
+        {
+          "id": 1099,
+          "en": "Black gram, dehulled, dried, raw",
+          "bn": "মাষকলাই ডাল, আস্ত"
+        },
+        {
+          "id": 1102,
+          "en": "Green gram, whole, dried, raw",
+          "bn": "মুগ ডাল, আস্ত"
+        }
+      ]
+    },
+    {
+      "token": "অড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1106
+      ],
+      "source_records": [
+        {
+          "id": 1106,
+          "en": "Red gram, split, dried, raw",
+          "bn": "অড়হর ডাল"
+        }
+      ]
+    },
+    {
+      "token": "সয",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1107,
+        1379,
+        1384
+      ],
+      "source_records": [
+        {
+          "id": 1107,
+          "en": "Soybean, dried, raw",
+          "bn": "সয়াবিন"
+        },
+        {
+          "id": 1379,
+          "en": "Soybean oil",
+          "bn": "সয়াবিন তেল"
+        },
+        {
+          "id": 1384,
+          "en": "Soya milk (not sweetened)",
+          "bn": "সয়াবিনের দুধ"
+        }
+      ]
+    },
+    {
+      "token": "লম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1115
+      ],
+      "source_records": [
+        {
+          "id": 1115,
+          "en": "Brinjal, purple, long, raw",
+          "bn": "বেগুন, কালো, লম্বা"
+        }
+      ]
+    },
+    {
+      "token": "মর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1120,
+        1221
+      ],
+      "source_records": [
+        {
+          "id": 1120,
+          "en": "Chilli, green, with seeds, raw",
+          "bn": "কাঁচা মরিচ"
+        },
+        {
+          "id": 1221,
+          "en": "Chilli, red, dry",
+          "bn": "শুকনো মরিচ"
+        }
+      ]
+    },
+    {
+      "token": "সজ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1123,
+        1171
+      ],
+      "source_records": [
+        {
+          "id": 1123,
+          "en": "Drumstick, pods, raw",
+          "bn": "সজিনা ডাঁটা"
+        },
+        {
+          "id": 1171,
+          "en": "Drumstick, leaves, raw",
+          "bn": "সজিনা পাতা"
+        }
+      ]
+    },
+    {
+      "token": "ঝি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1129,
+        1309,
+        1416
+      ],
+      "source_records": [
+        {
+          "id": 1129,
+          "en": "Gourd, ridge, raw",
+          "bn": "ঝিঙা"
+        },
+        {
+          "id": 1309,
+          "en": "Mussel/Clam, mixed species, raw",
+          "bn": "ঝিনুক"
+        },
+        {
+          "id": 1416,
+          "en": "Chhena Jhili",
+          "bn": "ছেনা ঝিলি"
+        }
+      ]
+    },
+    {
+      "token": "ধু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1131
+      ],
+      "source_records": [
+        {
+          "id": 1131,
+          "en": "Gourd, sponge, raw",
+          "bn": "ধুন্দুল"
+        }
+      ]
+    },
+    {
+      "token": "ঢ্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1133,
+        1154
+      ],
+      "source_records": [
+        {
+          "id": 1133,
+          "en": "Okra/ladies finger, raw",
+          "bn": "ঢ্যাঁড়শ"
+        },
+        {
+          "id": 1154,
+          "en": "Lady's finger-tomato bhuna",
+          "bn": "ঢ্যাঁড়শ-টমেটো ভুনা"
+        }
+      ]
+    },
+    {
+      "token": "মূ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1139,
+        1153,
+        1177
+      ],
+      "source_records": [
+        {
+          "id": 1139,
+          "en": "Radish, raw",
+          "bn": "মূলা"
+        },
+        {
+          "id": 1153,
+          "en": "Radish, boiled* (without salt)",
+          "bn": "মূলা সিদ্ধ"
+        },
+        {
+          "id": 1177,
+          "en": "Radish leaves, raw",
+          "bn": "মূলা শাক"
+        }
+      ]
+    },
+    {
+      "token": "উচ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1155
+      ],
+      "source_records": [
+        {
+          "id": 1155,
+          "en": "Gourd, bitter, fry",
+          "bn": "উচ্ছে ভাজা"
+        }
+      ]
+    },
+    {
+      "token": "বক",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1156
+      ],
+      "source_records": [
+        {
+          "id": 1156,
+          "en": "Agathi, raw",
+          "bn": "বক ফুল শাক"
+        }
+      ]
+    },
+    {
+      "token": "নট",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1158,
+        1178
+      ],
+      "source_records": [
+        {
+          "id": 1158,
+          "en": "Amaranth, leaves, spiney, raw",
+          "bn": "কাঁটা নটে শাক"
+        },
+        {
+          "id": 1178,
+          "en": "Slender amaranth leaves, raw",
+          "bn": "নটে শাক"
+        }
+      ]
+    },
+    {
+      "token": "ওল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1192
+      ],
+      "source_records": [
+        {
+          "id": 1192,
+          "en": "Elephant foot, corm, raw",
+          "bn": "ওল কচু"
+        }
+      ]
+    },
+    {
+      "token": "সূ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1204
+      ],
+      "source_records": [
+        {
+          "id": 1204,
+          "en": "Sunflower seeds, dried",
+          "bn": "সূর্যমুখীর বিচি"
+        }
+      ]
+    },
+    {
+      "token": "হি",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1205
+      ],
+      "source_records": [
+        {
+          "id": 1205,
+          "en": "Cashew nuts, raw",
+          "bn": "হিজলি বাদাম"
+        }
+      ]
+    },
+    {
+      "token": "পদ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1212,
+        1213
+      ],
+      "source_records": [
+        {
+          "id": 1212,
+          "en": "Lotus seeds, dried",
+          "bn": "পদ্মের গোটা, শুকনো"
+        },
+        {
+          "id": 1213,
+          "en": "Lotus seeds, green",
+          "bn": "পদ্মের গোটা, কাঁচা"
+        }
+      ]
+    },
+    {
+      "token": "এল",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1220
+      ],
+      "source_records": [
+        {
+          "id": 1220,
+          "en": "Cardamom",
+          "bn": "এলাচ"
+        }
+      ]
+    },
+    {
+      "token": "ধন",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1224
+      ],
+      "source_records": [
+        {
+          "id": 1224,
+          "en": "Coriander seed, dry",
+          "bn": "ধনিয়া"
+        }
+      ]
+    },
+    {
+      "token": "মৌ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1226
+      ],
+      "source_records": [
+        {
+          "id": 1226,
+          "en": "Fennel seeds",
+          "bn": "মৌরি"
+        }
+      ]
+    },
+    {
+      "token": "জয",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1232,
+        1233
+      ],
+      "source_records": [
+        {
+          "id": 1232,
+          "en": "Mace, ground",
+          "bn": "জয়িত্রী গুঁড়া"
+        },
+        {
+          "id": 1233,
+          "en": "Nutmeg, dried",
+          "bn": "জয়ফল"
+        }
+      ]
+    },
+    {
+      "token": "আত",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1241,
+        1243
+      ],
+      "source_records": [
+        {
+          "id": 1241,
+          "en": "Bullocks Heart, ripe, raw Nona ata",
+          "bn": "নোনা আতা"
+        },
+        {
+          "id": 1243,
+          "en": "Custard apple, raw",
+          "bn": "আতাফল"
+        }
+      ]
+    },
+    {
+      "token": "কদ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1246
+      ],
+      "source_records": [
+        {
+          "id": 1246,
+          "en": "Elephant apple, ripe, raw",
+          "bn": "কদবেল"
+        }
+      ]
+    },
+    {
+      "token": "ডু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1248
+      ],
+      "source_records": [
+        {
+          "id": 1248,
+          "en": "Fig, ripe, raw",
+          "bn": "ডুমুর, পাকা"
+        }
+      ]
+    },
+    {
+      "token": "ল্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1259
+      ],
+      "source_records": [
+        {
+          "id": 1259,
+          "en": "Mango, Langra, yellow flesh, ripe, raw",
+          "bn": "আম, ল্যাংড়া, পাকা"
+        }
+      ]
+    },
+    {
+      "token": "জম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1271
+      ],
+      "source_records": [
+        {
+          "id": 1271,
+          "en": "Pomelo, raw",
+          "bn": "জম্বুরা"
+        }
+      ]
+    },
+    {
+      "token": "মৃ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1307
+      ],
+      "source_records": [
+        {
+          "id": 1307,
+          "en": "Mrigal carp, eyes included, raw",
+          "bn": "মৃগেল মাছ, চোখসহ"
+        }
+      ]
+    },
+    {
+      "token": "পম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1311
+      ],
+      "source_records": [
+        {
+          "id": 1311,
+          "en": "Pomfret, Black, raw",
+          "bn": "কালো পমফ্রেট মাছ"
+        }
+      ]
+    },
+    {
+      "token": "নদ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1320,
+        1321
+      ],
+      "source_records": [
+        {
+          "id": 1320,
+          "en": "Prawn, Monsoon river prawn, raw",
+          "bn": "চিংড়ি, বর্ষার নদীর"
+        },
+        {
+          "id": 1321,
+          "en": "Rohu, river, raw",
+          "bn": "রুই মাছ, নদীর"
+        }
+      ]
+    },
+    {
+      "token": "টা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1326
+      ],
+      "source_records": [
+        {
+          "id": 1326,
+          "en": "Spotted snakehead, raw",
+          "bn": "টাকি মাছ"
+        }
+      ]
+    },
+    {
+      "token": "টু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1330
+      ],
+      "source_records": [
+        {
+          "id": 1330,
+          "en": "Tuna, without bones, raw",
+          "bn": "টুনা মাছ, কাঁটা ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "১৫",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1336
+      ],
+      "source_records": [
+        {
+          "id": 1336,
+          "en": "Beef, meat, 15-20% fat, boneless, raw",
+          "bn": "গরুর মাংস, ১৫-২০% চর্বি, হাড় ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "মহ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1338,
+        1360
+      ],
+      "source_records": [
+        {
+          "id": 1338,
+          "en": "Buffalo meat, raw",
+          "bn": "মহিষের মাংস"
+        },
+        {
+          "id": 1360,
+          "en": "Milk, buffalo, whole fat",
+          "bn": "মহিষের দুধ"
+        }
+      ]
+    },
+    {
+      "token": "ঠ্",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1340
+      ],
+      "source_records": [
+        {
+          "id": 1340,
+          "en": "Chicken leg, without skin, raw",
+          "bn": "মুরগির ঠ্যাং, চামড়া ছাড়া"
+        }
+      ]
+    },
+    {
+      "token": "শূ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1348
+      ],
+      "source_records": [
+        {
+          "id": 1348,
+          "en": "Pork, meat, <5 % fat, raw",
+          "bn": "শূকরের মাংস"
+        }
+      ]
+    },
+    {
+      "token": "(গ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1349,
+        1359
+      ],
+      "source_records": [
+        {
+          "id": 1349,
+          "en": "Beef handi kabab",
+          "bn": "হাঁড়ি কাবাব (গরু)"
+        },
+        {
+          "id": 1359,
+          "en": "Curd, sweetened, whole milk",
+          "bn": "মিষ্টি দই (গরুর দুধ)"
+        }
+      ]
+    },
+    {
+      "token": "ফা",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1350
+      ],
+      "source_records": [
+        {
+          "id": 1350,
+          "en": "Egg, chicken, farmed, raw",
+          "bn": "মুরগির ডিম, ফার্মের"
+        }
+      ]
+    },
+    {
+      "token": "(স",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1355
+      ],
+      "source_records": [
+        {
+          "id": 1355,
+          "en": "Egg, chicken, native, boiled* (without salt)",
+          "bn": "মুরগির ডিম, দেশি (সিদ্ধ)"
+        }
+      ]
+    },
+    {
+      "token": "পূ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1362
+      ],
+      "source_records": [
+        {
+          "id": 1362,
+          "en": "Milk, cow, powder, whole",
+          "bn": "গুঁড়া দুধ, পূর্ণ ক্রিম"
+        }
+      ]
+    },
+    {
+      "token": "(ম",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1366
+      ],
+      "source_records": [
+        {
+          "id": 1366,
+          "en": "Milk, human, colostrum, raw",
+          "bn": "শালদুধ (মায়ের প্রথম দুধ)"
+        }
+      ]
+    },
+    {
+      "token": "কড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1370
+      ],
+      "source_records": [
+        {
+          "id": 1370,
+          "en": "Fish oil, cod liver",
+          "bn": "কড লিভার তেল"
+        }
+      ]
+    },
+    {
+      "token": "(চ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 3,
+      "sample_ids": [
+        1381,
+        1386,
+        1387
+      ],
+      "source_records": [
+        {
+          "id": 1381,
+          "en": "Coffee, instant, with sugar and milk",
+          "bn": "তাৎক্ষণিক কফি (চিনি ও দুধ সহ)"
+        },
+        {
+          "id": 1386,
+          "en": "Tea, milk tea (with sugar and milk powder)",
+          "bn": "দুধ চা (চিনি ও গুঁড়া দুধ সহ)"
+        },
+        {
+          "id": 1387,
+          "en": "Tea, infusion (with sugar)",
+          "bn": "লিকার চা (চিনিসহ)"
+        }
+      ]
+    },
+    {
+      "token": "ও",
+      "issues": [
+        "length=1"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1381,
+        1386
+      ],
+      "source_records": [
+        {
+          "id": 1381,
+          "en": "Coffee, instant, with sugar and milk",
+          "bn": "তাৎক্ষণিক কফি (চিনি ও দুধ সহ)"
+        },
+        {
+          "id": 1386,
+          "en": "Tea, milk tea (with sugar and milk powder)",
+          "bn": "দুধ চা (চিনি ও গুঁড়া দুধ সহ)"
+        }
+      ]
+    },
+    {
+      "token": "ওড",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 5,
+      "sample_ids": [
+        1397,
+        1412,
+        1413,
+        1419,
+        1421
+      ],
+      "source_records": [
+        {
+          "id": 1397,
+          "en": "Odia Khichdi",
+          "bn": "ওড়িয়া খিচুড়ি"
+        },
+        {
+          "id": 1412,
+          "en": "Odia Machha Tarkari",
+          "bn": "ওড়িয়া মাছ তরকারি"
+        },
+        {
+          "id": 1413,
+          "en": "Odia Mutton Curry",
+          "bn": "ওড়িয়া মটন কারি"
+        },
+        {
+          "id": 1419,
+          "en": "Odia Puri",
+          "bn": "ওড়িয়া পুরি"
+        },
+        {
+          "id": 1421,
+          "en": "Odia Khaja",
+          "bn": "ওড়িয়া খাজা"
+        }
+      ]
+    },
+    {
+      "token": "আর",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1400
+      ],
+      "source_records": [
+        {
+          "id": 1400,
+          "en": "Arisa Pitha",
+          "bn": "আরিসা পিঠা"
+        }
+      ]
+    },
+    {
+      "token": "(ও",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 2,
+      "sample_ids": [
+        1402,
+        1411
+      ],
+      "source_records": [
+        {
+          "id": 1402,
+          "en": "Ghuguni",
+          "bn": "ঘুগুনি (ওড়িয়া)"
+        },
+        {
+          "id": 1411,
+          "en": "Chungdi Malai",
+          "bn": "চুংড়ি মালাই (ওড়িয়া)"
+        }
+      ]
+    },
+    {
+      "token": "ছে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1416
+      ],
+      "source_records": [
+        {
+          "id": 1416,
+          "en": "Chhena Jhili",
+          "bn": "ছেনা ঝিলি"
+        }
+      ]
+    },
+    {
+      "token": "গজ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1422
+      ],
+      "source_records": [
+        {
+          "id": 1422,
+          "en": "Odia Gaja",
+          "bn": "গজা"
+        }
+      ]
+    },
+    {
+      "token": "হু",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1425
+      ],
+      "source_records": [
+        {
+          "id": 1425,
+          "en": "Whiskey / Whisky (30ml)",
+          "bn": "হুইস্কি"
+        }
+      ]
+    },
+    {
+      "token": "ভদ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1427
+      ],
+      "source_records": [
+        {
+          "id": 1427,
+          "en": "Vodka (30ml)",
+          "bn": "ভদকা"
+        }
+      ]
+    },
+    {
+      "token": "রে",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1428
+      ],
+      "source_records": [
+        {
+          "id": 1428,
+          "en": "Red Wine (150ml)",
+          "bn": "রেড ওয়াইন"
+        }
+      ]
+    },
+    {
+      "token": "কষ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1433
+      ],
+      "source_records": [
+        {
+          "id": 1433,
+          "en": "Mutton kosha",
+          "bn": "মাটন কষা"
+        }
+      ]
+    },
+    {
+      "token": "এঁ",
+      "issues": [
+        "length=2"
+      ],
+      "id_count": 1,
+      "sample_ids": [
+        1438
+      ],
+      "source_records": [
+        {
+          "id": 1438,
+          "en": "Enchorer Dalna",
+          "bn": "এঁচোড়ের ডালনা"
+        }
+      ]
+    }
+  ]
+}

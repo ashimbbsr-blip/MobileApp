@@ -1,6 +1,6 @@
 {
-  "total_checked": 287,
-  "failures": 22,
+  "total_checked": 364,
+  "failures": 35,
   "rules_applied": {
     "fruit": {
       "protein": 10,
@@ -65,249 +65,250 @@
   },
   "records": [
     {
-      "source_id": 1124,
-      "food": "Garlic, raw",
-      "cat": "vegetable",
-      "energy": 623.0,
-      "protein": 0.0,
-      "fat": 27.6,
+      "source_id": "02_0011",
+      "food": "Soybean, dried, raw Gari kalai/Soyabean",
+      "cat": "grain",
+      "energy": 424.0,
+      "protein": 32.9,
+      "fat": 19.9,
       "violations": [
-        "fat=27.6 > max 15",
-        "kcal=623.0 > max 250"
+        "protein=32.9 > max 30"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1206,
-      "food": "Chilgoza pine, dried",
-      "cat": "snack",
-      "energy": 673.0,
+      "source_id": "06_0001",
+      "food": "Sunflower seeds, dried Surjomukhi bij",
+      "cat": "grain",
+      "energy": 552.0,
+      "protein": 17.1,
+      "fat": 40.1,
+      "violations": [
+        "fat=40.1 > max 25",
+        "kcal=552.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "06_0002",
+      "food": "Cashew nuts, raw Hizlee badam",
+      "cat": "grain",
+      "energy": 595.0,
+      "protein": 18.0,
+      "fat": 46.9,
+      "violations": [
+        "fat=46.9 > max 25",
+        "kcal=595.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "06_0003",
+      "food": "Chilgoza pine, dried Chilgoza",
+      "cat": "grain",
+      "energy": 712.0,
       "protein": 13.7,
       "fat": 68.4,
       "violations": [
-        "fat=68.4 > max 60"
+        "fat=68.4 > max 25",
+        "kcal=712.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1208,
-      "food": "Coconut, desiccated",
-      "cat": "snack",
-      "energy": 650.0,
-      "protein": 6.9,
-      "fat": 65.0,
+      "source_id": "06_0005",
+      "food": "Coconut, desiccated Narikel, shukna",
+      "cat": "grain",
+      "energy": 652.0,
+      "protein": 5.6,
+      "fat": 62.2,
       "violations": [
-        "fat=65.0 > max 60"
+        "fat=62.2 > max 25",
+        "kcal=652.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1219,
-      "food": "Bay leaf, dried",
-      "cat": "vegetable",
-      "energy": 353.0,
-      "protein": 7.6,
-      "fat": 8.4,
+      "source_id": "06_0006",
+      "food": "Coconut, mature kernel Narikel",
+      "cat": "grain",
+      "energy": 389.0,
+      "protein": 3.3,
+      "fat": 36.7,
       "violations": [
-        "kcal=353.0 > max 250"
+        "fat=36.7 > max 25"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1220,
-      "food": "Cardamom",
-      "cat": "vegetable",
-      "energy": 261.0,
-      "protein": 10.2,
-      "fat": 2.2,
+      "source_id": "06_0007",
+      "food": "Groundnuts/Peanut, raw China badam",
+      "cat": "grain",
+      "energy": 585.0,
+      "protein": 22.5,
+      "fat": 46.6,
       "violations": [
-        "kcal=261.0 > max 250"
+        "fat=46.6 > max 25",
+        "kcal=585.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1221,
-      "food": "Chilli, red, dry",
-      "cat": "vegetable",
-      "energy": 313.0,
-      "protein": 15.9,
-      "fat": 6.2,
+      "source_id": "06_0009",
+      "food": "Linseed, raw Tisi",
+      "cat": "grain",
+      "energy": 500.0,
+      "protein": 17.2,
+      "fat": 39.1,
       "violations": [
-        "kcal=313.0 > max 250"
+        "fat=39.1 > max 25"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1223,
-      "food": "Cloves, dried",
-      "cat": "vegetable",
-      "energy": 267.0,
-      "protein": 5.2,
-      "fat": 8.9,
+      "source_id": "06_0012",
+      "food": "Mustard seeds, dried Sarisha",
+      "cat": "grain",
+      "energy": 501.0,
+      "protein": 22.0,
+      "fat": 35.0,
       "violations": [
-        "kcal=267.0 > max 250"
+        "fat=35.0 > max 25",
+        "kcal=501.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1224,
-      "food": "Coriander seed, dry",
-      "cat": "vegetable",
-      "energy": 336.0,
-      "protein": 14.1,
-      "fat": 16.1,
+      "source_id": "06_0013",
+      "food": "Pistachio nuts, dried Pesta",
+      "cat": "grain",
+      "energy": 574.0,
+      "protein": 19.2,
+      "fat": 44.9,
       "violations": [
-        "fat=16.1 > max 15",
-        "kcal=336.0 > max 250"
+        "fat=44.9 > max 25",
+        "kcal=574.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1225,
-      "food": "Cumin seeds",
-      "cat": "vegetable",
-      "energy": 402.0,
-      "protein": 18.3,
-      "fat": 17.6,
+      "source_id": "06_0014",
+      "food": "Pumpkin seeds, dried Mistikumrar bichi",
+      "cat": "grain",
+      "energy": 580.0,
+      "protein": 25.1,
+      "fat": 47.3,
       "violations": [
-        "fat=17.6 > max 15",
-        "kcal=402.0 > max 250"
+        "fat=47.3 > max 25",
+        "kcal=580.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1226,
-      "food": "Fennel seeds",
-      "cat": "vegetable",
-      "energy": 329.0,
-      "protein": 15.8,
-      "fat": 14.9,
+      "source_id": "06_0015",
+      "food": "Sesame seeds, whole, dried Til",
+      "cat": "grain",
+      "energy": 563.0,
+      "protein": 17.7,
+      "fat": 45.8,
       "violations": [
-        "kcal=329.0 > max 250"
+        "fat=45.8 > max 25",
+        "kcal=563.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1227,
-      "food": "Fenugreek seeds",
-      "cat": "vegetable",
-      "energy": 330.0,
-      "protein": 21.8,
-      "fat": 6.9,
+      "source_id": "06_0016",
+      "food": "Walnuts Akhrot",
+      "cat": "grain",
+      "energy": 684.0,
+      "protein": 15.2,
+      "fat": 64.5,
       "violations": [
-        "protein=21.8 > max 20",
-        "kcal=330.0 > max 250"
+        "fat=64.5 > max 25",
+        "kcal=684.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1232,
-      "food": "Mace, ground",
-      "cat": "vegetable",
-      "energy": 415.0,
-      "protein": 6.5,
-      "fat": 24.4,
-      "violations": [
-        "fat=24.4 > max 15",
-        "kcal=415.0 > max 250"
-      ],
-      "note": "Category boundary exceeded — verify category assignment or source value"
-    },
-    {
-      "source_id": 1233,
-      "food": "Nutmeg, dried",
-      "cat": "vegetable",
-      "energy": 473.2,
-      "protein": 15.3,
+      "source_id": "07_0016",
+      "food": "Nutmeg, dried Jayfol",
+      "cat": "grain",
+      "energy": 480.0,
+      "protein": 7.5,
       "fat": 36.4,
       "violations": [
-        "fat=36.4 > max 15",
-        "kcal=473.2 > max 250"
+        "fat=36.4 > max 25"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1234,
-      "food": "Poppy seeds",
-      "cat": "vegetable",
-      "energy": 525.0,
-      "protein": 18.0,
-      "fat": 41.6,
+      "source_id": "07_0018",
+      "food": "Poppy seeds Posto dana",
+      "cat": "grain",
+      "energy": 523.0,
+      "protein": 17.2,
+      "fat": 43.1,
       "violations": [
-        "fat=41.6 > max 15",
-        "kcal=525.0 > max 250"
+        "fat=43.1 > max 25",
+        "kcal=523.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1235,
-      "food": "Turmeric, dried",
-      "cat": "vegetable",
-      "energy": 334.6,
-      "protein": 17.5,
-      "fat": 8.4,
-      "violations": [
-        "kcal=334.6 > max 250"
-      ],
-      "note": "Category boundary exceeded — verify category assignment or source value"
-    },
-    {
-      "source_id": 1244,
-      "food": "Dates, dried",
-      "cat": "fruit",
-      "energy": 1270.0,
-      "protein": 0.0,
-      "fat": 67.5,
-      "violations": [
-        "fat=67.5 > max 10",
-        "kcal=1270.0 > max 200"
-      ],
-      "note": "Category boundary exceeded — verify category assignment or source value"
-    },
-    {
-      "source_id": 1272,
-      "food": "Tamarind, pulp, ripe, raw",
-      "cat": "fruit",
-      "energy": 1140.0,
-      "protein": 0.0,
-      "fat": 60.8,
-      "violations": [
-        "fat=60.8 > max 10",
-        "kcal=1140.0 > max 200"
-      ],
-      "note": "Category boundary exceeded — verify category assignment or source value"
-    },
-    {
-      "source_id": 1274,
-      "food": "Wood apple, ripe, raw",
-      "cat": "fruit",
-      "energy": 469.0,
-      "protein": 0.0,
-      "fat": 20.9,
-      "violations": [
-        "fat=20.9 > max 10",
-        "kcal=469.0 > max 200"
-      ],
-      "note": "Category boundary exceeded — verify category assignment or source value"
-    },
-    {
-      "source_id": 1275,
-      "food": "Anchovy, Gangetic hairfin, dried",
-      "cat": "fish",
-      "energy": 332.0,
-      "protein": 72.0,
+      "source_id": "09_0001",
+      "food": "Anchovy, Gangetic hairfin, dried Fesha, shutki",
+      "cat": "grain",
+      "energy": 328.0,
+      "protein": 70.9,
       "fat": 4.9,
       "violations": [
-        "protein=72.0 > max 40"
+        "protein=70.9 > max 30"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1352,
+      "source_id": "09_0029",
+      "food": "Giant sea perch, whole, dried Vetkee, shutki",
+      "cat": "grain",
+      "energy": 318.0,
+      "protein": 60.2,
+      "fat": 8.6,
+      "violations": [
+        "protein=60.2 > max 30"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "09_0041",
+      "food": "Minnow, Finescale razorbelly, dried Chela, Fulchela, shukna",
+      "cat": "grain",
+      "energy": 412.0,
+      "protein": 64.8,
+      "fat": 17.0,
+      "violations": [
+        "protein=64.8 > max 30"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "09_0051",
+      "food": "Pomfret, Silver, dried Rupchanda, sada, shutki",
+      "cat": "grain",
+      "energy": 349.0,
+      "protein": 62.1,
+      "fat": 11.2,
+      "violations": [
+        "protein=62.1 > max 30"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "11_0003",
       "food": "Egg, chicken, native, yolk, raw",
       "cat": "grain",
-      "energy": 322.7,
-      "protein": 15.5,
+      "energy": 325.0,
+      "protein": 16.0,
       "fat": 27.8,
       "violations": [
         "fat=27.8 > max 25"
@@ -315,26 +316,194 @@
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1361,
-      "food": "Milk, cow, powder, skimmed",
-      "cat": "dairy",
-      "energy": 1520.0,
-      "protein": 0.0,
-      "fat": 49.8,
+      "source_id": "12_0002",
+      "food": "Cheese, cottage, 25% fat Poneer",
+      "cat": "grain",
+      "energy": 346.0,
+      "protein": 24.6,
+      "fat": 25.1,
       "violations": [
-        "kcal=1520.0 > max 950"
+        "fat=25.1 > max 25"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     },
     {
-      "source_id": 1388,
-      "food": "Tea, powder",
-      "cat": "beverage",
-      "energy": 350.0,
-      "protein": 38.0,
-      "fat": 0.0,
+      "source_id": "12_0005",
+      "food": "Milk, cow, powder, skimmed",
+      "cat": "grain",
+      "energy": 358.0,
+      "protein": 37.6,
+      "fat": 1.0,
       "violations": [
-        "protein=38.0 > max 25"
+        "protein=37.6 > max 30"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "12_0006",
+      "food": "Milk, cow, powder, whole",
+      "cat": "grain",
+      "energy": 497.0,
+      "protein": 26.6,
+      "fat": 26.7,
+      "violations": [
+        "fat=26.7 > max 25"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0001",
+      "food": "Butter, salted Makhon, nonta",
+      "cat": "grain",
+      "energy": 733.0,
+      "protein": 0.9,
+      "fat": 81.0,
+      "violations": [
+        "fat=81.0 > max 25",
+        "kcal=733.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0002",
+      "food": "Cottonseed oil Tular bij er tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0003",
+      "food": "Fish oil, cod liver Kod liver tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0004",
+      "food": "Ghee, cow Ghee, gorur",
+      "cat": "grain",
+      "energy": 898.0,
+      "protein": 0.0,
+      "fat": 99.8,
+      "violations": [
+        "fat=99.8 > max 25",
+        "kcal=898.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0005",
+      "food": "Ghee, vegetable Dalda/Bonoshpati",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0006",
+      "food": "Margarine Margarine",
+      "cat": "grain",
+      "energy": 750.0,
+      "protein": 0.3,
+      "fat": 83.3,
+      "violations": [
+        "fat=83.3 > max 25",
+        "kcal=750.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0007",
+      "food": "Mayonnaise, salted Mayonnaise, nonta",
+      "cat": "grain",
+      "energy": 732.0,
+      "protein": 1.5,
+      "fat": 80.6,
+      "violations": [
+        "fat=80.6 > max 25",
+        "kcal=732.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0008",
+      "food": "Mustard oil Sorishar tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0009",
+      "food": "Palm oil Palm tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0010",
+      "food": "Peanut oil China badam er tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0011",
+      "food": "Sesame oil Tiler tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": "13_0012",
+      "food": "Soybean oil Soybean tel",
+      "cat": "grain",
+      "energy": 900.0,
+      "protein": 0.0,
+      "fat": 100.0,
+      "violations": [
+        "fat=100.0 > max 25",
+        "kcal=900.0 > max 500"
       ],
       "note": "Category boundary exceeded — verify category assignment or source value"
     }

@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 44,
+  "not_indexed_count": 0,
+  "error_records": [],
+  "warning_records": [
+    {
+      "id": 24,
+      "en": "Cereal pulse mix with amylase rice flour",
+      "bn": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত আটা",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 56,
+      "en": "Butter icing",
+      "bn": "মাখন িকিনগ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 61,
+      "en": "Cheese open sandwich",
+      "bn": "চিজ োপেন স্যান্ডউইচ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 71,
+      "en": "Chocolate butter icing",
+      "bn": "চকলেট মাখন িকিনগ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 81,
+      "en": "Cream of tomato soup",
+      "bn": "ক্রিম োফ টমেটো স্যুপ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 109,
+      "en": "Paneer in butter sauce",
+      "bn": "পনির িন মাখন সস",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 134,
+      "en": "Spaghetti and cheese balls in tomato sauce",
+      "bn": "সপাঘেততি ও চিজ বাললস িন টমেটো সস",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 135,
+      "en": "Strawberry and vanilla cake with butter icing",
+      "bn": "স্ট্রবেরি ও ভানিললা কেক উইথ মাখন িকিনগ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 212,
+      "en": "Fish in coconut milk",
+      "bn": "মাছ িন নারকেল দুধ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 213,
+      "en": "Fish orly",
+      "bn": "মাছ োরলয",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 280,
+      "en": "Orange omelette/omlet",
+      "bn": "কমলা োমেলেততে/োমলেত",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 363,
+      "en": "Classic italian pasta",
+      "bn": "কলাসসিক িতালিান পাস্তা",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 391,
+      "en": "Baked eggs in tomato sauce",
+      "bn": "বেক েগগস িন টমেটো সস",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 420,
+      "en": "Chocolate eclairs",
+      "bn": "চকলেট েকলআইরস",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 421,
+      "en": "Chocolate glace icing",
+      "bn": "চকলেট গলাকে িকিনগ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 436,
+      "en": "Corn omelette/omlet",
+      "bn": "ভুট্টা োমেলেততে/োমলেত",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 448,
+      "en": "Dry arbi",
+      "bn": "দরয ারবি",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 450,
+      "en": "Dry washed urad",
+      "bn": "দরয ধোয়া ুরাদ",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 456,
+      "en": "French omelette/omlet",
+      "bn": "ফরেনচ োমেলেততে/োমলেত",
+      "issue": "dangling_vowel_sign_remains"
+    },
+    {
+      "id": 457,
+      "en": "Fricassee of Mushroom",
+      "bn": "ফরিকাসসি োফ মুশরুম",
+      "issue": "dangling_vowel_sign_remains"
+    }
+  ],
+  "not_indexed_sample": []
+}

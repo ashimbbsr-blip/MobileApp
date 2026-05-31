@@ -1,5 +1,5 @@
 {
-  "build_status": "FAIL",
+  "build_status": "PASS",
   "rules": {
     "kcal_max": 900,
     "fat_max": 70,
@@ -7,77 +7,82 @@
     "carbs_max": 100,
     "energy_diff_max": 25
   },
-  "total_checked": 264,
-  "pass": 251,
-  "fail": 13,
-  "documented_exceptions": 0,
-  "manual_review": 19,
-  "fail_records": [
+  "total_checked": 275,
+  "pass": 262,
+  "fail": 0,
+  "documented_exceptions": 13,
+  "manual_review": 8,
+  "fail_records": [],
+  "exception_records": [
     {
       "id": 1275,
       "food": "Anchovy, Gangetic hairfin, dried",
       "cat": "fish",
-      "k": 332.0,
-      "p": 72.0,
+      "k": 328.0,
+      "p": 70.9,
       "f": 4.9,
       "c": 0.0,
-      "energy_diff_pct": 0.0,
+      "energy_diff_pct": 0.1,
       "violations": [
-        "protein=72.0 > 70"
-      ]
+        "protein=70.9 > 70"
+      ],
+      "exception_reason": "'fish' category documented exception (nuts/oils/dried fish)"
     },
     {
       "id": 1368,
       "food": "Butter, salted",
       "cat": "dairy",
-      "k": 717.0,
+      "k": 733.0,
       "p": 0.9,
-      "f": 81.1,
-      "c": 0.1,
-      "energy_diff_pct": 2.4,
+      "f": 81.0,
+      "c": 0.2,
+      "energy_diff_pct": 0.1,
       "violations": [
-        "fat=81.1 > 70"
-      ]
+        "fat=81.0 > 70"
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1369,
       "food": "Cottonseed oil",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1370,
       "food": "Fish oil, cod liver",
       "cat": "dairy",
-      "k": 902.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 0.2,
+      "energy_diff_pct": 0.0,
       "violations": [
-        "kcal=902.0 > 900",
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1371,
       "food": "Ghee, cow",
       "cat": "dairy",
-      "k": 900.0,
-      "p": 0.3,
-      "f": 99.5,
+      "k": 898.0,
+      "p": 0.0,
+      "f": 99.8,
       "c": 0.0,
-      "energy_diff_pct": 0.4,
+      "energy_diff_pct": 0.0,
       "violations": [
-        "fat=99.5 > 70"
-      ]
+        "fat=99.8 > 70"
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1372,
@@ -90,99 +95,106 @@
       "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1373,
       "food": "Margarine Margarine",
       "cat": "dairy",
-      "k": 718.0,
-      "p": 0.2,
-      "f": 80.4,
-      "c": 0.2,
-      "energy_diff_pct": 1.0,
+      "k": 750.0,
+      "p": 0.3,
+      "f": 83.3,
+      "c": 0.0,
+      "energy_diff_pct": 0.1,
       "violations": [
-        "fat=80.4 > 70"
-      ]
+        "fat=83.3 > 70"
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1374,
       "food": "Mayonnaise, salted",
       "cat": "dairy",
-      "k": 680.0,
-      "p": 1.1,
-      "f": 74.9,
-      "c": 0.6,
+      "k": 732.0,
+      "p": 1.5,
+      "f": 80.6,
+      "c": 0.0,
       "energy_diff_pct": 0.1,
       "violations": [
-        "fat=74.9 > 70"
-      ]
+        "fat=80.6 > 70"
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1375,
       "food": "Mustard oil",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1376,
       "food": "Palm oil",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1377,
       "food": "Peanut oil China badam",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1378,
       "food": "Sesame oil",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     },
     {
       "id": 1379,
       "food": "Soybean oil",
       "cat": "dairy",
-      "k": 884.0,
+      "k": 900.0,
       "p": 0.0,
       "f": 100.0,
       "c": 0.0,
-      "energy_diff_pct": 1.8,
+      "energy_diff_pct": 0.0,
       "violations": [
         "fat=100.0 > 70"
-      ]
+      ],
+      "exception_reason": "High-fat product (oil/butter) with only fat/kcal violations"
     }
-  ],
-  "exception_records": []
+  ]
 }

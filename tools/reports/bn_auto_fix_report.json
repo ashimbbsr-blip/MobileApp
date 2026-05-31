@@ -1,0 +1,3277 @@
+{
+  "total_auto_fixed": 189,
+  "records": [
+    {
+      "id": 2,
+      "en": "Coffee drops",
+      "bn_before": "কফি দরোপস",
+      "bn_after": "কফি ড্রপস",
+      "fixes": [
+        {
+          "pattern": "দরোপস",
+          "replacement": "ড্রপস",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"drops\"",
+          "before": "কফি দরোপস",
+          "after": "কফি ড্রপস"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "en": "Coffee pear alaska",
+      "bn_before": "কফি পোর ালাসকা",
+      "bn_after": "কফি পেয়ার আলাস্কা",
+      "fixes": [
+        {
+          "pattern": "ালাসকা",
+          "replacement": "আলাস্কা",
+          "confidence": 98,
+          "reason": "OCR artifact for \"Alaska\"",
+          "before": "কফি পোর ালাসকা",
+          "after": "কফি পোর আলাস্কা"
+        },
+        {
+          "pattern": "পোর ",
+          "replacement": "পেয়ার ",
+          "confidence": 98,
+          "reason": "OCR artifact for \"pear\"",
+          "before": "কফি পোর আলাস্কা",
+          "after": "কফি পেয়ার আলাস্কা"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "en": "Espreso coffee",
+      "bn_before": "েসপরেসো কফি",
+      "bn_after": "সপরেসো কফি",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "েসপরেসো কফি",
+          "after": "সপরেসো কফি"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "en": "Bacon and mushroom pancake",
+      "bn_before": "বাকোন ানদ মুশরুম পানকাকে",
+      "bn_after": "বাকোন ও মুশরুম পানকেক",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "বাকোন ানদ মুশরুম পানকাকে",
+          "after": "বাকোন ও মুশরুম পানকাকে"
+        },
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "বাকোন ও মুশরুম পানকাকে",
+          "after": "বাকোন ও মুশরুম পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "en": "Buckwheat pancake",
+      "bn_before": "বুককওহোত পানকাকে",
+      "bn_after": "বুককওহোত পানকেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "বুককওহোত পানকাকে",
+          "after": "বুককওহোত পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "en": "Cereal pulse mix with amylase rice flour",
+      "bn_before": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর",
+      "bn_after": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত আটা",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর",
+          "after": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত ফলউর"
+        },
+        {
+          "pattern": "ফলউর",
+          "replacement": "আটা",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"flour\"",
+          "before": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত ফলউর",
+          "after": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত আটা"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "en": "Instant idli",
+      "bn_before": "িনসতানত ইডলি",
+      "bn_after": "নসতানত ইডলি",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "িনসতানত ইডলি",
+          "after": "নসতানত ইডলি"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "en": "Jam and fruit pancake",
+      "bn_before": "জাম ানদ ফরুিত পানকাকে",
+      "bn_after": "জাম ও ফরুিত পানকেক",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "জাম ানদ ফরুিত পানকাকে",
+          "after": "জাম ও ফরুিত পানকাকে"
+        },
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "জাম ও ফরুিত পানকাকে",
+          "after": "জাম ও ফরুিত পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "en": "Pancake",
+      "bn_before": "পানকাকে",
+      "bn_after": "পানকেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "পানকাকে",
+          "after": "পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "en": "Vegetable pancake",
+      "bn_before": "ভেগেতাবলে পানকাকে",
+      "bn_after": "ভেগেতাবলে পানকেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "ভেগেতাবলে পানকাকে",
+          "after": "ভেগেতাবলে পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "en": "Cheese and chilli sandwich",
+      "bn_before": "চিজ ানদ চিললি স্যান্ডউইচ",
+      "bn_after": "চিজ ও চিললি স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "চিজ ানদ চিললি স্যান্ডউইচ",
+          "after": "চিজ ও চিললি স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "en": "Cheese sauce",
+      "bn_before": "চিজ সআউকে",
+      "bn_after": "চিজ সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "চিজ সআউকে",
+          "after": "চিজ সস"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "en": "Chocolate butter icing",
+      "bn_before": "চোকোলাতে মাখন িকিনগ",
+      "bn_after": "চকলেট মাখন িকিনগ",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে মাখন িকিনগ",
+          "after": "চকলেট মাখন িকিনগ"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "en": "Chocolate cream shells",
+      "bn_before": "চোকোলাতে ক্রিম শেললস",
+      "bn_after": "চকলেট ক্রিম শেললস",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে ক্রিম শেললস",
+          "after": "চকলেট ক্রিম শেললস"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "en": "Chocolate ice cream",
+      "bn_before": "চোকোলাতে আইসক্রিম",
+      "bn_after": "চকলেট আইসক্রিম",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে আইসক্রিম",
+          "after": "চকলেট আইসক্রিম"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "en": "Cornflakes with milk",
+      "bn_before": "কর্নফ্লেক্স ওিথ দুধ",
+      "bn_after": "কর্নফ্লেক্স উইথ দুধ",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "কর্নফ্লেক্স ওিথ দুধ",
+          "after": "কর্নফ্লেক্স উইথ দুধ"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "en": "Cucumber and yogurt salad",
+      "bn_before": "কুকুমবের ানদ দই সালাদ",
+      "bn_after": "কুকুমবের ও দই সালাদ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "কুকুমবের ানদ দই সালাদ",
+          "after": "কুকুমবের ও দই সালাদ"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "en": "Curd with potatoes",
+      "bn_before": "দই ওিথ পোতাতোেস",
+      "bn_after": "দই উইথ পোতাতোেস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "দই ওিথ পোতাতোেস",
+          "after": "দই উইথ পোতাতোেস"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "en": "Gulab Jamun with khoya",
+      "bn_before": "গুলাব জামুন ওিথ খোয়া",
+      "bn_after": "গুলাব জামুন উইথ খোয়া",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "গুলাব জামুন ওিথ খোয়া",
+          "after": "গুলাব জামুন উইথ খোয়া"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "en": "Khoa and coconut pancake",
+      "bn_before": "খোয়া ানদ নারকেল পানকাকে",
+      "bn_after": "খোয়া ও নারকেল পানকেক",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "খোয়া ানদ নারকেল পানকাকে",
+          "after": "খোয়া ও নারকেল পানকাকে"
+        },
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "খোয়া ও নারকেল পানকাকে",
+          "after": "খোয়া ও নারকেল পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "en": "Mashed banana with milk",
+      "bn_before": "মাশেদ কলা ওিথ দুধ",
+      "bn_after": "মাশেদ কলা উইথ দুধ",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "মাশেদ কলা ওিথ দুধ",
+          "after": "মাশেদ কলা উইথ দুধ"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "en": "Milk cake",
+      "bn_before": "দুধ কাকে",
+      "bn_after": "দুধ কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "দুধ কাকে",
+          "after": "দুধ কেক"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "en": "Mushroom and cheese sandwich",
+      "bn_before": "মুশরুম ানদ চিজ স্যান্ডউইচ",
+      "bn_after": "মুশরুম ও চিজ স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মুশরুম ানদ চিজ স্যান্ডউইচ",
+          "after": "মুশরুম ও চিজ স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "en": "Orange and pineapple cream",
+      "bn_before": "কমলা ানদ আনারস ক্রিম",
+      "bn_after": "কমলা ও আনারস ক্রিম",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "কমলা ানদ আনারস ক্রিম",
+          "after": "কমলা ও আনারস ক্রিম"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "en": "Paneer and pea samosa",
+      "bn_before": "পনির ানদ পো সমোসা",
+      "bn_after": "পনির ও পো সমোসা",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "পনির ানদ পো সমোসা",
+          "after": "পনির ও পো সমোসা"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "en": "Paneer in butter sauce",
+      "bn_before": "পনির িন মাখন সআউকে",
+      "bn_after": "পনির িন মাখন সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "পনির িন মাখন সআউকে",
+          "after": "পনির িন মাখন সস"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "en": "Paneer, apple and pineapple salad",
+      "bn_before": "পানির, আপেল ানদ আনারস সালাদ",
+      "bn_after": "পানির, আপেল ও আনারস সালাদ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "পানির, আপেল ানদ আনারস সালাদ",
+          "after": "পানির, আপেল ও আনারস সালাদ"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "en": "Pasta cheese sauce",
+      "bn_before": "পাস্তা চিজ সআউকে",
+      "bn_after": "পাস্তা চিজ সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "পাস্তা চিজ সআউকে",
+          "after": "পাস্তা চিজ সস"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "en": "Plain cream cake",
+      "bn_before": "সাদা ক্রিম কাকে",
+      "bn_after": "সাদা ক্রিম কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "সাদা ক্রিম কাকে",
+          "after": "সাদা ক্রিম কেক"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "en": "Poha with curd",
+      "bn_before": "চিড়া ওিথ দই",
+      "bn_after": "চিড়া উইথ দই",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "চিড়া ওিথ দই",
+          "after": "চিড়া উইথ দই"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "en": "Semolina ladoo with khoya",
+      "bn_before": "সেমোলিনা লাড্ডু ওিথ খোয়া",
+      "bn_after": "সেমোলিনা লাড্ডু উইথ খোয়া",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সেমোলিনা লাড্ডু ওিথ খোয়া",
+          "after": "সেমোলিনা লাড্ডু উইথ খোয়া"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "en": "Spaghetti and cheese balls in tomato sauce",
+      "bn_before": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে",
+      "bn_after": "সপাঘেততি ও চিজ বাললস িন টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে",
+          "after": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সস"
+        },
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সস",
+          "after": "সপাঘেততি ও চিজ বাললস িন টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "en": "Strawberry and vanilla cake with butter icing",
+      "bn_before": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ",
+      "bn_after": "স্ট্রবেরি ও ভানিললা কেক উইথ মাখন িকিনগ",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ",
+          "after": "স্ট্রবেরি ানদ ভানিললা কাকে উইথ মাখন িকিনগ"
+        },
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "স্ট্রবেরি ানদ ভানিললা কাকে উইথ মাখন িকিনগ",
+          "after": "স্ট্রবেরি ও ভানিললা কাকে উইথ মাখন িকিনগ"
+        },
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "স্ট্রবেরি ও ভানিললা কাকে উইথ মাখন িকিনগ",
+          "after": "স্ট্রবেরি ও ভানিললা কেক উইথ মাখন িকিনগ"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "en": "Atta dal burfi",
+      "bn_before": "াততা ডাল বুরফি",
+      "bn_after": "ততা ডাল বুরফি",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াততা ডাল বুরফি",
+          "after": "ততা ডাল বুরফি"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "en": "Instant dhokla",
+      "bn_before": "িনসতানত ঢোকলা",
+      "bn_after": "নসতানত ঢোকলা",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "িনসতানত ঢোকলা",
+          "after": "নসতানত ঢোকলা"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "en": "Rasam with tamarind",
+      "bn_before": "রসম ওিথ তেঁতুল",
+      "bn_after": "রসম উইথ তেঁতুল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "রসম ওিথ তেঁতুল",
+          "after": "রসম উইথ তেঁতুল"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "en": "Washed moong dal",
+      "bn_before": "ওাশেদ মুগ ডাল",
+      "bn_after": "ধোয়া মুগ ডাল",
+      "fixes": [
+        {
+          "pattern": "ওাশেদ",
+          "replacement": "ধোয়া",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"washed\"",
+          "before": "ওাশেদ মুগ ডাল",
+          "after": "ধোয়া মুগ ডাল"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "en": "Washed urad dal",
+      "bn_before": "ওাশেদ উড়দ ডাল",
+      "bn_after": "ধোয়া উড়দ ডাল",
+      "fixes": [
+        {
+          "pattern": "ওাশেদ",
+          "replacement": "ধোয়া",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"washed\"",
+          "before": "ওাশেদ উড়দ ডাল",
+          "after": "ধোয়া উড়দ ডাল"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "en": "Wheat flour and moong dal burfi",
+      "bn_before": "গম ফলউর ানদ মুগ ডাল বুরফি",
+      "bn_after": "গম আটা ও মুগ ডাল বুরফি",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "গম ফলউর ানদ মুগ ডাল বুরফি",
+          "after": "গম ফলউর ও মুগ ডাল বুরফি"
+        },
+        {
+          "pattern": "ফলউর",
+          "replacement": "আটা",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"flour\"",
+          "before": "গম ফলউর ও মুগ ডাল বুরফি",
+          "after": "গম আটা ও মুগ ডাল বুরফি"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "en": "Baked fish with cheese sauce",
+      "bn_before": "বেক মাছ ওিথ চিজ সআউকে",
+      "bn_after": "বেক মাছ উইথ চিজ সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "বেক মাছ ওিথ চিজ সআউকে",
+          "after": "বেক মাছ উইথ চিজ সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "বেক মাছ উইথ চিজ সআউকে",
+          "after": "বেক মাছ উইথ চিজ সস"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "en": "Crispy baked fish",
+      "bn_before": "করিসপয বেক মাছ",
+      "bn_after": "ক্রিসপি বেক মাছ",
+      "fixes": [
+        {
+          "pattern": "করিসপয",
+          "replacement": "ক্রিসপি",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"crispy\"",
+          "before": "করিসপয বেক মাছ",
+          "after": "ক্রিসপি বেক মাছ"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "en": "Tandoori fish",
+      "bn_before": "তানদুরি মাছ",
+      "bn_after": "তওুরি মাছ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "তানদুরি মাছ",
+          "after": "তওুরি মাছ"
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "en": "Beans with coconut",
+      "bn_before": "শিম ওিথ নারকেল",
+      "bn_after": "শিম উইথ নারকেল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "শিম ওিথ নারকেল",
+          "after": "শিম উইথ নারকেল"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "en": "Grape and orange whip",
+      "bn_before": "গরাপে ানদ কমলা ওহিপ",
+      "bn_after": "গরাপে ও কমলা ওহিপ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "গরাপে ানদ কমলা ওহিপ",
+          "after": "গরাপে ও কমলা ওহিপ"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "en": "Mango cheesecake",
+      "bn_before": "আম চেেসেকাকে",
+      "bn_after": "আম চেেসেকেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "আম চেেসেকাকে",
+          "after": "আম চেেসেকেক"
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "en": "Mango murabba candy",
+      "bn_before": "আম মুরাববা কানদয",
+      "bn_after": "আম মুরাববা কওয",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "আম মুরাববা কানদয",
+          "after": "আম মুরাববা কওয"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "en": "Raw papaya with coconut",
+      "bn_before": "রাও পেঁপে ওিথ নারকেল",
+      "bn_after": "রাও পেঁপে উইথ নারকেল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "রাও পেঁপে ওিথ নারকেল",
+          "after": "রাও পেঁপে উইথ নারকেল"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "en": "Raw turnip with coconut",
+      "bn_before": "রাও তুরনিপ ওিথ নারকেল",
+      "bn_after": "রাও তুরনিপ উইথ নারকেল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "রাও তুরনিপ ওিথ নারকেল",
+          "after": "রাও তুরনিপ উইথ নারকেল"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "en": "Vegetable curry with coconut",
+      "bn_before": "সবজির তরকারি ওিথ নারকেল",
+      "bn_after": "সবজির তরকারি উইথ নারকেল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সবজির তরকারি ওিথ নারকেল",
+          "after": "সবজির তরকারি উইথ নারকেল"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "en": "Afghani chicken",
+      "bn_before": "াফঘানি চিকেন",
+      "bn_after": "ফঘানি চিকেন",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াফঘানি চিকেন",
+          "after": "ফঘানি চিকেন"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "en": "Broccoli chicken ala king",
+      "bn_before": "বরোককোলি চিকেন ালা কিনগ",
+      "bn_after": "ব্রকলি চিকেন আ লা কিং",
+      "fixes": [
+        {
+          "pattern": "বরোককোলি",
+          "replacement": "ব্রকলি",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"broccoli\"",
+          "before": "বরোককোলি চিকেন ালা কিনগ",
+          "after": "ব্রকলি চিকেন ালা কিনগ"
+        },
+        {
+          "pattern": "ালা কিনগ",
+          "replacement": "আ লা কিং",
+          "confidence": 98,
+          "reason": "OCR artifact for French \"à la King\"",
+          "before": "ব্রকলি চিকেন ালা কিনগ",
+          "after": "ব্রকলি চিকেন আ লা কিং"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "en": "Chicken and tomato towers",
+      "bn_before": "চিকেন ানদ টমেটো তোওেরস",
+      "bn_after": "চিকেন ও টমেটো তোওেরস",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "চিকেন ানদ টমেটো তোওেরস",
+          "after": "চিকেন ও টমেটো তোওেরস"
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "en": "Fried chicken with tomato sauce",
+      "bn_before": "ভাজা চিকেন ওিথ টমেটো সআউকে",
+      "bn_after": "ভাজা চিকেন উইথ টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ভাজা চিকেন ওিথ টমেটো সআউকে",
+          "after": "ভাজা চিকেন উইথ টমেটো সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "ভাজা চিকেন উইথ টমেটো সআউকে",
+          "after": "ভাজা চিকেন উইথ টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "en": "Handi chicken",
+      "bn_before": "হানদি চিকেন",
+      "bn_after": "হওি চিকেন",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "হানদি চিকেন",
+          "after": "হওি চিকেন"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "en": "Keema pancake",
+      "bn_before": "কিমা পানকাকে",
+      "bn_after": "কিমা পানকেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "কিমা পানকাকে",
+          "after": "কিমা পানকেক"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "en": "Tandoori chicken",
+      "bn_before": "তানদুরি চিকেন",
+      "bn_after": "তওুরি চিকেন",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "তানদুরি চিকেন",
+          "after": "তওুরি চিকেন"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "en": "Beans and macaroni",
+      "bn_before": "শিম ানদ মাকারোনি",
+      "bn_after": "শিম ও মাকারোনি",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "শিম ানদ মাকারোনি",
+          "after": "শিম ও মাকারোনি"
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "en": "Meat and macaroni casserole",
+      "bn_before": "মোত ানদ মাকারোনি কাসসেরোলে",
+      "bn_after": "মোত ও মাকারোনি কাসসেরোলে",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মোত ানদ মাকারোনি কাসসেরোলে",
+          "after": "মোত ও মাকারোনি কাসসেরোলে"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "en": "Spaghetti with meat balls and tomato sauce",
+      "bn_before": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে",
+      "bn_after": "সপাঘেততি উইথ মোত বাললস ও টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে",
+          "after": "সপাঘেততি উইথ মোত বাললস ানদ টমেটো সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "সপাঘেততি উইথ মোত বাললস ানদ টমেটো সআউকে",
+          "after": "সপাঘেততি উইথ মোত বাললস ানদ টমেটো সস"
+        },
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "সপাঘেততি উইথ মোত বাললস ানদ টমেটো সস",
+          "after": "সপাঘেততি উইথ মোত বাললস ও টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "en": "Cherry and walnut cookies",
+      "bn_before": "চেররয ানদ আখরোট কুকিেস",
+      "bn_after": "চেররয ও আখরোট কুকিেস",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "চেররয ানদ আখরোট কুকিেস",
+          "after": "চেররয ও আখরোট কুকিেস"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "en": "Chocolate walnut cookies",
+      "bn_before": "চোকোলাতে আখরোট কুকিেস",
+      "bn_after": "চকলেট আখরোট কুকিেস",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে আখরোট কুকিেস",
+          "after": "চকলেট আখরোট কুকিেস"
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "en": "Al yakhani",
+      "bn_before": "াল যাখানি",
+      "bn_after": "ল যাখানি",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াল যাখানি",
+          "after": "ল যাখানি"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "en": "American frosting",
+      "bn_before": "ামেরিকান ফরোসতিনগ",
+      "bn_after": "মেরিকান ফরোসতিনগ",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "ামেরিকান ফরোসতিনগ",
+          "after": "মেরিকান ফরোসতিনগ"
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "en": "Apricot fool",
+      "bn_before": "াপরিকোত ফুল",
+      "bn_after": "পরিকোত ফুল",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াপরিকোত ফুল",
+          "after": "পরিকোত ফুল"
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "en": "Assorted pastry",
+      "bn_before": "াসসোরতেদ পাসতরয",
+      "bn_after": "সসোরতেদ পাসতরয",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াসসোরতেদ পাসতরয",
+          "after": "সসোরতেদ পাসতরয"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "en": "Avial",
+      "bn_before": "াভিাল",
+      "bn_after": "ভিাল",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "াভিাল",
+          "after": "ভিাল"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "en": "Baked eggs in tomato sauce",
+      "bn_before": "বেক েগগস িন টমেটো সআউকে",
+      "bn_after": "বেক েগগস িন টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "বেক েগগস িন টমেটো সআউকে",
+          "after": "বেক েগগস িন টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "en": "Barbeque sauce",
+      "bn_before": "বারবেকুে সআউকে",
+      "bn_after": "বারবেকুে সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "বারবেকুে সআউকে",
+          "after": "বারবেকুে সস"
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "en": "Besan kadhi with pakodies",
+      "bn_before": "বেসান কাড়ি ওিথ পাকোদিেস",
+      "bn_after": "বেসান কাড়ি উইথ পাকোদিেস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "বেসান কাড়ি ওিথ পাকোদিেস",
+          "after": "বেসান কাড়ি উইথ পাকোদিেস"
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "en": "Broccoli delight",
+      "bn_before": "বরোককোলি দেলিঘত",
+      "bn_after": "ব্রকলি দেলিঘত",
+      "fixes": [
+        {
+          "pattern": "বরোককোলি",
+          "replacement": "ব্রকলি",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"broccoli\"",
+          "before": "বরোককোলি দেলিঘত",
+          "after": "ব্রকলি দেলিঘত"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "en": "Brown sauce",
+      "bn_before": "বাদামি সআউকে",
+      "bn_after": "বাদামি সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "বাদামি সআউকে",
+          "after": "বাদামি সস"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "en": "Carrot and fenugreek leaves",
+      "bn_before": "গাজর ানদ ফেনুগরিক লোভেস",
+      "bn_after": "গাজর ও ফেনুগরিক লোভেস",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "গাজর ানদ ফেনুগরিক লোভেস",
+          "after": "গাজর ও ফেনুগরিক লোভেস"
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "en": "Chickpea flour cookies",
+      "bn_before": "চিককপো ফলউর কুকিেস",
+      "bn_after": "চিককপো আটা কুকিেস",
+      "fixes": [
+        {
+          "pattern": "ফলউর",
+          "replacement": "আটা",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"flour\"",
+          "before": "চিককপো ফলউর কুকিেস",
+          "after": "চিককপো আটা কুকিেস"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "en": "Chocolate burfi",
+      "bn_before": "চোকোলাতে বুরফি",
+      "bn_after": "চকলেট বুরফি",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে বুরফি",
+          "after": "চকলেট বুরফি"
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "en": "Chocolate chip cookies",
+      "bn_before": "চোকোলাতে চিপ কুকিেস",
+      "bn_after": "চকলেট চিপ কুকিেস",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে চিপ কুকিেস",
+          "after": "চকলেট চিপ কুকিেস"
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "en": "Chocolate eclairs",
+      "bn_before": "চোকোলাতে েকলআইরস",
+      "bn_after": "চকলেট েকলআইরস",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে েকলআইরস",
+          "after": "চকলেট েকলআইরস"
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "en": "Chocolate glace icing",
+      "bn_before": "চোকোলাতে গলাকে িকিনগ",
+      "bn_after": "চকলেট গলাকে িকিনগ",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে গলাকে িকিনগ",
+          "after": "চকলেট গলাকে িকিনগ"
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "en": "Chocolate meringue pie",
+      "bn_before": "চোকোলাতে মেরিনগুে পিে",
+      "bn_after": "চকলেট মেরিনগুে পিে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে মেরিনগুে পিে",
+          "after": "চকলেট মেরিনগুে পিে"
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "en": "Chocolate pastry",
+      "bn_before": "চোকোলাতে পাসতরয",
+      "bn_after": "চকলেট পাসতরয",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে পাসতরয",
+          "after": "চকলেট পাসতরয"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "en": "Chocolate sauce",
+      "bn_before": "চোকোলাতে সআউকে",
+      "bn_after": "চকলেট সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "চোকোলাতে সআউকে",
+          "after": "চোকোলাতে সস"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে সস",
+          "after": "চকলেট সস"
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "en": "Chocolate souffle",
+      "bn_before": "চোকোলাতে সউফফলে",
+      "bn_after": "চকলেট সউফফলে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে সউফফলে",
+          "after": "চকলেট সউফফলে"
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "en": "Cold chocolate souffle",
+      "bn_before": "কোলদ চোকোলাতে সউফফলে",
+      "bn_after": "কোলদ চকলেট সউফফলে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "কোলদ চোকোলাতে সউফফলে",
+          "after": "কোলদ চকলেট সউফফলে"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "en": "Coriander chutney",
+      "bn_before": "কোরিানদের চাটনি",
+      "bn_after": "কোরিওের চাটনি",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "কোরিানদের চাটনি",
+          "after": "কোরিওের চাটনি"
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "en": "Date and nut pie",
+      "bn_before": "দাতে ানদ নুত পিে",
+      "bn_after": "দাতে ও নুত পিে",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "দাতে ানদ নুত পিে",
+          "after": "দাতে ও নুত পিে"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "en": "Dry washed urad",
+      "bn_before": "দরয ওাশেদ ুরাদ",
+      "bn_after": "দরয ধোয়া ুরাদ",
+      "fixes": [
+        {
+          "pattern": "ওাশেদ",
+          "replacement": "ধোয়া",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"washed\"",
+          "before": "দরয ওাশেদ ুরাদ",
+          "after": "দরয ধোয়া ুরাদ"
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "en": "Ginger candy",
+      "bn_before": "আদা কানদয",
+      "bn_after": "আদা কওয",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "আদা কানদয",
+          "after": "আদা কওয"
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "en": "Gram flour burfi",
+      "bn_before": "গরাম ফলউর বুরফি",
+      "bn_after": "গরাম আটা বুরফি",
+      "fixes": [
+        {
+          "pattern": "ফলউর",
+          "replacement": "আটা",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"flour\"",
+          "before": "গরাম ফলউর বুরফি",
+          "after": "গরাম আটা বুরফি"
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "en": "Green gram whole with baghar",
+      "bn_before": "গরিন গরাম ওহোলে ওিথ বাঘার",
+      "bn_after": "গরিন গরাম ওহোলে উইথ বাঘার",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "গরিন গরাম ওহোলে ওিথ বাঘার",
+          "after": "গরিন গরাম ওহোলে উইথ বাঘার"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "en": "Gujarati handvo",
+      "bn_before": "গুজারাতি হানদভো",
+      "bn_after": "গুজারাতি হওভো",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "গুজারাতি হানদভো",
+          "after": "গুজারাতি হওভো"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "en": "Hot cherry sauce",
+      "bn_before": "হোত চেররয সআউকে",
+      "bn_after": "হোত চেররয সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "হোত চেররয সআউকে",
+          "after": "হোত চেররয সস"
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "en": "Hot chocolate souffle",
+      "bn_before": "হোত চোকোলাতে সউফফলে",
+      "bn_after": "হোত চকলেট সউফফলে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "হোত চোকোলাতে সউফফলে",
+          "after": "হোত চকলেট সউফফলে"
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "en": "Ice box cookies",
+      "bn_before": "িকে বোক্স কুকিেস",
+      "bn_after": "কে বোক্স কুকিেস",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "িকে বোক্স কুকিেস",
+          "after": "কে বোক্স কুকিেস"
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "en": "Jhatpat achar with carrot",
+      "bn_before": "ঝাতপাত াচার ওিথ গাজর",
+      "bn_after": "ঝাতপাত াচার উইথ গাজর",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ঝাতপাত াচার ওিথ গাজর",
+          "after": "ঝাতপাত াচার উইথ গাজর"
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "en": "Lasagne with meat sauce",
+      "bn_before": "লাসাগনে ওিথ মোত সআউকে",
+      "bn_after": "লাসাগনে উইথ মোত সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "লাসাগনে ওিথ মোত সআউকে",
+          "after": "লাসাগনে উইথ মোত সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "লাসাগনে উইথ মোত সআউকে",
+          "after": "লাসাগনে উইথ মোত সস"
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "en": "Lemon and ginger squash",
+      "bn_before": "লেবু ানদ আদা সকুাশ",
+      "bn_after": "লেবু ও আদা সকুাশ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "লেবু ানদ আদা সকুাশ",
+          "after": "লেবু ও আদা সকুাশ"
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "en": "Lentils and semolina porridge",
+      "bn_before": "লেনতিলস ানদ সেমোলিনা পোররিদগে",
+      "bn_after": "লেনতিলস ও সেমোলিনা পোররিদগে",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "লেনতিলস ানদ সেমোলিনা পোররিদগে",
+          "after": "লেনতিলস ও সেমোলিনা পোররিদগে"
+        }
+      ]
+    },
+    {
+      "id": 524,
+      "en": "Mayonnaise without eggs",
+      "bn_before": "মেয়োনিজ ওিথোুত েগগস",
+      "bn_after": "মেয়োনিজ উইথোুত েগগস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "মেয়োনিজ ওিথোুত েগগস",
+          "after": "মেয়োনিজ উইথোুত েগগস"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "en": "Mint and coriander chutney",
+      "bn_before": "মিনত ানদ কোরিানদের চাটনি",
+      "bn_after": "মিনত ও কোরিওের চাটনি",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মিনত ানদ কোরিানদের চাটনি",
+          "after": "মিনত ও কোরিওের চাটনি"
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "en": "Mushroom sauce",
+      "bn_before": "মুশরুম সআউকে",
+      "bn_after": "মুশরুম সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "মুশরুম সআউকে",
+          "after": "মুশরুম সস"
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "en": "Mustard sauce",
+      "bn_before": "মুসতারদ সআউকে",
+      "bn_after": "মুসতারদ সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "মুসতারদ সআউকে",
+          "after": "মুসতারদ সস"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "en": "Pear chocholate sunday",
+      "bn_before": "পোর চোচোলাতে সুনদায",
+      "bn_after": "পেয়ার চোচোলাতে সুনদায",
+      "fixes": [
+        {
+          "pattern": "পোর ",
+          "replacement": "পেয়ার ",
+          "confidence": 98,
+          "reason": "OCR artifact for \"pear\"",
+          "before": "পোর চোচোলাতে সুনদায",
+          "after": "পেয়ার চোচোলাতে সুনদায"
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "en": "Pear preserves",
+      "bn_before": "পোর পরেসেরভেস",
+      "bn_after": "পেয়ার পরেসেরভেস",
+      "fixes": [
+        {
+          "pattern": "পোর ",
+          "replacement": "পেয়ার ",
+          "confidence": 98,
+          "reason": "OCR artifact for \"pear\"",
+          "before": "পোর পরেসেরভেস",
+          "after": "পেয়ার পরেসেরভেস"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "en": "Saunth/Sonth chutney with tamarind/imli",
+      "bn_before": "সআউনথ/সোনথ চাটনি ওিথ তামারিনদ/িমলি",
+      "bn_after": "সআউনথ/সোনথ চাটনি উইথ তামারিনদ/িমলি",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সআউনথ/সোনথ চাটনি ওিথ তামারিনদ/িমলি",
+          "after": "সআউনথ/সোনথ চাটনি উইথ তামারিনদ/িমলি"
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "en": "Sauteed radishes with green beans",
+      "bn_before": "সআউতিদ রাদিশেস ওিথ গরিন শিম",
+      "bn_after": "সআউতিদ রাদিশেস উইথ গরিন শিম",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সআউতিদ রাদিশেস ওিথ গরিন শিম",
+          "after": "সআউতিদ রাদিশেস উইথ গরিন শিম"
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "en": "Stewed fruit",
+      "bn_before": "সতেওেদ ফরুিত",
+      "bn_after": "স্টিউড ফরুিত",
+      "fixes": [
+        {
+          "pattern": "সতেওেদ",
+          "replacement": "স্টিউড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"stewed\"",
+          "before": "সতেওেদ ফরুিত",
+          "after": "স্টিউড ফরুিত"
+        }
+      ]
+    },
+    {
+      "id": 609,
+      "en": "Tartare sauce",
+      "bn_before": "তারতারে সআউকে",
+      "bn_after": "তারতারে সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "তারতারে সআউকে",
+          "after": "তারতারে সস"
+        }
+      ]
+    },
+    {
+      "id": 610,
+      "en": "Thandai",
+      "bn_before": "থানদআই",
+      "bn_after": "থওআই",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "থানদআই",
+          "after": "থওআই"
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "en": "Thousand island dressing",
+      "bn_before": "থোুসানদ িসলানদ দরেসসিনগ",
+      "bn_after": "থোুসও িসলও দরেসসিনগ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "থোুসানদ িসলানদ দরেসসিনগ",
+          "after": "থোুসও িসলও দরেসসিনগ"
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "en": "Tomato sauce",
+      "bn_before": "টমেটো সআউকে",
+      "bn_after": "টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "টমেটো সআউকে",
+          "after": "টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "en": "Urad sabut special",
+      "bn_before": "ুরাদ সাবুত সপেকিাল",
+      "bn_after": "রাদ সাবুত সপেকিাল",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "ুরাদ সাবুত সপেকিাল",
+          "after": "রাদ সাবুত সপেকিাল"
+        }
+      ]
+    },
+    {
+      "id": 618,
+      "en": "Urad special dehusked",
+      "bn_before": "ুরাদ সপেকিাল দেহুসকেদ",
+      "bn_after": "রাদ সপেকিাল দেহুসকেদ",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "ুরাদ সপেকিাল দেহুসকেদ",
+          "after": "রাদ সপেকিাল দেহুসকেদ"
+        }
+      ]
+    },
+    {
+      "id": 630,
+      "en": "White sauce",
+      "bn_before": "সাদা সআউকে",
+      "bn_after": "সাদা সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "সাদা সআউকে",
+          "after": "সাদা সস"
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "en": "Beetroot and egg salad",
+      "bn_before": "বিতরুত ানদ ডিম সালাদ",
+      "bn_after": "বিটরুট ও ডিম সালাদ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "বিতরুত ানদ ডিম সালাদ",
+          "after": "বিতরুত ও ডিম সালাদ"
+        },
+        {
+          "pattern": "বিতরুত",
+          "replacement": "বিটরুট",
+          "confidence": 99,
+          "reason": "OCR misread of \"beetroot\" in Bengali",
+          "before": "বিতরুত ও ডিম সালাদ",
+          "after": "বিটরুট ও ডিম সালাদ"
+        }
+      ]
+    },
+    {
+      "id": 644,
+      "en": "Egg and tomato sandwich",
+      "bn_before": "ডিম ানদ টমেটো স্যান্ডউইচ",
+      "bn_after": "ডিম ও টমেটো স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "ডিম ানদ টমেটো স্যান্ডউইচ",
+          "after": "ডিম ও টমেটো স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 651,
+      "en": "Egg sauce",
+      "bn_before": "ডিম সআউকে",
+      "bn_after": "ডিম সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "ডিম সআউকে",
+          "after": "ডিম সস"
+        }
+      ]
+    },
+    {
+      "id": 655,
+      "en": "Indian lamb and egg curry",
+      "bn_before": "িনদিান লামব ানদ ডিমের ঝোল",
+      "bn_after": "নদিান লামব ও ডিমের ঝোল",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "িনদিান লামব ানদ ডিমের ঝোল",
+          "after": "িনদিান লামব ও ডিমের ঝোল"
+        },
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "িনদিান লামব ও ডিমের ঝোল",
+          "after": "নদিান লামব ও ডিমের ঝোল"
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "en": "Indian style egg bhujia",
+      "bn_before": "িনদিান সতযলে ডিম ভুজিা )",
+      "bn_after": "নদিান সতযলে ডিম ভুজিা )",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "িনদিান সতযলে ডিম ভুজিা )",
+          "after": "নদিান সতযলে ডিম ভুজিা )"
+        }
+      ]
+    },
+    {
+      "id": 663,
+      "en": "Vanilla ice cream without egg",
+      "bn_before": "ভানিললা আইসক্রিম ওিথোুত ডিম",
+      "bn_after": "ভানিললা আইসক্রিম উইথোুত ডিম",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ভানিললা আইসক্রিম ওিথোুত ডিম",
+          "after": "ভানিললা আইসক্রিম উইথোুত ডিম"
+        }
+      ]
+    },
+    {
+      "id": 700,
+      "en": "Beetroot poori",
+      "bn_before": "বিতরুত পুরি",
+      "bn_after": "বিটরুট পুরি",
+      "fixes": [
+        {
+          "pattern": "বিতরুত",
+          "replacement": "বিটরুট",
+          "confidence": 99,
+          "reason": "OCR misread of \"beetroot\" in Bengali",
+          "before": "বিতরুত পুরি",
+          "after": "বিটরুট পুরি"
+        }
+      ]
+    },
+    {
+      "id": 701,
+      "en": "Besan and spinach parantha/paratha",
+      "bn_before": "বেসান ানদ পালং পারানথা/পারাথা",
+      "bn_after": "বেসান ও পালং পারানথা/পারাথা",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "বেসান ানদ পালং পারানথা/পারাথা",
+          "after": "বেসান ও পালং পারানথা/পারাথা"
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "en": "Bread and butter pudding",
+      "bn_before": "পাউরুটি ানদ মাখন পুদদিনগ",
+      "bn_after": "পাউরুটি ও মাখন পুদদিনগ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "পাউরুটি ানদ মাখন পুদদিনগ",
+          "after": "পাউরুটি ও মাখন পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "en": "Bread sauce",
+      "bn_before": "পাউরুটি সআউকে",
+      "bn_after": "পাউরুটি সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "পাউরুটি সআউকে",
+          "after": "পাউরুটি সস"
+        }
+      ]
+    },
+    {
+      "id": 719,
+      "en": "Onion-green chilli parantha/paratha",
+      "bn_before": "োনিোন-গরিন চিললি পারানথা/পারাথা",
+      "bn_after": "নিোন-গরিন চিললি পারানথা/পারাথা",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "োনিোন-গরিন চিললি পারানথা/পারাথা",
+          "after": "নিোন-গরিন চিললি পারানথা/পারাথা"
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "en": "Tandoori parantha/paratha",
+      "bn_before": "তানদুরি পারানথা/পারাথা",
+      "bn_after": "তওুরি পারানথা/পারাথা",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "তানদুরি পারানথা/পারাথা",
+          "after": "তওুরি পারানথা/পারাথা"
+        }
+      ]
+    },
+    {
+      "id": 750,
+      "en": "Mixed pulse and vegetable salad",
+      "bn_before": "মিশ্র পুলসে ানদ ভেগেতাবলে সালাদ",
+      "bn_after": "মিশ্র পুলসে ও ভেগেতাবলে সালাদ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মিশ্র পুলসে ানদ ভেগেতাবলে সালাদ",
+          "after": "মিশ্র পুলসে ও ভেগেতাবলে সালাদ"
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "en": "Chocolate biscuit",
+      "bn_before": "চোকোলাতে বিসকুিত",
+      "bn_after": "চকলেট বিসকুিত",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে বিসকুিত",
+          "after": "চকলেট বিসকুিত"
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "en": "Chocolate swiss roll",
+      "bn_before": "চোকোলাতে সওিসস রোল",
+      "bn_after": "চকলেট সওিসস রোল",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে সওিসস রোল",
+          "after": "চকলেট সওিসস রোল"
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "en": "Olive biscuit",
+      "bn_before": "োলিভে বিসকুিত",
+      "bn_after": "লিভে বিসকুিত",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "োলিভে বিসকুিত",
+          "after": "লিভে বিসকুিত"
+        }
+      ]
+    },
+    {
+      "id": 813,
+      "en": "Peanut and tomato sandwich",
+      "bn_before": "চিনাবাদাম ানদ টমেটো স্যান্ডউইচ",
+      "bn_after": "চিনাবাদাম ও টমেটো স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "চিনাবাদাম ানদ টমেটো স্যান্ডউইচ",
+          "after": "চিনাবাদাম ও টমেটো স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 835,
+      "en": "Sunset and sunrise open sandwich",
+      "bn_before": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ",
+      "bn_after": "সুনসেত ও সুনরিসে োপেন স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ",
+          "after": "সুনসেত ও সুনরিসে োপেন স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 837,
+      "en": "Tomato and cucumber sandwich",
+      "bn_before": "টমেটো ানদ কুকুমবের স্যান্ডউইচ",
+      "bn_after": "টমেটো ও কুকুমবের স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "টমেটো ানদ কুকুমবের স্যান্ডউইচ",
+          "after": "টমেটো ও কুকুমবের স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 843,
+      "en": "Vegetable and mayonnaise sandwich",
+      "bn_before": "ভেগেতাবলে ানদ মেয়োনিজ স্যান্ডউইচ",
+      "bn_after": "ভেগেতাবলে ও মেয়োনিজ স্যান্ডউইচ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "ভেগেতাবলে ানদ মেয়োনিজ স্যান্ডউইচ",
+          "after": "ভেগেতাবলে ও মেয়োনিজ স্যান্ডউইচ"
+        }
+      ]
+    },
+    {
+      "id": 861,
+      "en": "Ham and Bean soup",
+      "bn_before": "হাম ানদ বোন স্যুপ",
+      "bn_after": "হাম ও বোন স্যুপ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "হাম ানদ বোন স্যুপ",
+          "after": "হাম ও বোন স্যুপ"
+        }
+      ]
+    },
+    {
+      "id": 862,
+      "en": "Hot and sour soup",
+      "bn_before": "হোত ানদ সউর স্যুপ",
+      "bn_after": "হোত ও সউর স্যুপ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "হোত ানদ সউর স্যুপ",
+          "after": "হোত ও সউর স্যুপ"
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "en": "Lemon coriander soup",
+      "bn_before": "লেবু কোরিানদের স্যুপ",
+      "bn_after": "লেবু কোরিওের স্যুপ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "লেবু কোরিানদের স্যুপ",
+          "after": "লেবু কোরিওের স্যুপ"
+        }
+      ]
+    },
+    {
+      "id": 872,
+      "en": "Almond cardamom cake",
+      "bn_before": "বাদাম কারদামোম কাকে",
+      "bn_after": "বাদাম কারদামোম কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "বাদাম কারদামোম কাকে",
+          "after": "বাদাম কারদামোম কেক"
+        }
+      ]
+    },
+    {
+      "id": 873,
+      "en": "Amaranth ladoo",
+      "bn_before": "ামারানথ লাড্ডু",
+      "bn_after": "মারানথ লাড্ডু",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "ামারানথ লাড্ডু",
+          "after": "মারানথ লাড্ডু"
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "en": "Apple and honey sorbet",
+      "bn_before": "আপেল ানদ হোনেয সোরবেত",
+      "bn_after": "আপেল ও হোনেয সোরবেত",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "আপেল ানদ হোনেয সোরবেত",
+          "after": "আপেল ও হোনেয সোরবেত"
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "en": "Apple cake",
+      "bn_before": "আপেল কাকে",
+      "bn_after": "আপেল কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "আপেল কাকে",
+          "after": "আপেল কেক"
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "en": "Baked custard",
+      "bn_before": "বেক কুসতারদ",
+      "bn_after": "বেক কাস্টার্ড",
+      "fixes": [
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "বেক কুসতারদ",
+          "after": "বেক কাস্টার্ড"
+        }
+      ]
+    },
+    {
+      "id": 880,
+      "en": "Banana cake",
+      "bn_before": "কলা কাকে",
+      "bn_after": "কলা কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "কলা কাকে",
+          "after": "কলা কেক"
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "en": "Caramel custard",
+      "bn_before": "কারামেল কুসতারদ",
+      "bn_after": "কারামেল কাস্টার্ড",
+      "fixes": [
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "কারামেল কুসতারদ",
+          "after": "কারামেল কাস্টার্ড"
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "en": "Carrot cake",
+      "bn_before": "গাজর কাকে",
+      "bn_after": "গাজর কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "গাজর কাকে",
+          "after": "গাজর কেক"
+        }
+      ]
+    },
+    {
+      "id": 886,
+      "en": "Chocolate cake",
+      "bn_before": "চোকোলাতে কাকে",
+      "bn_after": "চকলেট কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "চোকোলাতে কাকে",
+          "after": "চোকোলাতে কেক"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে কেক",
+          "after": "চকলেট কেক"
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "en": "Chocolate chiffon cake",
+      "bn_before": "চোকোলাতে চিফফোন কাকে",
+      "bn_after": "চকলেট চিফফোন কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "চোকোলাতে চিফফোন কাকে",
+          "after": "চোকোলাতে চিফফোন কেক"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে চিফফোন কেক",
+          "after": "চকলেট চিফফোন কেক"
+        }
+      ]
+    },
+    {
+      "id": 888,
+      "en": "Chocolate eggless cake",
+      "bn_before": "চোকোলাতে েগগলেসস কাকে",
+      "bn_after": "চকলেট েগগলেসস কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "চোকোলাতে েগগলেসস কাকে",
+          "after": "চোকোলাতে েগগলেসস কেক"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে েগগলেসস কেক",
+          "after": "চকলেট েগগলেসস কেক"
+        }
+      ]
+    },
+    {
+      "id": 889,
+      "en": "Chocolate pudding",
+      "bn_before": "চোকোলাতে পুদদিনগ",
+      "bn_after": "চকলেট পুদদিনগ",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে পুদদিনগ",
+          "after": "চকলেট পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "id": 890,
+      "en": "Chocolate sponge cake",
+      "bn_before": "চোকোলাতে সপোনগে কাকে",
+      "bn_after": "চকলেট সপোনগে কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "চোকোলাতে সপোনগে কাকে",
+          "after": "চোকোলাতে সপোনগে কেক"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "চোকোলাতে সপোনগে কেক",
+          "after": "চকলেট সপোনগে কেক"
+        }
+      ]
+    },
+    {
+      "id": 891,
+      "en": "Christmas cake",
+      "bn_before": "চরিসতমাস কাকে",
+      "bn_after": "চরিসতমাস কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "চরিসতমাস কাকে",
+          "after": "চরিসতমাস কেক"
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "en": "Creamy chocolate mousse",
+      "bn_before": "করোময চোকোলাতে মউসসে",
+      "bn_after": "করোময চকলেট মউসসে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "করোময চোকোলাতে মউসসে",
+          "after": "করোময চকলেট মউসসে"
+        }
+      ]
+    },
+    {
+      "id": 894,
+      "en": "Custard tart",
+      "bn_before": "কুসতারদ তারত",
+      "bn_after": "কাস্টার্ড তারত",
+      "fixes": [
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "কুসতারদ তারত",
+          "after": "কাস্টার্ড তারত"
+        }
+      ]
+    },
+    {
+      "id": 895,
+      "en": "Dundee cake",
+      "bn_before": "দুনদি কাকে",
+      "bn_after": "দুনদি কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "দুনদি কাকে",
+          "after": "দুনদি কেক"
+        }
+      ]
+    },
+    {
+      "id": 896,
+      "en": "Eggless cake",
+      "bn_before": "েগগলেসস কাকে",
+      "bn_after": "গগলেসস কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "েগগলেসস কাকে",
+          "after": "েগগলেসস কেক"
+        },
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "েগগলেসস কেক",
+          "after": "গগলেসস কেক"
+        }
+      ]
+    },
+    {
+      "id": 898,
+      "en": "Honey cake",
+      "bn_before": "হোনেয কাকে",
+      "bn_after": "হোনেয কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "হোনেয কাকে",
+          "after": "হোনেয কেক"
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "en": "Lemon cake",
+      "bn_before": "লেবু কাকে",
+      "bn_after": "লেবু কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "লেবু কাকে",
+          "after": "লেবু কেক"
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "en": "Mango vanilla custard",
+      "bn_before": "আম ভানিললা কুসতারদ",
+      "bn_after": "আম ভানিললা কাস্টার্ড",
+      "fixes": [
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "আম ভানিললা কুসতারদ",
+          "after": "আম ভানিললা কাস্টার্ড"
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "en": "Marble cake",
+      "bn_before": "মারবলে কাকে",
+      "bn_after": "মারবলে কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "মারবলে কাকে",
+          "after": "মারবলে কেক"
+        }
+      ]
+    },
+    {
+      "id": 908,
+      "en": "Meringue and rice pudding",
+      "bn_before": "মেরিনগুে ানদ ভাত পুদদিনগ",
+      "bn_after": "মেরিনগুে ও ভাত পুদদিনগ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মেরিনগুে ানদ ভাত পুদদিনগ",
+          "after": "মেরিনগুে ও ভাত পুদদিনগ"
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "en": "Orange cake",
+      "bn_before": "কমলা কাকে",
+      "bn_after": "কমলা কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "কমলা কাকে",
+          "after": "কমলা কেক"
+        }
+      ]
+    },
+    {
+      "id": 910,
+      "en": "Orange eggless cake",
+      "bn_before": "কমলা েগগলেসস কাকে",
+      "bn_after": "কমলা েগগলেসস কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "কমলা েগগলেসস কাকে",
+          "after": "কমলা েগগলেসস কেক"
+        }
+      ]
+    },
+    {
+      "id": 913,
+      "en": "Pineapple cake",
+      "bn_before": "আনারস কাকে",
+      "bn_after": "আনারস কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "আনারস কাকে",
+          "after": "আনারস কেক"
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "en": "Rich chocolate mousse",
+      "bn_before": "রিচ চোকোলাতে মউসসে",
+      "bn_after": "রিচ চকলেট মউসসে",
+      "fixes": [
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "রিচ চোকোলাতে মউসসে",
+          "after": "রিচ চকলেট মউসসে"
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "en": "Semolina cake",
+      "bn_before": "সেমোলিনা কাকে",
+      "bn_after": "সেমোলিনা কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "সেমোলিনা কাকে",
+          "after": "সেমোলিনা কেক"
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "en": "Soft Custard",
+      "bn_before": "সোফত কুসতারদ",
+      "bn_after": "সোফত কাস্টার্ড",
+      "fixes": [
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "সোফত কুসতারদ",
+          "after": "সোফত কাস্টার্ড"
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "en": "Soya chunks sweet and sour",
+      "bn_before": "সোযা চুনকস মিষ্টি ানদ সউর",
+      "bn_after": "সোযা চুনকস মিষ্টি ও সউর",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "সোযা চুনকস মিষ্টি ানদ সউর",
+          "after": "সোযা চুনকস মিষ্টি ও সউর"
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "en": "Sponge cake",
+      "bn_before": "সপোনগে কাকে",
+      "bn_after": "সপোনগে কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "সপোনগে কাকে",
+          "after": "সপোনগে কেক"
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "en": "Steamed cake with chocolate sauce",
+      "bn_before": "স্টিম কাকে ওিথ চোকোলাতে সআউকে",
+      "bn_after": "স্টিম কেক উইথ চকলেট সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "স্টিম কাকে ওিথ চোকোলাতে সআউকে",
+          "after": "স্টিম কাকে উইথ চোকোলাতে সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "স্টিম কাকে উইথ চোকোলাতে সআউকে",
+          "after": "স্টিম কাকে উইথ চোকোলাতে সস"
+        },
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "স্টিম কাকে উইথ চোকোলাতে সস",
+          "after": "স্টিম কেক উইথ চোকোলাতে সস"
+        },
+        {
+          "pattern": "চোকোলাতে",
+          "replacement": "চকলেট",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"chocolate\"",
+          "before": "স্টিম কেক উইথ চোকোলাতে সস",
+          "after": "স্টিম কেক উইথ চকলেট সস"
+        }
+      ]
+    },
+    {
+      "id": 931,
+      "en": "Stewed apple with custard",
+      "bn_before": "সতেওেদ আপেল ওিথ কুসতারদ",
+      "bn_after": "স্টিউড আপেল উইথ কাস্টার্ড",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সতেওেদ আপেল ওিথ কুসতারদ",
+          "after": "সতেওেদ আপেল উইথ কুসতারদ"
+        },
+        {
+          "pattern": "কুসতারদ",
+          "replacement": "কাস্টার্ড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"custard\"",
+          "before": "সতেওেদ আপেল উইথ কুসতারদ",
+          "after": "সতেওেদ আপেল উইথ কাস্টার্ড"
+        },
+        {
+          "pattern": "সতেওেদ",
+          "replacement": "স্টিউড",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"stewed\"",
+          "before": "সতেওেদ আপেল উইথ কাস্টার্ড",
+          "after": "স্টিউড আপেল উইথ কাস্টার্ড"
+        }
+      ]
+    },
+    {
+      "id": 932,
+      "en": "Sweet and salty biscuit",
+      "bn_before": "মিষ্টি ানদ সালতয বিসকুিত",
+      "bn_after": "মিষ্টি ও সালতয বিসকুিত",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "মিষ্টি ানদ সালতয বিসকুিত",
+          "after": "মিষ্টি ও সালতয বিসকুিত"
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "en": "Tutti frutti cake",
+      "bn_before": "তুততি ফরুততি কাকে",
+      "bn_after": "তুততি ফরুততি কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "তুততি ফরুততি কাকে",
+          "after": "তুততি ফরুততি কেক"
+        }
+      ]
+    },
+    {
+      "id": 945,
+      "en": "Victorian sandwich cake",
+      "bn_before": "ভিকতোরিান স্যান্ডউইচ কাকে",
+      "bn_after": "ভিকতোরিান স্যান্ডউইচ কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "ভিকতোরিান স্যান্ডউইচ কাকে",
+          "after": "ভিকতোরিান স্যান্ডউইচ কেক"
+        }
+      ]
+    },
+    {
+      "id": 946,
+      "en": "Wheat and gram flour ladoo",
+      "bn_before": "গম ানদ গরাম ফলউর লাড্ডু",
+      "bn_after": "গম ও গরাম আটা লাড্ডু",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "গম ানদ গরাম ফলউর লাড্ডু",
+          "after": "গম ও গরাম ফলউর লাড্ডু"
+        },
+        {
+          "pattern": "ফলউর",
+          "replacement": "আটা",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"flour\"",
+          "before": "গম ও গরাম ফলউর লাড্ডু",
+          "after": "গম ও গরাম আটা লাড্ডু"
+        }
+      ]
+    },
+    {
+      "id": 947,
+      "en": "Wheat cake",
+      "bn_before": "গম কাকে",
+      "bn_after": "গম কেক",
+      "fixes": [
+        {
+          "pattern": "কাকে",
+          "replacement": "কেক",
+          "confidence": 98,
+          "reason": "OCR artifact for English \"cake\"",
+          "before": "গম কাকে",
+          "after": "গম কেক"
+        }
+      ]
+    },
+    {
+      "id": 971,
+      "en": "Arhar with spinach",
+      "bn_before": "ারহার ওিথ পালং",
+      "bn_after": "রহার উইথ পালং",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ারহার ওিথ পালং",
+          "after": "ারহার উইথ পালং"
+        },
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "ারহার উইথ পালং",
+          "after": "রহার উইথ পালং"
+        }
+      ]
+    },
+    {
+      "id": 972,
+      "en": "Baked brinjal in tomato sauce",
+      "bn_before": "বেক বেগুন িন টমেটো সআউকে",
+      "bn_after": "বেক বেগুন িন টমেটো সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "বেক বেগুন িন টমেটো সআউকে",
+          "after": "বেক বেগুন িন টমেটো সস"
+        }
+      ]
+    },
+    {
+      "id": 973,
+      "en": "Baked potato with skin",
+      "bn_before": "বেক আলু ওিথ সকিন",
+      "bn_after": "বেক আলু উইথ সকিন",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "বেক আলু ওিথ সকিন",
+          "after": "বেক আলু উইথ সকিন"
+        }
+      ]
+    },
+    {
+      "id": 977,
+      "en": "Cabbage and peas",
+      "bn_before": "বাঁধাকপি ানদ মটর",
+      "bn_after": "বাঁধাকপি ও মটর",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "বাঁধাকপি ানদ মটর",
+          "after": "বাঁধাকপি ও মটর"
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "en": "Cauliflower with coconut",
+      "bn_before": "ফুলকপি ওিথ নারকেল",
+      "bn_after": "ফুলকপি উইথ নারকেল",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ফুলকপি ওিথ নারকেল",
+          "after": "ফুলকপি উইথ নারকেল"
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "en": "Cauliflower, pea and potato bhujia",
+      "bn_before": "কআউলিফলোওের, পো ানদ আলু ভুজিা",
+      "bn_after": "কআউলিফলোওের, পো ও আলু ভুজিা",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "কআউলিফলোওের, পো ানদ আলু ভুজিা",
+          "after": "কআউলিফলোওের, পো ও আলু ভুজিা"
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "en": "Chinese cabbage and meat ball soup",
+      "bn_before": "চিনেসে বাঁধাকপি ানদ মোত বালল স্যুপ",
+      "bn_after": "চিনেসে বাঁধাকপি ও মোত বালল স্যুপ",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "চিনেসে বাঁধাকপি ানদ মোত বালল স্যুপ",
+          "after": "চিনেসে বাঁধাকপি ও মোত বালল স্যুপ"
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "en": "Creamed spinach and mushroom",
+      "bn_before": "করোমেদ পালং ানদ মুশরুম",
+      "bn_after": "করোমেদ পালং ও মুশরুম",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "করোমেদ পালং ানদ মুশরুম",
+          "after": "করোমেদ পালং ও মুশরুম"
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "en": "Crispy okra/Crispy lady's fingers",
+      "bn_before": "করিসপয োকরা/করিসপয লাদয'স ফিনগেরস",
+      "bn_after": "ক্রিসপি োকরা/ক্রিসপি লাদয'স ফিনগেরস",
+      "fixes": [
+        {
+          "pattern": "করিসপয",
+          "replacement": "ক্রিসপি",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"crispy\"",
+          "before": "করিসপয োকরা/করিসপয লাদয'স ফিনগেরস",
+          "after": "ক্রিসপি োকরা/ক্রিসপি লাদয'স ফিনগেরস"
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "en": "Eggplant/Brinjal rice",
+      "bn_before": "েগগপলানত/বরিনজাল ভাত",
+      "bn_after": "গগপলানত/বরিনজাল ভাত",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "েগগপলানত/বরিনজাল ভাত",
+          "after": "গগপলানত/বরিনজাল ভাত"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "en": "Fettuccine with spinach sauce",
+      "bn_before": "ফেততুককিনে ওিথ পালং সআউকে",
+      "bn_after": "ফেততুককিনে উইথ পালং সস",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "ফেততুককিনে ওিথ পালং সআউকে",
+          "after": "ফেততুককিনে উইথ পালং সআউকে"
+        },
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "ফেততুককিনে উইথ পালং সআউকে",
+          "after": "ফেততুককিনে উইথ পালং সস"
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "en": "Okra/Lady's fingers fry",
+      "bn_before": "োকরা/লাদয'স ফিনগেরস ভাজা",
+      "bn_after": "করা/লাদয'স ফিনগেরস ভাজা",
+      "fixes": [
+        {
+          "pattern": "leading_vowel_sign",
+          "replacement": "(stripped)",
+          "confidence": 98,
+          "reason": "OCR artifact — vowel sign at string start",
+          "before": "োকরা/লাদয'স ফিনগেরস ভাজা",
+          "after": "করা/লাদয'স ফিনগেরস ভাজা"
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "en": "Pasta spinach sauce",
+      "bn_before": "পাস্তা পালং সআউকে",
+      "bn_after": "পাস্তা পালং সস",
+      "fixes": [
+        {
+          "pattern": "সআউকে",
+          "replacement": "সস",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"sauce\"",
+          "before": "পাস্তা পালং সআউকে",
+          "after": "পাস্তা পালং সস"
+        }
+      ]
+    },
+    {
+      "id": 1032,
+      "en": "Potato with curd",
+      "bn_before": "আলু ওিথ দই",
+      "bn_after": "আলু উইথ দই",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "আলু ওিথ দই",
+          "after": "আলু উইথ দই"
+        }
+      ]
+    },
+    {
+      "id": 1041,
+      "en": "Spinach and potato",
+      "bn_before": "পালং ানদ আলু",
+      "bn_after": "পালং ও আলু",
+      "fixes": [
+        {
+          "pattern": "ানদ",
+          "replacement": "ও",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"and\"",
+          "before": "পালং ানদ আলু",
+          "after": "পালং ও আলু"
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "en": "Split bengal gram with bottle gourd",
+      "bn_before": "সপলিত বেনগাল গরাম ওিথ বোততলে লাউ",
+      "bn_after": "সপলিত বেনগাল গরাম উইথ বোততলে লাউ",
+      "fixes": [
+        {
+          "pattern": "ওিথ",
+          "replacement": "উইথ",
+          "confidence": 99,
+          "reason": "OCR artifact for English \"with\"",
+          "before": "সপলিত বেনগাল গরাম ওিথ বোততলে লাউ",
+          "after": "সপলিত বেনগাল গরাম উইথ বোততলে লাউ"
+        }
+      ]
+    }
+  ]
+}

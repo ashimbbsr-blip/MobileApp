@@ -1,8 +1,8 @@
 {
   "total": 283,
-  "rebuilt": 29,
-  "verified": 235,
-  "manual_review": 19,
+  "rebuilt": 170,
+  "verified": 105,
+  "manual_review": 8,
   "records": [
     {
       "id": 1068,
@@ -24,7 +24,7 @@
         "c": 56.4,
         "fi": 17.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1069,
@@ -46,7 +46,7 @@
         "c": 50.9,
         "fi": 2.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1070,
@@ -68,7 +68,7 @@
         "c": 55.6,
         "fi": 2.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1071,
@@ -90,7 +90,7 @@
         "c": 69.6,
         "fi": 7.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1072,
@@ -112,7 +112,7 @@
         "c": 64.7,
         "fi": 7.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1073,
@@ -134,7 +134,7 @@
         "c": 61.7,
         "fi": 8.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1074,
@@ -156,7 +156,7 @@
         "c": 60.3,
         "fi": 8.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1075,
@@ -178,7 +178,7 @@
         "c": 61.4,
         "fi": 8.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1076,
@@ -200,36 +200,14 @@
         "c": 58.6,
         "fi": 12.9
       },
-      "tier": "T0_correct"
-    },
-    {
-      "id": 1077,
-      "en": "Rice flakes, white grain, raw",
-      "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 99,
-      "v5_8_values": {
-        "k": 356.0,
-        "p": 6.5,
-        "f": 1.1,
-        "c": 79.2,
-        "fi": 1.3
-      },
-      "source_values": {
-        "k": 356.0,
-        "p": 6.5,
-        "f": 1.1,
-        "c": 79.2,
-        "fi": 1.3
-      },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1079,
       "en": "Rice, BR-28, parboiled, milled, raw",
       "cat": "grain",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 344.0,
         "p": 6.5,
@@ -244,14 +222,14 @@
         "c": 76.8,
         "fi": 3.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1080,
       "en": "Rice, bran, raw Chaler",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 396.7,
         "p": 23.5,
@@ -260,20 +238,20 @@
         "fi": 21.0
       },
       "source_values": {
-        "k": 396.7,
-        "p": 23.5,
+        "k": 398.0,
+        "p": 13.4,
         "f": 20.9,
         "c": 28.6,
         "fi": 21.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1082,
       "en": "Rice, popped",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 387.2,
         "p": 9.6,
@@ -282,20 +260,20 @@
         "fi": 1.4
       },
       "source_values": {
-        "k": 387.2,
-        "p": 9.6,
+        "k": 380.0,
+        "p": 7.1,
         "f": 0.1,
         "c": 87.0,
         "fi": 1.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1083,
       "en": "Rice, puffed, salted",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 368.1,
         "p": 9.1,
@@ -304,20 +282,20 @@
         "fi": 1.4
       },
       "source_values": {
-        "k": 368.1,
-        "p": 9.1,
+        "k": 361.0,
+        "p": 6.7,
         "f": 0.1,
         "c": 82.7,
         "fi": 1.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1085,
       "en": "Semolina, wheat, raw",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 351.3,
         "p": 14.1,
@@ -326,20 +304,20 @@
         "fi": 3.9
       },
       "source_values": {
-        "k": 351.3,
-        "p": 14.1,
+        "k": 346.0,
+        "p": 10.9,
         "f": 1.4,
         "c": 70.6,
         "fi": 3.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1086,
       "en": "Sorghum, raw",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 353.7,
         "p": 14.1,
@@ -348,20 +326,20 @@
         "fi": 6.3
       },
       "source_values": {
-        "k": 353.7,
-        "p": 14.1,
+        "k": 350.0,
+        "p": 10.1,
         "f": 3.3,
         "c": 66.9,
         "fi": 6.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1087,
       "en": "Sweet corn, yellow, on the cob, raw",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 148.4,
         "p": 5.3,
@@ -370,20 +348,20 @@
         "fi": 2.8
       },
       "source_values": {
-        "k": 148.4,
-        "p": 5.3,
+        "k": 147.0,
+        "p": 3.5,
         "f": 1.4,
         "c": 28.7,
         "fi": 2.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1088,
       "en": "Vermicelli, wheat, raw",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 351.3,
         "p": 11.6,
@@ -392,20 +370,20 @@
         "fi": 3.2
       },
       "source_values": {
-        "k": 351.3,
-        "p": 11.6,
+        "k": 347.0,
+        "p": 8.9,
         "f": 0.6,
         "c": 74.9,
         "fi": 3.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1089,
       "en": "Wheat, flour, white",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 351.3,
         "p": 13.9,
@@ -414,20 +392,20 @@
         "fi": 4.4
       },
       "source_values": {
-        "k": 351.3,
-        "p": 13.9,
+        "k": 347.0,
+        "p": 10.6,
         "f": 1.6,
         "c": 70.3,
         "fi": 4.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1090,
       "en": "Wheat, whole, raw",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 346.6,
         "p": 18.1,
@@ -436,13 +414,13 @@
         "fi": 12.2
       },
       "source_values": {
-        "k": 346.6,
-        "p": 18.1,
+        "k": 344.0,
+        "p": 11.2,
         "f": 2.9,
         "c": 62.0,
         "fi": 12.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1091,
@@ -464,14 +442,14 @@
         "c": 56.7,
         "fi": 2.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1092,
       "en": "Plain Khichuri* Khichuri",
       "cat": "grain",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 163.0,
         "p": 5.1,
@@ -486,14 +464,14 @@
         "c": 17.7,
         "fi": 2.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1094,
       "en": "Rice, BR-28, boiled* (without salt)",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 110.9,
         "p": 3.2,
@@ -502,20 +480,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 110.9,
-        "p": 3.2,
+        "k": 109.0,
+        "p": 2.1,
         "f": 0.1,
         "c": 24.3,
         "fi": 1.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1096,
       "en": "Ruti* Ruti",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 248.6,
         "p": 9.7,
@@ -524,20 +502,20 @@
         "fi": 3.1
       },
       "source_values": {
-        "k": 248.6,
-        "p": 9.7,
+        "k": 246.0,
+        "p": 7.5,
         "f": 1.2,
         "c": 49.7,
         "fi": 3.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1097,
       "en": "Vermicelli, boiled* (without salt)",
       "cat": "grain",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 153.0,
         "p": 5.0,
@@ -546,13 +524,13 @@
         "fi": 1.4
       },
       "source_values": {
-        "k": 153.0,
-        "p": 5.0,
+        "k": 151.0,
+        "p": 3.9,
         "f": 0.3,
         "c": 32.6,
         "fi": 1.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1099,
@@ -574,7 +552,7 @@
         "c": 45.1,
         "fi": 16.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1100,
@@ -596,7 +574,7 @@
         "c": 61.8,
         "fi": 0.9
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1101,
@@ -618,7 +596,7 @@
         "c": 60.9,
         "fi": 0.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1102,
@@ -640,7 +618,7 @@
         "c": 44.8,
         "fi": 16.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1103,
@@ -662,7 +640,7 @@
         "c": 56.5,
         "fi": 2.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1104,
@@ -684,7 +662,7 @@
         "c": 43.2,
         "fi": 13.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1105,
@@ -706,7 +684,7 @@
         "c": 48.3,
         "fi": 13.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1106,
@@ -728,7 +706,7 @@
         "c": 60.4,
         "fi": 1.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1107,
@@ -750,7 +728,7 @@
         "c": 23.6,
         "fi": 9.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1110,
@@ -772,14 +750,14 @@
         "c": 21.2,
         "fi": 6.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1111,
       "en": "Amaranth, stem, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 21.7,
         "p": 1.5,
@@ -788,20 +766,20 @@
         "fi": 1.2
       },
       "source_values": {
-        "k": 21.7,
-        "p": 1.5,
+        "k": 21.0,
+        "p": 0.9,
         "f": 0.1,
         "c": 3.7,
         "fi": 1.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1112,
       "en": "Bean, scarlet runner, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 54.5,
         "p": 5.1,
@@ -810,20 +788,20 @@
         "fi": 2.0
       },
       "source_values": {
-        "k": 54.5,
-        "p": 5.1,
+        "k": 54.0,
+        "p": 3.9,
         "f": 0.1,
         "c": 8.3,
         "fi": 2.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1113,
       "en": "Bean, seeds and pods, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 29.2,
         "p": 4.6,
@@ -832,20 +810,20 @@
         "fi": 4.3
       },
       "source_values": {
-        "k": 29.2,
-        "p": 4.6,
+        "k": 29.0,
+        "p": 2.4,
         "f": 0.1,
         "c": 2.5,
         "fi": 4.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1114,
       "en": "Beet root, red, raw",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 94.0,
         "p": 0.1,
@@ -854,20 +832,20 @@
         "fi": 1.4
       },
       "source_values": {
-        "k": 46.4,
-        "p": 3.5,
+        "k": 46.0,
+        "p": 2.0,
         "f": 0.1,
         "c": 7.9,
         "fi": 2.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1115,
       "en": "Brinjal, purple, long, raw",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 23.9,
         "p": 3.7,
@@ -876,20 +854,20 @@
         "fi": 4.1
       },
       "source_values": {
-        "k": 23.9,
-        "p": 3.8,
+        "k": 24.0,
+        "p": 1.9,
         "f": 0.1,
         "c": 2.0,
         "fi": 4.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1116,
       "en": "Broad beans, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 50.0,
         "p": 6.7,
@@ -899,19 +877,19 @@
       },
       "source_values": {
         "k": 50.0,
-        "p": 6.7,
+        "p": 4.5,
         "f": 0.6,
         "c": 4.5,
         "fi": 4.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1117,
       "en": "Cabbage, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 24.1,
         "p": 2.8,
@@ -920,20 +898,20 @@
         "fi": 2.5
       },
       "source_values": {
-        "k": 24.1,
-        "p": 2.8,
+        "k": 24.0,
+        "p": 1.5,
         "f": 0.3,
         "c": 2.6,
         "fi": 2.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1118,
       "en": "Carrot, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 35.1,
         "p": 2.1,
@@ -942,20 +920,20 @@
         "fi": 2.6
       },
       "source_values": {
-        "k": 35.1,
-        "p": 2.1,
+        "k": 34.0,
+        "p": 0.9,
         "f": 0.3,
         "c": 6.0,
         "fi": 2.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1119,
       "en": "Cauliflower, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 27.0,
         "p": 3.6,
@@ -965,19 +943,19 @@
       },
       "source_values": {
         "k": 27.0,
-        "p": 3.6,
+        "p": 2.6,
         "f": 0.3,
         "c": 2.5,
         "fi": 2.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1120,
       "en": "Chilli, green, with seeds, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 45.2,
         "p": 5.2,
@@ -986,20 +964,20 @@
         "fi": 4.7
       },
       "source_values": {
-        "k": 45.2,
-        "p": 5.2,
+        "k": 45.0,
+        "p": 2.8,
         "f": 0.1,
         "c": 5.9,
         "fi": 4.7
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1121,
       "en": "Cowpea, pods and seeds, raw",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 60.0,
         "p": 0.4,
@@ -1008,20 +986,20 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 38.2,
-        "p": 5.9,
+        "k": 39.0,
+        "p": 3.0,
         "f": 0.4,
         "c": 2.8,
         "fi": 6.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1122,
       "en": "Cucumber, peeled, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 17.2,
         "p": 1.2,
@@ -1030,20 +1008,20 @@
         "fi": 0.7
       },
       "source_values": {
-        "k": 17.2,
-        "p": 1.2,
+        "k": 17.0,
+        "p": 0.8,
         "f": 0.1,
         "c": 2.9,
         "fi": 0.7
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1123,
       "en": "Drumstick, pods, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 43.3,
         "p": 5.3,
@@ -1052,20 +1030,42 @@
         "fi": 4.8
       },
       "source_values": {
-        "k": 43.3,
-        "p": 5.3,
+        "k": 43.0,
+        "p": 2.9,
         "f": 0.2,
         "c": 5.1,
         "fi": 4.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1124,
+      "en": "Garlic, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 148.9,
+        "p": 8.3,
+        "f": 0.6,
+        "c": 27.6,
+        "fi": 2.1
+      },
+      "source_values": {
+        "k": 147.0,
+        "p": 6.9,
+        "f": 0.6,
+        "c": 27.6,
+        "fi": 2.1
+      },
+      "tier": "pdf"
     },
     {
       "id": 1125,
       "en": "Gourd, ash, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 9.8,
         "p": 1.2,
@@ -1074,20 +1074,20 @@
         "fi": 1.7
       },
       "source_values": {
-        "k": 9.8,
-        "p": 1.2,
+        "k": 10.0,
+        "p": 0.4,
         "f": 0.1,
         "c": 1.0,
         "fi": 1.7
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1126,
       "en": "Gourd, bitter, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 30.8,
         "p": 3.4,
@@ -1096,20 +1096,20 @@
         "fi": 2.6
       },
       "source_values": {
-        "k": 30.8,
-        "p": 3.4,
+        "k": 31.0,
+        "p": 2.1,
         "f": 0.3,
         "c": 3.6,
         "fi": 2.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1127,
       "en": "Gourd, bottle, raw",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 33.9,
         "p": 1.4,
@@ -1118,20 +1118,20 @@
         "fi": 0.6
       },
       "source_values": {
-        "k": 33.9,
-        "p": 1.5,
+        "k": 34.0,
+        "p": 1.1,
         "f": 0.1,
         "c": 6.8,
         "fi": 0.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1128,
       "en": "Gourd, pointed, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 24.4,
         "p": 3.2,
@@ -1140,20 +1140,20 @@
         "fi": 2.2
       },
       "source_values": {
-        "k": 24.4,
-        "p": 3.2,
+        "k": 24.0,
+        "p": 2.0,
         "f": 0.3,
         "c": 2.2,
         "fi": 2.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1129,
       "en": "Gourd, ridge, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 28.9,
         "p": 1.7,
@@ -1162,20 +1162,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 28.9,
-        "p": 1.7,
+        "k": 29.0,
+        "p": 1.3,
         "f": 0.4,
         "c": 4.6,
         "fi": 1.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1130,
       "en": "Gourd, snake, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 24.6,
         "p": 1.0,
@@ -1184,20 +1184,20 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 24.6,
-        "p": 1.0,
+        "k": 24.0,
+        "p": 0.5,
         "f": 0.3,
         "c": 4.5,
         "fi": 0.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1131,
       "en": "Gourd, sponge, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 24.4,
         "p": 1.3,
@@ -1206,20 +1206,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 24.4,
-        "p": 1.3,
+        "k": 24.0,
+        "p": 0.9,
         "f": 0.2,
         "c": 4.3,
         "fi": 1.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1132,
       "en": "Gourd, teasle, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 61.9,
         "p": 2.5,
@@ -1228,20 +1228,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 61.9,
-        "p": 2.5,
+        "k": 61.0,
+        "p": 1.9,
         "f": 0.5,
         "c": 11.8,
         "fi": 1.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1133,
       "en": "Okra/ladies finger, raw",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 64.0,
         "p": 0.2,
@@ -1250,20 +1250,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 39.2,
-        "p": 3.7,
+        "k": 39.0,
+        "p": 2.1,
         "f": 0.2,
         "c": 5.7,
         "fi": 3.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1134,
       "en": "Onion, raw",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 59.5,
         "p": 2.5,
@@ -1272,13 +1272,13 @@
         "fi": 1.9
       },
       "source_values": {
-        "k": 59.5,
-        "p": 2.5,
+        "k": 59.0,
+        "p": 1.4,
         "f": 0.1,
         "c": 12.2,
         "fi": 1.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1135,
@@ -1300,7 +1300,7 @@
         "c": 5.7,
         "fi": 1.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1136,
@@ -1322,7 +1322,7 @@
         "c": 12.5,
         "fi": 5.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1137,
@@ -1344,7 +1344,7 @@
         "c": 15.5,
         "fi": 2.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1138,
@@ -1366,7 +1366,7 @@
         "c": 1.3,
         "fi": 2.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1139,
@@ -1388,7 +1388,7 @@
         "c": 2.5,
         "fi": 1.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1140,
@@ -1410,7 +1410,29 @@
         "c": 2.5,
         "fi": 1.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1141,
+      "en": "Tomato, red, ripe, raw",
+      "cat": "vegetable",
+      "action": "verified_unchanged",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 16.0,
+        "p": 1.1,
+        "f": 0.2,
+        "c": 1.4,
+        "fi": 1.7
+      },
+      "source_values": {
+        "k": 16.0,
+        "p": 1.1,
+        "f": 0.2,
+        "c": 1.4,
+        "fi": 1.7
+      },
+      "tier": "pdf"
     },
     {
       "id": 1142,
@@ -1432,14 +1454,14 @@
         "c": 4.1,
         "fi": 1.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1144,
       "en": "Cabbage, boiled* (without salt)",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 27.5,
         "p": 3.1,
@@ -1448,20 +1470,20 @@
         "fi": 2.8
       },
       "source_values": {
-        "k": 27.5,
-        "p": 3.1,
+        "k": 27.0,
+        "p": 1.7,
         "f": 0.4,
         "c": 2.9,
         "fi": 2.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1145,
       "en": "Carrot, boiled* (without salt)",
       "cat": "vegetable",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 81.0,
         "p": 0.3,
@@ -1470,20 +1492,20 @@
         "fi": 0.7
       },
       "source_values": {
-        "k": 43.3,
-        "p": 2.8,
+        "k": 43.0,
+        "p": 1.1,
         "f": 0.3,
         "c": 7.3,
         "fi": 3.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1146,
       "en": "Cauliflower, boiled* (without salt)",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 28.4,
         "p": 3.7,
@@ -1492,20 +1514,20 @@
         "fi": 2.1
       },
       "source_values": {
-        "k": 28.4,
-        "p": 3.7,
+        "k": 28.0,
+        "p": 2.7,
         "f": 0.3,
         "c": 2.7,
         "fi": 2.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1147,
       "en": "Cowpea, boiled* (without salt)",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 39.9,
         "p": 6.1,
@@ -1514,20 +1536,20 @@
         "fi": 6.3
       },
       "source_values": {
-        "k": 39.9,
-        "p": 6.1,
+        "k": 40.0,
+        "p": 3.1,
         "f": 0.4,
         "c": 3.0,
         "fi": 6.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1148,
       "en": "Gourd, pointed, boiled* (without salt)",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 27.7,
         "p": 3.5,
@@ -1536,20 +1558,20 @@
         "fi": 2.5
       },
       "source_values": {
-        "k": 27.7,
-        "p": 3.5,
+        "k": 28.0,
+        "p": 2.3,
         "f": 0.4,
         "c": 2.5,
         "fi": 2.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1149,
       "en": "Gourd, teasle, boiled* (without salt)",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 70.3,
         "p": 3.0,
@@ -1558,20 +1580,20 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 70.3,
-        "p": 3.0,
+        "k": 69.0,
+        "p": 2.2,
         "f": 0.5,
         "c": 13.4,
         "fi": 1.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1151,
       "en": "Papaya, unripe, boiled* (without salt)",
       "cat": "vegetable",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 32.0,
         "p": 0.8,
@@ -1586,7 +1608,29 @@
         "c": 6.1,
         "fi": 1.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1152,
+      "en": "Pumpkin, boiled* (without salt)",
+      "cat": "vegetable",
+      "action": "verified_unchanged",
+      "confidence": 100,
+      "v5_8_values": {
+        "k": 29.0,
+        "p": 2.2,
+        "f": 0.5,
+        "c": 2.1,
+        "fi": 3.8
+      },
+      "source_values": {
+        "k": 29.0,
+        "p": 2.2,
+        "f": 0.5,
+        "c": 2.1,
+        "fi": 3.8
+      },
+      "tier": "pdf"
     },
     {
       "id": 1153,
@@ -1608,14 +1652,14 @@
         "c": 3.3,
         "fi": 2.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1154,
       "en": "Lady's finger-tomato bhuna",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 125.7,
         "p": 5.8,
@@ -1624,20 +1668,20 @@
         "fi": 5.0
       },
       "source_values": {
-        "k": 125.7,
-        "p": 5.8,
+        "k": 127.0,
+        "p": 3.4,
         "f": 7.4,
         "c": 9.0,
         "fi": 5.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1155,
       "en": "Gourd, bitter, fry",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 129.1,
         "p": 4.7,
@@ -1646,13 +1690,13 @@
         "fi": 4.1
       },
       "source_values": {
-        "k": 129.1,
-        "p": 4.7,
+        "k": 130.0,
+        "p": 3.1,
         "f": 9.1,
         "c": 7.1,
         "fi": 4.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1156,
@@ -1674,7 +1718,7 @@
         "c": 5.7,
         "fi": 7.9
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1157,
@@ -1696,7 +1740,7 @@
         "c": 6.6,
         "fi": 2.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1158,
@@ -1718,7 +1762,51 @@
         "c": 5.2,
         "fi": 4.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1159,
+      "en": "Amaranth, leaves, red, raw",
+      "cat": "vegetable",
+      "action": "verified_unchanged",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 32.0,
+        "p": 4.5,
+        "f": 0.3,
+        "c": 0.5,
+        "fi": 4.2
+      },
+      "source_values": {
+        "k": 32.0,
+        "p": 4.5,
+        "f": 0.3,
+        "c": 0.5,
+        "fi": 4.2
+      },
+      "tier": "pdf"
+    },
+    {
+      "id": 1160,
+      "en": "Amaranth, leaves, green, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 6.0,
+        "p": 0.0,
+        "f": 2.0,
+        "c": 0.3,
+        "fi": 1.5
+      },
+      "source_values": {
+        "k": 25.0,
+        "p": 2.0,
+        "f": 0.3,
+        "c": 1.5,
+        "fi": 4.4
+      },
+      "tier": "pdf"
     },
     {
       "id": 1161,
@@ -1740,7 +1828,7 @@
         "c": 5.9,
         "fi": 1.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1162,
@@ -1762,7 +1850,7 @@
         "c": 2.1,
         "fi": 3.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1163,
@@ -1784,7 +1872,7 @@
         "c": 2.2,
         "fi": 1.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1164,
@@ -1806,7 +1894,29 @@
         "c": 6.1,
         "fi": 3.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1165,
+      "en": "Bottle gourd leaves, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 6.2,
+        "p": 0.0,
+        "f": 2.5,
+        "c": 0.6,
+        "fi": 0.6
+      },
+      "source_values": {
+        "k": 26.0,
+        "p": 2.5,
+        "f": 0.6,
+        "c": 0.6,
+        "fi": 4.4
+      },
+      "tier": "pdf"
     },
     {
       "id": 1166,
@@ -1828,7 +1938,7 @@
         "c": 4.6,
         "fi": 1.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1167,
@@ -1850,7 +1960,7 @@
         "c": 5.7,
         "fi": 4.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1168,
@@ -1872,7 +1982,7 @@
         "c": 5.3,
         "fi": 3.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1169,
@@ -1894,7 +2004,7 @@
         "c": 4.4,
         "fi": 3.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1170,
@@ -1916,7 +2026,7 @@
         "c": 3.6,
         "fi": 1.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1171,
@@ -1938,7 +2048,7 @@
         "c": 4.6,
         "fi": 5.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1172,
@@ -1960,7 +2070,7 @@
         "c": 13.7,
         "fi": 1.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1173,
@@ -1982,7 +2092,7 @@
         "c": 5.0,
         "fi": 2.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1174,
@@ -2004,7 +2114,29 @@
         "c": 2.1,
         "fi": 2.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1175,
+      "en": "Jute leaves, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 7.6,
+        "p": 0.0,
+        "f": 2.9,
+        "c": 0.3,
+        "fi": 1.7
+      },
+      "source_values": {
+        "k": 32.0,
+        "p": 2.9,
+        "f": 0.3,
+        "c": 1.7,
+        "fi": 5.8
+      },
+      "tier": "pdf"
     },
     {
       "id": 1176,
@@ -2026,7 +2158,7 @@
         "c": 2.8,
         "fi": 2.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1177,
@@ -2048,7 +2180,7 @@
         "c": 3.4,
         "fi": 2.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1178,
@@ -2070,7 +2202,7 @@
         "c": 4.3,
         "fi": 4.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1179,
@@ -2092,7 +2224,73 @@
         "c": 0.9,
         "fi": 2.9
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1180,
+      "en": "Sweet potato leaves, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 10.8,
+        "p": 0.0,
+        "f": 4.0,
+        "c": 0.8,
+        "fi": 1.8
+      },
+      "source_values": {
+        "k": 45.0,
+        "p": 4.0,
+        "f": 0.8,
+        "c": 1.8,
+        "fi": 7.3
+      },
+      "tier": "pdf"
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 10.8,
+        "p": 0.0,
+        "f": 3.9,
+        "c": 0.4,
+        "fi": 2.8
+      },
+      "source_values": {
+        "k": 45.0,
+        "p": 3.9,
+        "f": 0.4,
+        "c": 2.8,
+        "fi": 7.7
+      },
+      "tier": "pdf"
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 12.0,
+        "p": 0.0,
+        "f": 3.6,
+        "c": 0.4,
+        "fi": 3.9
+      },
+      "source_values": {
+        "k": 50.0,
+        "p": 3.6,
+        "f": 0.4,
+        "c": 3.9,
+        "fi": 8.0
+      },
+      "tier": "pdf"
     },
     {
       "id": 1184,
@@ -2114,7 +2312,7 @@
         "c": 6.0,
         "fi": 3.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1185,
@@ -2136,7 +2334,7 @@
         "c": 8.8,
         "fi": 0.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1188,
@@ -2158,7 +2356,7 @@
         "c": 1.6,
         "fi": 5.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1190,
@@ -2180,7 +2378,7 @@
         "c": 21.0,
         "fi": 4.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1191,
@@ -2202,7 +2400,7 @@
         "c": 20.6,
         "fi": 4.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1192,
@@ -2224,7 +2422,7 @@
         "c": 15.1,
         "fi": 4.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1193,
@@ -2246,7 +2444,7 @@
         "c": 16.6,
         "fi": 4.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1194,
@@ -2268,51 +2466,7 @@
         "c": 14.0,
         "fi": 2.1
       },
-      "tier": "T0_correct"
-    },
-    {
-      "id": 1195,
-      "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
-      "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 99,
-      "v5_8_values": {
-        "k": 98.0,
-        "p": 0.6,
-        "f": 0.3,
-        "c": 21.8,
-        "fi": 3.0
-      },
-      "source_values": {
-        "k": 98.0,
-        "p": 0.6,
-        "f": 0.3,
-        "c": 21.8,
-        "fi": 3.0
-      },
-      "tier": "T0_correct"
-    },
-    {
-      "id": 1196,
-      "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
-      "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 99,
-      "v5_8_values": {
-        "k": 97.0,
-        "p": 1.5,
-        "f": 0.2,
-        "c": 20.3,
-        "fi": 4.1
-      },
-      "source_values": {
-        "k": 97.0,
-        "p": 1.5,
-        "f": 0.2,
-        "c": 20.3,
-        "fi": 4.1
-      },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1197,
@@ -2334,7 +2488,7 @@
         "c": 23.6,
         "fi": 4.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1198,
@@ -2356,7 +2510,7 @@
         "c": 14.2,
         "fi": 2.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1201,
@@ -2378,29 +2532,7 @@
         "c": 18.6,
         "fi": 4.6
       },
-      "tier": "T0_correct"
-    },
-    {
-      "id": 1202,
-      "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
-      "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 99,
-      "v5_8_values": {
-        "k": 109.0,
-        "p": 1.7,
-        "f": 0.2,
-        "c": 22.8,
-        "fi": 4.6
-      },
-      "source_values": {
-        "k": 109.0,
-        "p": 1.7,
-        "f": 0.2,
-        "c": 22.8,
-        "fi": 4.6
-      },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1203,
@@ -2422,13 +2554,13 @@
         "c": 16.6,
         "fi": 2.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1204,
       "en": "Sunflower seeds, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 584.0,
@@ -2438,19 +2570,19 @@
         "fi": 3.0
       },
       "source_values": {
-        "k": 584.0,
-        "p": 20.8,
-        "f": 51.5,
-        "c": 20.0,
-        "fi": 3.0
+        "k": 552.0,
+        "p": 17.1,
+        "f": 40.1,
+        "c": 26.4,
+        "fi": 8.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1205,
       "en": "Cashew nuts, raw",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 553.0,
@@ -2460,19 +2592,19 @@
         "fi": 2.4
       },
       "source_values": {
-        "k": 553.0,
-        "p": 18.2,
-        "f": 43.9,
-        "c": 30.2,
-        "fi": 2.4
+        "k": 595.0,
+        "p": 18.0,
+        "f": 46.9,
+        "c": 23.5,
+        "fi": 3.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1206,
       "en": "Chilgoza pine, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 673.0,
@@ -2482,19 +2614,19 @@
         "fi": 2.7
       },
       "source_values": {
-        "k": 673.0,
+        "k": 712.0,
         "p": 13.7,
         "f": 68.4,
-        "c": 13.1,
-        "fi": 2.7
+        "c": 8.7,
+        "fi": 3.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1207,
       "en": "Coconut milk",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 197.0,
@@ -2504,19 +2636,19 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 197.0,
-        "p": 2.3,
-        "f": 21.3,
-        "c": 2.8,
-        "fi": 0.8
+        "k": 213.0,
+        "p": 2.1,
+        "f": 21.7,
+        "c": 1.2,
+        "fi": 2.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1208,
       "en": "Coconut, desiccated",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 650.0,
@@ -2526,19 +2658,19 @@
         "fi": 1.6
       },
       "source_values": {
-        "k": 650.0,
-        "p": 6.9,
-        "f": 65.0,
-        "c": 25.0,
-        "fi": 1.6
+        "k": 652.0,
+        "p": 5.6,
+        "f": 62.2,
+        "c": 8.5,
+        "fi": 17.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1209,
       "en": "Coconut, mature kernel",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 354.0,
@@ -2548,19 +2680,19 @@
         "fi": 1.0
       },
       "source_values": {
-        "k": 354.0,
+        "k": 389.0,
         "p": 3.3,
-        "f": 33.5,
-        "c": 15.2,
-        "fi": 1.0
+        "f": 36.7,
+        "c": 6.9,
+        "fi": 9.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1210,
       "en": "Groundnuts/Peanut, raw",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 567.0,
@@ -2570,19 +2702,19 @@
         "fi": 2.4
       },
       "source_values": {
-        "k": 567.0,
-        "p": 25.8,
-        "f": 49.2,
-        "c": 16.1,
-        "fi": 2.4
+        "k": 585.0,
+        "p": 22.5,
+        "f": 46.6,
+        "c": 14.8,
+        "fi": 8.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1211,
       "en": "Linseed, raw",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 534.0,
@@ -2592,19 +2724,19 @@
         "fi": 3.7
       },
       "source_values": {
-        "k": 534.0,
-        "p": 18.3,
-        "f": 42.2,
-        "c": 28.9,
-        "fi": 3.7
+        "k": 500.0,
+        "p": 17.2,
+        "f": 39.1,
+        "c": 6.1,
+        "fi": 27.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1212,
       "en": "Lotus seeds, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 332.0,
@@ -2614,19 +2746,19 @@
         "fi": 3.2
       },
       "source_values": {
-        "k": 332.0,
-        "p": 15.4,
-        "f": 2.0,
-        "c": 63.4,
-        "fi": 3.2
+        "k": 339.0,
+        "p": 16.3,
+        "f": 2.2,
+        "c": 61.6,
+        "fi": 4.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1213,
       "en": "Lotus seeds, green",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 89.0,
@@ -2636,19 +2768,19 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 89.0,
-        "p": 4.3,
+        "k": 74.0,
+        "p": 4.1,
         "f": 0.6,
-        "c": 17.3,
-        "fi": 1.1
+        "c": 12.5,
+        "fi": 0.9
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1214,
       "en": "Mustard seeds, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 508.0,
@@ -2658,19 +2790,19 @@
         "fi": 4.2
       },
       "source_values": {
-        "k": 508.0,
-        "p": 26.1,
-        "f": 36.2,
-        "c": 28.1,
-        "fi": 4.2
+        "k": 501.0,
+        "p": 22.0,
+        "f": 35.0,
+        "c": 18.5,
+        "fi": 11.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1215,
       "en": "Pistachio nuts, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 562.0,
@@ -2680,19 +2812,19 @@
         "fi": 2.9
       },
       "source_values": {
-        "k": 562.0,
-        "p": 20.2,
-        "f": 45.3,
-        "c": 27.2,
-        "fi": 2.9
+        "k": 574.0,
+        "p": 19.2,
+        "f": 44.9,
+        "c": 18.2,
+        "fi": 10.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1216,
       "en": "Pumpkin seeds, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 559.0,
@@ -2702,19 +2834,19 @@
         "fi": 4.7
       },
       "source_values": {
-        "k": 559.0,
-        "p": 30.2,
-        "f": 49.1,
-        "c": 10.7,
-        "fi": 4.7
+        "k": 580.0,
+        "p": 25.1,
+        "f": 47.3,
+        "c": 10.6,
+        "fi": 6.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1217,
       "en": "Sesame seeds, whole, dried",
       "cat": "snack",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 573.0,
@@ -2724,13 +2856,13 @@
         "fi": 5.2
       },
       "source_values": {
-        "k": 573.0,
+        "k": 563.0,
         "p": 17.7,
-        "f": 49.7,
-        "c": 23.5,
-        "fi": 5.2
+        "f": 45.8,
+        "c": 14.3,
+        "fi": 11.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1219,
@@ -2752,7 +2884,7 @@
         "c": 48.7,
         "fi": 26.3
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1220,
@@ -2774,7 +2906,7 @@
         "c": 37.8,
         "fi": 24.4
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1221,
@@ -2796,14 +2928,14 @@
         "c": 35.2,
         "fi": 26.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1222,
       "en": "Cinnamon, ground",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 58.1,
         "p": 4.3,
@@ -2812,13 +2944,13 @@
         "fi": 27.5
       },
       "source_values": {
-        "k": 58.1,
-        "p": 4.3,
-        "f": 4.0,
-        "c": 1.2,
-        "fi": 27.5
+        "k": 243.0,
+        "p": 4.0,
+        "f": 1.2,
+        "c": 27.5,
+        "fi": 53.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1223,
@@ -2840,7 +2972,7 @@
         "c": 27.4,
         "fi": 28.1
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1224,
@@ -2862,7 +2994,7 @@
         "c": 13.4,
         "fi": 40.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1225,
@@ -2884,7 +3016,7 @@
         "c": 37.2,
         "fi": 10.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1226,
@@ -2906,7 +3038,7 @@
         "c": 13.0,
         "fi": 39.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1227,
@@ -2928,7 +3060,7 @@
         "c": 32.8,
         "fi": 24.6
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1228,
@@ -2950,7 +3082,29 @@
         "c": 13.3,
         "fi": 2.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1229,
+      "en": "Indian pennywort, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 8.8,
+        "p": 0.0,
+        "f": 2.3,
+        "c": 0.5,
+        "fi": 1.6
+      },
+      "source_values": {
+        "k": 37.0,
+        "p": 2.3,
+        "f": 0.5,
+        "c": 1.6,
+        "fi": 8.7
+      },
+      "tier": "pdf"
     },
     {
       "id": 1230,
@@ -2972,7 +3126,29 @@
         "c": 25.5,
         "fi": 2.0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
+    },
+    {
+      "id": 1231,
+      "en": "Lemon peel, raw",
+      "cat": "vegetable",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 15.5,
+        "p": 0.0,
+        "f": 1.6,
+        "c": 0.4,
+        "fi": 8.7
+      },
+      "source_values": {
+        "k": 65.0,
+        "p": 1.6,
+        "f": 0.4,
+        "c": 8.7,
+        "fi": 10.6
+      },
+      "tier": "pdf"
     },
     {
       "id": 1232,
@@ -2994,14 +3170,14 @@
         "c": 33.1,
         "fi": 18.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1233,
       "en": "Nutmeg, dried",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 473.2,
         "p": 15.3,
@@ -3010,19 +3186,19 @@
         "fi": 19.0
       },
       "source_values": {
-        "k": 473.2,
-        "p": 15.3,
+        "k": 480.0,
+        "p": 7.5,
         "f": 36.4,
         "c": 21.1,
         "fi": 19.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1234,
       "en": "Poppy seeds",
       "cat": "vegetable",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 525.0,
@@ -3032,20 +3208,20 @@
         "fi": 7.7
       },
       "source_values": {
-        "k": 525.0,
-        "p": 18.0,
-        "f": 41.6,
-        "c": 28.1,
-        "fi": 7.7
+        "k": 523.0,
+        "p": 17.2,
+        "f": 43.1,
+        "c": 6.8,
+        "fi": 19.5
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1235,
       "en": "Turmeric, dried",
       "cat": "vegetable",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 334.6,
         "p": 17.5,
@@ -3054,20 +3230,20 @@
         "fi": 21.1
       },
       "source_values": {
-        "k": 334.6,
-        "p": 17.5,
+        "k": 335.0,
+        "p": 6.9,
         "f": 8.4,
         "c": 47.3,
         "fi": 21.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1236,
       "en": "Apple, without skin, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 51.4,
         "p": 1.1,
@@ -3076,20 +3252,20 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 51.4,
-        "p": 1.1,
+        "k": 51.0,
+        "p": 0.3,
         "f": 0.1,
         "c": 11.5,
         "fi": 1.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1237,
       "en": "Apple, with skin, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 62.6,
         "p": 1.7,
@@ -3098,20 +3274,20 @@
         "fi": 2.4
       },
       "source_values": {
-        "k": 62.6,
-        "p": 1.7,
+        "k": 62.0,
+        "p": 0.3,
         "f": 0.2,
         "c": 13.5,
         "fi": 2.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1238,
       "en": "Asian pears, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 61.9,
         "p": 2.5,
@@ -3120,20 +3296,20 @@
         "fi": 3.6
       },
       "source_values": {
-        "k": 61.9,
-        "p": 2.5,
+        "k": 62.0,
+        "p": 0.6,
         "f": 0.3,
         "c": 12.3,
         "fi": 3.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1239,
       "en": "Banana, Sagar, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 95.6,
         "p": 2.9,
@@ -3142,20 +3318,20 @@
         "fi": 2.6
       },
       "source_values": {
-        "k": 95.6,
-        "p": 2.9,
+        "k": 95.0,
+        "p": 1.3,
         "f": 0.8,
         "c": 19.2,
         "fi": 2.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1240,
       "en": "Breadfruit, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 70.0,
         "p": 4.0,
@@ -3165,19 +3341,19 @@
       },
       "source_values": {
         "k": 70.0,
-        "p": 4.1,
+        "p": 1.5,
         "f": 0.2,
         "c": 13.0,
         "fi": 4.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1241,
       "en": "Bullocks Heart, ripe, raw Nona ata",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 81.3,
         "p": 4.2,
@@ -3186,20 +3362,20 @@
         "fi": 5.2
       },
       "source_values": {
-        "k": 81.3,
-        "p": 4.2,
+        "k": 81.0,
+        "p": 1.4,
         "f": 0.2,
         "c": 15.7,
         "fi": 5.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1242,
       "en": "Carambola, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 72.0,
         "p": 0.7,
@@ -3208,20 +3384,20 @@
         "fi": 0.5
       },
       "source_values": {
-        "k": 41.1,
-        "p": 2.0,
+        "k": 41.0,
+        "p": 0.5,
         "f": 0.7,
         "c": 6.7,
         "fi": 2.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1243,
       "en": "Custard apple, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 85.3,
         "p": 4.0,
@@ -3230,20 +3406,42 @@
         "fi": 4.4
       },
       "source_values": {
-        "k": 85.3,
-        "p": 4.0,
+        "k": 85.0,
+        "p": 1.8,
         "f": 0.3,
         "c": 16.6,
         "fi": 4.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1244,
+      "en": "Dates, dried",
+      "cat": "fruit",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 303.5,
+        "p": 7.0,
+        "f": 0.6,
+        "c": 67.5,
+        "fi": 8.3
+      },
+      "source_values": {
+        "k": 301.0,
+        "p": 2.2,
+        "f": 0.6,
+        "c": 67.5,
+        "fi": 8.3
+      },
+      "tier": "pdf"
     },
     {
       "id": 1245,
       "en": "Dates, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 152.0,
         "p": 3.7,
@@ -3252,20 +3450,20 @@
         "fi": 4.1
       },
       "source_values": {
-        "k": 152.0,
-        "p": 3.7,
+        "k": 150.0,
+        "p": 1.2,
         "f": 0.4,
         "c": 33.4,
         "fi": 4.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1246,
       "en": "Elephant apple, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 64.8,
         "p": 5.0,
@@ -3274,20 +3472,20 @@
         "fi": 3.5
       },
       "source_values": {
-        "k": 64.8,
-        "p": 5.0,
+        "k": 64.0,
+        "p": 3.1,
         "f": 0.4,
         "c": 10.3,
         "fi": 3.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1247,
       "en": "Emblic, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 86.0,
         "p": 0.1,
@@ -3296,20 +3494,20 @@
         "fi": 0.7
       },
       "source_values": {
-        "k": 44.5,
-        "p": 2.6,
+        "k": 44.0,
+        "p": 0.8,
         "f": 0.1,
         "c": 8.3,
         "fi": 3.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1248,
       "en": "Fig, ripe, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 68.0,
         "p": 0.2,
@@ -3318,20 +3516,20 @@
         "fi": 0.6
       },
       "source_values": {
-        "k": 40.2,
-        "p": 2.9,
+        "k": 40.0,
+        "p": 1.3,
         "f": 0.2,
         "c": 6.7,
         "fi": 3.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1249,
       "en": "Grapes, green, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 95.1,
         "p": 2.2,
@@ -3340,20 +3538,20 @@
         "fi": 2.9
       },
       "source_values": {
-        "k": 95.1,
-        "p": 2.2,
+        "k": 94.0,
+        "p": 0.5,
         "f": 0.6,
         "c": 20.2,
         "fi": 2.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1250,
       "en": "Guava, green, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 63.3,
         "p": 3.8,
@@ -3362,20 +3560,20 @@
         "fi": 5.4
       },
       "source_values": {
-        "k": 63.3,
-        "p": 3.8,
+        "k": 63.0,
+        "p": 1.0,
         "f": 0.5,
         "c": 10.9,
         "fi": 5.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1251,
       "en": "Hog plum, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 50.9,
         "p": 2.0,
@@ -3384,20 +3582,20 @@
         "fi": 1.6
       },
       "source_values": {
-        "k": 50.9,
-        "p": 2.0,
+        "k": 51.0,
+        "p": 1.1,
         "f": 0.8,
         "c": 8.9,
         "fi": 1.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1252,
       "en": "Jackfruit, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 74.6,
         "p": 4.9,
@@ -3406,20 +3604,20 @@
         "fi": 7.2
       },
       "source_values": {
-        "k": 74.6,
-        "p": 4.9,
+        "k": 74.0,
+        "p": 1.2,
         "f": 0.2,
         "c": 13.3,
         "fi": 7.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1253,
       "en": "Jambolan, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 64.0,
         "p": 0.5,
@@ -3428,20 +3626,20 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 39.2,
-        "p": 2.6,
+        "k": 39.0,
+        "p": 0.9,
         "f": 0.5,
         "c": 6.1,
         "fi": 3.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1254,
       "en": "Jambos, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 69.0,
         "p": 0.3,
@@ -3450,20 +3648,20 @@
         "fi": 0.3
       },
       "source_values": {
-        "k": 40.4,
-        "p": 1.4,
+        "k": 40.0,
+        "p": 0.7,
         "f": 0.3,
         "c": 8.0,
         "fi": 1.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1255,
       "en": "Java apple, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 35.6,
         "p": 1.6,
@@ -3472,20 +3670,20 @@
         "fi": 1.6
       },
       "source_values": {
-        "k": 35.6,
-        "p": 1.6,
+        "k": 35.0,
+        "p": 0.7,
         "f": 0.2,
         "c": 6.9,
         "fi": 1.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1256,
       "en": "Jujube, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 60.7,
         "p": 2.1,
@@ -3494,20 +3692,20 @@
         "fi": 1.0
       },
       "source_values": {
-        "k": 60.7,
-        "p": 2.1,
+        "k": 60.0,
+        "p": 1.9,
         "f": 0.2,
         "c": 12.6,
         "fi": 1.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1257,
       "en": "Lemon, Kagoji, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 55.9,
         "p": 1.5,
@@ -3516,20 +3714,20 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 55.9,
-        "p": 1.5,
+        "k": 56.0,
+        "p": 0.8,
         "f": 1.0,
         "c": 10.2,
         "fi": 1.3
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1258,
       "en": "Lime, sweet, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 77.0,
         "p": 0.5,
@@ -3538,20 +3736,20 @@
         "fi": 0.6
       },
       "source_values": {
-        "k": 42.3,
-        "p": 0.9,
+        "k": 42.0,
+        "p": 0.7,
         "f": 0.5,
         "c": 8.5,
         "fi": 0.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1259,
       "en": "Mango, Langra, yellow flesh, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 83.2,
         "p": 1.9,
@@ -3560,20 +3758,20 @@
         "fi": 1.6
       },
       "source_values": {
-        "k": 83.2,
-        "p": 1.9,
+        "k": 82.0,
+        "p": 0.8,
         "f": 0.4,
         "c": 18.0,
         "fi": 1.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1260,
       "en": "Melon, Futi, orange flesh, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 17.4,
         "p": 0.8,
@@ -3582,20 +3780,20 @@
         "fi": 1.0
       },
       "source_values": {
-        "k": 17.4,
-        "p": 0.8,
+        "k": 17.0,
+        "p": 0.3,
         "f": 0.2,
         "c": 3.1,
         "fi": 1.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1261,
       "en": "Orange juice, raw (unsweetened)",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 9.1,
         "p": 0.3,
@@ -3604,20 +3802,20 @@
         "fi": 0.2
       },
       "source_values": {
-        "k": 9.1,
-        "p": 0.3,
+        "k": 9.0,
+        "p": 0.2,
         "f": 0.1,
         "c": 1.7,
         "fi": 0.2
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1262,
       "en": "Orange, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 86.0,
         "p": 0.2,
@@ -3626,20 +3824,20 @@
         "fi": 0.3
       },
       "source_values": {
-        "k": 44.5,
-        "p": 2.0,
+        "k": 44.0,
+        "p": 0.7,
         "f": 0.2,
         "c": 8.7,
         "fi": 2.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1263,
       "en": "Orange, sweet, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 49.7,
         "p": 1.5,
@@ -3648,20 +3846,20 @@
         "fi": 2.4
       },
       "source_values": {
-        "k": 49.7,
-        "p": 1.5,
+        "k": 49.0,
+        "p": 0.2,
         "f": 0.1,
         "c": 10.7,
         "fi": 2.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1266,
       "en": "Papaya, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 33.2,
         "p": 1.6,
@@ -3670,20 +3868,20 @@
         "fi": 1.7
       },
       "source_values": {
-        "k": 33.2,
-        "p": 1.6,
+        "k": 33.0,
+        "p": 0.6,
         "f": 0.1,
         "c": 6.5,
         "fi": 1.7
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1267,
       "en": "Persimmon, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 67.9,
         "p": 2.6,
@@ -3692,20 +3890,20 @@
         "fi": 3.6
       },
       "source_values": {
-        "k": 67.9,
-        "p": 2.6,
+        "k": 67.0,
+        "p": 0.7,
         "f": 0.2,
         "c": 13.9,
         "fi": 3.6
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1268,
       "en": "Pineapple, Joldugee, ripe, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 81.0,
         "p": 0.4,
@@ -3714,20 +3912,20 @@
         "fi": 0.3
       },
       "source_values": {
-        "k": 43.3,
-        "p": 1.6,
+        "k": 43.0,
+        "p": 0.8,
         "f": 0.4,
         "c": 8.3,
         "fi": 1.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1269,
       "en": "Pineapple, ripe, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 97.0,
         "p": 0.1,
@@ -3736,20 +3934,20 @@
         "fi": 0.6
       },
       "source_values": {
-        "k": 47.1,
-        "p": 1.9,
+        "k": 47.0,
+        "p": 1.0,
         "f": 0.1,
         "c": 9.7,
         "fi": 1.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1270,
       "en": "Pomegranate, ripe, with seed, raw",
       "cat": "fruit",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 67.6,
         "p": 3.7,
@@ -3758,20 +3956,20 @@
         "fi": 4.0
       },
       "source_values": {
-        "k": 67.6,
-        "p": 3.8,
+        "k": 67.0,
+        "p": 1.6,
         "f": 0.2,
         "c": 12.7,
         "fi": 4.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1271,
       "en": "Pomelo, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 38.0,
         "p": 1.1,
@@ -3781,19 +3979,41 @@
       },
       "source_values": {
         "k": 38.0,
-        "p": 1.1,
+        "p": 0.4,
         "f": 0.3,
         "c": 7.7,
         "fi": 1.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1272,
+      "en": "Tamarind, pulp, ripe, raw",
+      "cat": "fruit",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 272.5,
+        "p": 6.4,
+        "f": 0.4,
+        "c": 60.8,
+        "fi": 5.1
+      },
+      "source_values": {
+        "k": 270.0,
+        "p": 3.2,
+        "f": 0.4,
+        "c": 60.8,
+        "fi": 5.1
+      },
+      "tier": "pdf"
     },
     {
       "id": 1273,
       "en": "Watermelon, ripe, raw",
       "cat": "fruit",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 22.2,
         "p": 0.7,
@@ -3802,19 +4022,41 @@
         "fi": 0.4
       },
       "source_values": {
-        "k": 22.2,
-        "p": 0.7,
+        "k": 22.0,
+        "p": 0.5,
         "f": 0.2,
         "c": 4.4,
         "fi": 0.4
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1274,
+      "en": "Wood apple, ripe, raw",
+      "cat": "fruit",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 112.1,
+        "p": 6.5,
+        "f": 0.3,
+        "c": 20.9,
+        "fi": 7.0
+      },
+      "source_values": {
+        "k": 111.0,
+        "p": 2.9,
+        "f": 0.3,
+        "c": 20.9,
+        "fi": 7.0
+      },
+      "tier": "pdf"
     },
     {
       "id": 1275,
       "en": "Anchovy, Gangetic hairfin, dried",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 332.0,
@@ -3824,19 +4066,19 @@
         "fi": 11.9
       },
       "source_values": {
-        "k": 332.0,
-        "p": 72.0,
+        "k": 328.0,
+        "p": 70.9,
         "f": 4.9,
         "c": 0.0,
-        "fi": 11.9
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1276,
       "en": "Anchovy, Gangetic hairfin, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 105.0,
@@ -3850,15 +4092,15 @@
         "p": 17.7,
         "f": 3.8,
         "c": 0.0,
-        "fi": 3.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1278,
       "en": "Anchovy, Scaly hairfin, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 102.0,
@@ -3868,19 +4110,19 @@
         "fi": 2.8
       },
       "source_values": {
-        "k": 102.0,
-        "p": 19.4,
+        "k": 101.0,
+        "p": 19.3,
         "f": 2.7,
         "c": 0.0,
-        "fi": 2.8
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1280,
       "en": "Barb, Olive, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 174.0,
@@ -3890,19 +4132,19 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 174.0,
-        "p": 17.2,
+        "k": 175.0,
+        "p": 17.4,
         "f": 11.7,
         "c": 0.0,
-        "fi": 1.3
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1282,
       "en": "Bata, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 107.0,
@@ -3912,19 +4154,19 @@
         "fi": 2.1
       },
       "source_values": {
-        "k": 107.0,
-        "p": 16.2,
+        "k": 106.0,
+        "p": 15.9,
         "f": 4.7,
         "c": 0.0,
-        "fi": 2.1
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1283,
       "en": "Boal, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 81.0,
@@ -3934,19 +4176,19 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 81.0,
-        "p": 15.5,
+        "k": 80.0,
+        "p": 15.4,
         "f": 2.1,
         "c": 0.0,
-        "fi": 1.3
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1284,
       "en": "Bronze feather back, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 81.0,
@@ -3956,19 +4198,19 @@
         "fi": 2.7
       },
       "source_values": {
-        "k": 81.0,
-        "p": 18.0,
+        "k": 80.0,
+        "p": 17.8,
         "f": 1.0,
         "c": 0.0,
-        "fi": 2.7
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1285,
       "en": "Calbasu, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 96.0,
@@ -3978,19 +4220,19 @@
         "fi": 1.2
       },
       "source_values": {
-        "k": 96.0,
-        "p": 17.2,
+        "k": 95.0,
+        "p": 17.0,
         "f": 3.0,
         "c": 0.0,
-        "fi": 1.2
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1286,
       "en": "Catfish, Bacha, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 122.0,
@@ -4004,15 +4246,15 @@
         "p": 16.1,
         "f": 6.4,
         "c": 0.0,
-        "fi": 2.2
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1287,
       "en": "Catfish, Pabda, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 95.0,
@@ -4023,18 +4265,18 @@
       },
       "source_values": {
         "k": 95.0,
-        "p": 17.4,
+        "p": 17.3,
         "f": 2.8,
         "c": 0.0,
-        "fi": 2.3
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1288,
       "en": "Catla, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 103.0,
@@ -4048,15 +4290,15 @@
         "p": 19.9,
         "f": 2.6,
         "c": 0.0,
-        "fi": 1.3
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1291,
       "en": "Common carp, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 89.0,
@@ -4066,19 +4308,19 @@
         "fi": 1.2
       },
       "source_values": {
-        "k": 89.0,
-        "p": 18.9,
+        "k": 88.0,
+        "p": 18.7,
         "f": 1.5,
         "c": 0.0,
-        "fi": 1.2
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1294,
       "en": "Gangetic ailia, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 117.0,
@@ -4092,15 +4334,15 @@
         "p": 15.3,
         "f": 6.2,
         "c": 0.0,
-        "fi": 2.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1295,
       "en": "Gangetic mystus, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 87.0,
@@ -4110,19 +4352,19 @@
         "fi": 2.4
       },
       "source_values": {
-        "k": 87.0,
-        "p": 15.7,
+        "k": 86.0,
+        "p": 15.4,
         "f": 2.7,
         "c": 0.0,
-        "fi": 2.4
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1296,
       "en": "Giant river-catfish, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 76.0,
@@ -4132,19 +4374,19 @@
         "fi": 1.2
       },
       "source_values": {
-        "k": 76.0,
-        "p": 16.1,
+        "k": 75.0,
+        "p": 15.9,
         "f": 1.3,
         "c": 0.0,
-        "fi": 1.2
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1298,
       "en": "Giant sea perch, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 97.0,
@@ -4154,19 +4396,19 @@
         "fi": 1.7
       },
       "source_values": {
-        "k": 97.0,
+        "k": 96.0,
         "p": 18.6,
         "f": 2.5,
         "c": 0.0,
-        "fi": 1.7
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1299,
       "en": "Goby, Tank goby, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 82.0,
@@ -4176,19 +4418,19 @@
         "fi": 2.7
       },
       "source_values": {
-        "k": 82.0,
-        "p": 14.9,
+        "k": 81.0,
+        "p": 14.7,
         "f": 2.5,
         "c": 0.0,
-        "fi": 2.7
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1300,
       "en": "Hilsha, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 221.0,
@@ -4198,19 +4440,19 @@
         "fi": 1.9
       },
       "source_values": {
-        "k": 221.0,
-        "p": 17.4,
+        "k": 223.0,
+        "p": 18.0,
         "f": 16.8,
         "c": 0.0,
-        "fi": 1.9
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1301,
       "en": "Indian river shad, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 106.0,
@@ -4221,18 +4463,18 @@
       },
       "source_values": {
         "k": 106.0,
-        "p": 15.5,
+        "p": 15.4,
         "f": 4.9,
         "c": 0.0,
-        "fi": 4.4
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1304,
       "en": "Minnow, Finescale razorbelly, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 95.0,
@@ -4243,18 +4485,18 @@
       },
       "source_values": {
         "k": 95.0,
-        "p": 15.4,
+        "p": 15.3,
         "f": 3.7,
         "c": 0.0,
-        "fi": 3.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1306,
       "en": "Minnow, Large scale razorbelly, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 120.0,
@@ -4264,19 +4506,19 @@
         "fi": 2.1
       },
       "source_values": {
-        "k": 120.0,
-        "p": 18.3,
+        "k": 119.0,
+        "p": 18.1,
         "f": 5.2,
         "c": 0.0,
-        "fi": 2.1
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1307,
       "en": "Mrigal carp, eyes included, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 102.0,
@@ -4287,18 +4529,18 @@
       },
       "source_values": {
         "k": 102.0,
-        "p": 18.8,
+        "p": 18.6,
         "f": 3.0,
         "c": 0.0,
-        "fi": 1.6
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1309,
       "en": "Mussel/Clam, mixed species, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 61.0,
@@ -4308,19 +4550,19 @@
         "fi": 0.9
       },
       "source_values": {
-        "k": 61.0,
-        "p": 11.9,
+        "k": 60.0,
+        "p": 11.6,
         "f": 1.5,
         "c": 0.0,
-        "fi": 0.9
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1310,
       "en": "Pangas, without bones, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 162.0,
@@ -4331,19 +4573,19 @@
       },
       "source_values": {
         "k": 162.0,
-        "p": 15.8,
+        "p": 15.9,
         "f": 11.0,
         "c": 0.0,
-        "fi": 1.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1311,
       "en": "Pomfret, Black, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
-      "confidence": 99,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 113.0,
         "p": 19.9,
@@ -4352,19 +4594,19 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 113.0,
-        "p": 19.9,
+        "k": 112.0,
+        "p": 19.6,
         "f": 3.7,
         "c": 0.0,
-        "fi": 1.1
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1312,
       "en": "Pomfret, Chinese Silver, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 103.0,
@@ -4375,18 +4617,18 @@
       },
       "source_values": {
         "k": 103.0,
-        "p": 15.8,
+        "p": 15.9,
         "f": 4.4,
         "c": 0.0,
-        "fi": 1.5
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1320,
       "en": "Prawn, Monsoon river prawn, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 80.0,
@@ -4396,13 +4638,13 @@
         "fi": 1.3
       },
       "source_values": {
-        "k": 80.0,
-        "p": 18.4,
+        "k": 79.0,
+        "p": 18.2,
         "f": 0.7,
         "c": 0.0,
-        "fi": 1.3
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1321,
@@ -4422,9 +4664,9 @@
         "p": 16.6,
         "f": 2.7,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1322,
@@ -4444,15 +4686,15 @@
         "p": 20.6,
         "f": 2.6,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1323,
       "en": "Shrimp, Speckled, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 82.0,
@@ -4462,19 +4704,19 @@
         "fi": 2.0
       },
       "source_values": {
-        "k": 82.0,
-        "p": 17.4,
+        "k": 81.0,
+        "p": 17.0,
         "f": 1.4,
         "c": 0.0,
-        "fi": 2.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1326,
       "en": "Spotted snakehead, raw",
       "cat": "fish",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 92.0,
@@ -4484,13 +4726,13 @@
         "fi": 4.0
       },
       "source_values": {
-        "k": 92.0,
-        "p": 17.6,
+        "k": 91.0,
+        "p": 17.3,
         "f": 2.4,
         "c": 0.0,
-        "fi": 4.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1327,
@@ -4510,9 +4752,9 @@
         "p": 17.2,
         "f": 3.5,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1328,
@@ -4532,9 +4774,9 @@
         "p": 15.3,
         "f": 3.9,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1329,
@@ -4554,9 +4796,9 @@
         "p": 17.7,
         "f": 3.3,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1330,
@@ -4576,9 +4818,9 @@
         "p": 25.0,
         "f": 2.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1331,
@@ -4598,16 +4840,16 @@
         "p": 15.6,
         "f": 4.6,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1332,
       "en": "Small fish fry",
       "cat": "fish",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 107.3,
         "p": 7.8,
@@ -4616,20 +4858,20 @@
         "fi": 0.9
       },
       "source_values": {
-        "k": 107.3,
-        "p": 7.8,
+        "k": 107.0,
+        "p": 7.4,
         "f": 6.1,
         "c": 5.3,
         "fi": 0.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1333,
       "en": "Fish ball* Macher",
       "cat": "fish",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 220.6,
         "p": 18.4,
@@ -4638,13 +4880,13 @@
         "fi": 5.0
       },
       "source_values": {
-        "k": 220.6,
-        "p": 18.4,
+        "k": 220.0,
+        "p": 15.7,
         "f": 6.7,
         "c": 21.7,
         "fi": 5.0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1334,
@@ -4664,16 +4906,16 @@
         "p": 20.4,
         "f": 3.6,
         "c": 3.9,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1335,
       "en": "Beef, meat, lean, boneless, raw",
       "cat": "meat",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 103.0,
         "p": 20.7,
@@ -4686,9 +4928,9 @@
         "p": 20.7,
         "f": 2.3,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1336,
@@ -4708,9 +4950,9 @@
         "p": 19.7,
         "f": 14.2,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1337,
@@ -4730,9 +4972,9 @@
         "p": 20.3,
         "f": 5.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1338,
@@ -4752,16 +4994,16 @@
         "p": 19.4,
         "f": 1.9,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1339,
       "en": "Chicken breast, without skin, raw",
       "cat": "meat",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 106.0,
         "p": 22.3,
@@ -4774,16 +5016,16 @@
         "p": 22.3,
         "f": 1.8,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1340,
       "en": "Chicken leg, without skin, raw",
       "cat": "meat",
       "action": "verified_unchanged",
-      "confidence": 99,
+      "confidence": 100,
       "v5_8_values": {
         "k": 128.0,
         "p": 19.2,
@@ -4796,9 +5038,9 @@
         "p": 19.2,
         "f": 5.7,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1341,
@@ -4818,9 +5060,9 @@
         "p": 16.9,
         "f": 4.8,
         "c": 0.7,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1342,
@@ -4840,9 +5082,9 @@
         "p": 21.6,
         "f": 4.8,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1344,
@@ -4862,9 +5104,9 @@
         "p": 21.4,
         "f": 3.6,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1345,
@@ -4884,9 +5126,9 @@
         "p": 18.5,
         "f": 13.5,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1346,
@@ -4906,9 +5148,9 @@
         "p": 19.3,
         "f": 7.5,
         "c": 1.3,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1348,
@@ -4928,9 +5170,9 @@
         "p": 18.7,
         "f": 4.4,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1349,
@@ -4952,14 +5194,14 @@
         "c": 6.6,
         "fi": 1.8
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1350,
       "en": "Egg, chicken, farmed, raw",
       "cat": "meat",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 138.4,
         "p": 14.4,
@@ -4968,20 +5210,20 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 138.4,
-        "p": 14.4,
+        "k": 139.0,
+        "p": 14.5,
         "f": 9.0,
         "c": 0.0,
         "fi": 0.8
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1351,
       "en": "Egg, chicken, native, raw",
       "cat": "meat",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 55.0,
         "p": 11.6,
@@ -4990,20 +5232,20 @@
         "fi": 11.0
       },
       "source_values": {
-        "k": 156.5,
-        "p": 13.0,
+        "k": 158.0,
+        "p": 13.3,
         "f": 11.6,
         "c": 0.0,
         "fi": 0.9
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1353,
       "en": "Egg, duck, whole, raw",
       "cat": "meat",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 78.2,
         "p": 14.3,
@@ -5012,42 +5254,20 @@
         "fi": 1.1
       },
       "source_values": {
-        "k": 186.9,
-        "p": 13.1,
+        "k": 188.0,
+        "p": 13.5,
         "f": 14.3,
         "c": 1.4,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
-    },
-    {
-      "id": 1355,
-      "en": "Egg, chicken, native, boiled* (without salt)",
-      "cat": "meat",
-      "action": "rebuilt",
-      "confidence": 97,
-      "v5_8_values": {
-        "k": 45.0,
-        "p": 13.2,
-        "f": 0.0,
-        "c": 0.0,
-        "fi": 1.0
-      },
-      "source_values": {
-        "k": 178.1,
-        "p": 14.8,
-        "f": 13.2,
-        "c": 0.0,
-        "fi": 0.0
-      },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1356,
       "en": "Egg, duck, whole, boiled* (without salt)",
       "cat": "meat",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 100,
       "v5_8_values": {
         "k": 88.9,
         "p": 16.2,
@@ -5056,20 +5276,20 @@
         "fi": 1.2
       },
       "source_values": {
-        "k": 212.5,
-        "p": 15.1,
+        "k": 214.0,
+        "p": 15.3,
         "f": 16.2,
         "c": 1.6,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1357,
       "en": "Buttermilk, fluid, low fat",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 32.7,
         "p": 3.5,
@@ -5078,20 +5298,20 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 32.7,
-        "p": 3.5,
+        "k": 33.0,
+        "p": 3.4,
         "f": 0.7,
         "c": 3.1,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1358,
       "en": "Cheese, cottage, 25% fat",
       "cat": "dairy",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 144.0,
         "p": 25.1,
@@ -5100,20 +5320,20 @@
         "fi": 4.6
       },
       "source_values": {
-        "k": 344.2,
-        "p": 24.2,
+        "k": 346.0,
+        "p": 24.6,
         "f": 25.1,
         "c": 5.4,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1359,
       "en": "Curd, sweetened, whole milk",
       "cat": "dairy",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 96.0,
         "p": 4.0,
@@ -5122,20 +5342,20 @@
         "fi": 0.8
       },
       "source_values": {
-        "k": 94.6,
+        "k": 94.0,
         "p": 3.2,
         "f": 4.0,
         "c": 11.4,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1360,
       "en": "Milk, buffalo, whole fat",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 100.6,
         "p": 3.6,
@@ -5144,20 +5364,42 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 100.6,
-        "p": 3.6,
+        "k": 101.0,
+        "p": 3.8,
         "f": 7.5,
         "c": 4.7,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1361,
+      "en": "Milk, cow, powder, skimmed",
+      "cat": "dairy",
+      "action": "rebuilt",
+      "confidence": 100,
+      "v5_8_values": {
+        "k": 520.0,
+        "p": 1.0,
+        "f": 49.8,
+        "c": 0.0,
+        "fi": 7.9
+      },
+      "source_values": {
+        "k": 358.0,
+        "p": 37.6,
+        "f": 1.0,
+        "c": 49.8,
+        "fi": 0
+      },
+      "tier": "pdf"
     },
     {
       "id": 1362,
       "en": "Milk, cow, powder, whole",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 99,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 496.0,
         "p": 26.3,
@@ -5166,20 +5408,20 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 496.0,
-        "p": 26.3,
+        "k": 497.0,
+        "p": 26.6,
         "f": 26.7,
-        "c": 38.4,
-        "fi": 0.0
+        "c": 37.5,
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1363,
       "en": "Milk, cow, skimmed",
       "cat": "dairy",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 100,
       "v5_8_values": {
         "k": 29.9,
         "p": 3.1,
@@ -5188,20 +5430,20 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 29.9,
-        "p": 3.2,
+        "k": 30.0,
+        "p": 3.1,
         "f": 0.1,
         "c": 4.1,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1364,
       "en": "Milk, cow, whole fat (pasteurized, UTH)",
       "cat": "dairy",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 100,
       "v5_8_values": {
         "k": 63.0,
         "p": 3.7,
@@ -5210,20 +5452,20 @@
         "fi": 0.6
       },
       "source_values": {
-        "k": 62.9,
+        "k": 63.0,
         "p": 3.1,
         "f": 3.7,
         "c": 4.3,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1365,
       "en": "Milk, goat, combined breeds",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 68.1,
         "p": 3.5,
@@ -5232,20 +5474,20 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 68.1,
+        "k": 68.0,
         "p": 3.5,
         "f": 4.1,
         "c": 4.3,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1366,
       "en": "Milk, human, colostrum, raw",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 57.8,
         "p": 2.0,
@@ -5254,19 +5496,41 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 57.8,
+        "k": 58.0,
         "p": 2.0,
         "f": 2.6,
         "c": 6.6,
+        "fi": 0
+      },
+      "tier": "pdf"
+    },
+    {
+      "id": 1367,
+      "en": "Milk, human, mature, raw",
+      "cat": "dairy",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 62.1,
+        "p": 0.0,
+        "f": 4.0,
+        "c": 7.2,
         "fi": 0.0
       },
-      "tier": "T1_kJ"
+      "source_values": {
+        "k": 69.0,
+        "p": 1.2,
+        "f": 4.0,
+        "c": 7.2,
+        "fi": 0
+      },
+      "tier": "pdf"
     },
     {
       "id": 1368,
       "en": "Butter, salted",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 717.0,
@@ -5276,19 +5540,19 @@
         "fi": 2.1
       },
       "source_values": {
-        "k": 717.0,
+        "k": 733.0,
         "p": 0.9,
-        "f": 81.1,
-        "c": 0.1,
-        "fi": 2.1
+        "f": 81.0,
+        "c": 0.2,
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1369,
       "en": "Cottonseed oil",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5298,19 +5562,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1370,
       "en": "Fish oil, cod liver",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 902.0,
@@ -5320,19 +5584,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 902.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1371,
       "en": "Ghee, cow",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 900.0,
@@ -5342,13 +5606,13 @@
         "fi": 0.1
       },
       "source_values": {
-        "k": 900.0,
-        "p": 0.3,
-        "f": 99.5,
+        "k": 898.0,
+        "p": 0.0,
+        "f": 99.8,
         "c": 0.0,
-        "fi": 0.1
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1372,
@@ -5368,16 +5632,16 @@
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1373,
       "en": "Margarine Margarine",
       "cat": "dairy",
-      "action": "verified_unchanged",
-      "confidence": 99,
+      "action": "rebuilt",
+      "confidence": 100,
       "v5_8_values": {
         "k": 718.0,
         "p": 0.2,
@@ -5386,19 +5650,19 @@
         "fi": 2.3
       },
       "source_values": {
-        "k": 718.0,
-        "p": 0.2,
-        "f": 80.4,
-        "c": 0.2,
-        "fi": 2.3
+        "k": 750.0,
+        "p": 0.3,
+        "f": 83.3,
+        "c": 0.0,
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1374,
       "en": "Mayonnaise, salted",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 680.0,
@@ -5408,19 +5672,19 @@
         "fi": 1.5
       },
       "source_values": {
-        "k": 680.0,
-        "p": 1.1,
-        "f": 74.9,
-        "c": 0.6,
-        "fi": 1.5
+        "k": 732.0,
+        "p": 1.5,
+        "f": 80.6,
+        "c": 0.0,
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1375,
       "en": "Mustard oil",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5430,19 +5694,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1376,
       "en": "Palm oil",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5452,19 +5716,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1377,
       "en": "Peanut oil China badam",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5474,19 +5738,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1378,
       "en": "Sesame oil",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5496,19 +5760,19 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1379,
       "en": "Soybean oil",
       "cat": "dairy",
-      "action": "verified_unchanged",
+      "action": "rebuilt",
       "confidence": 99,
       "v5_8_values": {
         "k": 884.0,
@@ -5518,42 +5782,42 @@
         "fi": 0.0
       },
       "source_values": {
-        "k": 884.0,
+        "k": 900.0,
         "p": 0.0,
         "f": 100.0,
         "c": 0.0,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
-      "id": 1381,
-      "en": "Coffee, instant, with sugar and milk",
+      "id": 1382,
+      "en": "Coffee, powder",
       "cat": "beverage",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
-        "k": 60.0,
-        "p": 0.8,
-        "f": 6.8,
-        "c": 0.0,
-        "fi": 0.3
-      },
-      "source_values": {
-        "k": 38.2,
-        "p": 1.0,
-        "f": 0.8,
-        "c": 6.8,
+        "k": 78.9,
+        "p": 0.0,
+        "f": 0.5,
+        "c": 75.4,
         "fi": 0.0
       },
-      "tier": "T1_kJ"
+      "source_values": {
+        "k": 355.0,
+        "p": 12.2,
+        "f": 0.5,
+        "c": 75.4,
+        "fi": 0
+      },
+      "tier": "pdf"
     },
     {
       "id": 1383,
       "en": "Soft drinks, carbonated",
       "cat": "beverage",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 75.0,
         "p": 0.0,
@@ -5562,20 +5826,20 @@
         "fi": 0.1
       },
       "source_values": {
-        "k": 41.8,
-        "p": 0.1,
+        "k": 41.0,
+        "p": 0.0,
         "f": 0.0,
         "c": 10.3,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1384,
       "en": "Soya milk (not sweetened)",
       "cat": "beverage",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
         "k": 53.8,
         "p": 3.1,
@@ -5584,64 +5848,42 @@
         "fi": 0.5
       },
       "source_values": {
-        "k": 53.8,
-        "p": 3.2,
+        "k": 54.0,
+        "p": 2.8,
         "f": 2.4,
         "c": 4.9,
         "fi": 0.5
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1385,
       "en": "Sugar cane juice",
       "cat": "beverage",
-      "action": "verified_unchanged",
-      "confidence": 97,
-      "v5_8_values": {
-        "k": 33.2,
-        "p": 0.8,
-        "f": 0.0,
-        "c": 7.5,
-        "fi": 0.0
-      },
-      "source_values": {
-        "k": 33.2,
-        "p": 0.8,
-        "f": 0.0,
-        "c": 7.5,
-        "fi": 0.0
-      },
-      "tier": "T1_kJ"
-    },
-    {
-      "id": 1386,
-      "en": "Tea, milk tea (with sugar and milk powder)",
-      "cat": "beverage",
       "action": "rebuilt",
-      "confidence": 97,
+      "confidence": 99,
       "v5_8_values": {
-        "k": 72.0,
+        "k": 33.2,
         "p": 0.8,
-        "f": 7.6,
-        "c": 0.2,
-        "fi": 0.3
+        "f": 0.0,
+        "c": 7.5,
+        "fi": 0.0
       },
       "source_values": {
-        "k": 41.1,
-        "p": 0.9,
-        "f": 0.8,
-        "c": 7.6,
-        "fi": 0.2
+        "k": 33.0,
+        "p": 0.7,
+        "f": 0.0,
+        "c": 7.5,
+        "fi": 0
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
     },
     {
       "id": 1387,
       "en": "Tea, infusion (with sugar)",
       "cat": "beverage",
-      "action": "verified_unchanged",
-      "confidence": 97,
+      "action": "rebuilt",
+      "confidence": 99,
       "v5_8_values": {
         "k": 29.9,
         "p": 0.4,
@@ -5650,13 +5892,35 @@
         "fi": 0.1
       },
       "source_values": {
-        "k": 29.9,
-        "p": 0.4,
+        "k": 29.0,
+        "p": 0.2,
         "f": 0.0,
         "c": 7.1,
         "fi": 0.1
       },
-      "tier": "T1_kJ"
+      "tier": "pdf"
+    },
+    {
+      "id": 1388,
+      "en": "Tea, powder",
+      "cat": "beverage",
+      "action": "rebuilt",
+      "confidence": 99,
+      "v5_8_values": {
+        "k": 83.7,
+        "p": 0.0,
+        "f": 0.0,
+        "c": 49.5,
+        "fi": 8.5
+      },
+      "source_values": {
+        "k": 296.0,
+        "p": 20.2,
+        "f": 0.0,
+        "c": 49.5,
+        "fi": 8.5
+      },
+      "tier": "pdf"
     },
     {
       "id": 1389,
@@ -5676,9 +5940,9 @@
         "p": 5.2,
         "f": 0.0,
         "c": 37.8,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1390,
@@ -5700,7 +5964,7 @@
         "c": 4.1,
         "fi": 4.7
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1391,
@@ -5722,7 +5986,7 @@
         "c": 81.1,
         "fi": 0.2
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1392,
@@ -5742,9 +6006,9 @@
         "p": 0.5,
         "f": 0.1,
         "c": 95.4,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1393,
@@ -5766,29 +6030,7 @@
         "c": 85.7,
         "fi": 0.3
       },
-      "tier": "T0_correct"
-    },
-    {
-      "id": 1394,
-      "en": "Jaggery, liquid, date palm",
-      "cat": "sweet",
-      "action": "verified_unchanged",
-      "confidence": 99,
-      "v5_8_values": {
-        "k": 86.0,
-        "p": 0.3,
-        "f": 0.1,
-        "c": 20.9,
-        "fi": 0.1
-      },
-      "source_values": {
-        "k": 86.0,
-        "p": 0.3,
-        "f": 0.1,
-        "c": 20.9,
-        "fi": 0.1
-      },
-      "tier": "T0_correct"
+      "tier": "pdf"
     },
     {
       "id": 1395,
@@ -5808,9 +6050,9 @@
         "p": 0.0,
         "f": 0.0,
         "c": 99.5,
-        "fi": 0.0
+        "fi": 0
       },
-      "tier": "T0_correct"
+      "tier": "pdf"
     }
   ]
 }

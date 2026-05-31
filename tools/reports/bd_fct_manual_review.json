@@ -1,385 +1,53 @@
 {
-  "total": 19,
+  "total": 8,
   "records": [
     {
-      "id": 1124,
-      "en": "Garlic, raw",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 623.0,
-        "p": 0.6,
-        "f": 27.6,
-        "c": 2.1,
-        "fi": 1.3
-      },
-      "reconstructed": {
-        "k": 623.0,
-        "p": 0.0,
-        "f": 27.6,
-        "c": 2.1,
-        "fi": 1.3
-      }
+      "id": 1077,
+      "en": "Rice flakes, white grain, raw",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1141,
-      "en": "Tomato, red, ripe, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 16.0,
-        "p": 1.1,
-        "f": 0.2,
-        "c": 1.4,
-        "fi": 1.7
-      },
-      "reconstructed": {
-        "k": 16.0,
-        "p": 1.3,
-        "f": 1.1,
-        "c": 0.2,
-        "fi": 1.4
-      }
+      "id": 1195,
+      "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1152,
-      "en": "Pumpkin, boiled* (without salt)",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 29.0,
-        "p": 2.2,
-        "f": 0.5,
-        "c": 2.1,
-        "fi": 3.8
-      },
-      "reconstructed": {
-        "k": 29.0,
-        "p": 1.8,
-        "f": 2.2,
-        "c": 0.5,
-        "fi": 2.1
-      }
+      "id": 1196,
+      "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1159,
-      "en": "Amaranth, leaves, red, raw",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 32.0,
-        "p": 4.5,
-        "f": 0.3,
-        "c": 0.5,
-        "fi": 4.2
-      },
-      "reconstructed": {
-        "k": 32.0,
-        "p": 0.0,
-        "f": 0.3,
-        "c": 0.5,
-        "fi": 4.2
-      }
+      "id": 1202,
+      "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1160,
-      "en": "Amaranth, leaves, green, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 25.0,
-        "p": 2.0,
-        "f": 0.3,
-        "c": 1.5,
-        "fi": 4.4
-      },
-      "reconstructed": {
-        "k": 25.0,
-        "p": 1.4,
-        "f": 2.0,
-        "c": 0.3,
-        "fi": 1.5
-      }
+      "id": 1355,
+      "en": "Egg, chicken, native, boiled* (without salt)",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1165,
-      "en": "Bottle gourd leaves, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 26.0,
-        "p": 2.5,
-        "f": 0.6,
-        "c": 0.6,
-        "fi": 4.4
-      },
-      "reconstructed": {
-        "k": 26.0,
-        "p": 0.3,
-        "f": 2.5,
-        "c": 0.6,
-        "fi": 0.6
-      }
+      "id": 1381,
+      "en": "Coffee, instant, with sugar and milk",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1175,
-      "en": "Jute leaves, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 32.0,
-        "p": 2.9,
-        "f": 0.3,
-        "c": 1.7,
-        "fi": 5.8
-      },
-      "reconstructed": {
-        "k": 32.0,
-        "p": 1.2,
-        "f": 2.9,
-        "c": 0.3,
-        "fi": 1.7
-      }
+      "id": 1386,
+      "en": "Tea, milk tea (with sugar and milk powder)",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     },
     {
-      "id": 1180,
-      "en": "Sweet potato leaves, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 45.0,
-        "p": 4.0,
-        "f": 0.8,
-        "c": 1.8,
-        "fi": 7.3
-      },
-      "reconstructed": {
-        "k": 45.0,
-        "p": 1.4,
-        "f": 4.0,
-        "c": 0.8,
-        "fi": 1.8
-      }
-    },
-    {
-      "id": 1181,
-      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 45.0,
-        "p": 3.9,
-        "f": 0.4,
-        "c": 2.8,
-        "fi": 7.7
-      },
-      "reconstructed": {
-        "k": 45.0,
-        "p": 2.1,
-        "f": 3.9,
-        "c": 0.4,
-        "fi": 2.8
-      }
-    },
-    {
-      "id": 1183,
-      "en": "Sweet potato leaves, SP8, light green, mature, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 50.0,
-        "p": 3.6,
-        "f": 0.4,
-        "c": 3.9,
-        "fi": 8.0
-      },
-      "reconstructed": {
-        "k": 50.0,
-        "p": 4.0,
-        "f": 3.6,
-        "c": 0.4,
-        "fi": 3.9
-      }
-    },
-    {
-      "id": 1229,
-      "en": "Indian pennywort, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 37.0,
-        "p": 2.3,
-        "f": 0.5,
-        "c": 1.6,
-        "fi": 8.7
-      },
-      "reconstructed": {
-        "k": 37.0,
-        "p": 3.6,
-        "f": 2.3,
-        "c": 0.5,
-        "fi": 1.6
-      }
-    },
-    {
-      "id": 1231,
-      "en": "Lemon peel, raw",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 65.0,
-        "p": 1.6,
-        "f": 0.4,
-        "c": 8.7,
-        "fi": 10.6
-      },
-      "reconstructed": {
-        "k": 65.0,
-        "p": 12.2,
-        "f": 1.6,
-        "c": 0.4,
-        "fi": 8.7
-      }
-    },
-    {
-      "id": 1244,
-      "en": "Dates, dried",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 1270.0,
-        "p": 0.6,
-        "f": 67.5,
-        "c": 8.3,
-        "fi": 3.4
-      },
-      "reconstructed": {
-        "k": 1270.0,
-        "p": 0.0,
-        "f": 67.5,
-        "c": 8.3,
-        "fi": 3.4
-      }
-    },
-    {
-      "id": 1272,
-      "en": "Tamarind, pulp, ripe, raw",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 1140.0,
-        "p": 0.4,
-        "f": 60.8,
-        "c": 5.1,
-        "fi": 2.6
-      },
-      "reconstructed": {
-        "k": 1140.0,
-        "p": 0.0,
-        "f": 60.8,
-        "c": 5.1,
-        "fi": 2.6
-      }
-    },
-    {
-      "id": 1274,
-      "en": "Wood apple, ripe, raw",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 469.0,
-        "p": 0.3,
-        "f": 20.9,
-        "c": 7.0,
-        "fi": 0.6
-      },
-      "reconstructed": {
-        "k": 469.0,
-        "p": 0.0,
-        "f": 20.9,
-        "c": 7.0,
-        "fi": 0.6
-      }
-    },
-    {
-      "id": 1361,
-      "en": "Milk, cow, powder, skimmed",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 1520.0,
-        "p": 1.0,
-        "f": 49.8,
-        "c": 0.0,
-        "fi": 7.9
-      },
-      "reconstructed": {
-        "k": 1520.0,
-        "p": 0.0,
-        "f": 49.8,
-        "c": 0.0,
-        "fi": 7.9
-      }
-    },
-    {
-      "id": 1367,
-      "en": "Milk, human, mature, raw",
-      "reason": "Reconstruction confidence 50% < 95%",
-      "tier": "TX_unresolvable",
-      "v5_3_raw": {
-        "k": 260.0,
-        "p": 4.0,
-        "f": 7.2,
-        "c": 0.0,
-        "fi": 0.2
-      },
-      "reconstructed": {
-        "k": 260.0,
-        "p": 0.0,
-        "f": 7.2,
-        "c": 0.0,
-        "fi": 0.2
-      }
-    },
-    {
-      "id": 1382,
-      "en": "Coffee, powder",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 330.0,
-        "p": 0.5,
-        "f": 75.4,
-        "c": 0.0,
-        "fi": 8.8
-      },
-      "reconstructed": {
-        "k": 330.0,
-        "p": 6.0,
-        "f": 0.5,
-        "c": 75.4,
-        "fi": 0.0
-      }
-    },
-    {
-      "id": 1388,
-      "en": "Tea, powder",
-      "reason": "Reconstruction confidence 92% < 95%",
-      "tier": "T2_macro",
-      "v5_3_raw": {
-        "k": 350.0,
-        "p": 0.0,
-        "f": 49.5,
-        "c": 8.5,
-        "fi": 16.0
-      },
-      "reconstructed": {
-        "k": 350.0,
-        "p": 38.0,
-        "f": 0.0,
-        "c": 49.5,
-        "fi": 8.5
-      }
+      "id": 1394,
+      "en": "Jaggery, liquid, date palm",
+      "reason": "No source match with >=95% confidence",
+      "match_confidence": 0
     }
   ]
 }
