@@ -1,0 +1,1274 @@
+[
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1660.0,
+    "p": 20.9,
+    "c": 21.0,
+    "f": 28.6,
+    "fi": 10.0,
+    "violations": [
+      "k=1660.0>900kcal (not a fat food)"
+    ]
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1620.0,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 87.0,
+    "fi": 0.4,
+    "violations": [
+      "k=1620.0>900kcal (not a fat food)",
+      "fat=87.0>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1540.0,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 82.7,
+    "fi": 1.8,
+    "violations": [
+      "k=1540.0>900kcal (not a fat food)",
+      "fat=82.7>60g/100g (implausible for grain)",
+      "fiber=1.8>carbs=1.4"
+    ]
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1470.0,
+    "p": 1.4,
+    "c": 3.9,
+    "f": 70.6,
+    "fi": 0.5,
+    "violations": [
+      "k=1470.0>900kcal (not a fat food)",
+      "fat=70.6>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1480.0,
+    "p": 3.3,
+    "c": 6.3,
+    "f": 66.9,
+    "fi": 1.5,
+    "violations": [
+      "k=1480.0>900kcal (not a fat food)",
+      "fat=66.9>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1470.0,
+    "p": 0.6,
+    "c": 3.2,
+    "f": 74.9,
+    "fi": 0.7,
+    "violations": [
+      "k=1470.0>900kcal (not a fat food)",
+      "fat=74.9>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1470.0,
+    "p": 1.6,
+    "c": 4.4,
+    "f": 70.3,
+    "fi": 0.8,
+    "violations": [
+      "k=1470.0>900kcal (not a fat food)",
+      "fat=70.3>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1450.0,
+    "p": 2.9,
+    "c": 12.2,
+    "f": 62.0,
+    "fi": 1.6,
+    "violations": [
+      "k=1450.0>900kcal (not a fat food)",
+      "fat=62.0>60g/100g (implausible for grain)"
+    ]
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "s": "100g",
+    "k": 1040.0,
+    "p": 1.2,
+    "c": 3.1,
+    "f": 49.7,
+    "fi": 1.1,
+    "violations": [
+      "k=1040.0>900kcal (not a fat food)"
+    ]
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 91.0,
+    "p": 0.1,
+    "c": 1.2,
+    "f": 3.7,
+    "fi": 1.8,
+    "violations": [
+      "fiber=1.8>carbs=1.2"
+    ]
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 18.0,
+    "p": 1.4,
+    "c": 1.3,
+    "f": 0.3,
+    "fi": 2.4,
+    "violations": [
+      "fiber=2.4>carbs=1.3"
+    ]
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 16.0,
+    "p": 1.1,
+    "c": 1.4,
+    "f": 0.2,
+    "fi": 1.7,
+    "violations": [
+      "fiber=1.7>carbs=1.4"
+    ]
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 29.0,
+    "p": 2.2,
+    "c": 2.1,
+    "f": 0.5,
+    "fi": 3.8,
+    "violations": [
+      "fiber=3.8>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 88.0,
+    "p": 8.4,
+    "c": 5.7,
+    "f": 1.8,
+    "fi": 7.9,
+    "violations": [
+      "fiber=7.9>carbs=5.7"
+    ]
+  },
+  {
+    "id": 1159,
+    "en": "Amaranth, leaves, red, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 32.0,
+    "p": 4.5,
+    "c": 0.5,
+    "f": 0.3,
+    "fi": 4.2,
+    "violations": [
+      "fiber=4.2>carbs=0.5"
+    ]
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 25.0,
+    "p": 2.0,
+    "c": 1.5,
+    "f": 0.3,
+    "fi": 4.4,
+    "violations": [
+      "fiber=4.4>carbs=1.5"
+    ]
+  },
+  {
+    "id": 1162,
+    "en": "Beet greens leaves",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 31.0,
+    "p": 2.8,
+    "c": 2.1,
+    "f": 0.5,
+    "fi": 3.7,
+    "violations": [
+      "fiber=3.7>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 26.0,
+    "p": 2.5,
+    "c": 0.6,
+    "f": 0.6,
+    "fi": 4.4,
+    "violations": [
+      "fiber=4.4>carbs=0.6"
+    ]
+  },
+  {
+    "id": 1171,
+    "en": "Drumstick, leaves, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 72.0,
+    "p": 6.7,
+    "c": 4.6,
+    "f": 1.8,
+    "fi": 5.2,
+    "violations": [
+      "fiber=5.2>carbs=4.6"
+    ]
+  },
+  {
+    "id": 1174,
+    "en": "Indian spinach, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 25.0,
+    "p": 2.4,
+    "c": 2.1,
+    "f": 0.3,
+    "fi": 2.2,
+    "violations": [
+      "fiber=2.2>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 32.0,
+    "p": 2.9,
+    "c": 1.7,
+    "f": 0.3,
+    "fi": 5.8,
+    "violations": [
+      "fiber=5.8>carbs=1.7"
+    ]
+  },
+  {
+    "id": 1178,
+    "en": "Slender amaranth leaves, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 47.0,
+    "p": 4.1,
+    "c": 4.3,
+    "f": 0.5,
+    "fi": 4.4,
+    "violations": [
+      "fiber=4.4>carbs=4.3"
+    ]
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 26.0,
+    "p": 3.0,
+    "c": 0.9,
+    "f": 0.5,
+    "fi": 2.9,
+    "violations": [
+      "fiber=2.9>carbs=0.9"
+    ]
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 45.0,
+    "p": 4.0,
+    "c": 1.8,
+    "f": 0.8,
+    "fi": 7.3,
+    "violations": [
+      "fiber=7.3>carbs=1.8"
+    ]
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 45.0,
+    "p": 3.9,
+    "c": 2.8,
+    "f": 0.4,
+    "fi": 7.7,
+    "violations": [
+      "fiber=7.7>carbs=2.8"
+    ]
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 50.0,
+    "p": 3.6,
+    "c": 3.9,
+    "f": 0.4,
+    "fi": 8.0,
+    "violations": [
+      "fiber=8.0>carbs=3.9"
+    ]
+  },
+  {
+    "id": 1188,
+    "en": "Spinach, boiled* (without salt)",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 47.0,
+    "p": 5.4,
+    "c": 1.6,
+    "f": 0.9,
+    "fi": 5.3,
+    "violations": [
+      "fiber=5.3>carbs=1.6"
+    ]
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 243.0,
+    "p": 4.0,
+    "c": 27.5,
+    "f": 1.2,
+    "fi": 53.1,
+    "violations": [
+      "fiber=53.1>carbs=27.5"
+    ]
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 267.0,
+    "p": 5.2,
+    "c": 27.4,
+    "f": 8.9,
+    "fi": 28.1,
+    "violations": [
+      "fiber=28.1>carbs=27.4"
+    ]
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 336.0,
+    "p": 14.1,
+    "c": 13.4,
+    "f": 16.1,
+    "fi": 40.8,
+    "violations": [
+      "fiber=40.8>carbs=13.4"
+    ]
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 329.0,
+    "p": 15.8,
+    "c": 13.0,
+    "f": 14.9,
+    "fi": 39.8,
+    "violations": [
+      "fiber=39.8>carbs=13.0"
+    ]
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 37.0,
+    "p": 2.3,
+    "c": 1.6,
+    "f": 0.5,
+    "fi": 8.7,
+    "violations": [
+      "fiber=8.7>carbs=1.6"
+    ]
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 65.0,
+    "p": 1.6,
+    "c": 8.7,
+    "f": 0.4,
+    "fi": 10.6,
+    "violations": [
+      "fiber=10.6>carbs=8.7"
+    ]
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 1980.0,
+    "p": 36.4,
+    "c": 19.0,
+    "f": 21.1,
+    "fi": 1.7,
+    "violations": [
+      "k=1980.0>900kcal (not a fat food)"
+    ]
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "s": "100g",
+    "k": 1400.0,
+    "p": 8.4,
+    "c": 21.1,
+    "f": 47.3,
+    "fi": 4.8,
+    "violations": [
+      "k=1400.0>900kcal (not a fat food)"
+    ]
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "cat": "fruit",
+    "s": "100g",
+    "k": 1270.0,
+    "p": 0.6,
+    "c": 8.3,
+    "f": 67.5,
+    "fi": 3.4,
+    "violations": [
+      "k=1270.0>900kcal (not a fat food)",
+      "fat=67.5>60g/100g (implausible for fruit)"
+    ]
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "cat": "fruit",
+    "s": "100g",
+    "k": 77.0,
+    "p": 0.5,
+    "c": 0.5,
+    "f": 8.5,
+    "fi": 0.6,
+    "violations": [
+      "fiber=0.6>carbs=0.5"
+    ]
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "cat": "fruit",
+    "s": "100g",
+    "k": 1140.0,
+    "p": 0.4,
+    "c": 5.1,
+    "f": 60.8,
+    "fi": 2.6,
+    "violations": [
+      "k=1140.0>900kcal (not a fat food)",
+      "fat=60.8>60g/100g (implausible for fruit)"
+    ]
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "cat": "fish",
+    "s": "100g",
+    "k": 332.0,
+    "p": 72.0,
+    "c": 0.0,
+    "f": 4.9,
+    "fi": 11.9,
+    "violations": [
+      "protein=72.0>60g/100g",
+      "fiber=11.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1276,
+    "en": "Anchovy, Gangetic hairfin, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 105.0,
+    "p": 17.7,
+    "c": 0.0,
+    "f": 3.8,
+    "fi": 3.0,
+    "violations": [
+      "fiber=3.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1278,
+    "en": "Anchovy, Scaly hairfin, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 102.0,
+    "p": 19.4,
+    "c": 0.0,
+    "f": 2.7,
+    "fi": 2.8,
+    "violations": [
+      "fiber=2.8>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1280,
+    "en": "Barb, Olive, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 174.0,
+    "p": 17.2,
+    "c": 0.0,
+    "f": 11.7,
+    "fi": 1.3,
+    "violations": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1282,
+    "en": "Bata, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 107.0,
+    "p": 16.2,
+    "c": 0.0,
+    "f": 4.7,
+    "fi": 2.1,
+    "violations": [
+      "fiber=2.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1283,
+    "en": "Boal, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 81.0,
+    "p": 15.5,
+    "c": 0.0,
+    "f": 2.1,
+    "fi": 1.3,
+    "violations": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1284,
+    "en": "Bronze feather back, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 81.0,
+    "p": 18.0,
+    "c": 0.0,
+    "f": 1.0,
+    "fi": 2.7,
+    "violations": [
+      "fiber=2.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1285,
+    "en": "Calbasu, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 96.0,
+    "p": 17.2,
+    "c": 0.0,
+    "f": 3.0,
+    "fi": 1.2,
+    "violations": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 122.0,
+    "p": 16.1,
+    "c": 0.0,
+    "f": 6.4,
+    "fi": 2.2,
+    "violations": [
+      "fiber=2.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1287,
+    "en": "Catfish, Pabda, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 95.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 2.8,
+    "fi": 2.3,
+    "violations": [
+      "fiber=2.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1288,
+    "en": "Catla, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 103.0,
+    "p": 19.9,
+    "c": 0.0,
+    "f": 2.6,
+    "fi": 1.3,
+    "violations": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1291,
+    "en": "Common carp, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 89.0,
+    "p": 18.9,
+    "c": 0.0,
+    "f": 1.5,
+    "fi": 1.2,
+    "violations": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 117.0,
+    "p": 15.3,
+    "c": 0.0,
+    "f": 6.2,
+    "fi": 2.0,
+    "violations": [
+      "fiber=2.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1295,
+    "en": "Gangetic mystus, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 87.0,
+    "p": 15.7,
+    "c": 0.0,
+    "f": 2.7,
+    "fi": 2.4,
+    "violations": [
+      "fiber=2.4>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1296,
+    "en": "Giant river-catfish, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 76.0,
+    "p": 16.1,
+    "c": 0.0,
+    "f": 1.3,
+    "fi": 1.2,
+    "violations": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1298,
+    "en": "Giant sea perch, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 97.0,
+    "p": 18.6,
+    "c": 0.0,
+    "f": 2.5,
+    "fi": 1.7,
+    "violations": [
+      "fiber=1.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1299,
+    "en": "Goby, Tank goby, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 82.0,
+    "p": 14.9,
+    "c": 0.0,
+    "f": 2.5,
+    "fi": 2.7,
+    "violations": [
+      "fiber=2.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1300,
+    "en": "Hilsha, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 221.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 16.8,
+    "fi": 1.9,
+    "violations": [
+      "fiber=1.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1301,
+    "en": "Indian river shad, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 106.0,
+    "p": 15.5,
+    "c": 0.0,
+    "f": 4.9,
+    "fi": 4.4,
+    "violations": [
+      "fiber=4.4>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1304,
+    "en": "Minnow, Finescale razorbelly, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 95.0,
+    "p": 15.4,
+    "c": 0.0,
+    "f": 3.7,
+    "fi": 3.0,
+    "violations": [
+      "fiber=3.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1306,
+    "en": "Minnow, Large scale razorbelly, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 120.0,
+    "p": 18.3,
+    "c": 0.0,
+    "f": 5.2,
+    "fi": 2.1,
+    "violations": [
+      "fiber=2.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1307,
+    "en": "Mrigal carp, eyes included, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 102.0,
+    "p": 18.8,
+    "c": 0.0,
+    "f": 3.0,
+    "fi": 1.6,
+    "violations": [
+      "fiber=1.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1309,
+    "en": "Mussel/Clam, mixed species, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 61.0,
+    "p": 11.9,
+    "c": 0.0,
+    "f": 1.5,
+    "fi": 0.9,
+    "violations": [
+      "fiber=0.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1310,
+    "en": "Pangas, without bones, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 162.0,
+    "p": 15.8,
+    "c": 0.0,
+    "f": 11.0,
+    "fi": 1.0,
+    "violations": [
+      "fiber=1.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1311,
+    "en": "Pomfret, Black, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 113.0,
+    "p": 19.9,
+    "c": 0.0,
+    "f": 3.7,
+    "fi": 1.1,
+    "violations": [
+      "fiber=1.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1312,
+    "en": "Pomfret, Chinese Silver, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 103.0,
+    "p": 15.8,
+    "c": 0.0,
+    "f": 4.4,
+    "fi": 1.5,
+    "violations": [
+      "fiber=1.5>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1320,
+    "en": "Prawn, Monsoon river prawn, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 80.0,
+    "p": 18.4,
+    "c": 0.0,
+    "f": 0.7,
+    "fi": 1.3,
+    "violations": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 82.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 1.4,
+    "fi": 2.0,
+    "violations": [
+      "fiber=2.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "cat": "fish",
+    "s": "100g",
+    "k": 92.0,
+    "p": 17.6,
+    "c": 0.0,
+    "f": 2.4,
+    "fi": 4.0,
+    "violations": [
+      "fiber=4.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "cat": "fish",
+    "s": "100g",
+    "k": 449.0,
+    "p": 6.1,
+    "c": 0.9,
+    "f": 5.3,
+    "fi": 1.6,
+    "violations": [
+      "fiber=1.6>carbs=0.9"
+    ]
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "cat": "fish",
+    "s": "100g",
+    "k": 923.0,
+    "p": 6.7,
+    "c": 5.0,
+    "f": 21.7,
+    "fi": 2.1,
+    "violations": [
+      "k=923.0>900kcal (not a fat food)"
+    ]
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "s": "100g",
+    "k": 579.0,
+    "p": 9.0,
+    "c": 0.8,
+    "f": 0.0,
+    "fi": 21.0,
+    "violations": [
+      "fiber=21.0>carbs=0.8"
+    ]
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "cat": "meat",
+    "s": "100g",
+    "k": 55.0,
+    "p": 11.6,
+    "c": 0.9,
+    "f": 0.0,
+    "fi": 11.0,
+    "violations": [
+      "fiber=11.0>carbs=0.9"
+    ]
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "cat": "meat",
+    "s": "100g",
+    "k": 78.2,
+    "p": 14.3,
+    "c": 0.0,
+    "f": 1.4,
+    "fi": 1.1,
+    "violations": [
+      "fiber=1.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "cat": "meat",
+    "s": "100g",
+    "k": 45.0,
+    "p": 13.2,
+    "c": 0.0,
+    "f": 0.0,
+    "fi": 1.0,
+    "violations": [
+      "fiber=1.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "cat": "meat",
+    "s": "100g",
+    "k": 88.9,
+    "p": 16.2,
+    "c": 0.0,
+    "f": 1.6,
+    "fi": 1.2,
+    "violations": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 137.0,
+    "p": 0.7,
+    "c": 0.0,
+    "f": 3.1,
+    "fi": 0.6,
+    "violations": [
+      "fiber=0.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1358,
+    "en": "Cheese, cottage, 25% fat",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 144.0,
+    "p": 25.1,
+    "c": 0.0,
+    "f": 5.4,
+    "fi": 4.6,
+    "violations": [
+      "fiber=4.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 96.0,
+    "p": 4.0,
+    "c": 0.0,
+    "f": 11.4,
+    "fi": 0.8,
+    "violations": [
+      "fiber=0.8>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 421.0,
+    "p": 7.5,
+    "c": 0.0,
+    "f": 4.7,
+    "fi": 0.8,
+    "violations": [
+      "fiber=0.8>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 520.0,
+    "p": 1.0,
+    "c": 0.0,
+    "f": 49.8,
+    "fi": 7.9,
+    "violations": [
+      "fiber=7.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 125.0,
+    "p": 0.1,
+    "c": 0.0,
+    "f": 4.1,
+    "fi": 0.6,
+    "violations": [
+      "fiber=0.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 63.0,
+    "p": 3.7,
+    "c": 0.0,
+    "f": 4.3,
+    "fi": 0.6,
+    "violations": [
+      "fiber=0.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 285.0,
+    "p": 4.1,
+    "c": 0.0,
+    "f": 4.3,
+    "fi": 0.9,
+    "violations": [
+      "fiber=0.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 242.0,
+    "p": 2.6,
+    "c": 0.0,
+    "f": 6.6,
+    "fi": 0.6,
+    "violations": [
+      "fiber=0.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 717.0,
+    "p": 0.9,
+    "c": 0.1,
+    "f": 81.1,
+    "fi": 2.1,
+    "violations": [
+      "fiber=2.1>carbs=0.1"
+    ]
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 718.0,
+    "p": 0.2,
+    "c": 0.2,
+    "f": 80.4,
+    "fi": 2.3,
+    "violations": [
+      "fiber=2.3>carbs=0.2"
+    ]
+  },
+  {
+    "id": 1374,
+    "en": "Mayonnaise, salted",
+    "cat": "dairy",
+    "s": "100g",
+    "k": 680.0,
+    "p": 1.1,
+    "c": 0.6,
+    "f": 74.9,
+    "fi": 1.5,
+    "violations": [
+      "fiber=1.5>carbs=0.6"
+    ]
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "s": "100g",
+    "k": 330.0,
+    "p": 0.5,
+    "c": 0.0,
+    "f": 75.4,
+    "fi": 8.8,
+    "violations": [
+      "fat=75.4>60g/100g (implausible for beverage)",
+      "fiber=8.8>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "s": "100g",
+    "k": 225.0,
+    "p": 2.4,
+    "c": 0.5,
+    "f": 4.9,
+    "fi": 1.6,
+    "violations": [
+      "fiber=1.6>carbs=0.5"
+    ]
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "s": "100g",
+    "k": 350.0,
+    "p": 0.0,
+    "c": 8.5,
+    "f": 49.5,
+    "fi": 16.0,
+    "violations": [
+      "fiber=16.0>carbs=8.5"
+    ]
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "cat": "sweet",
+    "s": "100g",
+    "k": 42.0,
+    "p": 3.1,
+    "c": 4.1,
+    "f": 0.4,
+    "fi": 4.7,
+    "violations": [
+      "fiber=4.7>carbs=4.1"
+    ]
+  }
+]

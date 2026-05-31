@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1080,
+    "food": "Rice, bran, raw Chaler",
+    "pattern": "A — kJ stored as kcal",
+    "confidence": 97,
+    "old_values": {
+      "k": 1660.0
+    },
+    "new_values": {
+      "k": 396.7
+    },
+    "repair_reason": "k=1660.0 is in kJ not kcal. k÷4.184=396.7 matches est_kcal=425.0 within 6.6%"
+  },
+  {
+    "id": 1154,
+    "food": "Lady's finger-tomato bhuna",
+    "pattern": "A — kJ stored as kcal",
+    "confidence": 97,
+    "old_values": {
+      "k": 526.0
+    },
+    "new_values": {
+      "k": 125.7
+    },
+    "repair_reason": "k=526.0 is in kJ not kcal. k÷4.184=125.7 matches est_kcal=130.6 within 3.7%"
+  },
+  {
+    "id": 1333,
+    "food": "Fish ball* Macher",
+    "pattern": "A — kJ stored as kcal",
+    "confidence": 97,
+    "old_values": {
+      "k": 923.0
+    },
+    "new_values": {
+      "k": 220.6
+    },
+    "repair_reason": "k=923.0 is in kJ not kcal. k÷4.184=220.6 matches est_kcal=242.1 within 8.9%"
+  },
+  {
+    "id": 1357,
+    "food": "Buttermilk, fluid, low fat",
+    "pattern": "A — kJ stored as kcal",
+    "confidence": 97,
+    "old_values": {
+      "k": 137.0
+    },
+    "new_values": {
+      "k": 32.7
+    },
+    "repair_reason": "k=137.0 is in kJ not kcal. k÷4.184=32.7 matches est_kcal=30.7 within 6.6%"
+  },
+  {
+    "id": 1384,
+    "food": "Soya milk (not sweetened)",
+    "pattern": "A — kJ stored as kcal",
+    "confidence": 97,
+    "old_values": {
+      "k": 225.0
+    },
+    "new_values": {
+      "k": 53.8
+    },
+    "repair_reason": "k=225.0 is in kJ not kcal. k÷4.184=53.8 matches est_kcal=55.7 within 3.4%"
+  },
+  {
+    "id": 1082,
+    "food": "Rice, popped",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1620.0,
+      "c": 1.4,
+      "f": 87.0
+    },
+    "new_values": {
+      "k": 387.2,
+      "c": 87.0,
+      "f": 1.4
+    },
+    "repair_reason": "fat=87.0g and carbs=1.4g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=361.0 vs k÷4.184=387.19 (diff 7.3%)"
+  },
+  {
+    "id": 1083,
+    "food": "Rice, puffed, salted",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1540.0,
+      "c": 1.4,
+      "f": 82.7
+    },
+    "new_values": {
+      "k": 368.1,
+      "c": 82.7,
+      "f": 1.4
+    },
+    "repair_reason": "fat=82.7g and carbs=1.4g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=343.8 vs k÷4.184=368.07 (diff 7.1%)"
+  },
+  {
+    "id": 1086,
+    "food": "Sorghum, raw",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1480.0,
+      "c": 6.3,
+      "f": 66.9
+    },
+    "new_values": {
+      "k": 353.7,
+      "c": 66.9,
+      "f": 6.3
+    },
+    "repair_reason": "fat=66.9g and carbs=6.3g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=337.5 vs k÷4.184=353.73 (diff 4.8%)"
+  },
+  {
+    "id": 1088,
+    "food": "Vermicelli, wheat, raw",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1470.0,
+      "c": 3.2,
+      "f": 74.9
+    },
+    "new_values": {
+      "k": 351.3,
+      "c": 74.9,
+      "f": 3.2
+    },
+    "repair_reason": "fat=74.9g and carbs=3.2g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=330.8 vs k÷4.184=351.34 (diff 6.2%)"
+  },
+  {
+    "id": 1089,
+    "food": "Wheat, flour, white",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1470.0,
+      "c": 4.4,
+      "f": 70.3
+    },
+    "new_values": {
+      "k": 351.3,
+      "c": 70.3,
+      "f": 4.4
+    },
+    "repair_reason": "fat=70.3g and carbs=4.4g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=327.2 vs k÷4.184=351.34 (diff 7.4%)"
+  },
+  {
+    "id": 1090,
+    "food": "Wheat, whole, raw",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1450.0,
+      "c": 12.2,
+      "f": 62.0
+    },
+    "new_values": {
+      "k": 346.6,
+      "c": 62.0,
+      "f": 12.2
+    },
+    "repair_reason": "fat=62.0g and carbs=12.2g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=369.4 vs k÷4.184=346.56 (diff 6.2%)"
+  },
+  {
+    "id": 1096,
+    "food": "Ruti* Ruti",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1040.0,
+      "c": 3.1,
+      "f": 49.7
+    },
+    "new_values": {
+      "k": 248.6,
+      "c": 49.7,
+      "f": 3.1
+    },
+    "repair_reason": "fat=49.7g and carbs=3.1g are biologically implausible for a grain food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=231.5 vs k÷4.184=248.57 (diff 7.4%)"
+  },
+  {
+    "id": 1272,
+    "food": "Tamarind, pulp, ripe, raw",
+    "pattern": "B — kJ as kcal + fat/carbs column swap",
+    "confidence": 96,
+    "old_values": {
+      "k": 1140.0,
+      "c": 5.1,
+      "f": 60.8
+    },
+    "new_values": {
+      "k": 272.5,
+      "c": 60.8,
+      "f": 5.1
+    },
+    "repair_reason": "fat=60.8g and carbs=5.1g are biologically implausible for a fruit food (fat should be <10g, carbs ~60-85g). After swap+kJ conversion: est=290.7 vs k÷4.184=272.47 (diff 6.3%)"
+  }
+]

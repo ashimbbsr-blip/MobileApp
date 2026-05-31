@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "k": 1470.0,
+    "k_after_repair": 1470.0,
+    "expected_range": "200–450",
+    "deviation": "above_ceiling by 1020",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "cat": "grain",
+    "k": 621.0,
+    "k_after_repair": 621.0,
+    "expected_range": "200–450",
+    "deviation": "above_ceiling by 171",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1092,
+    "en": "Plain Khichuri* Khichuri",
+    "cat": "grain",
+    "k": 163.0,
+    "k_after_repair": 163.0,
+    "expected_range": "200–450",
+    "deviation": "below_floor by 37",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "cat": "grain",
+    "k": 464.0,
+    "k_after_repair": 464.0,
+    "expected_range": "200–450",
+    "deviation": "above_ceiling by 14",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "cat": "grain",
+    "k": 640.0,
+    "k_after_repair": 640.0,
+    "expected_range": "200–450",
+    "deviation": "above_ceiling by 190",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1107,
+    "en": "Soybean, dried, raw",
+    "cat": "legume",
+    "k": 424.0,
+    "k_after_repair": 424.0,
+    "expected_range": "50–400",
+    "deviation": "above_ceiling by 24",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "cat": "vegetable",
+    "k": 228.0,
+    "k_after_repair": 228.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 78",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "cat": "vegetable",
+    "k": 209.0,
+    "k_after_repair": 209.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 59",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "cat": "vegetable",
+    "k": 189.0,
+    "k_after_repair": 189.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 39",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "cat": "vegetable",
+    "k": 181.0,
+    "k_after_repair": 181.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 31",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "cat": "vegetable",
+    "k": 623.0,
+    "k_after_repair": 623.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 473",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "cat": "vegetable",
+    "k": 259.0,
+    "k_after_repair": 259.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 109",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "cat": "vegetable",
+    "k": 249.0,
+    "k_after_repair": 249.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 99",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "cat": "vegetable",
+    "k": 167.0,
+    "k_after_repair": 167.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 17",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "cat": "vegetable",
+    "k": 294.0,
+    "k_after_repair": 294.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 144",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "cat": "vegetable",
+    "k": 540.0,
+    "k_after_repair": 540.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 390",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1219,
+    "en": "Bay leaf, dried",
+    "cat": "vegetable",
+    "k": 353.0,
+    "k_after_repair": 353.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 203",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1220,
+    "en": "Cardamom",
+    "cat": "vegetable",
+    "k": 261.0,
+    "k_after_repair": 261.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 111",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1221,
+    "en": "Chilli, red, dry",
+    "cat": "vegetable",
+    "k": 313.0,
+    "k_after_repair": 313.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 163",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "k": 243.0,
+    "k_after_repair": 243.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 93",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "cat": "vegetable",
+    "k": 267.0,
+    "k_after_repair": 267.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 117",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "cat": "vegetable",
+    "k": 336.0,
+    "k_after_repair": 336.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 186",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1225,
+    "en": "Cumin seeds",
+    "cat": "vegetable",
+    "k": 402.0,
+    "k_after_repair": 402.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 252",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "cat": "vegetable",
+    "k": 329.0,
+    "k_after_repair": 329.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 179",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1227,
+    "en": "Fenugreek seeds",
+    "cat": "vegetable",
+    "k": 330.0,
+    "k_after_repair": 330.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 180",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1232,
+    "en": "Mace, ground",
+    "cat": "vegetable",
+    "k": 415.0,
+    "k_after_repair": 415.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 265",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "k": 1980.0,
+    "k_after_repair": 1980.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 1830",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "cat": "vegetable",
+    "k": 525.0,
+    "k_after_repair": 525.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 375",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "k": 1400.0,
+    "k_after_repair": 1400.0,
+    "expected_range": "10–150",
+    "deviation": "above_ceiling by 1250",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "cat": "fruit",
+    "k": 1270.0,
+    "k_after_repair": 1270.0,
+    "expected_range": "15–400",
+    "deviation": "above_ceiling by 870",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "cat": "fruit",
+    "k": 636.0,
+    "k_after_repair": 636.0,
+    "expected_range": "15–400",
+    "deviation": "above_ceiling by 236",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "cat": "fruit",
+    "k": 469.0,
+    "k_after_repair": 469.0,
+    "expected_range": "15–400",
+    "deviation": "above_ceiling by 69",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "cat": "fish",
+    "k": 449.0,
+    "k_after_repair": 449.0,
+    "expected_range": "50–350",
+    "deviation": "above_ceiling by 99",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1338,
+    "en": "Buffalo meat, raw",
+    "cat": "meat",
+    "k": 95.0,
+    "k_after_repair": 95.0,
+    "expected_range": "100–500",
+    "deviation": "below_floor by 5",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "k": 579.0,
+    "k_after_repair": 579.0,
+    "expected_range": "100–500",
+    "deviation": "above_ceiling by 79",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "cat": "meat",
+    "k": 55.0,
+    "k_after_repair": 55.0,
+    "expected_range": "100–500",
+    "deviation": "below_floor by 45",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "cat": "meat",
+    "k": 78.2,
+    "k_after_repair": 78.2,
+    "expected_range": "100–500",
+    "deviation": "below_floor by 22",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "cat": "meat",
+    "k": 45.0,
+    "k_after_repair": 45.0,
+    "expected_range": "100–500",
+    "deviation": "below_floor by 55",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "cat": "meat",
+    "k": 88.9,
+    "k_after_repair": 88.9,
+    "expected_range": "100–500",
+    "deviation": "below_floor by 11",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "k": 330.0,
+    "k_after_repair": 330.0,
+    "expected_range": "0–150",
+    "deviation": "above_ceiling by 180",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "k": 350.0,
+    "k_after_repair": 350.0,
+    "expected_range": "0–150",
+    "deviation": "above_ceiling by 200",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "cat": "sweet",
+    "k": 42.0,
+    "k_after_repair": 42.0,
+    "expected_range": "100–700",
+    "deviation": "below_floor by 58",
+    "will_be_repaired": false
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "cat": "sweet",
+    "k": 86.0,
+    "k_after_repair": 86.0,
+    "expected_range": "100–700",
+    "deviation": "below_floor by 14",
+    "will_be_repaired": false
+  }
+]
