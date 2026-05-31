@@ -1,0 +1,1535 @@
+[
+  {
+    "id": 66,
+    "en": "Cheese soup",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 374.8,
+    "p": 22.0,
+    "c": 3.3,
+    "f": 30.4,
+    "fi": 8.0,
+    "est_kcal": 374.8,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=8.0>carbs=3.3"
+    ]
+  },
+  {
+    "id": 149,
+    "en": "Lentil soup",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 121.3,
+    "p": 37.6,
+    "c": 15.4,
+    "f": 45.5,
+    "fi": 10.0,
+    "est_kcal": 621.5,
+    "diff_pct": 80.5,
+    "issues": [
+      "kcal_mismatch stored=121.3 est=621.5 diff=80%"
+    ]
+  },
+  {
+    "id": 158,
+    "en": "Rasam powder",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 268.0,
+    "p": 12.0,
+    "c": 25.2,
+    "f": 11.8,
+    "fi": 35.7,
+    "est_kcal": 255.0,
+    "diff_pct": 5.1,
+    "issues": [
+      "fiber=35.7>carbs=25.2"
+    ]
+  },
+  {
+    "id": 163,
+    "en": "Sambar powder",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 297.5,
+    "p": 12.5,
+    "c": 23.4,
+    "f": 15.6,
+    "fi": 34.6,
+    "est_kcal": 284.0,
+    "diff_pct": 4.8,
+    "issues": [
+      "fiber=34.6>carbs=23.4"
+    ]
+  },
+  {
+    "id": 249,
+    "en": "Beans with coconut",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 196.8,
+    "p": 3.9,
+    "c": 6.6,
+    "f": 17.0,
+    "fi": 8.4,
+    "est_kcal": 195.0,
+    "diff_pct": 0.9,
+    "issues": [
+      "fiber=8.4>carbs=6.6"
+    ]
+  },
+  {
+    "id": 325,
+    "en": "Chicken consomme",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 108.3,
+    "p": 25.9,
+    "c": 2.7,
+    "f": 27.2,
+    "fi": 3.5,
+    "est_kcal": 359.2,
+    "diff_pct": 69.8,
+    "issues": [
+      "fiber=3.5>carbs=2.7",
+      "kcal_mismatch stored=108.3 est=359.2 diff=70%"
+    ]
+  },
+  {
+    "id": 331,
+    "en": "Chicken salad",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 835.3,
+    "p": 37.9,
+    "c": 3.2,
+    "f": 74.7,
+    "fi": 4.9,
+    "est_kcal": 836.7,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=4.9>carbs=3.2"
+    ]
+  },
+  {
+    "id": 334,
+    "en": "Chicken sweet corn soup",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 68.5,
+    "p": 35.0,
+    "c": 3.9,
+    "f": 30.4,
+    "fi": 1.1,
+    "est_kcal": 429.2,
+    "diff_pct": 84.0,
+    "issues": [
+      "kcal_mismatch stored=68.5 est=429.2 diff=84%"
+    ]
+  },
+  {
+    "id": 369,
+    "en": "Spaghetti bolognese",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 364.7,
+    "p": 35.0,
+    "c": 37.6,
+    "f": 35.6,
+    "fi": 4.0,
+    "est_kcal": 610.8,
+    "diff_pct": 40.3,
+    "issues": [
+      "kcal_mismatch stored=364.7 est=610.8 diff=40%"
+    ]
+  },
+  {
+    "id": 374,
+    "en": "Almond soup",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 375.2,
+    "p": 48.3,
+    "c": 17.6,
+    "f": 65.8,
+    "fi": 4.3,
+    "est_kcal": 855.8,
+    "diff_pct": 56.2,
+    "issues": [
+      "kcal_mismatch stored=375.2 est=855.8 diff=56%"
+    ]
+  },
+  {
+    "id": 394,
+    "en": "Bathua bhujia",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 180.4,
+    "p": 4.5,
+    "c": 7.2,
+    "f": 14.5,
+    "fi": 7.5,
+    "est_kcal": 177.3,
+    "diff_pct": 1.7,
+    "issues": [
+      "fiber=7.5>carbs=7.2"
+    ]
+  },
+  {
+    "id": 395,
+    "en": "Beans foogath",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 190.3,
+    "p": 3.7,
+    "c": 5.9,
+    "f": 16.7,
+    "fi": 7.5,
+    "est_kcal": 188.7,
+    "diff_pct": 0.8,
+    "issues": [
+      "fiber=7.5>carbs=5.9"
+    ]
+  },
+  {
+    "id": 403,
+    "en": "Broccoli delight",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 81.2,
+    "p": 5.0,
+    "c": 4.7,
+    "f": 5.0,
+    "fi": 5.6,
+    "est_kcal": 83.8,
+    "diff_pct": 3.1,
+    "issues": [
+      "fiber=5.6>carbs=4.7"
+    ]
+  },
+  {
+    "id": 404,
+    "en": "Brown sauce",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 109.2,
+    "p": 11.9,
+    "c": 5.4,
+    "f": 23.7,
+    "fi": 1.7,
+    "est_kcal": 282.5,
+    "diff_pct": 61.3,
+    "issues": [
+      "kcal_mismatch stored=109.2 est=282.5 diff=61%"
+    ]
+  },
+  {
+    "id": 408,
+    "en": "Carrot and fenugreek leaves",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 118.1,
+    "p": 4.0,
+    "c": 8.0,
+    "f": 7.3,
+    "fi": 8.4,
+    "est_kcal": 113.7,
+    "diff_pct": 3.9,
+    "issues": [
+      "fiber=8.4>carbs=8.0"
+    ]
+  },
+  {
+    "id": 429,
+    "en": "Classic seasoned black beans",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 50.7,
+    "p": 14.1,
+    "c": 13.5,
+    "f": 14.6,
+    "fi": 6.2,
+    "est_kcal": 241.8,
+    "diff_pct": 79.0,
+    "issues": [
+      "kcal_mismatch stored=50.7 est=241.8 diff=79%"
+    ]
+  },
+  {
+    "id": 434,
+    "en": "Consomme au julienne",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 213.7,
+    "p": 96.2,
+    "c": 11.5,
+    "f": 82.1,
+    "fi": 10.7,
+    "est_kcal": 1169.7,
+    "diff_pct": 81.7,
+    "issues": [
+      "kcal_mismatch stored=213.7 est=1169.7 diff=82%"
+    ]
+  },
+  {
+    "id": 439,
+    "en": "Cumin seeds baghar",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 736.8,
+    "p": 3.3,
+    "c": 5.2,
+    "f": 78.8,
+    "fi": 6.0,
+    "est_kcal": 743.2,
+    "diff_pct": 0.9,
+    "issues": [
+      "fiber=6.0>carbs=5.2"
+    ]
+  },
+  {
+    "id": 451,
+    "en": "Fermented bamboo shoot pickle",
+    "s": "200g",
+    "s_g": 200.0,
+    "k": 81.5,
+    "p": 2.2,
+    "c": 2.4,
+    "f": 7.6,
+    "fi": 3.0,
+    "est_kcal": 86.8,
+    "diff_pct": 6.1,
+    "issues": [
+      "fiber=3.0>carbs=2.4"
+    ]
+  },
+  {
+    "id": 462,
+    "en": "Garam masala",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 254.2,
+    "p": 9.9,
+    "c": 26.2,
+    "f": 11.0,
+    "fi": 35.6,
+    "est_kcal": 243.4,
+    "diff_pct": 4.4,
+    "issues": [
+      "fiber=35.6>carbs=26.2"
+    ]
+  },
+  {
+    "id": 525,
+    "en": "Meat consomme",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 184.5,
+    "p": 92.1,
+    "c": 3.2,
+    "f": 84.8,
+    "fi": 4.4,
+    "est_kcal": 1144.4,
+    "diff_pct": 83.9,
+    "issues": [
+      "fiber=4.4>carbs=3.2",
+      "kcal_mismatch stored=184.5 est=1144.4 diff=84%"
+    ]
+  },
+  {
+    "id": 555,
+    "en": "Pickled mustard greens",
+    "s": "200g",
+    "s_g": 200.0,
+    "k": 154.1,
+    "p": 17.7,
+    "c": 12.3,
+    "f": 2.6,
+    "fi": 19.9,
+    "est_kcal": 143.4,
+    "diff_pct": 7.5,
+    "issues": [
+      "fiber=19.9>carbs=12.3"
+    ]
+  },
+  {
+    "id": 595,
+    "en": "Soyabean curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 195.8,
+    "p": 12.5,
+    "c": 8.1,
+    "f": 12.2,
+    "fi": 8.8,
+    "est_kcal": 192.2,
+    "diff_pct": 1.9,
+    "issues": [
+      "fiber=8.8>carbs=8.1"
+    ]
+  },
+  {
+    "id": 646,
+    "en": "Egg drop soup",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 84.6,
+    "p": 41.1,
+    "c": 3.5,
+    "f": 42.9,
+    "fi": 2.6,
+    "est_kcal": 564.5,
+    "diff_pct": 85.0,
+    "issues": [
+      "kcal_mismatch stored=84.6 est=564.5 diff=85%"
+    ]
+  },
+  {
+    "id": 851,
+    "en": "Clear tomato soup",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 45.0,
+    "p": 1.5,
+    "c": 7.5,
+    "f": 1.2,
+    "fi": 7.8,
+    "est_kcal": 46.8,
+    "diff_pct": 3.8,
+    "issues": [
+      "fiber=7.8>carbs=7.5"
+    ]
+  },
+  {
+    "id": 976,
+    "en": "Brinjal pickle",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 139.0,
+    "p": 2.2,
+    "c": 4.2,
+    "f": 13.0,
+    "fi": 4.6,
+    "est_kcal": 142.6,
+    "diff_pct": 2.5,
+    "issues": [
+      "fiber=4.6>carbs=4.2"
+    ]
+  },
+  {
+    "id": 991,
+    "en": "Cauliflower with coconut",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 197.6,
+    "p": 3.9,
+    "c": 6.0,
+    "f": 17.3,
+    "fi": 7.9,
+    "est_kcal": 195.3,
+    "diff_pct": 1.2,
+    "issues": [
+      "fiber=7.9>carbs=6.0"
+    ]
+  },
+  {
+    "id": 996,
+    "en": "Curried Cauliflower soup",
+    "s": "240g",
+    "s_g": 240.0,
+    "k": 129.8,
+    "p": 23.4,
+    "c": 10.8,
+    "f": 34.0,
+    "fi": 8.1,
+    "est_kcal": 442.8,
+    "diff_pct": 70.7,
+    "issues": [
+      "kcal_mismatch stored=129.8 est=442.8 diff=71%"
+    ]
+  },
+  {
+    "id": 1039,
+    "en": "Roasted cauliflower steak",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 84.5,
+    "p": 2.2,
+    "c": 2.2,
+    "f": 7.2,
+    "fi": 3.8,
+    "est_kcal": 82.4,
+    "diff_pct": 2.5,
+    "issues": [
+      "fiber=3.8>carbs=2.2"
+    ]
+  },
+  {
+    "id": 1052,
+    "en": "Spinach soup",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 163.9,
+    "p": 53.0,
+    "c": 15.2,
+    "f": 71.7,
+    "fi": 9.9,
+    "est_kcal": 918.1,
+    "diff_pct": 82.1,
+    "issues": [
+      "kcal_mismatch stored=163.9 est=918.1 diff=82%"
+    ]
+  },
+  {
+    "id": 1055,
+    "en": "Stuffed brinjal",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 51.5,
+    "p": 0.8,
+    "c": 2.2,
+    "f": 4.3,
+    "fi": 2.3,
+    "est_kcal": 50.7,
+    "diff_pct": 1.6,
+    "issues": [
+      "fiber=2.3>carbs=2.2"
+    ]
+  },
+  {
+    "id": 1056,
+    "en": "Stuffed okra",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 104.2,
+    "p": 2.3,
+    "c": 4.3,
+    "f": 8.5,
+    "fi": 4.6,
+    "est_kcal": 102.9,
+    "diff_pct": 1.3,
+    "issues": [
+      "fiber=4.6>carbs=4.3"
+    ]
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 18.0,
+    "p": 1.4,
+    "c": 1.3,
+    "f": 0.3,
+    "fi": 2.4,
+    "est_kcal": 13.5,
+    "diff_pct": 33.3,
+    "issues": [
+      "fiber=2.4>carbs=1.3"
+    ]
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 16.0,
+    "p": 1.1,
+    "c": 1.4,
+    "f": 0.2,
+    "fi": 1.7,
+    "est_kcal": 11.8,
+    "diff_pct": 35.6,
+    "issues": [
+      "fiber=1.7>carbs=1.4"
+    ]
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 29.0,
+    "p": 2.2,
+    "c": 2.1,
+    "f": 0.5,
+    "fi": 3.8,
+    "est_kcal": 21.7,
+    "diff_pct": 33.6,
+    "issues": [
+      "fiber=3.8>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 88.0,
+    "p": 8.4,
+    "c": 5.7,
+    "f": 1.8,
+    "fi": 7.9,
+    "est_kcal": 72.6,
+    "diff_pct": 21.2,
+    "issues": [
+      "fiber=7.9>carbs=5.7"
+    ]
+  },
+  {
+    "id": 1159,
+    "en": "Amaranth, leaves, red, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 32.0,
+    "p": 4.5,
+    "c": 0.5,
+    "f": 0.3,
+    "fi": 4.2,
+    "est_kcal": 22.7,
+    "diff_pct": 41.0,
+    "issues": [
+      "fiber=4.2>carbs=0.5",
+      "kcal_mismatch stored=32.0 est=22.7 diff=41%"
+    ]
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 25.0,
+    "p": 2.0,
+    "c": 1.5,
+    "f": 0.3,
+    "fi": 4.4,
+    "est_kcal": 16.7,
+    "diff_pct": 49.7,
+    "issues": [
+      "fiber=4.4>carbs=1.5",
+      "kcal_mismatch stored=25.0 est=16.7 diff=50%"
+    ]
+  },
+  {
+    "id": 1162,
+    "en": "Beet greens leaves",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 31.0,
+    "p": 2.8,
+    "c": 2.1,
+    "f": 0.5,
+    "fi": 3.7,
+    "est_kcal": 24.1,
+    "diff_pct": 28.6,
+    "issues": [
+      "fiber=3.7>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 26.0,
+    "p": 2.5,
+    "c": 0.6,
+    "f": 0.6,
+    "fi": 4.4,
+    "est_kcal": 17.8,
+    "diff_pct": 46.1,
+    "issues": [
+      "fiber=4.4>carbs=0.6",
+      "kcal_mismatch stored=26.0 est=17.8 diff=46%"
+    ]
+  },
+  {
+    "id": 1171,
+    "en": "Drumstick, leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 72.0,
+    "p": 6.7,
+    "c": 4.6,
+    "f": 1.8,
+    "fi": 5.2,
+    "est_kcal": 61.4,
+    "diff_pct": 17.3,
+    "issues": [
+      "fiber=5.2>carbs=4.6"
+    ]
+  },
+  {
+    "id": 1174,
+    "en": "Indian spinach, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 25.0,
+    "p": 2.4,
+    "c": 2.1,
+    "f": 0.3,
+    "fi": 2.2,
+    "est_kcal": 20.7,
+    "diff_pct": 20.8,
+    "issues": [
+      "fiber=2.2>carbs=2.1"
+    ]
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 32.0,
+    "p": 2.9,
+    "c": 1.7,
+    "f": 0.3,
+    "fi": 5.8,
+    "est_kcal": 21.1,
+    "diff_pct": 51.7,
+    "issues": [
+      "fiber=5.8>carbs=1.7",
+      "kcal_mismatch stored=32.0 est=21.1 diff=52%"
+    ]
+  },
+  {
+    "id": 1178,
+    "en": "Slender amaranth leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 47.0,
+    "p": 4.1,
+    "c": 4.3,
+    "f": 0.5,
+    "fi": 4.4,
+    "est_kcal": 38.1,
+    "diff_pct": 23.4,
+    "issues": [
+      "fiber=4.4>carbs=4.3"
+    ]
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 26.0,
+    "p": 3.0,
+    "c": 0.9,
+    "f": 0.5,
+    "fi": 2.9,
+    "est_kcal": 20.1,
+    "diff_pct": 29.4,
+    "issues": [
+      "fiber=2.9>carbs=0.9"
+    ]
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 45.0,
+    "p": 4.0,
+    "c": 1.8,
+    "f": 0.8,
+    "fi": 7.3,
+    "est_kcal": 30.4,
+    "diff_pct": 48.0,
+    "issues": [
+      "fiber=7.3>carbs=1.8",
+      "kcal_mismatch stored=45.0 est=30.4 diff=48%"
+    ]
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 45.0,
+    "p": 3.9,
+    "c": 2.8,
+    "f": 0.4,
+    "fi": 7.7,
+    "est_kcal": 30.4,
+    "diff_pct": 48.0,
+    "issues": [
+      "fiber=7.7>carbs=2.8",
+      "kcal_mismatch stored=45.0 est=30.4 diff=48%"
+    ]
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 50.0,
+    "p": 3.6,
+    "c": 3.9,
+    "f": 0.4,
+    "fi": 8.0,
+    "est_kcal": 33.6,
+    "diff_pct": 48.8,
+    "issues": [
+      "fiber=8.0>carbs=3.9",
+      "kcal_mismatch stored=50.0 est=33.6 diff=49%"
+    ]
+  },
+  {
+    "id": 1188,
+    "en": "Spinach, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 47.0,
+    "p": 5.4,
+    "c": 1.6,
+    "f": 0.9,
+    "fi": 5.3,
+    "est_kcal": 36.1,
+    "diff_pct": 30.2,
+    "issues": [
+      "fiber=5.3>carbs=1.6"
+    ]
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 243.0,
+    "p": 4.0,
+    "c": 27.5,
+    "f": 1.2,
+    "fi": 53.1,
+    "est_kcal": 136.8,
+    "diff_pct": 77.6,
+    "issues": [
+      "fiber=53.1>carbs=27.5",
+      "kcal_mismatch stored=243.0 est=136.8 diff=78%"
+    ]
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 267.0,
+    "p": 5.2,
+    "c": 27.4,
+    "f": 8.9,
+    "fi": 28.1,
+    "est_kcal": 210.5,
+    "diff_pct": 26.8,
+    "issues": [
+      "fiber=28.1>carbs=27.4"
+    ]
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 336.0,
+    "p": 14.1,
+    "c": 13.4,
+    "f": 16.1,
+    "fi": 40.8,
+    "est_kcal": 254.9,
+    "diff_pct": 31.8,
+    "issues": [
+      "fiber=40.8>carbs=13.4"
+    ]
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 329.0,
+    "p": 15.8,
+    "c": 13.0,
+    "f": 14.9,
+    "fi": 39.8,
+    "est_kcal": 249.3,
+    "diff_pct": 32.0,
+    "issues": [
+      "fiber=39.8>carbs=13.0"
+    ]
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 37.0,
+    "p": 2.3,
+    "c": 1.6,
+    "f": 0.5,
+    "fi": 8.7,
+    "est_kcal": 20.1,
+    "diff_pct": 84.1,
+    "issues": [
+      "fiber=8.7>carbs=1.6",
+      "kcal_mismatch stored=37.0 est=20.1 diff=84%"
+    ]
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 65.0,
+    "p": 1.6,
+    "c": 8.7,
+    "f": 0.4,
+    "fi": 10.6,
+    "est_kcal": 44.8,
+    "diff_pct": 45.1,
+    "issues": [
+      "fiber=10.6>carbs=8.7",
+      "kcal_mismatch stored=65.0 est=44.8 diff=45%"
+    ]
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 215.0,
+    "p": 0.1,
+    "c": 1.3,
+    "f": 11.5,
+    "fi": 0.2,
+    "est_kcal": 109.1,
+    "diff_pct": 97.1,
+    "issues": [
+      "kcal_mismatch stored=215.0 est=109.1 diff=97%"
+    ]
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 262.0,
+    "p": 0.2,
+    "c": 2.4,
+    "f": 13.5,
+    "fi": 0.2,
+    "est_kcal": 131.9,
+    "diff_pct": 98.6,
+    "issues": [
+      "kcal_mismatch stored=262.0 est=131.9 diff=99%"
+    ]
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1270.0,
+    "p": 0.6,
+    "c": 8.3,
+    "f": 67.5,
+    "fi": 3.4,
+    "est_kcal": 643.1,
+    "diff_pct": 97.5,
+    "issues": [
+      "kcal_mismatch stored=1270.0 est=643.1 diff=97%"
+    ]
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 636.0,
+    "p": 0.4,
+    "c": 4.1,
+    "f": 33.4,
+    "fi": 1.7,
+    "est_kcal": 318.6,
+    "diff_pct": 99.6,
+    "issues": [
+      "kcal_mismatch stored=636.0 est=318.6 diff=100%"
+    ]
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 208.0,
+    "p": 0.1,
+    "c": 2.4,
+    "f": 10.7,
+    "fi": 0.3,
+    "est_kcal": 106.3,
+    "diff_pct": 95.7,
+    "issues": [
+      "kcal_mismatch stored=208.0 est=106.3 diff=96%"
+    ]
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 332.0,
+    "p": 72.0,
+    "c": 0.0,
+    "f": 4.9,
+    "fi": 11.9,
+    "est_kcal": 332.1,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=11.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1276,
+    "en": "Anchovy, Gangetic hairfin, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 105.0,
+    "p": 17.7,
+    "c": 0.0,
+    "f": 3.8,
+    "fi": 3.0,
+    "est_kcal": 105.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=3.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1278,
+    "en": "Anchovy, Scaly hairfin, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 102.0,
+    "p": 19.4,
+    "c": 0.0,
+    "f": 2.7,
+    "fi": 2.8,
+    "est_kcal": 101.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=2.8>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1280,
+    "en": "Barb, Olive, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 174.0,
+    "p": 17.2,
+    "c": 0.0,
+    "f": 11.7,
+    "fi": 1.3,
+    "est_kcal": 174.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1282,
+    "en": "Bata, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 107.0,
+    "p": 16.2,
+    "c": 0.0,
+    "f": 4.7,
+    "fi": 2.1,
+    "est_kcal": 107.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=2.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1283,
+    "en": "Boal, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 81.0,
+    "p": 15.5,
+    "c": 0.0,
+    "f": 2.1,
+    "fi": 1.3,
+    "est_kcal": 80.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1284,
+    "en": "Bronze feather back, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 81.0,
+    "p": 18.0,
+    "c": 0.0,
+    "f": 1.0,
+    "fi": 2.7,
+    "est_kcal": 81.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=2.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1285,
+    "en": "Calbasu, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 96.0,
+    "p": 17.2,
+    "c": 0.0,
+    "f": 3.0,
+    "fi": 1.2,
+    "est_kcal": 95.8,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 122.0,
+    "p": 16.1,
+    "c": 0.0,
+    "f": 6.4,
+    "fi": 2.2,
+    "est_kcal": 122.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=2.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1287,
+    "en": "Catfish, Pabda, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 95.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 2.8,
+    "fi": 2.3,
+    "est_kcal": 94.8,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=2.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1288,
+    "en": "Catla, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 103.0,
+    "p": 19.9,
+    "c": 0.0,
+    "f": 2.6,
+    "fi": 1.3,
+    "est_kcal": 103.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1291,
+    "en": "Common carp, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 89.0,
+    "p": 18.9,
+    "c": 0.0,
+    "f": 1.5,
+    "fi": 1.2,
+    "est_kcal": 89.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 117.0,
+    "p": 15.3,
+    "c": 0.0,
+    "f": 6.2,
+    "fi": 2.0,
+    "est_kcal": 117.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=2.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1295,
+    "en": "Gangetic mystus, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 87.0,
+    "p": 15.7,
+    "c": 0.0,
+    "f": 2.7,
+    "fi": 2.4,
+    "est_kcal": 87.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=2.4>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1296,
+    "en": "Giant river-catfish, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 76.0,
+    "p": 16.1,
+    "c": 0.0,
+    "f": 1.3,
+    "fi": 1.2,
+    "est_kcal": 76.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.2>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1298,
+    "en": "Giant sea perch, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 97.0,
+    "p": 18.6,
+    "c": 0.0,
+    "f": 2.5,
+    "fi": 1.7,
+    "est_kcal": 96.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1299,
+    "en": "Goby, Tank goby, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 82.0,
+    "p": 14.9,
+    "c": 0.0,
+    "f": 2.5,
+    "fi": 2.7,
+    "est_kcal": 82.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=2.7>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1300,
+    "en": "Hilsha, without bones, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 221.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 16.8,
+    "fi": 1.9,
+    "est_kcal": 220.8,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.9>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1301,
+    "en": "Indian river shad, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 106.0,
+    "p": 15.5,
+    "c": 0.0,
+    "f": 4.9,
+    "fi": 4.4,
+    "est_kcal": 106.1,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=4.4>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1304,
+    "en": "Minnow, Finescale razorbelly, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 95.0,
+    "p": 15.4,
+    "c": 0.0,
+    "f": 3.7,
+    "fi": 3.0,
+    "est_kcal": 94.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=3.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1306,
+    "en": "Minnow, Large scale razorbelly, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 120.0,
+    "p": 18.3,
+    "c": 0.0,
+    "f": 5.2,
+    "fi": 2.1,
+    "est_kcal": 120.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=2.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1307,
+    "en": "Mrigal carp, eyes included, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 102.0,
+    "p": 18.8,
+    "c": 0.0,
+    "f": 3.0,
+    "fi": 1.6,
+    "est_kcal": 102.2,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=1.6>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1311,
+    "en": "Pomfret, Black, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 113.0,
+    "p": 19.9,
+    "c": 0.0,
+    "f": 3.7,
+    "fi": 1.1,
+    "est_kcal": 112.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.1>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1312,
+    "en": "Pomfret, Chinese Silver, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 103.0,
+    "p": 15.8,
+    "c": 0.0,
+    "f": 4.4,
+    "fi": 1.5,
+    "est_kcal": 102.8,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=1.5>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1320,
+    "en": "Prawn, Monsoon river prawn, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 80.0,
+    "p": 18.4,
+    "c": 0.0,
+    "f": 0.7,
+    "fi": 1.3,
+    "est_kcal": 79.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.3>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 82.0,
+    "p": 17.4,
+    "c": 0.0,
+    "f": 1.4,
+    "fi": 2.0,
+    "est_kcal": 82.2,
+    "diff_pct": 0.2,
+    "issues": [
+      "fiber=2.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 92.0,
+    "p": 17.6,
+    "c": 0.0,
+    "f": 2.4,
+    "fi": 4.0,
+    "est_kcal": 92.0,
+    "diff_pct": 0.0,
+    "issues": [
+      "fiber=4.0>carbs=0.0"
+    ]
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 717.0,
+    "p": 0.9,
+    "c": 0.1,
+    "f": 81.1,
+    "fi": 2.1,
+    "est_kcal": 733.9,
+    "diff_pct": 2.3,
+    "issues": [
+      "fiber=2.1>carbs=0.1"
+    ]
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 718.0,
+    "p": 0.2,
+    "c": 0.2,
+    "f": 80.4,
+    "fi": 2.3,
+    "est_kcal": 725.2,
+    "diff_pct": 1.0,
+    "issues": [
+      "fiber=2.3>carbs=0.2"
+    ]
+  },
+  {
+    "id": 1374,
+    "en": "Mayonnaise, salted",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 680.0,
+    "p": 1.1,
+    "c": 0.6,
+    "f": 74.9,
+    "fi": 1.5,
+    "est_kcal": 680.9,
+    "diff_pct": 0.1,
+    "issues": [
+      "fiber=1.5>carbs=0.6"
+    ]
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 330.0,
+    "p": 0.5,
+    "c": 0.0,
+    "f": 75.4,
+    "fi": 8.8,
+    "est_kcal": 680.6,
+    "diff_pct": 51.5,
+    "issues": [
+      "fiber=8.8>carbs=0.0",
+      "kcal_mismatch stored=330.0 est=680.6 diff=52%"
+    ]
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 175.0,
+    "p": 0.0,
+    "c": 0.0,
+    "f": 10.3,
+    "fi": 0.1,
+    "est_kcal": 92.7,
+    "diff_pct": 88.8,
+    "issues": [
+      "kcal_mismatch stored=175.0 est=92.7 diff=89%"
+    ]
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 125.0,
+    "p": 0.0,
+    "c": 0.1,
+    "f": 7.1,
+    "fi": 0.2,
+    "est_kcal": 64.3,
+    "diff_pct": 94.4,
+    "issues": [
+      "kcal_mismatch stored=125.0 est=64.3 diff=94%"
+    ]
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 350.0,
+    "p": 0.0,
+    "c": 8.5,
+    "f": 49.5,
+    "fi": 16.0,
+    "est_kcal": 479.5,
+    "diff_pct": 27.0,
+    "issues": [
+      "fiber=16.0>carbs=8.5"
+    ]
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 42.0,
+    "p": 3.1,
+    "c": 4.1,
+    "f": 0.4,
+    "fi": 4.7,
+    "est_kcal": 32.4,
+    "diff_pct": 29.6,
+    "issues": [
+      "fiber=4.7>carbs=4.1"
+    ]
+  }
+]

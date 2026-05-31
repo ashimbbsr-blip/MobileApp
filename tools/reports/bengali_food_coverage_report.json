@@ -1,0 +1,182 @@
+[
+  {
+    "dish": "Shorshe Ilish",
+    "status": "present",
+    "record": {
+      "id": 232,
+      "en": "Shorshe Ilish",
+      "bn": "সরষে ইলিশ",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Ilish Bhapa",
+    "status": "present",
+    "record": {
+      "id": 222,
+      "en": "Ilish Bhapa",
+      "bn": "ইলিশ ভাপা",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Pabda Jhal",
+    "status": "present",
+    "record": {
+      "id": 1436,
+      "en": "Pabda Jhal",
+      "bn": "পাবদা ঝাল",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Chingri Malaikari",
+    "status": "present",
+    "record": {
+      "id": 203,
+      "en": "Chingri Malai",
+      "bn": "চিংড়ি মালাই",
+      "match": "via_kw"
+    }
+  },
+  {
+    "dish": "Daab Chingri",
+    "status": "present",
+    "record": {
+      "id": 205,
+      "en": "Daab Chingri",
+      "bn": "ডাব চিংড়ি",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Mochar Ghonto",
+    "status": "present",
+    "record": {
+      "id": 961,
+      "en": "Mochar Ghonto",
+      "bn": "মোচার ঘন্ট",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Thor Ghonto",
+    "status": "present",
+    "record": {
+      "id": 1437,
+      "en": "Thor Ghonto",
+      "bn": "থোর ঘন্ট",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Enchorer Dalna",
+    "status": "present",
+    "record": {
+      "id": 1438,
+      "en": "Enchorer Dalna",
+      "bn": "এঁচোড়ের ডালনা",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Basanti Pulao",
+    "status": "present",
+    "record": {
+      "id": 667,
+      "en": "Basanti Pulao",
+      "bn": "বসন্তী পোলাও",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Kosha Mangsho",
+    "status": "present",
+    "record": {
+      "id": 1433,
+      "en": "Mutton kosha",
+      "bn": "মাটন কষা",
+      "match": "via_kw"
+    }
+  },
+  {
+    "dish": "Dak Bungalow Chicken",
+    "status": "present",
+    "record": {
+      "id": 1440,
+      "en": "Dak Bungalow Chicken",
+      "bn": "ডাক বাংলো চিকেন",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Chanar Dalna",
+    "status": "present",
+    "record": {
+      "id": 1441,
+      "en": "Chanar Dalna",
+      "bn": "ছানার ডালনা",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Patishapta",
+    "status": "present",
+    "record": {
+      "id": 171,
+      "en": "Patishapta",
+      "bn": "পাটিসাপটা",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Patishapta Nolen Gur",
+    "status": "present",
+    "record": {
+      "id": 1442,
+      "en": "Patishapta Nolen Gur",
+      "bn": "নলেন গুড় পাটিসাপটা",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Radhaballavi",
+    "status": "present",
+    "record": {
+      "id": 1443,
+      "en": "Radhaballavi",
+      "bn": "রাধাবল্লভী",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Ghugni",
+    "status": "present",
+    "record": {
+      "id": 790,
+      "en": "Ghugni",
+      "bn": "ঘুগনি",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Muri Ghonto",
+    "status": "present",
+    "record": {
+      "id": 1444,
+      "en": "Muri Ghonto",
+      "bn": "মুড়িঘন্ট",
+      "match": "exact"
+    }
+  },
+  {
+    "dish": "Bhetki Paturi",
+    "status": "present",
+    "record": {
+      "id": 200,
+      "en": "Bhetki Paturi",
+      "bn": "ভেটকি পাতুরি",
+      "match": "exact"
+    }
+  }
+]

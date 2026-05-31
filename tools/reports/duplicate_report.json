@@ -1,0 +1,69 @@
+{
+  "merged": [
+    {
+      "kept_id": 145,
+      "kept_en": "Dal moong",
+      "dropped_id": 154,
+      "dropped_en": "Moong Dal",
+      "reason": "near_dup_j=1.0",
+      "alias_added": "Moong Dal"
+    },
+    {
+      "kept_id": 323,
+      "kept_en": "Chicken Roast",
+      "dropped_id": 355,
+      "dropped_en": "Roast chicken",
+      "reason": "near_dup_j=1.0",
+      "alias_added": "Roast chicken"
+    },
+    {
+      "kept_id": 1079,
+      "kept_en": "Rice, BR-28, parboiled, milled, raw",
+      "dropped_id": 1081,
+      "dropped_en": "Rice, parboiled, milled, raw",
+      "reason": "near_dup_j=0.8",
+      "alias_added": "Rice, parboiled, milled, raw"
+    },
+    {
+      "kept_id": 1181,
+      "kept_en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "dropped_id": 1182,
+      "dropped_en": "Sweet potato leaves, SP7, dark green, mature, raw",
+      "reason": "near_dup_j=1.0",
+      "alias_added": "Sweet potato leaves, SP7, dark green, mature, raw"
+    },
+    {
+      "kept_id": 1188,
+      "kept_en": "Spinach, boiled* (without salt)",
+      "dropped_id": 1189,
+      "dropped_en": "Indian spinach, boiled* (without salt)",
+      "reason": "near_dup_j=0.8",
+      "alias_added": "Indian spinach, boiled* (without salt)"
+    },
+    {
+      "kept_id": 1351,
+      "kept_en": "Egg, chicken, native, raw",
+      "dropped_id": 1352,
+      "dropped_en": "Egg, chicken, native, yolk, raw",
+      "reason": "near_dup_j=0.8",
+      "alias_added": "Egg, chicken, native, yolk, raw"
+    },
+    {
+      "kept_id": 203,
+      "kept_en": "Chingri Malai",
+      "dropped_id": 1432,
+      "dropped_en": "Chingri malaikari",
+      "reason": "chingri_malai_variant",
+      "alias_added": "Chingri malaikari"
+    },
+    {
+      "kept_id": 1433,
+      "kept_en": "Mutton kosha",
+      "dropped_id": 1439,
+      "dropped_en": "Kosha Mangsho",
+      "reason": "kosha_mangsho_variant",
+      "alias_added": "Kosha Mangsho"
+    }
+  ],
+  "skipped": []
+}

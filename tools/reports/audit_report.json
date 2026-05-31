@@ -1,0 +1,9727 @@
+{
+  "total": 1399,
+  "exact_duplicate_en": [],
+  "near_duplicate_en": [
+    {
+      "id_a": 56,
+      "en_a": "Butter icing",
+      "id_b": 71,
+      "en_b": "Chocolate butter icing",
+      "jaccard": 0.667,
+      "cat": "dairy"
+    },
+    {
+      "id_a": 65,
+      "en_a": "Cheese sauce",
+      "id_b": 122,
+      "en_b": "Pasta cheese sauce",
+      "jaccard": 0.667,
+      "cat": "dairy"
+    },
+    {
+      "id_a": 75,
+      "en_a": "Coffee ice cream",
+      "id_b": 76,
+      "en_b": "Cold coffee with ice cream",
+      "jaccard": 0.75,
+      "cat": "dairy"
+    },
+    {
+      "id_a": 84,
+      "en_a": "Curd dip",
+      "id_b": 86,
+      "en_b": "Curd mint dip",
+      "jaccard": 0.667,
+      "cat": "dairy"
+    },
+    {
+      "id_a": 84,
+      "en_a": "Curd dip",
+      "id_b": 87,
+      "en_b": "Curd vegetable dip",
+      "jaccard": 0.667,
+      "cat": "dairy"
+    },
+    {
+      "id_a": 145,
+      "en_a": "Dal moong",
+      "id_b": 154,
+      "en_b": "Moong Dal",
+      "jaccard": 1.0,
+      "cat": "dal"
+    },
+    {
+      "id_a": 145,
+      "en_a": "Dal moong",
+      "id_b": 165,
+      "en_b": "Washed moong dal",
+      "jaccard": 0.667,
+      "cat": "dal"
+    },
+    {
+      "id_a": 154,
+      "en_a": "Moong Dal",
+      "id_b": 165,
+      "en_b": "Washed moong dal",
+      "jaccard": 0.667,
+      "cat": "dal"
+    },
+    {
+      "id_a": 189,
+      "en_a": "Lemon Honey Water",
+      "id_b": 190,
+      "en_b": "Lemon Water",
+      "jaccard": 0.667,
+      "cat": "drink"
+    },
+    {
+      "id_a": 196,
+      "en_a": "Air Fry Fish",
+      "id_b": 206,
+      "en_b": "Fish Fry",
+      "jaccard": 0.667,
+      "cat": "fish"
+    },
+    {
+      "id_a": 206,
+      "en_a": "Fish Fry",
+      "id_b": 1332,
+      "en_b": "Small fish fry",
+      "jaccard": 0.667,
+      "cat": "fish"
+    },
+    {
+      "id_a": 217,
+      "en_a": "Fish souffle",
+      "id_b": 221,
+      "en_b": "Hot fish souffle",
+      "jaccard": 0.667,
+      "cat": "fish"
+    },
+    {
+      "id_a": 218,
+      "en_a": "Fish tikka",
+      "id_b": 220,
+      "en_b": "Hariyali Fish Tikka",
+      "jaccard": 0.667,
+      "cat": "fish"
+    },
+    {
+      "id_a": 251,
+      "en_a": "Coconut chutney",
+      "id_b": 258,
+      "en_b": "Dessicated coconut chutney",
+      "jaccard": 0.667,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 281,
+      "en_b": "Orange souffle",
+      "jaccard": 0.667,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 255,
+      "en_a": "Cold pineapple souffle",
+      "id_b": 287,
+      "en_b": "Pineapple souffle",
+      "jaccard": 0.667,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 265,
+      "en_a": "Hot orange souffle",
+      "id_b": 281,
+      "en_b": "Orange souffle",
+      "jaccard": 0.667,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 321,
+      "en_a": "Chicken Curry",
+      "id_b": 347,
+      "en_b": "Light Chicken Curry",
+      "jaccard": 0.667,
+      "cat": "meat"
+    },
+    {
+      "id_a": 323,
+      "en_a": "Chicken Roast",
+      "id_b": 355,
+      "en_b": "Roast chicken",
+      "jaccard": 1.0,
+      "cat": "meat"
+    },
+    {
+      "id_a": 324,
+      "en_a": "Chicken and tomato towers",
+      "id_b": 360,
+      "en_b": "Tomato chicken",
+      "jaccard": 0.667,
+      "cat": "meat"
+    },
+    {
+      "id_a": 344,
+      "en_a": "Keema kofta curry",
+      "id_b": 357,
+      "en_b": "Shahi keema kofta curry",
+      "jaccard": 0.75,
+      "cat": "meat"
+    },
+    {
+      "id_a": 348,
+      "en_a": "Mutton Curry",
+      "id_b": 1413,
+      "en_b": "Odia Mutton Curry",
+      "jaccard": 0.667,
+      "cat": "meat"
+    },
+    {
+      "id_a": 421,
+      "en_a": "Chocolate glace icing",
+      "id_b": 468,
+      "en_b": "Glace icing",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 425,
+      "en_a": "Chocolate souffle",
+      "id_b": 430,
+      "en_b": "Cold chocolate souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 425,
+      "en_a": "Chocolate souffle",
+      "id_b": 484,
+      "en_b": "Hot chocolate souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 431,
+      "en_a": "Cold lemon souffle",
+      "id_b": 509,
+      "en_b": "Lemon souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 432,
+      "en_a": "Cold vanilla souffle",
+      "id_b": 619,
+      "en_b": "Vanilla souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 435,
+      "en_a": "Coriander chutney",
+      "id_b": 530,
+      "en_b": "Mint and coriander chutney",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 486,
+      "en_a": "Hot lemon souffle",
+      "id_b": 509,
+      "en_b": "Lemon souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 487,
+      "en_a": "Hot vanilla souffle",
+      "id_b": 619,
+      "en_b": "Vanilla souffle",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 504,
+      "en_a": "Lemon and ginger squash",
+      "id_b": 510,
+      "en_b": "Lemon squash",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 512,
+      "en_a": "Lentils and semolina porridge",
+      "id_b": 584,
+      "en_b": "Semolina porridge",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 545,
+      "en_a": "Pea curry",
+      "id_b": 546,
+      "en_b": "Pea kofta curry",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 545,
+      "en_a": "Pea curry",
+      "id_b": 547,
+      "en_b": "Pea mushroom curry",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 545,
+      "en_a": "Pea curry",
+      "id_b": 548,
+      "en_b": "Pea vadi curry",
+      "jaccard": 0.667,
+      "cat": "other"
+    },
+    {
+      "id_a": 660,
+      "en_a": "Scotch egg",
+      "id_b": 666,
+      "en_b": "Vegeterian scotch egg",
+      "jaccard": 0.667,
+      "cat": "protein"
+    },
+    {
+      "id_a": 670,
+      "en_a": "Chinese fried rice",
+      "id_b": 675,
+      "en_b": "Fried Rice",
+      "jaccard": 0.667,
+      "cat": "rice"
+    },
+    {
+      "id_a": 752,
+      "en_a": "Onion raita",
+      "id_b": 756,
+      "en_b": "Tomato onion raita",
+      "jaccard": 0.667,
+      "cat": "salad"
+    },
+    {
+      "id_a": 757,
+      "en_a": "Tossed green salad",
+      "id_b": 758,
+      "en_b": "Tossed salad",
+      "jaccard": 0.667,
+      "cat": "salad"
+    },
+    {
+      "id_a": 768,
+      "en_a": "Chicken Roll",
+      "id_b": 795,
+      "en_b": "Kathi Roll Chicken",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 772,
+      "en_a": "Chocolate swiss roll",
+      "id_b": 836,
+      "en_b": "Swiss roll",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 773,
+      "en_a": "Christmas bell biscuit",
+      "id_b": 774,
+      "en_b": "Christmas biscuit",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 775,
+      "en_b": "Christmas star biscuit",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 776,
+      "en_b": "Christmas tree biscuit",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 777,
+      "en_b": "Christmas wreath biscuit",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 778,
+      "en_a": "Classic club sandwich",
+      "id_b": 779,
+      "en_b": "Club sandwich",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 779,
+      "en_a": "Club sandwich",
+      "id_b": 847,
+      "en_b": "Vegetarian club sandwich",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 782,
+      "en_a": "Cucumber sandwich",
+      "id_b": 837,
+      "en_b": "Tomato and cucumber sandwich",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 784,
+      "en_a": "Egg Devil",
+      "id_b": 1067,
+      "en_b": "Egg devil (Dimer devil)",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 799,
+      "en_a": "Masala onion pakora/pakoda",
+      "id_b": 809,
+      "en_b": "Onion pakora/pakoda",
+      "jaccard": 0.75,
+      "cat": "snack"
+    },
+    {
+      "id_a": 813,
+      "en_a": "Peanut and tomato sandwich",
+      "id_b": 838,
+      "en_b": "Tomato sandwich",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 837,
+      "en_a": "Tomato and cucumber sandwich",
+      "id_b": 838,
+      "en_b": "Tomato sandwich",
+      "jaccard": 0.667,
+      "cat": "snack"
+    },
+    {
+      "id_a": 851,
+      "en_a": "Clear tomato soup",
+      "id_b": 868,
+      "en_b": "Tomato Soup",
+      "jaccard": 0.667,
+      "cat": "soup"
+    },
+    {
+      "id_a": 854,
+      "en_a": "Cold tomato soup",
+      "id_b": 868,
+      "en_b": "Tomato Soup",
+      "jaccard": 0.667,
+      "cat": "soup"
+    },
+    {
+      "id_a": 858,
+      "en_a": "Garlic chickpea soup",
+      "id_b": 859,
+      "en_b": "Garlic soup",
+      "jaccard": 0.667,
+      "cat": "soup"
+    },
+    {
+      "id_a": 881,
+      "en_a": "Black rice kheer",
+      "id_b": 918,
+      "en_b": "Rice kheer",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 887,
+      "en_b": "Chocolate chiffon cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 888,
+      "en_b": "Chocolate eggless cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 890,
+      "en_b": "Chocolate sponge cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 888,
+      "en_a": "Chocolate eggless cake",
+      "id_b": 896,
+      "en_b": "Eggless cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 890,
+      "en_a": "Chocolate sponge cake",
+      "id_b": 928,
+      "en_b": "Sponge cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 896,
+      "en_a": "Eggless cake",
+      "id_b": 910,
+      "en_b": "Orange eggless cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 909,
+      "en_a": "Orange cake",
+      "id_b": 910,
+      "en_b": "Orange eggless cake",
+      "jaccard": 0.667,
+      "cat": "sweets"
+    },
+    {
+      "id_a": 975,
+      "en_a": "Brinjal bhartha",
+      "id_b": 1015,
+      "en_b": "Peas brinjal bhartha",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 985,
+      "en_a": "Cauliflower canjee",
+      "id_b": 990,
+      "en_b": "Cauliflower potato canjee",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 990,
+      "en_a": "Cauliflower potato canjee",
+      "id_b": 1019,
+      "en_b": "Potato canjee",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 990,
+      "en_a": "Cauliflower potato canjee",
+      "id_b": 1021,
+      "en_b": "Potato cauliflower",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 994,
+      "en_a": "Creamed spinach and mushroom",
+      "id_b": 1046,
+      "en_b": "Spinach mushroom",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 995,
+      "en_a": "Crispy okra/Crispy lady's fingers",
+      "id_b": 1010,
+      "en_b": "Okra/Lady's fingers fry",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1005,
+      "en_a": "Hot spinach souffle",
+      "id_b": 1051,
+      "en_b": "Spinach souffle",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1022,
+      "en_a": "Potato curry",
+      "id_b": 1025,
+      "en_b": "Potato kofta curry",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1045,
+      "en_a": "Spinach kofta curry",
+      "id_b": 1048,
+      "en_b": "Spinach paneer kofta curry",
+      "jaccard": 0.75,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1074,
+      "en_a": "Millet, Proso, whole-grain, raw",
+      "id_b": 1075,
+      "en_b": "Pear millet, whole-grain, raw",
+      "jaccard": 0.667,
+      "cat": "grain"
+    },
+    {
+      "id_a": 1079,
+      "en_a": "Rice, BR-28, parboiled, milled, raw",
+      "id_b": 1081,
+      "en_b": "Rice, parboiled, milled, raw",
+      "jaccard": 0.8,
+      "cat": "grain"
+    },
+    {
+      "id_a": 1099,
+      "en_a": "Black gram, dehulled, dried, raw",
+      "id_b": 1100,
+      "en_b": "Black gram, split, dried, raw",
+      "jaccard": 0.667,
+      "cat": "legume"
+    },
+    {
+      "id_a": 1100,
+      "en_a": "Black gram, split, dried, raw",
+      "id_b": 1101,
+      "en_b": "Green gram, split, dried, raw",
+      "jaccard": 0.667,
+      "cat": "legume"
+    },
+    {
+      "id_a": 1100,
+      "en_a": "Black gram, split, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "jaccard": 0.667,
+      "cat": "legume"
+    },
+    {
+      "id_a": 1101,
+      "en_a": "Green gram, split, dried, raw",
+      "id_b": 1102,
+      "en_b": "Green gram, whole, dried, raw",
+      "jaccard": 0.667,
+      "cat": "legume"
+    },
+    {
+      "id_a": 1101,
+      "en_a": "Green gram, split, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "jaccard": 0.667,
+      "cat": "legume"
+    },
+    {
+      "id_a": 1127,
+      "en_a": "Gourd, bottle, raw",
+      "id_b": 1165,
+      "en_b": "Bottle gourd leaves, raw",
+      "jaccard": 0.75,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1138,
+      "en_a": "Pumpkin, raw",
+      "id_b": 1176,
+      "en_b": "Pumpkin leaves, raw",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1139,
+      "en_a": "Radish, raw",
+      "id_b": 1177,
+      "en_b": "Radish leaves, raw",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1148,
+      "en_a": "Gourd, pointed, boiled* (without salt)",
+      "id_b": 1149,
+      "en_b": "Gourd, teasle, boiled* (without salt)",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1174,
+      "en_a": "Indian spinach, raw",
+      "id_b": 1179,
+      "en_b": "Spinach, raw",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1179,
+      "en_a": "Spinach, raw",
+      "id_b": 1184,
+      "en_b": "Water spinach, raw",
+      "jaccard": 0.667,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1181,
+      "en_a": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "id_b": 1182,
+      "en_b": "Sweet potato leaves, SP7, dark green, mature, raw",
+      "jaccard": 1.0,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1181,
+      "en_a": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "id_b": 1183,
+      "en_b": "Sweet potato leaves, SP8, light green, mature, raw",
+      "jaccard": 0.778,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1182,
+      "en_a": "Sweet potato leaves, SP7, dark green, mature, raw",
+      "id_b": 1183,
+      "en_b": "Sweet potato leaves, SP8, light green, mature, raw",
+      "jaccard": 0.778,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1188,
+      "en_a": "Spinach, boiled* (without salt)",
+      "id_b": 1189,
+      "en_b": "Indian spinach, boiled* (without salt)",
+      "jaccard": 0.8,
+      "cat": "vegetable"
+    },
+    {
+      "id_a": 1236,
+      "en_a": "Apple, without skin, raw",
+      "id_b": 1237,
+      "en_b": "Apple, with skin, raw",
+      "jaccard": 0.75,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 1268,
+      "en_a": "Pineapple, Joldugee, ripe, raw",
+      "id_b": 1269,
+      "en_b": "Pineapple, ripe, raw",
+      "jaccard": 0.75,
+      "cat": "fruit"
+    },
+    {
+      "id_a": 1335,
+      "en_a": "Beef, meat, lean, boneless, raw",
+      "id_b": 1336,
+      "en_b": "Beef, meat, 15-20% fat, boneless, raw",
+      "jaccard": 0.667,
+      "cat": "meat"
+    },
+    {
+      "id_a": 1339,
+      "en_a": "Chicken breast, without skin, raw",
+      "id_b": 1340,
+      "en_b": "Chicken leg, without skin, raw",
+      "jaccard": 0.667,
+      "cat": "meat"
+    },
+    {
+      "id_a": 1351,
+      "en_a": "Egg, chicken, native, raw",
+      "id_b": 1352,
+      "en_b": "Egg, chicken, native, yolk, raw",
+      "jaccard": 0.8,
+      "cat": "meat"
+    },
+    {
+      "id_a": 1361,
+      "en_a": "Milk, cow, powder, skimmed",
+      "id_b": 1363,
+      "en_b": "Milk, cow, skimmed",
+      "jaccard": 0.75,
+      "cat": "dairy"
+    }
+  ],
+  "missing_bn": [],
+  "missing_en": [],
+  "missing_micronutrients_ca_fe_zn": [
+    {
+      "id": 16,
+      "en": "Infinity Wellness Bowl",
+      "src": "local"
+    },
+    {
+      "id": 20,
+      "en": "Banana Oats",
+      "src": "local"
+    },
+    {
+      "id": 25,
+      "en": "Chitoi Pitha",
+      "src": "local"
+    },
+    {
+      "id": 26,
+      "en": "Doi Chire",
+      "src": "local"
+    },
+    {
+      "id": 27,
+      "en": "Egg Toast",
+      "src": "local"
+    },
+    {
+      "id": 28,
+      "en": "Healthy Breakfast Bowl",
+      "src": "local"
+    },
+    {
+      "id": 33,
+      "en": "Kochuri",
+      "src": "local"
+    },
+    {
+      "id": 34,
+      "en": "Luchi",
+      "src": "local"
+    },
+    {
+      "id": 37,
+      "en": "Oats Milk Bowl",
+      "src": "local"
+    },
+    {
+      "id": 38,
+      "en": "Oats Porridge",
+      "src": "local"
+    },
+    {
+      "id": 54,
+      "en": "Aam Chutney",
+      "src": "local"
+    },
+    {
+      "id": 55,
+      "en": "Tomato Chutney",
+      "src": "local"
+    },
+    {
+      "id": 141,
+      "en": "Chana Bhuna",
+      "src": "local"
+    },
+    {
+      "id": 142,
+      "en": "Cholar Dal",
+      "src": "local"
+    },
+    {
+      "id": 152,
+      "en": "Masoor Dal",
+      "src": "local"
+    },
+    {
+      "id": 153,
+      "en": "Mixed Dal",
+      "src": "local"
+    },
+    {
+      "id": 154,
+      "en": "Moong Dal",
+      "src": "local"
+    },
+    {
+      "id": 168,
+      "en": "Bhapa Pitha",
+      "src": "local"
+    },
+    {
+      "id": 170,
+      "en": "Nolen Gur Sandesh",
+      "src": "local"
+    },
+    {
+      "id": 174,
+      "en": "Sandesh",
+      "src": "local"
+    },
+    {
+      "id": 175,
+      "en": "Strawberry Yogurt",
+      "src": "local"
+    },
+    {
+      "id": 176,
+      "en": "Detox Bowl",
+      "src": "local"
+    },
+    {
+      "id": 177,
+      "en": "Weight Loss Soup",
+      "src": "local"
+    },
+    {
+      "id": 178,
+      "en": "Apple Cider Drink",
+      "src": "local"
+    },
+    {
+      "id": 179,
+      "en": "Banana Shake",
+      "src": "local"
+    },
+    {
+      "id": 180,
+      "en": "Black Coffee",
+      "src": "local"
+    },
+    {
+      "id": 181,
+      "en": "Black Tea",
+      "src": "local"
+    },
+    {
+      "id": 182,
+      "en": "Chocolate Milk",
+      "src": "local"
+    },
+    {
+      "id": 183,
+      "en": "Coconut Water",
+      "src": "local"
+    },
+    {
+      "id": 184,
+      "en": "Detox Water",
+      "src": "local"
+    },
+    {
+      "id": 185,
+      "en": "Fat Burn Drink",
+      "src": "local"
+    },
+    {
+      "id": 186,
+      "en": "Ginger Tea",
+      "src": "local"
+    },
+    {
+      "id": 187,
+      "en": "Herbal Tea",
+      "src": "local"
+    },
+    {
+      "id": 189,
+      "en": "Lemon Honey Water",
+      "src": "local"
+    },
+    {
+      "id": 190,
+      "en": "Lemon Water",
+      "src": "local"
+    },
+    {
+      "id": 191,
+      "en": "Mango Shake",
+      "src": "local"
+    },
+    {
+      "id": 192,
+      "en": "Milk Coffee",
+      "src": "local"
+    },
+    {
+      "id": 193,
+      "en": "Milk Tea",
+      "src": "local"
+    },
+    {
+      "id": 194,
+      "en": "Salt Lassi",
+      "src": "local"
+    },
+    {
+      "id": 195,
+      "en": "Sweet Lassi",
+      "src": "local"
+    },
+    {
+      "id": 196,
+      "en": "Air Fry Fish",
+      "src": "local"
+    },
+    {
+      "id": 200,
+      "en": "Bhetki Paturi",
+      "src": "local"
+    },
+    {
+      "id": 201,
+      "en": "Chingri Bhapa",
+      "src": "local"
+    },
+    {
+      "id": 202,
+      "en": "Chingri Bhorta",
+      "src": "local"
+    },
+    {
+      "id": 203,
+      "en": "Chingri Malai",
+      "src": "local"
+    },
+    {
+      "id": 205,
+      "en": "Daab Chingri",
+      "src": "local"
+    },
+    {
+      "id": 206,
+      "en": "Fish Fry",
+      "src": "local"
+    },
+    {
+      "id": 207,
+      "en": "Fish Kalia",
+      "src": "local"
+    },
+    {
+      "id": 208,
+      "en": "Fish Steam",
+      "src": "local"
+    },
+    {
+      "id": 222,
+      "en": "Ilish Bhapa",
+      "src": "local"
+    },
+    {
+      "id": 223,
+      "en": "Katla Curry",
+      "src": "local"
+    },
+    {
+      "id": 224,
+      "en": "Lean Fish Bowl",
+      "src": "local"
+    },
+    {
+      "id": 226,
+      "en": "Macher Bhaja",
+      "src": "local"
+    },
+    {
+      "id": 227,
+      "en": "Macher Jhol",
+      "src": "local"
+    },
+    {
+      "id": 228,
+      "en": "Pabda Jhol",
+      "src": "local"
+    },
+    {
+      "id": 231,
+      "en": "Rohu Curry",
+      "src": "local"
+    },
+    {
+      "id": 232,
+      "en": "Shorshe Ilish",
+      "src": "local"
+    },
+    {
+      "id": 234,
+      "en": "Tangra Jhol",
+      "src": "local"
+    },
+    {
+      "id": 236,
+      "en": "Fitness Bowl",
+      "src": "local"
+    },
+    {
+      "id": 237,
+      "en": "Low Carb Bowl",
+      "src": "local"
+    },
+    {
+      "id": 238,
+      "en": "Apple",
+      "src": "local"
+    },
+    {
+      "id": 245,
+      "en": "Banana",
+      "src": "local"
+    },
+    {
+      "id": 256,
+      "en": "Dates",
+      "src": "local"
+    },
+    {
+      "id": 260,
+      "en": "Fruit Salad",
+      "src": "local"
+    },
+    {
+      "id": 262,
+      "en": "Guava",
+      "src": "local"
+    },
+    {
+      "id": 266,
+      "en": "Jackfruit",
+      "src": "local"
+    },
+    {
+      "id": 267,
+      "en": "Mango",
+      "src": "local"
+    },
+    {
+      "id": 275,
+      "en": "Mixed Fruit Bowl",
+      "src": "local"
+    },
+    {
+      "id": 295,
+      "en": "Watermelon",
+      "src": "local"
+    },
+    {
+      "id": 301,
+      "en": "Rice",
+      "src": "local"
+    },
+    {
+      "id": 308,
+      "en": "Balanced Diet Bowl",
+      "src": "local"
+    },
+    {
+      "id": 309,
+      "en": "Healthy Curry Bowl",
+      "src": "local"
+    },
+    {
+      "id": 310,
+      "en": "Light Dinner Bowl",
+      "src": "local"
+    },
+    {
+      "id": 311,
+      "en": "Light Lunch Bowl",
+      "src": "local"
+    },
+    {
+      "id": 312,
+      "en": "Simple Chicken Meal",
+      "src": "local"
+    },
+    {
+      "id": 313,
+      "en": "Simple Veg Meal",
+      "src": "local"
+    },
+    {
+      "id": 314,
+      "en": "Wellness Bowl",
+      "src": "local"
+    },
+    {
+      "id": 316,
+      "en": "Air Fry Chicken",
+      "src": "local"
+    },
+    {
+      "id": 317,
+      "en": "Boiled Chicken",
+      "src": "local"
+    },
+    {
+      "id": 321,
+      "en": "Chicken Curry",
+      "src": "local"
+    },
+    {
+      "id": 322,
+      "en": "Chicken Grill",
+      "src": "local"
+    },
+    {
+      "id": 323,
+      "en": "Chicken Roast",
+      "src": "local"
+    },
+    {
+      "id": 339,
+      "en": "Egg Curry",
+      "src": "local"
+    },
+    {
+      "id": 347,
+      "en": "Light Chicken Curry",
+      "src": "local"
+    },
+    {
+      "id": 348,
+      "en": "Mutton Curry",
+      "src": "local"
+    },
+    {
+      "id": 362,
+      "en": "Chicken Chowmein",
+      "src": "local"
+    },
+    {
+      "id": 364,
+      "en": "Egg Chowmein",
+      "src": "local"
+    },
+    {
+      "id": 375,
+      "en": "Almonds",
+      "src": "local"
+    },
+    {
+      "id": 376,
+      "en": "Cashew",
+      "src": "local"
+    },
+    {
+      "id": 385,
+      "en": "Walnuts",
+      "src": "local"
+    },
+    {
+      "id": 490,
+      "en": "Jam filling",
+      "src": "indb"
+    },
+    {
+      "id": 640,
+      "en": "Boiled Egg",
+      "src": "local"
+    },
+    {
+      "id": 642,
+      "en": "Egg Bhurji",
+      "src": "local"
+    },
+    {
+      "id": 643,
+      "en": "Egg White Omelette",
+      "src": "local"
+    },
+    {
+      "id": 652,
+      "en": "Fried Egg",
+      "src": "local"
+    },
+    {
+      "id": 653,
+      "en": "High Protein Bowl",
+      "src": "local"
+    },
+    {
+      "id": 657,
+      "en": "Lean Chicken Bowl",
+      "src": "local"
+    },
+    {
+      "id": 659,
+      "en": "Protein Bar",
+      "src": "local"
+    },
+    {
+      "id": 664,
+      "en": "Veg Protein Bowl",
+      "src": "local"
+    },
+    {
+      "id": 667,
+      "en": "Basanti Pulao",
+      "src": "local"
+    },
+    {
+      "id": 668,
+      "en": "Chicken Khichdi",
+      "src": "local"
+    },
+    {
+      "id": 671,
+      "en": "Coconut Rice",
+      "src": "local"
+    },
+    {
+      "id": 673,
+      "en": "Curd Rice",
+      "src": "local"
+    },
+    {
+      "id": 674,
+      "en": "Fish Pulao",
+      "src": "local"
+    },
+    {
+      "id": 675,
+      "en": "Fried Rice",
+      "src": "local"
+    },
+    {
+      "id": 677,
+      "en": "Khichuri",
+      "src": "local"
+    },
+    {
+      "id": 678,
+      "en": "Kolkata Biryani",
+      "src": "local"
+    },
+    {
+      "id": 679,
+      "en": "Lemon Rice",
+      "src": "local"
+    },
+    {
+      "id": 680,
+      "en": "Light Rice Bowl",
+      "src": "local"
+    },
+    {
+      "id": 681,
+      "en": "Mishti Pulao",
+      "src": "local"
+    },
+    {
+      "id": 688,
+      "en": "Panta Bhat",
+      "src": "local"
+    },
+    {
+      "id": 693,
+      "en": "Protein Khichdi",
+      "src": "local"
+    },
+    {
+      "id": 695,
+      "en": "Spinach Rice",
+      "src": "local"
+    },
+    {
+      "id": 696,
+      "en": "Veg Pulao",
+      "src": "local"
+    },
+    {
+      "id": 737,
+      "en": "Boiled Chicken Salad",
+      "src": "local"
+    },
+    {
+      "id": 740,
+      "en": "Chickpea Salad",
+      "src": "local"
+    },
+    {
+      "id": 745,
+      "en": "Gym Salad",
+      "src": "local"
+    },
+    {
+      "id": 751,
+      "en": "Moong Sprouts",
+      "src": "local"
+    },
+    {
+      "id": 755,
+      "en": "Sprouts Salad",
+      "src": "local"
+    },
+    {
+      "id": 761,
+      "en": "Aloo Bhaja",
+      "src": "local"
+    },
+    {
+      "id": 763,
+      "en": "Beguni",
+      "src": "local"
+    },
+    {
+      "id": 768,
+      "en": "Chicken Roll",
+      "src": "local"
+    },
+    {
+      "id": 769,
+      "en": "Chicken Sandwich",
+      "src": "local"
+    },
+    {
+      "id": 770,
+      "en": "Chingri Cutlet",
+      "src": "local"
+    },
+    {
+      "id": 784,
+      "en": "Egg Devil",
+      "src": "local"
+    },
+    {
+      "id": 785,
+      "en": "Egg Sandwich",
+      "src": "local"
+    },
+    {
+      "id": 786,
+      "en": "Energy Bar",
+      "src": "local"
+    },
+    {
+      "id": 794,
+      "en": "Jhalmuri",
+      "src": "local"
+    },
+    {
+      "id": 795,
+      "en": "Kathi Roll Chicken",
+      "src": "local"
+    },
+    {
+      "id": 804,
+      "en": "Murir Moa",
+      "src": "local"
+    },
+    {
+      "id": 807,
+      "en": "Nut Mix",
+      "src": "local"
+    },
+    {
+      "id": 812,
+      "en": "Peanut Chikki",
+      "src": "local"
+    },
+    {
+      "id": 816,
+      "en": "Phuchka",
+      "src": "local"
+    },
+    {
+      "id": 821,
+      "en": "Roasted Chana",
+      "src": "local"
+    },
+    {
+      "id": 825,
+      "en": "Samosa",
+      "src": "local"
+    },
+    {
+      "id": 826,
+      "en": "Seed Mix",
+      "src": "local"
+    },
+    {
+      "id": 829,
+      "en": "Singara",
+      "src": "local"
+    },
+    {
+      "id": 840,
+      "en": "Veg Chop",
+      "src": "local"
+    },
+    {
+      "id": 841,
+      "en": "Veg Roll",
+      "src": "local"
+    },
+    {
+      "id": 842,
+      "en": "Veg Sandwich",
+      "src": "local"
+    },
+    {
+      "id": 849,
+      "en": "Bone Broth Chicken",
+      "src": "local"
+    },
+    {
+      "id": 850,
+      "en": "Chicken Soup",
+      "src": "local"
+    },
+    {
+      "id": 855,
+      "en": "Dal Soup",
+      "src": "local"
+    },
+    {
+      "id": 856,
+      "en": "Fish Broth",
+      "src": "local"
+    },
+    {
+      "id": 868,
+      "en": "Tomato Soup",
+      "src": "local"
+    },
+    {
+      "id": 869,
+      "en": "Veg Soup",
+      "src": "local"
+    },
+    {
+      "id": 949,
+      "en": "Alur Dom",
+      "src": "local"
+    },
+    {
+      "id": 950,
+      "en": "Begun Bhaja",
+      "src": "local"
+    },
+    {
+      "id": 951,
+      "en": "Boiled Veg Mix",
+      "src": "local"
+    },
+    {
+      "id": 952,
+      "en": "Cabbage Curry",
+      "src": "local"
+    },
+    {
+      "id": 953,
+      "en": "Cauliflower Curry",
+      "src": "local"
+    },
+    {
+      "id": 954,
+      "en": "Dalna",
+      "src": "local"
+    },
+    {
+      "id": 955,
+      "en": "Dhokar Dalna",
+      "src": "local"
+    },
+    {
+      "id": 956,
+      "en": "Grilled Paneer",
+      "src": "local"
+    },
+    {
+      "id": 957,
+      "en": "Labra",
+      "src": "local"
+    },
+    {
+      "id": 958,
+      "en": "Lau Ghonto",
+      "src": "local"
+    },
+    {
+      "id": 959,
+      "en": "Light Veg Curry",
+      "src": "local"
+    },
+    {
+      "id": 960,
+      "en": "Mixed Veg",
+      "src": "local"
+    },
+    {
+      "id": 961,
+      "en": "Mochar Ghonto",
+      "src": "local"
+    },
+    {
+      "id": 962,
+      "en": "Palong Saag",
+      "src": "local"
+    },
+    {
+      "id": 963,
+      "en": "Paneer Bhurji",
+      "src": "local"
+    },
+    {
+      "id": 964,
+      "en": "Paneer Curry",
+      "src": "local"
+    },
+    {
+      "id": 965,
+      "en": "Posto Bata",
+      "src": "local"
+    },
+    {
+      "id": 966,
+      "en": "Potol Posto",
+      "src": "local"
+    },
+    {
+      "id": 967,
+      "en": "Roasted Veg Bowl",
+      "src": "local"
+    },
+    {
+      "id": 969,
+      "en": "Steamed Veg",
+      "src": "local"
+    },
+    {
+      "id": 970,
+      "en": "Vegetable Stew",
+      "src": "local"
+    },
+    {
+      "id": 1085,
+      "en": "Semolina, wheat, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1096,
+      "en": "Ruti* Ruti",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1111,
+      "en": "Amaranth, stem, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1112,
+      "en": "Bean, scarlet runner, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1114,
+      "en": "Beet root, red, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1121,
+      "en": "Cowpea, pods and seeds, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1156,
+      "en": "Agathi, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1157,
+      "en": "Alligator weed, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1170,
+      "en": "Dima leaves, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1172,
+      "en": "Fern, leaves, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1179,
+      "en": "Spinach, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1182,
+      "en": "Sweet potato leaves, SP7, dark green, mature, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1184,
+      "en": "Water spinach, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1185,
+      "en": "Watercress, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1195,
+      "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1196,
+      "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1198,
+      "en": "Potato, Diamond, boiled* (without salt)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1202,
+      "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1233,
+      "en": "Nutmeg, dried",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1234,
+      "en": "Poppy seeds",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1235,
+      "en": "Turmeric, dried",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1253,
+      "en": "Jambolan, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1255,
+      "en": "Java apple, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1257,
+      "en": "Lemon, Kagoji, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1286,
+      "en": "Catfish, Bacha, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1294,
+      "en": "Gangetic ailia, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1321,
+      "en": "Rohu, river, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1323,
+      "en": "Shrimp, Speckled, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1326,
+      "en": "Spotted snakehead, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1328,
+      "en": "Stone roller, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1350,
+      "en": "Egg, chicken, farmed, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1351,
+      "en": "Egg, chicken, native, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1352,
+      "en": "Egg, chicken, native, yolk, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1353,
+      "en": "Egg, duck, whole, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1355,
+      "en": "Egg, chicken, native, boiled* (without salt)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1356,
+      "en": "Egg, duck, whole, boiled* (without salt)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1369,
+      "en": "Cottonseed oil",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1375,
+      "en": "Mustard oil",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1376,
+      "en": "Palm oil",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1377,
+      "en": "Peanut oil China badam",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1378,
+      "en": "Sesame oil",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1381,
+      "en": "Coffee, instant, with sugar and milk",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1382,
+      "en": "Coffee, powder",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1383,
+      "en": "Soft drinks, carbonated",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1384,
+      "en": "Soya milk (not sweetened)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1385,
+      "en": "Sugar cane juice",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1386,
+      "en": "Tea, milk tea (with sugar and milk powder)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1387,
+      "en": "Tea, infusion (with sugar)",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1388,
+      "en": "Tea, powder",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1389,
+      "en": "Baking powder",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1390,
+      "en": "Betel leaves, raw",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1391,
+      "en": "Honey",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1392,
+      "en": "Jaggery, sugarcane, solid",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1393,
+      "en": "Jaggery/Panela, date palm",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1394,
+      "en": "Jaggery, liquid, date palm",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1395,
+      "en": "Sugar, white",
+      "src": "bd_fct"
+    },
+    {
+      "id": 1425,
+      "en": "Whiskey / Whisky (30ml)",
+      "src": "local"
+    },
+    {
+      "id": 1426,
+      "en": "Rum (30ml)",
+      "src": "local"
+    },
+    {
+      "id": 1427,
+      "en": "Vodka (30ml)",
+      "src": "local"
+    }
+  ],
+  "category_issues": [
+    {
+      "id": 16,
+      "en": "Infinity Wellness Bowl",
+      "cat": "brand"
+    },
+    {
+      "id": 54,
+      "en": "Aam Chutney",
+      "cat": "condiment"
+    },
+    {
+      "id": 55,
+      "en": "Tomato Chutney",
+      "cat": "condiment"
+    },
+    {
+      "id": 140,
+      "en": "Atta dal burfi",
+      "cat": "dal"
+    },
+    {
+      "id": 141,
+      "en": "Chana Bhuna",
+      "cat": "dal"
+    },
+    {
+      "id": 142,
+      "en": "Cholar Dal",
+      "cat": "dal"
+    },
+    {
+      "id": 143,
+      "en": "Dal dhokli",
+      "cat": "dal"
+    },
+    {
+      "id": 144,
+      "en": "Dal makhani",
+      "cat": "dal"
+    },
+    {
+      "id": 145,
+      "en": "Dal moong",
+      "cat": "dal"
+    },
+    {
+      "id": 146,
+      "en": "Dhokla",
+      "cat": "dal"
+    },
+    {
+      "id": 147,
+      "en": "Horsegram dal",
+      "cat": "dal"
+    },
+    {
+      "id": 148,
+      "en": "Instant dhokla",
+      "cat": "dal"
+    },
+    {
+      "id": 149,
+      "en": "Lentil soup",
+      "cat": "dal"
+    },
+    {
+      "id": 150,
+      "en": "Maa chaane ki dal",
+      "cat": "dal"
+    },
+    {
+      "id": 151,
+      "en": "Masala urad dal vada",
+      "cat": "dal"
+    },
+    {
+      "id": 152,
+      "en": "Masoor Dal",
+      "cat": "dal"
+    },
+    {
+      "id": 153,
+      "en": "Mixed Dal",
+      "cat": "dal"
+    },
+    {
+      "id": 154,
+      "en": "Moong Dal",
+      "cat": "dal"
+    },
+    {
+      "id": 155,
+      "en": "Moti mahal dal",
+      "cat": "dal"
+    },
+    {
+      "id": 156,
+      "en": "Panchmel dal",
+      "cat": "dal"
+    },
+    {
+      "id": 157,
+      "en": "Plain urad dal vada",
+      "cat": "dal"
+    },
+    {
+      "id": 158,
+      "en": "Rasam powder",
+      "cat": "dal"
+    },
+    {
+      "id": 159,
+      "en": "Rasam with tamarind",
+      "cat": "dal"
+    },
+    {
+      "id": 160,
+      "en": "Rice dal porridge",
+      "cat": "dal"
+    },
+    {
+      "id": 161,
+      "en": "Rice moong dal cheela",
+      "cat": "dal"
+    },
+    {
+      "id": 162,
+      "en": "Sambar",
+      "cat": "dal"
+    },
+    {
+      "id": 163,
+      "en": "Sambar powder",
+      "cat": "dal"
+    },
+    {
+      "id": 164,
+      "en": "Semolina dhokla",
+      "cat": "dal"
+    },
+    {
+      "id": 165,
+      "en": "Washed moong dal",
+      "cat": "dal"
+    },
+    {
+      "id": 166,
+      "en": "Washed urad dal",
+      "cat": "dal"
+    },
+    {
+      "id": 167,
+      "en": "Wheat flour and moong dal burfi",
+      "cat": "dal"
+    },
+    {
+      "id": 176,
+      "en": "Detox Bowl",
+      "cat": "diet"
+    },
+    {
+      "id": 177,
+      "en": "Weight Loss Soup",
+      "cat": "diet"
+    },
+    {
+      "id": 178,
+      "en": "Apple Cider Drink",
+      "cat": "drink"
+    },
+    {
+      "id": 179,
+      "en": "Banana Shake",
+      "cat": "drink"
+    },
+    {
+      "id": 180,
+      "en": "Black Coffee",
+      "cat": "drink"
+    },
+    {
+      "id": 181,
+      "en": "Black Tea",
+      "cat": "drink"
+    },
+    {
+      "id": 182,
+      "en": "Chocolate Milk",
+      "cat": "drink"
+    },
+    {
+      "id": 183,
+      "en": "Coconut Water",
+      "cat": "drink"
+    },
+    {
+      "id": 184,
+      "en": "Detox Water",
+      "cat": "drink"
+    },
+    {
+      "id": 185,
+      "en": "Fat Burn Drink",
+      "cat": "drink"
+    },
+    {
+      "id": 186,
+      "en": "Ginger Tea",
+      "cat": "drink"
+    },
+    {
+      "id": 187,
+      "en": "Herbal Tea",
+      "cat": "drink"
+    },
+    {
+      "id": 189,
+      "en": "Lemon Honey Water",
+      "cat": "drink"
+    },
+    {
+      "id": 190,
+      "en": "Lemon Water",
+      "cat": "drink"
+    },
+    {
+      "id": 191,
+      "en": "Mango Shake",
+      "cat": "drink"
+    },
+    {
+      "id": 192,
+      "en": "Milk Coffee",
+      "cat": "drink"
+    },
+    {
+      "id": 193,
+      "en": "Milk Tea",
+      "cat": "drink"
+    },
+    {
+      "id": 194,
+      "en": "Salt Lassi",
+      "cat": "drink"
+    },
+    {
+      "id": 195,
+      "en": "Sweet Lassi",
+      "cat": "drink"
+    },
+    {
+      "id": 236,
+      "en": "Fitness Bowl",
+      "cat": "fitness"
+    },
+    {
+      "id": 237,
+      "en": "Low Carb Bowl",
+      "cat": "fitness"
+    },
+    {
+      "id": 308,
+      "en": "Balanced Diet Bowl",
+      "cat": "meal"
+    },
+    {
+      "id": 309,
+      "en": "Healthy Curry Bowl",
+      "cat": "meal"
+    },
+    {
+      "id": 310,
+      "en": "Light Dinner Bowl",
+      "cat": "meal"
+    },
+    {
+      "id": 311,
+      "en": "Light Lunch Bowl",
+      "cat": "meal"
+    },
+    {
+      "id": 312,
+      "en": "Simple Chicken Meal",
+      "cat": "meal"
+    },
+    {
+      "id": 313,
+      "en": "Simple Veg Meal",
+      "cat": "meal"
+    },
+    {
+      "id": 314,
+      "en": "Wellness Bowl",
+      "cat": "meal"
+    },
+    {
+      "id": 361,
+      "en": "Beans and macaroni",
+      "cat": "noodle"
+    },
+    {
+      "id": 362,
+      "en": "Chicken Chowmein",
+      "cat": "noodle"
+    },
+    {
+      "id": 363,
+      "en": "Classic italian pasta",
+      "cat": "noodle"
+    },
+    {
+      "id": 364,
+      "en": "Egg Chowmein",
+      "cat": "noodle"
+    },
+    {
+      "id": 365,
+      "en": "Macaroni salad",
+      "cat": "noodle"
+    },
+    {
+      "id": 366,
+      "en": "Meat and macaroni casserole",
+      "cat": "noodle"
+    },
+    {
+      "id": 367,
+      "en": "Pasta hot pot",
+      "cat": "noodle"
+    },
+    {
+      "id": 368,
+      "en": "Pasta salad",
+      "cat": "noodle"
+    },
+    {
+      "id": 369,
+      "en": "Spaghetti bolognese",
+      "cat": "noodle"
+    },
+    {
+      "id": 370,
+      "en": "Spaghetti with meat balls and tomato sauce",
+      "cat": "noodle"
+    },
+    {
+      "id": 371,
+      "en": "Vegetable chowmein",
+      "cat": "noodle"
+    },
+    {
+      "id": 372,
+      "en": "Vermicelli porridge",
+      "cat": "noodle"
+    },
+    {
+      "id": 373,
+      "en": "Vermicelli upma",
+      "cat": "noodle"
+    },
+    {
+      "id": 374,
+      "en": "Almond soup",
+      "cat": "nut"
+    },
+    {
+      "id": 375,
+      "en": "Almonds",
+      "cat": "nut"
+    },
+    {
+      "id": 376,
+      "en": "Cashew",
+      "cat": "nut"
+    },
+    {
+      "id": 377,
+      "en": "Cherry and walnut cookies",
+      "cat": "nut"
+    },
+    {
+      "id": 378,
+      "en": "Chocolate walnut cookies",
+      "cat": "nut"
+    },
+    {
+      "id": 379,
+      "en": "Peanut brittle",
+      "cat": "nut"
+    },
+    {
+      "id": 380,
+      "en": "Peanut burfi",
+      "cat": "nut"
+    },
+    {
+      "id": 381,
+      "en": "Peanut chutney",
+      "cat": "nut"
+    },
+    {
+      "id": 382,
+      "en": "Peanut cutlet",
+      "cat": "nut"
+    },
+    {
+      "id": 383,
+      "en": "Peanut raita",
+      "cat": "nut"
+    },
+    {
+      "id": 384,
+      "en": "Walnut chutney",
+      "cat": "nut"
+    },
+    {
+      "id": 385,
+      "en": "Walnuts",
+      "cat": "nut"
+    },
+    {
+      "id": 386,
+      "en": "Al yakhani",
+      "cat": "other"
+    },
+    {
+      "id": 387,
+      "en": "American frosting",
+      "cat": "other"
+    },
+    {
+      "id": 388,
+      "en": "Apricot fool",
+      "cat": "other"
+    },
+    {
+      "id": 389,
+      "en": "Assorted pastry",
+      "cat": "other"
+    },
+    {
+      "id": 390,
+      "en": "Avial",
+      "cat": "other"
+    },
+    {
+      "id": 391,
+      "en": "Baked eggs in tomato sauce",
+      "cat": "other"
+    },
+    {
+      "id": 392,
+      "en": "Baked vegetables",
+      "cat": "other"
+    },
+    {
+      "id": 393,
+      "en": "Barbeque sauce",
+      "cat": "other"
+    },
+    {
+      "id": 394,
+      "en": "Bathua bhujia",
+      "cat": "other"
+    },
+    {
+      "id": 395,
+      "en": "Beans foogath",
+      "cat": "other"
+    },
+    {
+      "id": 396,
+      "en": "Bengal 5 Spice Blend",
+      "cat": "other"
+    },
+    {
+      "id": 397,
+      "en": "Besan bathua chilla/cheela",
+      "cat": "other"
+    },
+    {
+      "id": 398,
+      "en": "Besan gatte curry",
+      "cat": "other"
+    },
+    {
+      "id": 399,
+      "en": "Besan kadhi with pakodies",
+      "cat": "other"
+    },
+    {
+      "id": 400,
+      "en": "Black channa curry/Bengal gram curry",
+      "cat": "other"
+    },
+    {
+      "id": 401,
+      "en": "Black forest pastry",
+      "cat": "other"
+    },
+    {
+      "id": 402,
+      "en": "Boti kebab",
+      "cat": "other"
+    },
+    {
+      "id": 403,
+      "en": "Broccoli delight",
+      "cat": "other"
+    },
+    {
+      "id": 404,
+      "en": "Brown sauce",
+      "cat": "other"
+    },
+    {
+      "id": 405,
+      "en": "Brown stock",
+      "cat": "other"
+    },
+    {
+      "id": 406,
+      "en": "Canjee",
+      "cat": "other"
+    },
+    {
+      "id": 407,
+      "en": "Cardamom cookies",
+      "cat": "other"
+    },
+    {
+      "id": 408,
+      "en": "Carrot and fenugreek leaves",
+      "cat": "other"
+    },
+    {
+      "id": 409,
+      "en": "Carrot murabba",
+      "cat": "other"
+    },
+    {
+      "id": 410,
+      "en": "Cashewnut burfi",
+      "cat": "other"
+    },
+    {
+      "id": 411,
+      "en": "Channa murmura premix",
+      "cat": "other"
+    },
+    {
+      "id": 412,
+      "en": "Charlotte rousse",
+      "cat": "other"
+    },
+    {
+      "id": 413,
+      "en": "Chat masala",
+      "cat": "other"
+    },
+    {
+      "id": 414,
+      "en": "Chenna murki",
+      "cat": "other"
+    },
+    {
+      "id": 416,
+      "en": "Chickpea flour cookies",
+      "cat": "other"
+    },
+    {
+      "id": 417,
+      "en": "Chickpeas curry",
+      "cat": "other"
+    },
+    {
+      "id": 418,
+      "en": "Chocolate burfi",
+      "cat": "other"
+    },
+    {
+      "id": 419,
+      "en": "Chocolate chip cookies",
+      "cat": "other"
+    },
+    {
+      "id": 420,
+      "en": "Chocolate eclairs",
+      "cat": "other"
+    },
+    {
+      "id": 421,
+      "en": "Chocolate glace icing",
+      "cat": "other"
+    },
+    {
+      "id": 422,
+      "en": "Chocolate meringue pie",
+      "cat": "other"
+    },
+    {
+      "id": 423,
+      "en": "Chocolate pastry",
+      "cat": "other"
+    },
+    {
+      "id": 424,
+      "en": "Chocolate sauce",
+      "cat": "other"
+    },
+    {
+      "id": 425,
+      "en": "Chocolate souffle",
+      "cat": "other"
+    },
+    {
+      "id": 426,
+      "en": "Choux pastry",
+      "cat": "other"
+    },
+    {
+      "id": 427,
+      "en": "Choux swans",
+      "cat": "other"
+    },
+    {
+      "id": 428,
+      "en": "Chum chum",
+      "cat": "other"
+    },
+    {
+      "id": 429,
+      "en": "Classic seasoned black beans",
+      "cat": "other"
+    },
+    {
+      "id": 430,
+      "en": "Cold chocolate souffle",
+      "cat": "other"
+    },
+    {
+      "id": 431,
+      "en": "Cold lemon souffle",
+      "cat": "other"
+    },
+    {
+      "id": 432,
+      "en": "Cold vanilla souffle",
+      "cat": "other"
+    },
+    {
+      "id": 433,
+      "en": "Coleslaw",
+      "cat": "other"
+    },
+    {
+      "id": 434,
+      "en": "Consomme au julienne",
+      "cat": "other"
+    },
+    {
+      "id": 435,
+      "en": "Coriander chutney",
+      "cat": "other"
+    },
+    {
+      "id": 436,
+      "en": "Corn omelette/omlet",
+      "cat": "other"
+    },
+    {
+      "id": 437,
+      "en": "Cranberry cookies",
+      "cat": "other"
+    },
+    {
+      "id": 438,
+      "en": "Crunchy butterscotch",
+      "cat": "other"
+    },
+    {
+      "id": 439,
+      "en": "Cumin seeds baghar",
+      "cat": "other"
+    },
+    {
+      "id": 440,
+      "en": "Dahi vadas/Dahi bhalla",
+      "cat": "other"
+    },
+    {
+      "id": 441,
+      "en": "Dalma",
+      "cat": "dal"
+    },
+    {
+      "id": 442,
+      "en": "Danedar burfi",
+      "cat": "other"
+    },
+    {
+      "id": 443,
+      "en": "Danish cookies",
+      "cat": "other"
+    },
+    {
+      "id": 444,
+      "en": "Date and nut pie",
+      "cat": "other"
+    },
+    {
+      "id": 445,
+      "en": "Date pickle",
+      "cat": "other"
+    },
+    {
+      "id": 446,
+      "en": "Dhansak",
+      "cat": "other"
+    },
+    {
+      "id": 447,
+      "en": "Dil bahar",
+      "cat": "other"
+    },
+    {
+      "id": 448,
+      "en": "Dry arbi",
+      "cat": "other"
+    },
+    {
+      "id": 449,
+      "en": "Dry masala chops",
+      "cat": "other"
+    },
+    {
+      "id": 450,
+      "en": "Dry washed urad",
+      "cat": "other"
+    },
+    {
+      "id": 451,
+      "en": "Fermented bamboo shoot pickle",
+      "cat": "other"
+    },
+    {
+      "id": 452,
+      "en": "Flaky pastry",
+      "cat": "other"
+    },
+    {
+      "id": 453,
+      "en": "Flan pastry",
+      "cat": "other"
+    },
+    {
+      "id": 454,
+      "en": "Flavoured milkshake",
+      "cat": "other"
+    },
+    {
+      "id": 455,
+      "en": "French dressing",
+      "cat": "other"
+    },
+    {
+      "id": 456,
+      "en": "French omelette/omlet",
+      "cat": "other"
+    },
+    {
+      "id": 457,
+      "en": "Fricassee of Mushroom",
+      "cat": "other"
+    },
+    {
+      "id": 458,
+      "en": "Fruit Loaf",
+      "cat": "other"
+    },
+    {
+      "id": 459,
+      "en": "Fruit Punch",
+      "cat": "other"
+    },
+    {
+      "id": 460,
+      "en": "Fruit delight",
+      "cat": "other"
+    },
+    {
+      "id": 461,
+      "en": "Fruit flan",
+      "cat": "other"
+    },
+    {
+      "id": 462,
+      "en": "Garam masala",
+      "cat": "other"
+    },
+    {
+      "id": 463,
+      "en": "Garlic chutney/Poondu chutney",
+      "cat": "other"
+    },
+    {
+      "id": 464,
+      "en": "Garlic pickle",
+      "cat": "other"
+    },
+    {
+      "id": 465,
+      "en": "Ghujia/Lavang latika",
+      "cat": "other"
+    },
+    {
+      "id": 466,
+      "en": "Ginger candy",
+      "cat": "other"
+    },
+    {
+      "id": 467,
+      "en": "Gingo",
+      "cat": "other"
+    },
+    {
+      "id": 468,
+      "en": "Glace icing",
+      "cat": "other"
+    },
+    {
+      "id": 469,
+      "en": "Gooseberry chutney",
+      "cat": "other"
+    },
+    {
+      "id": 470,
+      "en": "Gooseberry marmalade",
+      "cat": "other"
+    },
+    {
+      "id": 471,
+      "en": "Gooseberry pickle",
+      "cat": "other"
+    },
+    {
+      "id": 472,
+      "en": "Gram flour burfi",
+      "cat": "other"
+    },
+    {
+      "id": 473,
+      "en": "Gravy for kofta",
+      "cat": "other"
+    },
+    {
+      "id": 474,
+      "en": "Green chutney",
+      "cat": "other"
+    },
+    {
+      "id": 475,
+      "en": "Green gram whole with baghar",
+      "cat": "other"
+    },
+    {
+      "id": 476,
+      "en": "Green tomato pickle",
+      "cat": "other"
+    },
+    {
+      "id": 477,
+      "en": "Greenpea cookies",
+      "cat": "other"
+    },
+    {
+      "id": 478,
+      "en": "Gujarati handvo",
+      "cat": "other"
+    },
+    {
+      "id": 479,
+      "en": "Gum icing",
+      "cat": "other"
+    },
+    {
+      "id": 480,
+      "en": "Gun powder chutney",
+      "cat": "other"
+    },
+    {
+      "id": 481,
+      "en": "Gunjia",
+      "cat": "other"
+    },
+    {
+      "id": 482,
+      "en": "Hazelnut cookies",
+      "cat": "other"
+    },
+    {
+      "id": 483,
+      "en": "Hot cherry sauce",
+      "cat": "other"
+    },
+    {
+      "id": 484,
+      "en": "Hot chocolate souffle",
+      "cat": "other"
+    },
+    {
+      "id": 485,
+      "en": "Hot cocoa",
+      "cat": "other"
+    },
+    {
+      "id": 486,
+      "en": "Hot lemon souffle",
+      "cat": "other"
+    },
+    {
+      "id": 487,
+      "en": "Hot vanilla souffle",
+      "cat": "other"
+    },
+    {
+      "id": 488,
+      "en": "Ice box cookies",
+      "cat": "other"
+    },
+    {
+      "id": 489,
+      "en": "Jal jeera",
+      "cat": "other"
+    },
+    {
+      "id": 490,
+      "en": "Jam filling",
+      "cat": "other"
+    },
+    {
+      "id": 491,
+      "en": "Jhatpat achar with carrot",
+      "cat": "other"
+    },
+    {
+      "id": 492,
+      "en": "Kabuli channa curry",
+      "cat": "other"
+    },
+    {
+      "id": 493,
+      "en": "Kashmiri 'tahar'",
+      "cat": "other"
+    },
+    {
+      "id": 494,
+      "en": "Kashmiri masala",
+      "cat": "other"
+    },
+    {
+      "id": 495,
+      "en": "Kesari bath",
+      "cat": "other"
+    },
+    {
+      "id": 496,
+      "en": "Khakhra",
+      "cat": "other"
+    },
+    {
+      "id": 497,
+      "en": "Khaman",
+      "cat": "other"
+    },
+    {
+      "id": 498,
+      "en": "Khasta kachori",
+      "cat": "other"
+    },
+    {
+      "id": 499,
+      "en": "Khatta channa",
+      "cat": "other"
+    },
+    {
+      "id": 500,
+      "en": "Kidney bean curry",
+      "cat": "other"
+    },
+    {
+      "id": 501,
+      "en": "Kulfi",
+      "cat": "other"
+    },
+    {
+      "id": 502,
+      "en": "Lasagne with meat sauce",
+      "cat": "other"
+    },
+    {
+      "id": 503,
+      "en": "Lem-o-gin",
+      "cat": "other"
+    },
+    {
+      "id": 504,
+      "en": "Lemon and ginger squash",
+      "cat": "other"
+    },
+    {
+      "id": 505,
+      "en": "Lemon chiffon pie",
+      "cat": "other"
+    },
+    {
+      "id": 506,
+      "en": "Lemon cookies",
+      "cat": "other"
+    },
+    {
+      "id": 507,
+      "en": "Lemon green chilli pickle",
+      "cat": "other"
+    },
+    {
+      "id": 508,
+      "en": "Lemon meringue pie",
+      "cat": "other"
+    },
+    {
+      "id": 509,
+      "en": "Lemon souffle",
+      "cat": "other"
+    },
+    {
+      "id": 510,
+      "en": "Lemon squash",
+      "cat": "other"
+    },
+    {
+      "id": 511,
+      "en": "Lemonade",
+      "cat": "other"
+    },
+    {
+      "id": 512,
+      "en": "Lentils and semolina porridge",
+      "cat": "other"
+    },
+    {
+      "id": 513,
+      "en": "Lichi squash",
+      "cat": "other"
+    },
+    {
+      "id": 514,
+      "en": "Lobia curry",
+      "cat": "other"
+    },
+    {
+      "id": 515,
+      "en": "Lotus stem curry",
+      "cat": "other"
+    },
+    {
+      "id": 516,
+      "en": "Low calorie quick mayonnaise",
+      "cat": "other"
+    },
+    {
+      "id": 517,
+      "en": "Maize porridge",
+      "cat": "other"
+    },
+    {
+      "id": 518,
+      "en": "Mal pua",
+      "cat": "other"
+    },
+    {
+      "id": 519,
+      "en": "Marmalade",
+      "cat": "other"
+    },
+    {
+      "id": 520,
+      "en": "Masala arbi",
+      "cat": "other"
+    },
+    {
+      "id": 521,
+      "en": "Masala souffle",
+      "cat": "other"
+    },
+    {
+      "id": 522,
+      "en": "Mayonnaise",
+      "cat": "other"
+    },
+    {
+      "id": 523,
+      "en": "Mayonnaise vegetable dip",
+      "cat": "other"
+    },
+    {
+      "id": 524,
+      "en": "Mayonnaise without eggs",
+      "cat": "other"
+    },
+    {
+      "id": 525,
+      "en": "Meat consomme",
+      "cat": "other"
+    },
+    {
+      "id": 526,
+      "en": "Meat stock",
+      "cat": "other"
+    },
+    {
+      "id": 527,
+      "en": "Melting moments",
+      "cat": "other"
+    },
+    {
+      "id": 528,
+      "en": "Methi chaman",
+      "cat": "other"
+    },
+    {
+      "id": 529,
+      "en": "Methi thepla",
+      "cat": "other"
+    },
+    {
+      "id": 530,
+      "en": "Mint and coriander chutney",
+      "cat": "other"
+    },
+    {
+      "id": 531,
+      "en": "Mint tomato chutney",
+      "cat": "other"
+    },
+    {
+      "id": 532,
+      "en": "Mintade",
+      "cat": "other"
+    },
+    {
+      "id": 533,
+      "en": "Mixed stock",
+      "cat": "other"
+    },
+    {
+      "id": 534,
+      "en": "Mooli bhujia",
+      "cat": "other"
+    },
+    {
+      "id": 535,
+      "en": "Murmura",
+      "cat": "other"
+    },
+    {
+      "id": 536,
+      "en": "Mushroom matar",
+      "cat": "other"
+    },
+    {
+      "id": 537,
+      "en": "Mushroom sauce",
+      "cat": "other"
+    },
+    {
+      "id": 538,
+      "en": "Mustard sauce",
+      "cat": "other"
+    },
+    {
+      "id": 539,
+      "en": "Mustard seeds baghar",
+      "cat": "other"
+    },
+    {
+      "id": 540,
+      "en": "Oatmeal Porridge",
+      "cat": "other"
+    },
+    {
+      "id": 541,
+      "en": "Onion chutney",
+      "cat": "other"
+    },
+    {
+      "id": 542,
+      "en": "Paaner do pyaza",
+      "cat": "other"
+    },
+    {
+      "id": 543,
+      "en": "Papdi",
+      "cat": "other"
+    },
+    {
+      "id": 544,
+      "en": "Pavlova",
+      "cat": "other"
+    },
+    {
+      "id": 545,
+      "en": "Pea curry",
+      "cat": "other"
+    },
+    {
+      "id": 546,
+      "en": "Pea kofta curry",
+      "cat": "other"
+    },
+    {
+      "id": 547,
+      "en": "Pea mushroom curry",
+      "cat": "other"
+    },
+    {
+      "id": 548,
+      "en": "Pea vadi curry",
+      "cat": "other"
+    },
+    {
+      "id": 549,
+      "en": "Peach blueberry preserves",
+      "cat": "other"
+    },
+    {
+      "id": 550,
+      "en": "Pear chocholate sunday",
+      "cat": "other"
+    },
+    {
+      "id": 551,
+      "en": "Pear preserves",
+      "cat": "other"
+    },
+    {
+      "id": 552,
+      "en": "Peas kachori",
+      "cat": "other"
+    },
+    {
+      "id": 553,
+      "en": "Penne platter",
+      "cat": "other"
+    },
+    {
+      "id": 554,
+      "en": "Phirni",
+      "cat": "other"
+    },
+    {
+      "id": 555,
+      "en": "Pickled mustard greens",
+      "cat": "other"
+    },
+    {
+      "id": 556,
+      "en": "Plain burfi",
+      "cat": "other"
+    },
+    {
+      "id": 557,
+      "en": "Plain khitchdi",
+      "cat": "other"
+    },
+    {
+      "id": 558,
+      "en": "Plain omelette/omlet",
+      "cat": "other"
+    },
+    {
+      "id": 559,
+      "en": "Plum chutney",
+      "cat": "other"
+    },
+    {
+      "id": 560,
+      "en": "Plum jam",
+      "cat": "other"
+    },
+    {
+      "id": 561,
+      "en": "Plum squash",
+      "cat": "other"
+    },
+    {
+      "id": 562,
+      "en": "Poshtik chilla/cheela",
+      "cat": "other"
+    },
+    {
+      "id": 563,
+      "en": "Poshtik cutlet",
+      "cat": "other"
+    },
+    {
+      "id": 564,
+      "en": "Poshtik namak paras",
+      "cat": "other"
+    },
+    {
+      "id": 565,
+      "en": "Puffy omelette/omlet",
+      "cat": "other"
+    },
+    {
+      "id": 566,
+      "en": "Pulse mix",
+      "cat": "other"
+    },
+    {
+      "id": 567,
+      "en": "Putharekulu",
+      "cat": "other"
+    },
+    {
+      "id": 568,
+      "en": "Rajbogh",
+      "cat": "other"
+    },
+    {
+      "id": 569,
+      "en": "Rasbhari",
+      "cat": "other"
+    },
+    {
+      "id": 570,
+      "en": "Raspberry shortbread cookies",
+      "cat": "other"
+    },
+    {
+      "id": 571,
+      "en": "Roast potatoes",
+      "cat": "other"
+    },
+    {
+      "id": 572,
+      "en": "Roghan josh",
+      "cat": "other"
+    },
+    {
+      "id": 573,
+      "en": "Royal icing",
+      "cat": "other"
+    },
+    {
+      "id": 574,
+      "en": "Sago cutlet/vadas",
+      "cat": "other"
+    },
+    {
+      "id": 575,
+      "en": "Sago khitchdi/khichri",
+      "cat": "other"
+    },
+    {
+      "id": 576,
+      "en": "Sajina",
+      "cat": "other"
+    },
+    {
+      "id": 577,
+      "en": "Sarson ka saag",
+      "cat": "other"
+    },
+    {
+      "id": 578,
+      "en": "Sattu drink",
+      "cat": "other"
+    },
+    {
+      "id": 579,
+      "en": "Saunth/Sonth chutney with tamarind/imli",
+      "cat": "other"
+    },
+    {
+      "id": 580,
+      "en": "Sauteed radishes with green beans",
+      "cat": "other"
+    },
+    {
+      "id": 581,
+      "en": "Savoury puffs",
+      "cat": "other"
+    },
+    {
+      "id": 582,
+      "en": "Schezwan chutney",
+      "cat": "other"
+    },
+    {
+      "id": 583,
+      "en": "Semolina burfi",
+      "cat": "other"
+    },
+    {
+      "id": 584,
+      "en": "Semolina porridge",
+      "cat": "other"
+    },
+    {
+      "id": 585,
+      "en": "Sesame chickpeas brittle",
+      "cat": "other"
+    },
+    {
+      "id": 586,
+      "en": "Sev",
+      "cat": "other"
+    },
+    {
+      "id": 587,
+      "en": "Shahi tukre",
+      "cat": "other"
+    },
+    {
+      "id": 588,
+      "en": "Shammi kebab",
+      "cat": "other"
+    },
+    {
+      "id": 589,
+      "en": "Shepherd's pie",
+      "cat": "other"
+    },
+    {
+      "id": 590,
+      "en": "Shishu ahar",
+      "cat": "other"
+    },
+    {
+      "id": 591,
+      "en": "Short crust pastry",
+      "cat": "other"
+    },
+    {
+      "id": 592,
+      "en": "Small onion pickle",
+      "cat": "other"
+    },
+    {
+      "id": 593,
+      "en": "Sour lentils",
+      "cat": "other"
+    },
+    {
+      "id": 594,
+      "en": "Soya seekh kebab",
+      "cat": "other"
+    },
+    {
+      "id": 595,
+      "en": "Soyabean curry",
+      "cat": "other"
+    },
+    {
+      "id": 596,
+      "en": "Soyabean muthias",
+      "cat": "other"
+    },
+    {
+      "id": 597,
+      "en": "Soyabean namak paras",
+      "cat": "other"
+    },
+    {
+      "id": 598,
+      "en": "Soyabean tikki",
+      "cat": "other"
+    },
+    {
+      "id": 599,
+      "en": "Spanish omelette/omlet",
+      "cat": "other"
+    },
+    {
+      "id": 600,
+      "en": "Starfruit preserves",
+      "cat": "other"
+    },
+    {
+      "id": 601,
+      "en": "Stewed fruit",
+      "cat": "other"
+    },
+    {
+      "id": 602,
+      "en": "Stuffed baked potatoes",
+      "cat": "other"
+    },
+    {
+      "id": 603,
+      "en": "Stuffed bittergourd",
+      "cat": "other"
+    },
+    {
+      "id": 604,
+      "en": "Stuffed capsicum",
+      "cat": "other"
+    },
+    {
+      "id": 605,
+      "en": "Stuffed round gourd",
+      "cat": "other"
+    },
+    {
+      "id": 606,
+      "en": "Stuffed tomatoes",
+      "cat": "other"
+    },
+    {
+      "id": 607,
+      "en": "Sunflower cookies",
+      "cat": "other"
+    },
+    {
+      "id": 608,
+      "en": "Tamarind chutney",
+      "cat": "other"
+    },
+    {
+      "id": 609,
+      "en": "Tartare sauce",
+      "cat": "other"
+    },
+    {
+      "id": 610,
+      "en": "Thandai",
+      "cat": "other"
+    },
+    {
+      "id": 611,
+      "en": "Thousand island dressing",
+      "cat": "other"
+    },
+    {
+      "id": 612,
+      "en": "Tomato aspic",
+      "cat": "other"
+    },
+    {
+      "id": 613,
+      "en": "Tomato ginger chutney",
+      "cat": "other"
+    },
+    {
+      "id": 614,
+      "en": "Tomato ketchup",
+      "cat": "other"
+    },
+    {
+      "id": 615,
+      "en": "Tomato puree",
+      "cat": "other"
+    },
+    {
+      "id": 616,
+      "en": "Tomato sauce",
+      "cat": "other"
+    },
+    {
+      "id": 617,
+      "en": "Urad sabut special",
+      "cat": "other"
+    },
+    {
+      "id": 618,
+      "en": "Urad special dehusked",
+      "cat": "other"
+    },
+    {
+      "id": 619,
+      "en": "Vanilla souffle",
+      "cat": "other"
+    },
+    {
+      "id": 620,
+      "en": "Veg manchurian",
+      "cat": "other"
+    },
+    {
+      "id": 621,
+      "en": "Vegetable cutlet",
+      "cat": "other"
+    },
+    {
+      "id": 622,
+      "en": "Vegetable jalfrezi",
+      "cat": "other"
+    },
+    {
+      "id": 623,
+      "en": "Vegetable mix",
+      "cat": "other"
+    },
+    {
+      "id": 624,
+      "en": "Vegetable patties",
+      "cat": "other"
+    },
+    {
+      "id": 625,
+      "en": "Vegetable seekh kebab",
+      "cat": "other"
+    },
+    {
+      "id": 626,
+      "en": "Vegetable stock",
+      "cat": "other"
+    },
+    {
+      "id": 627,
+      "en": "Vegetable yakhni",
+      "cat": "other"
+    },
+    {
+      "id": 628,
+      "en": "Vegetables stir fry",
+      "cat": "other"
+    },
+    {
+      "id": 629,
+      "en": "Vegetarian nargisi kofta curry",
+      "cat": "other"
+    },
+    {
+      "id": 630,
+      "en": "White sauce",
+      "cat": "other"
+    },
+    {
+      "id": 631,
+      "en": "White stock",
+      "cat": "other"
+    },
+    {
+      "id": 632,
+      "en": "Whole masoor",
+      "cat": "other"
+    },
+    {
+      "id": 633,
+      "en": "Whole moong",
+      "cat": "other"
+    },
+    {
+      "id": 634,
+      "en": "Whole moth",
+      "cat": "other"
+    },
+    {
+      "id": 635,
+      "en": "Whole urad",
+      "cat": "other"
+    },
+    {
+      "id": 636,
+      "en": "Yam fried",
+      "cat": "other"
+    },
+    {
+      "id": 637,
+      "en": "Yam kofta curry",
+      "cat": "other"
+    },
+    {
+      "id": 638,
+      "en": "Baked egg",
+      "cat": "protein"
+    },
+    {
+      "id": 639,
+      "en": "Beetroot and egg salad",
+      "cat": "protein"
+    },
+    {
+      "id": 640,
+      "en": "Boiled Egg",
+      "cat": "protein"
+    },
+    {
+      "id": 641,
+      "en": "Deviled egg",
+      "cat": "protein"
+    },
+    {
+      "id": 642,
+      "en": "Egg Bhurji",
+      "cat": "protein"
+    },
+    {
+      "id": 643,
+      "en": "Egg White Omelette",
+      "cat": "protein"
+    },
+    {
+      "id": 644,
+      "en": "Egg and tomato sandwich",
+      "cat": "protein"
+    },
+    {
+      "id": 645,
+      "en": "Egg cutlet",
+      "cat": "protein"
+    },
+    {
+      "id": 646,
+      "en": "Egg drop soup",
+      "cat": "protein"
+    },
+    {
+      "id": 647,
+      "en": "Egg halwa",
+      "cat": "protein"
+    },
+    {
+      "id": 648,
+      "en": "Egg in a pepper",
+      "cat": "protein"
+    },
+    {
+      "id": 649,
+      "en": "Egg nog",
+      "cat": "protein"
+    },
+    {
+      "id": 650,
+      "en": "Egg pakora/pakoda",
+      "cat": "protein"
+    },
+    {
+      "id": 651,
+      "en": "Egg sauce",
+      "cat": "protein"
+    },
+    {
+      "id": 652,
+      "en": "Fried Egg",
+      "cat": "protein"
+    },
+    {
+      "id": 653,
+      "en": "High Protein Bowl",
+      "cat": "protein"
+    },
+    {
+      "id": 654,
+      "en": "Home made egg noodles",
+      "cat": "protein"
+    },
+    {
+      "id": 655,
+      "en": "Indian lamb and egg curry",
+      "cat": "protein"
+    },
+    {
+      "id": 656,
+      "en": "Indian style egg bhujia",
+      "cat": "protein"
+    },
+    {
+      "id": 657,
+      "en": "Lean Chicken Bowl",
+      "cat": "protein"
+    },
+    {
+      "id": 658,
+      "en": "Poached egg",
+      "cat": "protein"
+    },
+    {
+      "id": 659,
+      "en": "Protein Bar",
+      "cat": "protein"
+    },
+    {
+      "id": 660,
+      "en": "Scotch egg",
+      "cat": "protein"
+    },
+    {
+      "id": 661,
+      "en": "Scrambled egg",
+      "cat": "protein"
+    },
+    {
+      "id": 662,
+      "en": "Stuffed egg omelette/omlet",
+      "cat": "protein"
+    },
+    {
+      "id": 663,
+      "en": "Vanilla ice cream without egg",
+      "cat": "protein"
+    },
+    {
+      "id": 664,
+      "en": "Veg Protein Bowl",
+      "cat": "protein"
+    },
+    {
+      "id": 665,
+      "en": "Vegetarian egg kofta curry",
+      "cat": "protein"
+    },
+    {
+      "id": 666,
+      "en": "Vegeterian scotch egg",
+      "cat": "protein"
+    },
+    {
+      "id": 699,
+      "en": "Bathua poori",
+      "cat": "roti"
+    },
+    {
+      "id": 700,
+      "en": "Beetroot poori",
+      "cat": "roti"
+    },
+    {
+      "id": 701,
+      "en": "Besan and spinach parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 702,
+      "en": "Bhatura",
+      "cat": "roti"
+    },
+    {
+      "id": 703,
+      "en": "Bhel puri",
+      "cat": "roti"
+    },
+    {
+      "id": 704,
+      "en": "Bread and butter pudding",
+      "cat": "roti"
+    },
+    {
+      "id": 705,
+      "en": "Bread pakora/pakoda",
+      "cat": "roti"
+    },
+    {
+      "id": 706,
+      "en": "Bread roll",
+      "cat": "roti"
+    },
+    {
+      "id": 707,
+      "en": "Bread sauce",
+      "cat": "roti"
+    },
+    {
+      "id": 708,
+      "en": "Bread upma",
+      "cat": "roti"
+    },
+    {
+      "id": 709,
+      "en": "Cauliflower parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 710,
+      "en": "Chapati/Roti",
+      "cat": "roti"
+    },
+    {
+      "id": 711,
+      "en": "Dal parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 712,
+      "en": "Dal stuffed poori",
+      "cat": "roti"
+    },
+    {
+      "id": 713,
+      "en": "Ginger bread man",
+      "cat": "roti"
+    },
+    {
+      "id": 714,
+      "en": "Keema parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 715,
+      "en": "Makki ki roti",
+      "cat": "roti"
+    },
+    {
+      "id": 716,
+      "en": "Methi parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 717,
+      "en": "Methi poori",
+      "cat": "roti"
+    },
+    {
+      "id": 718,
+      "en": "Naan",
+      "cat": "roti"
+    },
+    {
+      "id": 719,
+      "en": "Onion-green chilli parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 720,
+      "en": "Paneer parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 721,
+      "en": "Paushtik roti",
+      "cat": "roti"
+    },
+    {
+      "id": 722,
+      "en": "Pea parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 723,
+      "en": "Peas poori",
+      "cat": "roti"
+    },
+    {
+      "id": 724,
+      "en": "Plain parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 725,
+      "en": "Poori",
+      "cat": "roti"
+    },
+    {
+      "id": 726,
+      "en": "Potato parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 727,
+      "en": "Potato stuffed poori",
+      "cat": "roti"
+    },
+    {
+      "id": 728,
+      "en": "Radish parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 729,
+      "en": "Short bread cookies",
+      "cat": "roti"
+    },
+    {
+      "id": 730,
+      "en": "Soya roti",
+      "cat": "roti"
+    },
+    {
+      "id": 731,
+      "en": "Spinach poori",
+      "cat": "roti"
+    },
+    {
+      "id": 732,
+      "en": "Sprouted moong parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 733,
+      "en": "Sweet poori",
+      "cat": "roti"
+    },
+    {
+      "id": 734,
+      "en": "Sweet split chickpea roti",
+      "cat": "roti"
+    },
+    {
+      "id": 735,
+      "en": "Tandoori parantha/paratha",
+      "cat": "roti"
+    },
+    {
+      "id": 872,
+      "en": "Almond cardamom cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 873,
+      "en": "Amaranth ladoo",
+      "cat": "sweets"
+    },
+    {
+      "id": 874,
+      "en": "Apple and honey sorbet",
+      "cat": "sweets"
+    },
+    {
+      "id": 875,
+      "en": "Apple cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 876,
+      "en": "Apple crumb pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 877,
+      "en": "Apple kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 878,
+      "en": "Apple mousse",
+      "cat": "sweets"
+    },
+    {
+      "id": 879,
+      "en": "Baked custard",
+      "cat": "sweets"
+    },
+    {
+      "id": 880,
+      "en": "Banana cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 881,
+      "en": "Black rice kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 882,
+      "en": "Caramel custard",
+      "cat": "sweets"
+    },
+    {
+      "id": 883,
+      "en": "Carrot cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 884,
+      "en": "Carrot halwa",
+      "cat": "sweets"
+    },
+    {
+      "id": 885,
+      "en": "Carrot kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 886,
+      "en": "Chocolate cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 887,
+      "en": "Chocolate chiffon cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 888,
+      "en": "Chocolate eggless cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 889,
+      "en": "Chocolate pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 890,
+      "en": "Chocolate sponge cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 891,
+      "en": "Christmas cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 892,
+      "en": "Coconut kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 893,
+      "en": "Creamy chocolate mousse",
+      "cat": "sweets"
+    },
+    {
+      "id": 894,
+      "en": "Custard tart",
+      "cat": "sweets"
+    },
+    {
+      "id": 895,
+      "en": "Dundee cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 896,
+      "en": "Eggless cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 897,
+      "en": "Fruit puree tart",
+      "cat": "sweets"
+    },
+    {
+      "id": 898,
+      "en": "Honey cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 899,
+      "en": "Jam tart",
+      "cat": "sweets"
+    },
+    {
+      "id": 900,
+      "en": "Kiwi granola pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 901,
+      "en": "Lemon cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 902,
+      "en": "Lemon tart",
+      "cat": "sweets"
+    },
+    {
+      "id": 903,
+      "en": "Lotus seed halwa",
+      "cat": "sweets"
+    },
+    {
+      "id": 904,
+      "en": "Makhana kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 905,
+      "en": "Mango mousse",
+      "cat": "sweets"
+    },
+    {
+      "id": 906,
+      "en": "Mango vanilla custard",
+      "cat": "sweets"
+    },
+    {
+      "id": 907,
+      "en": "Marble cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 908,
+      "en": "Meringue and rice pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 909,
+      "en": "Orange cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 910,
+      "en": "Orange eggless cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 911,
+      "en": "Paushtik ladoo",
+      "cat": "sweets"
+    },
+    {
+      "id": 912,
+      "en": "Pearl millet ladoo",
+      "cat": "sweets"
+    },
+    {
+      "id": 913,
+      "en": "Pineapple cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 914,
+      "en": "Pineapple tart",
+      "cat": "sweets"
+    },
+    {
+      "id": 915,
+      "en": "Pineapple upside down pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 916,
+      "en": "Queen of pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 918,
+      "en": "Rice kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 919,
+      "en": "Rich chocolate mousse",
+      "cat": "sweets"
+    },
+    {
+      "id": 920,
+      "en": "Semolina cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 921,
+      "en": "Semolina halwa",
+      "cat": "sweets"
+    },
+    {
+      "id": 922,
+      "en": "Semolina kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 923,
+      "en": "Sesame ladoo",
+      "cat": "sweets"
+    },
+    {
+      "id": 924,
+      "en": "Shahi suji halwa",
+      "cat": "sweets"
+    },
+    {
+      "id": 925,
+      "en": "Snow flakes pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 926,
+      "en": "Soft Custard",
+      "cat": "sweets"
+    },
+    {
+      "id": 927,
+      "en": "Soya chunks sweet and sour",
+      "cat": "sweets"
+    },
+    {
+      "id": 928,
+      "en": "Sponge cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 929,
+      "en": "Steamed cake with chocolate sauce",
+      "cat": "sweets"
+    },
+    {
+      "id": 930,
+      "en": "Steamed orange pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 931,
+      "en": "Stewed apple with custard",
+      "cat": "sweets"
+    },
+    {
+      "id": 932,
+      "en": "Sweet and salty biscuit",
+      "cat": "sweets"
+    },
+    {
+      "id": 933,
+      "en": "Sweet corn soup",
+      "cat": "sweets"
+    },
+    {
+      "id": 934,
+      "en": "Sweet couscous dessert",
+      "cat": "sweets"
+    },
+    {
+      "id": 935,
+      "en": "Sweet lemon pickle",
+      "cat": "sweets"
+    },
+    {
+      "id": 936,
+      "en": "Sweet open sandwich",
+      "cat": "sweets"
+    },
+    {
+      "id": 937,
+      "en": "Sweet peach pickle",
+      "cat": "sweets"
+    },
+    {
+      "id": 938,
+      "en": "Sweet plain biscuit",
+      "cat": "sweets"
+    },
+    {
+      "id": 939,
+      "en": "Sweet raita",
+      "cat": "sweets"
+    },
+    {
+      "id": 940,
+      "en": "Sweet rice",
+      "cat": "sweets"
+    },
+    {
+      "id": 941,
+      "en": "Sweet wheat porridge",
+      "cat": "sweets"
+    },
+    {
+      "id": 942,
+      "en": "Triffle pudding",
+      "cat": "sweets"
+    },
+    {
+      "id": 943,
+      "en": "Tutti frutti cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 944,
+      "en": "Vermicelli kheer",
+      "cat": "sweets"
+    },
+    {
+      "id": 945,
+      "en": "Victorian sandwich cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 946,
+      "en": "Wheat and gram flour ladoo",
+      "cat": "sweets"
+    },
+    {
+      "id": 947,
+      "en": "Wheat cake",
+      "cat": "sweets"
+    },
+    {
+      "id": 949,
+      "en": "Alur Dom",
+      "cat": "veg"
+    },
+    {
+      "id": 950,
+      "en": "Begun Bhaja",
+      "cat": "veg"
+    },
+    {
+      "id": 951,
+      "en": "Boiled Veg Mix",
+      "cat": "veg"
+    },
+    {
+      "id": 952,
+      "en": "Cabbage Curry",
+      "cat": "veg"
+    },
+    {
+      "id": 953,
+      "en": "Cauliflower Curry",
+      "cat": "veg"
+    },
+    {
+      "id": 954,
+      "en": "Dalna",
+      "cat": "veg"
+    },
+    {
+      "id": 955,
+      "en": "Dhokar Dalna",
+      "cat": "veg"
+    },
+    {
+      "id": 956,
+      "en": "Grilled Paneer",
+      "cat": "veg"
+    },
+    {
+      "id": 957,
+      "en": "Labra",
+      "cat": "veg"
+    },
+    {
+      "id": 958,
+      "en": "Lau Ghonto",
+      "cat": "veg"
+    },
+    {
+      "id": 959,
+      "en": "Light Veg Curry",
+      "cat": "veg"
+    },
+    {
+      "id": 960,
+      "en": "Mixed Veg",
+      "cat": "veg"
+    },
+    {
+      "id": 961,
+      "en": "Mochar Ghonto",
+      "cat": "veg"
+    },
+    {
+      "id": 962,
+      "en": "Palong Saag",
+      "cat": "veg"
+    },
+    {
+      "id": 963,
+      "en": "Paneer Bhurji",
+      "cat": "veg"
+    },
+    {
+      "id": 964,
+      "en": "Paneer Curry",
+      "cat": "veg"
+    },
+    {
+      "id": 965,
+      "en": "Posto Bata",
+      "cat": "veg"
+    },
+    {
+      "id": 966,
+      "en": "Potol Posto",
+      "cat": "veg"
+    },
+    {
+      "id": 967,
+      "en": "Roasted Veg Bowl",
+      "cat": "veg"
+    },
+    {
+      "id": 969,
+      "en": "Steamed Veg",
+      "cat": "veg"
+    },
+    {
+      "id": 970,
+      "en": "Vegetable Stew",
+      "cat": "veg"
+    },
+    {
+      "id": 1060,
+      "en": "Smashed potato (Alu makha / seddho)",
+      "cat": "veg"
+    },
+    {
+      "id": 1061,
+      "en": "Pointed gourd curry (Potol er dalna)",
+      "cat": "veg"
+    },
+    {
+      "id": 1062,
+      "en": "Eggplant vegetable (Begun sabzi)",
+      "cat": "veg"
+    },
+    {
+      "id": 1063,
+      "en": "Fried bitter gourd (Karla bhaja)",
+      "cat": "veg"
+    },
+    {
+      "id": 1219,
+      "en": "Bay leaf, dried",
+      "cat": "spice"
+    },
+    {
+      "id": 1220,
+      "en": "Cardamom",
+      "cat": "spice"
+    },
+    {
+      "id": 1221,
+      "en": "Chilli, red, dry",
+      "cat": "spice"
+    },
+    {
+      "id": 1222,
+      "en": "Cinnamon, ground",
+      "cat": "spice"
+    },
+    {
+      "id": 1223,
+      "en": "Cloves, dried",
+      "cat": "spice"
+    },
+    {
+      "id": 1224,
+      "en": "Coriander seed, dry",
+      "cat": "spice"
+    },
+    {
+      "id": 1225,
+      "en": "Cumin seeds",
+      "cat": "spice"
+    },
+    {
+      "id": 1226,
+      "en": "Fennel seeds",
+      "cat": "spice"
+    },
+    {
+      "id": 1227,
+      "en": "Fenugreek seeds",
+      "cat": "spice"
+    },
+    {
+      "id": 1228,
+      "en": "Ginger root, raw",
+      "cat": "spice"
+    },
+    {
+      "id": 1229,
+      "en": "Indian pennywort, raw",
+      "cat": "spice"
+    },
+    {
+      "id": 1230,
+      "en": "Lemon grass, raw",
+      "cat": "spice"
+    },
+    {
+      "id": 1231,
+      "en": "Lemon peel, raw",
+      "cat": "spice"
+    },
+    {
+      "id": 1232,
+      "en": "Mace, ground",
+      "cat": "spice"
+    },
+    {
+      "id": 1233,
+      "en": "Nutmeg, dried",
+      "cat": "spice"
+    },
+    {
+      "id": 1234,
+      "en": "Poppy seeds",
+      "cat": "spice"
+    },
+    {
+      "id": 1235,
+      "en": "Turmeric, dried",
+      "cat": "spice"
+    },
+    {
+      "id": 1368,
+      "en": "Butter, salted",
+      "cat": "fat"
+    },
+    {
+      "id": 1369,
+      "en": "Cottonseed oil",
+      "cat": "fat"
+    },
+    {
+      "id": 1370,
+      "en": "Fish oil, cod liver",
+      "cat": "fat"
+    },
+    {
+      "id": 1371,
+      "en": "Ghee, cow",
+      "cat": "fat"
+    },
+    {
+      "id": 1372,
+      "en": "Ghee, vegetable",
+      "cat": "fat"
+    },
+    {
+      "id": 1373,
+      "en": "Margarine Margarine",
+      "cat": "fat"
+    },
+    {
+      "id": 1374,
+      "en": "Mayonnaise, salted",
+      "cat": "fat"
+    },
+    {
+      "id": 1375,
+      "en": "Mustard oil",
+      "cat": "fat"
+    },
+    {
+      "id": 1376,
+      "en": "Palm oil",
+      "cat": "fat"
+    },
+    {
+      "id": 1377,
+      "en": "Peanut oil China badam",
+      "cat": "fat"
+    },
+    {
+      "id": 1378,
+      "en": "Sesame oil",
+      "cat": "fat"
+    },
+    {
+      "id": 1379,
+      "en": "Soybean oil",
+      "cat": "fat"
+    }
+  ],
+  "invalid_serving": [],
+  "nutrition_outliers": [
+    {
+      "id": 66,
+      "en": "Cheese soup",
+      "issues": [
+        "fiber(8.0)>carbs(3.3)"
+      ],
+      "k": 374.8,
+      "p": 22.0,
+      "c": 3.3,
+      "f": 30.4,
+      "fi": 8.0,
+      "s": "250g",
+      "est_kcal": 374.8
+    },
+    {
+      "id": 149,
+      "en": "Lentil soup",
+      "issues": [
+        "kcal_mismatch stored=121.3 est=621.5 diff=80%"
+      ],
+      "k": 121.3,
+      "p": 37.6,
+      "c": 15.4,
+      "f": 45.5,
+      "fi": 10.0,
+      "s": "300g",
+      "est_kcal": 621.5
+    },
+    {
+      "id": 158,
+      "en": "Rasam powder",
+      "issues": [
+        "fiber(35.7)>carbs(25.2)"
+      ],
+      "k": 268.0,
+      "p": 12.0,
+      "c": 25.2,
+      "f": 11.8,
+      "fi": 35.7,
+      "s": "100g",
+      "est_kcal": 255.0
+    },
+    {
+      "id": 163,
+      "en": "Sambar powder",
+      "issues": [
+        "fiber(34.6)>carbs(23.4)"
+      ],
+      "k": 297.5,
+      "p": 12.5,
+      "c": 23.4,
+      "f": 15.6,
+      "fi": 34.6,
+      "s": "100g",
+      "est_kcal": 284.0
+    },
+    {
+      "id": 249,
+      "en": "Beans with coconut",
+      "issues": [
+        "fiber(8.4)>carbs(6.6)"
+      ],
+      "k": 196.8,
+      "p": 3.9,
+      "c": 6.6,
+      "f": 17.0,
+      "fi": 8.4,
+      "s": "250g",
+      "est_kcal": 195.0
+    },
+    {
+      "id": 325,
+      "en": "Chicken consomme",
+      "issues": [
+        "fiber(3.5)>carbs(2.7)",
+        "kcal_mismatch stored=108.3 est=359.2 diff=70%"
+      ],
+      "k": 108.3,
+      "p": 25.9,
+      "c": 2.7,
+      "f": 27.2,
+      "fi": 3.5,
+      "s": "300g",
+      "est_kcal": 359.2
+    },
+    {
+      "id": 331,
+      "en": "Chicken salad",
+      "issues": [
+        "fiber(4.9)>carbs(3.2)"
+      ],
+      "k": 835.3,
+      "p": 37.9,
+      "c": 3.2,
+      "f": 74.7,
+      "fi": 4.9,
+      "s": "250g",
+      "est_kcal": 836.7
+    },
+    {
+      "id": 334,
+      "en": "Chicken sweet corn soup",
+      "issues": [
+        "kcal_mismatch stored=68.5 est=429.2 diff=84%"
+      ],
+      "k": 68.5,
+      "p": 35.0,
+      "c": 3.9,
+      "f": 30.4,
+      "fi": 1.1,
+      "s": "300g",
+      "est_kcal": 429.2
+    },
+    {
+      "id": 369,
+      "en": "Spaghetti bolognese",
+      "issues": [
+        "kcal_mismatch stored=364.7 est=610.8 diff=40%"
+      ],
+      "k": 364.7,
+      "p": 35.0,
+      "c": 37.6,
+      "f": 35.6,
+      "fi": 4.0,
+      "s": "100g",
+      "est_kcal": 610.8
+    },
+    {
+      "id": 374,
+      "en": "Almond soup",
+      "issues": [
+        "kcal_mismatch stored=375.2 est=855.8 diff=56%"
+      ],
+      "k": 375.2,
+      "p": 48.3,
+      "c": 17.6,
+      "f": 65.8,
+      "fi": 4.3,
+      "s": "250g",
+      "est_kcal": 855.8
+    },
+    {
+      "id": 394,
+      "en": "Bathua bhujia",
+      "issues": [
+        "fiber(7.5)>carbs(7.2)"
+      ],
+      "k": 180.4,
+      "p": 4.5,
+      "c": 7.2,
+      "f": 14.5,
+      "fi": 7.5,
+      "s": "250g",
+      "est_kcal": 177.3
+    },
+    {
+      "id": 395,
+      "en": "Beans foogath",
+      "issues": [
+        "fiber(7.5)>carbs(5.9)"
+      ],
+      "k": 190.3,
+      "p": 3.7,
+      "c": 5.9,
+      "f": 16.7,
+      "fi": 7.5,
+      "s": "250g",
+      "est_kcal": 188.7
+    },
+    {
+      "id": 399,
+      "en": "Besan kadhi with pakodies",
+      "issues": [
+        "kcal(2366.8)>1500"
+      ],
+      "k": 2366.8,
+      "p": 9.6,
+      "c": 20.9,
+      "f": 249.9,
+      "fi": 4.8,
+      "s": "250g",
+      "est_kcal": 2371.1
+    },
+    {
+      "id": 403,
+      "en": "Broccoli delight",
+      "issues": [
+        "fiber(5.6)>carbs(4.7)"
+      ],
+      "k": 81.2,
+      "p": 5.0,
+      "c": 4.7,
+      "f": 5.0,
+      "fi": 5.6,
+      "s": "250g",
+      "est_kcal": 83.8
+    },
+    {
+      "id": 404,
+      "en": "Brown sauce",
+      "issues": [
+        "kcal_mismatch stored=109.2 est=282.5 diff=61%"
+      ],
+      "k": 109.2,
+      "p": 11.9,
+      "c": 5.4,
+      "f": 23.7,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 282.5
+    },
+    {
+      "id": 408,
+      "en": "Carrot and fenugreek leaves",
+      "issues": [
+        "fiber(8.4)>carbs(8.0)"
+      ],
+      "k": 118.1,
+      "p": 4.0,
+      "c": 8.0,
+      "f": 7.3,
+      "fi": 8.4,
+      "s": "250g",
+      "est_kcal": 113.7
+    },
+    {
+      "id": 429,
+      "en": "Classic seasoned black beans",
+      "issues": [
+        "kcal_mismatch stored=50.7 est=241.8 diff=79%"
+      ],
+      "k": 50.7,
+      "p": 14.1,
+      "c": 13.5,
+      "f": 14.6,
+      "fi": 6.2,
+      "s": "250g",
+      "est_kcal": 241.8
+    },
+    {
+      "id": 434,
+      "en": "Consomme au julienne",
+      "issues": [
+        "kcal_mismatch stored=213.7 est=1169.7 diff=82%"
+      ],
+      "k": 213.7,
+      "p": 96.2,
+      "c": 11.5,
+      "f": 82.1,
+      "fi": 10.7,
+      "s": "250g",
+      "est_kcal": 1169.7
+    },
+    {
+      "id": 439,
+      "en": "Cumin seeds baghar",
+      "issues": [
+        "fiber(6.0)>carbs(5.2)"
+      ],
+      "k": 736.8,
+      "p": 3.3,
+      "c": 5.2,
+      "f": 78.8,
+      "fi": 6.0,
+      "s": "100g",
+      "est_kcal": 743.2
+    },
+    {
+      "id": 451,
+      "en": "Fermented bamboo shoot pickle",
+      "issues": [
+        "fiber(3.0)>carbs(2.4)"
+      ],
+      "k": 81.5,
+      "p": 2.2,
+      "c": 2.4,
+      "f": 7.6,
+      "fi": 3.0,
+      "s": "200g",
+      "est_kcal": 86.8
+    },
+    {
+      "id": 462,
+      "en": "Garam masala",
+      "issues": [
+        "fiber(35.6)>carbs(26.2)"
+      ],
+      "k": 254.2,
+      "p": 9.9,
+      "c": 26.2,
+      "f": 11.0,
+      "fi": 35.6,
+      "s": "100g",
+      "est_kcal": 243.4
+    },
+    {
+      "id": 521,
+      "en": "Masala souffle",
+      "issues": [
+        "kcal(1833.8)>1500"
+      ],
+      "k": 1833.8,
+      "p": 94.8,
+      "c": 119.1,
+      "f": 109.3,
+      "fi": 18.4,
+      "s": "200g",
+      "est_kcal": 1839.3
+    },
+    {
+      "id": 525,
+      "en": "Meat consomme",
+      "issues": [
+        "fiber(4.4)>carbs(3.2)",
+        "kcal_mismatch stored=184.5 est=1144.4 diff=84%"
+      ],
+      "k": 184.5,
+      "p": 92.1,
+      "c": 3.2,
+      "f": 84.8,
+      "fi": 4.4,
+      "s": "250g",
+      "est_kcal": 1144.4
+    },
+    {
+      "id": 555,
+      "en": "Pickled mustard greens",
+      "issues": [
+        "fiber(19.9)>carbs(12.3)"
+      ],
+      "k": 154.1,
+      "p": 17.7,
+      "c": 12.3,
+      "f": 2.6,
+      "fi": 19.9,
+      "s": "200g",
+      "est_kcal": 143.4
+    },
+    {
+      "id": 595,
+      "en": "Soyabean curry",
+      "issues": [
+        "fiber(8.8)>carbs(8.1)"
+      ],
+      "k": 195.8,
+      "p": 12.5,
+      "c": 8.1,
+      "f": 12.2,
+      "fi": 8.8,
+      "s": "250g",
+      "est_kcal": 192.2
+    },
+    {
+      "id": 597,
+      "en": "Soyabean namak paras",
+      "issues": [
+        "kcal(2294.2)>1500"
+      ],
+      "k": 2294.2,
+      "p": 7.3,
+      "c": 12.7,
+      "f": 245.8,
+      "fi": 3.9,
+      "s": "300g",
+      "est_kcal": 2292.2
+    },
+    {
+      "id": 646,
+      "en": "Egg drop soup",
+      "issues": [
+        "kcal_mismatch stored=84.6 est=564.5 diff=85%"
+      ],
+      "k": 84.6,
+      "p": 41.1,
+      "c": 3.5,
+      "f": 42.9,
+      "fi": 2.6,
+      "s": "300g",
+      "est_kcal": 564.5
+    },
+    {
+      "id": 738,
+      "en": "Boondi raita",
+      "issues": [
+        "kcal(2261.7)>1500"
+      ],
+      "k": 2261.7,
+      "p": 7.2,
+      "c": 13.0,
+      "f": 242.8,
+      "fi": 1.5,
+      "s": "250g",
+      "est_kcal": 2266.0
+    },
+    {
+      "id": 796,
+      "en": "Khakhra chaat",
+      "issues": [
+        "kcal(2996.5)>1500"
+      ],
+      "k": 2996.5,
+      "p": 37.8,
+      "c": 139.0,
+      "f": 256.0,
+      "fi": 25.4,
+      "s": "300g",
+      "est_kcal": 3011.2
+    },
+    {
+      "id": 832,
+      "en": "Spicy corn chaat",
+      "issues": [
+        "kcal(2659.2)>1500"
+      ],
+      "k": 2659.2,
+      "p": 25.5,
+      "c": 63.4,
+      "f": 258.0,
+      "fi": 12.0,
+      "s": "300g",
+      "est_kcal": 2677.6
+    },
+    {
+      "id": 851,
+      "en": "Clear tomato soup",
+      "issues": [
+        "fiber(7.8)>carbs(7.5)"
+      ],
+      "k": 45.0,
+      "p": 1.5,
+      "c": 7.5,
+      "f": 1.2,
+      "fi": 7.8,
+      "s": "300g",
+      "est_kcal": 46.8
+    },
+    {
+      "id": 976,
+      "en": "Brinjal pickle",
+      "issues": [
+        "fiber(4.6)>carbs(4.2)"
+      ],
+      "k": 139.0,
+      "p": 2.2,
+      "c": 4.2,
+      "f": 13.0,
+      "fi": 4.6,
+      "s": "100g",
+      "est_kcal": 142.6
+    },
+    {
+      "id": 980,
+      "en": "Cabbage manchurian",
+      "issues": [
+        "kcal(1660.4)>1500"
+      ],
+      "k": 1660.4,
+      "p": 4.7,
+      "c": 35.9,
+      "f": 166.5,
+      "fi": 2.8,
+      "s": "250g",
+      "est_kcal": 1660.9
+    },
+    {
+      "id": 985,
+      "en": "Cauliflower canjee",
+      "issues": [
+        "fiber(0.9)>carbs(0.6)"
+      ],
+      "k": 12.3,
+      "p": 0.7,
+      "c": 0.6,
+      "f": 0.8,
+      "fi": 0.9,
+      "s": "240g",
+      "est_kcal": 12.4
+    },
+    {
+      "id": 991,
+      "en": "Cauliflower with coconut",
+      "issues": [
+        "fiber(7.9)>carbs(6.0)"
+      ],
+      "k": 197.6,
+      "p": 3.9,
+      "c": 6.0,
+      "f": 17.3,
+      "fi": 7.9,
+      "s": "250g",
+      "est_kcal": 195.3
+    },
+    {
+      "id": 993,
+      "en": "Chinese cabbage and meat ball soup",
+      "issues": [
+        "kcal(2254.2)>1500"
+      ],
+      "k": 2254.2,
+      "p": 24.3,
+      "c": 6.7,
+      "f": 263.3,
+      "fi": 2.6,
+      "s": "300g",
+      "est_kcal": 2493.7
+    },
+    {
+      "id": 995,
+      "en": "Crispy okra/Crispy lady's fingers",
+      "issues": [
+        "kcal(2254.5)>1500"
+      ],
+      "k": 2254.5,
+      "p": 6.6,
+      "c": 14.9,
+      "f": 241.3,
+      "fi": 6.0,
+      "s": "250g",
+      "est_kcal": 2257.7
+    },
+    {
+      "id": 996,
+      "en": "Curried Cauliflower soup",
+      "issues": [
+        "kcal_mismatch stored=129.8 est=442.8 diff=71%"
+      ],
+      "k": 129.8,
+      "p": 23.4,
+      "c": 10.8,
+      "f": 34.0,
+      "fi": 8.1,
+      "s": "240g",
+      "est_kcal": 442.8
+    },
+    {
+      "id": 1003,
+      "en": "Gobi 65",
+      "issues": [
+        "kcal(2386.5)>1500"
+      ],
+      "k": 2386.5,
+      "p": 4.8,
+      "c": 30.8,
+      "f": 249.6,
+      "fi": 4.9,
+      "s": "300g",
+      "est_kcal": 2388.8
+    },
+    {
+      "id": 1008,
+      "en": "Jackfruit sabzi",
+      "issues": [
+        "kcal(2258.7)>1500"
+      ],
+      "k": 2258.7,
+      "p": 2.5,
+      "c": 12.3,
+      "f": 244.1,
+      "fi": 3.7,
+      "s": "250g",
+      "est_kcal": 2256.1
+    },
+    {
+      "id": 1039,
+      "en": "Roasted cauliflower steak",
+      "issues": [
+        "fiber(3.8)>carbs(2.2)"
+      ],
+      "k": 84.5,
+      "p": 2.2,
+      "c": 2.2,
+      "f": 7.2,
+      "fi": 3.8,
+      "s": "100g",
+      "est_kcal": 82.4
+    },
+    {
+      "id": 1049,
+      "en": "Spinach peanut namak paras",
+      "issues": [
+        "kcal(2339.8)>1500"
+      ],
+      "k": 2339.8,
+      "p": 5.2,
+      "c": 20.9,
+      "f": 248.2,
+      "fi": 2.6,
+      "s": "300g",
+      "est_kcal": 2338.2
+    },
+    {
+      "id": 1052,
+      "en": "Spinach soup",
+      "issues": [
+        "kcal_mismatch stored=163.9 est=918.1 diff=82%"
+      ],
+      "k": 163.9,
+      "p": 53.0,
+      "c": 15.2,
+      "f": 71.7,
+      "fi": 9.9,
+      "s": "250g",
+      "est_kcal": 918.1
+    },
+    {
+      "id": 1055,
+      "en": "Stuffed brinjal",
+      "issues": [
+        "fiber(2.3)>carbs(2.2)"
+      ],
+      "k": 51.5,
+      "p": 0.8,
+      "c": 2.2,
+      "f": 4.3,
+      "fi": 2.3,
+      "s": "100g",
+      "est_kcal": 50.7
+    },
+    {
+      "id": 1056,
+      "en": "Stuffed okra",
+      "issues": [
+        "fiber(4.6)>carbs(4.3)"
+      ],
+      "k": 104.2,
+      "p": 2.3,
+      "c": 4.3,
+      "f": 8.5,
+      "fi": 4.6,
+      "s": "250g",
+      "est_kcal": 102.9
+    },
+    {
+      "id": 1080,
+      "en": "Rice, bran, raw Chaler",
+      "issues": [
+        "kcal(1660.0)>1500",
+        "kcal_mismatch stored=1660.0 est=425.0 diff=291%"
+      ],
+      "k": 1660.0,
+      "p": 20.9,
+      "c": 21.0,
+      "f": 28.6,
+      "fi": 10.0,
+      "s": "100g",
+      "est_kcal": 425.0
+    },
+    {
+      "id": 1081,
+      "en": "Rice, parboiled, milled, raw",
+      "issues": [
+        "kcal_mismatch stored=1480.0 est=676.0 diff=119%"
+      ],
+      "k": 1480.0,
+      "p": 2.3,
+      "c": 3.8,
+      "f": 72.4,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 676.0
+    },
+    {
+      "id": 1082,
+      "en": "Rice, popped",
+      "issues": [
+        "kcal(1620.0)>1500",
+        "kcal_mismatch stored=1620.0 est=789.0 diff=105%"
+      ],
+      "k": 1620.0,
+      "p": 0.1,
+      "c": 1.4,
+      "f": 87.0,
+      "fi": 0.4,
+      "s": "100g",
+      "est_kcal": 789.0
+    },
+    {
+      "id": 1083,
+      "en": "Rice, puffed, salted",
+      "issues": [
+        "fiber(1.8)>carbs(1.4)",
+        "kcal(1540.0)>1500",
+        "kcal_mismatch stored=1540.0 est=750.3 diff=105%"
+      ],
+      "k": 1540.0,
+      "p": 0.1,
+      "c": 1.4,
+      "f": 82.7,
+      "fi": 1.8,
+      "s": "100g",
+      "est_kcal": 750.3
+    },
+    {
+      "id": 1085,
+      "en": "Semolina, wheat, raw",
+      "issues": [
+        "kcal_mismatch stored=1470.0 est=656.6 diff=124%"
+      ],
+      "k": 1470.0,
+      "p": 1.4,
+      "c": 3.9,
+      "f": 70.6,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 656.6
+    },
+    {
+      "id": 1086,
+      "en": "Sorghum, raw",
+      "issues": [
+        "kcal_mismatch stored=1480.0 est=640.5 diff=131%"
+      ],
+      "k": 1480.0,
+      "p": 3.3,
+      "c": 6.3,
+      "f": 66.9,
+      "fi": 1.5,
+      "s": "100g",
+      "est_kcal": 640.5
+    },
+    {
+      "id": 1087,
+      "en": "Sweet corn, yellow, on the cob, raw",
+      "issues": [
+        "kcal_mismatch stored=621.0 est=275.1 diff=126%"
+      ],
+      "k": 621.0,
+      "p": 1.4,
+      "c": 2.8,
+      "f": 28.7,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 275.1
+    },
+    {
+      "id": 1088,
+      "en": "Vermicelli, wheat, raw",
+      "issues": [
+        "kcal_mismatch stored=1470.0 est=689.3 diff=113%"
+      ],
+      "k": 1470.0,
+      "p": 0.6,
+      "c": 3.2,
+      "f": 74.9,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 689.3
+    },
+    {
+      "id": 1089,
+      "en": "Wheat, flour, white",
+      "issues": [
+        "kcal_mismatch stored=1470.0 est=656.7 diff=124%"
+      ],
+      "k": 1470.0,
+      "p": 1.6,
+      "c": 4.4,
+      "f": 70.3,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 656.7
+    },
+    {
+      "id": 1090,
+      "en": "Wheat, whole, raw",
+      "issues": [
+        "kcal_mismatch stored=1450.0 est=618.4 diff=134%"
+      ],
+      "k": 1450.0,
+      "p": 2.9,
+      "c": 12.2,
+      "f": 62.0,
+      "fi": 1.6,
+      "s": "100g",
+      "est_kcal": 618.4
+    },
+    {
+      "id": 1094,
+      "en": "Rice, BR-28, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=464.0 est=223.5 diff=108%"
+      ],
+      "k": 464.0,
+      "p": 0.1,
+      "c": 1.1,
+      "f": 24.3,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 223.5
+    },
+    {
+      "id": 1096,
+      "en": "Ruti* Ruti",
+      "issues": [
+        "kcal_mismatch stored=1040.0 est=464.5 diff=124%"
+      ],
+      "k": 1040.0,
+      "p": 1.2,
+      "c": 3.1,
+      "f": 49.7,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 464.5
+    },
+    {
+      "id": 1097,
+      "en": "Vermicelli, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=640.0 est=300.2 diff=113%"
+      ],
+      "k": 640.0,
+      "p": 0.3,
+      "c": 1.4,
+      "f": 32.6,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 300.2
+    },
+    {
+      "id": 1111,
+      "en": "Amaranth, stem, raw",
+      "issues": [
+        "fiber(1.8)>carbs(1.2)",
+        "kcal_mismatch stored=91.0 est=38.5 diff=136%"
+      ],
+      "k": 91.0,
+      "p": 0.1,
+      "c": 1.2,
+      "f": 3.7,
+      "fi": 1.8,
+      "s": "100g",
+      "est_kcal": 38.5
+    },
+    {
+      "id": 1112,
+      "en": "Bean, scarlet runner, raw",
+      "issues": [
+        "kcal_mismatch stored=228.0 est=83.1 diff=174%"
+      ],
+      "k": 228.0,
+      "p": 0.1,
+      "c": 2.0,
+      "f": 8.3,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 83.1
+    },
+    {
+      "id": 1113,
+      "en": "Bean, seeds and pods, raw",
+      "issues": [
+        "kcal_mismatch stored=122.0 est=40.1 diff=204%"
+      ],
+      "k": 122.0,
+      "p": 0.1,
+      "c": 4.3,
+      "f": 2.5,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 40.1
+    },
+    {
+      "id": 1114,
+      "en": "Beet root, red, raw",
+      "issues": [
+        "kcal_mismatch stored=194.0 est=82.7 diff=135%"
+      ],
+      "k": 194.0,
+      "p": 0.1,
+      "c": 2.8,
+      "f": 7.9,
+      "fi": 1.4,
+      "s": "100g",
+      "est_kcal": 82.7
+    },
+    {
+      "id": 1115,
+      "en": "Brinjal, purple, long, raw",
+      "issues": [
+        "kcal_mismatch stored=100.0 est=34.8 diff=187%"
+      ],
+      "k": 100.0,
+      "p": 0.1,
+      "c": 4.1,
+      "f": 2.0,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 34.8
+    },
+    {
+      "id": 1116,
+      "en": "Broad beans, raw",
+      "issues": [
+        "kcal_mismatch stored=209.0 est=59.7 diff=250%"
+      ],
+      "k": 209.0,
+      "p": 0.6,
+      "c": 4.2,
+      "f": 4.5,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 59.7
+    },
+    {
+      "id": 1117,
+      "en": "Cabbage, raw",
+      "issues": [
+        "kcal_mismatch stored=101.0 est=34.6 diff=192%"
+      ],
+      "k": 101.0,
+      "p": 0.3,
+      "c": 2.5,
+      "f": 2.6,
+      "fi": 0.4,
+      "s": "100g",
+      "est_kcal": 34.6
+    },
+    {
+      "id": 1118,
+      "en": "Carrot, raw",
+      "issues": [
+        "kcal_mismatch stored=147.0 est=65.6 diff=124%"
+      ],
+      "k": 147.0,
+      "p": 0.3,
+      "c": 2.6,
+      "f": 6.0,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 65.6
+    },
+    {
+      "id": 1119,
+      "en": "Cauliflower, raw",
+      "issues": [
+        "kcal_mismatch stored=113.0 est=31.7 diff=256%"
+      ],
+      "k": 113.0,
+      "p": 0.3,
+      "c": 2.0,
+      "f": 2.5,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 31.7
+    },
+    {
+      "id": 1120,
+      "en": "Chilli, green, with seeds, raw",
+      "issues": [
+        "kcal_mismatch stored=189.0 est=72.3 diff=161%"
+      ],
+      "k": 189.0,
+      "p": 0.1,
+      "c": 4.7,
+      "f": 5.9,
+      "fi": 1.0,
+      "s": "100g",
+      "est_kcal": 72.3
+    },
+    {
+      "id": 1121,
+      "en": "Cowpea, pods and seeds, raw",
+      "issues": [
+        "kcal_mismatch stored=160.0 est=50.8 diff=215%"
+      ],
+      "k": 160.0,
+      "p": 0.4,
+      "c": 6.0,
+      "f": 2.8,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 50.8
+    },
+    {
+      "id": 1122,
+      "en": "Cucumber, peeled, raw",
+      "issues": [
+        "kcal_mismatch stored=72.0 est=29.3 diff=146%"
+      ],
+      "k": 72.0,
+      "p": 0.1,
+      "c": 0.7,
+      "f": 2.9,
+      "fi": 0.4,
+      "s": "100g",
+      "est_kcal": 29.3
+    },
+    {
+      "id": 1123,
+      "en": "Drumstick, pods, raw",
+      "issues": [
+        "kcal_mismatch stored=181.0 est=65.9 diff=175%"
+      ],
+      "k": 181.0,
+      "p": 0.2,
+      "c": 4.8,
+      "f": 5.1,
+      "fi": 1.9,
+      "s": "100g",
+      "est_kcal": 65.9
+    },
+    {
+      "id": 1124,
+      "en": "Garlic, raw",
+      "issues": [
+        "kcal_mismatch stored=623.0 est=259.2 diff=140%"
+      ],
+      "k": 623.0,
+      "p": 0.6,
+      "c": 2.1,
+      "f": 27.6,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 259.2
+    },
+    {
+      "id": 1125,
+      "en": "Gourd, ash, raw",
+      "issues": [
+        "kcal_mismatch stored=41.0 est=16.2 diff=153%"
+      ],
+      "k": 41.0,
+      "p": 0.1,
+      "c": 1.7,
+      "f": 1.0,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 16.2
+    },
+    {
+      "id": 1126,
+      "en": "Gourd, bitter, raw",
+      "issues": [
+        "kcal_mismatch stored=129.0 est=44.0 diff=193%"
+      ],
+      "k": 129.0,
+      "p": 0.3,
+      "c": 2.6,
+      "f": 3.6,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 44.0
+    },
+    {
+      "id": 1127,
+      "en": "Gourd, bottle, raw",
+      "issues": [
+        "kcal_mismatch stored=142.0 est=64.0 diff=122%"
+      ],
+      "k": 142.0,
+      "p": 0.1,
+      "c": 0.6,
+      "f": 6.8,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 64.0
+    },
+    {
+      "id": 1128,
+      "en": "Gourd, pointed, raw",
+      "issues": [
+        "kcal_mismatch stored=102.0 est=29.8 diff=242%"
+      ],
+      "k": 102.0,
+      "p": 0.3,
+      "c": 2.2,
+      "f": 2.2,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 29.8
+    },
+    {
+      "id": 1129,
+      "en": "Gourd, ridge, raw",
+      "issues": [
+        "kcal_mismatch stored=121.0 est=47.4 diff=155%"
+      ],
+      "k": 121.0,
+      "p": 0.4,
+      "c": 1.1,
+      "f": 4.6,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 47.4
+    },
+    {
+      "id": 1130,
+      "en": "Gourd, snake, raw",
+      "issues": [
+        "kcal_mismatch stored=103.0 est=44.9 diff=129%"
+      ],
+      "k": 103.0,
+      "p": 0.3,
+      "c": 0.8,
+      "f": 4.5,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 44.9
+    },
+    {
+      "id": 1131,
+      "en": "Gourd, sponge, raw",
+      "issues": [
+        "kcal_mismatch stored=102.0 est=43.9 diff=132%"
+      ],
+      "k": 102.0,
+      "p": 0.2,
+      "c": 1.1,
+      "f": 4.3,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 43.9
+    },
+    {
+      "id": 1132,
+      "en": "Gourd, teasle, raw",
+      "issues": [
+        "kcal_mismatch stored=259.0 est=112.6 diff=130%"
+      ],
+      "k": 259.0,
+      "p": 0.5,
+      "c": 1.1,
+      "f": 11.8,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 112.6
+    },
+    {
+      "id": 1133,
+      "en": "Okra/ladies finger, raw",
+      "issues": [
+        "kcal_mismatch stored=164.0 est=64.5 diff=154%"
+      ],
+      "k": 164.0,
+      "p": 0.2,
+      "c": 3.1,
+      "f": 5.7,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 64.5
+    },
+    {
+      "id": 1134,
+      "en": "Onion, raw",
+      "issues": [
+        "kcal_mismatch stored=249.0 est=117.8 diff=111%"
+      ],
+      "k": 249.0,
+      "p": 0.1,
+      "c": 1.9,
+      "f": 12.2,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 117.8
+    },
+    {
+      "id": 1138,
+      "en": "Pumpkin, raw",
+      "issues": [
+        "fiber(2.4)>carbs(1.3)"
+      ],
+      "k": 18.0,
+      "p": 1.4,
+      "c": 1.3,
+      "f": 0.3,
+      "fi": 2.4,
+      "s": "100g",
+      "est_kcal": 13.5
+    },
+    {
+      "id": 1141,
+      "en": "Tomato, red, ripe, raw",
+      "issues": [
+        "fiber(1.7)>carbs(1.4)"
+      ],
+      "k": 16.0,
+      "p": 1.1,
+      "c": 1.4,
+      "f": 0.2,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 11.8
+    },
+    {
+      "id": 1144,
+      "en": "Cabbage, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=115.0 est=38.9 diff=196%"
+      ],
+      "k": 115.0,
+      "p": 0.4,
+      "c": 2.8,
+      "f": 2.9,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 38.9
+    },
+    {
+      "id": 1145,
+      "en": "Carrot, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=181.0 est=79.3 diff=128%"
+      ],
+      "k": 181.0,
+      "p": 0.3,
+      "c": 3.1,
+      "f": 7.3,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 79.3
+    },
+    {
+      "id": 1146,
+      "en": "Cauliflower, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=119.0 est=33.9 diff=251%"
+      ],
+      "k": 119.0,
+      "p": 0.3,
+      "c": 2.1,
+      "f": 2.7,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 33.9
+    },
+    {
+      "id": 1147,
+      "en": "Cowpea, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=167.0 est=53.8 diff=210%"
+      ],
+      "k": 167.0,
+      "p": 0.4,
+      "c": 6.3,
+      "f": 3.0,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 53.8
+    },
+    {
+      "id": 1148,
+      "en": "Gourd, pointed, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=116.0 est=34.1 diff=240%"
+      ],
+      "k": 116.0,
+      "p": 0.4,
+      "c": 2.5,
+      "f": 2.5,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 34.1
+    },
+    {
+      "id": 1149,
+      "en": "Gourd, teasle, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=294.0 est=127.8 diff=130%"
+      ],
+      "k": 294.0,
+      "p": 0.5,
+      "c": 1.3,
+      "f": 13.4,
+      "fi": 1.2,
+      "s": "100g",
+      "est_kcal": 127.8
+    },
+    {
+      "id": 1152,
+      "en": "Pumpkin, boiled* (without salt)",
+      "issues": [
+        "fiber(3.8)>carbs(2.1)"
+      ],
+      "k": 29.0,
+      "p": 2.2,
+      "c": 2.1,
+      "f": 0.5,
+      "fi": 3.8,
+      "s": "100g",
+      "est_kcal": 21.7
+    },
+    {
+      "id": 1154,
+      "en": "Lady's finger-tomato bhuna",
+      "issues": [
+        "kcal_mismatch stored=526.0 est=130.6 diff=303%"
+      ],
+      "k": 526.0,
+      "p": 7.4,
+      "c": 5.0,
+      "f": 9.0,
+      "fi": 3.1,
+      "s": "100g",
+      "est_kcal": 130.6
+    },
+    {
+      "id": 1155,
+      "en": "Gourd, bitter, fry",
+      "issues": [
+        "kcal_mismatch stored=540.0 est=116.7 diff=363%"
+      ],
+      "k": 540.0,
+      "p": 9.1,
+      "c": 4.1,
+      "f": 7.1,
+      "fi": 2.7,
+      "s": "100g",
+      "est_kcal": 116.7
+    },
+    {
+      "id": 1156,
+      "en": "Agathi, raw",
+      "issues": [
+        "fiber(7.9)>carbs(5.7)"
+      ],
+      "k": 88.0,
+      "p": 8.4,
+      "c": 5.7,
+      "f": 1.8,
+      "fi": 7.9,
+      "s": "100g",
+      "est_kcal": 72.6
+    },
+    {
+      "id": 1159,
+      "en": "Amaranth, leaves, red, raw",
+      "issues": [
+        "fiber(4.2)>carbs(0.5)",
+        "kcal_mismatch stored=32.0 est=22.7 diff=41%"
+      ],
+      "k": 32.0,
+      "p": 4.5,
+      "c": 0.5,
+      "f": 0.3,
+      "fi": 4.2,
+      "s": "100g",
+      "est_kcal": 22.7
+    },
+    {
+      "id": 1160,
+      "en": "Amaranth, leaves, green, raw",
+      "issues": [
+        "fiber(4.4)>carbs(1.5)",
+        "kcal_mismatch stored=25.0 est=16.7 diff=50%"
+      ],
+      "k": 25.0,
+      "p": 2.0,
+      "c": 1.5,
+      "f": 0.3,
+      "fi": 4.4,
+      "s": "100g",
+      "est_kcal": 16.7
+    },
+    {
+      "id": 1162,
+      "en": "Beet greens leaves",
+      "issues": [
+        "fiber(3.7)>carbs(2.1)"
+      ],
+      "k": 31.0,
+      "p": 2.8,
+      "c": 2.1,
+      "f": 0.5,
+      "fi": 3.7,
+      "s": "100g",
+      "est_kcal": 24.1
+    },
+    {
+      "id": 1165,
+      "en": "Bottle gourd leaves, raw",
+      "issues": [
+        "fiber(4.4)>carbs(0.6)",
+        "kcal_mismatch stored=26.0 est=17.8 diff=46%"
+      ],
+      "k": 26.0,
+      "p": 2.5,
+      "c": 0.6,
+      "f": 0.6,
+      "fi": 4.4,
+      "s": "100g",
+      "est_kcal": 17.8
+    },
+    {
+      "id": 1171,
+      "en": "Drumstick, leaves, raw",
+      "issues": [
+        "fiber(5.2)>carbs(4.6)"
+      ],
+      "k": 72.0,
+      "p": 6.7,
+      "c": 4.6,
+      "f": 1.8,
+      "fi": 5.2,
+      "s": "100g",
+      "est_kcal": 61.4
+    },
+    {
+      "id": 1174,
+      "en": "Indian spinach, raw",
+      "issues": [
+        "fiber(2.2)>carbs(2.1)"
+      ],
+      "k": 25.0,
+      "p": 2.4,
+      "c": 2.1,
+      "f": 0.3,
+      "fi": 2.2,
+      "s": "100g",
+      "est_kcal": 20.7
+    },
+    {
+      "id": 1175,
+      "en": "Jute leaves, raw",
+      "issues": [
+        "fiber(5.8)>carbs(1.7)",
+        "kcal_mismatch stored=32.0 est=21.1 diff=52%"
+      ],
+      "k": 32.0,
+      "p": 2.9,
+      "c": 1.7,
+      "f": 0.3,
+      "fi": 5.8,
+      "s": "100g",
+      "est_kcal": 21.1
+    },
+    {
+      "id": 1178,
+      "en": "Slender amaranth leaves, raw",
+      "issues": [
+        "fiber(4.4)>carbs(4.3)"
+      ],
+      "k": 47.0,
+      "p": 4.1,
+      "c": 4.3,
+      "f": 0.5,
+      "fi": 4.4,
+      "s": "100g",
+      "est_kcal": 38.1
+    },
+    {
+      "id": 1179,
+      "en": "Spinach, raw",
+      "issues": [
+        "fiber(2.9)>carbs(0.9)"
+      ],
+      "k": 26.0,
+      "p": 3.0,
+      "c": 0.9,
+      "f": 0.5,
+      "fi": 2.9,
+      "s": "100g",
+      "est_kcal": 20.1
+    },
+    {
+      "id": 1180,
+      "en": "Sweet potato leaves, raw",
+      "issues": [
+        "fiber(7.3)>carbs(1.8)",
+        "kcal_mismatch stored=45.0 est=30.4 diff=48%"
+      ],
+      "k": 45.0,
+      "p": 4.0,
+      "c": 1.8,
+      "f": 0.8,
+      "fi": 7.3,
+      "s": "100g",
+      "est_kcal": 30.4
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "issues": [
+        "fiber(7.7)>carbs(2.8)",
+        "kcal_mismatch stored=45.0 est=30.4 diff=48%"
+      ],
+      "k": 45.0,
+      "p": 3.9,
+      "c": 2.8,
+      "f": 0.4,
+      "fi": 7.7,
+      "s": "100g",
+      "est_kcal": 30.4
+    },
+    {
+      "id": 1182,
+      "en": "Sweet potato leaves, SP7, dark green, mature, raw",
+      "issues": [
+        "fiber(8.5)>carbs(1.2)",
+        "kcal_mismatch stored=45.0 est=27.1 diff=66%"
+      ],
+      "k": 45.0,
+      "p": 4.9,
+      "c": 1.2,
+      "f": 0.3,
+      "fi": 8.5,
+      "s": "100g",
+      "est_kcal": 27.1
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "issues": [
+        "fiber(8.0)>carbs(3.9)",
+        "kcal_mismatch stored=50.0 est=33.6 diff=49%"
+      ],
+      "k": 50.0,
+      "p": 3.6,
+      "c": 3.9,
+      "f": 0.4,
+      "fi": 8.0,
+      "s": "100g",
+      "est_kcal": 33.6
+    },
+    {
+      "id": 1188,
+      "en": "Spinach, boiled* (without salt)",
+      "issues": [
+        "fiber(5.3)>carbs(1.6)"
+      ],
+      "k": 47.0,
+      "p": 5.4,
+      "c": 1.6,
+      "f": 0.9,
+      "fi": 5.3,
+      "s": "100g",
+      "est_kcal": 36.1
+    },
+    {
+      "id": 1189,
+      "en": "Indian spinach, boiled* (without salt)",
+      "issues": [
+        "kcal_mismatch stored=138.0 est=38.4 diff=259%"
+      ],
+      "k": 138.0,
+      "p": 0.4,
+      "c": 2.9,
+      "f": 2.8,
+      "fi": 1.6,
+      "s": "100g",
+      "est_kcal": 38.4
+    },
+    {
+      "id": 1222,
+      "en": "Cinnamon, ground",
+      "issues": [
+        "fiber(53.1)>carbs(27.5)",
+        "kcal_mismatch stored=243.0 est=136.8 diff=78%"
+      ],
+      "k": 243.0,
+      "p": 4.0,
+      "c": 27.5,
+      "f": 1.2,
+      "fi": 53.1,
+      "s": "100g",
+      "est_kcal": 136.8
+    },
+    {
+      "id": 1223,
+      "en": "Cloves, dried",
+      "issues": [
+        "fiber(28.1)>carbs(27.4)"
+      ],
+      "k": 267.0,
+      "p": 5.2,
+      "c": 27.4,
+      "f": 8.9,
+      "fi": 28.1,
+      "s": "100g",
+      "est_kcal": 210.5
+    },
+    {
+      "id": 1224,
+      "en": "Coriander seed, dry",
+      "issues": [
+        "fiber(40.8)>carbs(13.4)"
+      ],
+      "k": 336.0,
+      "p": 14.1,
+      "c": 13.4,
+      "f": 16.1,
+      "fi": 40.8,
+      "s": "100g",
+      "est_kcal": 254.9
+    },
+    {
+      "id": 1226,
+      "en": "Fennel seeds",
+      "issues": [
+        "fiber(39.8)>carbs(13.0)"
+      ],
+      "k": 329.0,
+      "p": 15.8,
+      "c": 13.0,
+      "f": 14.9,
+      "fi": 39.8,
+      "s": "100g",
+      "est_kcal": 249.3
+    },
+    {
+      "id": 1229,
+      "en": "Indian pennywort, raw",
+      "issues": [
+        "fiber(8.7)>carbs(1.6)",
+        "kcal_mismatch stored=37.0 est=20.1 diff=84%"
+      ],
+      "k": 37.0,
+      "p": 2.3,
+      "c": 1.6,
+      "f": 0.5,
+      "fi": 8.7,
+      "s": "100g",
+      "est_kcal": 20.1
+    },
+    {
+      "id": 1231,
+      "en": "Lemon peel, raw",
+      "issues": [
+        "fiber(10.6)>carbs(8.7)",
+        "kcal_mismatch stored=65.0 est=44.8 diff=45%"
+      ],
+      "k": 65.0,
+      "p": 1.6,
+      "c": 8.7,
+      "f": 0.4,
+      "fi": 10.6,
+      "s": "100g",
+      "est_kcal": 44.8
+    },
+    {
+      "id": 1233,
+      "en": "Nutmeg, dried",
+      "issues": [
+        "kcal(1980.0)>1500",
+        "kcal_mismatch stored=1980.0 est=411.5 diff=381%"
+      ],
+      "k": 1980.0,
+      "p": 36.4,
+      "c": 19.0,
+      "f": 21.1,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 411.5
+    },
+    {
+      "id": 1235,
+      "en": "Turmeric, dried",
+      "issues": [
+        "kcal_mismatch stored=1400.0 est=543.7 diff=157%"
+      ],
+      "k": 1400.0,
+      "p": 8.4,
+      "c": 21.1,
+      "f": 47.3,
+      "fi": 4.8,
+      "s": "100g",
+      "est_kcal": 543.7
+    },
+    {
+      "id": 1236,
+      "en": "Apple, without skin, raw",
+      "issues": [
+        "kcal_mismatch stored=215.0 est=109.1 diff=97%"
+      ],
+      "k": 215.0,
+      "p": 0.1,
+      "c": 1.3,
+      "f": 11.5,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 109.1
+    },
+    {
+      "id": 1237,
+      "en": "Apple, with skin, raw",
+      "issues": [
+        "kcal_mismatch stored=262.0 est=131.9 diff=99%"
+      ],
+      "k": 262.0,
+      "p": 0.2,
+      "c": 2.4,
+      "f": 13.5,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 131.9
+    },
+    {
+      "id": 1238,
+      "en": "Asian pears, raw",
+      "issues": [
+        "kcal_mismatch stored=259.0 est=126.3 diff=105%"
+      ],
+      "k": 259.0,
+      "p": 0.3,
+      "c": 3.6,
+      "f": 12.3,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 126.3
+    },
+    {
+      "id": 1239,
+      "en": "Banana, Sagar, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=400.0 est=186.4 diff=115%"
+      ],
+      "k": 400.0,
+      "p": 0.8,
+      "c": 2.6,
+      "f": 19.2,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 186.4
+    },
+    {
+      "id": 1240,
+      "en": "Breadfruit, raw",
+      "issues": [
+        "kcal_mismatch stored=293.0 est=137.4 diff=113%"
+      ],
+      "k": 293.0,
+      "p": 0.2,
+      "c": 4.9,
+      "f": 13.0,
+      "fi": 0.9,
+      "s": "100g",
+      "est_kcal": 137.4
+    },
+    {
+      "id": 1241,
+      "en": "Bullocks Heart, ripe, raw Nona ata",
+      "issues": [
+        "kcal_mismatch stored=340.0 est=162.9 diff=109%"
+      ],
+      "k": 340.0,
+      "p": 0.2,
+      "c": 5.2,
+      "f": 15.7,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 162.9
+    },
+    {
+      "id": 1242,
+      "en": "Carambola, raw",
+      "issues": [
+        "kcal_mismatch stored=172.0 est=74.3 diff=131%"
+      ],
+      "k": 172.0,
+      "p": 0.7,
+      "c": 2.8,
+      "f": 6.7,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 74.3
+    },
+    {
+      "id": 1243,
+      "en": "Custard apple, raw",
+      "issues": [
+        "kcal_mismatch stored=357.0 est=168.2 diff=112%"
+      ],
+      "k": 357.0,
+      "p": 0.3,
+      "c": 4.4,
+      "f": 16.6,
+      "fi": 0.9,
+      "s": "100g",
+      "est_kcal": 168.2
+    },
+    {
+      "id": 1244,
+      "en": "Dates, dried",
+      "issues": [
+        "kcal_mismatch stored=1270.0 est=643.1 diff=97%"
+      ],
+      "k": 1270.0,
+      "p": 0.6,
+      "c": 8.3,
+      "f": 67.5,
+      "fi": 3.4,
+      "s": "100g",
+      "est_kcal": 643.1
+    },
+    {
+      "id": 1245,
+      "en": "Dates, raw",
+      "issues": [
+        "kcal_mismatch stored=636.0 est=318.6 diff=100%"
+      ],
+      "k": 636.0,
+      "p": 0.4,
+      "c": 4.1,
+      "f": 33.4,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 318.6
+    },
+    {
+      "id": 1246,
+      "en": "Elephant apple, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=271.0 est=108.3 diff=150%"
+      ],
+      "k": 271.0,
+      "p": 0.4,
+      "c": 3.5,
+      "f": 10.3,
+      "fi": 1.8,
+      "s": "100g",
+      "est_kcal": 108.3
+    },
+    {
+      "id": 1247,
+      "en": "Emblic, raw",
+      "issues": [
+        "kcal_mismatch stored=186.0 est=88.7 diff=110%"
+      ],
+      "k": 186.0,
+      "p": 0.1,
+      "c": 3.4,
+      "f": 8.3,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 88.7
+    },
+    {
+      "id": 1248,
+      "en": "Fig, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=168.0 est=73.5 diff=129%"
+      ],
+      "k": 168.0,
+      "p": 0.2,
+      "c": 3.1,
+      "f": 6.7,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 73.5
+    },
+    {
+      "id": 1249,
+      "en": "Grapes, green, raw",
+      "issues": [
+        "kcal_mismatch stored=398.0 est=195.8 diff=103%"
+      ],
+      "k": 398.0,
+      "p": 0.6,
+      "c": 2.9,
+      "f": 20.2,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 195.8
+    },
+    {
+      "id": 1250,
+      "en": "Guava, green, raw",
+      "issues": [
+        "kcal_mismatch stored=265.0 est=121.7 diff=118%"
+      ],
+      "k": 265.0,
+      "p": 0.5,
+      "c": 5.4,
+      "f": 10.9,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 121.7
+    },
+    {
+      "id": 1251,
+      "en": "Hog plum, raw",
+      "issues": [
+        "kcal_mismatch stored=213.0 est=89.7 diff=137%"
+      ],
+      "k": 213.0,
+      "p": 0.8,
+      "c": 1.6,
+      "f": 8.9,
+      "fi": 0.9,
+      "s": "100g",
+      "est_kcal": 89.7
+    },
+    {
+      "id": 1252,
+      "en": "Jackfruit, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=312.0 est=149.3 diff=109%"
+      ],
+      "k": 312.0,
+      "p": 0.2,
+      "c": 7.2,
+      "f": 13.3,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 149.3
+    },
+    {
+      "id": 1253,
+      "en": "Jambolan, raw",
+      "issues": [
+        "kcal_mismatch stored=164.0 est=70.9 diff=131%"
+      ],
+      "k": 164.0,
+      "p": 0.5,
+      "c": 3.5,
+      "f": 6.1,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 70.9
+    },
+    {
+      "id": 1254,
+      "en": "Jambos, raw",
+      "issues": [
+        "kcal_mismatch stored=169.0 est=78.0 diff=117%"
+      ],
+      "k": 169.0,
+      "p": 0.3,
+      "c": 1.2,
+      "f": 8.0,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 78.0
+    },
+    {
+      "id": 1255,
+      "en": "Java apple, raw",
+      "issues": [
+        "kcal_mismatch stored=149.0 est=69.3 diff=115%"
+      ],
+      "k": 149.0,
+      "p": 0.2,
+      "c": 1.6,
+      "f": 6.9,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 69.3
+    },
+    {
+      "id": 1256,
+      "en": "Jujube, raw",
+      "issues": [
+        "kcal_mismatch stored=254.0 est=118.2 diff=115%"
+      ],
+      "k": 254.0,
+      "p": 0.2,
+      "c": 1.0,
+      "f": 12.6,
+      "fi": 0.0,
+      "s": "100g",
+      "est_kcal": 118.2
+    },
+    {
+      "id": 1257,
+      "en": "Lemon, Kagoji, raw",
+      "issues": [
+        "kcal_mismatch stored=234.0 est=101.0 diff=132%"
+      ],
+      "k": 234.0,
+      "p": 1.0,
+      "c": 1.3,
+      "f": 10.2,
+      "fi": 0.7,
+      "s": "100g",
+      "est_kcal": 101.0
+    },
+    {
+      "id": 1258,
+      "en": "Lime, sweet, raw",
+      "issues": [
+        "fiber(0.6)>carbs(0.5)",
+        "kcal_mismatch stored=177.0 est=80.5 diff=120%"
+      ],
+      "k": 177.0,
+      "p": 0.5,
+      "c": 0.5,
+      "f": 8.5,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 80.5
+    },
+    {
+      "id": 1259,
+      "en": "Mango, Langra, yellow flesh, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=348.0 est=170.0 diff=105%"
+      ],
+      "k": 348.0,
+      "p": 0.4,
+      "c": 1.6,
+      "f": 18.0,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 170.0
+    },
+    {
+      "id": 1260,
+      "en": "Melon, Futi, orange flesh, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=73.0 est=32.7 diff=123%"
+      ],
+      "k": 73.0,
+      "p": 0.2,
+      "c": 1.0,
+      "f": 3.1,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 32.7
+    },
+    {
+      "id": 1261,
+      "en": "Orange juice, raw (unsweetened)",
+      "issues": [
+        "kcal_mismatch stored=38.0 est=16.5 diff=130%"
+      ],
+      "k": 38.0,
+      "p": 0.1,
+      "c": 0.2,
+      "f": 1.7,
+      "fi": 0.1,
+      "s": "100g",
+      "est_kcal": 16.5
+    },
+    {
+      "id": 1262,
+      "en": "Orange, raw",
+      "issues": [
+        "kcal_mismatch stored=186.0 est=88.7 diff=110%"
+      ],
+      "k": 186.0,
+      "p": 0.2,
+      "c": 2.4,
+      "f": 8.7,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 88.7
+    },
+    {
+      "id": 1263,
+      "en": "Orange, sweet, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=208.0 est=106.3 diff=96%"
+      ],
+      "k": 208.0,
+      "p": 0.1,
+      "c": 2.4,
+      "f": 10.7,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 106.3
+    },
+    {
+      "id": 1266,
+      "en": "Papaya, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=139.0 est=65.7 diff=112%"
+      ],
+      "k": 139.0,
+      "p": 0.1,
+      "c": 1.7,
+      "f": 6.5,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 65.7
+    },
+    {
+      "id": 1267,
+      "en": "Persimmon, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=284.0 est=140.3 diff=102%"
+      ],
+      "k": 284.0,
+      "p": 0.2,
+      "c": 3.6,
+      "f": 13.9,
+      "fi": 0.5,
+      "s": "100g",
+      "est_kcal": 140.3
+    },
+    {
+      "id": 1268,
+      "en": "Pineapple, Joldugee, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=181.0 est=81.9 diff=121%"
+      ],
+      "k": 181.0,
+      "p": 0.4,
+      "c": 1.4,
+      "f": 8.3,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 81.9
+    },
+    {
+      "id": 1269,
+      "en": "Pineapple, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=197.0 est=93.3 diff=111%"
+      ],
+      "k": 197.0,
+      "p": 0.1,
+      "c": 1.4,
+      "f": 9.7,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 93.3
+    },
+    {
+      "id": 1270,
+      "en": "Pomegranate, ripe, with seed, raw",
+      "issues": [
+        "kcal_mismatch stored=283.0 est=131.1 diff=116%"
+      ],
+      "k": 283.0,
+      "p": 0.2,
+      "c": 4.0,
+      "f": 12.7,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 131.1
+    },
+    {
+      "id": 1271,
+      "en": "Pomelo, raw",
+      "issues": [
+        "kcal_mismatch stored=159.0 est=74.5 diff=113%"
+      ],
+      "k": 159.0,
+      "p": 0.3,
+      "c": 1.0,
+      "f": 7.7,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 74.5
+    },
+    {
+      "id": 1272,
+      "en": "Tamarind, pulp, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=1140.0 est=569.2 diff=100%"
+      ],
+      "k": 1140.0,
+      "p": 0.4,
+      "c": 5.1,
+      "f": 60.8,
+      "fi": 2.6,
+      "s": "100g",
+      "est_kcal": 569.2
+    },
+    {
+      "id": 1273,
+      "en": "Watermelon, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=93.0 est=42.0 diff=121%"
+      ],
+      "k": 93.0,
+      "p": 0.2,
+      "c": 0.4,
+      "f": 4.4,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 42.0
+    },
+    {
+      "id": 1274,
+      "en": "Wood apple, ripe, raw",
+      "issues": [
+        "kcal_mismatch stored=469.0 est=217.3 diff=116%"
+      ],
+      "k": 469.0,
+      "p": 0.3,
+      "c": 7.0,
+      "f": 20.9,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 217.3
+    },
+    {
+      "id": 1275,
+      "en": "Anchovy, Gangetic hairfin, dried",
+      "issues": [
+        "fiber(11.9)>carbs(0.0)"
+      ],
+      "k": 332.0,
+      "p": 72.0,
+      "c": 0.0,
+      "f": 4.9,
+      "fi": 11.9,
+      "s": "100g",
+      "est_kcal": 332.1
+    },
+    {
+      "id": 1276,
+      "en": "Anchovy, Gangetic hairfin, raw",
+      "issues": [
+        "fiber(3.0)>carbs(0.0)"
+      ],
+      "k": 105.0,
+      "p": 17.7,
+      "c": 0.0,
+      "f": 3.8,
+      "fi": 3.0,
+      "s": "100g",
+      "est_kcal": 105.0
+    },
+    {
+      "id": 1278,
+      "en": "Anchovy, Scaly hairfin, raw",
+      "issues": [
+        "fiber(2.8)>carbs(0.0)"
+      ],
+      "k": 102.0,
+      "p": 19.4,
+      "c": 0.0,
+      "f": 2.7,
+      "fi": 2.8,
+      "s": "100g",
+      "est_kcal": 101.9
+    },
+    {
+      "id": 1280,
+      "en": "Barb, Olive, without bones, raw",
+      "issues": [
+        "fiber(1.3)>carbs(0.0)"
+      ],
+      "k": 174.0,
+      "p": 17.2,
+      "c": 0.0,
+      "f": 11.7,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 174.1
+    },
+    {
+      "id": 1282,
+      "en": "Bata, raw",
+      "issues": [
+        "fiber(2.1)>carbs(0.0)"
+      ],
+      "k": 107.0,
+      "p": 16.2,
+      "c": 0.0,
+      "f": 4.7,
+      "fi": 2.1,
+      "s": "100g",
+      "est_kcal": 107.1
+    },
+    {
+      "id": 1283,
+      "en": "Boal, without bones, raw",
+      "issues": [
+        "fiber(1.3)>carbs(0.0)"
+      ],
+      "k": 81.0,
+      "p": 15.5,
+      "c": 0.0,
+      "f": 2.1,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 80.9
+    },
+    {
+      "id": 1284,
+      "en": "Bronze feather back, raw",
+      "issues": [
+        "fiber(2.7)>carbs(0.0)"
+      ],
+      "k": 81.0,
+      "p": 18.0,
+      "c": 0.0,
+      "f": 1.0,
+      "fi": 2.7,
+      "s": "100g",
+      "est_kcal": 81.0
+    },
+    {
+      "id": 1285,
+      "en": "Calbasu, without bones, raw",
+      "issues": [
+        "fiber(1.2)>carbs(0.0)"
+      ],
+      "k": 96.0,
+      "p": 17.2,
+      "c": 0.0,
+      "f": 3.0,
+      "fi": 1.2,
+      "s": "100g",
+      "est_kcal": 95.8
+    },
+    {
+      "id": 1286,
+      "en": "Catfish, Bacha, raw",
+      "issues": [
+        "fiber(2.2)>carbs(0.0)"
+      ],
+      "k": 122.0,
+      "p": 16.1,
+      "c": 0.0,
+      "f": 6.4,
+      "fi": 2.2,
+      "s": "100g",
+      "est_kcal": 122.0
+    },
+    {
+      "id": 1287,
+      "en": "Catfish, Pabda, raw",
+      "issues": [
+        "fiber(2.3)>carbs(0.0)"
+      ],
+      "k": 95.0,
+      "p": 17.4,
+      "c": 0.0,
+      "f": 2.8,
+      "fi": 2.3,
+      "s": "100g",
+      "est_kcal": 94.8
+    },
+    {
+      "id": 1288,
+      "en": "Catla, raw",
+      "issues": [
+        "fiber(1.3)>carbs(0.0)"
+      ],
+      "k": 103.0,
+      "p": 19.9,
+      "c": 0.0,
+      "f": 2.6,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 103.0
+    },
+    {
+      "id": 1291,
+      "en": "Common carp, without bones, raw",
+      "issues": [
+        "fiber(1.2)>carbs(0.0)"
+      ],
+      "k": 89.0,
+      "p": 18.9,
+      "c": 0.0,
+      "f": 1.5,
+      "fi": 1.2,
+      "s": "100g",
+      "est_kcal": 89.1
+    },
+    {
+      "id": 1294,
+      "en": "Gangetic ailia, raw",
+      "issues": [
+        "fiber(2.0)>carbs(0.0)"
+      ],
+      "k": 117.0,
+      "p": 15.3,
+      "c": 0.0,
+      "f": 6.2,
+      "fi": 2.0,
+      "s": "100g",
+      "est_kcal": 117.0
+    },
+    {
+      "id": 1295,
+      "en": "Gangetic mystus, raw",
+      "issues": [
+        "fiber(2.4)>carbs(0.0)"
+      ],
+      "k": 87.0,
+      "p": 15.7,
+      "c": 0.0,
+      "f": 2.7,
+      "fi": 2.4,
+      "s": "100g",
+      "est_kcal": 87.1
+    },
+    {
+      "id": 1296,
+      "en": "Giant river-catfish, raw",
+      "issues": [
+        "fiber(1.2)>carbs(0.0)"
+      ],
+      "k": 76.0,
+      "p": 16.1,
+      "c": 0.0,
+      "f": 1.3,
+      "fi": 1.2,
+      "s": "100g",
+      "est_kcal": 76.1
+    },
+    {
+      "id": 1298,
+      "en": "Giant sea perch, without bones, raw",
+      "issues": [
+        "fiber(1.7)>carbs(0.0)"
+      ],
+      "k": 97.0,
+      "p": 18.6,
+      "c": 0.0,
+      "f": 2.5,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 96.9
+    },
+    {
+      "id": 1299,
+      "en": "Goby, Tank goby, raw",
+      "issues": [
+        "fiber(2.7)>carbs(0.0)"
+      ],
+      "k": 82.0,
+      "p": 14.9,
+      "c": 0.0,
+      "f": 2.5,
+      "fi": 2.7,
+      "s": "100g",
+      "est_kcal": 82.1
+    },
+    {
+      "id": 1300,
+      "en": "Hilsha, without bones, raw",
+      "issues": [
+        "fiber(1.9)>carbs(0.0)"
+      ],
+      "k": 221.0,
+      "p": 17.4,
+      "c": 0.0,
+      "f": 16.8,
+      "fi": 1.9,
+      "s": "100g",
+      "est_kcal": 220.8
+    },
+    {
+      "id": 1301,
+      "en": "Indian river shad, raw",
+      "issues": [
+        "fiber(4.4)>carbs(0.0)"
+      ],
+      "k": 106.0,
+      "p": 15.5,
+      "c": 0.0,
+      "f": 4.9,
+      "fi": 4.4,
+      "s": "100g",
+      "est_kcal": 106.1
+    },
+    {
+      "id": 1304,
+      "en": "Minnow, Finescale razorbelly, raw",
+      "issues": [
+        "fiber(3.0)>carbs(0.0)"
+      ],
+      "k": 95.0,
+      "p": 15.4,
+      "c": 0.0,
+      "f": 3.7,
+      "fi": 3.0,
+      "s": "100g",
+      "est_kcal": 94.9
+    },
+    {
+      "id": 1306,
+      "en": "Minnow, Large scale razorbelly, raw",
+      "issues": [
+        "fiber(2.1)>carbs(0.0)"
+      ],
+      "k": 120.0,
+      "p": 18.3,
+      "c": 0.0,
+      "f": 5.2,
+      "fi": 2.1,
+      "s": "100g",
+      "est_kcal": 120.0
+    },
+    {
+      "id": 1307,
+      "en": "Mrigal carp, eyes included, raw",
+      "issues": [
+        "fiber(1.6)>carbs(0.0)"
+      ],
+      "k": 102.0,
+      "p": 18.8,
+      "c": 0.0,
+      "f": 3.0,
+      "fi": 1.6,
+      "s": "100g",
+      "est_kcal": 102.2
+    },
+    {
+      "id": 1309,
+      "en": "Mussel/Clam, mixed species, raw",
+      "issues": [
+        "fiber(0.9)>carbs(0.0)"
+      ],
+      "k": 61.0,
+      "p": 11.9,
+      "c": 0.0,
+      "f": 1.5,
+      "fi": 0.9,
+      "s": "100g",
+      "est_kcal": 61.1
+    },
+    {
+      "id": 1310,
+      "en": "Pangas, without bones, raw",
+      "issues": [
+        "fiber(1.0)>carbs(0.0)"
+      ],
+      "k": 162.0,
+      "p": 15.8,
+      "c": 0.0,
+      "f": 11.0,
+      "fi": 1.0,
+      "s": "100g",
+      "est_kcal": 162.2
+    },
+    {
+      "id": 1311,
+      "en": "Pomfret, Black, raw",
+      "issues": [
+        "fiber(1.1)>carbs(0.0)"
+      ],
+      "k": 113.0,
+      "p": 19.9,
+      "c": 0.0,
+      "f": 3.7,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 112.9
+    },
+    {
+      "id": 1312,
+      "en": "Pomfret, Chinese Silver, raw",
+      "issues": [
+        "fiber(1.5)>carbs(0.0)"
+      ],
+      "k": 103.0,
+      "p": 15.8,
+      "c": 0.0,
+      "f": 4.4,
+      "fi": 1.5,
+      "s": "100g",
+      "est_kcal": 102.8
+    },
+    {
+      "id": 1320,
+      "en": "Prawn, Monsoon river prawn, raw",
+      "issues": [
+        "fiber(1.3)>carbs(0.0)"
+      ],
+      "k": 80.0,
+      "p": 18.4,
+      "c": 0.0,
+      "f": 0.7,
+      "fi": 1.3,
+      "s": "100g",
+      "est_kcal": 79.9
+    },
+    {
+      "id": 1323,
+      "en": "Shrimp, Speckled, raw",
+      "issues": [
+        "fiber(2.0)>carbs(0.0)"
+      ],
+      "k": 82.0,
+      "p": 17.4,
+      "c": 0.0,
+      "f": 1.4,
+      "fi": 2.0,
+      "s": "100g",
+      "est_kcal": 82.2
+    },
+    {
+      "id": 1326,
+      "en": "Spotted snakehead, raw",
+      "issues": [
+        "fiber(4.0)>carbs(0.0)"
+      ],
+      "k": 92.0,
+      "p": 17.6,
+      "c": 0.0,
+      "f": 2.4,
+      "fi": 4.0,
+      "s": "100g",
+      "est_kcal": 92.0
+    },
+    {
+      "id": 1332,
+      "en": "Small fish fry",
+      "issues": [
+        "fiber(1.6)>carbs(0.9)",
+        "kcal_mismatch stored=449.0 est=75.7 diff=493%"
+      ],
+      "k": 449.0,
+      "p": 6.1,
+      "c": 0.9,
+      "f": 5.3,
+      "fi": 1.6,
+      "s": "100g",
+      "est_kcal": 75.7
+    },
+    {
+      "id": 1333,
+      "en": "Fish ball* Macher",
+      "issues": [
+        "kcal_mismatch stored=923.0 est=242.1 diff=281%"
+      ],
+      "k": 923.0,
+      "p": 6.7,
+      "c": 5.0,
+      "f": 21.7,
+      "fi": 2.1,
+      "s": "100g",
+      "est_kcal": 242.1
+    },
+    {
+      "id": 1350,
+      "en": "Egg, chicken, farmed, raw",
+      "issues": [
+        "fiber(21.0)>carbs(0.8)",
+        "kcal_mismatch stored=579.0 est=39.2 diff=1377%"
+      ],
+      "k": 579.0,
+      "p": 9.0,
+      "c": 0.8,
+      "f": 0.0,
+      "fi": 21.0,
+      "s": "100g",
+      "est_kcal": 39.2
+    },
+    {
+      "id": 1351,
+      "en": "Egg, chicken, native, raw",
+      "issues": [
+        "fiber(11.0)>carbs(0.9)",
+        "kcal_mismatch stored=655.0 est=50.0 diff=1210%"
+      ],
+      "k": 655.0,
+      "p": 11.6,
+      "c": 0.9,
+      "f": 0.0,
+      "fi": 11.0,
+      "s": "100g",
+      "est_kcal": 50.0
+    },
+    {
+      "id": 1352,
+      "en": "Egg, chicken, native, yolk, raw",
+      "issues": [
+        "fiber(1.7)>carbs(0.0)",
+        "kcal_mismatch stored=1350.0 est=134.6 diff=903%"
+      ],
+      "k": 1350.0,
+      "p": 27.8,
+      "c": 0.0,
+      "f": 2.6,
+      "fi": 1.7,
+      "s": "100g",
+      "est_kcal": 134.6
+    },
+    {
+      "id": 1353,
+      "en": "Egg, duck, whole, raw",
+      "issues": [
+        "fiber(1.1)>carbs(0.0)",
+        "kcal_mismatch stored=782.0 est=69.8 diff=1020%"
+      ],
+      "k": 782.0,
+      "p": 14.3,
+      "c": 0.0,
+      "f": 1.4,
+      "fi": 1.1,
+      "s": "100g",
+      "est_kcal": 69.8
+    },
+    {
+      "id": 1355,
+      "en": "Egg, chicken, native, boiled* (without salt)",
+      "issues": [
+        "fiber(1.0)>carbs(0.0)",
+        "kcal_mismatch stored=745.0 est=52.8 diff=1311%"
+      ],
+      "k": 745.0,
+      "p": 13.2,
+      "c": 0.0,
+      "f": 0.0,
+      "fi": 1.0,
+      "s": "100g",
+      "est_kcal": 52.8
+    },
+    {
+      "id": 1356,
+      "en": "Egg, duck, whole, boiled* (without salt)",
+      "issues": [
+        "fiber(1.2)>carbs(0.0)",
+        "kcal_mismatch stored=889.0 est=79.2 diff=1022%"
+      ],
+      "k": 889.0,
+      "p": 16.2,
+      "c": 0.0,
+      "f": 1.6,
+      "fi": 1.2,
+      "s": "100g",
+      "est_kcal": 79.2
+    },
+    {
+      "id": 1357,
+      "en": "Buttermilk, fluid, low fat",
+      "issues": [
+        "fiber(0.6)>carbs(0.0)",
+        "kcal_mismatch stored=137.0 est=30.7 diff=346%"
+      ],
+      "k": 137.0,
+      "p": 0.7,
+      "c": 0.0,
+      "f": 3.1,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 30.7
+    },
+    {
+      "id": 1358,
+      "en": "Cheese, cottage, 25% fat",
+      "issues": [
+        "fiber(4.6)>carbs(0.0)",
+        "kcal_mismatch stored=1440.0 est=149.0 diff=866%"
+      ],
+      "k": 1440.0,
+      "p": 25.1,
+      "c": 0.0,
+      "f": 5.4,
+      "fi": 4.6,
+      "s": "100g",
+      "est_kcal": 149.0
+    },
+    {
+      "id": 1359,
+      "en": "Curd, sweetened, whole milk",
+      "issues": [
+        "fiber(0.8)>carbs(0.0)",
+        "kcal_mismatch stored=396.0 est=118.6 diff=234%"
+      ],
+      "k": 396.0,
+      "p": 4.0,
+      "c": 0.0,
+      "f": 11.4,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 118.6
+    },
+    {
+      "id": 1360,
+      "en": "Milk, buffalo, whole fat",
+      "issues": [
+        "fiber(0.8)>carbs(0.0)",
+        "kcal_mismatch stored=421.0 est=72.3 diff=482%"
+      ],
+      "k": 421.0,
+      "p": 7.5,
+      "c": 0.0,
+      "f": 4.7,
+      "fi": 0.8,
+      "s": "100g",
+      "est_kcal": 72.3
+    },
+    {
+      "id": 1361,
+      "en": "Milk, cow, powder, skimmed",
+      "issues": [
+        "fiber(7.9)>carbs(0.0)",
+        "kcal(1520.0)>1500",
+        "kcal_mismatch stored=1520.0 est=452.2 diff=236%"
+      ],
+      "k": 1520.0,
+      "p": 1.0,
+      "c": 0.0,
+      "f": 49.8,
+      "fi": 7.9,
+      "s": "100g",
+      "est_kcal": 452.2
+    },
+    {
+      "id": 1363,
+      "en": "Milk, cow, skimmed",
+      "issues": [
+        "fiber(0.6)>carbs(0.0)",
+        "kcal_mismatch stored=125.0 est=37.3 diff=235%"
+      ],
+      "k": 125.0,
+      "p": 0.1,
+      "c": 0.0,
+      "f": 4.1,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 37.3
+    },
+    {
+      "id": 1364,
+      "en": "Milk, cow, whole fat (pasteurized, UTH)",
+      "issues": [
+        "fiber(0.6)>carbs(0.0)",
+        "kcal_mismatch stored=263.0 est=53.5 diff=392%"
+      ],
+      "k": 263.0,
+      "p": 3.7,
+      "c": 0.0,
+      "f": 4.3,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 53.5
+    },
+    {
+      "id": 1365,
+      "en": "Milk, goat, combined breeds",
+      "issues": [
+        "fiber(0.9)>carbs(0.0)",
+        "kcal_mismatch stored=285.0 est=55.1 diff=417%"
+      ],
+      "k": 285.0,
+      "p": 4.1,
+      "c": 0.0,
+      "f": 4.3,
+      "fi": 0.9,
+      "s": "100g",
+      "est_kcal": 55.1
+    },
+    {
+      "id": 1366,
+      "en": "Milk, human, colostrum, raw",
+      "issues": [
+        "fiber(0.6)>carbs(0.0)",
+        "kcal_mismatch stored=242.0 est=69.8 diff=247%"
+      ],
+      "k": 242.0,
+      "p": 2.6,
+      "c": 0.0,
+      "f": 6.6,
+      "fi": 0.6,
+      "s": "100g",
+      "est_kcal": 69.8
+    },
+    {
+      "id": 1367,
+      "en": "Milk, human, mature, raw",
+      "issues": [
+        "fiber(0.2)>carbs(0.0)",
+        "kcal_mismatch stored=260.0 est=80.8 diff=222%"
+      ],
+      "k": 260.0,
+      "p": 4.0,
+      "c": 0.0,
+      "f": 7.2,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 80.8
+    },
+    {
+      "id": 1368,
+      "en": "Butter, salted",
+      "issues": [
+        "fiber(2.1)>carbs(0.1)"
+      ],
+      "k": 717.0,
+      "p": 0.9,
+      "c": 0.1,
+      "f": 81.1,
+      "fi": 2.1,
+      "s": "100g",
+      "est_kcal": 733.9
+    },
+    {
+      "id": 1371,
+      "en": "Ghee, cow",
+      "issues": [
+        "fiber(0.1)>carbs(0.0)"
+      ],
+      "k": 900.0,
+      "p": 0.3,
+      "c": 0.0,
+      "f": 99.5,
+      "fi": 0.1,
+      "s": "100g",
+      "est_kcal": 896.7
+    },
+    {
+      "id": 1373,
+      "en": "Margarine Margarine",
+      "issues": [
+        "fiber(2.3)>carbs(0.2)"
+      ],
+      "k": 718.0,
+      "p": 0.2,
+      "c": 0.2,
+      "f": 80.4,
+      "fi": 2.3,
+      "s": "100g",
+      "est_kcal": 725.2
+    },
+    {
+      "id": 1374,
+      "en": "Mayonnaise, salted",
+      "issues": [
+        "fiber(1.5)>carbs(0.6)"
+      ],
+      "k": 680.0,
+      "p": 1.1,
+      "c": 0.6,
+      "f": 74.9,
+      "fi": 1.5,
+      "s": "100g",
+      "est_kcal": 680.9
+    },
+    {
+      "id": 1381,
+      "en": "Coffee, instant, with sugar and milk",
+      "issues": [
+        "fiber(0.3)>carbs(0.0)",
+        "kcal_mismatch stored=160.0 est=64.4 diff=148%"
+      ],
+      "k": 160.0,
+      "p": 0.8,
+      "c": 0.0,
+      "f": 6.8,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 64.4
+    },
+    {
+      "id": 1382,
+      "en": "Coffee, powder",
+      "issues": [
+        "fiber(8.8)>carbs(0.0)",
+        "kcal_mismatch stored=330.0 est=680.6 diff=52%"
+      ],
+      "k": 330.0,
+      "p": 0.5,
+      "c": 0.0,
+      "f": 75.4,
+      "fi": 8.8,
+      "s": "100g",
+      "est_kcal": 680.6
+    },
+    {
+      "id": 1383,
+      "en": "Soft drinks, carbonated",
+      "issues": [
+        "fiber(0.1)>carbs(0.0)",
+        "kcal_mismatch stored=175.0 est=92.7 diff=89%"
+      ],
+      "k": 175.0,
+      "p": 0.0,
+      "c": 0.0,
+      "f": 10.3,
+      "fi": 0.1,
+      "s": "100g",
+      "est_kcal": 92.7
+    },
+    {
+      "id": 1384,
+      "en": "Soya milk (not sweetened)",
+      "issues": [
+        "fiber(1.6)>carbs(0.5)",
+        "kcal_mismatch stored=225.0 est=55.7 diff=304%"
+      ],
+      "k": 225.0,
+      "p": 2.4,
+      "c": 0.5,
+      "f": 4.9,
+      "fi": 1.6,
+      "s": "100g",
+      "est_kcal": 55.7
+    },
+    {
+      "id": 1385,
+      "en": "Sugar cane juice",
+      "issues": [
+        "fiber(0.1)>carbs(0.0)",
+        "kcal_mismatch stored=139.0 est=67.5 diff=106%"
+      ],
+      "k": 139.0,
+      "p": 0.0,
+      "c": 0.0,
+      "f": 7.5,
+      "fi": 0.1,
+      "s": "100g",
+      "est_kcal": 67.5
+    },
+    {
+      "id": 1386,
+      "en": "Tea, milk tea (with sugar and milk powder)",
+      "issues": [
+        "fiber(0.3)>carbs(0.2)",
+        "kcal_mismatch stored=172.0 est=72.4 diff=138%"
+      ],
+      "k": 172.0,
+      "p": 0.8,
+      "c": 0.2,
+      "f": 7.6,
+      "fi": 0.3,
+      "s": "100g",
+      "est_kcal": 72.4
+    },
+    {
+      "id": 1387,
+      "en": "Tea, infusion (with sugar)",
+      "issues": [
+        "fiber(0.2)>carbs(0.1)",
+        "kcal_mismatch stored=125.0 est=64.3 diff=94%"
+      ],
+      "k": 125.0,
+      "p": 0.0,
+      "c": 0.1,
+      "f": 7.1,
+      "fi": 0.2,
+      "s": "100g",
+      "est_kcal": 64.3
+    },
+    {
+      "id": 1388,
+      "en": "Tea, powder",
+      "issues": [
+        "fiber(16.0)>carbs(8.5)"
+      ],
+      "k": 350.0,
+      "p": 0.0,
+      "c": 8.5,
+      "f": 49.5,
+      "fi": 16.0,
+      "s": "100g",
+      "est_kcal": 479.5
+    },
+    {
+      "id": 1390,
+      "en": "Betel leaves, raw",
+      "issues": [
+        "fiber(4.7)>carbs(4.1)"
+      ],
+      "k": 42.0,
+      "p": 3.1,
+      "c": 4.1,
+      "f": 0.4,
+      "fi": 4.7,
+      "s": "100g",
+      "est_kcal": 32.4
+    },
+    {
+      "id": 1423,
+      "en": "Beer",
+      "issues": [
+        "kcal_mismatch stored=154.0 est=55.6 diff=177%"
+      ],
+      "k": 154.0,
+      "p": 1.3,
+      "c": 12.6,
+      "f": 0.0,
+      "fi": 0.0,
+      "s": "330ml",
+      "est_kcal": 55.6
+    },
+    {
+      "id": 1428,
+      "en": "Red Wine (150ml)",
+      "issues": [
+        "kcal_mismatch stored=125.0 est=15.6 diff=701%"
+      ],
+      "k": 125.0,
+      "p": 0.1,
+      "c": 3.8,
+      "f": 0.0,
+      "fi": 0.0,
+      "s": "150ml",
+      "est_kcal": 15.6
+    },
+    {
+      "id": 1429,
+      "en": "White Wine (150ml)",
+      "issues": [
+        "kcal_mismatch stored=121.0 est=15.6 diff=676%"
+      ],
+      "k": 121.0,
+      "p": 0.1,
+      "c": 3.8,
+      "f": 0.0,
+      "fi": 0.0,
+      "s": "150ml",
+      "est_kcal": 15.6
+    }
+  ],
+  "critical_errors": [
+    {
+      "id": 68,
+      "en": "Cheese toast",
+      "issues": [
+        "fat(122.0)>serving(60.0)"
+      ],
+      "k": 1138.8,
+      "p": 2.9,
+      "c": 8.0,
+      "f": 122.0,
+      "fi": 0.5,
+      "s": "60g",
+      "est_kcal": 1141.6
+    },
+    {
+      "id": 90,
+      "en": "Gulab Jamun with khoya",
+      "issues": [
+        "fat(83.4)>serving(50.0)"
+      ],
+      "k": 918.5,
+      "p": 3.2,
+      "c": 40.9,
+      "f": 83.4,
+      "fi": 0.1,
+      "s": "50g",
+      "est_kcal": 927.0
+    },
+    {
+      "id": 103,
+      "en": "Milk cookies",
+      "issues": [
+        "carbs(60.5)>serving(25.0)",
+        "fat(31.2)>serving(25.0)"
+      ],
+      "k": 573.6,
+      "p": 13.1,
+      "c": 60.5,
+      "f": 31.2,
+      "fi": 1.2,
+      "s": "25g",
+      "est_kcal": 575.2
+    },
+    {
+      "id": 107,
+      "en": "Paneer and pea samosa",
+      "issues": [
+        "fat(85.8)>serving(60.0)"
+      ],
+      "k": 841.3,
+      "p": 5.4,
+      "c": 11.5,
+      "f": 85.8,
+      "fi": 1.4,
+      "s": "60g",
+      "est_kcal": 839.8
+    },
+    {
+      "id": 108,
+      "en": "Paneer cutlet",
+      "issues": [
+        "fat(125.5)>serving(80.0)"
+      ],
+      "k": 1215.6,
+      "p": 8.3,
+      "c": 13.8,
+      "f": 125.5,
+      "fi": 0.7,
+      "s": "80g",
+      "est_kcal": 1217.9
+    },
+    {
+      "id": 134,
+      "en": "Spaghetti and cheese balls in tomato sauce",
+      "issues": [
+        "fat(502.9)>serving(300.0)",
+        "kcal(4908.4)>1500"
+      ],
+      "k": 4908.4,
+      "p": 23.3,
+      "c": 75.5,
+      "f": 502.9,
+      "fi": 5.7,
+      "s": "300g",
+      "est_kcal": 4921.3
+    },
+    {
+      "id": 135,
+      "en": "Strawberry and vanilla cake with butter icing",
+      "issues": [
+        "carbs(51.6)>serving(30.0)"
+      ],
+      "k": 431.7,
+      "p": 4.5,
+      "c": 51.6,
+      "f": 23.8,
+      "fi": 0.9,
+      "s": "30g",
+      "est_kcal": 438.6
+    },
+    {
+      "id": 151,
+      "en": "Masala urad dal vada",
+      "issues": [
+        "fat(61.3)>serving(60.0)"
+      ],
+      "k": 602.0,
+      "p": 3.7,
+      "c": 8.5,
+      "f": 61.3,
+      "fi": 2.3,
+      "s": "60g",
+      "est_kcal": 600.5
+    },
+    {
+      "id": 157,
+      "en": "Plain urad dal vada",
+      "issues": [
+        "fat(60.2)>serving(60.0)"
+      ],
+      "k": 588.0,
+      "p": 3.5,
+      "c": 7.7,
+      "f": 60.2,
+      "fi": 1.8,
+      "s": "60g",
+      "est_kcal": 586.6
+    },
+    {
+      "id": 161,
+      "en": "Rice moong dal cheela",
+      "issues": [
+        "fat(120.2)>serving(60.0)"
+      ],
+      "k": 1163.5,
+      "p": 4.0,
+      "c": 16.2,
+      "f": 120.2,
+      "fi": 1.7,
+      "s": "60g",
+      "est_kcal": 1162.6
+    },
+    {
+      "id": 169,
+      "en": "Mishti Doi",
+      "issues": [
+        "protein(6.1)>serving(1.0)",
+        "carbs(28.4)>serving(1.0)",
+        "fat(8.6)>serving(1.0)"
+      ],
+      "k": 218.0,
+      "p": 6.1,
+      "c": 28.4,
+      "f": 8.6,
+      "fi": 0.0,
+      "s": "1 bowl",
+      "est_kcal": 215.4
+    },
+    {
+      "id": 171,
+      "en": "Patishapta",
+      "issues": [
+        "protein(6.5)>serving(2.0)",
+        "carbs(38.2)>serving(2.0)",
+        "fat(11.0)>serving(2.0)"
+      ],
+      "k": 284.0,
+      "p": 6.5,
+      "c": 38.2,
+      "f": 11.0,
+      "fi": 1.8,
+      "s": "2 pcs",
+      "est_kcal": 277.8
+    },
+    {
+      "id": 172,
+      "en": "Payesh",
+      "issues": [
+        "protein(5.4)>serving(1.0)",
+        "carbs(31.7)>serving(1.0)",
+        "fat(8.2)>serving(1.0)"
+      ],
+      "k": 224.0,
+      "p": 5.4,
+      "c": 31.7,
+      "f": 8.2,
+      "fi": 0.6,
+      "s": "1 bowl",
+      "est_kcal": 222.2
+    },
+    {
+      "id": 214,
+      "en": "Fish pakora/pakoda",
+      "issues": [
+        "fat(40.8)>serving(30.0)"
+      ],
+      "k": 395.4,
+      "p": 4.1,
+      "c": 3.1,
+      "f": 40.8,
+      "fi": 0.7,
+      "s": "30g",
+      "est_kcal": 396.0
+    },
+    {
+      "id": 235,
+      "en": "Tomato fish",
+      "issues": [
+        "fat(502.4)>serving(250.0)",
+        "kcal(4740.8)>1500"
+      ],
+      "k": 4740.8,
+      "p": 23.2,
+      "c": 30.8,
+      "f": 502.4,
+      "fi": 6.9,
+      "s": "250g",
+      "est_kcal": 4737.6
+    },
+    {
+      "id": 239,
+      "en": "Apple banana pie",
+      "issues": [
+        "carbs(124.8)>serving(80.0)"
+      ],
+      "k": 948.5,
+      "p": 12.2,
+      "c": 124.8,
+      "f": 44.3,
+      "fi": 7.3,
+      "s": "80g",
+      "est_kcal": 946.7
+    },
+    {
+      "id": 240,
+      "en": "Apple cinnamon pie",
+      "issues": [
+        "carbs(59.7)>serving(30.0)"
+      ],
+      "k": 458.3,
+      "p": 5.9,
+      "c": 59.7,
+      "f": 21.6,
+      "fi": 3.1,
+      "s": "30g",
+      "est_kcal": 456.8
+    },
+    {
+      "id": 244,
+      "en": "Apple snowballs",
+      "issues": [
+        "carbs(63.8)>serving(60.0)"
+      ],
+      "k": 263.4,
+      "p": 2.2,
+      "c": 63.8,
+      "f": 0.8,
+      "fi": 3.2,
+      "s": "60g",
+      "est_kcal": 271.2
+    },
+    {
+      "id": 259,
+      "en": "Dry mango chutney",
+      "issues": [
+        "carbs(19.2)>serving(15.0)"
+      ],
+      "k": 82.6,
+      "p": 0.7,
+      "c": 19.2,
+      "f": 0.2,
+      "fi": 1.0,
+      "s": "15g",
+      "est_kcal": 81.4
+    },
+    {
+      "id": 268,
+      "en": "Mango cheesecake",
+      "issues": [
+        "carbs(34.9)>serving(30.0)"
+      ],
+      "k": 265.6,
+      "p": 4.2,
+      "c": 34.9,
+      "f": 12.7,
+      "fi": 2.0,
+      "s": "30g",
+      "est_kcal": 270.7
+    },
+    {
+      "id": 269,
+      "en": "Mango malpua",
+      "issues": [
+        "fat(120.5)>serving(60.0)"
+      ],
+      "k": 1314.7,
+      "p": 6.5,
+      "c": 50.5,
+      "f": 120.5,
+      "fi": 8.2,
+      "s": "60g",
+      "est_kcal": 1312.5
+    },
+    {
+      "id": 271,
+      "en": "Mango murabba candy",
+      "issues": [
+        "carbs(58.8)>serving(10.0)"
+      ],
+      "k": 222.9,
+      "p": 0.2,
+      "c": 58.8,
+      "f": 0.0,
+      "fi": 0.7,
+      "s": "10g",
+      "est_kcal": 236.0
+    },
+    {
+      "id": 276,
+      "en": "Orange chiffon pie",
+      "issues": [
+        "carbs(161.6)>serving(80.0)"
+      ],
+      "k": 1449.9,
+      "p": 27.2,
+      "c": 161.6,
+      "f": 77.9,
+      "fi": 4.9,
+      "s": "80g",
+      "est_kcal": 1456.3
+    },
+    {
+      "id": 290,
+      "en": "Raw banana kofta curry",
+      "issues": [
+        "fat(494.3)>serving(250.0)",
+        "kcal(4561.3)>1500"
+      ],
+      "k": 4561.3,
+      "p": 4.5,
+      "c": 24.8,
+      "f": 494.3,
+      "fi": 4.3,
+      "s": "250g",
+      "est_kcal": 4565.9
+    },
+    {
+      "id": 298,
+      "en": "Flattened rice cutlet",
+      "issues": [
+        "fat(244.8)>serving(80.0)",
+        "kcal(2325.0)>1500"
+      ],
+      "k": 2325.0,
+      "p": 5.8,
+      "c": 24.5,
+      "f": 244.8,
+      "fi": 2.8,
+      "s": "80g",
+      "est_kcal": 2324.4
+    },
+    {
+      "id": 326,
+      "en": "Chicken kebab",
+      "issues": [
+        "fat(97.7)>serving(80.0)"
+      ],
+      "k": 903.7,
+      "p": 4.6,
+      "c": 1.4,
+      "f": 97.7,
+      "fi": 0.3,
+      "s": "80g",
+      "est_kcal": 903.3
+    },
+    {
+      "id": 330,
+      "en": "Chicken pakora/pakoda",
+      "issues": [
+        "fat(41.8)>serving(30.0)"
+      ],
+      "k": 404.3,
+      "p": 4.1,
+      "c": 3.1,
+      "f": 41.8,
+      "fi": 0.7,
+      "s": "30g",
+      "est_kcal": 405.0
+    },
+    {
+      "id": 349,
+      "en": "Mutton chops",
+      "issues": [
+        "fat(249.3)>serving(80.0)",
+        "kcal(2320.3)>1500"
+      ],
+      "k": 2320.3,
+      "p": 14.1,
+      "c": 5.2,
+      "f": 249.3,
+      "fi": 0.6,
+      "s": "80g",
+      "est_kcal": 2320.9
+    },
+    {
+      "id": 357,
+      "en": "Shahi keema kofta curry",
+      "issues": [
+        "fat(270.4)>serving(250.0)",
+        "kcal(2580.3)>1500"
+      ],
+      "k": 2580.3,
+      "p": 25.6,
+      "c": 10.7,
+      "f": 270.4,
+      "fi": 5.6,
+      "s": "250g",
+      "est_kcal": 2578.8
+    },
+    {
+      "id": 359,
+      "en": "Tandoori chicken",
+      "issues": [
+        "protein(234.3)>serving(180.0)",
+        "kcal(2092.0)>1500"
+      ],
+      "k": 2092.0,
+      "p": 234.3,
+      "c": 33.7,
+      "f": 114.3,
+      "fi": 7.3,
+      "s": "180g",
+      "est_kcal": 2100.7
+    },
+    {
+      "id": 382,
+      "en": "Peanut cutlet",
+      "issues": [
+        "fat(250.7)>serving(80.0)",
+        "kcal(2367.7)>1500"
+      ],
+      "k": 2367.7,
+      "p": 8.9,
+      "c": 19.2,
+      "f": 250.7,
+      "fi": 4.1,
+      "s": "80g",
+      "est_kcal": 2368.7
+    },
+    {
+      "id": 407,
+      "en": "Cardamom cookies",
+      "issues": [
+        "carbs(118.0)>serving(25.0)",
+        "fat(41.8)>serving(25.0)"
+      ],
+      "k": 875.5,
+      "p": 11.1,
+      "c": 118.0,
+      "f": 41.8,
+      "fi": 6.1,
+      "s": "25g",
+      "est_kcal": 892.6
+    },
+    {
+      "id": 422,
+      "en": "Chocolate meringue pie",
+      "issues": [
+        "carbs(53.1)>serving(30.0)"
+      ],
+      "k": 395.7,
+      "p": 9.2,
+      "c": 53.1,
+      "f": 16.9,
+      "fi": 0.7,
+      "s": "30g",
+      "est_kcal": 401.3
+    },
+    {
+      "id": 428,
+      "en": "Chum chum",
+      "issues": [
+        "carbs(88.1)>serving(60.0)"
+      ],
+      "k": 405.4,
+      "p": 4.7,
+      "c": 88.1,
+      "f": 6.0,
+      "fi": 0.0,
+      "s": "60g",
+      "est_kcal": 425.2
+    },
+    {
+      "id": 437,
+      "en": "Cranberry cookies",
+      "issues": [
+        "carbs(67.6)>serving(25.0)"
+      ],
+      "k": 506.1,
+      "p": 7.3,
+      "c": 67.6,
+      "f": 23.5,
+      "fi": 2.1,
+      "s": "25g",
+      "est_kcal": 511.1
+    },
+    {
+      "id": 440,
+      "en": "Dahi vadas/Dahi bhalla",
+      "issues": [
+        "fat(121.3)>serving(60.0)"
+      ],
+      "k": 1150.2,
+      "p": 5.1,
+      "c": 9.5,
+      "f": 121.3,
+      "fi": 1.7,
+      "s": "60g",
+      "est_kcal": 1150.1
+    },
+    {
+      "id": 441,
+      "en": "Dalma",
+      "issues": [
+        "protein(8.9)>serving(1.0)",
+        "carbs(24.8)>serving(1.0)",
+        "fat(5.4)>serving(1.0)"
+      ],
+      "k": 188.0,
+      "p": 8.9,
+      "c": 24.8,
+      "f": 5.4,
+      "fi": 6.2,
+      "s": "1 bowl",
+      "est_kcal": 183.4
+    },
+    {
+      "id": 447,
+      "en": "Dil bahar",
+      "issues": [
+        "carbs(88.1)>serving(60.0)"
+      ],
+      "k": 405.4,
+      "p": 4.7,
+      "c": 88.1,
+      "f": 6.0,
+      "fi": 0.0,
+      "s": "60g",
+      "est_kcal": 425.2
+    },
+    {
+      "id": 461,
+      "en": "Fruit flan",
+      "issues": [
+        "carbs(161.5)>serving(100.0)"
+      ],
+      "k": 1215.9,
+      "p": 15.3,
+      "c": 161.5,
+      "f": 58.1,
+      "fi": 3.3,
+      "s": "100g",
+      "est_kcal": 1230.1
+    },
+    {
+      "id": 465,
+      "en": "Ghujia/Lavang latika",
+      "issues": [
+        "fat(84.0)>serving(60.0)"
+      ],
+      "k": 818.7,
+      "p": 2.0,
+      "c": 13.8,
+      "f": 84.0,
+      "fi": 0.6,
+      "s": "60g",
+      "est_kcal": 819.2
+    },
+    {
+      "id": 478,
+      "en": "Gujarati handvo",
+      "issues": [
+        "carbs(221.9)>serving(100.0)"
+      ],
+      "k": 1442.5,
+      "p": 57.4,
+      "c": 221.9,
+      "f": 33.4,
+      "fi": 34.5,
+      "s": "100g",
+      "est_kcal": 1417.8
+    },
+    {
+      "id": 481,
+      "en": "Gunjia",
+      "issues": [
+        "fat(122.8)>serving(60.0)"
+      ],
+      "k": 1166.2,
+      "p": 5.2,
+      "c": 9.9,
+      "f": 122.8,
+      "fi": 2.0,
+      "s": "60g",
+      "est_kcal": 1165.6
+    },
+    {
+      "id": 482,
+      "en": "Hazelnut cookies",
+      "issues": [
+        "carbs(33.8)>serving(25.0)",
+        "fat(30.0)>serving(25.0)"
+      ],
+      "k": 423.0,
+      "p": 5.4,
+      "c": 33.8,
+      "f": 30.0,
+      "fi": 2.1,
+      "s": "25g",
+      "est_kcal": 426.8
+    },
+    {
+      "id": 498,
+      "en": "Khasta kachori",
+      "issues": [
+        "fat(72.8)>serving(60.0)"
+      ],
+      "k": 717.6,
+      "p": 2.5,
+      "c": 12.9,
+      "f": 72.8,
+      "fi": 1.0,
+      "s": "60g",
+      "est_kcal": 716.8
+    },
+    {
+      "id": 505,
+      "en": "Lemon chiffon pie",
+      "issues": [
+        "carbs(148.1)>serving(80.0)"
+      ],
+      "k": 1389.9,
+      "p": 26.1,
+      "c": 148.1,
+      "f": 77.8,
+      "fi": 3.5,
+      "s": "80g",
+      "est_kcal": 1397.0
+    },
+    {
+      "id": 506,
+      "en": "Lemon cookies",
+      "issues": [
+        "carbs(66.0)>serving(25.0)",
+        "fat(36.0)>serving(25.0)"
+      ],
+      "k": 617.4,
+      "p": 8.8,
+      "c": 66.0,
+      "f": 36.0,
+      "fi": 1.2,
+      "s": "25g",
+      "est_kcal": 623.2
+    },
+    {
+      "id": 508,
+      "en": "Lemon meringue pie",
+      "issues": [
+        "carbs(55.1)>serving(30.0)"
+      ],
+      "k": 352.1,
+      "p": 6.1,
+      "c": 55.1,
+      "f": 12.8,
+      "fi": 0.7,
+      "s": "30g",
+      "est_kcal": 360.0
+    },
+    {
+      "id": 528,
+      "en": "Methi chaman",
+      "issues": [
+        "fat(509.8)>serving(250.0)",
+        "kcal(4763.4)>1500"
+      ],
+      "k": 4763.4,
+      "p": 15.4,
+      "c": 27.8,
+      "f": 509.8,
+      "fi": 5.3,
+      "s": "250g",
+      "est_kcal": 4761.0
+    },
+    {
+      "id": 546,
+      "en": "Pea kofta curry",
+      "issues": [
+        "fat(494.8)>serving(250.0)",
+        "kcal(4649.2)>1500"
+      ],
+      "k": 4649.2,
+      "p": 15.7,
+      "c": 32.5,
+      "f": 494.8,
+      "fi": 13.3,
+      "s": "250g",
+      "est_kcal": 4646.0
+    },
+    {
+      "id": 549,
+      "en": "Peach blueberry preserves",
+      "issues": [
+        "carbs(176.9)>serving(100.0)"
+      ],
+      "k": 685.6,
+      "p": 2.0,
+      "c": 176.9,
+      "f": 0.8,
+      "fi": 4.4,
+      "s": "100g",
+      "est_kcal": 722.8
+    },
+    {
+      "id": 551,
+      "en": "Pear preserves",
+      "issues": [
+        "carbs(153.0)>serving(100.0)"
+      ],
+      "k": 603.5,
+      "p": 1.5,
+      "c": 153.0,
+      "f": 1.1,
+      "fi": 18.2,
+      "s": "100g",
+      "est_kcal": 627.9
+    },
+    {
+      "id": 552,
+      "en": "Peas kachori",
+      "issues": [
+        "fat(62.2)>serving(60.0)"
+      ],
+      "k": 632.2,
+      "p": 3.5,
+      "c": 14.3,
+      "f": 62.2,
+      "fi": 2.2,
+      "s": "60g",
+      "est_kcal": 631.0
+    },
+    {
+      "id": 563,
+      "en": "Poshtik cutlet",
+      "issues": [
+        "fat(122.7)>serving(80.0)"
+      ],
+      "k": 1195.6,
+      "p": 4.8,
+      "c": 17.8,
+      "f": 122.7,
+      "fi": 3.2,
+      "s": "80g",
+      "est_kcal": 1194.7
+    },
+    {
+      "id": 568,
+      "en": "Rajbogh",
+      "issues": [
+        "carbs(88.6)>serving(60.0)"
+      ],
+      "k": 420.5,
+      "p": 5.4,
+      "c": 88.6,
+      "f": 7.2,
+      "fi": 0.3,
+      "s": "60g",
+      "est_kcal": 440.8
+    },
+    {
+      "id": 569,
+      "en": "Rasbhari",
+      "issues": [
+        "carbs(88.1)>serving(60.0)"
+      ],
+      "k": 405.4,
+      "p": 4.7,
+      "c": 88.1,
+      "f": 6.0,
+      "fi": 0.0,
+      "s": "60g",
+      "est_kcal": 425.2
+    },
+    {
+      "id": 574,
+      "en": "Sago cutlet/vadas",
+      "issues": [
+        "fat(120.1)>serving(80.0)"
+      ],
+      "k": 1178.1,
+      "p": 1.2,
+      "c": 23.7,
+      "f": 120.1,
+      "fi": 1.1,
+      "s": "80g",
+      "est_kcal": 1180.5
+    },
+    {
+      "id": 579,
+      "en": "Saunth/Sonth chutney with tamarind/imli",
+      "issues": [
+        "carbs(5.9)>serving(5.0)"
+      ],
+      "k": 25.1,
+      "p": 0.2,
+      "c": 5.9,
+      "f": 0.0,
+      "fi": 0.2,
+      "s": "5g",
+      "est_kcal": 24.4
+    },
+    {
+      "id": 582,
+      "en": "Schezwan chutney",
+      "issues": [
+        "fat(134.2)>serving(100.0)",
+        "kcal(1553.3)>1500"
+      ],
+      "k": 1553.3,
+      "p": 25.2,
+      "c": 81.7,
+      "f": 134.2,
+      "fi": 43.3,
+      "s": "100g",
+      "est_kcal": 1635.4
+    },
+    {
+      "id": 588,
+      "en": "Shammi kebab",
+      "issues": [
+        "fat(124.3)>serving(80.0)"
+      ],
+      "k": 1174.0,
+      "p": 7.7,
+      "c": 6.1,
+      "f": 124.3,
+      "fi": 1.8,
+      "s": "80g",
+      "est_kcal": 1173.9
+    },
+    {
+      "id": 596,
+      "en": "Soyabean muthias",
+      "issues": [
+        "fat(121.4)>serving(100.0)"
+      ],
+      "k": 1126.4,
+      "p": 3.3,
+      "c": 5.0,
+      "f": 121.4,
+      "fi": 2.0,
+      "s": "100g",
+      "est_kcal": 1125.8
+    },
+    {
+      "id": 598,
+      "en": "Soyabean tikki",
+      "issues": [
+        "fat(122.6)>serving(100.0)"
+      ],
+      "k": 1156.3,
+      "p": 5.9,
+      "c": 7.3,
+      "f": 122.6,
+      "fi": 3.7,
+      "s": "100g",
+      "est_kcal": 1156.2
+    },
+    {
+      "id": 607,
+      "en": "Sunflower cookies",
+      "issues": [
+        "carbs(73.4)>serving(25.0)",
+        "fat(66.5)>serving(25.0)"
+      ],
+      "k": 954.3,
+      "p": 17.4,
+      "c": 73.4,
+      "f": 66.5,
+      "fi": 7.2,
+      "s": "25g",
+      "est_kcal": 961.7
+    },
+    {
+      "id": 621,
+      "en": "Vegetable cutlet",
+      "issues": [
+        "fat(240.9)>serving(80.0)",
+        "kcal(2247.6)>1500"
+      ],
+      "k": 2247.6,
+      "p": 4.2,
+      "c": 15.8,
+      "f": 240.9,
+      "fi": 3.1,
+      "s": "80g",
+      "est_kcal": 2248.1
+    },
+    {
+      "id": 625,
+      "en": "Vegetable seekh kebab",
+      "issues": [
+        "fat(121.3)>serving(80.0)"
+      ],
+      "k": 1136.4,
+      "p": 2.6,
+      "c": 8.8,
+      "f": 121.3,
+      "fi": 1.0,
+      "s": "80g",
+      "est_kcal": 1137.3
+    },
+    {
+      "id": 627,
+      "en": "Vegetable yakhni",
+      "issues": [
+        "fat(251.3)>serving(250.0)",
+        "kcal(2329.7)>1500"
+      ],
+      "k": 2329.7,
+      "p": 6.7,
+      "c": 11.1,
+      "f": 251.3,
+      "fi": 3.5,
+      "s": "250g",
+      "est_kcal": 2332.9
+    },
+    {
+      "id": 629,
+      "en": "Vegetarian nargisi kofta curry",
+      "issues": [
+        "fat(131.4)>serving(80.0)"
+      ],
+      "k": 1325.3,
+      "p": 9.1,
+      "c": 26.2,
+      "f": 131.4,
+      "fi": 3.4,
+      "s": "80g",
+      "est_kcal": 1323.8
+    },
+    {
+      "id": 636,
+      "en": "Yam fried",
+      "issues": [
+        "fat(250.4)>serving(250.0)",
+        "kcal(2377.3)>1500"
+      ],
+      "k": 2377.3,
+      "p": 3.8,
+      "c": 26.4,
+      "f": 250.4,
+      "fi": 7.0,
+      "s": "250g",
+      "est_kcal": 2374.4
+    },
+    {
+      "id": 637,
+      "en": "Yam kofta curry",
+      "issues": [
+        "fat(253.9)>serving(250.0)",
+        "kcal(2422.4)>1500"
+      ],
+      "k": 2422.4,
+      "p": 5.4,
+      "c": 28.1,
+      "f": 253.9,
+      "fi": 7.8,
+      "s": "250g",
+      "est_kcal": 2419.1
+    },
+    {
+      "id": 645,
+      "en": "Egg cutlet",
+      "issues": [
+        "fat(122.5)>serving(80.0)"
+      ],
+      "k": 1169.2,
+      "p": 5.0,
+      "c": 11.7,
+      "f": 122.5,
+      "fi": 1.2,
+      "s": "80g",
+      "est_kcal": 1169.3
+    },
+    {
+      "id": 648,
+      "en": "Egg in a pepper",
+      "issues": [
+        "protein(73.6)>serving(55.0)"
+      ],
+      "k": 749.5,
+      "p": 73.6,
+      "c": 1.0,
+      "f": 50.5,
+      "fi": 1.0,
+      "s": "55g",
+      "est_kcal": 752.9
+    },
+    {
+      "id": 650,
+      "en": "Egg pakora/pakoda",
+      "issues": [
+        "fat(488.9)>serving(300.0)",
+        "kcal(4579.2)>1500"
+      ],
+      "k": 4579.2,
+      "p": 18.2,
+      "c": 28.9,
+      "f": 488.9,
+      "fi": 5.5,
+      "s": "300g",
+      "est_kcal": 4588.5
+    },
+    {
+      "id": 655,
+      "en": "Indian lamb and egg curry",
+      "issues": [
+        "fat(135.6)>serving(80.0)"
+      ],
+      "k": 1312.5,
+      "p": 15.0,
+      "c": 8.1,
+      "f": 135.6,
+      "fi": 2.3,
+      "s": "80g",
+      "est_kcal": 1312.8
+    },
+    {
+      "id": 660,
+      "en": "Scotch egg",
+      "issues": [
+        "fat(248.7)>serving(60.0)",
+        "kcal(2318.1)>1500"
+      ],
+      "k": 2318.1,
+      "p": 13.9,
+      "c": 6.5,
+      "f": 248.7,
+      "fi": 1.2,
+      "s": "60g",
+      "est_kcal": 2319.9
+    },
+    {
+      "id": 665,
+      "en": "Vegetarian egg kofta curry",
+      "issues": [
+        "fat(498.3)>serving(250.0)",
+        "kcal(4649.1)>1500"
+      ],
+      "k": 4649.1,
+      "p": 9.8,
+      "c": 31.6,
+      "f": 498.3,
+      "fi": 4.7,
+      "s": "250g",
+      "est_kcal": 4650.3
+    },
+    {
+      "id": 666,
+      "en": "Vegeterian scotch egg",
+      "issues": [
+        "fat(243.1)>serving(60.0)",
+        "kcal(2277.3)>1500"
+      ],
+      "k": 2277.3,
+      "p": 7.2,
+      "c": 15.5,
+      "f": 243.1,
+      "fi": 1.9,
+      "s": "60g",
+      "est_kcal": 2278.7
+    },
+    {
+      "id": 687,
+      "en": "Paneer pulao",
+      "issues": [
+        "fat(501.1)>serving(300.0)",
+        "kcal(4875.8)>1500"
+      ],
+      "k": 4875.8,
+      "p": 16.6,
+      "c": 73.4,
+      "f": 501.1,
+      "fi": 5.2,
+      "s": "300g",
+      "est_kcal": 4869.9
+    },
+    {
+      "id": 702,
+      "en": "Bhatura",
+      "issues": [
+        "fat(120.2)>serving(60.0)"
+      ],
+      "k": 1154.6,
+      "p": 2.4,
+      "c": 15.6,
+      "f": 120.2,
+      "fi": 0.6,
+      "s": "60g",
+      "est_kcal": 1153.8
+    },
+    {
+      "id": 703,
+      "en": "Bhel puri",
+      "issues": [
+        "fat(335.8)>serving(300.0)",
+        "kcal(3573.6)>1500"
+      ],
+      "k": 3573.6,
+      "p": 24.7,
+      "c": 115.4,
+      "f": 335.8,
+      "fi": 15.7,
+      "s": "300g",
+      "est_kcal": 3582.6
+    },
+    {
+      "id": 705,
+      "en": "Bread pakora/pakoda",
+      "issues": [
+        "fat(485.6)>serving(300.0)",
+        "kcal(4653.4)>1500"
+      ],
+      "k": 4653.4,
+      "p": 16.8,
+      "c": 58.1,
+      "f": 485.6,
+      "fi": 7.3,
+      "s": "300g",
+      "est_kcal": 4670.0
+    },
+    {
+      "id": 712,
+      "en": "Dal stuffed poori",
+      "issues": [
+        "fat(97.0)>serving(60.0)"
+      ],
+      "k": 932.6,
+      "p": 2.5,
+      "c": 12.0,
+      "f": 97.0,
+      "fi": 2.3,
+      "s": "60g",
+      "est_kcal": 931.0
+    },
+    {
+      "id": 713,
+      "en": "Ginger bread man",
+      "issues": [
+        "carbs(17.9)>serving(15.0)"
+      ],
+      "k": 108.5,
+      "p": 2.0,
+      "c": 17.9,
+      "f": 3.3,
+      "fi": 0.5,
+      "s": "15g",
+      "est_kcal": 109.3
+    },
+    {
+      "id": 717,
+      "en": "Methi poori",
+      "issues": [
+        "fat(97.0)>serving(60.0)"
+      ],
+      "k": 923.0,
+      "p": 1.9,
+      "c": 10.4,
+      "f": 97.0,
+      "fi": 2.1,
+      "s": "60g",
+      "est_kcal": 922.2
+    },
+    {
+      "id": 725,
+      "en": "Poori",
+      "issues": [
+        "fat(96.9)>serving(60.0)"
+      ],
+      "k": 921.3,
+      "p": 1.7,
+      "c": 10.3,
+      "f": 96.9,
+      "fi": 1.8,
+      "s": "60g",
+      "est_kcal": 920.1
+    },
+    {
+      "id": 727,
+      "en": "Potato stuffed poori",
+      "issues": [
+        "fat(97.0)>serving(60.0)"
+      ],
+      "k": 925.9,
+      "p": 1.8,
+      "c": 11.2,
+      "f": 97.0,
+      "fi": 2.0,
+      "s": "60g",
+      "est_kcal": 925.0
+    },
+    {
+      "id": 731,
+      "en": "Spinach poori",
+      "issues": [
+        "fat(97.0)>serving(60.0)"
+      ],
+      "k": 923.7,
+      "p": 1.9,
+      "c": 10.5,
+      "f": 97.0,
+      "fi": 2.1,
+      "s": "60g",
+      "est_kcal": 922.6
+    },
+    {
+      "id": 733,
+      "en": "Sweet poori",
+      "issues": [
+        "fat(121.4)>serving(60.0)"
+      ],
+      "k": 1193.7,
+      "p": 3.2,
+      "c": 21.8,
+      "f": 121.4,
+      "fi": 2.3,
+      "s": "60g",
+      "est_kcal": 1192.6
+    },
+    {
+      "id": 742,
+      "en": "Frozen frosty fruit salad",
+      "issues": [
+        "carbs(36.4)>serving(30.0)"
+      ],
+      "k": 241.2,
+      "p": 3.9,
+      "c": 36.4,
+      "f": 9.7,
+      "fi": 0.6,
+      "s": "30g",
+      "est_kcal": 248.5
+    },
+    {
+      "id": 765,
+      "en": "Buttermilk biscuit",
+      "issues": [
+        "carbs(44.9)>serving(15.0)",
+        "fat(22.5)>serving(15.0)"
+      ],
+      "k": 414.5,
+      "p": 7.4,
+      "c": 44.9,
+      "f": 22.5,
+      "fi": 1.5,
+      "s": "15g",
+      "est_kcal": 411.7
+    },
+    {
+      "id": 775,
+      "en": "Christmas star biscuit",
+      "issues": [
+        "carbs(27.7)>serving(15.0)"
+      ],
+      "k": 145.6,
+      "p": 1.3,
+      "c": 27.7,
+      "f": 3.7,
+      "fi": 0.5,
+      "s": "15g",
+      "est_kcal": 149.3
+    },
+    {
+      "id": 778,
+      "en": "Classic club sandwich",
+      "issues": [
+        "carbs(41.3)>serving(35.0)"
+      ],
+      "k": 448.9,
+      "p": 15.1,
+      "c": 41.3,
+      "f": 25.8,
+      "fi": 3.6,
+      "s": "35g",
+      "est_kcal": 457.8
+    },
+    {
+      "id": 787,
+      "en": "Fermented bengal gram vada",
+      "issues": [
+        "fat(60.6)>serving(60.0)"
+      ],
+      "k": 592.6,
+      "p": 3.7,
+      "c": 7.8,
+      "f": 60.6,
+      "fi": 2.4,
+      "s": "60g",
+      "est_kcal": 591.4
+    },
+    {
+      "id": 788,
+      "en": "Finger millet biscuit",
+      "issues": [
+        "carbs(39.7)>serving(15.0)",
+        "fat(19.4)>serving(15.0)"
+      ],
+      "k": 345.4,
+      "p": 3.0,
+      "c": 39.7,
+      "f": 19.4,
+      "fi": 4.5,
+      "s": "15g",
+      "est_kcal": 345.4
+    },
+    {
+      "id": 790,
+      "en": "Ghugni",
+      "issues": [
+        "protein(9.2)>serving(1.0)",
+        "carbs(31.6)>serving(1.0)",
+        "fat(5.4)>serving(1.0)"
+      ],
+      "k": 212.0,
+      "p": 9.2,
+      "c": 31.6,
+      "f": 5.4,
+      "fi": 7.1,
+      "s": "1 bowl",
+      "est_kcal": 211.8
+    },
+    {
+      "id": 798,
+      "en": "Masala green chilli pakora/pakoda",
+      "issues": [
+        "fat(48.7)>serving(30.0)"
+      ],
+      "k": 458.9,
+      "p": 1.5,
+      "c": 3.8,
+      "f": 48.7,
+      "fi": 0.9,
+      "s": "30g",
+      "est_kcal": 459.5
+    },
+    {
+      "id": 799,
+      "en": "Masala onion pakora/pakoda",
+      "issues": [
+        "fat(40.6)>serving(30.0)"
+      ],
+      "k": 389.0,
+      "p": 1.4,
+      "c": 4.6,
+      "f": 40.6,
+      "fi": 1.0,
+      "s": "30g",
+      "est_kcal": 389.4
+    },
+    {
+      "id": 800,
+      "en": "Masala vada",
+      "issues": [
+        "fat(240.5)>serving(60.0)",
+        "kcal(2228.2)>1500"
+      ],
+      "k": 2228.2,
+      "p": 4.5,
+      "c": 11.0,
+      "f": 240.5,
+      "fi": 2.9,
+      "s": "60g",
+      "est_kcal": 2226.5
+    },
+    {
+      "id": 801,
+      "en": "Mathri",
+      "issues": [
+        "fat(72.5)>serving(60.0)"
+      ],
+      "k": 702.2,
+      "p": 1.5,
+      "c": 10.7,
+      "f": 72.5,
+      "fi": 0.5,
+      "s": "60g",
+      "est_kcal": 701.3
+    },
+    {
+      "id": 802,
+      "en": "Methi pakora/pakoda",
+      "issues": [
+        "fat(484.7)>serving(300.0)",
+        "kcal(4525.6)>1500"
+      ],
+      "k": 4525.6,
+      "p": 13.1,
+      "c": 29.7,
+      "f": 484.7,
+      "fi": 7.5,
+      "s": "300g",
+      "est_kcal": 4533.5
+    },
+    {
+      "id": 803,
+      "en": "Minced meat samosa",
+      "issues": [
+        "fat(86.7)>serving(60.0)"
+      ],
+      "k": 837.5,
+      "p": 6.0,
+      "c": 8.3,
+      "f": 86.7,
+      "fi": 0.5,
+      "s": "60g",
+      "est_kcal": 837.5
+    },
+    {
+      "id": 808,
+      "en": "Olive biscuit",
+      "issues": [
+        "carbs(26.0)>serving(15.0)"
+      ],
+      "k": 207.3,
+      "p": 1.5,
+      "c": 26.0,
+      "f": 11.2,
+      "fi": 0.4,
+      "s": "15g",
+      "est_kcal": 210.8
+    },
+    {
+      "id": 809,
+      "en": "Onion pakora/pakoda",
+      "issues": [
+        "fat(484.6)>serving(300.0)",
+        "kcal(4550.2)>1500"
+      ],
+      "k": 4550.2,
+      "p": 12.8,
+      "c": 36.5,
+      "f": 484.6,
+      "fi": 7.5,
+      "s": "300g",
+      "est_kcal": 4558.6
+    },
+    {
+      "id": 810,
+      "en": "Orange biscuit",
+      "issues": [
+        "carbs(37.6)>serving(15.0)"
+      ],
+      "k": 214.6,
+      "p": 2.2,
+      "c": 37.6,
+      "f": 6.7,
+      "fi": 0.5,
+      "s": "15g",
+      "est_kcal": 219.5
+    },
+    {
+      "id": 815,
+      "en": "Peanut sago vada",
+      "issues": [
+        "fat(243.9)>serving(60.0)",
+        "kcal(2291.5)>1500"
+      ],
+      "k": 2291.5,
+      "p": 3.1,
+      "c": 21.8,
+      "f": 243.9,
+      "fi": 1.9,
+      "s": "60g",
+      "est_kcal": 2294.7
+    },
+    {
+      "id": 827,
+      "en": "Semolina carrot vada",
+      "issues": [
+        "fat(120.6)>serving(60.0)"
+      ],
+      "k": 1138.5,
+      "p": 2.5,
+      "c": 10.6,
+      "f": 120.6,
+      "fi": 1.7,
+      "s": "60g",
+      "est_kcal": 1137.8
+    },
+    {
+      "id": 839,
+      "en": "Tutti fruitti biscuit",
+      "issues": [
+        "carbs(57.7)>serving(15.0)",
+        "fat(19.5)>serving(15.0)"
+      ],
+      "k": 457.4,
+      "p": 5.7,
+      "c": 57.7,
+      "f": 19.5,
+      "fi": 5.9,
+      "s": "15g",
+      "est_kcal": 429.1
+    },
+    {
+      "id": 844,
+      "en": "Vegetable burger",
+      "issues": [
+        "fat(260.9)>serving(100.0)",
+        "kcal(2678.9)>1500"
+      ],
+      "k": 2678.9,
+      "p": 16.8,
+      "c": 70.5,
+      "f": 260.9,
+      "fi": 8.7,
+      "s": "100g",
+      "est_kcal": 2697.3
+    },
+    {
+      "id": 883,
+      "en": "Carrot cake",
+      "issues": [
+        "carbs(36.0)>serving(30.0)"
+      ],
+      "k": 255.5,
+      "p": 5.6,
+      "c": 36.0,
+      "f": 10.3,
+      "fi": 2.9,
+      "s": "30g",
+      "est_kcal": 259.1
+    },
+    {
+      "id": 891,
+      "en": "Christmas cake",
+      "issues": [
+        "carbs(50.3)>serving(30.0)"
+      ],
+      "k": 388.6,
+      "p": 5.7,
+      "c": 50.3,
+      "f": 17.6,
+      "fi": 1.6,
+      "s": "30g",
+      "est_kcal": 382.4
+    },
+    {
+      "id": 898,
+      "en": "Honey cake",
+      "issues": [
+        "carbs(80.3)>serving(30.0)"
+      ],
+      "k": 546.1,
+      "p": 5.0,
+      "c": 80.3,
+      "f": 24.1,
+      "fi": 0.8,
+      "s": "30g",
+      "est_kcal": 558.1
+    },
+    {
+      "id": 903,
+      "en": "Lotus seed halwa",
+      "issues": [
+        "carbs(143.4)>serving(60.0)",
+        "fat(75.0)>serving(60.0)"
+      ],
+      "k": 1343.2,
+      "p": 28.2,
+      "c": 143.4,
+      "f": 75.0,
+      "fi": 1.5,
+      "s": "60g",
+      "est_kcal": 1361.4
+    },
+    {
+      "id": 913,
+      "en": "Pineapple cake",
+      "issues": [
+        "carbs(120.6)>serving(30.0)",
+        "fat(47.9)>serving(30.0)"
+      ],
+      "k": 1003.3,
+      "p": 25.7,
+      "c": 120.6,
+      "f": 47.9,
+      "fi": 3.9,
+      "s": "30g",
+      "est_kcal": 1016.3
+    },
+    {
+      "id": 916,
+      "en": "Queen of pudding",
+      "issues": [
+        "carbs(53.3)>serving(50.0)"
+      ],
+      "k": 433.0,
+      "p": 17.9,
+      "c": 53.3,
+      "f": 17.5,
+      "fi": 0.9,
+      "s": "50g",
+      "est_kcal": 442.3
+    },
+    {
+      "id": 917,
+      "en": "Rasmalai",
+      "issues": [
+        "protein(7.2)>serving(2.0)",
+        "carbs(29.5)>serving(2.0)",
+        "fat(10.2)>serving(2.0)"
+      ],
+      "k": 246.0,
+      "p": 7.2,
+      "c": 29.5,
+      "f": 10.2,
+      "fi": 0.0,
+      "s": "2 pcs",
+      "est_kcal": 238.6
+    },
+    {
+      "id": 927,
+      "en": "Soya chunks sweet and sour",
+      "issues": [
+        "fat(258.4)>serving(250.0)",
+        "kcal(2312.3)>1500"
+      ],
+      "k": 2312.3,
+      "p": 13.2,
+      "c": 15.1,
+      "f": 258.4,
+      "fi": 4.0,
+      "s": "250g",
+      "est_kcal": 2438.8
+    },
+    {
+      "id": 943,
+      "en": "Tutti frutti cake",
+      "issues": [
+        "carbs(449.0)>serving(100.0)",
+        "fat(107.6)>serving(100.0)",
+        "kcal(2949.5)>1500"
+      ],
+      "k": 2949.5,
+      "p": 38.1,
+      "c": 449.0,
+      "f": 107.6,
+      "fi": 7.2,
+      "s": "100g",
+      "est_kcal": 2916.8
+    },
+    {
+      "id": 948,
+      "en": "Aloo Posto",
+      "issues": [
+        "protein(4.8)>serving(1.0)",
+        "carbs(18.5)>serving(1.0)",
+        "fat(15.6)>serving(1.0)"
+      ],
+      "k": 228.0,
+      "p": 4.8,
+      "c": 18.5,
+      "f": 15.6,
+      "fi": 3.4,
+      "s": "1 bowl",
+      "est_kcal": 233.6
+    },
+    {
+      "id": 968,
+      "en": "Shukto",
+      "issues": [
+        "protein(3.6)>serving(1.0)",
+        "carbs(14.8)>serving(1.0)",
+        "fat(5.9)>serving(1.0)"
+      ],
+      "k": 126.0,
+      "p": 3.6,
+      "c": 14.8,
+      "f": 5.9,
+      "fi": 5.2,
+      "s": "1 bowl",
+      "est_kcal": 126.7
+    },
+    {
+      "id": 979,
+      "en": "Cabbage kofta curry",
+      "issues": [
+        "fat(494.9)>serving(250.0)",
+        "kcal(4563.0)>1500"
+      ],
+      "k": 4563.0,
+      "p": 7.0,
+      "c": 20.5,
+      "f": 494.9,
+      "fi": 6.4,
+      "s": "250g",
+      "est_kcal": 4564.1
+    },
+    {
+      "id": 987,
+      "en": "Cauliflower kofta curry",
+      "issues": [
+        "fat(495.1)>serving(250.0)",
+        "kcal(4559.3)>1500"
+      ],
+      "k": 4559.3,
+      "p": 7.4,
+      "c": 18.6,
+      "f": 495.1,
+      "fi": 7.1,
+      "s": "250g",
+      "est_kcal": 4559.9
+    },
+    {
+      "id": 989,
+      "en": "Cauliflower pakora/pakoda",
+      "issues": [
+        "fat(484.7)>serving(300.0)",
+        "kcal(4530.2)>1500"
+      ],
+      "k": 4530.2,
+      "p": 13.3,
+      "c": 30.5,
+      "f": 484.7,
+      "fi": 8.5,
+      "s": "300g",
+      "est_kcal": 4537.5
+    },
+    {
+      "id": 994,
+      "en": "Creamed spinach and mushroom",
+      "issues": [
+        "fat(262.6)>serving(250.0)",
+        "kcal(2496.7)>1500"
+      ],
+      "k": 2496.7,
+      "p": 13.6,
+      "c": 18.8,
+      "f": 262.6,
+      "fi": 6.1,
+      "s": "250g",
+      "est_kcal": 2493.0
+    },
+    {
+      "id": 999,
+      "en": "Dum aloo",
+      "issues": [
+        "fat(496.3)>serving(250.0)",
+        "kcal(4575.6)>1500"
+      ],
+      "k": 4575.6,
+      "p": 4.7,
+      "c": 22.3,
+      "f": 496.3,
+      "fi": 4.6,
+      "s": "250g",
+      "est_kcal": 4574.7
+    },
+    {
+      "id": 1002,
+      "en": "Ghiya/Lauki Kofta Curry",
+      "issues": [
+        "fat(495.0)>serving(250.0)",
+        "kcal(4555.1)>1500"
+      ],
+      "k": 4555.1,
+      "p": 6.3,
+      "c": 19.3,
+      "f": 495.0,
+      "fi": 6.0,
+      "s": "250g",
+      "est_kcal": 4557.4
+    },
+    {
+      "id": 1007,
+      "en": "Jackfruit kofta curry",
+      "issues": [
+        "fat(253.8)>serving(250.0)",
+        "kcal(2409.0)>1500"
+      ],
+      "k": 2409.0,
+      "p": 6.0,
+      "c": 23.8,
+      "f": 253.8,
+      "fi": 7.2,
+      "s": "250g",
+      "est_kcal": 2403.4
+    },
+    {
+      "id": 1009,
+      "en": "Jackfruit/Kathal",
+      "issues": [
+        "fat(250.3)>serving(250.0)",
+        "kcal(2363.8)>1500"
+      ],
+      "k": 2363.8,
+      "p": 4.5,
+      "c": 22.1,
+      "f": 250.3,
+      "fi": 6.4,
+      "s": "250g",
+      "est_kcal": 2359.1
+    },
+    {
+      "id": 1011,
+      "en": "Paneer potato cutlet",
+      "issues": [
+        "fat(245.1)>serving(80.0)",
+        "kcal(2309.9)>1500"
+      ],
+      "k": 2309.9,
+      "p": 8.5,
+      "c": 17.9,
+      "f": 245.1,
+      "fi": 1.4,
+      "s": "80g",
+      "est_kcal": 2311.5
+    },
+    {
+      "id": 1018,
+      "en": "Potato bonda",
+      "issues": [
+        "fat(121.5)>serving(100.0)"
+      ],
+      "k": 1134.1,
+      "p": 2.0,
+      "c": 8.1,
+      "f": 121.5,
+      "fi": 1.5,
+      "s": "100g",
+      "est_kcal": 1133.9
+    },
+    {
+      "id": 1025,
+      "en": "Potato kofta curry",
+      "issues": [
+        "fat(500.7)>serving(250.0)",
+        "kcal(4645.4)>1500"
+      ],
+      "k": 4645.4,
+      "p": 5.7,
+      "c": 28.4,
+      "f": 500.7,
+      "fi": 5.7,
+      "s": "250g",
+      "est_kcal": 4642.7
+    },
+    {
+      "id": 1027,
+      "en": "Potato pakora/pakoda",
+      "issues": [
+        "fat(484.5)>serving(300.0)",
+        "kcal(4567.6)>1500"
+      ],
+      "k": 4567.6,
+      "p": 12.8,
+      "c": 40.8,
+      "f": 484.5,
+      "fi": 6.9,
+      "s": "300g",
+      "est_kcal": 4574.9
+    },
+    {
+      "id": 1031,
+      "en": "Potato samosa",
+      "issues": [
+        "fat(83.4)>serving(60.0)"
+      ],
+      "k": 813.8,
+      "p": 2.4,
+      "c": 13.0,
+      "f": 83.4,
+      "fi": 1.7,
+      "s": "60g",
+      "est_kcal": 812.2
+    },
+    {
+      "id": 1034,
+      "en": "Pumpkin cookies",
+      "issues": [
+        "carbs(38.2)>serving(25.0)"
+      ],
+      "k": 186.6,
+      "p": 2.1,
+      "c": 38.2,
+      "f": 3.4,
+      "fi": 0.9,
+      "s": "25g",
+      "est_kcal": 191.8
+    },
+    {
+      "id": 1043,
+      "en": "Spinach chickpeas cutlet",
+      "issues": [
+        "fat(241.3)>serving(80.0)",
+        "kcal(2255.6)>1500"
+      ],
+      "k": 2255.6,
+      "p": 4.7,
+      "c": 16.2,
+      "f": 241.3,
+      "fi": 3.0,
+      "s": "80g",
+      "est_kcal": 2255.3
+    },
+    {
+      "id": 1045,
+      "en": "Spinach kofta curry",
+      "issues": [
+        "fat(495.7)>serving(250.0)",
+        "kcal(4609.5)>1500"
+      ],
+      "k": 4609.5,
+      "p": 8.8,
+      "c": 28.7,
+      "f": 495.7,
+      "fi": 7.4,
+      "s": "250g",
+      "est_kcal": 4611.3
+    },
+    {
+      "id": 1047,
+      "en": "Spinach pakora/pakoda",
+      "issues": [
+        "fat(484.6)>serving(300.0)",
+        "kcal(4521.6)>1500"
+      ],
+      "k": 4521.6,
+      "p": 12.5,
+      "c": 29.7,
+      "f": 484.6,
+      "fi": 6.5,
+      "s": "300g",
+      "est_kcal": 4530.2
+    },
+    {
+      "id": 1048,
+      "en": "Spinach paneer kofta curry",
+      "issues": [
+        "fat(498.7)>serving(250.0)",
+        "kcal(4620.9)>1500"
+      ],
+      "k": 4620.9,
+      "p": 10.9,
+      "c": 22.4,
+      "f": 498.7,
+      "fi": 5.7,
+      "s": "250g",
+      "est_kcal": 4621.5
+    },
+    {
+      "id": 1057,
+      "en": "Sweet potato biscuit",
+      "issues": [
+        "carbs(57.5)>serving(15.0)",
+        "fat(20.1)>serving(15.0)"
+      ],
+      "k": 447.3,
+      "p": 7.8,
+      "c": 57.5,
+      "f": 20.1,
+      "fi": 3.4,
+      "s": "15g",
+      "est_kcal": 442.1
+    },
+    {
+      "id": 1424,
+      "en": "Beer (Strong)",
+      "issues": [
+        "kcal_mismatch stored=210.0 est=70.0 diff=200%"
+      ],
+      "k": 210.0,
+      "p": 1.5,
+      "c": 16.0,
+      "f": 0.0,
+      "fi": 0.0,
+      "s": "330ml",
+      "est_kcal": 70.0
+    },
+    {
+      "id": 1430,
+      "en": "Chicken biryani",
+      "issues": [
+        "protein(17.5)>serving(1.0)",
+        "carbs(41.2)>serving(1.0)",
+        "fat(16.8)>serving(1.0)"
+      ],
+      "k": 392.0,
+      "p": 17.5,
+      "c": 41.2,
+      "f": 16.8,
+      "fi": 2.1,
+      "s": "1 bowl",
+      "est_kcal": 386.0
+    },
+    {
+      "id": 1431,
+      "en": "Luchi alur dom",
+      "issues": [
+        "protein(8.4)>serving(1.0)",
+        "carbs(52.0)>serving(1.0)",
+        "fat(24.5)>serving(1.0)"
+      ],
+      "k": 468.0,
+      "p": 8.4,
+      "c": 52.0,
+      "f": 24.5,
+      "fi": 4.1,
+      "s": "1 plate",
+      "est_kcal": 462.1
+    },
+    {
+      "id": 1432,
+      "en": "Chingri malaikari",
+      "issues": [
+        "protein(21.4)>serving(1.0)",
+        "carbs(8.2)>serving(1.0)",
+        "fat(21.0)>serving(1.0)"
+      ],
+      "k": 312.0,
+      "p": 21.4,
+      "c": 8.2,
+      "f": 21.0,
+      "fi": 1.2,
+      "s": "1 bowl",
+      "est_kcal": 307.4
+    },
+    {
+      "id": 1433,
+      "en": "Mutton kosha",
+      "issues": [
+        "protein(24.6)>serving(1.0)",
+        "carbs(7.4)>serving(1.0)",
+        "fat(31.5)>serving(1.0)"
+      ],
+      "k": 418.0,
+      "p": 24.6,
+      "c": 7.4,
+      "f": 31.5,
+      "fi": 1.5,
+      "s": "1 bowl",
+      "est_kcal": 411.5
+    },
+    {
+      "id": 1434,
+      "en": "Pakhala bhata",
+      "issues": [
+        "protein(3.8)>serving(1.0)",
+        "carbs(28.5)>serving(1.0)",
+        "fat(1.8)>serving(1.0)"
+      ],
+      "k": 142.0,
+      "p": 3.8,
+      "c": 28.5,
+      "f": 1.8,
+      "fi": 0.8,
+      "s": "1 bowl",
+      "est_kcal": 145.4
+    }
+  ],
+  "index_issues": {
+    "orphan_from_en_index": [],
+    "orphan_from_bn_index": [
+      415,
+      1434
+    ]
+  }
+}

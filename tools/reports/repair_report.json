@@ -1,0 +1,245 @@
+{
+  "repaired": [
+    {
+      "id": 90,
+      "en": "Gulab Jamun with khoya",
+      "field": "f",
+      "old": 83.4,
+      "new": 41.7,
+      "reason": "fat(83.4)>serving(50.0) → scaled to serving"
+    },
+    {
+      "id": 107,
+      "en": "Paneer and pea samosa",
+      "field": "f",
+      "old": 85.8,
+      "new": 51.5,
+      "reason": "fat(85.8)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 151,
+      "en": "Masala urad dal vada",
+      "field": "f",
+      "old": 61.3,
+      "new": 36.8,
+      "reason": "fat(61.3)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 157,
+      "en": "Plain urad dal vada",
+      "field": "f",
+      "old": 60.2,
+      "new": 36.1,
+      "reason": "fat(60.2)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 244,
+      "en": "Apple snowballs",
+      "field": "c",
+      "old": 63.8,
+      "new": 38.3,
+      "reason": "carbs(63.8)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 326,
+      "en": "Chicken kebab",
+      "field": "f",
+      "old": 97.7,
+      "new": 78.2,
+      "reason": "fat(97.7)>serving(80.0) → scaled to serving"
+    },
+    {
+      "id": 428,
+      "en": "Chum chum",
+      "field": "c",
+      "old": 88.1,
+      "new": 52.9,
+      "reason": "carbs(88.1)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 447,
+      "en": "Dil bahar",
+      "field": "c",
+      "old": 88.1,
+      "new": 52.9,
+      "reason": "carbs(88.1)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 465,
+      "en": "Ghujia/Lavang latika",
+      "field": "f",
+      "old": 84.0,
+      "new": 50.4,
+      "reason": "fat(84.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 498,
+      "en": "Khasta kachori",
+      "field": "f",
+      "old": 72.8,
+      "new": 43.7,
+      "reason": "fat(72.8)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 552,
+      "en": "Peas kachori",
+      "field": "f",
+      "old": 62.2,
+      "new": 37.3,
+      "reason": "fat(62.2)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 568,
+      "en": "Rajbogh",
+      "field": "c",
+      "old": 88.6,
+      "new": 53.2,
+      "reason": "carbs(88.6)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 569,
+      "en": "Rasbhari",
+      "field": "c",
+      "old": 88.1,
+      "new": 52.9,
+      "reason": "carbs(88.1)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 648,
+      "en": "Egg in a pepper",
+      "field": "p",
+      "old": 73.6,
+      "new": 40.5,
+      "reason": "protein(73.6)>serving(55.0) → scaled to serving"
+    },
+    {
+      "id": 712,
+      "en": "Dal stuffed poori",
+      "field": "f",
+      "old": 97.0,
+      "new": 58.2,
+      "reason": "fat(97.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 717,
+      "en": "Methi poori",
+      "field": "f",
+      "old": 97.0,
+      "new": 58.2,
+      "reason": "fat(97.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 725,
+      "en": "Poori",
+      "field": "f",
+      "old": 96.9,
+      "new": 58.1,
+      "reason": "fat(96.9)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 727,
+      "en": "Potato stuffed poori",
+      "field": "f",
+      "old": 97.0,
+      "new": 58.2,
+      "reason": "fat(97.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 731,
+      "en": "Spinach poori",
+      "field": "f",
+      "old": 97.0,
+      "new": 58.2,
+      "reason": "fat(97.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 787,
+      "en": "Fermented bengal gram vada",
+      "field": "f",
+      "old": 60.6,
+      "new": 36.4,
+      "reason": "fat(60.6)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 801,
+      "en": "Mathri",
+      "field": "f",
+      "old": 72.5,
+      "new": 43.5,
+      "reason": "fat(72.5)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 803,
+      "en": "Minced meat samosa",
+      "field": "f",
+      "old": 86.7,
+      "new": 52.0,
+      "reason": "fat(86.7)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 903,
+      "en": "Lotus seed halwa",
+      "field": "f",
+      "old": 75.0,
+      "new": 45.0,
+      "reason": "fat(75.0)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 916,
+      "en": "Queen of pudding",
+      "field": "c",
+      "old": 53.3,
+      "new": 26.6,
+      "reason": "carbs(53.3)>serving(50.0) → scaled to serving"
+    },
+    {
+      "id": 1031,
+      "en": "Potato samosa",
+      "field": "f",
+      "old": 83.4,
+      "new": 50.0,
+      "reason": "fat(83.4)>serving(60.0) → scaled to serving"
+    },
+    {
+      "id": 1353,
+      "en": "Egg, duck, whole, raw",
+      "field": "k",
+      "old": 782.0,
+      "new": 78.2,
+      "reason": "decimal_shift est=69.8"
+    },
+    {
+      "id": 1356,
+      "en": "Egg, duck, whole, boiled* (without salt)",
+      "field": "k",
+      "old": 889.0,
+      "new": 88.9,
+      "reason": "decimal_shift est=79.2"
+    },
+    {
+      "id": 1358,
+      "en": "Cheese, cottage, 25% fat",
+      "field": "k",
+      "old": 1440.0,
+      "new": 144.0,
+      "reason": "decimal_shift est=149.0"
+    },
+    {
+      "id": 1428,
+      "en": "Red Wine (150ml)",
+      "field": "k",
+      "old": 125.0,
+      "new": 12.5,
+      "reason": "decimal_shift est=15.6"
+    },
+    {
+      "id": 1429,
+      "en": "White Wine (150ml)",
+      "field": "k",
+      "old": 121.0,
+      "new": 12.1,
+      "reason": "decimal_shift est=15.6"
+    }
+  ],
+  "manual_review": []
+}

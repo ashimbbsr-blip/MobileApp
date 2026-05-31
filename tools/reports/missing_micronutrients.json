@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 16,
+    "en": "Infinity Wellness Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 20,
+    "en": "Banana Oats",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 25,
+    "en": "Chitoi Pitha",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 26,
+    "en": "Doi Chire",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 27,
+    "en": "Egg Toast",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 28,
+    "en": "Healthy Breakfast Bowl",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 33,
+    "en": "Kochuri",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 34,
+    "en": "Luchi",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 37,
+    "en": "Oats Milk Bowl",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 38,
+    "en": "Oats Porridge",
+    "cat": "breakfast",
+    "src": "local"
+  },
+  {
+    "id": 54,
+    "en": "Aam Chutney",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 55,
+    "en": "Tomato Chutney",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 141,
+    "en": "Chana Bhuna",
+    "cat": "legume",
+    "src": "local"
+  },
+  {
+    "id": 142,
+    "en": "Cholar Dal",
+    "cat": "legume",
+    "src": "local"
+  },
+  {
+    "id": 152,
+    "en": "Masoor Dal",
+    "cat": "legume",
+    "src": "local"
+  },
+  {
+    "id": 153,
+    "en": "Mixed Dal",
+    "cat": "legume",
+    "src": "local"
+  },
+  {
+    "id": 168,
+    "en": "Bhapa Pitha",
+    "cat": "dessert",
+    "src": "local"
+  },
+  {
+    "id": 170,
+    "en": "Nolen Gur Sandesh",
+    "cat": "dessert",
+    "src": "local"
+  },
+  {
+    "id": 174,
+    "en": "Sandesh",
+    "cat": "dessert",
+    "src": "local"
+  },
+  {
+    "id": 175,
+    "en": "Strawberry Yogurt",
+    "cat": "dessert",
+    "src": "local"
+  },
+  {
+    "id": 176,
+    "en": "Detox Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 177,
+    "en": "Weight Loss Soup",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 178,
+    "en": "Apple Cider Drink",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 179,
+    "en": "Banana Shake",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 180,
+    "en": "Black Coffee",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 181,
+    "en": "Black Tea",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 182,
+    "en": "Chocolate Milk",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 183,
+    "en": "Coconut Water",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 184,
+    "en": "Detox Water",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 185,
+    "en": "Fat Burn Drink",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 186,
+    "en": "Ginger Tea",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 187,
+    "en": "Herbal Tea",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 189,
+    "en": "Lemon Honey Water",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 190,
+    "en": "Lemon Water",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 191,
+    "en": "Mango Shake",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 192,
+    "en": "Milk Coffee",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 193,
+    "en": "Milk Tea",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 194,
+    "en": "Salt Lassi",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 195,
+    "en": "Sweet Lassi",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 196,
+    "en": "Air Fry Fish",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 200,
+    "en": "Bhetki Paturi",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 201,
+    "en": "Chingri Bhapa",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 202,
+    "en": "Chingri Bhorta",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 203,
+    "en": "Chingri Malai",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 205,
+    "en": "Daab Chingri",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 206,
+    "en": "Fish Fry",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 207,
+    "en": "Fish Kalia",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 208,
+    "en": "Fish Steam",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 222,
+    "en": "Ilish Bhapa",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 223,
+    "en": "Katla Curry",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 224,
+    "en": "Lean Fish Bowl",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 226,
+    "en": "Macher Bhaja",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 227,
+    "en": "Macher Jhol",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 228,
+    "en": "Pabda Jhol",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 231,
+    "en": "Rohu Curry",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 232,
+    "en": "Shorshe Ilish",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 234,
+    "en": "Tangra Jhol",
+    "cat": "fish",
+    "src": "local"
+  },
+  {
+    "id": 236,
+    "en": "Fitness Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 237,
+    "en": "Low Carb Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 238,
+    "en": "Apple",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 245,
+    "en": "Banana",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 256,
+    "en": "Dates",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 260,
+    "en": "Fruit Salad",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 262,
+    "en": "Guava",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 266,
+    "en": "Jackfruit",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 267,
+    "en": "Mango",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 275,
+    "en": "Mixed Fruit Bowl",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 295,
+    "en": "Watermelon",
+    "cat": "fruit",
+    "src": "local"
+  },
+  {
+    "id": 301,
+    "en": "Rice",
+    "cat": "grain",
+    "src": "local"
+  },
+  {
+    "id": 308,
+    "en": "Balanced Diet Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 309,
+    "en": "Healthy Curry Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 310,
+    "en": "Light Dinner Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 311,
+    "en": "Light Lunch Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 312,
+    "en": "Simple Chicken Meal",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 313,
+    "en": "Simple Veg Meal",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 314,
+    "en": "Wellness Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 316,
+    "en": "Air Fry Chicken",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 317,
+    "en": "Boiled Chicken",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 321,
+    "en": "Chicken Curry",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 322,
+    "en": "Chicken Grill",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 323,
+    "en": "Chicken Roast",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 339,
+    "en": "Egg Curry",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 347,
+    "en": "Light Chicken Curry",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 348,
+    "en": "Mutton Curry",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 362,
+    "en": "Chicken Chowmein",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 364,
+    "en": "Egg Chowmein",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 375,
+    "en": "Almonds",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 376,
+    "en": "Cashew",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 385,
+    "en": "Walnuts",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 490,
+    "en": "Jam filling",
+    "cat": "snack",
+    "src": "indb"
+  },
+  {
+    "id": 640,
+    "en": "Boiled Egg",
+    "cat": "egg",
+    "src": "local"
+  },
+  {
+    "id": 642,
+    "en": "Egg Bhurji",
+    "cat": "egg",
+    "src": "local"
+  },
+  {
+    "id": 643,
+    "en": "Egg White Omelette",
+    "cat": "egg",
+    "src": "local"
+  },
+  {
+    "id": 652,
+    "en": "Fried Egg",
+    "cat": "egg",
+    "src": "local"
+  },
+  {
+    "id": 653,
+    "en": "High Protein Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 657,
+    "en": "Lean Chicken Bowl",
+    "cat": "meat",
+    "src": "local"
+  },
+  {
+    "id": 659,
+    "en": "Protein Bar",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 664,
+    "en": "Veg Protein Bowl",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 667,
+    "en": "Basanti Pulao",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 668,
+    "en": "Chicken Khichdi",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 671,
+    "en": "Coconut Rice",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 673,
+    "en": "Curd Rice",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 674,
+    "en": "Fish Pulao",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 675,
+    "en": "Fried Rice",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 677,
+    "en": "Khichuri",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 678,
+    "en": "Kolkata Biryani",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 679,
+    "en": "Lemon Rice",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 680,
+    "en": "Light Rice Bowl",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 681,
+    "en": "Mishti Pulao",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 688,
+    "en": "Panta Bhat",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 693,
+    "en": "Protein Khichdi",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 695,
+    "en": "Spinach Rice",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 696,
+    "en": "Veg Pulao",
+    "cat": "rice",
+    "src": "local"
+  },
+  {
+    "id": 737,
+    "en": "Boiled Chicken Salad",
+    "cat": "salad",
+    "src": "local"
+  },
+  {
+    "id": 740,
+    "en": "Chickpea Salad",
+    "cat": "salad",
+    "src": "local"
+  },
+  {
+    "id": 745,
+    "en": "Gym Salad",
+    "cat": "salad",
+    "src": "local"
+  },
+  {
+    "id": 751,
+    "en": "Moong Sprouts",
+    "cat": "salad",
+    "src": "local"
+  },
+  {
+    "id": 755,
+    "en": "Sprouts Salad",
+    "cat": "salad",
+    "src": "local"
+  },
+  {
+    "id": 761,
+    "en": "Aloo Bhaja",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 763,
+    "en": "Beguni",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 768,
+    "en": "Chicken Roll",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 769,
+    "en": "Chicken Sandwich",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 770,
+    "en": "Chingri Cutlet",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 784,
+    "en": "Egg Devil",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 785,
+    "en": "Egg Sandwich",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 786,
+    "en": "Energy Bar",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 794,
+    "en": "Jhalmuri",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 795,
+    "en": "Kathi Roll Chicken",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 804,
+    "en": "Murir Moa",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 807,
+    "en": "Nut Mix",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 812,
+    "en": "Peanut Chikki",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 816,
+    "en": "Phuchka",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 821,
+    "en": "Roasted Chana",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 825,
+    "en": "Samosa",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 826,
+    "en": "Seed Mix",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 829,
+    "en": "Singara",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 840,
+    "en": "Veg Chop",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 841,
+    "en": "Veg Roll",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 842,
+    "en": "Veg Sandwich",
+    "cat": "snack",
+    "src": "local"
+  },
+  {
+    "id": 849,
+    "en": "Bone Broth Chicken",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 850,
+    "en": "Chicken Soup",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 855,
+    "en": "Dal Soup",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 856,
+    "en": "Fish Broth",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 868,
+    "en": "Tomato Soup",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 869,
+    "en": "Veg Soup",
+    "cat": "soup",
+    "src": "local"
+  },
+  {
+    "id": 949,
+    "en": "Alur Dom",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 950,
+    "en": "Begun Bhaja",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 951,
+    "en": "Boiled Veg Mix",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 952,
+    "en": "Cabbage Curry",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 953,
+    "en": "Cauliflower Curry",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 954,
+    "en": "Dalna",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 955,
+    "en": "Dhokar Dalna",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 956,
+    "en": "Grilled Paneer",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 957,
+    "en": "Labra",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 958,
+    "en": "Lau Ghonto",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 959,
+    "en": "Light Veg Curry",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 960,
+    "en": "Mixed Veg",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 961,
+    "en": "Mochar Ghonto",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 962,
+    "en": "Palong Saag",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 963,
+    "en": "Paneer Bhurji",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 964,
+    "en": "Paneer Curry",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 965,
+    "en": "Posto Bata",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 966,
+    "en": "Potol Posto",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 967,
+    "en": "Roasted Veg Bowl",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 969,
+    "en": "Steamed Veg",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 970,
+    "en": "Vegetable Stew",
+    "cat": "vegetable",
+    "src": "local"
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "cat": "fruit",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "cat": "fruit",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "cat": "fruit",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "cat": "fish",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "cat": "meat",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "cat": "meat",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "cat": "meat",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "cat": "meat",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "cat": "dairy",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "cat": "dairy",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "cat": "dairy",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "cat": "dairy",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "cat": "dairy",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "cat": "sweet",
+    "src": "bd_fct"
+  },
+  {
+    "id": 1425,
+    "en": "Whiskey / Whisky (30ml)",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 1426,
+    "en": "Rum (30ml)",
+    "cat": "beverage",
+    "src": "local"
+  },
+  {
+    "id": 1427,
+    "en": "Vodka (30ml)",
+    "cat": "beverage",
+    "src": "local"
+  }
+]
