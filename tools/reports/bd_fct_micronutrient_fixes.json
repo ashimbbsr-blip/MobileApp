@@ -1,0 +1,733 @@
+{
+  "total_with_ca_fe_zn_all_zero": 56,
+  "records": [
+    {
+      "id": 1085,
+      "en": "Semolina, wheat, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1096,
+      "en": "Ruti* Ruti",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1111,
+      "en": "Amaranth, stem, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1112,
+      "en": "Bean, scarlet runner, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1114,
+      "en": "Beet root, red, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1121,
+      "en": "Cowpea, pods and seeds, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1156,
+      "en": "Agathi, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1157,
+      "en": "Alligator weed, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1170,
+      "en": "Dima leaves, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1172,
+      "en": "Fern, leaves, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1179,
+      "en": "Spinach, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1184,
+      "en": "Water spinach, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1185,
+      "en": "Watercress, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1195,
+      "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1196,
+      "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1198,
+      "en": "Potato, Diamond, boiled* (without salt)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1202,
+      "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1233,
+      "en": "Nutmeg, dried",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1234,
+      "en": "Poppy seeds",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1235,
+      "en": "Turmeric, dried",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1253,
+      "en": "Jambolan, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1255,
+      "en": "Java apple, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1257,
+      "en": "Lemon, Kagoji, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1286,
+      "en": "Catfish, Bacha, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1294,
+      "en": "Gangetic ailia, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1321,
+      "en": "Rohu, river, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1323,
+      "en": "Shrimp, Speckled, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1326,
+      "en": "Spotted snakehead, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1328,
+      "en": "Stone roller, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1350,
+      "en": "Egg, chicken, farmed, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1351,
+      "en": "Egg, chicken, native, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1353,
+      "en": "Egg, duck, whole, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1355,
+      "en": "Egg, chicken, native, boiled* (without salt)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1356,
+      "en": "Egg, duck, whole, boiled* (without salt)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1369,
+      "en": "Cottonseed oil",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1375,
+      "en": "Mustard oil",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1376,
+      "en": "Palm oil",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1377,
+      "en": "Peanut oil China badam",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1378,
+      "en": "Sesame oil",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1381,
+      "en": "Coffee, instant, with sugar and milk",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1382,
+      "en": "Coffee, powder",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1383,
+      "en": "Soft drinks, carbonated",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1384,
+      "en": "Soya milk (not sweetened)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1385,
+      "en": "Sugar cane juice",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1386,
+      "en": "Tea, milk tea (with sugar and milk powder)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1387,
+      "en": "Tea, infusion (with sugar)",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1388,
+      "en": "Tea, powder",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1389,
+      "en": "Baking powder",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1390,
+      "en": "Betel leaves, raw",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1391,
+      "en": "Honey",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1392,
+      "en": "Jaggery, sugarcane, solid",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1393,
+      "en": "Jaggery/Panela, date palm",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1394,
+      "en": "Jaggery, liquid, date palm",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    },
+    {
+      "id": 1395,
+      "en": "Sugar, white",
+      "db_ca_fe_zn": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "src_ca": 0,
+      "src_fe": 0,
+      "src_zn": 0,
+      "action": "no_source_data_available"
+    }
+  ]
+}

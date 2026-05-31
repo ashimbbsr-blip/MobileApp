@@ -1,0 +1,188 @@
+{
+  "build_status": "FAIL",
+  "rules": {
+    "kcal_max": 900,
+    "fat_max": 70,
+    "protein_max": 70,
+    "carbs_max": 100,
+    "energy_diff_max": 25
+  },
+  "total_checked": 264,
+  "pass": 251,
+  "fail": 13,
+  "documented_exceptions": 0,
+  "manual_review": 19,
+  "fail_records": [
+    {
+      "id": 1275,
+      "food": "Anchovy, Gangetic hairfin, dried",
+      "cat": "fish",
+      "k": 332.0,
+      "p": 72.0,
+      "f": 4.9,
+      "c": 0.0,
+      "energy_diff_pct": 0.0,
+      "violations": [
+        "protein=72.0 > 70"
+      ]
+    },
+    {
+      "id": 1368,
+      "food": "Butter, salted",
+      "cat": "dairy",
+      "k": 717.0,
+      "p": 0.9,
+      "f": 81.1,
+      "c": 0.1,
+      "energy_diff_pct": 2.4,
+      "violations": [
+        "fat=81.1 > 70"
+      ]
+    },
+    {
+      "id": 1369,
+      "food": "Cottonseed oil",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1370,
+      "food": "Fish oil, cod liver",
+      "cat": "dairy",
+      "k": 902.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 0.2,
+      "violations": [
+        "kcal=902.0 > 900",
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1371,
+      "food": "Ghee, cow",
+      "cat": "dairy",
+      "k": 900.0,
+      "p": 0.3,
+      "f": 99.5,
+      "c": 0.0,
+      "energy_diff_pct": 0.4,
+      "violations": [
+        "fat=99.5 > 70"
+      ]
+    },
+    {
+      "id": 1372,
+      "food": "Ghee, vegetable",
+      "cat": "dairy",
+      "k": 900.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 0.0,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1373,
+      "food": "Margarine Margarine",
+      "cat": "dairy",
+      "k": 718.0,
+      "p": 0.2,
+      "f": 80.4,
+      "c": 0.2,
+      "energy_diff_pct": 1.0,
+      "violations": [
+        "fat=80.4 > 70"
+      ]
+    },
+    {
+      "id": 1374,
+      "food": "Mayonnaise, salted",
+      "cat": "dairy",
+      "k": 680.0,
+      "p": 1.1,
+      "f": 74.9,
+      "c": 0.6,
+      "energy_diff_pct": 0.1,
+      "violations": [
+        "fat=74.9 > 70"
+      ]
+    },
+    {
+      "id": 1375,
+      "food": "Mustard oil",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1376,
+      "food": "Palm oil",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1377,
+      "food": "Peanut oil China badam",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1378,
+      "food": "Sesame oil",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    },
+    {
+      "id": 1379,
+      "food": "Soybean oil",
+      "cat": "dairy",
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "energy_diff_pct": 1.8,
+      "violations": [
+        "fat=100.0 > 70"
+      ]
+    }
+  ],
+  "exception_records": []
+}

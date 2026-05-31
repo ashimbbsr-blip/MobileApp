@@ -1,0 +1,2326 @@
+{
+  "total_validated": 264,
+  "clean_records": 238,
+  "records_with_diff": 26,
+  "mismatch_by_field": {
+    "k": 23,
+    "p": 26,
+    "f": 23,
+    "c": 22,
+    "fi": 23
+  },
+  "records": [
+    {
+      "id": 1068,
+      "food": "Barley, whole-grain, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1069,
+      "food": "Bread, bun/roll",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1070,
+      "food": "Bread, white, for toasting",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1071,
+      "food": "Maize/corn flour, whole, white",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1072,
+      "food": "Maize/corn, yellow, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1073,
+      "food": "Millet, Foxtail, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1074,
+      "food": "Millet, Proso, whole-grain, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1075,
+      "food": "Pear millet, whole-grain, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1076,
+      "food": "Popcorn, maize (salt added)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1077,
+      "food": "Rice flakes, white grain, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1079,
+      "food": "Rice, BR-28, parboiled, milled, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1080,
+      "food": "Rice, bran, raw Chaler",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1082,
+      "food": "Rice, popped",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1083,
+      "food": "Rice, puffed, salted",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1085,
+      "food": "Semolina, wheat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1086,
+      "food": "Sorghum, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1087,
+      "food": "Sweet corn, yellow, on the cob, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1088,
+      "food": "Vermicelli, wheat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1089,
+      "food": "Wheat, flour, white",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1090,
+      "food": "Wheat, whole, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1091,
+      "food": "Biscuit, sweet",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1092,
+      "food": "Plain Khichuri* Khichuri",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1094,
+      "food": "Rice, BR-28, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1096,
+      "food": "Ruti* Ruti",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1097,
+      "food": "Vermicelli, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1099,
+      "food": "Black gram, dehulled, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1100,
+      "food": "Black gram, split, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1101,
+      "food": "Green gram, split, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1102,
+      "food": "Green gram, whole, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1103,
+      "food": "Grass pea, split, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1104,
+      "food": "Lentil, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1105,
+      "food": "Pea, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1106,
+      "food": "Red gram, split, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1107,
+      "food": "Soybean, dried, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1110,
+      "food": "Lentil, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1111,
+      "food": "Amaranth, stem, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1112,
+      "food": "Bean, scarlet runner, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1113,
+      "food": "Bean, seeds and pods, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1114,
+      "food": "Beet root, red, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 94.0,
+          "src_value": 46.4,
+          "difference": 47.6,
+          "diff_pct": 102.6
+        },
+        "p": {
+          "db_value": 0.1,
+          "src_value": 3.5,
+          "difference": -3.4,
+          "diff_pct": 97.1
+        },
+        "f": {
+          "db_value": 7.9,
+          "src_value": 0.1,
+          "difference": 7.8,
+          "diff_pct": 7800.0
+        },
+        "c": {
+          "db_value": 2.8,
+          "src_value": 7.9,
+          "difference": -5.1,
+          "diff_pct": 64.6
+        },
+        "fi": {
+          "db_value": 1.4,
+          "src_value": 2.8,
+          "difference": -1.4,
+          "diff_pct": 50.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1115,
+      "food": "Brinjal, purple, long, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1116,
+      "food": "Broad beans, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1117,
+      "food": "Cabbage, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1118,
+      "food": "Carrot, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1119,
+      "food": "Cauliflower, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1120,
+      "food": "Chilli, green, with seeds, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1121,
+      "food": "Cowpea, pods and seeds, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 60.0,
+          "src_value": 38.2,
+          "difference": 21.8,
+          "diff_pct": 57.1
+        },
+        "p": {
+          "db_value": 0.4,
+          "src_value": 5.9,
+          "difference": -5.5,
+          "diff_pct": 93.2
+        },
+        "f": {
+          "db_value": 2.8,
+          "src_value": 0.4,
+          "difference": 2.4,
+          "diff_pct": 600.0
+        },
+        "c": {
+          "db_value": 6.0,
+          "src_value": 2.8,
+          "difference": 3.2,
+          "diff_pct": 114.3
+        },
+        "fi": {
+          "db_value": 0.8,
+          "src_value": 6.0,
+          "difference": -5.2,
+          "diff_pct": 86.7
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1122,
+      "food": "Cucumber, peeled, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1123,
+      "food": "Drumstick, pods, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1125,
+      "food": "Gourd, ash, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1126,
+      "food": "Gourd, bitter, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1127,
+      "food": "Gourd, bottle, raw",
+      "mismatches": {
+        "p": {
+          "db_value": 1.4,
+          "src_value": 1.5,
+          "difference": -0.1,
+          "diff_pct": 6.7
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1128,
+      "food": "Gourd, pointed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1129,
+      "food": "Gourd, ridge, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1130,
+      "food": "Gourd, snake, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1131,
+      "food": "Gourd, sponge, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1132,
+      "food": "Gourd, teasle, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1133,
+      "food": "Okra/ladies finger, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 64.0,
+          "src_value": 39.2,
+          "difference": 24.8,
+          "diff_pct": 63.3
+        },
+        "p": {
+          "db_value": 0.2,
+          "src_value": 3.7,
+          "difference": -3.5,
+          "diff_pct": 94.6
+        },
+        "f": {
+          "db_value": 5.7,
+          "src_value": 0.2,
+          "difference": 5.5,
+          "diff_pct": 2750.0
+        },
+        "c": {
+          "db_value": 3.1,
+          "src_value": 5.7,
+          "difference": -2.6,
+          "diff_pct": 45.6
+        },
+        "fi": {
+          "db_value": 1.1,
+          "src_value": 3.1,
+          "difference": -2.0,
+          "diff_pct": 64.5
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1134,
+      "food": "Onion, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1135,
+      "food": "Papaya, unripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1136,
+      "food": "Peas, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1137,
+      "food": "Plantain, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1138,
+      "food": "Pumpkin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1139,
+      "food": "Radish, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1140,
+      "food": "Tomato, green, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1142,
+      "food": "Turnip, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1144,
+      "food": "Cabbage, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1145,
+      "food": "Carrot, boiled* (without salt)",
+      "mismatches": {
+        "k": {
+          "db_value": 81.0,
+          "src_value": 43.3,
+          "difference": 37.7,
+          "diff_pct": 87.1
+        },
+        "p": {
+          "db_value": 0.3,
+          "src_value": 2.8,
+          "difference": -2.5,
+          "diff_pct": 89.3
+        },
+        "f": {
+          "db_value": 7.3,
+          "src_value": 0.3,
+          "difference": 7.0,
+          "diff_pct": 2333.3
+        },
+        "c": {
+          "db_value": 3.1,
+          "src_value": 7.3,
+          "difference": -4.2,
+          "diff_pct": 57.5
+        },
+        "fi": {
+          "db_value": 0.7,
+          "src_value": 3.1,
+          "difference": -2.4,
+          "diff_pct": 77.4
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1146,
+      "food": "Cauliflower, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1147,
+      "food": "Cowpea, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1148,
+      "food": "Gourd, pointed, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1149,
+      "food": "Gourd, teasle, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1151,
+      "food": "Papaya, unripe, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1153,
+      "food": "Radish, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1154,
+      "food": "Lady's finger-tomato bhuna",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1155,
+      "food": "Gourd, bitter, fry",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1156,
+      "food": "Agathi, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1157,
+      "food": "Alligator weed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1158,
+      "food": "Amaranth, leaves, spiney, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1161,
+      "food": "Dock leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1162,
+      "food": "Beet greens leaves",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1163,
+      "food": "Bengal dayflower, leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1164,
+      "food": "Bitter gourd leaves, green, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1166,
+      "food": "Bugleweed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1167,
+      "food": "Cassava, leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1168,
+      "food": "Colocasia leaves, black, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1169,
+      "food": "Colocasia leaves, green, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1170,
+      "food": "Dima leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1171,
+      "food": "Drumstick, leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1172,
+      "food": "Fern, leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1173,
+      "food": "Fenugreek, leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1174,
+      "food": "Indian spinach, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1176,
+      "food": "Pumpkin leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1177,
+      "food": "Radish leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1178,
+      "food": "Slender amaranth leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1179,
+      "food": "Spinach, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1184,
+      "food": "Water spinach, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1185,
+      "food": "Watercress, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1188,
+      "food": "Spinach, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1190,
+      "food": "Colocasia/Taro, corm, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1191,
+      "food": "Colocasia/Taro/Tannia, cormel, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1192,
+      "food": "Elephant foot, corm, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1193,
+      "food": "Giant taro, corm, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1194,
+      "food": "Potato, Diamond, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1195,
+      "food": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1196,
+      "food": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1197,
+      "food": "Colocasia/Taro, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1198,
+      "food": "Potato, Diamond, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1201,
+      "food": "Giant taro, corm, boiled* (without salt)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1202,
+      "food": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1203,
+      "food": "Potato Mash",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1204,
+      "food": "Sunflower seeds, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1205,
+      "food": "Cashew nuts, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1206,
+      "food": "Chilgoza pine, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1207,
+      "food": "Coconut milk",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1208,
+      "food": "Coconut, desiccated",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1209,
+      "food": "Coconut, mature kernel",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1210,
+      "food": "Groundnuts/Peanut, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1211,
+      "food": "Linseed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1212,
+      "food": "Lotus seeds, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1213,
+      "food": "Lotus seeds, green",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1214,
+      "food": "Mustard seeds, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1215,
+      "food": "Pistachio nuts, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1216,
+      "food": "Pumpkin seeds, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1217,
+      "food": "Sesame seeds, whole, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1219,
+      "food": "Bay leaf, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1220,
+      "food": "Cardamom",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1221,
+      "food": "Chilli, red, dry",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1222,
+      "food": "Cinnamon, ground",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1223,
+      "food": "Cloves, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1224,
+      "food": "Coriander seed, dry",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1225,
+      "food": "Cumin seeds",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1226,
+      "food": "Fennel seeds",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1227,
+      "food": "Fenugreek seeds",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1228,
+      "food": "Ginger root, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1230,
+      "food": "Lemon grass, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1232,
+      "food": "Mace, ground",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1233,
+      "food": "Nutmeg, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1234,
+      "food": "Poppy seeds",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1235,
+      "food": "Turmeric, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1236,
+      "food": "Apple, without skin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1237,
+      "food": "Apple, with skin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1238,
+      "food": "Asian pears, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1239,
+      "food": "Banana, Sagar, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1240,
+      "food": "Breadfruit, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1241,
+      "food": "Bullocks Heart, ripe, raw Nona ata",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1242,
+      "food": "Carambola, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 72.0,
+          "src_value": 41.1,
+          "difference": 30.9,
+          "diff_pct": 75.2
+        },
+        "p": {
+          "db_value": 0.7,
+          "src_value": 2.0,
+          "difference": -1.3,
+          "diff_pct": 65.0
+        },
+        "f": {
+          "db_value": 6.7,
+          "src_value": 0.7,
+          "difference": 6.0,
+          "diff_pct": 857.1
+        },
+        "c": {
+          "db_value": 2.8,
+          "src_value": 6.7,
+          "difference": -3.9,
+          "diff_pct": 58.2
+        },
+        "fi": {
+          "db_value": 0.5,
+          "src_value": 2.8,
+          "difference": -2.3,
+          "diff_pct": 82.1
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1243,
+      "food": "Custard apple, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1245,
+      "food": "Dates, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1246,
+      "food": "Elephant apple, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1247,
+      "food": "Emblic, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 86.0,
+          "src_value": 44.5,
+          "difference": 41.5,
+          "diff_pct": 93.3
+        },
+        "p": {
+          "db_value": 0.1,
+          "src_value": 2.6,
+          "difference": -2.5,
+          "diff_pct": 96.2
+        },
+        "f": {
+          "db_value": 8.3,
+          "src_value": 0.1,
+          "difference": 8.2,
+          "diff_pct": 8200.0
+        },
+        "c": {
+          "db_value": 3.4,
+          "src_value": 8.3,
+          "difference": -4.9,
+          "diff_pct": 59.0
+        },
+        "fi": {
+          "db_value": 0.7,
+          "src_value": 3.4,
+          "difference": -2.7,
+          "diff_pct": 79.4
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1248,
+      "food": "Fig, ripe, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 68.0,
+          "src_value": 40.2,
+          "difference": 27.8,
+          "diff_pct": 69.2
+        },
+        "p": {
+          "db_value": 0.2,
+          "src_value": 2.9,
+          "difference": -2.7,
+          "diff_pct": 93.1
+        },
+        "f": {
+          "db_value": 6.7,
+          "src_value": 0.2,
+          "difference": 6.5,
+          "diff_pct": 3250.0
+        },
+        "c": {
+          "db_value": 3.1,
+          "src_value": 6.7,
+          "difference": -3.6,
+          "diff_pct": 53.7
+        },
+        "fi": {
+          "db_value": 0.6,
+          "src_value": 3.1,
+          "difference": -2.5,
+          "diff_pct": 80.6
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1249,
+      "food": "Grapes, green, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1250,
+      "food": "Guava, green, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1251,
+      "food": "Hog plum, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1252,
+      "food": "Jackfruit, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1253,
+      "food": "Jambolan, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 64.0,
+          "src_value": 39.2,
+          "difference": 24.8,
+          "diff_pct": 63.3
+        },
+        "p": {
+          "db_value": 0.5,
+          "src_value": 2.6,
+          "difference": -2.1,
+          "diff_pct": 80.8
+        },
+        "f": {
+          "db_value": 6.1,
+          "src_value": 0.5,
+          "difference": 5.6,
+          "diff_pct": 1120.0
+        },
+        "c": {
+          "db_value": 3.5,
+          "src_value": 6.1,
+          "difference": -2.6,
+          "diff_pct": 42.6
+        },
+        "fi": {
+          "db_value": 0.8,
+          "src_value": 3.5,
+          "difference": -2.7,
+          "diff_pct": 77.1
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1254,
+      "food": "Jambos, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 69.0,
+          "src_value": 40.4,
+          "difference": 28.6,
+          "diff_pct": 70.8
+        },
+        "p": {
+          "db_value": 0.3,
+          "src_value": 1.4,
+          "difference": -1.1,
+          "diff_pct": 78.6
+        },
+        "f": {
+          "db_value": 8.0,
+          "src_value": 0.3,
+          "difference": 7.7,
+          "diff_pct": 2566.7
+        },
+        "c": {
+          "db_value": 1.2,
+          "src_value": 8.0,
+          "difference": -6.8,
+          "diff_pct": 85.0
+        },
+        "fi": {
+          "db_value": 0.3,
+          "src_value": 1.2,
+          "difference": -0.9,
+          "diff_pct": 75.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1255,
+      "food": "Java apple, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1256,
+      "food": "Jujube, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1257,
+      "food": "Lemon, Kagoji, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1258,
+      "food": "Lime, sweet, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 77.0,
+          "src_value": 42.3,
+          "difference": 34.7,
+          "diff_pct": 82.0
+        },
+        "p": {
+          "db_value": 0.5,
+          "src_value": 0.9,
+          "difference": -0.4,
+          "diff_pct": 44.4
+        },
+        "f": {
+          "db_value": 8.5,
+          "src_value": 0.5,
+          "difference": 8.0,
+          "diff_pct": 1600.0
+        },
+        "c": {
+          "db_value": 0.5,
+          "src_value": 8.5,
+          "difference": -8.0,
+          "diff_pct": 94.1
+        },
+        "fi": {
+          "db_value": 0.6,
+          "src_value": 0.5,
+          "difference": 0.1,
+          "diff_pct": 20.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1259,
+      "food": "Mango, Langra, yellow flesh, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1260,
+      "food": "Melon, Futi, orange flesh, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1261,
+      "food": "Orange juice, raw (unsweetened)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1262,
+      "food": "Orange, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 86.0,
+          "src_value": 44.5,
+          "difference": 41.5,
+          "diff_pct": 93.3
+        },
+        "p": {
+          "db_value": 0.2,
+          "src_value": 2.0,
+          "difference": -1.8,
+          "diff_pct": 90.0
+        },
+        "f": {
+          "db_value": 8.7,
+          "src_value": 0.2,
+          "difference": 8.5,
+          "diff_pct": 4250.0
+        },
+        "c": {
+          "db_value": 2.4,
+          "src_value": 8.7,
+          "difference": -6.3,
+          "diff_pct": 72.4
+        },
+        "fi": {
+          "db_value": 0.3,
+          "src_value": 2.4,
+          "difference": -2.1,
+          "diff_pct": 87.5
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1263,
+      "food": "Orange, sweet, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1266,
+      "food": "Papaya, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1267,
+      "food": "Persimmon, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1268,
+      "food": "Pineapple, Joldugee, ripe, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 81.0,
+          "src_value": 43.3,
+          "difference": 37.7,
+          "diff_pct": 87.1
+        },
+        "p": {
+          "db_value": 0.4,
+          "src_value": 1.6,
+          "difference": -1.2,
+          "diff_pct": 75.0
+        },
+        "f": {
+          "db_value": 8.3,
+          "src_value": 0.4,
+          "difference": 7.9,
+          "diff_pct": 1975.0
+        },
+        "c": {
+          "db_value": 1.4,
+          "src_value": 8.3,
+          "difference": -6.9,
+          "diff_pct": 83.1
+        },
+        "fi": {
+          "db_value": 0.3,
+          "src_value": 1.4,
+          "difference": -1.1,
+          "diff_pct": 78.6
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1269,
+      "food": "Pineapple, ripe, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 97.0,
+          "src_value": 47.1,
+          "difference": 49.9,
+          "diff_pct": 105.9
+        },
+        "p": {
+          "db_value": 0.1,
+          "src_value": 1.9,
+          "difference": -1.8,
+          "diff_pct": 94.7
+        },
+        "f": {
+          "db_value": 9.7,
+          "src_value": 0.1,
+          "difference": 9.6,
+          "diff_pct": 9600.0
+        },
+        "c": {
+          "db_value": 1.4,
+          "src_value": 9.7,
+          "difference": -8.3,
+          "diff_pct": 85.6
+        },
+        "fi": {
+          "db_value": 0.6,
+          "src_value": 1.4,
+          "difference": -0.8,
+          "diff_pct": 57.1
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1270,
+      "food": "Pomegranate, ripe, with seed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1271,
+      "food": "Pomelo, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1273,
+      "food": "Watermelon, ripe, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1275,
+      "food": "Anchovy, Gangetic hairfin, dried",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1276,
+      "food": "Anchovy, Gangetic hairfin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1278,
+      "food": "Anchovy, Scaly hairfin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1280,
+      "food": "Barb, Olive, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1282,
+      "food": "Bata, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1283,
+      "food": "Boal, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1284,
+      "food": "Bronze feather back, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1285,
+      "food": "Calbasu, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1286,
+      "food": "Catfish, Bacha, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1287,
+      "food": "Catfish, Pabda, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1288,
+      "food": "Catla, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1291,
+      "food": "Common carp, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1294,
+      "food": "Gangetic ailia, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1295,
+      "food": "Gangetic mystus, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1296,
+      "food": "Giant river-catfish, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1298,
+      "food": "Giant sea perch, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1299,
+      "food": "Goby, Tank goby, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1300,
+      "food": "Hilsha, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1301,
+      "food": "Indian river shad, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1304,
+      "food": "Minnow, Finescale razorbelly, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1306,
+      "food": "Minnow, Large scale razorbelly, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1307,
+      "food": "Mrigal carp, eyes included, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1309,
+      "food": "Mussel/Clam, mixed species, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1310,
+      "food": "Pangas, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1311,
+      "food": "Pomfret, Black, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1312,
+      "food": "Pomfret, Chinese Silver, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1320,
+      "food": "Prawn, Monsoon river prawn, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1321,
+      "food": "Rohu, river, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1322,
+      "food": "Rohu, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1323,
+      "food": "Shrimp, Speckled, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1326,
+      "food": "Spotted snakehead, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1327,
+      "food": "Stinging catfish, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1328,
+      "food": "Stone roller, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1329,
+      "food": "Striped snake-head, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1330,
+      "food": "Tuna, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1331,
+      "food": "Walking catfish, without bones, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1332,
+      "food": "Small fish fry",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1333,
+      "food": "Fish ball* Macher",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1334,
+      "food": "Beef liver, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1335,
+      "food": "Beef, meat, lean, boneless, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1336,
+      "food": "Beef, meat, 15-20% fat, boneless, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1337,
+      "food": "Beef, mince, lean, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1338,
+      "food": "Buffalo meat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1339,
+      "food": "Chicken breast, without skin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1340,
+      "food": "Chicken leg, without skin, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1341,
+      "food": "Chicken liver, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1342,
+      "food": "Duck, meat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1344,
+      "food": "Goat meat, lean, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1345,
+      "food": "Lamb/mutton, meat, moderately fat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1346,
+      "food": "Lamb/Mutton, liver, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1348,
+      "food": "Pork, meat, <5 % fat, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1349,
+      "food": "Beef handi kabab",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1350,
+      "food": "Egg, chicken, farmed, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1351,
+      "food": "Egg, chicken, native, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 55.0,
+          "src_value": 156.5,
+          "difference": -101.5,
+          "diff_pct": 64.9
+        },
+        "p": {
+          "db_value": 11.6,
+          "src_value": 13.0,
+          "difference": -1.4,
+          "diff_pct": 10.8
+        },
+        "f": {
+          "db_value": 0.0,
+          "src_value": 11.6,
+          "difference": -11.6,
+          "diff_pct": 100.0
+        },
+        "c": {
+          "db_value": 0.9,
+          "src_value": 0.0,
+          "difference": 0.9,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 11.0,
+          "src_value": 0.9,
+          "difference": 10.1,
+          "diff_pct": 1122.2
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1353,
+      "food": "Egg, duck, whole, raw",
+      "mismatches": {
+        "k": {
+          "db_value": 78.2,
+          "src_value": 186.9,
+          "difference": -108.7,
+          "diff_pct": 58.2
+        },
+        "p": {
+          "db_value": 14.3,
+          "src_value": 13.1,
+          "difference": 1.2,
+          "diff_pct": 9.2
+        },
+        "f": {
+          "db_value": 1.4,
+          "src_value": 14.3,
+          "difference": -12.9,
+          "diff_pct": 90.2
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 1.4,
+          "difference": -1.4,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 1.1,
+          "src_value": 0.0,
+          "difference": 1.1,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1355,
+      "food": "Egg, chicken, native, boiled* (without salt)",
+      "mismatches": {
+        "k": {
+          "db_value": 45.0,
+          "src_value": 178.1,
+          "difference": -133.1,
+          "diff_pct": 74.7
+        },
+        "p": {
+          "db_value": 13.2,
+          "src_value": 14.8,
+          "difference": -1.6,
+          "diff_pct": 10.8
+        },
+        "f": {
+          "db_value": 0.0,
+          "src_value": 13.2,
+          "difference": -13.2,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 1.0,
+          "src_value": 0.0,
+          "difference": 1.0,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1356,
+      "food": "Egg, duck, whole, boiled* (without salt)",
+      "mismatches": {
+        "k": {
+          "db_value": 88.9,
+          "src_value": 212.5,
+          "difference": -123.6,
+          "diff_pct": 58.2
+        },
+        "p": {
+          "db_value": 16.2,
+          "src_value": 15.1,
+          "difference": 1.1,
+          "diff_pct": 7.3
+        },
+        "f": {
+          "db_value": 1.6,
+          "src_value": 16.2,
+          "difference": -14.6,
+          "diff_pct": 90.1
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 1.6,
+          "difference": -1.6,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 1.2,
+          "src_value": 0.0,
+          "difference": 1.2,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1357,
+      "food": "Buttermilk, fluid, low fat",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1358,
+      "food": "Cheese, cottage, 25% fat",
+      "mismatches": {
+        "k": {
+          "db_value": 144.0,
+          "src_value": 344.2,
+          "difference": -200.2,
+          "diff_pct": 58.2
+        },
+        "p": {
+          "db_value": 25.1,
+          "src_value": 24.2,
+          "difference": 0.9,
+          "diff_pct": 3.7
+        },
+        "f": {
+          "db_value": 5.4,
+          "src_value": 25.1,
+          "difference": -19.7,
+          "diff_pct": 78.5
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 5.4,
+          "difference": -5.4,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 4.6,
+          "src_value": 0.0,
+          "difference": 4.6,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1359,
+      "food": "Curd, sweetened, whole milk",
+      "mismatches": {
+        "k": {
+          "db_value": 96.0,
+          "src_value": 94.6,
+          "difference": 1.4,
+          "diff_pct": 1.5
+        },
+        "p": {
+          "db_value": 4.0,
+          "src_value": 3.2,
+          "difference": 0.8,
+          "diff_pct": 25.0
+        },
+        "f": {
+          "db_value": 11.4,
+          "src_value": 4.0,
+          "difference": 7.4,
+          "diff_pct": 185.0
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 11.4,
+          "difference": -11.4,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 0.8,
+          "src_value": 0.0,
+          "difference": 0.8,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1360,
+      "food": "Milk, buffalo, whole fat",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1362,
+      "food": "Milk, cow, powder, whole",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1363,
+      "food": "Milk, cow, skimmed",
+      "mismatches": {
+        "p": {
+          "db_value": 3.1,
+          "src_value": 3.2,
+          "difference": -0.1,
+          "diff_pct": 3.1
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1364,
+      "food": "Milk, cow, whole fat (pasteurized, UTH)",
+      "mismatches": {
+        "k": {
+          "db_value": 63.0,
+          "src_value": 62.9,
+          "difference": 0.1,
+          "diff_pct": 0.2
+        },
+        "p": {
+          "db_value": 3.7,
+          "src_value": 3.1,
+          "difference": 0.6,
+          "diff_pct": 19.4
+        },
+        "f": {
+          "db_value": 4.3,
+          "src_value": 3.7,
+          "difference": 0.6,
+          "diff_pct": 16.2
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 4.3,
+          "difference": -4.3,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 0.6,
+          "src_value": 0.0,
+          "difference": 0.6,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1365,
+      "food": "Milk, goat, combined breeds",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1366,
+      "food": "Milk, human, colostrum, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1368,
+      "food": "Butter, salted",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1369,
+      "food": "Cottonseed oil",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1370,
+      "food": "Fish oil, cod liver",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1371,
+      "food": "Ghee, cow",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1372,
+      "food": "Ghee, vegetable",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1373,
+      "food": "Margarine Margarine",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1374,
+      "food": "Mayonnaise, salted",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1375,
+      "food": "Mustard oil",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1376,
+      "food": "Palm oil",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1377,
+      "food": "Peanut oil China badam",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1378,
+      "food": "Sesame oil",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1379,
+      "food": "Soybean oil",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1381,
+      "food": "Coffee, instant, with sugar and milk",
+      "mismatches": {
+        "k": {
+          "db_value": 60.0,
+          "src_value": 38.2,
+          "difference": 21.8,
+          "diff_pct": 57.1
+        },
+        "p": {
+          "db_value": 0.8,
+          "src_value": 1.0,
+          "difference": -0.2,
+          "diff_pct": 20.0
+        },
+        "f": {
+          "db_value": 6.8,
+          "src_value": 0.8,
+          "difference": 6.0,
+          "diff_pct": 750.0
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 6.8,
+          "difference": -6.8,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 0.3,
+          "src_value": 0.0,
+          "difference": 0.3,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1383,
+      "food": "Soft drinks, carbonated",
+      "mismatches": {
+        "k": {
+          "db_value": 75.0,
+          "src_value": 41.8,
+          "difference": 33.2,
+          "diff_pct": 79.4
+        },
+        "p": {
+          "db_value": 0.0,
+          "src_value": 0.1,
+          "difference": -0.1,
+          "diff_pct": 100.0
+        },
+        "f": {
+          "db_value": 10.3,
+          "src_value": 0.0,
+          "difference": 10.3,
+          "diff_pct": 100.0
+        },
+        "c": {
+          "db_value": 0.0,
+          "src_value": 10.3,
+          "difference": -10.3,
+          "diff_pct": 100.0
+        },
+        "fi": {
+          "db_value": 0.1,
+          "src_value": 0.0,
+          "difference": 0.1,
+          "diff_pct": 100.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1384,
+      "food": "Soya milk (not sweetened)",
+      "mismatches": {
+        "p": {
+          "db_value": 3.1,
+          "src_value": 3.2,
+          "difference": -0.1,
+          "diff_pct": 3.1
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1385,
+      "food": "Sugar cane juice",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1386,
+      "food": "Tea, milk tea (with sugar and milk powder)",
+      "mismatches": {
+        "k": {
+          "db_value": 72.0,
+          "src_value": 41.1,
+          "difference": 30.9,
+          "diff_pct": 75.2
+        },
+        "p": {
+          "db_value": 0.8,
+          "src_value": 0.9,
+          "difference": -0.1,
+          "diff_pct": 11.1
+        },
+        "f": {
+          "db_value": 7.6,
+          "src_value": 0.8,
+          "difference": 6.8,
+          "diff_pct": 850.0
+        },
+        "c": {
+          "db_value": 0.2,
+          "src_value": 7.6,
+          "difference": -7.4,
+          "diff_pct": 97.4
+        },
+        "fi": {
+          "db_value": 0.3,
+          "src_value": 0.2,
+          "difference": 0.1,
+          "diff_pct": 50.0
+        }
+      },
+      "clean": false
+    },
+    {
+      "id": 1387,
+      "food": "Tea, infusion (with sugar)",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1389,
+      "food": "Baking powder",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1390,
+      "food": "Betel leaves, raw",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1391,
+      "food": "Honey",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1392,
+      "food": "Jaggery, sugarcane, solid",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1393,
+      "food": "Jaggery/Panela, date palm",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1394,
+      "food": "Jaggery, liquid, date palm",
+      "mismatches": {},
+      "clean": true
+    },
+    {
+      "id": 1395,
+      "food": "Sugar, white",
+      "mismatches": {},
+      "clean": true
+    }
+  ]
+}

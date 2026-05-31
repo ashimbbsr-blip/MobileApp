@@ -1,0 +1,342 @@
+{
+  "total_checked": 287,
+  "failures": 22,
+  "rules_applied": {
+    "fruit": {
+      "protein": 10,
+      "fat": 10,
+      "kcal": 200
+    },
+    "vegetable": {
+      "protein": 20,
+      "fat": 15,
+      "kcal": 250
+    },
+    "grain": {
+      "protein": 30,
+      "fat": 25,
+      "kcal": 500
+    },
+    "legume": {
+      "protein": 50,
+      "fat": 30,
+      "kcal": 500
+    },
+    "fish": {
+      "protein": 40,
+      "fat": 40,
+      "kcal": 500
+    },
+    "meat": {
+      "protein": 50,
+      "fat": 60,
+      "kcal": 700
+    },
+    "dairy": {
+      "protein": 30,
+      "fat": 100,
+      "kcal": 950
+    },
+    "fat": {
+      "protein": 5,
+      "fat": 105,
+      "kcal": 950
+    },
+    "spice": {
+      "protein": 30,
+      "fat": 30,
+      "kcal": 700
+    },
+    "sweet": {
+      "protein": 10,
+      "fat": 20,
+      "kcal": 700
+    },
+    "beverage": {
+      "protein": 25,
+      "fat": 15,
+      "kcal": 600
+    },
+    "snack": {
+      "protein": 40,
+      "fat": 60,
+      "kcal": 750
+    }
+  },
+  "records": [
+    {
+      "source_id": 1124,
+      "food": "Garlic, raw",
+      "cat": "vegetable",
+      "energy": 623.0,
+      "protein": 0.0,
+      "fat": 27.6,
+      "violations": [
+        "fat=27.6 > max 15",
+        "kcal=623.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1206,
+      "food": "Chilgoza pine, dried",
+      "cat": "snack",
+      "energy": 673.0,
+      "protein": 13.7,
+      "fat": 68.4,
+      "violations": [
+        "fat=68.4 > max 60"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1208,
+      "food": "Coconut, desiccated",
+      "cat": "snack",
+      "energy": 650.0,
+      "protein": 6.9,
+      "fat": 65.0,
+      "violations": [
+        "fat=65.0 > max 60"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1219,
+      "food": "Bay leaf, dried",
+      "cat": "vegetable",
+      "energy": 353.0,
+      "protein": 7.6,
+      "fat": 8.4,
+      "violations": [
+        "kcal=353.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1220,
+      "food": "Cardamom",
+      "cat": "vegetable",
+      "energy": 261.0,
+      "protein": 10.2,
+      "fat": 2.2,
+      "violations": [
+        "kcal=261.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1221,
+      "food": "Chilli, red, dry",
+      "cat": "vegetable",
+      "energy": 313.0,
+      "protein": 15.9,
+      "fat": 6.2,
+      "violations": [
+        "kcal=313.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1223,
+      "food": "Cloves, dried",
+      "cat": "vegetable",
+      "energy": 267.0,
+      "protein": 5.2,
+      "fat": 8.9,
+      "violations": [
+        "kcal=267.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1224,
+      "food": "Coriander seed, dry",
+      "cat": "vegetable",
+      "energy": 336.0,
+      "protein": 14.1,
+      "fat": 16.1,
+      "violations": [
+        "fat=16.1 > max 15",
+        "kcal=336.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1225,
+      "food": "Cumin seeds",
+      "cat": "vegetable",
+      "energy": 402.0,
+      "protein": 18.3,
+      "fat": 17.6,
+      "violations": [
+        "fat=17.6 > max 15",
+        "kcal=402.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1226,
+      "food": "Fennel seeds",
+      "cat": "vegetable",
+      "energy": 329.0,
+      "protein": 15.8,
+      "fat": 14.9,
+      "violations": [
+        "kcal=329.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1227,
+      "food": "Fenugreek seeds",
+      "cat": "vegetable",
+      "energy": 330.0,
+      "protein": 21.8,
+      "fat": 6.9,
+      "violations": [
+        "protein=21.8 > max 20",
+        "kcal=330.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1232,
+      "food": "Mace, ground",
+      "cat": "vegetable",
+      "energy": 415.0,
+      "protein": 6.5,
+      "fat": 24.4,
+      "violations": [
+        "fat=24.4 > max 15",
+        "kcal=415.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1233,
+      "food": "Nutmeg, dried",
+      "cat": "vegetable",
+      "energy": 473.2,
+      "protein": 15.3,
+      "fat": 36.4,
+      "violations": [
+        "fat=36.4 > max 15",
+        "kcal=473.2 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1234,
+      "food": "Poppy seeds",
+      "cat": "vegetable",
+      "energy": 525.0,
+      "protein": 18.0,
+      "fat": 41.6,
+      "violations": [
+        "fat=41.6 > max 15",
+        "kcal=525.0 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1235,
+      "food": "Turmeric, dried",
+      "cat": "vegetable",
+      "energy": 334.6,
+      "protein": 17.5,
+      "fat": 8.4,
+      "violations": [
+        "kcal=334.6 > max 250"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1244,
+      "food": "Dates, dried",
+      "cat": "fruit",
+      "energy": 1270.0,
+      "protein": 0.0,
+      "fat": 67.5,
+      "violations": [
+        "fat=67.5 > max 10",
+        "kcal=1270.0 > max 200"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1272,
+      "food": "Tamarind, pulp, ripe, raw",
+      "cat": "fruit",
+      "energy": 1140.0,
+      "protein": 0.0,
+      "fat": 60.8,
+      "violations": [
+        "fat=60.8 > max 10",
+        "kcal=1140.0 > max 200"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1274,
+      "food": "Wood apple, ripe, raw",
+      "cat": "fruit",
+      "energy": 469.0,
+      "protein": 0.0,
+      "fat": 20.9,
+      "violations": [
+        "fat=20.9 > max 10",
+        "kcal=469.0 > max 200"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1275,
+      "food": "Anchovy, Gangetic hairfin, dried",
+      "cat": "fish",
+      "energy": 332.0,
+      "protein": 72.0,
+      "fat": 4.9,
+      "violations": [
+        "protein=72.0 > max 40"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1352,
+      "food": "Egg, chicken, native, yolk, raw",
+      "cat": "grain",
+      "energy": 322.7,
+      "protein": 15.5,
+      "fat": 27.8,
+      "violations": [
+        "fat=27.8 > max 25"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1361,
+      "food": "Milk, cow, powder, skimmed",
+      "cat": "dairy",
+      "energy": 1520.0,
+      "protein": 0.0,
+      "fat": 49.8,
+      "violations": [
+        "kcal=1520.0 > max 950"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    },
+    {
+      "source_id": 1388,
+      "food": "Tea, powder",
+      "cat": "beverage",
+      "energy": 350.0,
+      "protein": 38.0,
+      "fat": 0.0,
+      "violations": [
+        "protein=38.0 > max 25"
+      ],
+      "note": "Category boundary exceeded — verify category assignment or source value"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "source_mode": "v5_3_raw_parse",
+  "pdf_path_checked": [
+    "C:\\Users\\ideapad\\IdeaProjects\\MobileApp\\assets\\data\\FCT_10_2_14_final_version.pdf",
+    "C:\\Users\\ideapad\\IdeaProjects\\MobileApp\\FCT_10_2_14_final_version.pdf",
+    "C:\\Users\\ideapad\\Downloads\\FCT_10_2_14_final_version.pdf",
+    "C:\\Users\\ideapad\\Desktop\\FCT_10_2_14_final_version.pdf",
+    "C:\\Users\\ideapad\\Documents\\FCT_10_2_14_final_version.pdf"
+  ],
+  "pdf_found": null,
+  "total_bd_fct_records_v5_3": 287,
+  "total_bd_fct_records_v5_8": 283,
+  "dropped_between_v5_3_v5_8": {
+    "ids": [
+      1081,
+      1182,
+      1189,
+      1352
+    ],
+    "reason": "Identified as duplicates during v5_3→v5_4 cleanup"
+  },
+  "primary_root_cause": {
+    "type": "column_shift",
+    "subtype_A": "kJ_stored_as_kcal + full_column_shift (pdfplumber dropped (kcal) column)",
+    "subtype_B": "macro_only_shift (k already in kcal, but p/f/c in wrong columns)",
+    "confidence": "99%",
+    "source": "extract_fct_bangladesh.py parse_proximate_line(), extract_fct_v2.py extract_proximate()"
+  },
+  "secondary_root_cause": {
+    "type": "cascading_repair_damage",
+    "description": "v5_5 cleanup script incorrectly repaired some items (e.g. egg native k=655→55). The v5_6 regression detector did not restore these because k changed >30%.",
+    "known_affected": [
+      1351
+    ]
+  },
+  "tier_breakdown": {
+    "T0_correct": 163,
+    "T1_kJ": 101,
+    "TX_unresolvable": 7,
+    "T2_macro": 12
+  },
+  "tier_definitions": {
+    "T0_correct": "Energy consistent (≤25% diff), values correct as-is",
+    "T1_kJ": "k is kJ (k > category ceiling), full column shift",
+    "T2_macro": "k is kcal but macros in wrong columns (macro-only shift)",
+    "TX_kJ_negative_protein": "k appears to be kJ but derived protein is negative — manual review",
+    "TX_unresolvable": "Energy inconsistent, no clean fix possible — manual review"
+  },
+  "evidence": [
+    "Wheat flour (id=1089): v5_3 k=1470 (kJ), corrected k=351 kcal, known USDA value=349 kcal ✓",
+    "Buffalo milk (id=1360): v5_3 k=421 (kJ), corrected k=100.6 kcal ✓",
+    "Goat milk (id=1365): v5_3 k=285 (kJ), corrected k=68.1 kcal ✓",
+    "Coffee powder (id=1382): v5_3 k=330 (kcal — not kJ), macro-only shift, derived p=6.0g",
+    "Egg native (id=1351): v5_3 k=655 (kJ), correct=156.5 kcal — v5_5 incorrectly set to 55",
+    "Peanuts (id=1210): v5_3 k=567, energy_diff=2.5% — correct, no change needed",
+    "Oils (all): k=884-902, fat=99-100g — correct, no change needed"
+  ]
+}
