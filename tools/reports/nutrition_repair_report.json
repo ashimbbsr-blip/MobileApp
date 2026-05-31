@@ -1,0 +1,1882 @@
+[
+  {
+    "id": 68,
+    "en": "Cheese toast",
+    "field": "f",
+    "old": 122.0,
+    "new": 12.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 68,
+    "en": "Cheese toast",
+    "field": "k",
+    "old": 1138.8,
+    "new": 138.8,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "field": "c",
+    "old": 60.5,
+    "new": 6.0,
+    "reason": "c÷10"
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "field": "f",
+    "old": 31.2,
+    "new": 3.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 108,
+    "en": "Paneer cutlet",
+    "field": "f",
+    "old": 125.5,
+    "new": 12.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 108,
+    "en": "Paneer cutlet",
+    "field": "k",
+    "old": 1215.6,
+    "new": 215.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 134,
+    "en": "Spaghetti and cheese balls in tomato sauce",
+    "field": "f",
+    "old": 502.9,
+    "new": 50.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 134,
+    "en": "Spaghetti and cheese balls in tomato sauce",
+    "field": "k",
+    "old": 4908.4,
+    "new": 908.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 135,
+    "en": "Strawberry and vanilla cake with butter icing",
+    "field": "c",
+    "old": 51.6,
+    "new": 5.2,
+    "reason": "c÷10"
+  },
+  {
+    "id": 161,
+    "en": "Rice moong dal cheela",
+    "field": "f",
+    "old": 120.2,
+    "new": 12.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 161,
+    "en": "Rice moong dal cheela",
+    "field": "k",
+    "old": 1163.5,
+    "new": 163.5,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "field": "p",
+    "old": 6.1,
+    "new": 0.6,
+    "reason": "p÷10"
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "field": "c",
+    "old": 28.4,
+    "new": 0.3,
+    "reason": "c÷100"
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "field": "f",
+    "old": 8.6,
+    "new": 0.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "field": "p",
+    "old": 6.5,
+    "new": 0.7,
+    "reason": "p÷10"
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "field": "c",
+    "old": 38.2,
+    "new": 0.4,
+    "reason": "c÷100"
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "field": "f",
+    "old": 11.0,
+    "new": 1.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "field": "p",
+    "old": 5.4,
+    "new": 0.5,
+    "reason": "p÷10"
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "field": "c",
+    "old": 31.7,
+    "new": 0.3,
+    "reason": "c÷100"
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "field": "f",
+    "old": 8.2,
+    "new": 0.8,
+    "reason": "f÷10"
+  },
+  {
+    "id": 214,
+    "en": "Fish pakora/pakoda",
+    "field": "f",
+    "old": 40.8,
+    "new": 4.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 235,
+    "en": "Tomato fish",
+    "field": "f",
+    "old": 502.4,
+    "new": 50.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 235,
+    "en": "Tomato fish",
+    "field": "k",
+    "old": 4740.8,
+    "new": 740.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 239,
+    "en": "Apple banana pie",
+    "field": "c",
+    "old": 124.8,
+    "new": 12.5,
+    "reason": "c÷10"
+  },
+  {
+    "id": 240,
+    "en": "Apple cinnamon pie",
+    "field": "c",
+    "old": 59.7,
+    "new": 6.0,
+    "reason": "c÷10"
+  },
+  {
+    "id": 259,
+    "en": "Dry mango chutney",
+    "field": "c",
+    "old": 19.2,
+    "new": 1.9,
+    "reason": "c÷10"
+  },
+  {
+    "id": 268,
+    "en": "Mango cheesecake",
+    "field": "c",
+    "old": 34.9,
+    "new": 3.5,
+    "reason": "c÷10"
+  },
+  {
+    "id": 269,
+    "en": "Mango malpua",
+    "field": "f",
+    "old": 120.5,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 269,
+    "en": "Mango malpua",
+    "field": "k",
+    "old": 1314.7,
+    "new": 314.7,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 271,
+    "en": "Mango murabba candy",
+    "field": "c",
+    "old": 58.8,
+    "new": 5.9,
+    "reason": "c÷10"
+  },
+  {
+    "id": 271,
+    "en": "Mango murabba candy",
+    "field": "k",
+    "old": 222.9,
+    "new": 22.3,
+    "reason": "kcal÷10"
+  },
+  {
+    "id": 276,
+    "en": "Orange chiffon pie",
+    "field": "c",
+    "old": 161.6,
+    "new": 16.2,
+    "reason": "c÷10"
+  },
+  {
+    "id": 290,
+    "en": "Raw banana kofta curry",
+    "field": "f",
+    "old": 494.3,
+    "new": 49.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 290,
+    "en": "Raw banana kofta curry",
+    "field": "k",
+    "old": 4561.3,
+    "new": 561.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 298,
+    "en": "Flattened rice cutlet",
+    "field": "f",
+    "old": 244.8,
+    "new": 24.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 298,
+    "en": "Flattened rice cutlet",
+    "field": "k",
+    "old": 2325.0,
+    "new": 325.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 330,
+    "en": "Chicken pakora/pakoda",
+    "field": "f",
+    "old": 41.8,
+    "new": 4.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 349,
+    "en": "Mutton chops",
+    "field": "f",
+    "old": 249.3,
+    "new": 24.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 349,
+    "en": "Mutton chops",
+    "field": "k",
+    "old": 2320.3,
+    "new": 320.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 357,
+    "en": "Shahi keema kofta curry",
+    "field": "f",
+    "old": 270.4,
+    "new": 27.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 359,
+    "en": "Tandoori chicken",
+    "field": "p",
+    "old": 234.3,
+    "new": 23.4,
+    "reason": "p÷10"
+  },
+  {
+    "id": 359,
+    "en": "Tandoori chicken",
+    "field": "k",
+    "old": 2092.0,
+    "new": 1092.0,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 382,
+    "en": "Peanut cutlet",
+    "field": "f",
+    "old": 250.7,
+    "new": 25.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 382,
+    "en": "Peanut cutlet",
+    "field": "k",
+    "old": 2367.7,
+    "new": 367.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "field": "c",
+    "old": 118.0,
+    "new": 11.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "field": "f",
+    "old": 41.8,
+    "new": 4.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 422,
+    "en": "Chocolate meringue pie",
+    "field": "c",
+    "old": 53.1,
+    "new": 5.3,
+    "reason": "c÷10"
+  },
+  {
+    "id": 437,
+    "en": "Cranberry cookies",
+    "field": "c",
+    "old": 67.6,
+    "new": 6.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 440,
+    "en": "Dahi vadas/Dahi bhalla",
+    "field": "f",
+    "old": 121.3,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 440,
+    "en": "Dahi vadas/Dahi bhalla",
+    "field": "k",
+    "old": 1150.2,
+    "new": 150.2,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "field": "p",
+    "old": 8.9,
+    "new": 0.9,
+    "reason": "p÷10"
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "field": "c",
+    "old": 24.8,
+    "new": 0.2,
+    "reason": "c÷100"
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "field": "f",
+    "old": 5.4,
+    "new": 0.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 461,
+    "en": "Fruit flan",
+    "field": "c",
+    "old": 161.5,
+    "new": 16.1,
+    "reason": "c÷10"
+  },
+  {
+    "id": 478,
+    "en": "Gujarati handvo",
+    "field": "c",
+    "old": 221.9,
+    "new": 22.2,
+    "reason": "c÷10"
+  },
+  {
+    "id": 481,
+    "en": "Gunjia",
+    "field": "f",
+    "old": 122.8,
+    "new": 12.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 481,
+    "en": "Gunjia",
+    "field": "k",
+    "old": 1166.2,
+    "new": 166.2,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "field": "c",
+    "old": 33.8,
+    "new": 3.4,
+    "reason": "c÷10"
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "field": "f",
+    "old": 30.0,
+    "new": 3.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 505,
+    "en": "Lemon chiffon pie",
+    "field": "c",
+    "old": 148.1,
+    "new": 14.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "field": "c",
+    "old": 66.0,
+    "new": 6.6,
+    "reason": "c÷10"
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "field": "f",
+    "old": 36.0,
+    "new": 3.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 508,
+    "en": "Lemon meringue pie",
+    "field": "c",
+    "old": 55.1,
+    "new": 5.5,
+    "reason": "c÷10"
+  },
+  {
+    "id": 528,
+    "en": "Methi chaman",
+    "field": "f",
+    "old": 509.8,
+    "new": 51.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 546,
+    "en": "Pea kofta curry",
+    "field": "f",
+    "old": 494.8,
+    "new": 49.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 546,
+    "en": "Pea kofta curry",
+    "field": "k",
+    "old": 4649.2,
+    "new": 649.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 549,
+    "en": "Peach blueberry preserves",
+    "field": "c",
+    "old": 176.9,
+    "new": 17.7,
+    "reason": "c÷10"
+  },
+  {
+    "id": 549,
+    "en": "Peach blueberry preserves",
+    "field": "k",
+    "old": 685.6,
+    "new": 85.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 551,
+    "en": "Pear preserves",
+    "field": "c",
+    "old": 153.0,
+    "new": 15.3,
+    "reason": "c÷10"
+  },
+  {
+    "id": 563,
+    "en": "Poshtik cutlet",
+    "field": "f",
+    "old": 122.7,
+    "new": 12.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 563,
+    "en": "Poshtik cutlet",
+    "field": "k",
+    "old": 1195.6,
+    "new": 195.6,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 574,
+    "en": "Sago cutlet/vadas",
+    "field": "f",
+    "old": 120.1,
+    "new": 12.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 574,
+    "en": "Sago cutlet/vadas",
+    "field": "k",
+    "old": 1178.1,
+    "new": 178.1,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 579,
+    "en": "Saunth/Sonth chutney with tamarind/imli",
+    "field": "c",
+    "old": 5.9,
+    "new": 0.6,
+    "reason": "c÷10"
+  },
+  {
+    "id": 582,
+    "en": "Schezwan chutney",
+    "field": "f",
+    "old": 134.2,
+    "new": 13.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 582,
+    "en": "Schezwan chutney",
+    "field": "k",
+    "old": 1553.3,
+    "new": 553.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 588,
+    "en": "Shammi kebab",
+    "field": "f",
+    "old": 124.3,
+    "new": 12.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 588,
+    "en": "Shammi kebab",
+    "field": "k",
+    "old": 1174.0,
+    "new": 174.0,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 596,
+    "en": "Soyabean muthias",
+    "field": "f",
+    "old": 121.4,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 596,
+    "en": "Soyabean muthias",
+    "field": "k",
+    "old": 1126.4,
+    "new": 126.4,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 598,
+    "en": "Soyabean tikki",
+    "field": "f",
+    "old": 122.6,
+    "new": 12.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 598,
+    "en": "Soyabean tikki",
+    "field": "k",
+    "old": 1156.3,
+    "new": 156.3,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "field": "c",
+    "old": 73.4,
+    "new": 7.3,
+    "reason": "c÷10"
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "field": "f",
+    "old": 66.5,
+    "new": 6.7,
+    "reason": "f÷10"
+  },
+  {
+    "id": 621,
+    "en": "Vegetable cutlet",
+    "field": "f",
+    "old": 240.9,
+    "new": 24.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 621,
+    "en": "Vegetable cutlet",
+    "field": "k",
+    "old": 2247.6,
+    "new": 247.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 625,
+    "en": "Vegetable seekh kebab",
+    "field": "f",
+    "old": 121.3,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 625,
+    "en": "Vegetable seekh kebab",
+    "field": "k",
+    "old": 1136.4,
+    "new": 136.4,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 627,
+    "en": "Vegetable yakhni",
+    "field": "f",
+    "old": 251.3,
+    "new": 25.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 627,
+    "en": "Vegetable yakhni",
+    "field": "k",
+    "old": 2329.7,
+    "new": 329.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "field": "f",
+    "old": 131.4,
+    "new": 13.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 636,
+    "en": "Yam fried",
+    "field": "f",
+    "old": 250.4,
+    "new": 25.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 636,
+    "en": "Yam fried",
+    "field": "k",
+    "old": 2377.3,
+    "new": 377.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 637,
+    "en": "Yam kofta curry",
+    "field": "f",
+    "old": 253.9,
+    "new": 25.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 637,
+    "en": "Yam kofta curry",
+    "field": "k",
+    "old": 2422.4,
+    "new": 422.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 645,
+    "en": "Egg cutlet",
+    "field": "f",
+    "old": 122.5,
+    "new": 12.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 645,
+    "en": "Egg cutlet",
+    "field": "k",
+    "old": 1169.2,
+    "new": 169.2,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 650,
+    "en": "Egg pakora/pakoda",
+    "field": "f",
+    "old": 488.9,
+    "new": 48.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 650,
+    "en": "Egg pakora/pakoda",
+    "field": "k",
+    "old": 4579.2,
+    "new": 579.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "field": "f",
+    "old": 135.6,
+    "new": 13.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 660,
+    "en": "Scotch egg",
+    "field": "f",
+    "old": 248.7,
+    "new": 24.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 660,
+    "en": "Scotch egg",
+    "field": "k",
+    "old": 2318.1,
+    "new": 318.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 665,
+    "en": "Vegetarian egg kofta curry",
+    "field": "f",
+    "old": 498.3,
+    "new": 49.8,
+    "reason": "f÷10"
+  },
+  {
+    "id": 665,
+    "en": "Vegetarian egg kofta curry",
+    "field": "k",
+    "old": 4649.1,
+    "new": 649.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 666,
+    "en": "Vegeterian scotch egg",
+    "field": "f",
+    "old": 243.1,
+    "new": 24.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 666,
+    "en": "Vegeterian scotch egg",
+    "field": "k",
+    "old": 2277.3,
+    "new": 277.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 687,
+    "en": "Paneer pulao",
+    "field": "f",
+    "old": 501.1,
+    "new": 50.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 687,
+    "en": "Paneer pulao",
+    "field": "k",
+    "old": 4875.8,
+    "new": 875.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 702,
+    "en": "Bhatura",
+    "field": "f",
+    "old": 120.2,
+    "new": 12.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 702,
+    "en": "Bhatura",
+    "field": "k",
+    "old": 1154.6,
+    "new": 154.6,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 703,
+    "en": "Bhel puri",
+    "field": "f",
+    "old": 335.8,
+    "new": 33.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 705,
+    "en": "Bread pakora/pakoda",
+    "field": "f",
+    "old": 485.6,
+    "new": 48.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 705,
+    "en": "Bread pakora/pakoda",
+    "field": "k",
+    "old": 4653.4,
+    "new": 653.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 713,
+    "en": "Ginger bread man",
+    "field": "c",
+    "old": 17.9,
+    "new": 1.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 733,
+    "en": "Sweet poori",
+    "field": "f",
+    "old": 121.4,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 733,
+    "en": "Sweet poori",
+    "field": "k",
+    "old": 1193.7,
+    "new": 193.7,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 742,
+    "en": "Frozen frosty fruit salad",
+    "field": "c",
+    "old": 36.4,
+    "new": 3.6,
+    "reason": "c÷10"
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "field": "c",
+    "old": 44.9,
+    "new": 4.5,
+    "reason": "c÷10"
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "field": "f",
+    "old": 22.5,
+    "new": 2.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 775,
+    "en": "Christmas star biscuit",
+    "field": "c",
+    "old": 27.7,
+    "new": 2.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 775,
+    "en": "Christmas star biscuit",
+    "field": "k",
+    "old": 145.6,
+    "new": 45.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 778,
+    "en": "Classic club sandwich",
+    "field": "c",
+    "old": 41.3,
+    "new": 4.1,
+    "reason": "c÷10"
+  },
+  {
+    "id": 788,
+    "en": "Finger millet biscuit",
+    "field": "c",
+    "old": 39.7,
+    "new": 4.0,
+    "reason": "c÷10"
+  },
+  {
+    "id": 788,
+    "en": "Finger millet biscuit",
+    "field": "f",
+    "old": 19.4,
+    "new": 1.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 788,
+    "en": "Finger millet biscuit",
+    "field": "k",
+    "old": 345.4,
+    "new": 45.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "field": "p",
+    "old": 9.2,
+    "new": 0.9,
+    "reason": "p÷10"
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "field": "c",
+    "old": 31.6,
+    "new": 0.3,
+    "reason": "c÷100"
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "field": "f",
+    "old": 5.4,
+    "new": 0.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 798,
+    "en": "Masala green chilli pakora/pakoda",
+    "field": "f",
+    "old": 48.7,
+    "new": 4.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 798,
+    "en": "Masala green chilli pakora/pakoda",
+    "field": "k",
+    "old": 458.9,
+    "new": 58.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 799,
+    "en": "Masala onion pakora/pakoda",
+    "field": "f",
+    "old": 40.6,
+    "new": 4.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 800,
+    "en": "Masala vada",
+    "field": "f",
+    "old": 240.5,
+    "new": 24.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 800,
+    "en": "Masala vada",
+    "field": "k",
+    "old": 2228.2,
+    "new": 228.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 802,
+    "en": "Methi pakora/pakoda",
+    "field": "f",
+    "old": 484.7,
+    "new": 48.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 802,
+    "en": "Methi pakora/pakoda",
+    "field": "k",
+    "old": 4525.6,
+    "new": 525.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 808,
+    "en": "Olive biscuit",
+    "field": "c",
+    "old": 26.0,
+    "new": 2.6,
+    "reason": "c÷10"
+  },
+  {
+    "id": 809,
+    "en": "Onion pakora/pakoda",
+    "field": "f",
+    "old": 484.6,
+    "new": 48.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 809,
+    "en": "Onion pakora/pakoda",
+    "field": "k",
+    "old": 4550.2,
+    "new": 550.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 810,
+    "en": "Orange biscuit",
+    "field": "c",
+    "old": 37.6,
+    "new": 3.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 815,
+    "en": "Peanut sago vada",
+    "field": "f",
+    "old": 243.9,
+    "new": 24.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 815,
+    "en": "Peanut sago vada",
+    "field": "k",
+    "old": 2291.5,
+    "new": 291.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 827,
+    "en": "Semolina carrot vada",
+    "field": "f",
+    "old": 120.6,
+    "new": 12.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 827,
+    "en": "Semolina carrot vada",
+    "field": "k",
+    "old": 1138.5,
+    "new": 138.5,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "field": "c",
+    "old": 57.7,
+    "new": 5.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "field": "f",
+    "old": 19.5,
+    "new": 1.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "field": "k",
+    "old": 457.4,
+    "new": 57.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 844,
+    "en": "Vegetable burger",
+    "field": "f",
+    "old": 260.9,
+    "new": 26.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 844,
+    "en": "Vegetable burger",
+    "field": "k",
+    "old": 2678.9,
+    "new": 678.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 883,
+    "en": "Carrot cake",
+    "field": "c",
+    "old": 36.0,
+    "new": 3.6,
+    "reason": "c÷10"
+  },
+  {
+    "id": 891,
+    "en": "Christmas cake",
+    "field": "c",
+    "old": 50.3,
+    "new": 5.0,
+    "reason": "c÷10"
+  },
+  {
+    "id": 898,
+    "en": "Honey cake",
+    "field": "c",
+    "old": 80.3,
+    "new": 8.0,
+    "reason": "c÷10"
+  },
+  {
+    "id": 903,
+    "en": "Lotus seed halwa",
+    "field": "c",
+    "old": 143.4,
+    "new": 14.3,
+    "reason": "c÷10"
+  },
+  {
+    "id": 913,
+    "en": "Pineapple cake",
+    "field": "c",
+    "old": 120.6,
+    "new": 12.1,
+    "reason": "c÷10"
+  },
+  {
+    "id": 913,
+    "en": "Pineapple cake",
+    "field": "f",
+    "old": 47.9,
+    "new": 4.8,
+    "reason": "f÷10"
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "field": "p",
+    "old": 7.2,
+    "new": 0.7,
+    "reason": "p÷10"
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "field": "c",
+    "old": 29.5,
+    "new": 0.3,
+    "reason": "c÷100"
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "field": "f",
+    "old": 10.2,
+    "new": 1.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 927,
+    "en": "Soya chunks sweet and sour",
+    "field": "f",
+    "old": 258.4,
+    "new": 25.8,
+    "reason": "f÷10"
+  },
+  {
+    "id": 927,
+    "en": "Soya chunks sweet and sour",
+    "field": "k",
+    "old": 2312.3,
+    "new": 312.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 943,
+    "en": "Tutti frutti cake",
+    "field": "c",
+    "old": 449.0,
+    "new": 44.9,
+    "reason": "c÷10"
+  },
+  {
+    "id": 943,
+    "en": "Tutti frutti cake",
+    "field": "f",
+    "old": 107.6,
+    "new": 10.8,
+    "reason": "f÷10"
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "field": "p",
+    "old": 4.8,
+    "new": 0.5,
+    "reason": "p÷10"
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "field": "c",
+    "old": 18.5,
+    "new": 0.2,
+    "reason": "c÷100"
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "field": "f",
+    "old": 15.6,
+    "new": 0.2,
+    "reason": "f÷100"
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "field": "p",
+    "old": 3.6,
+    "new": 0.4,
+    "reason": "p÷10"
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "field": "c",
+    "old": 14.8,
+    "new": 0.1,
+    "reason": "c÷100"
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "field": "f",
+    "old": 5.9,
+    "new": 0.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 979,
+    "en": "Cabbage kofta curry",
+    "field": "f",
+    "old": 494.9,
+    "new": 49.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 979,
+    "en": "Cabbage kofta curry",
+    "field": "k",
+    "old": 4563.0,
+    "new": 563.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 987,
+    "en": "Cauliflower kofta curry",
+    "field": "f",
+    "old": 495.1,
+    "new": 49.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 987,
+    "en": "Cauliflower kofta curry",
+    "field": "k",
+    "old": 4559.3,
+    "new": 559.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 989,
+    "en": "Cauliflower pakora/pakoda",
+    "field": "f",
+    "old": 484.7,
+    "new": 48.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 989,
+    "en": "Cauliflower pakora/pakoda",
+    "field": "k",
+    "old": 4530.2,
+    "new": 530.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 994,
+    "en": "Creamed spinach and mushroom",
+    "field": "f",
+    "old": 262.6,
+    "new": 26.3,
+    "reason": "f÷10"
+  },
+  {
+    "id": 999,
+    "en": "Dum aloo",
+    "field": "f",
+    "old": 496.3,
+    "new": 49.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 999,
+    "en": "Dum aloo",
+    "field": "k",
+    "old": 4575.6,
+    "new": 575.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1002,
+    "en": "Ghiya/Lauki Kofta Curry",
+    "field": "f",
+    "old": 495.0,
+    "new": 49.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1002,
+    "en": "Ghiya/Lauki Kofta Curry",
+    "field": "k",
+    "old": 4555.1,
+    "new": 555.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1007,
+    "en": "Jackfruit kofta curry",
+    "field": "f",
+    "old": 253.8,
+    "new": 25.4,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1007,
+    "en": "Jackfruit kofta curry",
+    "field": "k",
+    "old": 2409.0,
+    "new": 409.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1009,
+    "en": "Jackfruit/Kathal",
+    "field": "f",
+    "old": 250.3,
+    "new": 25.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1009,
+    "en": "Jackfruit/Kathal",
+    "field": "k",
+    "old": 2363.8,
+    "new": 363.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1011,
+    "en": "Paneer potato cutlet",
+    "field": "f",
+    "old": 245.1,
+    "new": 24.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1011,
+    "en": "Paneer potato cutlet",
+    "field": "k",
+    "old": 2309.9,
+    "new": 309.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1018,
+    "en": "Potato bonda",
+    "field": "f",
+    "old": 121.5,
+    "new": 12.2,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1018,
+    "en": "Potato bonda",
+    "field": "k",
+    "old": 1134.1,
+    "new": 134.1,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 1025,
+    "en": "Potato kofta curry",
+    "field": "f",
+    "old": 500.7,
+    "new": 50.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1025,
+    "en": "Potato kofta curry",
+    "field": "k",
+    "old": 4645.4,
+    "new": 645.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1027,
+    "en": "Potato pakora/pakoda",
+    "field": "f",
+    "old": 484.5,
+    "new": 48.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1027,
+    "en": "Potato pakora/pakoda",
+    "field": "k",
+    "old": 4567.6,
+    "new": 567.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1034,
+    "en": "Pumpkin cookies",
+    "field": "c",
+    "old": 38.2,
+    "new": 3.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 1043,
+    "en": "Spinach chickpeas cutlet",
+    "field": "f",
+    "old": 241.3,
+    "new": 24.1,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1043,
+    "en": "Spinach chickpeas cutlet",
+    "field": "k",
+    "old": 2255.6,
+    "new": 255.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1045,
+    "en": "Spinach kofta curry",
+    "field": "f",
+    "old": 495.7,
+    "new": 49.6,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1045,
+    "en": "Spinach kofta curry",
+    "field": "k",
+    "old": 4609.5,
+    "new": 609.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1047,
+    "en": "Spinach pakora/pakoda",
+    "field": "f",
+    "old": 484.6,
+    "new": 48.5,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1047,
+    "en": "Spinach pakora/pakoda",
+    "field": "k",
+    "old": 4521.6,
+    "new": 521.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1048,
+    "en": "Spinach paneer kofta curry",
+    "field": "f",
+    "old": 498.7,
+    "new": 49.9,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1048,
+    "en": "Spinach paneer kofta curry",
+    "field": "k",
+    "old": 4620.9,
+    "new": 620.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "field": "c",
+    "old": 57.5,
+    "new": 5.8,
+    "reason": "c÷10"
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "field": "f",
+    "old": 20.1,
+    "new": 2.0,
+    "reason": "f÷10"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "field": "k",
+    "old": 194.0,
+    "new": 94.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "field": "k",
+    "old": 160.0,
+    "new": 60.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1133,
+    "en": "Okra/ladies finger, raw",
+    "field": "k",
+    "old": 164.0,
+    "new": 64.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "field": "k",
+    "old": 181.0,
+    "new": 81.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1242,
+    "en": "Carambola, raw",
+    "field": "k",
+    "old": 172.0,
+    "new": 72.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1247,
+    "en": "Emblic, raw",
+    "field": "k",
+    "old": 186.0,
+    "new": 86.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1248,
+    "en": "Fig, ripe, raw",
+    "field": "k",
+    "old": 168.0,
+    "new": 68.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "field": "k",
+    "old": 164.0,
+    "new": 64.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1254,
+    "en": "Jambos, raw",
+    "field": "k",
+    "old": 169.0,
+    "new": 69.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "field": "k",
+    "old": 177.0,
+    "new": 77.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1262,
+    "en": "Orange, raw",
+    "field": "k",
+    "old": 186.0,
+    "new": 86.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1268,
+    "en": "Pineapple, Joldugee, ripe, raw",
+    "field": "k",
+    "old": 181.0,
+    "new": 81.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1269,
+    "en": "Pineapple, ripe, raw",
+    "field": "k",
+    "old": 197.0,
+    "new": 97.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "field": "k",
+    "old": 655.0,
+    "new": 55.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "field": "k",
+    "old": 745.0,
+    "new": 45.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "field": "k",
+    "old": 396.0,
+    "new": 96.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "field": "k",
+    "old": 1520.0,
+    "new": 520.0,
+    "reason": "kcal−1000"
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "field": "k",
+    "old": 263.0,
+    "new": 63.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "field": "k",
+    "old": 160.0,
+    "new": 60.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "field": "k",
+    "old": 175.0,
+    "new": 75.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "field": "k",
+    "old": 172.0,
+    "new": 72.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1423,
+    "en": "Beer",
+    "field": "k",
+    "old": 154.0,
+    "new": 54.0,
+    "reason": "drop_1_leading_digit"
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "field": "p",
+    "old": 17.5,
+    "new": 0.2,
+    "reason": "p÷100"
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "field": "c",
+    "old": 41.2,
+    "new": 0.4,
+    "reason": "c÷100"
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "field": "f",
+    "old": 16.8,
+    "new": 0.2,
+    "reason": "f÷100"
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "field": "p",
+    "old": 8.4,
+    "new": 0.8,
+    "reason": "p÷10"
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "field": "c",
+    "old": 52.0,
+    "new": 0.5,
+    "reason": "c÷100"
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "field": "f",
+    "old": 24.5,
+    "new": 0.2,
+    "reason": "f÷100"
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "field": "p",
+    "old": 24.6,
+    "new": 0.2,
+    "reason": "p÷100"
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "field": "c",
+    "old": 7.4,
+    "new": 0.7,
+    "reason": "c÷10"
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "field": "f",
+    "old": 31.5,
+    "new": 0.3,
+    "reason": "f÷100"
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "field": "p",
+    "old": 3.8,
+    "new": 0.4,
+    "reason": "p÷10"
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "field": "c",
+    "old": 28.5,
+    "new": 0.3,
+    "reason": "c÷100"
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "field": "f",
+    "old": 1.8,
+    "new": 0.2,
+    "reason": "f÷10"
+  }
+]

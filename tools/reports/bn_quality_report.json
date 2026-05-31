@@ -1,0 +1,1148 @@
+[
+  {
+    "id": 18,
+    "en": "Apple oats chia seed smoothie",
+    "bn": "আপেল ওটস চিা সিদ সমুথিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 31,
+    "en": "Jam and fruit pancake",
+    "bn": "জাম ানদ ফরুিত পানকাকে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 62,
+    "en": "Cheese patties",
+    "bn": "চিজ পাততিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 78,
+    "en": "Cottage cheese pie",
+    "bn": "পনির পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 88,
+    "en": "Curd with potatoes",
+    "bn": "দই ওিথ পোতাতোেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 89,
+    "en": "Fruit Ice cream",
+    "bn": "ফরুিত আইসক্রিম",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 93,
+    "en": "Kadhai Paneer",
+    "bn": "কাধাি পনির",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 98,
+    "en": "Macroni cheese pie",
+    "bn": "মাকরোনি চিজ পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "bn": "দুধ কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 116,
+    "en": "Paneer patties",
+    "bn": "পনির পাততিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 120,
+    "en": "Paneer stuffed cheela/chilla",
+    "bn": "পনির সতুফফেদ চেেলা/চিললা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 128,
+    "en": "Raspberry bavarian cream",
+    "bn": "রাসপবেররয বাভারিান ক্রিম",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 150,
+    "en": "Maa chaane ki dal",
+    "bn": "মআ চাানে কি ডাল",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 161,
+    "en": "Rice moong dal cheela",
+    "bn": "ভাত মুগ ডাল চেেলা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 215,
+    "en": "Fish pie",
+    "bn": "মাছ পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 239,
+    "en": "Apple banana pie",
+    "bn": "আপেল কলা পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 240,
+    "en": "Apple cinnamon pie",
+    "bn": "আপেল কিননামোন পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 268,
+    "en": "Mango cheesecake",
+    "bn": "আম চেেসেকাকে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 269,
+    "en": "Mango malpua",
+    "bn": "আম মালপুা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 274,
+    "en": "Mango squash",
+    "bn": "আম সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 276,
+    "en": "Orange chiffon pie",
+    "bn": "কমলা চিফফোন পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 282,
+    "en": "Orange squash",
+    "bn": "কমলা সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 288,
+    "en": "Pineapple squash",
+    "bn": "আনারস সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 329,
+    "en": "Chicken manchurian",
+    "bn": "চিকেন মানচুরিান",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 350,
+    "en": "Mutton do piaza",
+    "bn": "মাটন দো পিাজা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 363,
+    "en": "Classic italian pasta",
+    "bn": "কলাসসিক িতালিান পাস্তা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 377,
+    "en": "Cherry and walnut cookies",
+    "bn": "চেররয ানদ আখরোট কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 378,
+    "en": "Chocolate walnut cookies",
+    "bn": "চোকোলাতে আখরোট কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 390,
+    "en": "Avial",
+    "bn": "াভিাল",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 393,
+    "en": "Barbeque sauce",
+    "bn": "বারবেকুে সআউকে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 394,
+    "en": "Bathua bhujia",
+    "bn": "বাথুা ভুজিা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 397,
+    "en": "Besan bathua chilla/cheela",
+    "bn": "বেসান বাথুা চিললা/চেেলা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 399,
+    "en": "Besan kadhi with pakodies",
+    "bn": "বেসান কাড়ি ওিথ পাকোদিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "bn": "কারদামোম কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 415,
+    "en": "Chhena poda",
+    "bn": "ଛେନା ପୋଡ଼ା",
+    "issues": [
+      "odia_script_in_bn_field",
+      "no_bengali_characters"
+    ]
+  },
+  {
+    "id": 416,
+    "en": "Chickpea flour cookies",
+    "bn": "চিককপো ফলউর কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 419,
+    "en": "Chocolate chip cookies",
+    "bn": "চোকোলাতে চিপ কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 422,
+    "en": "Chocolate meringue pie",
+    "bn": "চোকোলাতে মেরিনগুে পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 426,
+    "en": "Choux pastry",
+    "bn": "চোুক্স পাসতরয",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 427,
+    "en": "Choux swans",
+    "bn": "চোুক্স সওানস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 434,
+    "en": "Consomme au julienne",
+    "bn": "কোনসোমমে আউ জুলিেননে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 435,
+    "en": "Coriander chutney",
+    "bn": "কোরিানদের চাটনি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 437,
+    "en": "Cranberry cookies",
+    "bn": "করানবেররয কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 443,
+    "en": "Danish cookies",
+    "bn": "দানিশ কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 444,
+    "en": "Date and nut pie",
+    "bn": "দাতে ানদ নুত পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 451,
+    "en": "Fermented bamboo shoot pickle",
+    "bn": "ফেরমেনতেদ বামবু শোোত আচার",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 458,
+    "en": "Fruit Loaf",
+    "bn": "ফরুিত লোাফ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 460,
+    "en": "Fruit delight",
+    "bn": "ফরুিত দেলিঘত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 461,
+    "en": "Fruit flan",
+    "bn": "ফরুিত ফলান",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 465,
+    "en": "Ghujia/Lavang latika",
+    "bn": "ঘুজিা/লাভানগ লাতিকা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 477,
+    "en": "Greenpea cookies",
+    "bn": "গরিনপো কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 481,
+    "en": "Gunjia",
+    "bn": "গুনজিা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "bn": "হাজেলনুত কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 488,
+    "en": "Ice box cookies",
+    "bn": "িকে বোক্স কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 504,
+    "en": "Lemon and ginger squash",
+    "bn": "লেবু ানদ আদা সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 505,
+    "en": "Lemon chiffon pie",
+    "bn": "লেবু চিফফোন পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "bn": "লেবু কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 508,
+    "en": "Lemon meringue pie",
+    "bn": "লেবু মেরিনগুে পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 510,
+    "en": "Lemon squash",
+    "bn": "লেবু সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 513,
+    "en": "Lichi squash",
+    "bn": "লিচি সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 514,
+    "en": "Lobia curry",
+    "bn": "লোবিা তরকারি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 516,
+    "en": "Low calorie quick mayonnaise",
+    "bn": "লোও কালোরিে কুিকক মেয়োনিজ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 518,
+    "en": "Mal pua",
+    "bn": "মাল পুা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 524,
+    "en": "Mayonnaise without eggs",
+    "bn": "মেয়োনিজ ওিথোুত েগগস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 530,
+    "en": "Mint and coriander chutney",
+    "bn": "মিনত ানদ কোরিানদের চাটনি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 534,
+    "en": "Mooli bhujia",
+    "bn": "মুলি ভুজিা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 561,
+    "en": "Plum squash",
+    "bn": "পলুম সকুাশ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 562,
+    "en": "Poshtik chilla/cheela",
+    "bn": "পোশতিক চিললা/চেেলা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 570,
+    "en": "Raspberry shortbread cookies",
+    "bn": "রাসপবেররয শোরতবরোদ কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 571,
+    "en": "Roast potatoes",
+    "bn": "রোাসত পোতাতোেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 589,
+    "en": "Shepherd's pie",
+    "bn": "শেফেরদ'স পিে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 596,
+    "en": "Soyabean muthias",
+    "bn": "সোযাবোন মুথিাস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 600,
+    "en": "Starfruit preserves",
+    "bn": "সতারফরুিত পরেসেরভেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 601,
+    "en": "Stewed fruit",
+    "bn": "সতেওেদ ফরুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 602,
+    "en": "Stuffed baked potatoes",
+    "bn": "সতুফফেদ বেক পোতাতোেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 606,
+    "en": "Stuffed tomatoes",
+    "bn": "সতুফফেদ তোমাতোেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "bn": "সুনফলোওের কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 611,
+    "en": "Thousand island dressing",
+    "bn": "থোুসানদ িসলানদ দরেসসিনগ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 617,
+    "en": "Urad sabut special",
+    "bn": "ুরাদ সাবুত সপেকিাল",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 618,
+    "en": "Urad special dehusked",
+    "bn": "ুরাদ সপেকিাল দেহুসকেদ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 620,
+    "en": "Veg manchurian",
+    "bn": "সবজি মানচুরিান",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 624,
+    "en": "Vegetable patties",
+    "bn": "ভেগেতাবলে পাততিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "bn": "ভেগেতারিান নারগিসি কোফতা তরকারি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "bn": "িনদিান লামব ানদ ডিমের ঝোল",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 656,
+    "en": "Indian style egg bhujia",
+    "bn": "িনদিান সতযলে ডিম ভুজিা )",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 658,
+    "en": "Poached egg",
+    "bn": "পোাচেদ ডিম",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 663,
+    "en": "Vanilla ice cream without egg",
+    "bn": "ভানিললা আইসক্রিম ওিথোুত ডিম",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 665,
+    "en": "Vegetarian egg kofta curry",
+    "bn": "ভেগেতারিান ডিম কোফতা তরকারি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 666,
+    "en": "Vegeterian scotch egg",
+    "bn": "ভেগেতেরিান সকোতচ ডিম",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 694,
+    "en": "Quinoa khichdi/khichri",
+    "bn": "কুিনোা খিচদি/খিচরি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 699,
+    "en": "Bathua poori",
+    "bn": "বাথুা পুরি",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 719,
+    "en": "Onion-green chilli parantha/paratha",
+    "bn": "োনিোন-গরিন চিললি পারানথা/পারাথা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 729,
+    "en": "Short bread cookies",
+    "bn": "শোরত পাউরুটি কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 736,
+    "en": "Bathua raita",
+    "bn": "বাথুা রায়তা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 747,
+    "en": "Jellied sunshine fruit salad",
+    "bn": "জেললিেদ সুনশিনে ফল সালাদ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 753,
+    "en": "Russian salad",
+    "bn": "রুসসিান সালাদ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 760,
+    "en": "Almond biscuit",
+    "bn": "বাদাম বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 764,
+    "en": "Butterfly biscuit",
+    "bn": "বুততেরফলয বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "bn": "ঘোল বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 767,
+    "en": "Checker board sandwich",
+    "bn": "চেককের বোারদ স্যান্ডউইচ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 771,
+    "en": "Chocolate biscuit",
+    "bn": "চোকোলাতে বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 773,
+    "en": "Christmas bell biscuit",
+    "bn": "চরিসতমাস বেলল বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 774,
+    "en": "Christmas biscuit",
+    "bn": "চরিসতমাস বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 775,
+    "en": "Christmas star biscuit",
+    "bn": "চরিসতমাস সতার বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 776,
+    "en": "Christmas tree biscuit",
+    "bn": "চরিসতমাস তরি বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 777,
+    "en": "Christmas wreath biscuit",
+    "bn": "চরিসতমাস ওরোথ বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 780,
+    "en": "Coconut biscuit",
+    "bn": "নারকেল বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 781,
+    "en": "Coffee biscuit",
+    "bn": "কফি বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 783,
+    "en": "Danish luncheon sandwich",
+    "bn": "দানিশ লুনচেোন স্যান্ডউইচ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 788,
+    "en": "Finger millet biscuit",
+    "bn": "ফিনগের বাজরা বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 791,
+    "en": "Ginger biscuit",
+    "bn": "আদা বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 792,
+    "en": "Gingerman biscuit",
+    "bn": "গিনগেরমান বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 793,
+    "en": "Jelly biscuit",
+    "bn": "জেললয বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 797,
+    "en": "Masala biscuit",
+    "bn": "মশলা বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 808,
+    "en": "Olive biscuit",
+    "bn": "োলিভে বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 810,
+    "en": "Orange biscuit",
+    "bn": "কমলা বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 814,
+    "en": "Peanut biscuit",
+    "bn": "চিনাবাদাম বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 823,
+    "en": "Saffron biscuit",
+    "bn": "সাফফরোন বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 828,
+    "en": "Sesame biscuit",
+    "bn": "সেসামে বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "bn": "তুততি ফরুিততি বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 847,
+    "en": "Vegetarian club sandwich",
+    "bn": "ভেগেতারিান কলুব স্যান্ডউইচ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 863,
+    "en": "Lemon coriander soup",
+    "bn": "লেবু কোরিানদের স্যুপ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 867,
+    "en": "Talaumein soup",
+    "bn": "তালআউমেিন স্যুপ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 897,
+    "en": "Fruit puree tart",
+    "bn": "ফরুিত পুরি তারত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 908,
+    "en": "Meringue and rice pudding",
+    "bn": "মেরিনগুে ানদ ভাত পুদদিনগ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 916,
+    "en": "Queen of pudding",
+    "bn": "কুিন োফ পুদদিনগ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 932,
+    "en": "Sweet and salty biscuit",
+    "bn": "মিষ্টি ানদ সালতয বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 938,
+    "en": "Sweet plain biscuit",
+    "bn": "মিষ্টি সাদা বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 945,
+    "en": "Victorian sandwich cake",
+    "bn": "ভিকতোরিান স্যান্ডউইচ কাকে",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 980,
+    "en": "Cabbage manchurian",
+    "bn": "বাঁধাকপি মানচুরিান",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 992,
+    "en": "Cauliflower, pea and potato bhujia",
+    "bn": "কআউলিফলোওের, পো ানদ আলু ভুজিা",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 996,
+    "en": "Curried Cauliflower soup",
+    "bn": "কুররিেদ ফুলকপি স্যুপ",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 998,
+    "en": "Ducheese potato",
+    "bn": "দুচেেসে আলু",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 1009,
+    "en": "Jackfruit/Kathal",
+    "bn": "জাককফরুিত/কাথাল",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 1034,
+    "en": "Pumpkin cookies",
+    "bn": "কুমড়া কুকিেস",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "bn": "মিষ্টি আলু বিসকুিত",
+    "issues": [
+      "consecutive_vowel_marks_ocr"
+    ]
+  },
+  {
+    "id": 1079,
+    "en": "Rice, BR-28, parboiled, milled, raw",
+    "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া",
+    "issues": [
+      "mixed_script"
+    ]
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "bn": "ভাত, BR-28",
+    "issues": [
+      "mixed_script"
+    ]
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "bn": "মিষ্টি আলুর শাক (SP4)",
+    "issues": [
+      "mixed_script"
+    ]
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "bn": "মিষ্টি আলুর শাক (SP8)",
+    "issues": [
+      "mixed_script"
+    ]
+  },
+  {
+    "id": 1194,
+    "en": "Potato, Diamond, raw",
+    "bn": "গোল আলু, Diamond জাত",
+    "issues": [
+      "mixed_script"
+    ]
+  },
+  {
+    "id": 1336,
+    "en": "Beef, meat, 15-20% fat, boneless, raw",
+    "bn": "গরুর মাংস, ১৫-২০% চর্বি, হাড় ছাড়া",
+    "issues": [
+      "unexpected_ascii_in_bn"
+    ]
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "bn": "ପଖାଳ ଭାତ",
+    "issues": [
+      "odia_script_in_bn_field",
+      "no_bengali_characters"
+    ]
+  }
+]

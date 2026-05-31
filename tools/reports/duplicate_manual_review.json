@@ -1,0 +1,752 @@
+[
+  {
+    "id_a": 1135,
+    "en_a": "Papaya, unripe, raw",
+    "cat_a": "vegetable",
+    "id_b": 1151,
+    "en_b": "Papaya, unripe, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 88.2,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1196,
+    "en_a": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "cat_a": "vegetable",
+    "id_b": 1202,
+    "en_b": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "cat_b": "vegetable",
+    "confidence": 87.8,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 640,
+    "en_a": "Boiled Egg",
+    "cat_a": "egg",
+    "id_b": 652,
+    "en_b": "Fried Egg",
+    "cat_b": "egg",
+    "confidence": 87.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1119,
+    "en_a": "Cauliflower, raw",
+    "cat_a": "vegetable",
+    "id_b": 1146,
+    "en_b": "Cauliflower, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 87.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1193,
+    "en_a": "Giant taro, corm, raw",
+    "cat_a": "vegetable",
+    "id_b": 1201,
+    "en_b": "Giant taro, corm, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 85.8,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1132,
+    "en_a": "Gourd, teasle, raw",
+    "cat_a": "vegetable",
+    "id_b": 1149,
+    "en_b": "Gourd, teasle, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 85.5,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1128,
+    "en_a": "Gourd, pointed, raw",
+    "cat_a": "vegetable",
+    "id_b": 1148,
+    "en_b": "Gourd, pointed, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 85.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1351,
+    "en_a": "Egg, chicken, native, raw",
+    "cat_a": "meat",
+    "id_b": 1355,
+    "en_b": "Egg, chicken, native, boiled* (without salt)",
+    "cat_b": "meat",
+    "confidence": 84.6,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1138,
+    "en_a": "Pumpkin, raw",
+    "cat_a": "vegetable",
+    "id_b": 1152,
+    "en_b": "Pumpkin, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 84.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1194,
+    "en_a": "Potato, Diamond, raw",
+    "cat_a": "vegetable",
+    "id_b": 1198,
+    "en_b": "Potato, Diamond, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 84.2,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1236,
+    "en_a": "Apple, without skin, raw",
+    "cat_a": "fruit",
+    "id_b": 1237,
+    "en_b": "Apple, with skin, raw",
+    "cat_b": "fruit",
+    "confidence": 83.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1118,
+    "en_a": "Carrot, raw",
+    "cat_a": "vegetable",
+    "id_b": 1145,
+    "en_b": "Carrot, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 83.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1139,
+    "en_a": "Radish, raw",
+    "cat_a": "vegetable",
+    "id_b": 1153,
+    "en_b": "Radish, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 83.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 296,
+    "en_a": "Boiled rice",
+    "cat_a": "grain",
+    "id_b": 301,
+    "en_b": "Rice",
+    "cat_b": "grain",
+    "confidence": 83.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1353,
+    "en_a": "Egg, duck, whole, raw",
+    "cat_a": "meat",
+    "id_b": 1356,
+    "en_b": "Egg, duck, whole, boiled* (without salt)",
+    "cat_b": "meat",
+    "confidence": 82.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1045,
+    "en_a": "Spinach kofta curry",
+    "cat_a": "vegetable",
+    "id_b": 1048,
+    "en_b": "Spinach paneer kofta curry",
+    "cat_b": "vegetable",
+    "confidence": 81.1,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 75,
+    "en_a": "Coffee ice cream",
+    "cat_a": "dairy",
+    "id_b": 76,
+    "en_b": "Cold coffee with ice cream",
+    "cat_b": "dairy",
+    "confidence": 79.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 11,
+    "en_a": "Lassi",
+    "cat_a": "beverage",
+    "id_b": 194,
+    "en_b": "Salt Lassi",
+    "cat_b": "beverage",
+    "confidence": 79.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1179,
+    "en_a": "Spinach, raw",
+    "cat_a": "vegetable",
+    "id_b": 1188,
+    "en_b": "Spinach, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 79.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 151,
+    "en_a": "Masala urad dal vada",
+    "cat_a": "legume",
+    "id_b": 157,
+    "en_b": "Plain urad dal vada",
+    "cat_b": "legume",
+    "confidence": 78.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1117,
+    "en_a": "Cabbage, raw",
+    "cat_a": "vegetable",
+    "id_b": 1144,
+    "en_b": "Cabbage, boiled* (without salt)",
+    "cat_b": "vegetable",
+    "confidence": 77.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 344,
+    "en_a": "Keema kofta curry",
+    "cat_a": "meat",
+    "id_b": 357,
+    "en_b": "Shahi keema kofta curry",
+    "cat_b": "meat",
+    "confidence": 76.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 773,
+    "en_a": "Christmas bell biscuit",
+    "cat_a": "snack",
+    "id_b": 774,
+    "en_b": "Christmas biscuit",
+    "cat_b": "snack",
+    "confidence": 75.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 799,
+    "en_a": "Masala onion pakora/pakoda",
+    "cat_a": "snack",
+    "id_b": 809,
+    "en_b": "Onion pakora/pakoda",
+    "cat_b": "snack",
+    "confidence": 75.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 774,
+    "en_a": "Christmas biscuit",
+    "cat_a": "snack",
+    "id_b": 776,
+    "en_b": "Christmas tree biscuit",
+    "cat_b": "snack",
+    "confidence": 75.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 774,
+    "en_a": "Christmas biscuit",
+    "cat_a": "snack",
+    "id_b": 777,
+    "en_b": "Christmas wreath biscuit",
+    "cat_b": "snack",
+    "confidence": 75.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 254,
+    "en_a": "Cold orange souffle",
+    "cat_a": "fruit",
+    "id_b": 281,
+    "en_b": "Orange souffle",
+    "cat_b": "fruit",
+    "confidence": 75.1,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 256,
+    "en_a": "Dates",
+    "cat_a": "fruit",
+    "id_b": 1245,
+    "en_b": "Dates, raw",
+    "cat_b": "fruit",
+    "confidence": 75.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 881,
+    "en_a": "Black rice kheer",
+    "cat_a": "sweet",
+    "id_b": 918,
+    "en_b": "Rice kheer",
+    "cat_b": "sweet",
+    "confidence": 75.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1181,
+    "en_a": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat_a": "vegetable",
+    "id_b": 1183,
+    "en_b": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat_b": "vegetable",
+    "confidence": 74.6,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 858,
+    "en_a": "Garlic chickpea soup",
+    "cat_a": "soup",
+    "id_b": 859,
+    "en_b": "Garlic soup",
+    "cat_b": "soup",
+    "confidence": 74.5,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 975,
+    "en_a": "Brinjal bhartha",
+    "cat_a": "vegetable",
+    "id_b": 1015,
+    "en_b": "Peas brinjal bhartha",
+    "cat_b": "vegetable",
+    "confidence": 74.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 255,
+    "en_a": "Cold pineapple souffle",
+    "cat_a": "fruit",
+    "id_b": 287,
+    "en_b": "Pineapple souffle",
+    "cat_b": "fruit",
+    "confidence": 74.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 545,
+    "en_a": "Pea curry",
+    "cat_a": "snack",
+    "id_b": 548,
+    "en_b": "Pea vadi curry",
+    "cat_b": "snack",
+    "confidence": 74.2,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 431,
+    "en_a": "Cold lemon souffle",
+    "cat_a": "snack",
+    "id_b": 509,
+    "en_b": "Lemon souffle",
+    "cat_b": "snack",
+    "confidence": 74.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 432,
+    "en_a": "Cold vanilla souffle",
+    "cat_a": "snack",
+    "id_b": 619,
+    "en_b": "Vanilla souffle",
+    "cat_b": "snack",
+    "confidence": 73.8,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 752,
+    "en_a": "Onion raita",
+    "cat_a": "salad",
+    "id_b": 756,
+    "en_b": "Tomato onion raita",
+    "cat_b": "salad",
+    "confidence": 73.5,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1361,
+    "en_a": "Milk, cow, powder, skimmed",
+    "cat_a": "dairy",
+    "id_b": 1363,
+    "en_b": "Milk, cow, skimmed",
+    "cat_b": "dairy",
+    "confidence": 73.2,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 772,
+    "en_a": "Chocolate swiss roll",
+    "cat_a": "snack",
+    "id_b": 836,
+    "en_b": "Swiss roll",
+    "cat_b": "snack",
+    "confidence": 72.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 782,
+    "en_a": "Cucumber sandwich",
+    "cat_a": "snack",
+    "id_b": 837,
+    "en_b": "Tomato and cucumber sandwich",
+    "cat_b": "snack",
+    "confidence": 72.5,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 425,
+    "en_a": "Chocolate souffle",
+    "cat_a": "snack",
+    "id_b": 430,
+    "en_b": "Cold chocolate souffle",
+    "cat_b": "snack",
+    "confidence": 72.1,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 990,
+    "en_a": "Cauliflower potato canjee",
+    "cat_a": "vegetable",
+    "id_b": 1019,
+    "en_b": "Potato canjee",
+    "cat_b": "vegetable",
+    "confidence": 72.1,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 56,
+    "en_a": "Butter icing",
+    "cat_a": "dairy",
+    "id_b": 71,
+    "en_b": "Chocolate butter icing",
+    "cat_b": "dairy",
+    "confidence": 72.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 545,
+    "en_a": "Pea curry",
+    "cat_a": "snack",
+    "id_b": 547,
+    "en_b": "Pea mushroom curry",
+    "cat_b": "snack",
+    "confidence": 71.9,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 660,
+    "en_a": "Scotch egg",
+    "cat_a": "egg",
+    "id_b": 666,
+    "en_b": "Vegeterian scotch egg",
+    "cat_b": "egg",
+    "confidence": 71.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 886,
+    "en_a": "Chocolate cake",
+    "cat_a": "sweet",
+    "id_b": 887,
+    "en_b": "Chocolate chiffon cake",
+    "cat_b": "sweet",
+    "confidence": 71.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 724,
+    "en_a": "Plain parantha/paratha",
+    "cat_a": "bread",
+    "id_b": 735,
+    "en_b": "Tandoori parantha/paratha",
+    "cat_b": "bread",
+    "confidence": 71.3,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1268,
+    "en_a": "Pineapple, Joldugee, ripe, raw",
+    "cat_a": "fruit",
+    "id_b": 1269,
+    "en_b": "Pineapple, ripe, raw",
+    "cat_b": "fruit",
+    "confidence": 71.1,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 886,
+    "en_a": "Chocolate cake",
+    "cat_a": "sweet",
+    "id_b": 890,
+    "en_b": "Chocolate sponge cake",
+    "cat_b": "sweet",
+    "confidence": 70.8,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 65,
+    "en_a": "Cheese sauce",
+    "cat_a": "dairy",
+    "id_b": 122,
+    "en_b": "Pasta cheese sauce",
+    "cat_b": "dairy",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 84,
+    "en_a": "Curd dip",
+    "cat_a": "dairy",
+    "id_b": 86,
+    "en_b": "Curd mint dip",
+    "cat_b": "dairy",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 84,
+    "en_a": "Curd dip",
+    "cat_a": "dairy",
+    "id_b": 87,
+    "en_b": "Curd vegetable dip",
+    "cat_b": "dairy",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 251,
+    "en_a": "Coconut chutney",
+    "cat_a": "fruit",
+    "id_b": 258,
+    "en_b": "Dessicated coconut chutney",
+    "cat_b": "fruit",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 265,
+    "en_a": "Hot orange souffle",
+    "cat_a": "fruit",
+    "id_b": 281,
+    "en_b": "Orange souffle",
+    "cat_b": "fruit",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 774,
+    "en_a": "Christmas biscuit",
+    "cat_a": "snack",
+    "id_b": 775,
+    "en_b": "Christmas star biscuit",
+    "cat_b": "snack",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 778,
+    "en_a": "Classic club sandwich",
+    "cat_a": "snack",
+    "id_b": 779,
+    "en_b": "Club sandwich",
+    "cat_b": "snack",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 779,
+    "en_a": "Club sandwich",
+    "cat_a": "snack",
+    "id_b": 847,
+    "en_b": "Vegetarian club sandwich",
+    "cat_b": "snack",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 886,
+    "en_a": "Chocolate cake",
+    "cat_a": "sweet",
+    "id_b": 888,
+    "en_b": "Chocolate eggless cake",
+    "cat_b": "sweet",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 888,
+    "en_a": "Chocolate eggless cake",
+    "cat_a": "sweet",
+    "id_b": 896,
+    "en_b": "Eggless cake",
+    "cat_b": "sweet",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 890,
+    "en_a": "Chocolate sponge cake",
+    "cat_a": "sweet",
+    "id_b": 928,
+    "en_b": "Sponge cake",
+    "cat_b": "sweet",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 896,
+    "en_a": "Eggless cake",
+    "cat_a": "sweet",
+    "id_b": 910,
+    "en_b": "Orange eggless cake",
+    "cat_b": "sweet",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 909,
+    "en_a": "Orange cake",
+    "cat_a": "sweet",
+    "id_b": 910,
+    "en_b": "Orange eggless cake",
+    "cat_b": "sweet",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 985,
+    "en_a": "Cauliflower canjee",
+    "cat_a": "vegetable",
+    "id_b": 990,
+    "en_b": "Cauliflower potato canjee",
+    "cat_b": "vegetable",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 990,
+    "en_a": "Cauliflower potato canjee",
+    "cat_a": "vegetable",
+    "id_b": 1021,
+    "en_b": "Potato cauliflower",
+    "cat_b": "vegetable",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1005,
+    "en_a": "Hot spinach souffle",
+    "cat_a": "vegetable",
+    "id_b": 1051,
+    "en_b": "Spinach souffle",
+    "cat_b": "vegetable",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 1022,
+    "en_a": "Potato curry",
+    "cat_a": "vegetable",
+    "id_b": 1025,
+    "en_b": "Potato kofta curry",
+    "cat_b": "vegetable",
+    "confidence": 70.7,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 504,
+    "en_a": "Lemon and ginger squash",
+    "cat_a": "snack",
+    "id_b": 510,
+    "en_b": "Lemon squash",
+    "cat_b": "snack",
+    "confidence": 70.4,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 217,
+    "en_a": "Fish souffle",
+    "cat_a": "fish",
+    "id_b": 221,
+    "en_b": "Hot fish souffle",
+    "cat_b": "fish",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 218,
+    "en_a": "Fish tikka",
+    "cat_a": "fish",
+    "id_b": 220,
+    "en_b": "Hariyali Fish Tikka",
+    "cat_b": "fish",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 421,
+    "en_a": "Chocolate glace icing",
+    "cat_a": "snack",
+    "id_b": 468,
+    "en_b": "Glace icing",
+    "cat_b": "snack",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 425,
+    "en_a": "Chocolate souffle",
+    "cat_a": "snack",
+    "id_b": 484,
+    "en_b": "Hot chocolate souffle",
+    "cat_b": "snack",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 486,
+    "en_a": "Hot lemon souffle",
+    "cat_a": "snack",
+    "id_b": 509,
+    "en_b": "Lemon souffle",
+    "cat_b": "snack",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 487,
+    "en_a": "Hot vanilla souffle",
+    "cat_a": "snack",
+    "id_b": 619,
+    "en_b": "Vanilla souffle",
+    "cat_b": "snack",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 545,
+    "en_a": "Pea curry",
+    "cat_a": "snack",
+    "id_b": 546,
+    "en_b": "Pea kofta curry",
+    "cat_b": "snack",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  },
+  {
+    "id_a": 757,
+    "en_a": "Tossed green salad",
+    "cat_a": "salad",
+    "id_b": 758,
+    "en_b": "Tossed salad",
+    "cat_b": "salad",
+    "confidence": 70.0,
+    "note": "Possible duplicate — verify before merging"
+  }
+]

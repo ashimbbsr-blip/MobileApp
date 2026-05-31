@@ -11,9 +11,139 @@
     "fi": 8.0,
     "est_kcal": 374.8,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=8.0>carbs=3.3"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 68,
+    "en": "Cheese toast",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 138.8,
+    "p": 2.9,
+    "c": 8.0,
+    "f": 12.2,
+    "fi": 0.5,
+    "est_kcal": 153.4,
+    "diff_pct": 9.5,
+    "violations": [
+      "fat=122.0>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 90,
+    "en": "Gulab Jamun with khoya",
+    "s": "50g",
+    "s_g": 50.0,
+    "k": 918.5,
+    "p": 3.2,
+    "c": 40.9,
+    "f": 41.7,
+    "fi": 0.1,
+    "est_kcal": 551.7,
+    "diff_pct": 66.5,
+    "violations": [
+      "energy_mismatch stored=918.5 est=551.7 diff=66%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 573.6,
+    "p": 13.1,
+    "c": 6.0,
+    "f": 3.1,
+    "fi": 1.2,
+    "est_kcal": 104.3,
+    "diff_pct": 450.0,
+    "violations": [
+      "carbs=60.5>serving=25.0g",
+      "fat=31.2>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 107,
+    "en": "Paneer and pea samosa",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 841.3,
+    "p": 5.4,
+    "c": 11.5,
+    "f": 51.5,
+    "fi": 1.4,
+    "est_kcal": 531.1,
+    "diff_pct": 58.4,
+    "violations": [
+      "energy_mismatch stored=841.3 est=531.1 diff=58%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 108,
+    "en": "Paneer cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 215.0,
+    "p": 8.3,
+    "c": 13.8,
+    "f": 12.6,
+    "fi": 0.7,
+    "est_kcal": 201.8,
+    "diff_pct": 6.5,
+    "violations": [
+      "fat=125.5>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 134,
+    "en": "Spaghetti and cheese balls in tomato sauce",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 908.0,
+    "p": 23.3,
+    "c": 75.5,
+    "f": 50.3,
+    "fi": 5.7,
+    "est_kcal": 847.9,
+    "diff_pct": 7.1,
+    "violations": [
+      "kcal=4908.4>1500",
+      "fat=502.9>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 135,
+    "en": "Strawberry and vanilla cake with butter icing",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 431.7,
+    "p": 4.5,
+    "c": 5.2,
+    "f": 23.8,
+    "fi": 0.9,
+    "est_kcal": 253.0,
+    "diff_pct": 70.6,
+    "violations": [
+      "carbs=51.6>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 149,
@@ -27,9 +157,47 @@
     "fi": 10.0,
     "est_kcal": 621.5,
     "diff_pct": 80.5,
-    "issues": [
-      "kcal_mismatch stored=121.3 est=621.5 diff=80%"
-    ]
+    "violations": [
+      "energy_mismatch stored=121.3 est=621.5 diff=80%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 151,
+    "en": "Masala urad dal vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 602.0,
+    "p": 3.7,
+    "c": 8.5,
+    "f": 36.8,
+    "fi": 2.3,
+    "est_kcal": 380.0,
+    "diff_pct": 58.4,
+    "violations": [
+      "energy_mismatch stored=602.0 est=380.0 diff=58%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 157,
+    "en": "Plain urad dal vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 588.0,
+    "p": 3.5,
+    "c": 7.7,
+    "f": 36.1,
+    "fi": 1.8,
+    "est_kcal": 369.7,
+    "diff_pct": 59.0,
+    "violations": [
+      "energy_mismatch stored=588.0 est=369.7 diff=59%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 158,
@@ -43,9 +211,29 @@
     "fi": 35.7,
     "est_kcal": 255.0,
     "diff_pct": 5.1,
-    "issues": [
+    "violations": [
       "fiber=35.7>carbs=25.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 161,
+    "en": "Rice moong dal cheela",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 163.5,
+    "p": 4.0,
+    "c": 16.2,
+    "f": 12.0,
+    "fi": 1.7,
+    "est_kcal": 188.8,
+    "diff_pct": 13.4,
+    "violations": [
+      "fat=120.2>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 163,
@@ -59,9 +247,162 @@
     "fi": 34.6,
     "est_kcal": 284.0,
     "diff_pct": 4.8,
-    "issues": [
+    "violations": [
       "fiber=34.6>carbs=23.4"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 218.0,
+    "p": 0.6,
+    "c": 0.3,
+    "f": 0.9,
+    "fi": 0.0,
+    "est_kcal": 11.7,
+    "diff_pct": 1763.2,
+    "violations": [
+      "protein=6.1>serving=1.0g",
+      "carbs=28.4>serving=1.0g",
+      "fat=8.6>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "s": "2 pcs",
+    "s_g": 2.0,
+    "k": 284.0,
+    "p": 0.7,
+    "c": 0.4,
+    "f": 1.1,
+    "fi": 1.8,
+    "est_kcal": 14.3,
+    "diff_pct": 1886.0,
+    "violations": [
+      "protein=6.5>serving=2.0g",
+      "carbs=38.2>serving=2.0g",
+      "fat=11.0>serving=2.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 224.0,
+    "p": 0.5,
+    "c": 0.3,
+    "f": 0.8,
+    "fi": 0.6,
+    "est_kcal": 10.4,
+    "diff_pct": 2053.8,
+    "violations": [
+      "protein=5.4>serving=1.0g",
+      "carbs=31.7>serving=1.0g",
+      "fat=8.2>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 214,
+    "en": "Fish pakora/pakoda",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 395.4,
+    "p": 4.1,
+    "c": 3.1,
+    "f": 4.1,
+    "fi": 0.7,
+    "est_kcal": 65.7,
+    "diff_pct": 501.8,
+    "violations": [
+      "fat=40.8>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 235,
+    "en": "Tomato fish",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 740.0,
+    "p": 23.2,
+    "c": 30.8,
+    "f": 50.2,
+    "fi": 6.9,
+    "est_kcal": 667.8,
+    "diff_pct": 10.8,
+    "violations": [
+      "kcal=4740.8>1500",
+      "fat=502.4>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 239,
+    "en": "Apple banana pie",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 948.5,
+    "p": 12.2,
+    "c": 12.5,
+    "f": 44.3,
+    "fi": 7.3,
+    "est_kcal": 497.5,
+    "diff_pct": 90.7,
+    "violations": [
+      "carbs=124.8>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 240,
+    "en": "Apple cinnamon pie",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 458.3,
+    "p": 5.9,
+    "c": 6.0,
+    "f": 21.6,
+    "fi": 3.1,
+    "est_kcal": 242.0,
+    "diff_pct": 89.4,
+    "violations": [
+      "carbs=59.7>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 244,
+    "en": "Apple snowballs",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 263.4,
+    "p": 2.2,
+    "c": 38.3,
+    "f": 0.8,
+    "fi": 3.2,
+    "est_kcal": 169.2,
+    "diff_pct": 55.7,
+    "violations": [
+      "energy_mismatch stored=263.4 est=169.2 diff=56%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 249,
@@ -75,9 +416,139 @@
     "fi": 8.4,
     "est_kcal": 195.0,
     "diff_pct": 0.9,
-    "issues": [
+    "violations": [
       "fiber=8.4>carbs=6.6"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 259,
+    "en": "Dry mango chutney",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 82.6,
+    "p": 0.7,
+    "c": 1.9,
+    "f": 0.2,
+    "fi": 1.0,
+    "est_kcal": 12.2,
+    "diff_pct": 577.0,
+    "violations": [
+      "carbs=19.2>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 268,
+    "en": "Mango cheesecake",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 265.6,
+    "p": 4.2,
+    "c": 3.5,
+    "f": 12.7,
+    "fi": 2.0,
+    "est_kcal": 145.1,
+    "diff_pct": 83.0,
+    "violations": [
+      "carbs=34.9>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 269,
+    "en": "Mango malpua",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 314.7,
+    "p": 6.5,
+    "c": 50.5,
+    "f": 12.1,
+    "fi": 8.2,
+    "est_kcal": 336.9,
+    "diff_pct": 6.6,
+    "violations": [
+      "fat=120.5>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 271,
+    "en": "Mango murabba candy",
+    "s": "10g",
+    "s_g": 10.0,
+    "k": 22.3,
+    "p": 0.2,
+    "c": 5.9,
+    "f": 0.0,
+    "fi": 0.7,
+    "est_kcal": 24.4,
+    "diff_pct": 8.6,
+    "violations": [
+      "carbs=58.8>serving=10.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 276,
+    "en": "Orange chiffon pie",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 1449.9,
+    "p": 27.2,
+    "c": 16.2,
+    "f": 77.9,
+    "fi": 4.9,
+    "est_kcal": 874.7,
+    "diff_pct": 65.8,
+    "violations": [
+      "carbs=161.6>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 290,
+    "en": "Raw banana kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 561.0,
+    "p": 4.5,
+    "c": 24.8,
+    "f": 49.4,
+    "fi": 4.3,
+    "est_kcal": 561.8,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=4561.3>1500",
+      "fat=494.3>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 298,
+    "en": "Flattened rice cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 325.0,
+    "p": 5.8,
+    "c": 24.5,
+    "f": 24.5,
+    "fi": 2.8,
+    "est_kcal": 341.7,
+    "diff_pct": 4.9,
+    "violations": [
+      "kcal=2325.0>1500",
+      "fat=244.8>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 325,
@@ -91,10 +562,30 @@
     "fi": 3.5,
     "est_kcal": 359.2,
     "diff_pct": 69.8,
-    "issues": [
+    "violations": [
       "fiber=3.5>carbs=2.7",
-      "kcal_mismatch stored=108.3 est=359.2 diff=70%"
-    ]
+      "energy_mismatch stored=108.3 est=359.2 diff=70%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 330,
+    "en": "Chicken pakora/pakoda",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 404.3,
+    "p": 4.1,
+    "c": 3.1,
+    "f": 4.2,
+    "fi": 0.7,
+    "est_kcal": 66.6,
+    "diff_pct": 507.1,
+    "violations": [
+      "fat=41.8>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 331,
@@ -108,9 +599,11 @@
     "fi": 4.9,
     "est_kcal": 836.7,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=4.9>carbs=3.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 334,
@@ -124,9 +617,68 @@
     "fi": 1.1,
     "est_kcal": 429.2,
     "diff_pct": 84.0,
-    "issues": [
-      "kcal_mismatch stored=68.5 est=429.2 diff=84%"
-    ]
+    "violations": [
+      "energy_mismatch stored=68.5 est=429.2 diff=84%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 349,
+    "en": "Mutton chops",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 320.0,
+    "p": 14.1,
+    "c": 5.2,
+    "f": 24.9,
+    "fi": 0.6,
+    "est_kcal": 301.3,
+    "diff_pct": 6.2,
+    "violations": [
+      "kcal=2320.3>1500",
+      "fat=249.3>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 357,
+    "en": "Shahi keema kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2580.3,
+    "p": 25.6,
+    "c": 10.7,
+    "f": 27.0,
+    "fi": 5.6,
+    "est_kcal": 388.2,
+    "diff_pct": 564.7,
+    "violations": [
+      "kcal=2580.3>1500",
+      "fat=270.4>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 359,
+    "en": "Tandoori chicken",
+    "s": "180g",
+    "s_g": 180.0,
+    "k": 1092.0,
+    "p": 23.4,
+    "c": 33.7,
+    "f": 114.3,
+    "fi": 7.3,
+    "est_kcal": 1257.1,
+    "diff_pct": 13.1,
+    "violations": [
+      "kcal=2092.0>1500",
+      "protein=234.3>serving=180.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 369,
@@ -140,9 +692,11 @@
     "fi": 4.0,
     "est_kcal": 610.8,
     "diff_pct": 40.3,
-    "issues": [
-      "kcal_mismatch stored=364.7 est=610.8 diff=40%"
-    ]
+    "violations": [
+      "energy_mismatch stored=364.7 est=610.8 diff=40%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 374,
@@ -156,9 +710,30 @@
     "fi": 4.3,
     "est_kcal": 855.8,
     "diff_pct": 56.2,
-    "issues": [
-      "kcal_mismatch stored=375.2 est=855.8 diff=56%"
-    ]
+    "violations": [
+      "energy_mismatch stored=375.2 est=855.8 diff=56%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 382,
+    "en": "Peanut cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 367.0,
+    "p": 8.9,
+    "c": 19.2,
+    "f": 25.1,
+    "fi": 4.1,
+    "est_kcal": 338.3,
+    "diff_pct": 8.5,
+    "violations": [
+      "kcal=2367.7>1500",
+      "fat=250.7>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 394,
@@ -172,9 +747,11 @@
     "fi": 7.5,
     "est_kcal": 177.3,
     "diff_pct": 1.7,
-    "issues": [
+    "violations": [
       "fiber=7.5>carbs=7.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 395,
@@ -188,9 +765,29 @@
     "fi": 7.5,
     "est_kcal": 188.7,
     "diff_pct": 0.8,
-    "issues": [
+    "violations": [
       "fiber=7.5>carbs=5.9"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 399,
+    "en": "Besan kadhi with pakodies",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2366.8,
+    "p": 9.6,
+    "c": 20.9,
+    "f": 249.9,
+    "fi": 4.8,
+    "est_kcal": 2371.1,
+    "diff_pct": 0.2,
+    "violations": [
+      "kcal=2366.8>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 403,
@@ -204,9 +801,11 @@
     "fi": 5.6,
     "est_kcal": 83.8,
     "diff_pct": 3.1,
-    "issues": [
+    "violations": [
       "fiber=5.6>carbs=4.7"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 404,
@@ -220,9 +819,30 @@
     "fi": 1.7,
     "est_kcal": 282.5,
     "diff_pct": 61.3,
-    "issues": [
-      "kcal_mismatch stored=109.2 est=282.5 diff=61%"
-    ]
+    "violations": [
+      "energy_mismatch stored=109.2 est=282.5 diff=61%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 875.5,
+    "p": 11.1,
+    "c": 11.8,
+    "f": 4.2,
+    "fi": 6.1,
+    "est_kcal": 129.4,
+    "diff_pct": 576.6,
+    "violations": [
+      "carbs=118.0>serving=25.0g",
+      "fat=41.8>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 408,
@@ -236,9 +856,47 @@
     "fi": 8.4,
     "est_kcal": 113.7,
     "diff_pct": 3.9,
-    "issues": [
+    "violations": [
       "fiber=8.4>carbs=8.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 422,
+    "en": "Chocolate meringue pie",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 395.7,
+    "p": 9.2,
+    "c": 5.3,
+    "f": 16.9,
+    "fi": 0.7,
+    "est_kcal": 210.1,
+    "diff_pct": 88.3,
+    "violations": [
+      "carbs=53.1>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 428,
+    "en": "Chum chum",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 405.4,
+    "p": 4.7,
+    "c": 52.9,
+    "f": 6.0,
+    "fi": 0.0,
+    "est_kcal": 284.4,
+    "diff_pct": 42.5,
+    "violations": [
+      "energy_mismatch stored=405.4 est=284.4 diff=43%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 429,
@@ -252,9 +910,11 @@
     "fi": 6.2,
     "est_kcal": 241.8,
     "diff_pct": 79.0,
-    "issues": [
-      "kcal_mismatch stored=50.7 est=241.8 diff=79%"
-    ]
+    "violations": [
+      "energy_mismatch stored=50.7 est=241.8 diff=79%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 434,
@@ -268,9 +928,29 @@
     "fi": 10.7,
     "est_kcal": 1169.7,
     "diff_pct": 81.7,
-    "issues": [
-      "kcal_mismatch stored=213.7 est=1169.7 diff=82%"
-    ]
+    "violations": [
+      "energy_mismatch stored=213.7 est=1169.7 diff=82%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 437,
+    "en": "Cranberry cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 506.1,
+    "p": 7.3,
+    "c": 6.8,
+    "f": 23.5,
+    "fi": 2.1,
+    "est_kcal": 267.9,
+    "diff_pct": 88.9,
+    "violations": [
+      "carbs=67.6>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 439,
@@ -284,9 +964,67 @@
     "fi": 6.0,
     "est_kcal": 743.2,
     "diff_pct": 0.9,
-    "issues": [
+    "violations": [
       "fiber=6.0>carbs=5.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 440,
+    "en": "Dahi vadas/Dahi bhalla",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 150.2,
+    "p": 5.1,
+    "c": 9.5,
+    "f": 12.1,
+    "fi": 1.7,
+    "est_kcal": 167.3,
+    "diff_pct": 10.2,
+    "violations": [
+      "fat=121.3>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 188.0,
+    "p": 0.9,
+    "c": 0.2,
+    "f": 0.5,
+    "fi": 6.2,
+    "est_kcal": 8.9,
+    "diff_pct": 2012.4,
+    "violations": [
+      "protein=8.9>serving=1.0g",
+      "carbs=24.8>serving=1.0g",
+      "fat=5.4>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 447,
+    "en": "Dil bahar",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 405.4,
+    "p": 4.7,
+    "c": 52.9,
+    "f": 6.0,
+    "fi": 0.0,
+    "est_kcal": 284.4,
+    "diff_pct": 42.5,
+    "violations": [
+      "energy_mismatch stored=405.4 est=284.4 diff=43%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 451,
@@ -300,9 +1038,29 @@
     "fi": 3.0,
     "est_kcal": 86.8,
     "diff_pct": 6.1,
-    "issues": [
+    "violations": [
       "fiber=3.0>carbs=2.4"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 461,
+    "en": "Fruit flan",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1215.9,
+    "p": 15.3,
+    "c": 16.1,
+    "f": 58.1,
+    "fi": 3.3,
+    "est_kcal": 648.5,
+    "diff_pct": 87.5,
+    "violations": [
+      "carbs=161.5>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 462,
@@ -316,9 +1074,175 @@
     "fi": 35.6,
     "est_kcal": 243.4,
     "diff_pct": 4.4,
-    "issues": [
+    "violations": [
       "fiber=35.6>carbs=26.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 465,
+    "en": "Ghujia/Lavang latika",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 818.7,
+    "p": 2.0,
+    "c": 13.8,
+    "f": 50.4,
+    "fi": 0.6,
+    "est_kcal": 516.8,
+    "diff_pct": 58.4,
+    "violations": [
+      "energy_mismatch stored=818.7 est=516.8 diff=58%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 478,
+    "en": "Gujarati handvo",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1442.5,
+    "p": 57.4,
+    "c": 22.2,
+    "f": 33.4,
+    "fi": 34.5,
+    "est_kcal": 619.0,
+    "diff_pct": 133.0,
+    "violations": [
+      "carbs=221.9>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 481,
+    "en": "Gunjia",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 166.2,
+    "p": 5.2,
+    "c": 9.9,
+    "f": 12.3,
+    "fi": 2.0,
+    "est_kcal": 171.1,
+    "diff_pct": 2.9,
+    "violations": [
+      "fat=122.8>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 423.0,
+    "p": 5.4,
+    "c": 3.4,
+    "f": 3.0,
+    "fi": 2.1,
+    "est_kcal": 62.2,
+    "diff_pct": 580.1,
+    "violations": [
+      "carbs=33.8>serving=25.0g",
+      "fat=30.0>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 498,
+    "en": "Khasta kachori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 717.6,
+    "p": 2.5,
+    "c": 12.9,
+    "f": 43.7,
+    "fi": 1.0,
+    "est_kcal": 454.9,
+    "diff_pct": 57.7,
+    "violations": [
+      "energy_mismatch stored=717.6 est=454.9 diff=58%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 505,
+    "en": "Lemon chiffon pie",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 1389.9,
+    "p": 26.1,
+    "c": 14.8,
+    "f": 77.8,
+    "fi": 3.5,
+    "est_kcal": 863.8,
+    "diff_pct": 60.9,
+    "violations": [
+      "carbs=148.1>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 617.4,
+    "p": 8.8,
+    "c": 6.6,
+    "f": 3.6,
+    "fi": 1.2,
+    "est_kcal": 94.0,
+    "diff_pct": 556.8,
+    "violations": [
+      "carbs=66.0>serving=25.0g",
+      "fat=36.0>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 508,
+    "en": "Lemon meringue pie",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 352.1,
+    "p": 6.1,
+    "c": 5.5,
+    "f": 12.8,
+    "fi": 0.7,
+    "est_kcal": 161.6,
+    "diff_pct": 117.9,
+    "violations": [
+      "carbs=55.1>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 521,
+    "en": "Masala souffle",
+    "s": "200g",
+    "s_g": 200.0,
+    "k": 1833.8,
+    "p": 94.8,
+    "c": 119.1,
+    "f": 109.3,
+    "fi": 18.4,
+    "est_kcal": 1839.3,
+    "diff_pct": 0.3,
+    "violations": [
+      "kcal=1833.8>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 525,
@@ -332,10 +1256,104 @@
     "fi": 4.4,
     "est_kcal": 1144.4,
     "diff_pct": 83.9,
-    "issues": [
+    "violations": [
       "fiber=4.4>carbs=3.2",
-      "kcal_mismatch stored=184.5 est=1144.4 diff=84%"
-    ]
+      "energy_mismatch stored=184.5 est=1144.4 diff=84%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 528,
+    "en": "Methi chaman",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 4763.4,
+    "p": 15.4,
+    "c": 27.8,
+    "f": 51.0,
+    "fi": 5.3,
+    "est_kcal": 631.8,
+    "diff_pct": 653.9,
+    "violations": [
+      "kcal=4763.4>1500",
+      "fat=509.8>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 546,
+    "en": "Pea kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 649.0,
+    "p": 15.7,
+    "c": 32.5,
+    "f": 49.5,
+    "fi": 13.3,
+    "est_kcal": 638.3,
+    "diff_pct": 1.7,
+    "violations": [
+      "kcal=4649.2>1500",
+      "fat=494.8>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 549,
+    "en": "Peach blueberry preserves",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 85.0,
+    "p": 2.0,
+    "c": 17.7,
+    "f": 0.8,
+    "fi": 4.4,
+    "est_kcal": 86.0,
+    "diff_pct": 1.2,
+    "violations": [
+      "carbs=176.9>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 551,
+    "en": "Pear preserves",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 603.5,
+    "p": 1.5,
+    "c": 15.3,
+    "f": 1.1,
+    "fi": 18.2,
+    "est_kcal": 77.1,
+    "diff_pct": 682.7,
+    "violations": [
+      "carbs=153.0>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 552,
+    "en": "Peas kachori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 632.2,
+    "p": 3.5,
+    "c": 14.3,
+    "f": 37.3,
+    "fi": 2.2,
+    "est_kcal": 406.9,
+    "diff_pct": 55.4,
+    "violations": [
+      "energy_mismatch stored=632.2 est=406.9 diff=55%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 555,
@@ -349,9 +1367,138 @@
     "fi": 19.9,
     "est_kcal": 143.4,
     "diff_pct": 7.5,
-    "issues": [
+    "violations": [
       "fiber=19.9>carbs=12.3"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 563,
+    "en": "Poshtik cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 195.6,
+    "p": 4.8,
+    "c": 17.8,
+    "f": 12.3,
+    "fi": 3.2,
+    "est_kcal": 201.1,
+    "diff_pct": 2.7,
+    "violations": [
+      "fat=122.7>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 568,
+    "en": "Rajbogh",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 420.5,
+    "p": 5.4,
+    "c": 53.2,
+    "f": 7.2,
+    "fi": 0.3,
+    "est_kcal": 299.2,
+    "diff_pct": 40.5,
+    "violations": [
+      "energy_mismatch stored=420.5 est=299.2 diff=41%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 569,
+    "en": "Rasbhari",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 405.4,
+    "p": 4.7,
+    "c": 52.9,
+    "f": 6.0,
+    "fi": 0.0,
+    "est_kcal": 284.4,
+    "diff_pct": 42.5,
+    "violations": [
+      "energy_mismatch stored=405.4 est=284.4 diff=43%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 574,
+    "en": "Sago cutlet/vadas",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 178.1,
+    "p": 1.2,
+    "c": 23.7,
+    "f": 12.0,
+    "fi": 1.1,
+    "est_kcal": 207.6,
+    "diff_pct": 14.2,
+    "violations": [
+      "fat=120.1>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 579,
+    "en": "Saunth/Sonth chutney with tamarind/imli",
+    "s": "5g",
+    "s_g": 5.0,
+    "k": 25.1,
+    "p": 0.2,
+    "c": 0.6,
+    "f": 0.0,
+    "fi": 0.2,
+    "est_kcal": 3.2,
+    "diff_pct": 684.4,
+    "violations": [
+      "carbs=5.9>serving=5.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 582,
+    "en": "Schezwan chutney",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 553.0,
+    "p": 25.2,
+    "c": 81.7,
+    "f": 13.4,
+    "fi": 43.3,
+    "est_kcal": 548.2,
+    "diff_pct": 0.9,
+    "violations": [
+      "kcal=1553.3>1500",
+      "fat=134.2>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 588,
+    "en": "Shammi kebab",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 174.0,
+    "p": 7.7,
+    "c": 6.1,
+    "f": 12.4,
+    "fi": 1.8,
+    "est_kcal": 166.8,
+    "diff_pct": 4.3,
+    "violations": [
+      "fat=124.3>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 595,
@@ -365,9 +1512,214 @@
     "fi": 8.8,
     "est_kcal": 192.2,
     "diff_pct": 1.9,
-    "issues": [
+    "violations": [
       "fiber=8.8>carbs=8.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 596,
+    "en": "Soyabean muthias",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 126.4,
+    "p": 3.3,
+    "c": 5.0,
+    "f": 12.1,
+    "fi": 2.0,
+    "est_kcal": 142.1,
+    "diff_pct": 11.0,
+    "violations": [
+      "fat=121.4>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 597,
+    "en": "Soyabean namak paras",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2294.2,
+    "p": 7.3,
+    "c": 12.7,
+    "f": 245.8,
+    "fi": 3.9,
+    "est_kcal": 2292.2,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=2294.2>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 598,
+    "en": "Soyabean tikki",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 156.3,
+    "p": 5.9,
+    "c": 7.3,
+    "f": 12.3,
+    "fi": 3.7,
+    "est_kcal": 163.5,
+    "diff_pct": 4.4,
+    "violations": [
+      "fat=122.6>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 954.3,
+    "p": 17.4,
+    "c": 7.3,
+    "f": 6.7,
+    "fi": 7.2,
+    "est_kcal": 159.1,
+    "diff_pct": 499.8,
+    "violations": [
+      "carbs=73.4>serving=25.0g",
+      "fat=66.5>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 621,
+    "en": "Vegetable cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 247.0,
+    "p": 4.2,
+    "c": 15.8,
+    "f": 24.1,
+    "fi": 3.1,
+    "est_kcal": 296.9,
+    "diff_pct": 16.8,
+    "violations": [
+      "kcal=2247.6>1500",
+      "fat=240.9>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 625,
+    "en": "Vegetable seekh kebab",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 136.4,
+    "p": 2.6,
+    "c": 8.8,
+    "f": 12.1,
+    "fi": 1.0,
+    "est_kcal": 154.5,
+    "diff_pct": 11.7,
+    "violations": [
+      "fat=121.3>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 627,
+    "en": "Vegetable yakhni",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 329.0,
+    "p": 6.7,
+    "c": 11.1,
+    "f": 25.1,
+    "fi": 3.5,
+    "est_kcal": 297.1,
+    "diff_pct": 10.7,
+    "violations": [
+      "kcal=2329.7>1500",
+      "fat=251.3>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 1325.3,
+    "p": 9.1,
+    "c": 26.2,
+    "f": 13.1,
+    "fi": 3.4,
+    "est_kcal": 259.1,
+    "diff_pct": 411.5,
+    "violations": [
+      "fat=131.4>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 636,
+    "en": "Yam fried",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 377.0,
+    "p": 3.8,
+    "c": 26.4,
+    "f": 25.0,
+    "fi": 7.0,
+    "est_kcal": 345.8,
+    "diff_pct": 9.0,
+    "violations": [
+      "kcal=2377.3>1500",
+      "fat=250.4>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 637,
+    "en": "Yam kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 422.0,
+    "p": 5.4,
+    "c": 28.1,
+    "f": 25.4,
+    "fi": 7.8,
+    "est_kcal": 362.6,
+    "diff_pct": 16.4,
+    "violations": [
+      "kcal=2422.4>1500",
+      "fat=253.9>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 645,
+    "en": "Egg cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 169.2,
+    "p": 5.0,
+    "c": 11.7,
+    "f": 12.2,
+    "fi": 1.2,
+    "est_kcal": 176.6,
+    "diff_pct": 4.2,
+    "violations": [
+      "fat=122.5>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 646,
@@ -381,9 +1733,730 @@
     "fi": 2.6,
     "est_kcal": 564.5,
     "diff_pct": 85.0,
-    "issues": [
-      "kcal_mismatch stored=84.6 est=564.5 diff=85%"
-    ]
+    "violations": [
+      "energy_mismatch stored=84.6 est=564.5 diff=85%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 650,
+    "en": "Egg pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 579.0,
+    "p": 18.2,
+    "c": 28.9,
+    "f": 48.9,
+    "fi": 5.5,
+    "est_kcal": 628.5,
+    "diff_pct": 7.9,
+    "violations": [
+      "kcal=4579.2>1500",
+      "fat=488.9>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 1312.5,
+    "p": 15.0,
+    "c": 8.1,
+    "f": 13.6,
+    "fi": 2.3,
+    "est_kcal": 214.8,
+    "diff_pct": 511.0,
+    "violations": [
+      "fat=135.6>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 660,
+    "en": "Scotch egg",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 318.0,
+    "p": 13.9,
+    "c": 6.5,
+    "f": 24.9,
+    "fi": 1.2,
+    "est_kcal": 305.7,
+    "diff_pct": 4.0,
+    "violations": [
+      "kcal=2318.1>1500",
+      "fat=248.7>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 665,
+    "en": "Vegetarian egg kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 649.0,
+    "p": 9.8,
+    "c": 31.6,
+    "f": 49.8,
+    "fi": 4.7,
+    "est_kcal": 613.8,
+    "diff_pct": 5.7,
+    "violations": [
+      "kcal=4649.1>1500",
+      "fat=498.3>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 666,
+    "en": "Vegeterian scotch egg",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 277.0,
+    "p": 7.2,
+    "c": 15.5,
+    "f": 24.3,
+    "fi": 1.9,
+    "est_kcal": 309.5,
+    "diff_pct": 10.5,
+    "violations": [
+      "kcal=2277.3>1500",
+      "fat=243.1>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 687,
+    "en": "Paneer pulao",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 875.0,
+    "p": 16.6,
+    "c": 73.4,
+    "f": 50.1,
+    "fi": 5.2,
+    "est_kcal": 810.9,
+    "diff_pct": 7.9,
+    "violations": [
+      "kcal=4875.8>1500",
+      "fat=501.1>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 702,
+    "en": "Bhatura",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 154.6,
+    "p": 2.4,
+    "c": 15.6,
+    "f": 12.0,
+    "fi": 0.6,
+    "est_kcal": 180.0,
+    "diff_pct": 14.1,
+    "violations": [
+      "fat=120.2>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 703,
+    "en": "Bhel puri",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 3573.6,
+    "p": 24.7,
+    "c": 115.4,
+    "f": 33.6,
+    "fi": 15.7,
+    "est_kcal": 862.8,
+    "diff_pct": 314.2,
+    "violations": [
+      "kcal=3573.6>1500",
+      "fat=335.8>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 705,
+    "en": "Bread pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 653.0,
+    "p": 16.8,
+    "c": 58.1,
+    "f": 48.6,
+    "fi": 7.3,
+    "est_kcal": 737.0,
+    "diff_pct": 11.4,
+    "violations": [
+      "kcal=4653.4>1500",
+      "fat=485.6>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 712,
+    "en": "Dal stuffed poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 932.6,
+    "p": 2.5,
+    "c": 12.0,
+    "f": 58.2,
+    "fi": 2.3,
+    "est_kcal": 581.8,
+    "diff_pct": 60.3,
+    "violations": [
+      "energy_mismatch stored=932.6 est=581.8 diff=60%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 713,
+    "en": "Ginger bread man",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 108.5,
+    "p": 2.0,
+    "c": 1.8,
+    "f": 3.3,
+    "fi": 0.5,
+    "est_kcal": 44.9,
+    "diff_pct": 141.6,
+    "violations": [
+      "carbs=17.9>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 717,
+    "en": "Methi poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 923.0,
+    "p": 1.9,
+    "c": 10.4,
+    "f": 58.2,
+    "fi": 2.1,
+    "est_kcal": 573.0,
+    "diff_pct": 61.1,
+    "violations": [
+      "energy_mismatch stored=923.0 est=573.0 diff=61%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 725,
+    "en": "Poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 921.3,
+    "p": 1.7,
+    "c": 10.3,
+    "f": 58.1,
+    "fi": 1.8,
+    "est_kcal": 570.9,
+    "diff_pct": 61.4,
+    "violations": [
+      "energy_mismatch stored=921.3 est=570.9 diff=61%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 727,
+    "en": "Potato stuffed poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 925.9,
+    "p": 1.8,
+    "c": 11.2,
+    "f": 58.2,
+    "fi": 2.0,
+    "est_kcal": 575.8,
+    "diff_pct": 60.8,
+    "violations": [
+      "energy_mismatch stored=925.9 est=575.8 diff=61%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 731,
+    "en": "Spinach poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 923.7,
+    "p": 1.9,
+    "c": 10.5,
+    "f": 58.2,
+    "fi": 2.1,
+    "est_kcal": 573.4,
+    "diff_pct": 61.1,
+    "violations": [
+      "energy_mismatch stored=923.7 est=573.4 diff=61%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 733,
+    "en": "Sweet poori",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 193.7,
+    "p": 3.2,
+    "c": 21.8,
+    "f": 12.1,
+    "fi": 2.3,
+    "est_kcal": 208.9,
+    "diff_pct": 7.3,
+    "violations": [
+      "fat=121.4>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 738,
+    "en": "Boondi raita",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2261.7,
+    "p": 7.2,
+    "c": 13.0,
+    "f": 242.8,
+    "fi": 1.5,
+    "est_kcal": 2266.0,
+    "diff_pct": 0.2,
+    "violations": [
+      "kcal=2261.7>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 742,
+    "en": "Frozen frosty fruit salad",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 241.2,
+    "p": 3.9,
+    "c": 3.6,
+    "f": 9.7,
+    "fi": 0.6,
+    "est_kcal": 117.3,
+    "diff_pct": 105.6,
+    "violations": [
+      "carbs=36.4>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 414.5,
+    "p": 7.4,
+    "c": 4.5,
+    "f": 2.2,
+    "fi": 1.5,
+    "est_kcal": 67.4,
+    "diff_pct": 515.0,
+    "violations": [
+      "carbs=44.9>serving=15.0g",
+      "fat=22.5>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 775,
+    "en": "Christmas star biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 45.0,
+    "p": 1.3,
+    "c": 2.8,
+    "f": 3.7,
+    "fi": 0.5,
+    "est_kcal": 49.7,
+    "diff_pct": 9.5,
+    "violations": [
+      "carbs=27.7>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 778,
+    "en": "Classic club sandwich",
+    "s": "35g",
+    "s_g": 35.0,
+    "k": 448.9,
+    "p": 15.1,
+    "c": 4.1,
+    "f": 25.8,
+    "fi": 3.6,
+    "est_kcal": 309.0,
+    "diff_pct": 45.3,
+    "violations": [
+      "carbs=41.3>serving=35.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 787,
+    "en": "Fermented bengal gram vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 592.6,
+    "p": 3.7,
+    "c": 7.8,
+    "f": 36.4,
+    "fi": 2.4,
+    "est_kcal": 373.6,
+    "diff_pct": 58.6,
+    "violations": [
+      "energy_mismatch stored=592.6 est=373.6 diff=59%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 788,
+    "en": "Finger millet biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 45.0,
+    "p": 3.0,
+    "c": 4.0,
+    "f": 1.9,
+    "fi": 4.5,
+    "est_kcal": 45.1,
+    "diff_pct": 0.2,
+    "violations": [
+      "carbs=39.7>serving=15.0g",
+      "fat=19.4>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 212.0,
+    "p": 0.9,
+    "c": 0.3,
+    "f": 0.5,
+    "fi": 7.1,
+    "est_kcal": 9.3,
+    "diff_pct": 2179.6,
+    "violations": [
+      "protein=9.2>serving=1.0g",
+      "carbs=31.6>serving=1.0g",
+      "fat=5.4>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 796,
+    "en": "Khakhra chaat",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2996.5,
+    "p": 37.8,
+    "c": 139.0,
+    "f": 256.0,
+    "fi": 25.4,
+    "est_kcal": 3011.2,
+    "diff_pct": 0.5,
+    "violations": [
+      "kcal=2996.5>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 798,
+    "en": "Masala green chilli pakora/pakoda",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 58.0,
+    "p": 1.5,
+    "c": 3.8,
+    "f": 4.9,
+    "fi": 0.9,
+    "est_kcal": 65.3,
+    "diff_pct": 11.2,
+    "violations": [
+      "fat=48.7>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 799,
+    "en": "Masala onion pakora/pakoda",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 389.0,
+    "p": 1.4,
+    "c": 4.6,
+    "f": 4.1,
+    "fi": 1.0,
+    "est_kcal": 60.9,
+    "diff_pct": 538.8,
+    "violations": [
+      "fat=40.6>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 800,
+    "en": "Masala vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 228.0,
+    "p": 4.5,
+    "c": 11.0,
+    "f": 24.1,
+    "fi": 2.9,
+    "est_kcal": 278.9,
+    "diff_pct": 18.3,
+    "violations": [
+      "kcal=2228.2>1500",
+      "fat=240.5>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 801,
+    "en": "Mathri",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 702.2,
+    "p": 1.5,
+    "c": 10.7,
+    "f": 43.5,
+    "fi": 0.5,
+    "est_kcal": 440.3,
+    "diff_pct": 59.5,
+    "violations": [
+      "energy_mismatch stored=702.2 est=440.3 diff=59%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 802,
+    "en": "Methi pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 525.0,
+    "p": 13.1,
+    "c": 29.7,
+    "f": 48.5,
+    "fi": 7.5,
+    "est_kcal": 607.7,
+    "diff_pct": 13.6,
+    "violations": [
+      "kcal=4525.6>1500",
+      "fat=484.7>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 803,
+    "en": "Minced meat samosa",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 837.5,
+    "p": 6.0,
+    "c": 8.3,
+    "f": 52.0,
+    "fi": 0.5,
+    "est_kcal": 525.2,
+    "diff_pct": 59.5,
+    "violations": [
+      "energy_mismatch stored=837.5 est=525.2 diff=59%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 808,
+    "en": "Olive biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 207.3,
+    "p": 1.5,
+    "c": 2.6,
+    "f": 11.2,
+    "fi": 0.4,
+    "est_kcal": 117.2,
+    "diff_pct": 76.9,
+    "violations": [
+      "carbs=26.0>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 809,
+    "en": "Onion pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 550.0,
+    "p": 12.8,
+    "c": 36.5,
+    "f": 48.5,
+    "fi": 7.5,
+    "est_kcal": 633.7,
+    "diff_pct": 13.2,
+    "violations": [
+      "kcal=4550.2>1500",
+      "fat=484.6>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 810,
+    "en": "Orange biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 214.6,
+    "p": 2.2,
+    "c": 3.8,
+    "f": 6.7,
+    "fi": 0.5,
+    "est_kcal": 84.3,
+    "diff_pct": 154.6,
+    "violations": [
+      "carbs=37.6>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 815,
+    "en": "Peanut sago vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 291.0,
+    "p": 3.1,
+    "c": 21.8,
+    "f": 24.4,
+    "fi": 1.9,
+    "est_kcal": 319.2,
+    "diff_pct": 8.8,
+    "violations": [
+      "kcal=2291.5>1500",
+      "fat=243.9>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 827,
+    "en": "Semolina carrot vada",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 138.5,
+    "p": 2.5,
+    "c": 10.6,
+    "f": 12.1,
+    "fi": 1.7,
+    "est_kcal": 161.3,
+    "diff_pct": 14.1,
+    "violations": [
+      "fat=120.6>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 832,
+    "en": "Spicy corn chaat",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2659.2,
+    "p": 25.5,
+    "c": 63.4,
+    "f": 258.0,
+    "fi": 12.0,
+    "est_kcal": 2677.6,
+    "diff_pct": 0.7,
+    "violations": [
+      "kcal=2659.2>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 57.0,
+    "p": 5.7,
+    "c": 5.8,
+    "f": 1.9,
+    "fi": 5.9,
+    "est_kcal": 63.1,
+    "diff_pct": 9.7,
+    "violations": [
+      "carbs=57.7>serving=15.0g",
+      "fat=19.5>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 844,
+    "en": "Vegetable burger",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 678.0,
+    "p": 16.8,
+    "c": 70.5,
+    "f": 26.1,
+    "fi": 8.7,
+    "est_kcal": 584.1,
+    "diff_pct": 16.1,
+    "violations": [
+      "kcal=2678.9>1500",
+      "fat=260.9>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 851,
@@ -397,9 +2470,201 @@
     "fi": 7.8,
     "est_kcal": 46.8,
     "diff_pct": 3.8,
-    "issues": [
+    "violations": [
       "fiber=7.8>carbs=7.5"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 883,
+    "en": "Carrot cake",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 255.5,
+    "p": 5.6,
+    "c": 3.6,
+    "f": 10.3,
+    "fi": 2.9,
+    "est_kcal": 129.5,
+    "diff_pct": 97.3,
+    "violations": [
+      "carbs=36.0>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 891,
+    "en": "Christmas cake",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 388.6,
+    "p": 5.7,
+    "c": 5.0,
+    "f": 17.6,
+    "fi": 1.6,
+    "est_kcal": 201.2,
+    "diff_pct": 93.1,
+    "violations": [
+      "carbs=50.3>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 898,
+    "en": "Honey cake",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 546.1,
+    "p": 5.0,
+    "c": 8.0,
+    "f": 24.1,
+    "fi": 0.8,
+    "est_kcal": 268.9,
+    "diff_pct": 103.1,
+    "violations": [
+      "carbs=80.3>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 903,
+    "en": "Lotus seed halwa",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 1343.2,
+    "p": 28.2,
+    "c": 14.3,
+    "f": 45.0,
+    "fi": 1.5,
+    "est_kcal": 575.0,
+    "diff_pct": 133.6,
+    "violations": [
+      "carbs=143.4>serving=60.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 913,
+    "en": "Pineapple cake",
+    "s": "30g",
+    "s_g": 30.0,
+    "k": 1003.3,
+    "p": 25.7,
+    "c": 12.1,
+    "f": 4.8,
+    "fi": 3.9,
+    "est_kcal": 194.4,
+    "diff_pct": 416.1,
+    "violations": [
+      "carbs=120.6>serving=30.0g",
+      "fat=47.9>serving=30.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "s": "2 pcs",
+    "s_g": 2.0,
+    "k": 246.0,
+    "p": 0.7,
+    "c": 0.3,
+    "f": 1.0,
+    "fi": 0.0,
+    "est_kcal": 13.0,
+    "diff_pct": 1792.3,
+    "violations": [
+      "protein=7.2>serving=2.0g",
+      "carbs=29.5>serving=2.0g",
+      "fat=10.2>serving=2.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 927,
+    "en": "Soya chunks sweet and sour",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 312.0,
+    "p": 13.2,
+    "c": 15.1,
+    "f": 25.8,
+    "fi": 4.0,
+    "est_kcal": 345.4,
+    "diff_pct": 9.7,
+    "violations": [
+      "kcal=2312.3>1500",
+      "fat=258.4>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 943,
+    "en": "Tutti frutti cake",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 2949.5,
+    "p": 38.1,
+    "c": 44.9,
+    "f": 10.8,
+    "fi": 7.2,
+    "est_kcal": 429.2,
+    "diff_pct": 587.2,
+    "violations": [
+      "kcal=2949.5>1500",
+      "carbs=449.0>serving=100.0g",
+      "fat=107.6>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 228.0,
+    "p": 0.5,
+    "c": 0.2,
+    "f": 0.2,
+    "fi": 3.4,
+    "est_kcal": 4.6,
+    "diff_pct": 4856.5,
+    "violations": [
+      "protein=4.8>serving=1.0g",
+      "carbs=18.5>serving=1.0g",
+      "fat=15.6>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 126.0,
+    "p": 0.4,
+    "c": 0.1,
+    "f": 0.6,
+    "fi": 5.2,
+    "est_kcal": 7.4,
+    "diff_pct": 1602.7,
+    "violations": [
+      "protein=3.6>serving=1.0g",
+      "carbs=14.8>serving=1.0g",
+      "fat=5.9>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 976,
@@ -413,9 +2678,86 @@
     "fi": 4.6,
     "est_kcal": 142.6,
     "diff_pct": 2.5,
-    "issues": [
+    "violations": [
       "fiber=4.6>carbs=4.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 979,
+    "en": "Cabbage kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 563.0,
+    "p": 7.0,
+    "c": 20.5,
+    "f": 49.5,
+    "fi": 6.4,
+    "est_kcal": 555.5,
+    "diff_pct": 1.4,
+    "violations": [
+      "kcal=4563.0>1500",
+      "fat=494.9>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 980,
+    "en": "Cabbage manchurian",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 1660.4,
+    "p": 4.7,
+    "c": 35.9,
+    "f": 166.5,
+    "fi": 2.8,
+    "est_kcal": 1660.9,
+    "diff_pct": 0.0,
+    "violations": [
+      "kcal=1660.4>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 987,
+    "en": "Cauliflower kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 559.0,
+    "p": 7.4,
+    "c": 18.6,
+    "f": 49.5,
+    "fi": 7.1,
+    "est_kcal": 549.5,
+    "diff_pct": 1.7,
+    "violations": [
+      "kcal=4559.3>1500",
+      "fat=495.1>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 989,
+    "en": "Cauliflower pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 530.0,
+    "p": 13.3,
+    "c": 30.5,
+    "f": 48.5,
+    "fi": 8.5,
+    "est_kcal": 611.7,
+    "diff_pct": 13.4,
+    "violations": [
+      "kcal=4530.2>1500",
+      "fat=484.7>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 991,
@@ -429,9 +2771,66 @@
     "fi": 7.9,
     "est_kcal": 195.3,
     "diff_pct": 1.2,
-    "issues": [
+    "violations": [
       "fiber=7.9>carbs=6.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 993,
+    "en": "Chinese cabbage and meat ball soup",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2254.2,
+    "p": 24.3,
+    "c": 6.7,
+    "f": 263.3,
+    "fi": 2.6,
+    "est_kcal": 2493.7,
+    "diff_pct": 9.6,
+    "violations": [
+      "kcal=2254.2>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 994,
+    "en": "Creamed spinach and mushroom",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2496.7,
+    "p": 13.6,
+    "c": 18.8,
+    "f": 26.3,
+    "fi": 6.1,
+    "est_kcal": 366.3,
+    "diff_pct": 581.6,
+    "violations": [
+      "kcal=2496.7>1500",
+      "fat=262.6>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 995,
+    "en": "Crispy okra/Crispy lady's fingers",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2254.5,
+    "p": 6.6,
+    "c": 14.9,
+    "f": 241.3,
+    "fi": 6.0,
+    "est_kcal": 2257.7,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=2254.5>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 996,
@@ -445,9 +2844,234 @@
     "fi": 8.1,
     "est_kcal": 442.8,
     "diff_pct": 70.7,
-    "issues": [
-      "kcal_mismatch stored=129.8 est=442.8 diff=71%"
-    ]
+    "violations": [
+      "energy_mismatch stored=129.8 est=442.8 diff=71%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 999,
+    "en": "Dum aloo",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 575.0,
+    "p": 4.7,
+    "c": 22.3,
+    "f": 49.6,
+    "fi": 4.6,
+    "est_kcal": 554.4,
+    "diff_pct": 3.7,
+    "violations": [
+      "kcal=4575.6>1500",
+      "fat=496.3>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1002,
+    "en": "Ghiya/Lauki Kofta Curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 555.0,
+    "p": 6.3,
+    "c": 19.3,
+    "f": 49.5,
+    "fi": 6.0,
+    "est_kcal": 547.9,
+    "diff_pct": 1.3,
+    "violations": [
+      "kcal=4555.1>1500",
+      "fat=495.0>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1003,
+    "en": "Gobi 65",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2386.5,
+    "p": 4.8,
+    "c": 30.8,
+    "f": 249.6,
+    "fi": 4.9,
+    "est_kcal": 2388.8,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=2386.5>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1007,
+    "en": "Jackfruit kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 409.0,
+    "p": 6.0,
+    "c": 23.8,
+    "f": 25.4,
+    "fi": 7.2,
+    "est_kcal": 347.8,
+    "diff_pct": 17.6,
+    "violations": [
+      "kcal=2409.0>1500",
+      "fat=253.8>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1008,
+    "en": "Jackfruit sabzi",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 2258.7,
+    "p": 2.5,
+    "c": 12.3,
+    "f": 244.1,
+    "fi": 3.7,
+    "est_kcal": 2256.1,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=2258.7>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1009,
+    "en": "Jackfruit/Kathal",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 363.0,
+    "p": 4.5,
+    "c": 22.1,
+    "f": 25.0,
+    "fi": 6.4,
+    "est_kcal": 331.4,
+    "diff_pct": 9.5,
+    "violations": [
+      "kcal=2363.8>1500",
+      "fat=250.3>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1011,
+    "en": "Paneer potato cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 309.0,
+    "p": 8.5,
+    "c": 17.9,
+    "f": 24.5,
+    "fi": 1.4,
+    "est_kcal": 326.1,
+    "diff_pct": 5.2,
+    "violations": [
+      "kcal=2309.9>1500",
+      "fat=245.1>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1018,
+    "en": "Potato bonda",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 134.1,
+    "p": 2.0,
+    "c": 8.1,
+    "f": 12.2,
+    "fi": 1.5,
+    "est_kcal": 150.2,
+    "diff_pct": 10.7,
+    "violations": [
+      "fat=121.5>serving=100.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1025,
+    "en": "Potato kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 645.0,
+    "p": 5.7,
+    "c": 28.4,
+    "f": 50.1,
+    "fi": 5.7,
+    "est_kcal": 587.3,
+    "diff_pct": 9.8,
+    "violations": [
+      "kcal=4645.4>1500",
+      "fat=500.7>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1027,
+    "en": "Potato pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 567.0,
+    "p": 12.8,
+    "c": 40.8,
+    "f": 48.5,
+    "fi": 6.9,
+    "est_kcal": 650.9,
+    "diff_pct": 12.9,
+    "violations": [
+      "kcal=4567.6>1500",
+      "fat=484.5>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1031,
+    "en": "Potato samosa",
+    "s": "60g",
+    "s_g": 60.0,
+    "k": 813.8,
+    "p": 2.4,
+    "c": 13.0,
+    "f": 50.0,
+    "fi": 1.7,
+    "est_kcal": 511.6,
+    "diff_pct": 59.1,
+    "violations": [
+      "energy_mismatch stored=813.8 est=511.6 diff=59%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1034,
+    "en": "Pumpkin cookies",
+    "s": "25g",
+    "s_g": 25.0,
+    "k": 186.6,
+    "p": 2.1,
+    "c": 3.8,
+    "f": 3.4,
+    "fi": 0.9,
+    "est_kcal": 54.2,
+    "diff_pct": 244.3,
+    "violations": [
+      "carbs=38.2>serving=25.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 1039,
@@ -461,9 +3085,105 @@
     "fi": 3.8,
     "est_kcal": 82.4,
     "diff_pct": 2.5,
-    "issues": [
+    "violations": [
       "fiber=3.8>carbs=2.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1043,
+    "en": "Spinach chickpeas cutlet",
+    "s": "80g",
+    "s_g": 80.0,
+    "k": 255.0,
+    "p": 4.7,
+    "c": 16.2,
+    "f": 24.1,
+    "fi": 3.0,
+    "est_kcal": 300.5,
+    "diff_pct": 15.1,
+    "violations": [
+      "kcal=2255.6>1500",
+      "fat=241.3>serving=80.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1045,
+    "en": "Spinach kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 609.0,
+    "p": 8.8,
+    "c": 28.7,
+    "f": 49.6,
+    "fi": 7.4,
+    "est_kcal": 596.4,
+    "diff_pct": 2.1,
+    "violations": [
+      "kcal=4609.5>1500",
+      "fat=495.7>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1047,
+    "en": "Spinach pakora/pakoda",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 521.0,
+    "p": 12.5,
+    "c": 29.7,
+    "f": 48.5,
+    "fi": 6.5,
+    "est_kcal": 605.3,
+    "diff_pct": 13.9,
+    "violations": [
+      "kcal=4521.6>1500",
+      "fat=484.6>serving=300.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1048,
+    "en": "Spinach paneer kofta curry",
+    "s": "250g",
+    "s_g": 250.0,
+    "k": 620.0,
+    "p": 10.9,
+    "c": 22.4,
+    "f": 49.9,
+    "fi": 5.7,
+    "est_kcal": 582.3,
+    "diff_pct": 6.5,
+    "violations": [
+      "kcal=4620.9>1500",
+      "fat=498.7>serving=250.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1049,
+    "en": "Spinach peanut namak paras",
+    "s": "300g",
+    "s_g": 300.0,
+    "k": 2339.8,
+    "p": 5.2,
+    "c": 20.9,
+    "f": 248.2,
+    "fi": 2.6,
+    "est_kcal": 2338.2,
+    "diff_pct": 0.1,
+    "violations": [
+      "kcal=2339.8>1500"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1052,
@@ -477,9 +3197,11 @@
     "fi": 9.9,
     "est_kcal": 918.1,
     "diff_pct": 82.1,
-    "issues": [
-      "kcal_mismatch stored=163.9 est=918.1 diff=82%"
-    ]
+    "violations": [
+      "energy_mismatch stored=163.9 est=918.1 diff=82%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1055,
@@ -493,9 +3215,11 @@
     "fi": 2.3,
     "est_kcal": 50.7,
     "diff_pct": 1.6,
-    "issues": [
+    "violations": [
       "fiber=2.3>carbs=2.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1056,
@@ -509,9 +3233,683 @@
     "fi": 4.6,
     "est_kcal": 102.9,
     "diff_pct": 1.3,
-    "issues": [
+    "violations": [
       "fiber=4.6>carbs=4.3"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "s": "15g",
+    "s_g": 15.0,
+    "k": 447.3,
+    "p": 7.8,
+    "c": 5.8,
+    "f": 2.0,
+    "fi": 3.4,
+    "est_kcal": 72.4,
+    "diff_pct": 517.8,
+    "violations": [
+      "carbs=57.5>serving=15.0g",
+      "fat=20.1>serving=15.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1660.0,
+    "p": 20.9,
+    "c": 21.0,
+    "f": 28.6,
+    "fi": 10.0,
+    "est_kcal": 425.0,
+    "diff_pct": 290.6,
+    "violations": [
+      "kcal=1660.0>1500",
+      "energy_mismatch stored=1660.0 est=425.0 diff=291%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1620.0,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 87.0,
+    "fi": 0.4,
+    "est_kcal": 789.0,
+    "diff_pct": 105.3,
+    "violations": [
+      "kcal=1620.0>1500",
+      "energy_mismatch stored=1620.0 est=789.0 diff=105%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1540.0,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 82.7,
+    "fi": 1.8,
+    "est_kcal": 750.3,
+    "diff_pct": 105.3,
+    "violations": [
+      "kcal=1540.0>1500",
+      "fiber=1.8>carbs=1.4",
+      "energy_mismatch stored=1540.0 est=750.3 diff=105%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1470.0,
+    "p": 1.4,
+    "c": 3.9,
+    "f": 70.6,
+    "fi": 0.5,
+    "est_kcal": 656.6,
+    "diff_pct": 123.9,
+    "violations": [
+      "energy_mismatch stored=1470.0 est=656.6 diff=124%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1480.0,
+    "p": 3.3,
+    "c": 6.3,
+    "f": 66.9,
+    "fi": 1.5,
+    "est_kcal": 640.5,
+    "diff_pct": 131.1,
+    "violations": [
+      "energy_mismatch stored=1480.0 est=640.5 diff=131%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 621.0,
+    "p": 1.4,
+    "c": 2.8,
+    "f": 28.7,
+    "fi": 0.8,
+    "est_kcal": 275.1,
+    "diff_pct": 125.7,
+    "violations": [
+      "energy_mismatch stored=621.0 est=275.1 diff=126%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1470.0,
+    "p": 0.6,
+    "c": 3.2,
+    "f": 74.9,
+    "fi": 0.7,
+    "est_kcal": 689.3,
+    "diff_pct": 113.3,
+    "violations": [
+      "energy_mismatch stored=1470.0 est=689.3 diff=113%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1470.0,
+    "p": 1.6,
+    "c": 4.4,
+    "f": 70.3,
+    "fi": 0.8,
+    "est_kcal": 656.7,
+    "diff_pct": 123.8,
+    "violations": [
+      "energy_mismatch stored=1470.0 est=656.7 diff=124%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1450.0,
+    "p": 2.9,
+    "c": 12.2,
+    "f": 62.0,
+    "fi": 1.6,
+    "est_kcal": 618.4,
+    "diff_pct": 134.5,
+    "violations": [
+      "energy_mismatch stored=1450.0 est=618.4 diff=134%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 464.0,
+    "p": 0.1,
+    "c": 1.1,
+    "f": 24.3,
+    "fi": 0.2,
+    "est_kcal": 223.5,
+    "diff_pct": 107.6,
+    "violations": [
+      "energy_mismatch stored=464.0 est=223.5 diff=108%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1040.0,
+    "p": 1.2,
+    "c": 3.1,
+    "f": 49.7,
+    "fi": 1.1,
+    "est_kcal": 464.5,
+    "diff_pct": 123.9,
+    "violations": [
+      "energy_mismatch stored=1040.0 est=464.5 diff=124%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 640.0,
+    "p": 0.3,
+    "c": 1.4,
+    "f": 32.6,
+    "fi": 0.3,
+    "est_kcal": 300.2,
+    "diff_pct": 113.2,
+    "violations": [
+      "energy_mismatch stored=640.0 est=300.2 diff=113%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 91.0,
+    "p": 0.1,
+    "c": 1.2,
+    "f": 3.7,
+    "fi": 1.8,
+    "est_kcal": 38.5,
+    "diff_pct": 136.4,
+    "violations": [
+      "fiber=1.8>carbs=1.2",
+      "energy_mismatch stored=91.0 est=38.5 diff=136%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 228.0,
+    "p": 0.1,
+    "c": 2.0,
+    "f": 8.3,
+    "fi": 0.7,
+    "est_kcal": 83.1,
+    "diff_pct": 174.4,
+    "violations": [
+      "energy_mismatch stored=228.0 est=83.1 diff=174%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 122.0,
+    "p": 0.1,
+    "c": 4.3,
+    "f": 2.5,
+    "fi": 0.6,
+    "est_kcal": 40.1,
+    "diff_pct": 204.2,
+    "violations": [
+      "energy_mismatch stored=122.0 est=40.1 diff=204%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 94.0,
+    "p": 0.1,
+    "c": 2.8,
+    "f": 7.9,
+    "fi": 1.4,
+    "est_kcal": 82.7,
+    "diff_pct": 13.7,
+    "violations": [
+      "energy_mismatch stored=194.0 est=82.7 diff=135%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 100.0,
+    "p": 0.1,
+    "c": 4.1,
+    "f": 2.0,
+    "fi": 0.7,
+    "est_kcal": 34.8,
+    "diff_pct": 187.4,
+    "violations": [
+      "energy_mismatch stored=100.0 est=34.8 diff=187%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 209.0,
+    "p": 0.6,
+    "c": 4.2,
+    "f": 4.5,
+    "fi": 0.8,
+    "est_kcal": 59.7,
+    "diff_pct": 250.1,
+    "violations": [
+      "energy_mismatch stored=209.0 est=59.7 diff=250%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 101.0,
+    "p": 0.3,
+    "c": 2.5,
+    "f": 2.6,
+    "fi": 0.4,
+    "est_kcal": 34.6,
+    "diff_pct": 191.9,
+    "violations": [
+      "energy_mismatch stored=101.0 est=34.6 diff=192%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 147.0,
+    "p": 0.3,
+    "c": 2.6,
+    "f": 6.0,
+    "fi": 0.6,
+    "est_kcal": 65.6,
+    "diff_pct": 124.1,
+    "violations": [
+      "energy_mismatch stored=147.0 est=65.6 diff=124%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 113.0,
+    "p": 0.3,
+    "c": 2.0,
+    "f": 2.5,
+    "fi": 0.8,
+    "est_kcal": 31.7,
+    "diff_pct": 256.5,
+    "violations": [
+      "energy_mismatch stored=113.0 est=31.7 diff=256%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 189.0,
+    "p": 0.1,
+    "c": 4.7,
+    "f": 5.9,
+    "fi": 1.0,
+    "est_kcal": 72.3,
+    "diff_pct": 161.4,
+    "violations": [
+      "energy_mismatch stored=189.0 est=72.3 diff=161%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 60.0,
+    "p": 0.4,
+    "c": 6.0,
+    "f": 2.8,
+    "fi": 0.8,
+    "est_kcal": 50.8,
+    "diff_pct": 18.1,
+    "violations": [
+      "energy_mismatch stored=160.0 est=50.8 diff=215%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 72.0,
+    "p": 0.1,
+    "c": 0.7,
+    "f": 2.9,
+    "fi": 0.4,
+    "est_kcal": 29.3,
+    "diff_pct": 145.7,
+    "violations": [
+      "energy_mismatch stored=72.0 est=29.3 diff=146%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 181.0,
+    "p": 0.2,
+    "c": 4.8,
+    "f": 5.1,
+    "fi": 1.9,
+    "est_kcal": 65.9,
+    "diff_pct": 174.7,
+    "violations": [
+      "energy_mismatch stored=181.0 est=65.9 diff=175%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 623.0,
+    "p": 0.6,
+    "c": 2.1,
+    "f": 27.6,
+    "fi": 1.3,
+    "est_kcal": 259.2,
+    "diff_pct": 140.4,
+    "violations": [
+      "energy_mismatch stored=623.0 est=259.2 diff=140%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 41.0,
+    "p": 0.1,
+    "c": 1.7,
+    "f": 1.0,
+    "fi": 0.3,
+    "est_kcal": 16.2,
+    "diff_pct": 153.1,
+    "violations": [
+      "energy_mismatch stored=41.0 est=16.2 diff=153%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 129.0,
+    "p": 0.3,
+    "c": 2.6,
+    "f": 3.6,
+    "fi": 1.1,
+    "est_kcal": 44.0,
+    "diff_pct": 193.2,
+    "violations": [
+      "energy_mismatch stored=129.0 est=44.0 diff=193%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 142.0,
+    "p": 0.1,
+    "c": 0.6,
+    "f": 6.8,
+    "fi": 0.6,
+    "est_kcal": 64.0,
+    "diff_pct": 121.9,
+    "violations": [
+      "energy_mismatch stored=142.0 est=64.0 diff=122%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 102.0,
+    "p": 0.3,
+    "c": 2.2,
+    "f": 2.2,
+    "fi": 0.5,
+    "est_kcal": 29.8,
+    "diff_pct": 242.3,
+    "violations": [
+      "energy_mismatch stored=102.0 est=29.8 diff=242%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 121.0,
+    "p": 0.4,
+    "c": 1.1,
+    "f": 4.6,
+    "fi": 0.3,
+    "est_kcal": 47.4,
+    "diff_pct": 155.3,
+    "violations": [
+      "energy_mismatch stored=121.0 est=47.4 diff=155%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 103.0,
+    "p": 0.3,
+    "c": 0.8,
+    "f": 4.5,
+    "fi": 0.5,
+    "est_kcal": 44.9,
+    "diff_pct": 129.4,
+    "violations": [
+      "energy_mismatch stored=103.0 est=44.9 diff=129%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 102.0,
+    "p": 0.2,
+    "c": 1.1,
+    "f": 4.3,
+    "fi": 0.7,
+    "est_kcal": 43.9,
+    "diff_pct": 132.3,
+    "violations": [
+      "energy_mismatch stored=102.0 est=43.9 diff=132%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 259.0,
+    "p": 0.5,
+    "c": 1.1,
+    "f": 11.8,
+    "fi": 1.1,
+    "est_kcal": 112.6,
+    "diff_pct": 130.0,
+    "violations": [
+      "energy_mismatch stored=259.0 est=112.6 diff=130%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1133,
+    "en": "Okra/ladies finger, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 64.0,
+    "p": 0.2,
+    "c": 3.1,
+    "f": 5.7,
+    "fi": 1.1,
+    "est_kcal": 64.5,
+    "diff_pct": 0.8,
+    "violations": [
+      "energy_mismatch stored=164.0 est=64.5 diff=154%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 249.0,
+    "p": 0.1,
+    "c": 1.9,
+    "f": 12.2,
+    "fi": 0.7,
+    "est_kcal": 117.8,
+    "diff_pct": 111.4,
+    "violations": [
+      "energy_mismatch stored=249.0 est=117.8 diff=111%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1138,
@@ -525,9 +3923,11 @@
     "fi": 2.4,
     "est_kcal": 13.5,
     "diff_pct": 33.3,
-    "issues": [
+    "violations": [
       "fiber=2.4>carbs=1.3"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1141,
@@ -541,9 +3941,119 @@
     "fi": 1.7,
     "est_kcal": 11.8,
     "diff_pct": 35.6,
-    "issues": [
+    "violations": [
       "fiber=1.7>carbs=1.4"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 115.0,
+    "p": 0.4,
+    "c": 2.8,
+    "f": 2.9,
+    "fi": 0.5,
+    "est_kcal": 38.9,
+    "diff_pct": 195.6,
+    "violations": [
+      "energy_mismatch stored=115.0 est=38.9 diff=196%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 81.0,
+    "p": 0.3,
+    "c": 3.1,
+    "f": 7.3,
+    "fi": 0.7,
+    "est_kcal": 79.3,
+    "diff_pct": 2.1,
+    "violations": [
+      "energy_mismatch stored=181.0 est=79.3 diff=128%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 119.0,
+    "p": 0.3,
+    "c": 2.1,
+    "f": 2.7,
+    "fi": 0.8,
+    "est_kcal": 33.9,
+    "diff_pct": 251.0,
+    "violations": [
+      "energy_mismatch stored=119.0 est=33.9 diff=251%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 167.0,
+    "p": 0.4,
+    "c": 6.3,
+    "f": 3.0,
+    "fi": 0.8,
+    "est_kcal": 53.8,
+    "diff_pct": 210.4,
+    "violations": [
+      "energy_mismatch stored=167.0 est=53.8 diff=210%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 116.0,
+    "p": 0.4,
+    "c": 2.5,
+    "f": 2.5,
+    "fi": 0.6,
+    "est_kcal": 34.1,
+    "diff_pct": 240.2,
+    "violations": [
+      "energy_mismatch stored=116.0 est=34.1 diff=240%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 294.0,
+    "p": 0.5,
+    "c": 1.3,
+    "f": 13.4,
+    "fi": 1.2,
+    "est_kcal": 127.8,
+    "diff_pct": 130.0,
+    "violations": [
+      "energy_mismatch stored=294.0 est=127.8 diff=130%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1152,
@@ -557,9 +4067,47 @@
     "fi": 3.8,
     "est_kcal": 21.7,
     "diff_pct": 33.6,
-    "issues": [
+    "violations": [
       "fiber=3.8>carbs=2.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 526.0,
+    "p": 7.4,
+    "c": 5.0,
+    "f": 9.0,
+    "fi": 3.1,
+    "est_kcal": 130.6,
+    "diff_pct": 302.8,
+    "violations": [
+      "energy_mismatch stored=526.0 est=130.6 diff=303%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 540.0,
+    "p": 9.1,
+    "c": 4.1,
+    "f": 7.1,
+    "fi": 2.7,
+    "est_kcal": 116.7,
+    "diff_pct": 362.7,
+    "violations": [
+      "energy_mismatch stored=540.0 est=116.7 diff=363%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1156,
@@ -573,9 +4121,11 @@
     "fi": 7.9,
     "est_kcal": 72.6,
     "diff_pct": 21.2,
-    "issues": [
+    "violations": [
       "fiber=7.9>carbs=5.7"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1159,
@@ -589,10 +4139,12 @@
     "fi": 4.2,
     "est_kcal": 22.7,
     "diff_pct": 41.0,
-    "issues": [
+    "violations": [
       "fiber=4.2>carbs=0.5",
-      "kcal_mismatch stored=32.0 est=22.7 diff=41%"
-    ]
+      "energy_mismatch stored=32.0 est=22.7 diff=41%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1160,
@@ -606,10 +4158,12 @@
     "fi": 4.4,
     "est_kcal": 16.7,
     "diff_pct": 49.7,
-    "issues": [
+    "violations": [
       "fiber=4.4>carbs=1.5",
-      "kcal_mismatch stored=25.0 est=16.7 diff=50%"
-    ]
+      "energy_mismatch stored=25.0 est=16.7 diff=50%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1162,
@@ -623,9 +4177,11 @@
     "fi": 3.7,
     "est_kcal": 24.1,
     "diff_pct": 28.6,
-    "issues": [
+    "violations": [
       "fiber=3.7>carbs=2.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1165,
@@ -639,10 +4195,12 @@
     "fi": 4.4,
     "est_kcal": 17.8,
     "diff_pct": 46.1,
-    "issues": [
+    "violations": [
       "fiber=4.4>carbs=0.6",
-      "kcal_mismatch stored=26.0 est=17.8 diff=46%"
-    ]
+      "energy_mismatch stored=26.0 est=17.8 diff=46%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1171,
@@ -656,9 +4214,11 @@
     "fi": 5.2,
     "est_kcal": 61.4,
     "diff_pct": 17.3,
-    "issues": [
+    "violations": [
       "fiber=5.2>carbs=4.6"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1174,
@@ -672,9 +4232,11 @@
     "fi": 2.2,
     "est_kcal": 20.7,
     "diff_pct": 20.8,
-    "issues": [
+    "violations": [
       "fiber=2.2>carbs=2.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1175,
@@ -688,10 +4250,12 @@
     "fi": 5.8,
     "est_kcal": 21.1,
     "diff_pct": 51.7,
-    "issues": [
+    "violations": [
       "fiber=5.8>carbs=1.7",
-      "kcal_mismatch stored=32.0 est=21.1 diff=52%"
-    ]
+      "energy_mismatch stored=32.0 est=21.1 diff=52%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1178,
@@ -705,9 +4269,11 @@
     "fi": 4.4,
     "est_kcal": 38.1,
     "diff_pct": 23.4,
-    "issues": [
+    "violations": [
       "fiber=4.4>carbs=4.3"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1179,
@@ -721,9 +4287,11 @@
     "fi": 2.9,
     "est_kcal": 20.1,
     "diff_pct": 29.4,
-    "issues": [
+    "violations": [
       "fiber=2.9>carbs=0.9"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1180,
@@ -737,10 +4305,12 @@
     "fi": 7.3,
     "est_kcal": 30.4,
     "diff_pct": 48.0,
-    "issues": [
+    "violations": [
       "fiber=7.3>carbs=1.8",
-      "kcal_mismatch stored=45.0 est=30.4 diff=48%"
-    ]
+      "energy_mismatch stored=45.0 est=30.4 diff=48%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1181,
@@ -754,10 +4324,12 @@
     "fi": 7.7,
     "est_kcal": 30.4,
     "diff_pct": 48.0,
-    "issues": [
+    "violations": [
       "fiber=7.7>carbs=2.8",
-      "kcal_mismatch stored=45.0 est=30.4 diff=48%"
-    ]
+      "energy_mismatch stored=45.0 est=30.4 diff=48%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1183,
@@ -771,10 +4343,12 @@
     "fi": 8.0,
     "est_kcal": 33.6,
     "diff_pct": 48.8,
-    "issues": [
+    "violations": [
       "fiber=8.0>carbs=3.9",
-      "kcal_mismatch stored=50.0 est=33.6 diff=49%"
-    ]
+      "energy_mismatch stored=50.0 est=33.6 diff=49%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1188,
@@ -788,9 +4362,11 @@
     "fi": 5.3,
     "est_kcal": 36.1,
     "diff_pct": 30.2,
-    "issues": [
+    "violations": [
       "fiber=5.3>carbs=1.6"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1222,
@@ -804,10 +4380,12 @@
     "fi": 53.1,
     "est_kcal": 136.8,
     "diff_pct": 77.6,
-    "issues": [
+    "violations": [
       "fiber=53.1>carbs=27.5",
-      "kcal_mismatch stored=243.0 est=136.8 diff=78%"
-    ]
+      "energy_mismatch stored=243.0 est=136.8 diff=78%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1223,
@@ -821,9 +4399,11 @@
     "fi": 28.1,
     "est_kcal": 210.5,
     "diff_pct": 26.8,
-    "issues": [
+    "violations": [
       "fiber=28.1>carbs=27.4"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1224,
@@ -837,9 +4417,11 @@
     "fi": 40.8,
     "est_kcal": 254.9,
     "diff_pct": 31.8,
-    "issues": [
+    "violations": [
       "fiber=40.8>carbs=13.4"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1226,
@@ -853,9 +4435,11 @@
     "fi": 39.8,
     "est_kcal": 249.3,
     "diff_pct": 32.0,
-    "issues": [
+    "violations": [
       "fiber=39.8>carbs=13.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1229,
@@ -869,10 +4453,12 @@
     "fi": 8.7,
     "est_kcal": 20.1,
     "diff_pct": 84.1,
-    "issues": [
+    "violations": [
       "fiber=8.7>carbs=1.6",
-      "kcal_mismatch stored=37.0 est=20.1 diff=84%"
-    ]
+      "energy_mismatch stored=37.0 est=20.1 diff=84%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1231,
@@ -886,10 +4472,49 @@
     "fi": 10.6,
     "est_kcal": 44.8,
     "diff_pct": 45.1,
-    "issues": [
+    "violations": [
       "fiber=10.6>carbs=8.7",
-      "kcal_mismatch stored=65.0 est=44.8 diff=45%"
-    ]
+      "energy_mismatch stored=65.0 est=44.8 diff=45%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1980.0,
+    "p": 36.4,
+    "c": 19.0,
+    "f": 21.1,
+    "fi": 1.7,
+    "est_kcal": 411.5,
+    "diff_pct": 381.2,
+    "violations": [
+      "kcal=1980.0>1500",
+      "energy_mismatch stored=1980.0 est=411.5 diff=381%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1400.0,
+    "p": 8.4,
+    "c": 21.1,
+    "f": 47.3,
+    "fi": 4.8,
+    "est_kcal": 543.7,
+    "diff_pct": 157.5,
+    "violations": [
+      "energy_mismatch stored=1400.0 est=543.7 diff=157%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1236,
@@ -903,9 +4528,11 @@
     "fi": 0.2,
     "est_kcal": 109.1,
     "diff_pct": 97.1,
-    "issues": [
-      "kcal_mismatch stored=215.0 est=109.1 diff=97%"
-    ]
+    "violations": [
+      "energy_mismatch stored=215.0 est=109.1 diff=97%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1237,
@@ -919,9 +4546,119 @@
     "fi": 0.2,
     "est_kcal": 131.9,
     "diff_pct": 98.6,
-    "issues": [
-      "kcal_mismatch stored=262.0 est=131.9 diff=99%"
-    ]
+    "violations": [
+      "energy_mismatch stored=262.0 est=131.9 diff=99%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 259.0,
+    "p": 0.3,
+    "c": 3.6,
+    "f": 12.3,
+    "fi": 0.2,
+    "est_kcal": 126.3,
+    "diff_pct": 105.1,
+    "violations": [
+      "energy_mismatch stored=259.0 est=126.3 diff=105%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 400.0,
+    "p": 0.8,
+    "c": 2.6,
+    "f": 19.2,
+    "fi": 0.8,
+    "est_kcal": 186.4,
+    "diff_pct": 114.6,
+    "violations": [
+      "energy_mismatch stored=400.0 est=186.4 diff=115%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 293.0,
+    "p": 0.2,
+    "c": 4.9,
+    "f": 13.0,
+    "fi": 0.9,
+    "est_kcal": 137.4,
+    "diff_pct": 113.2,
+    "violations": [
+      "energy_mismatch stored=293.0 est=137.4 diff=113%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 340.0,
+    "p": 0.2,
+    "c": 5.2,
+    "f": 15.7,
+    "fi": 0.7,
+    "est_kcal": 162.9,
+    "diff_pct": 108.7,
+    "violations": [
+      "energy_mismatch stored=340.0 est=162.9 diff=109%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1242,
+    "en": "Carambola, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 72.0,
+    "p": 0.7,
+    "c": 2.8,
+    "f": 6.7,
+    "fi": 0.5,
+    "est_kcal": 74.3,
+    "diff_pct": 3.1,
+    "violations": [
+      "energy_mismatch stored=172.0 est=74.3 diff=131%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 357.0,
+    "p": 0.3,
+    "c": 4.4,
+    "f": 16.6,
+    "fi": 0.9,
+    "est_kcal": 168.2,
+    "diff_pct": 112.2,
+    "violations": [
+      "energy_mismatch stored=357.0 est=168.2 diff=112%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1244,
@@ -935,9 +4672,11 @@
     "fi": 3.4,
     "est_kcal": 643.1,
     "diff_pct": 97.5,
-    "issues": [
-      "kcal_mismatch stored=1270.0 est=643.1 diff=97%"
-    ]
+    "violations": [
+      "energy_mismatch stored=1270.0 est=643.1 diff=97%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1245,
@@ -951,9 +4690,317 @@
     "fi": 1.7,
     "est_kcal": 318.6,
     "diff_pct": 99.6,
-    "issues": [
-      "kcal_mismatch stored=636.0 est=318.6 diff=100%"
-    ]
+    "violations": [
+      "energy_mismatch stored=636.0 est=318.6 diff=100%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 271.0,
+    "p": 0.4,
+    "c": 3.5,
+    "f": 10.3,
+    "fi": 1.8,
+    "est_kcal": 108.3,
+    "diff_pct": 150.2,
+    "violations": [
+      "energy_mismatch stored=271.0 est=108.3 diff=150%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1247,
+    "en": "Emblic, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 86.0,
+    "p": 0.1,
+    "c": 3.4,
+    "f": 8.3,
+    "fi": 0.7,
+    "est_kcal": 88.7,
+    "diff_pct": 3.0,
+    "violations": [
+      "energy_mismatch stored=186.0 est=88.7 diff=110%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1248,
+    "en": "Fig, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 68.0,
+    "p": 0.2,
+    "c": 3.1,
+    "f": 6.7,
+    "fi": 0.6,
+    "est_kcal": 73.5,
+    "diff_pct": 7.5,
+    "violations": [
+      "energy_mismatch stored=168.0 est=73.5 diff=129%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 398.0,
+    "p": 0.6,
+    "c": 2.9,
+    "f": 20.2,
+    "fi": 0.5,
+    "est_kcal": 195.8,
+    "diff_pct": 103.3,
+    "violations": [
+      "energy_mismatch stored=398.0 est=195.8 diff=103%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 265.0,
+    "p": 0.5,
+    "c": 5.4,
+    "f": 10.9,
+    "fi": 0.7,
+    "est_kcal": 121.7,
+    "diff_pct": 117.7,
+    "violations": [
+      "energy_mismatch stored=265.0 est=121.7 diff=118%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 213.0,
+    "p": 0.8,
+    "c": 1.6,
+    "f": 8.9,
+    "fi": 0.9,
+    "est_kcal": 89.7,
+    "diff_pct": 137.5,
+    "violations": [
+      "energy_mismatch stored=213.0 est=89.7 diff=137%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 312.0,
+    "p": 0.2,
+    "c": 7.2,
+    "f": 13.3,
+    "fi": 1.1,
+    "est_kcal": 149.3,
+    "diff_pct": 109.0,
+    "violations": [
+      "energy_mismatch stored=312.0 est=149.3 diff=109%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 64.0,
+    "p": 0.5,
+    "c": 3.5,
+    "f": 6.1,
+    "fi": 0.8,
+    "est_kcal": 70.9,
+    "diff_pct": 9.7,
+    "violations": [
+      "energy_mismatch stored=164.0 est=70.9 diff=131%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1254,
+    "en": "Jambos, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 69.0,
+    "p": 0.3,
+    "c": 1.2,
+    "f": 8.0,
+    "fi": 0.3,
+    "est_kcal": 78.0,
+    "diff_pct": 11.5,
+    "violations": [
+      "energy_mismatch stored=169.0 est=78.0 diff=117%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 149.0,
+    "p": 0.2,
+    "c": 1.6,
+    "f": 6.9,
+    "fi": 0.8,
+    "est_kcal": 69.3,
+    "diff_pct": 115.0,
+    "violations": [
+      "energy_mismatch stored=149.0 est=69.3 diff=115%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 254.0,
+    "p": 0.2,
+    "c": 1.0,
+    "f": 12.6,
+    "fi": 0.0,
+    "est_kcal": 118.2,
+    "diff_pct": 114.9,
+    "violations": [
+      "energy_mismatch stored=254.0 est=118.2 diff=115%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 234.0,
+    "p": 1.0,
+    "c": 1.3,
+    "f": 10.2,
+    "fi": 0.7,
+    "est_kcal": 101.0,
+    "diff_pct": 131.7,
+    "violations": [
+      "energy_mismatch stored=234.0 est=101.0 diff=132%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 77.0,
+    "p": 0.5,
+    "c": 0.5,
+    "f": 8.5,
+    "fi": 0.6,
+    "est_kcal": 80.5,
+    "diff_pct": 4.3,
+    "violations": [
+      "energy_mismatch stored=177.0 est=80.5 diff=120%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 348.0,
+    "p": 0.4,
+    "c": 1.6,
+    "f": 18.0,
+    "fi": 0.8,
+    "est_kcal": 170.0,
+    "diff_pct": 104.7,
+    "violations": [
+      "energy_mismatch stored=348.0 est=170.0 diff=105%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 73.0,
+    "p": 0.2,
+    "c": 1.0,
+    "f": 3.1,
+    "fi": 0.6,
+    "est_kcal": 32.7,
+    "diff_pct": 123.2,
+    "violations": [
+      "energy_mismatch stored=73.0 est=32.7 diff=123%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 38.0,
+    "p": 0.1,
+    "c": 0.2,
+    "f": 1.7,
+    "fi": 0.1,
+    "est_kcal": 16.5,
+    "diff_pct": 130.3,
+    "violations": [
+      "energy_mismatch stored=38.0 est=16.5 diff=130%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1262,
+    "en": "Orange, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 86.0,
+    "p": 0.2,
+    "c": 2.4,
+    "f": 8.7,
+    "fi": 0.3,
+    "est_kcal": 88.7,
+    "diff_pct": 3.0,
+    "violations": [
+      "energy_mismatch stored=186.0 est=88.7 diff=110%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 1263,
@@ -967,9 +5014,173 @@
     "fi": 0.3,
     "est_kcal": 106.3,
     "diff_pct": 95.7,
-    "issues": [
-      "kcal_mismatch stored=208.0 est=106.3 diff=96%"
-    ]
+    "violations": [
+      "energy_mismatch stored=208.0 est=106.3 diff=96%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 139.0,
+    "p": 0.1,
+    "c": 1.7,
+    "f": 6.5,
+    "fi": 0.6,
+    "est_kcal": 65.7,
+    "diff_pct": 111.6,
+    "violations": [
+      "energy_mismatch stored=139.0 est=65.7 diff=112%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 284.0,
+    "p": 0.2,
+    "c": 3.6,
+    "f": 13.9,
+    "fi": 0.5,
+    "est_kcal": 140.3,
+    "diff_pct": 102.4,
+    "violations": [
+      "energy_mismatch stored=284.0 est=140.3 diff=102%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1268,
+    "en": "Pineapple, Joldugee, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 81.0,
+    "p": 0.4,
+    "c": 1.4,
+    "f": 8.3,
+    "fi": 0.3,
+    "est_kcal": 81.9,
+    "diff_pct": 1.1,
+    "violations": [
+      "energy_mismatch stored=181.0 est=81.9 diff=121%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1269,
+    "en": "Pineapple, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 97.0,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 9.7,
+    "fi": 0.6,
+    "est_kcal": 93.3,
+    "diff_pct": 4.0,
+    "violations": [
+      "energy_mismatch stored=197.0 est=93.3 diff=111%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 283.0,
+    "p": 0.2,
+    "c": 4.0,
+    "f": 12.7,
+    "fi": 0.6,
+    "est_kcal": 131.1,
+    "diff_pct": 115.9,
+    "violations": [
+      "energy_mismatch stored=283.0 est=131.1 diff=116%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 159.0,
+    "p": 0.3,
+    "c": 1.0,
+    "f": 7.7,
+    "fi": 0.6,
+    "est_kcal": 74.5,
+    "diff_pct": 113.4,
+    "violations": [
+      "energy_mismatch stored=159.0 est=74.5 diff=113%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 1140.0,
+    "p": 0.4,
+    "c": 5.1,
+    "f": 60.8,
+    "fi": 2.6,
+    "est_kcal": 569.2,
+    "diff_pct": 100.3,
+    "violations": [
+      "energy_mismatch stored=1140.0 est=569.2 diff=100%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 93.0,
+    "p": 0.2,
+    "c": 0.4,
+    "f": 4.4,
+    "fi": 0.3,
+    "est_kcal": 42.0,
+    "diff_pct": 121.4,
+    "violations": [
+      "energy_mismatch stored=93.0 est=42.0 diff=121%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 469.0,
+    "p": 0.3,
+    "c": 7.0,
+    "f": 20.9,
+    "fi": 0.6,
+    "est_kcal": 217.3,
+    "diff_pct": 115.8,
+    "violations": [
+      "energy_mismatch stored=469.0 est=217.3 diff=116%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1275,
@@ -983,9 +5194,11 @@
     "fi": 11.9,
     "est_kcal": 332.1,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=11.9>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1276,
@@ -999,9 +5212,11 @@
     "fi": 3.0,
     "est_kcal": 105.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=3.0>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1278,
@@ -1015,9 +5230,11 @@
     "fi": 2.8,
     "est_kcal": 101.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=2.8>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1280,
@@ -1031,9 +5248,11 @@
     "fi": 1.3,
     "est_kcal": 174.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.3>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1282,
@@ -1047,9 +5266,11 @@
     "fi": 2.1,
     "est_kcal": 107.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=2.1>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1283,
@@ -1063,9 +5284,11 @@
     "fi": 1.3,
     "est_kcal": 80.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.3>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1284,
@@ -1079,9 +5302,11 @@
     "fi": 2.7,
     "est_kcal": 81.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=2.7>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1285,
@@ -1095,9 +5320,11 @@
     "fi": 1.2,
     "est_kcal": 95.8,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=1.2>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1286,
@@ -1111,9 +5338,11 @@
     "fi": 2.2,
     "est_kcal": 122.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=2.2>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1287,
@@ -1127,9 +5356,11 @@
     "fi": 2.3,
     "est_kcal": 94.8,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=2.3>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1288,
@@ -1143,9 +5374,11 @@
     "fi": 1.3,
     "est_kcal": 103.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=1.3>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1291,
@@ -1159,9 +5392,11 @@
     "fi": 1.2,
     "est_kcal": 89.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.2>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1294,
@@ -1175,9 +5410,11 @@
     "fi": 2.0,
     "est_kcal": 117.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=2.0>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1295,
@@ -1191,9 +5428,11 @@
     "fi": 2.4,
     "est_kcal": 87.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=2.4>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1296,
@@ -1207,9 +5446,11 @@
     "fi": 1.2,
     "est_kcal": 76.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.2>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1298,
@@ -1223,9 +5464,11 @@
     "fi": 1.7,
     "est_kcal": 96.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.7>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1299,
@@ -1239,9 +5482,11 @@
     "fi": 2.7,
     "est_kcal": 82.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=2.7>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1300,
@@ -1255,9 +5500,11 @@
     "fi": 1.9,
     "est_kcal": 220.8,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.9>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1301,
@@ -1271,9 +5518,11 @@
     "fi": 4.4,
     "est_kcal": 106.1,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=4.4>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1304,
@@ -1287,9 +5536,11 @@
     "fi": 3.0,
     "est_kcal": 94.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=3.0>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1306,
@@ -1303,9 +5554,11 @@
     "fi": 2.1,
     "est_kcal": 120.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=2.1>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1307,
@@ -1319,9 +5572,11 @@
     "fi": 1.6,
     "est_kcal": 102.2,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=1.6>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1311,
@@ -1335,9 +5590,11 @@
     "fi": 1.1,
     "est_kcal": 112.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.1>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1312,
@@ -1351,9 +5608,11 @@
     "fi": 1.5,
     "est_kcal": 102.8,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=1.5>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1320,
@@ -1367,9 +5626,11 @@
     "fi": 1.3,
     "est_kcal": 79.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.3>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1323,
@@ -1383,9 +5644,11 @@
     "fi": 2.0,
     "est_kcal": 82.2,
     "diff_pct": 0.2,
-    "issues": [
+    "violations": [
       "fiber=2.0>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1326,
@@ -1399,9 +5662,322 @@
     "fi": 4.0,
     "est_kcal": 92.0,
     "diff_pct": 0.0,
-    "issues": [
+    "violations": [
       "fiber=4.0>carbs=0.0"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 449.0,
+    "p": 6.1,
+    "c": 0.9,
+    "f": 5.3,
+    "fi": 1.6,
+    "est_kcal": 75.7,
+    "diff_pct": 493.1,
+    "violations": [
+      "fiber=1.6>carbs=0.9",
+      "energy_mismatch stored=449.0 est=75.7 diff=493%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 923.0,
+    "p": 6.7,
+    "c": 5.0,
+    "f": 21.7,
+    "fi": 2.1,
+    "est_kcal": 242.1,
+    "diff_pct": 281.2,
+    "violations": [
+      "energy_mismatch stored=923.0 est=242.1 diff=281%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 579.0,
+    "p": 9.0,
+    "c": 0.8,
+    "f": 0.0,
+    "fi": 21.0,
+    "est_kcal": 39.2,
+    "diff_pct": 1377.0,
+    "violations": [
+      "fiber=21.0>carbs=0.8",
+      "energy_mismatch stored=579.0 est=39.2 diff=1377%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 55.0,
+    "p": 11.6,
+    "c": 0.9,
+    "f": 0.0,
+    "fi": 11.0,
+    "est_kcal": 50.0,
+    "diff_pct": 10.0,
+    "violations": [
+      "fiber=11.0>carbs=0.9",
+      "energy_mismatch stored=655.0 est=50.0 diff=1210%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 78.2,
+    "p": 14.3,
+    "c": 0.0,
+    "f": 1.4,
+    "fi": 1.1,
+    "est_kcal": 69.8,
+    "diff_pct": 12.0,
+    "violations": [
+      "fiber=1.1>carbs=0.0"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 45.0,
+    "p": 13.2,
+    "c": 0.0,
+    "f": 0.0,
+    "fi": 1.0,
+    "est_kcal": 52.8,
+    "diff_pct": 14.8,
+    "violations": [
+      "energy_mismatch stored=745.0 est=52.8 diff=1311%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 88.9,
+    "p": 16.2,
+    "c": 0.0,
+    "f": 1.6,
+    "fi": 1.2,
+    "est_kcal": 79.2,
+    "diff_pct": 12.2,
+    "violations": [
+      "fiber=1.2>carbs=0.0"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 137.0,
+    "p": 0.7,
+    "c": 0.0,
+    "f": 3.1,
+    "fi": 0.6,
+    "est_kcal": 30.7,
+    "diff_pct": 346.3,
+    "violations": [
+      "energy_mismatch stored=137.0 est=30.7 diff=346%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1358,
+    "en": "Cheese, cottage, 25% fat",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 144.0,
+    "p": 25.1,
+    "c": 0.0,
+    "f": 5.4,
+    "fi": 4.6,
+    "est_kcal": 149.0,
+    "diff_pct": 3.4,
+    "violations": [
+      "fiber=4.6>carbs=0.0"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 96.0,
+    "p": 4.0,
+    "c": 0.0,
+    "f": 11.4,
+    "fi": 0.8,
+    "est_kcal": 118.6,
+    "diff_pct": 19.1,
+    "violations": [
+      "energy_mismatch stored=396.0 est=118.6 diff=234%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 421.0,
+    "p": 7.5,
+    "c": 0.0,
+    "f": 4.7,
+    "fi": 0.8,
+    "est_kcal": 72.3,
+    "diff_pct": 482.3,
+    "violations": [
+      "energy_mismatch stored=421.0 est=72.3 diff=482%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 520.0,
+    "p": 1.0,
+    "c": 0.0,
+    "f": 49.8,
+    "fi": 7.9,
+    "est_kcal": 452.2,
+    "diff_pct": 15.0,
+    "violations": [
+      "kcal=1520.0>1500",
+      "fiber=7.9>carbs=0.0",
+      "energy_mismatch stored=1520.0 est=452.2 diff=236%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 125.0,
+    "p": 0.1,
+    "c": 0.0,
+    "f": 4.1,
+    "fi": 0.6,
+    "est_kcal": 37.3,
+    "diff_pct": 235.1,
+    "violations": [
+      "energy_mismatch stored=125.0 est=37.3 diff=235%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 63.0,
+    "p": 3.7,
+    "c": 0.0,
+    "f": 4.3,
+    "fi": 0.6,
+    "est_kcal": 53.5,
+    "diff_pct": 17.8,
+    "violations": [
+      "energy_mismatch stored=263.0 est=53.5 diff=392%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 285.0,
+    "p": 4.1,
+    "c": 0.0,
+    "f": 4.3,
+    "fi": 0.9,
+    "est_kcal": 55.1,
+    "diff_pct": 417.2,
+    "violations": [
+      "energy_mismatch stored=285.0 est=55.1 diff=417%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 242.0,
+    "p": 2.6,
+    "c": 0.0,
+    "f": 6.6,
+    "fi": 0.6,
+    "est_kcal": 69.8,
+    "diff_pct": 246.7,
+    "violations": [
+      "energy_mismatch stored=242.0 est=69.8 diff=247%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 260.0,
+    "p": 4.0,
+    "c": 0.0,
+    "f": 7.2,
+    "fi": 0.2,
+    "est_kcal": 80.8,
+    "diff_pct": 221.8,
+    "violations": [
+      "energy_mismatch stored=260.0 est=80.8 diff=222%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
   },
   {
     "id": 1368,
@@ -1415,9 +5991,11 @@
     "fi": 2.1,
     "est_kcal": 733.9,
     "diff_pct": 2.3,
-    "issues": [
+    "violations": [
       "fiber=2.1>carbs=0.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1373,
@@ -1431,9 +6009,11 @@
     "fi": 2.3,
     "est_kcal": 725.2,
     "diff_pct": 1.0,
-    "issues": [
+    "violations": [
       "fiber=2.3>carbs=0.2"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1374,
@@ -1447,9 +6027,29 @@
     "fi": 1.5,
     "est_kcal": 680.9,
     "diff_pct": 0.1,
-    "issues": [
+    "violations": [
       "fiber=1.5>carbs=0.6"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 60.0,
+    "p": 0.8,
+    "c": 0.0,
+    "f": 6.8,
+    "fi": 0.3,
+    "est_kcal": 64.4,
+    "diff_pct": 6.8,
+    "violations": [
+      "energy_mismatch stored=160.0 est=64.4 diff=148%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 1382,
@@ -1463,26 +6063,85 @@
     "fi": 8.8,
     "est_kcal": 680.6,
     "diff_pct": 51.5,
-    "issues": [
+    "violations": [
       "fiber=8.8>carbs=0.0",
-      "kcal_mismatch stored=330.0 est=680.6 diff=52%"
-    ]
+      "energy_mismatch stored=330.0 est=680.6 diff=52%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1383,
     "en": "Soft drinks, carbonated",
     "s": "100g",
     "s_g": 100.0,
-    "k": 175.0,
+    "k": 75.0,
     "p": 0.0,
     "c": 0.0,
     "f": 10.3,
     "fi": 0.1,
     "est_kcal": 92.7,
-    "diff_pct": 88.8,
-    "issues": [
-      "kcal_mismatch stored=175.0 est=92.7 diff=89%"
-    ]
+    "diff_pct": 19.1,
+    "violations": [
+      "energy_mismatch stored=175.0 est=92.7 diff=89%"
+    ],
+    "auto_repaired": true,
+    "is_critical": false
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 225.0,
+    "p": 2.4,
+    "c": 0.5,
+    "f": 4.9,
+    "fi": 1.6,
+    "est_kcal": 55.7,
+    "diff_pct": 303.9,
+    "violations": [
+      "fiber=1.6>carbs=0.5",
+      "energy_mismatch stored=225.0 est=55.7 diff=304%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 139.0,
+    "p": 0.0,
+    "c": 0.0,
+    "f": 7.5,
+    "fi": 0.1,
+    "est_kcal": 67.5,
+    "diff_pct": 105.9,
+    "violations": [
+      "energy_mismatch stored=139.0 est=67.5 diff=106%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "s": "100g",
+    "s_g": 100.0,
+    "k": 72.0,
+    "p": 0.8,
+    "c": 0.2,
+    "f": 7.6,
+    "fi": 0.3,
+    "est_kcal": 72.4,
+    "diff_pct": 0.6,
+    "violations": [
+      "energy_mismatch stored=172.0 est=72.4 diff=138%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   },
   {
     "id": 1387,
@@ -1496,9 +6155,11 @@
     "fi": 0.2,
     "est_kcal": 64.3,
     "diff_pct": 94.4,
-    "issues": [
-      "kcal_mismatch stored=125.0 est=64.3 diff=94%"
-    ]
+    "violations": [
+      "energy_mismatch stored=125.0 est=64.3 diff=94%"
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1388,
@@ -1512,9 +6173,11 @@
     "fi": 16.0,
     "est_kcal": 479.5,
     "diff_pct": 27.0,
-    "issues": [
+    "violations": [
       "fiber=16.0>carbs=8.5"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
   },
   {
     "id": 1390,
@@ -1528,8 +6191,126 @@
     "fi": 4.7,
     "est_kcal": 32.4,
     "diff_pct": 29.6,
-    "issues": [
+    "violations": [
       "fiber=4.7>carbs=4.1"
-    ]
+    ],
+    "auto_repaired": false,
+    "is_critical": false
+  },
+  {
+    "id": 1423,
+    "en": "Beer",
+    "s": "330ml",
+    "s_g": 330.0,
+    "k": 54.0,
+    "p": 1.3,
+    "c": 12.6,
+    "f": 0.0,
+    "fi": 0.0,
+    "est_kcal": 55.6,
+    "diff_pct": 2.9,
+    "violations": [
+      "energy_mismatch stored=154.0 est=55.6 diff=177%"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1424,
+    "en": "Beer (Strong)",
+    "s": "330ml",
+    "s_g": 330.0,
+    "k": 210.0,
+    "p": 1.5,
+    "c": 16.0,
+    "f": 0.0,
+    "fi": 0.0,
+    "est_kcal": 70.0,
+    "diff_pct": 200.0,
+    "violations": [
+      "energy_mismatch stored=210.0 est=70.0 diff=200%"
+    ],
+    "auto_repaired": false,
+    "is_critical": true
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 392.0,
+    "p": 0.2,
+    "c": 0.4,
+    "f": 0.2,
+    "fi": 2.1,
+    "est_kcal": 4.2,
+    "diff_pct": 9233.3,
+    "violations": [
+      "protein=17.5>serving=1.0g",
+      "carbs=41.2>serving=1.0g",
+      "fat=16.8>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "s": "1 plate",
+    "s_g": 1.0,
+    "k": 468.0,
+    "p": 0.8,
+    "c": 0.5,
+    "f": 0.2,
+    "fi": 4.1,
+    "est_kcal": 7.0,
+    "diff_pct": 6585.7,
+    "violations": [
+      "protein=8.4>serving=1.0g",
+      "carbs=52.0>serving=1.0g",
+      "fat=24.5>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 418.0,
+    "p": 0.2,
+    "c": 0.7,
+    "f": 0.3,
+    "fi": 1.5,
+    "est_kcal": 6.3,
+    "diff_pct": 6534.9,
+    "violations": [
+      "protein=24.6>serving=1.0g",
+      "carbs=7.4>serving=1.0g",
+      "fat=31.5>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "s": "1 bowl",
+    "s_g": 1.0,
+    "k": 142.0,
+    "p": 0.4,
+    "c": 0.3,
+    "f": 0.2,
+    "fi": 0.8,
+    "est_kcal": 4.6,
+    "diff_pct": 2987.0,
+    "violations": [
+      "protein=3.8>serving=1.0g",
+      "carbs=28.5>serving=1.0g",
+      "fat=1.8>serving=1.0g"
+    ],
+    "auto_repaired": true,
+    "is_critical": true
   }
 ]
