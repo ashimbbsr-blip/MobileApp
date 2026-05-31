@@ -1,0 +1,6074 @@
+[
+  {
+    "id": 1068,
+    "en": "Barley, whole-grain, raw",
+    "v5_6": {
+      "k": 324.0,
+      "p": 10.9,
+      "f": 2.2,
+      "c": 56.4,
+      "fi": 17.3
+    },
+    "v5_7": {
+      "k": 324.0,
+      "p": 10.9,
+      "f": 2.2,
+      "c": 56.4,
+      "fi": 17.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1069,
+    "en": "Bread, bun/roll",
+    "v5_6": {
+      "k": 270.0,
+      "p": 8.8,
+      "f": 2.8,
+      "c": 50.9,
+      "fi": 2.8
+    },
+    "v5_7": {
+      "k": 270.0,
+      "p": 8.8,
+      "f": 2.8,
+      "c": 50.9,
+      "fi": 2.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1070,
+    "en": "Bread, white, for toasting",
+    "v5_6": {
+      "k": 272.0,
+      "p": 8.0,
+      "f": 1.4,
+      "c": 55.6,
+      "fi": 2.5
+    },
+    "v5_7": {
+      "k": 272.0,
+      "p": 8.0,
+      "f": 1.4,
+      "c": 55.6,
+      "fi": 2.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1071,
+    "en": "Maize/corn flour, whole, white",
+    "v5_6": {
+      "k": 355.0,
+      "p": 6.9,
+      "f": 3.9,
+      "c": 69.6,
+      "fi": 7.3
+    },
+    "v5_7": {
+      "k": 355.0,
+      "p": 6.9,
+      "f": 3.9,
+      "c": 69.6,
+      "fi": 7.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1072,
+    "en": "Maize/corn, yellow, dried, raw",
+    "v5_6": {
+      "k": 344.0,
+      "p": 9.9,
+      "f": 3.4,
+      "c": 64.7,
+      "fi": 7.3
+    },
+    "v5_7": {
+      "k": 344.0,
+      "p": 9.9,
+      "f": 3.4,
+      "c": 64.7,
+      "fi": 7.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1073,
+    "en": "Millet, Foxtail, raw",
+    "v5_6": {
+      "k": 344.0,
+      "p": 10.4,
+      "f": 4.3,
+      "c": 61.7,
+      "fi": 8.5
+    },
+    "v5_7": {
+      "k": 344.0,
+      "p": 10.4,
+      "f": 4.3,
+      "c": 61.7,
+      "fi": 8.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1074,
+    "en": "Millet, Proso, whole-grain, raw",
+    "v5_6": {
+      "k": 341.0,
+      "p": 11.2,
+      "f": 4.2,
+      "c": 60.3,
+      "fi": 8.5
+    },
+    "v5_7": {
+      "k": 341.0,
+      "p": 11.2,
+      "f": 4.2,
+      "c": 60.3,
+      "fi": 8.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1075,
+    "en": "Pear millet, whole-grain, raw",
+    "v5_6": {
+      "k": 349.0,
+      "p": 10.1,
+      "f": 5.0,
+      "c": 61.4,
+      "fi": 8.8
+    },
+    "v5_7": {
+      "k": 349.0,
+      "p": 10.1,
+      "f": 5.0,
+      "c": 61.4,
+      "fi": 8.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1076,
+    "en": "Popcorn, maize (salt added)",
+    "v5_6": {
+      "k": 328.0,
+      "p": 10.0,
+      "f": 3.1,
+      "c": 58.6,
+      "fi": 12.9
+    },
+    "v5_7": {
+      "k": 328.0,
+      "p": 10.0,
+      "f": 3.1,
+      "c": 58.6,
+      "fi": 12.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1077,
+    "en": "Rice flakes, white grain, raw",
+    "v5_6": {
+      "k": 356.0,
+      "p": 6.5,
+      "f": 1.1,
+      "c": 79.2,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 356.0,
+      "p": 6.5,
+      "f": 1.1,
+      "c": 79.2,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1079,
+    "en": "Rice, BR-28, parboiled, milled, raw",
+    "v5_6": {
+      "k": 344.0,
+      "p": 6.5,
+      "f": 0.4,
+      "c": 76.8,
+      "fi": 3.4
+    },
+    "v5_7": {
+      "k": 344.0,
+      "p": 6.5,
+      "f": 0.4,
+      "c": 76.8,
+      "fi": 3.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "v5_6": {
+      "k": 1660.0,
+      "p": 20.9,
+      "f": 28.6,
+      "c": 21.0,
+      "fi": 10.0
+    },
+    "v5_7": {
+      "k": 396.7,
+      "p": 20.9,
+      "f": 28.6,
+      "c": 21.0,
+      "fi": 10.0
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1660.0,
+        "v5_7": 396.7
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "v5_6": {
+      "k": 1620.0,
+      "p": 0.1,
+      "f": 87.0,
+      "c": 1.4,
+      "fi": 0.4
+    },
+    "v5_7": {
+      "k": 387.2,
+      "p": 0.1,
+      "f": 1.4,
+      "c": 87.0,
+      "fi": 0.4
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1620.0,
+        "v5_7": 387.2
+      },
+      "f": {
+        "v5_6": 87.0,
+        "v5_7": 1.4
+      },
+      "c": {
+        "v5_6": 1.4,
+        "v5_7": 87.0
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "v5_6": {
+      "k": 1540.0,
+      "p": 0.1,
+      "f": 82.7,
+      "c": 1.4,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 368.1,
+      "p": 0.1,
+      "f": 1.4,
+      "c": 82.7,
+      "fi": 1.8
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1540.0,
+        "v5_7": 368.1
+      },
+      "f": {
+        "v5_6": 82.7,
+        "v5_7": 1.4
+      },
+      "c": {
+        "v5_6": 1.4,
+        "v5_7": 82.7
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "v5_6": {
+      "k": 1470.0,
+      "p": 1.4,
+      "f": 70.6,
+      "c": 3.9,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 1470.0,
+      "p": 1.4,
+      "f": 70.6,
+      "c": 3.9,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "v5_6": {
+      "k": 1480.0,
+      "p": 3.3,
+      "f": 66.9,
+      "c": 6.3,
+      "fi": 1.5
+    },
+    "v5_7": {
+      "k": 353.7,
+      "p": 3.3,
+      "f": 6.3,
+      "c": 66.9,
+      "fi": 1.5
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1480.0,
+        "v5_7": 353.7
+      },
+      "f": {
+        "v5_6": 66.9,
+        "v5_7": 6.3
+      },
+      "c": {
+        "v5_6": 6.3,
+        "v5_7": 66.9
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "v5_6": {
+      "k": 621.0,
+      "p": 1.4,
+      "f": 28.7,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 621.0,
+      "p": 1.4,
+      "f": 28.7,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "v5_6": {
+      "k": 1470.0,
+      "p": 0.6,
+      "f": 74.9,
+      "c": 3.2,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 351.3,
+      "p": 0.6,
+      "f": 3.2,
+      "c": 74.9,
+      "fi": 0.7
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1470.0,
+        "v5_7": 351.3
+      },
+      "f": {
+        "v5_6": 74.9,
+        "v5_7": 3.2
+      },
+      "c": {
+        "v5_6": 3.2,
+        "v5_7": 74.9
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "v5_6": {
+      "k": 1470.0,
+      "p": 1.6,
+      "f": 70.3,
+      "c": 4.4,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 351.3,
+      "p": 1.6,
+      "f": 4.4,
+      "c": 70.3,
+      "fi": 0.8
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1470.0,
+        "v5_7": 351.3
+      },
+      "f": {
+        "v5_6": 70.3,
+        "v5_7": 4.4
+      },
+      "c": {
+        "v5_6": 4.4,
+        "v5_7": 70.3
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "v5_6": {
+      "k": 1450.0,
+      "p": 2.9,
+      "f": 62.0,
+      "c": 12.2,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 346.6,
+      "p": 2.9,
+      "f": 12.2,
+      "c": 62.0,
+      "fi": 1.6
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1450.0,
+        "v5_7": 346.6
+      },
+      "f": {
+        "v5_6": 62.0,
+        "v5_7": 12.2
+      },
+      "c": {
+        "v5_6": 12.2,
+        "v5_7": 62.0
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1091,
+    "en": "Biscuit, sweet",
+    "v5_6": {
+      "k": 344.0,
+      "p": 5.8,
+      "f": 10.0,
+      "c": 56.7,
+      "fi": 2.4
+    },
+    "v5_7": {
+      "k": 344.0,
+      "p": 5.8,
+      "f": 10.0,
+      "c": 56.7,
+      "fi": 2.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1092,
+    "en": "Plain Khichuri* Khichuri",
+    "v5_6": {
+      "k": 163.0,
+      "p": 5.1,
+      "f": 7.4,
+      "c": 17.7,
+      "fi": 2.5
+    },
+    "v5_7": {
+      "k": 163.0,
+      "p": 5.1,
+      "f": 7.4,
+      "c": 17.7,
+      "fi": 2.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "v5_6": {
+      "k": 464.0,
+      "p": 0.1,
+      "f": 24.3,
+      "c": 1.1,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 464.0,
+      "p": 0.1,
+      "f": 24.3,
+      "c": 1.1,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "v5_6": {
+      "k": 1040.0,
+      "p": 1.2,
+      "f": 49.7,
+      "c": 3.1,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 248.6,
+      "p": 1.2,
+      "f": 3.1,
+      "c": 49.7,
+      "fi": 1.1
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1040.0,
+        "v5_7": 248.6
+      },
+      "f": {
+        "v5_6": 49.7,
+        "v5_7": 3.1
+      },
+      "c": {
+        "v5_6": 3.1,
+        "v5_7": 49.7
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "v5_6": {
+      "k": 640.0,
+      "p": 0.3,
+      "f": 32.6,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 640.0,
+      "p": 0.3,
+      "f": 32.6,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1099,
+    "en": "Black gram, dehulled, dried, raw",
+    "v5_6": {
+      "k": 317.0,
+      "p": 22.3,
+      "f": 1.7,
+      "c": 45.1,
+      "fi": 16.3
+    },
+    "v5_7": {
+      "k": 317.0,
+      "p": 22.3,
+      "f": 1.7,
+      "c": 45.1,
+      "fi": 16.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1100,
+    "en": "Black gram, split, dried, raw",
+    "v5_6": {
+      "k": 350.0,
+      "p": 22.6,
+      "f": 1.2,
+      "c": 61.8,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 350.0,
+      "p": 22.6,
+      "f": 1.2,
+      "c": 61.8,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1101,
+    "en": "Green gram, split, dried, raw",
+    "v5_6": {
+      "k": 351.0,
+      "p": 23.7,
+      "f": 1.2,
+      "c": 60.9,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 351.0,
+      "p": 23.7,
+      "f": 1.2,
+      "c": 60.9,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1102,
+    "en": "Green gram, whole, dried, raw",
+    "v5_6": {
+      "k": 318.0,
+      "p": 23.7,
+      "f": 1.3,
+      "c": 44.8,
+      "fi": 16.3
+    },
+    "v5_7": {
+      "k": 318.0,
+      "p": 23.7,
+      "f": 1.3,
+      "c": 44.8,
+      "fi": 16.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1103,
+    "en": "Grass pea, split, dried, raw",
+    "v5_6": {
+      "k": 352.0,
+      "p": 28.4,
+      "f": 0.9,
+      "c": 56.5,
+      "fi": 2.2
+    },
+    "v5_7": {
+      "k": 352.0,
+      "p": 28.4,
+      "f": 0.9,
+      "c": 56.5,
+      "fi": 2.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1104,
+    "en": "Lentil, dried, raw",
+    "v5_6": {
+      "k": 317.0,
+      "p": 27.7,
+      "f": 0.8,
+      "c": 43.2,
+      "fi": 13.2
+    },
+    "v5_7": {
+      "k": 317.0,
+      "p": 27.7,
+      "f": 0.8,
+      "c": 43.2,
+      "fi": 13.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1105,
+    "en": "Pea, dried, raw",
+    "v5_6": {
+      "k": 327.0,
+      "p": 22.1,
+      "f": 2.1,
+      "c": 48.3,
+      "fi": 13.0
+    },
+    "v5_7": {
+      "k": 327.0,
+      "p": 22.1,
+      "f": 2.1,
+      "c": 48.3,
+      "fi": 13.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1106,
+    "en": "Red gram, split, dried, raw",
+    "v5_6": {
+      "k": 347.0,
+      "p": 22.3,
+      "f": 1.5,
+      "c": 60.4,
+      "fi": 1.5
+    },
+    "v5_7": {
+      "k": 347.0,
+      "p": 22.3,
+      "f": 1.5,
+      "c": 60.4,
+      "fi": 1.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1107,
+    "en": "Soybean, dried, raw",
+    "v5_6": {
+      "k": 424.0,
+      "p": 32.9,
+      "f": 19.9,
+      "c": 23.6,
+      "fi": 9.3
+    },
+    "v5_7": {
+      "k": 424.0,
+      "p": 32.9,
+      "f": 19.9,
+      "c": 23.6,
+      "fi": 9.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1110,
+    "en": "Lentil, boiled* (without salt)",
+    "v5_6": {
+      "k": 155.0,
+      "p": 13.6,
+      "f": 0.4,
+      "c": 21.2,
+      "fi": 6.5
+    },
+    "v5_7": {
+      "k": 155.0,
+      "p": 13.6,
+      "f": 0.4,
+      "c": 21.2,
+      "fi": 6.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "v5_6": {
+      "k": 91.0,
+      "p": 0.1,
+      "f": 3.7,
+      "c": 1.2,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 91.0,
+      "p": 0.1,
+      "f": 3.7,
+      "c": 1.2,
+      "fi": 1.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "v5_6": {
+      "k": 228.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 2.0,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 228.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 2.0,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "v5_6": {
+      "k": 122.0,
+      "p": 0.1,
+      "f": 2.5,
+      "c": 4.3,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 122.0,
+      "p": 0.1,
+      "f": 2.5,
+      "c": 4.3,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "v5_6": {
+      "k": 94.0,
+      "p": 0.1,
+      "f": 7.9,
+      "c": 2.8,
+      "fi": 1.4
+    },
+    "v5_7": {
+      "k": 94.0,
+      "p": 0.1,
+      "f": 7.9,
+      "c": 2.8,
+      "fi": 1.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "v5_6": {
+      "k": 100.0,
+      "p": 0.1,
+      "f": 2.0,
+      "c": 4.1,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 100.0,
+      "p": 0.1,
+      "f": 2.0,
+      "c": 4.1,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "v5_6": {
+      "k": 209.0,
+      "p": 0.6,
+      "f": 4.5,
+      "c": 4.2,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 209.0,
+      "p": 0.6,
+      "f": 4.5,
+      "c": 4.2,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "v5_6": {
+      "k": 101.0,
+      "p": 0.3,
+      "f": 2.6,
+      "c": 2.5,
+      "fi": 0.4
+    },
+    "v5_7": {
+      "k": 101.0,
+      "p": 0.3,
+      "f": 2.6,
+      "c": 2.5,
+      "fi": 0.4
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "v5_6": {
+      "k": 147.0,
+      "p": 0.3,
+      "f": 6.0,
+      "c": 2.6,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 147.0,
+      "p": 0.3,
+      "f": 6.0,
+      "c": 2.6,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "v5_6": {
+      "k": 113.0,
+      "p": 0.3,
+      "f": 2.5,
+      "c": 2.0,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 113.0,
+      "p": 0.3,
+      "f": 2.5,
+      "c": 2.0,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "v5_6": {
+      "k": 189.0,
+      "p": 0.1,
+      "f": 5.9,
+      "c": 4.7,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 189.0,
+      "p": 0.1,
+      "f": 5.9,
+      "c": 4.7,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "v5_6": {
+      "k": 60.0,
+      "p": 0.4,
+      "f": 2.8,
+      "c": 6.0,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 60.0,
+      "p": 0.4,
+      "f": 2.8,
+      "c": 6.0,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "v5_6": {
+      "k": 72.0,
+      "p": 0.1,
+      "f": 2.9,
+      "c": 0.7,
+      "fi": 0.4
+    },
+    "v5_7": {
+      "k": 72.0,
+      "p": 0.1,
+      "f": 2.9,
+      "c": 0.7,
+      "fi": 0.4
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "v5_6": {
+      "k": 181.0,
+      "p": 0.2,
+      "f": 5.1,
+      "c": 4.8,
+      "fi": 1.9
+    },
+    "v5_7": {
+      "k": 181.0,
+      "p": 0.2,
+      "f": 5.1,
+      "c": 4.8,
+      "fi": 1.9
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "v5_6": {
+      "k": 623.0,
+      "p": 0.6,
+      "f": 27.6,
+      "c": 2.1,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 623.0,
+      "p": 0.6,
+      "f": 27.6,
+      "c": 2.1,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "v5_6": {
+      "k": 41.0,
+      "p": 0.1,
+      "f": 1.0,
+      "c": 1.7,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 41.0,
+      "p": 0.1,
+      "f": 1.0,
+      "c": 1.7,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "v5_6": {
+      "k": 129.0,
+      "p": 0.3,
+      "f": 3.6,
+      "c": 2.6,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 129.0,
+      "p": 0.3,
+      "f": 3.6,
+      "c": 2.6,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "v5_6": {
+      "k": 142.0,
+      "p": 0.1,
+      "f": 6.8,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 142.0,
+      "p": 0.1,
+      "f": 6.8,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "v5_6": {
+      "k": 102.0,
+      "p": 0.3,
+      "f": 2.2,
+      "c": 2.2,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 102.0,
+      "p": 0.3,
+      "f": 2.2,
+      "c": 2.2,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "v5_6": {
+      "k": 121.0,
+      "p": 0.4,
+      "f": 4.6,
+      "c": 1.1,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 121.0,
+      "p": 0.4,
+      "f": 4.6,
+      "c": 1.1,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 0.3,
+      "f": 4.5,
+      "c": 0.8,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 0.3,
+      "f": 4.5,
+      "c": 0.8,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "v5_6": {
+      "k": 102.0,
+      "p": 0.2,
+      "f": 4.3,
+      "c": 1.1,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 102.0,
+      "p": 0.2,
+      "f": 4.3,
+      "c": 1.1,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "v5_6": {
+      "k": 259.0,
+      "p": 0.5,
+      "f": 11.8,
+      "c": 1.1,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 259.0,
+      "p": 0.5,
+      "f": 11.8,
+      "c": 1.1,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1133,
+    "en": "Okra/ladies finger, raw",
+    "v5_6": {
+      "k": 64.0,
+      "p": 0.2,
+      "f": 5.7,
+      "c": 3.1,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 64.0,
+      "p": 0.2,
+      "f": 5.7,
+      "c": 3.1,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "v5_6": {
+      "k": 249.0,
+      "p": 0.1,
+      "f": 12.2,
+      "c": 1.9,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 249.0,
+      "p": 0.1,
+      "f": 12.2,
+      "c": 1.9,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1135,
+    "en": "Papaya, unripe, raw",
+    "v5_6": {
+      "k": 30.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 5.7,
+      "fi": 1.5
+    },
+    "v5_7": {
+      "k": 30.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 5.7,
+      "fi": 1.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1136,
+    "en": "Peas, raw",
+    "v5_6": {
+      "k": 91.0,
+      "p": 7.0,
+      "f": 0.4,
+      "c": 12.5,
+      "fi": 5.1
+    },
+    "v5_7": {
+      "k": 91.0,
+      "p": 7.0,
+      "f": 0.4,
+      "c": 12.5,
+      "fi": 5.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1137,
+    "en": "Plantain, raw",
+    "v5_6": {
+      "k": 77.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 15.5,
+      "fi": 2.3
+    },
+    "v5_7": {
+      "k": 77.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 15.5,
+      "fi": 2.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "v5_6": {
+      "k": 18.0,
+      "p": 1.4,
+      "f": 0.3,
+      "c": 1.3,
+      "fi": 2.4
+    },
+    "v5_7": {
+      "k": 18.0,
+      "p": 1.4,
+      "f": 0.3,
+      "c": 1.3,
+      "fi": 2.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1139,
+    "en": "Radish, raw",
+    "v5_6": {
+      "k": 18.0,
+      "p": 0.9,
+      "f": 0.1,
+      "c": 2.5,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 18.0,
+      "p": 0.9,
+      "f": 0.1,
+      "c": 2.5,
+      "fi": 1.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1140,
+    "en": "Tomato, green, raw",
+    "v5_6": {
+      "k": 23.0,
+      "p": 1.9,
+      "f": 0.2,
+      "c": 2.5,
+      "fi": 1.7
+    },
+    "v5_7": {
+      "k": 23.0,
+      "p": 1.9,
+      "f": 0.2,
+      "c": 2.5,
+      "fi": 1.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "v5_6": {
+      "k": 16.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 1.4,
+      "fi": 1.7
+    },
+    "v5_7": {
+      "k": 16.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 1.4,
+      "fi": 1.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1142,
+    "en": "Turnip, raw",
+    "v5_6": {
+      "k": 26.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 4.1,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 26.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 4.1,
+      "fi": 1.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "v5_6": {
+      "k": 115.0,
+      "p": 0.4,
+      "f": 2.9,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 115.0,
+      "p": 0.4,
+      "f": 2.9,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "v5_6": {
+      "k": 81.0,
+      "p": 0.3,
+      "f": 7.3,
+      "c": 3.1,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 81.0,
+      "p": 0.3,
+      "f": 7.3,
+      "c": 3.1,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "v5_6": {
+      "k": 119.0,
+      "p": 0.3,
+      "f": 2.7,
+      "c": 2.1,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 119.0,
+      "p": 0.3,
+      "f": 2.7,
+      "c": 2.1,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "v5_6": {
+      "k": 167.0,
+      "p": 0.4,
+      "f": 3.0,
+      "c": 6.3,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 167.0,
+      "p": 0.4,
+      "f": 3.0,
+      "c": 6.3,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "v5_6": {
+      "k": 116.0,
+      "p": 0.4,
+      "f": 2.5,
+      "c": 2.5,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 116.0,
+      "p": 0.4,
+      "f": 2.5,
+      "c": 2.5,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "v5_6": {
+      "k": 294.0,
+      "p": 0.5,
+      "f": 13.4,
+      "c": 1.3,
+      "fi": 1.2
+    },
+    "v5_7": {
+      "k": 294.0,
+      "p": 0.5,
+      "f": 13.4,
+      "c": 1.3,
+      "fi": 1.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1151,
+    "en": "Papaya, unripe, boiled* (without salt)",
+    "v5_6": {
+      "k": 32.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 6.1,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 32.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 6.1,
+      "fi": 1.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "v5_6": {
+      "k": 29.0,
+      "p": 2.2,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.8
+    },
+    "v5_7": {
+      "k": 29.0,
+      "p": 2.2,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1153,
+    "en": "Radish, boiled* (without salt)",
+    "v5_6": {
+      "k": 24.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 3.3,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 24.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 3.3,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "v5_6": {
+      "k": 526.0,
+      "p": 7.4,
+      "f": 9.0,
+      "c": 5.0,
+      "fi": 3.1
+    },
+    "v5_7": {
+      "k": 125.7,
+      "p": 7.4,
+      "f": 9.0,
+      "c": 5.0,
+      "fi": 3.1
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 526.0,
+        "v5_7": 125.7
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "v5_6": {
+      "k": 540.0,
+      "p": 9.1,
+      "f": 7.1,
+      "c": 4.1,
+      "fi": 2.7
+    },
+    "v5_7": {
+      "k": 540.0,
+      "p": 9.1,
+      "f": 7.1,
+      "c": 4.1,
+      "fi": 2.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "v5_6": {
+      "k": 88.0,
+      "p": 8.4,
+      "f": 1.8,
+      "c": 5.7,
+      "fi": 7.9
+    },
+    "v5_7": {
+      "k": 88.0,
+      "p": 8.4,
+      "f": 1.8,
+      "c": 5.7,
+      "fi": 7.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "v5_6": {
+      "k": 57.0,
+      "p": 4.9,
+      "f": 1.2,
+      "c": 6.6,
+      "fi": 2.6
+    },
+    "v5_7": {
+      "k": 57.0,
+      "p": 4.9,
+      "f": 1.2,
+      "c": 6.6,
+      "fi": 2.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1158,
+    "en": "Amaranth, leaves, spiney, raw",
+    "v5_6": {
+      "k": 51.0,
+      "p": 4.8,
+      "f": 0.3,
+      "c": 5.2,
+      "fi": 4.4
+    },
+    "v5_7": {
+      "k": 51.0,
+      "p": 4.8,
+      "f": 0.3,
+      "c": 5.2,
+      "fi": 4.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1159,
+    "en": "Amaranth, leaves, red, raw",
+    "v5_6": {
+      "k": 32.0,
+      "p": 4.5,
+      "f": 0.3,
+      "c": 0.5,
+      "fi": 4.2
+    },
+    "v5_7": {
+      "k": 32.0,
+      "p": 4.5,
+      "f": 0.3,
+      "c": 0.5,
+      "fi": 4.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "v5_6": {
+      "k": 25.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 1.5,
+      "fi": 4.4
+    },
+    "v5_7": {
+      "k": 25.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 1.5,
+      "fi": 4.4
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1161,
+    "en": "Dock leaves, raw",
+    "v5_6": {
+      "k": 46.0,
+      "p": 3.1,
+      "f": 0.7,
+      "c": 5.9,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 46.0,
+      "p": 3.1,
+      "f": 0.7,
+      "c": 5.9,
+      "fi": 1.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1162,
+    "en": "Beet greens leaves",
+    "v5_6": {
+      "k": 31.0,
+      "p": 2.8,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.7
+    },
+    "v5_7": {
+      "k": 31.0,
+      "p": 2.8,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1163,
+    "en": "Bengal dayflower, leaves, raw",
+    "v5_6": {
+      "k": 22.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 2.2,
+      "fi": 1.4
+    },
+    "v5_7": {
+      "k": 22.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 2.2,
+      "fi": 1.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1164,
+    "en": "Bitter gourd leaves, green, raw",
+    "v5_6": {
+      "k": 55.0,
+      "p": 4.9,
+      "f": 0.5,
+      "c": 6.1,
+      "fi": 3.1
+    },
+    "v5_7": {
+      "k": 55.0,
+      "p": 4.9,
+      "f": 0.5,
+      "c": 6.1,
+      "fi": 3.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "v5_6": {
+      "k": 26.0,
+      "p": 2.5,
+      "f": 0.6,
+      "c": 0.6,
+      "fi": 4.4
+    },
+    "v5_7": {
+      "k": 26.0,
+      "p": 2.5,
+      "f": 0.6,
+      "c": 0.6,
+      "fi": 4.4
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1166,
+    "en": "Bugleweed, raw",
+    "v5_6": {
+      "k": 43.0,
+      "p": 2.6,
+      "f": 1.3,
+      "c": 4.6,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 43.0,
+      "p": 2.6,
+      "f": 1.3,
+      "c": 4.6,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1167,
+    "en": "Cassava, leaves, raw",
+    "v5_6": {
+      "k": 62.0,
+      "p": 4.7,
+      "f": 1.2,
+      "c": 5.7,
+      "fi": 4.8
+    },
+    "v5_7": {
+      "k": 62.0,
+      "p": 4.7,
+      "f": 1.2,
+      "c": 5.7,
+      "fi": 4.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1168,
+    "en": "Colocasia leaves, black, raw",
+    "v5_6": {
+      "k": 62.0,
+      "p": 5.6,
+      "f": 1.2,
+      "c": 5.3,
+      "fi": 3.7
+    },
+    "v5_7": {
+      "k": 62.0,
+      "p": 5.6,
+      "f": 1.2,
+      "c": 5.3,
+      "fi": 3.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1169,
+    "en": "Colocasia leaves, green, raw",
+    "v5_6": {
+      "k": 51.0,
+      "p": 4.0,
+      "f": 1.1,
+      "c": 4.4,
+      "fi": 3.7
+    },
+    "v5_7": {
+      "k": 51.0,
+      "p": 4.0,
+      "f": 1.1,
+      "c": 4.4,
+      "fi": 3.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "v5_6": {
+      "k": 33.0,
+      "p": 1.7,
+      "f": 1.0,
+      "c": 3.6,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 33.0,
+      "p": 1.7,
+      "f": 1.0,
+      "c": 3.6,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1171,
+    "en": "Drumstick, leaves, raw",
+    "v5_6": {
+      "k": 72.0,
+      "p": 6.7,
+      "f": 1.8,
+      "c": 4.6,
+      "fi": 5.2
+    },
+    "v5_7": {
+      "k": 72.0,
+      "p": 6.7,
+      "f": 1.8,
+      "c": 4.6,
+      "fi": 5.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "v5_6": {
+      "k": 68.0,
+      "p": 1.3,
+      "f": 0.6,
+      "c": 13.7,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 68.0,
+      "p": 1.3,
+      "f": 0.6,
+      "c": 13.7,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1173,
+    "en": "Fenugreek, leaves, raw",
+    "v5_6": {
+      "k": 50.0,
+      "p": 4.4,
+      "f": 0.9,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 50.0,
+      "p": 4.4,
+      "f": 0.9,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1174,
+    "en": "Indian spinach, raw",
+    "v5_6": {
+      "k": 25.0,
+      "p": 2.4,
+      "f": 0.3,
+      "c": 2.1,
+      "fi": 2.2
+    },
+    "v5_7": {
+      "k": 25.0,
+      "p": 2.4,
+      "f": 0.3,
+      "c": 2.1,
+      "fi": 2.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "v5_6": {
+      "k": 32.0,
+      "p": 2.9,
+      "f": 0.3,
+      "c": 1.7,
+      "fi": 5.8
+    },
+    "v5_7": {
+      "k": 32.0,
+      "p": 2.9,
+      "f": 0.3,
+      "c": 1.7,
+      "fi": 5.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1176,
+    "en": "Pumpkin leaves, raw",
+    "v5_6": {
+      "k": 29.0,
+      "p": 2.4,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 29.0,
+      "p": 2.4,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1177,
+    "en": "Radish leaves, raw",
+    "v5_6": {
+      "k": 32.0,
+      "p": 1.8,
+      "f": 0.7,
+      "c": 3.4,
+      "fi": 2.6
+    },
+    "v5_7": {
+      "k": 32.0,
+      "p": 1.8,
+      "f": 0.7,
+      "c": 3.4,
+      "fi": 2.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1178,
+    "en": "Slender amaranth leaves, raw",
+    "v5_6": {
+      "k": 47.0,
+      "p": 4.1,
+      "f": 0.5,
+      "c": 4.3,
+      "fi": 4.4
+    },
+    "v5_7": {
+      "k": 47.0,
+      "p": 4.1,
+      "f": 0.5,
+      "c": 4.3,
+      "fi": 4.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "v5_6": {
+      "k": 26.0,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 0.9,
+      "fi": 2.9
+    },
+    "v5_7": {
+      "k": 26.0,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 0.9,
+      "fi": 2.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "v5_6": {
+      "k": 45.0,
+      "p": 4.0,
+      "f": 0.8,
+      "c": 1.8,
+      "fi": 7.3
+    },
+    "v5_7": {
+      "k": 45.0,
+      "p": 4.0,
+      "f": 0.8,
+      "c": 1.8,
+      "fi": 7.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "v5_6": {
+      "k": 45.0,
+      "p": 3.9,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 7.7
+    },
+    "v5_7": {
+      "k": 45.0,
+      "p": 3.9,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 7.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "v5_6": {
+      "k": 50.0,
+      "p": 3.6,
+      "f": 0.4,
+      "c": 3.9,
+      "fi": 8.0
+    },
+    "v5_7": {
+      "k": 50.0,
+      "p": 3.6,
+      "f": 0.4,
+      "c": 3.9,
+      "fi": 8.0
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "v5_6": {
+      "k": 43.0,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 6.0,
+      "fi": 3.7
+    },
+    "v5_7": {
+      "k": 43.0,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 6.0,
+      "fi": 3.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "v5_6": {
+      "k": 49.0,
+      "p": 2.0,
+      "f": 0.5,
+      "c": 8.8,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 49.0,
+      "p": 2.0,
+      "f": 0.5,
+      "c": 8.8,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1188,
+    "en": "Spinach, boiled* (without salt)",
+    "v5_6": {
+      "k": 47.0,
+      "p": 5.4,
+      "f": 0.9,
+      "c": 1.6,
+      "fi": 5.3
+    },
+    "v5_7": {
+      "k": 47.0,
+      "p": 5.4,
+      "f": 0.9,
+      "c": 1.6,
+      "fi": 5.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1190,
+    "en": "Colocasia/Taro, corm, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 21.0,
+      "fi": 4.1
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 21.0,
+      "fi": 4.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1191,
+    "en": "Colocasia/Taro/Tannia, cormel, raw",
+    "v5_6": {
+      "k": 101.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 20.6,
+      "fi": 4.1
+    },
+    "v5_7": {
+      "k": 101.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 20.6,
+      "fi": 4.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1192,
+    "en": "Elephant foot, corm, raw",
+    "v5_6": {
+      "k": 74.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 15.1,
+      "fi": 4.1
+    },
+    "v5_7": {
+      "k": 74.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 15.1,
+      "fi": 4.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1193,
+    "en": "Giant taro, corm, raw",
+    "v5_6": {
+      "k": 82.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 16.6,
+      "fi": 4.1
+    },
+    "v5_7": {
+      "k": 82.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 16.6,
+      "fi": 4.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1194,
+    "en": "Potato, Diamond, raw",
+    "v5_6": {
+      "k": 66.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.0,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 66.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.0,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "v5_6": {
+      "k": 98.0,
+      "p": 0.6,
+      "f": 0.3,
+      "c": 21.8,
+      "fi": 3.0
+    },
+    "v5_7": {
+      "k": 98.0,
+      "p": 0.6,
+      "f": 0.3,
+      "c": 21.8,
+      "fi": 3.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "v5_6": {
+      "k": 97.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 20.3,
+      "fi": 4.1
+    },
+    "v5_7": {
+      "k": 97.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 20.3,
+      "fi": 4.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1197,
+    "en": "Colocasia/Taro, boiled* (without salt)",
+    "v5_6": {
+      "k": 115.0,
+      "p": 2.5,
+      "f": 0.2,
+      "c": 23.6,
+      "fi": 4.6
+    },
+    "v5_7": {
+      "k": 115.0,
+      "p": 2.5,
+      "f": 0.2,
+      "c": 23.6,
+      "fi": 4.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "v5_6": {
+      "k": 67.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.2,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 67.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.2,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1201,
+    "en": "Giant taro, corm, boiled* (without salt)",
+    "v5_6": {
+      "k": 92.0,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 18.6,
+      "fi": 4.6
+    },
+    "v5_7": {
+      "k": 92.0,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 18.6,
+      "fi": 4.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "v5_6": {
+      "k": 109.0,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 22.8,
+      "fi": 4.6
+    },
+    "v5_7": {
+      "k": 109.0,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 22.8,
+      "fi": 4.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1203,
+    "en": "Potato Mash",
+    "v5_6": {
+      "k": 84.0,
+      "p": 1.4,
+      "f": 0.8,
+      "c": 16.6,
+      "fi": 2.5
+    },
+    "v5_7": {
+      "k": 84.0,
+      "p": 1.4,
+      "f": 0.8,
+      "c": 16.6,
+      "fi": 2.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1204,
+    "en": "Sunflower seeds, dried",
+    "v5_6": {
+      "k": 584.0,
+      "p": 20.8,
+      "f": 51.5,
+      "c": 20.0,
+      "fi": 3.0
+    },
+    "v5_7": {
+      "k": 584.0,
+      "p": 20.8,
+      "f": 51.5,
+      "c": 20.0,
+      "fi": 3.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1205,
+    "en": "Cashew nuts, raw",
+    "v5_6": {
+      "k": 553.0,
+      "p": 18.2,
+      "f": 43.9,
+      "c": 30.2,
+      "fi": 2.4
+    },
+    "v5_7": {
+      "k": 553.0,
+      "p": 18.2,
+      "f": 43.9,
+      "c": 30.2,
+      "fi": 2.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1206,
+    "en": "Chilgoza pine, dried",
+    "v5_6": {
+      "k": 673.0,
+      "p": 13.7,
+      "f": 68.4,
+      "c": 13.1,
+      "fi": 2.7
+    },
+    "v5_7": {
+      "k": 673.0,
+      "p": 13.7,
+      "f": 68.4,
+      "c": 13.1,
+      "fi": 2.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1207,
+    "en": "Coconut milk",
+    "v5_6": {
+      "k": 197.0,
+      "p": 2.3,
+      "f": 21.3,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 197.0,
+      "p": 2.3,
+      "f": 21.3,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1208,
+    "en": "Coconut, desiccated",
+    "v5_6": {
+      "k": 650.0,
+      "p": 6.9,
+      "f": 65.0,
+      "c": 25.0,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 650.0,
+      "p": 6.9,
+      "f": 65.0,
+      "c": 25.0,
+      "fi": 1.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1209,
+    "en": "Coconut, mature kernel",
+    "v5_6": {
+      "k": 354.0,
+      "p": 3.3,
+      "f": 33.5,
+      "c": 15.2,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 354.0,
+      "p": 3.3,
+      "f": 33.5,
+      "c": 15.2,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1210,
+    "en": "Groundnuts/Peanut, raw",
+    "v5_6": {
+      "k": 567.0,
+      "p": 25.8,
+      "f": 49.2,
+      "c": 16.1,
+      "fi": 2.4
+    },
+    "v5_7": {
+      "k": 567.0,
+      "p": 25.8,
+      "f": 49.2,
+      "c": 16.1,
+      "fi": 2.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1211,
+    "en": "Linseed, raw",
+    "v5_6": {
+      "k": 534.0,
+      "p": 18.3,
+      "f": 42.2,
+      "c": 28.9,
+      "fi": 3.7
+    },
+    "v5_7": {
+      "k": 534.0,
+      "p": 18.3,
+      "f": 42.2,
+      "c": 28.9,
+      "fi": 3.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1212,
+    "en": "Lotus seeds, dried",
+    "v5_6": {
+      "k": 332.0,
+      "p": 15.4,
+      "f": 2.0,
+      "c": 63.4,
+      "fi": 3.2
+    },
+    "v5_7": {
+      "k": 332.0,
+      "p": 15.4,
+      "f": 2.0,
+      "c": 63.4,
+      "fi": 3.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1213,
+    "en": "Lotus seeds, green",
+    "v5_6": {
+      "k": 89.0,
+      "p": 4.3,
+      "f": 0.6,
+      "c": 17.3,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 89.0,
+      "p": 4.3,
+      "f": 0.6,
+      "c": 17.3,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1214,
+    "en": "Mustard seeds, dried",
+    "v5_6": {
+      "k": 508.0,
+      "p": 26.1,
+      "f": 36.2,
+      "c": 28.1,
+      "fi": 4.2
+    },
+    "v5_7": {
+      "k": 508.0,
+      "p": 26.1,
+      "f": 36.2,
+      "c": 28.1,
+      "fi": 4.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1215,
+    "en": "Pistachio nuts, dried",
+    "v5_6": {
+      "k": 562.0,
+      "p": 20.2,
+      "f": 45.3,
+      "c": 27.2,
+      "fi": 2.9
+    },
+    "v5_7": {
+      "k": 562.0,
+      "p": 20.2,
+      "f": 45.3,
+      "c": 27.2,
+      "fi": 2.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1216,
+    "en": "Pumpkin seeds, dried",
+    "v5_6": {
+      "k": 559.0,
+      "p": 30.2,
+      "f": 49.1,
+      "c": 10.7,
+      "fi": 4.7
+    },
+    "v5_7": {
+      "k": 559.0,
+      "p": 30.2,
+      "f": 49.1,
+      "c": 10.7,
+      "fi": 4.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1217,
+    "en": "Sesame seeds, whole, dried",
+    "v5_6": {
+      "k": 573.0,
+      "p": 17.7,
+      "f": 49.7,
+      "c": 23.5,
+      "fi": 5.2
+    },
+    "v5_7": {
+      "k": 573.0,
+      "p": 17.7,
+      "f": 49.7,
+      "c": 23.5,
+      "fi": 5.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1219,
+    "en": "Bay leaf, dried",
+    "v5_6": {
+      "k": 353.0,
+      "p": 7.6,
+      "f": 8.4,
+      "c": 48.7,
+      "fi": 26.3
+    },
+    "v5_7": {
+      "k": 353.0,
+      "p": 7.6,
+      "f": 8.4,
+      "c": 48.7,
+      "fi": 26.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1220,
+    "en": "Cardamom",
+    "v5_6": {
+      "k": 261.0,
+      "p": 10.2,
+      "f": 2.2,
+      "c": 37.8,
+      "fi": 24.4
+    },
+    "v5_7": {
+      "k": 261.0,
+      "p": 10.2,
+      "f": 2.2,
+      "c": 37.8,
+      "fi": 24.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1221,
+    "en": "Chilli, red, dry",
+    "v5_6": {
+      "k": 313.0,
+      "p": 15.9,
+      "f": 6.2,
+      "c": 35.2,
+      "fi": 26.6
+    },
+    "v5_7": {
+      "k": 313.0,
+      "p": 15.9,
+      "f": 6.2,
+      "c": 35.2,
+      "fi": 26.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "v5_6": {
+      "k": 243.0,
+      "p": 4.0,
+      "f": 1.2,
+      "c": 27.5,
+      "fi": 53.1
+    },
+    "v5_7": {
+      "k": 243.0,
+      "p": 4.0,
+      "f": 1.2,
+      "c": 27.5,
+      "fi": 53.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "v5_6": {
+      "k": 267.0,
+      "p": 5.2,
+      "f": 8.9,
+      "c": 27.4,
+      "fi": 28.1
+    },
+    "v5_7": {
+      "k": 267.0,
+      "p": 5.2,
+      "f": 8.9,
+      "c": 27.4,
+      "fi": 28.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "v5_6": {
+      "k": 336.0,
+      "p": 14.1,
+      "f": 16.1,
+      "c": 13.4,
+      "fi": 40.8
+    },
+    "v5_7": {
+      "k": 336.0,
+      "p": 14.1,
+      "f": 16.1,
+      "c": 13.4,
+      "fi": 40.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1225,
+    "en": "Cumin seeds",
+    "v5_6": {
+      "k": 402.0,
+      "p": 18.3,
+      "f": 17.6,
+      "c": 37.2,
+      "fi": 10.5
+    },
+    "v5_7": {
+      "k": 402.0,
+      "p": 18.3,
+      "f": 17.6,
+      "c": 37.2,
+      "fi": 10.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "v5_6": {
+      "k": 329.0,
+      "p": 15.8,
+      "f": 14.9,
+      "c": 13.0,
+      "fi": 39.8
+    },
+    "v5_7": {
+      "k": 329.0,
+      "p": 15.8,
+      "f": 14.9,
+      "c": 13.0,
+      "fi": 39.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1227,
+    "en": "Fenugreek seeds",
+    "v5_6": {
+      "k": 330.0,
+      "p": 21.8,
+      "f": 6.9,
+      "c": 32.8,
+      "fi": 24.6
+    },
+    "v5_7": {
+      "k": 330.0,
+      "p": 21.8,
+      "f": 6.9,
+      "c": 32.8,
+      "fi": 24.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1228,
+    "en": "Ginger root, raw",
+    "v5_6": {
+      "k": 72.0,
+      "p": 1.9,
+      "f": 0.8,
+      "c": 13.3,
+      "fi": 2.0
+    },
+    "v5_7": {
+      "k": 72.0,
+      "p": 1.9,
+      "f": 0.8,
+      "c": 13.3,
+      "fi": 2.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "v5_6": {
+      "k": 37.0,
+      "p": 2.3,
+      "f": 0.5,
+      "c": 1.6,
+      "fi": 8.7
+    },
+    "v5_7": {
+      "k": 37.0,
+      "p": 2.3,
+      "f": 0.5,
+      "c": 1.6,
+      "fi": 8.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1230,
+    "en": "Lemon grass, raw",
+    "v5_6": {
+      "k": 116.0,
+      "p": 1.4,
+      "f": 0.9,
+      "c": 25.5,
+      "fi": 2.0
+    },
+    "v5_7": {
+      "k": 116.0,
+      "p": 1.4,
+      "f": 0.9,
+      "c": 25.5,
+      "fi": 2.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "v5_6": {
+      "k": 65.0,
+      "p": 1.6,
+      "f": 0.4,
+      "c": 8.7,
+      "fi": 10.6
+    },
+    "v5_7": {
+      "k": 65.0,
+      "p": 1.6,
+      "f": 0.4,
+      "c": 8.7,
+      "fi": 10.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1232,
+    "en": "Mace, ground",
+    "v5_6": {
+      "k": 415.0,
+      "p": 6.5,
+      "f": 24.4,
+      "c": 33.1,
+      "fi": 18.5
+    },
+    "v5_7": {
+      "k": 415.0,
+      "p": 6.5,
+      "f": 24.4,
+      "c": 33.1,
+      "fi": 18.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "v5_6": {
+      "k": 1980.0,
+      "p": 36.4,
+      "f": 21.1,
+      "c": 19.0,
+      "fi": 1.7
+    },
+    "v5_7": {
+      "k": 1980.0,
+      "p": 36.4,
+      "f": 21.1,
+      "c": 19.0,
+      "fi": 1.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "v5_6": {
+      "k": 525.0,
+      "p": 18.0,
+      "f": 41.6,
+      "c": 28.1,
+      "fi": 7.7
+    },
+    "v5_7": {
+      "k": 525.0,
+      "p": 18.0,
+      "f": 41.6,
+      "c": 28.1,
+      "fi": 7.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "v5_6": {
+      "k": 1400.0,
+      "p": 8.4,
+      "f": 47.3,
+      "c": 21.1,
+      "fi": 4.8
+    },
+    "v5_7": {
+      "k": 1400.0,
+      "p": 8.4,
+      "f": 47.3,
+      "c": 21.1,
+      "fi": 4.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "v5_6": {
+      "k": 215.0,
+      "p": 0.1,
+      "f": 11.5,
+      "c": 1.3,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 215.0,
+      "p": 0.1,
+      "f": 11.5,
+      "c": 1.3,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "v5_6": {
+      "k": 262.0,
+      "p": 0.2,
+      "f": 13.5,
+      "c": 2.4,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 262.0,
+      "p": 0.2,
+      "f": 13.5,
+      "c": 2.4,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "v5_6": {
+      "k": 259.0,
+      "p": 0.3,
+      "f": 12.3,
+      "c": 3.6,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 259.0,
+      "p": 0.3,
+      "f": 12.3,
+      "c": 3.6,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "v5_6": {
+      "k": 400.0,
+      "p": 0.8,
+      "f": 19.2,
+      "c": 2.6,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 400.0,
+      "p": 0.8,
+      "f": 19.2,
+      "c": 2.6,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "v5_6": {
+      "k": 293.0,
+      "p": 0.2,
+      "f": 13.0,
+      "c": 4.9,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 293.0,
+      "p": 0.2,
+      "f": 13.0,
+      "c": 4.9,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "v5_6": {
+      "k": 340.0,
+      "p": 0.2,
+      "f": 15.7,
+      "c": 5.2,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 340.0,
+      "p": 0.2,
+      "f": 15.7,
+      "c": 5.2,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1242,
+    "en": "Carambola, raw",
+    "v5_6": {
+      "k": 72.0,
+      "p": 0.7,
+      "f": 6.7,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 72.0,
+      "p": 0.7,
+      "f": 6.7,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "v5_6": {
+      "k": 357.0,
+      "p": 0.3,
+      "f": 16.6,
+      "c": 4.4,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 357.0,
+      "p": 0.3,
+      "f": 16.6,
+      "c": 4.4,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "v5_6": {
+      "k": 1270.0,
+      "p": 0.6,
+      "f": 67.5,
+      "c": 8.3,
+      "fi": 3.4
+    },
+    "v5_7": {
+      "k": 1270.0,
+      "p": 0.6,
+      "f": 67.5,
+      "c": 8.3,
+      "fi": 3.4
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "v5_6": {
+      "k": 636.0,
+      "p": 0.4,
+      "f": 33.4,
+      "c": 4.1,
+      "fi": 1.7
+    },
+    "v5_7": {
+      "k": 636.0,
+      "p": 0.4,
+      "f": 33.4,
+      "c": 4.1,
+      "fi": 1.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "v5_6": {
+      "k": 271.0,
+      "p": 0.4,
+      "f": 10.3,
+      "c": 3.5,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 271.0,
+      "p": 0.4,
+      "f": 10.3,
+      "c": 3.5,
+      "fi": 1.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1247,
+    "en": "Emblic, raw",
+    "v5_6": {
+      "k": 86.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 3.4,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 86.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 3.4,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1248,
+    "en": "Fig, ripe, raw",
+    "v5_6": {
+      "k": 68.0,
+      "p": 0.2,
+      "f": 6.7,
+      "c": 3.1,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 68.0,
+      "p": 0.2,
+      "f": 6.7,
+      "c": 3.1,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "v5_6": {
+      "k": 398.0,
+      "p": 0.6,
+      "f": 20.2,
+      "c": 2.9,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 398.0,
+      "p": 0.6,
+      "f": 20.2,
+      "c": 2.9,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "v5_6": {
+      "k": 265.0,
+      "p": 0.5,
+      "f": 10.9,
+      "c": 5.4,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 265.0,
+      "p": 0.5,
+      "f": 10.9,
+      "c": 5.4,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "v5_6": {
+      "k": 213.0,
+      "p": 0.8,
+      "f": 8.9,
+      "c": 1.6,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 213.0,
+      "p": 0.8,
+      "f": 8.9,
+      "c": 1.6,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "v5_6": {
+      "k": 312.0,
+      "p": 0.2,
+      "f": 13.3,
+      "c": 7.2,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 312.0,
+      "p": 0.2,
+      "f": 13.3,
+      "c": 7.2,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "v5_6": {
+      "k": 64.0,
+      "p": 0.5,
+      "f": 6.1,
+      "c": 3.5,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 64.0,
+      "p": 0.5,
+      "f": 6.1,
+      "c": 3.5,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1254,
+    "en": "Jambos, raw",
+    "v5_6": {
+      "k": 69.0,
+      "p": 0.3,
+      "f": 8.0,
+      "c": 1.2,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 69.0,
+      "p": 0.3,
+      "f": 8.0,
+      "c": 1.2,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "v5_6": {
+      "k": 149.0,
+      "p": 0.2,
+      "f": 6.9,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 149.0,
+      "p": 0.2,
+      "f": 6.9,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "v5_6": {
+      "k": 254.0,
+      "p": 0.2,
+      "f": 12.6,
+      "c": 1.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 254.0,
+      "p": 0.2,
+      "f": 12.6,
+      "c": 1.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "v5_6": {
+      "k": 234.0,
+      "p": 1.0,
+      "f": 10.2,
+      "c": 1.3,
+      "fi": 0.7
+    },
+    "v5_7": {
+      "k": 234.0,
+      "p": 1.0,
+      "f": 10.2,
+      "c": 1.3,
+      "fi": 0.7
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "v5_6": {
+      "k": 77.0,
+      "p": 0.5,
+      "f": 8.5,
+      "c": 0.5,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 77.0,
+      "p": 0.5,
+      "f": 8.5,
+      "c": 0.5,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "v5_6": {
+      "k": 348.0,
+      "p": 0.4,
+      "f": 18.0,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 348.0,
+      "p": 0.4,
+      "f": 18.0,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "v5_6": {
+      "k": 73.0,
+      "p": 0.2,
+      "f": 3.1,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 73.0,
+      "p": 0.2,
+      "f": 3.1,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "v5_6": {
+      "k": 38.0,
+      "p": 0.1,
+      "f": 1.7,
+      "c": 0.2,
+      "fi": 0.1
+    },
+    "v5_7": {
+      "k": 38.0,
+      "p": 0.1,
+      "f": 1.7,
+      "c": 0.2,
+      "fi": 0.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1262,
+    "en": "Orange, raw",
+    "v5_6": {
+      "k": 86.0,
+      "p": 0.2,
+      "f": 8.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 86.0,
+      "p": 0.2,
+      "f": 8.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "v5_6": {
+      "k": 208.0,
+      "p": 0.1,
+      "f": 10.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 208.0,
+      "p": 0.1,
+      "f": 10.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "v5_6": {
+      "k": 139.0,
+      "p": 0.1,
+      "f": 6.5,
+      "c": 1.7,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 139.0,
+      "p": 0.1,
+      "f": 6.5,
+      "c": 1.7,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "v5_6": {
+      "k": 284.0,
+      "p": 0.2,
+      "f": 13.9,
+      "c": 3.6,
+      "fi": 0.5
+    },
+    "v5_7": {
+      "k": 284.0,
+      "p": 0.2,
+      "f": 13.9,
+      "c": 3.6,
+      "fi": 0.5
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1268,
+    "en": "Pineapple, Joldugee, ripe, raw",
+    "v5_6": {
+      "k": 81.0,
+      "p": 0.4,
+      "f": 8.3,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 81.0,
+      "p": 0.4,
+      "f": 8.3,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1269,
+    "en": "Pineapple, ripe, raw",
+    "v5_6": {
+      "k": 97.0,
+      "p": 0.1,
+      "f": 9.7,
+      "c": 1.4,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 97.0,
+      "p": 0.1,
+      "f": 9.7,
+      "c": 1.4,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "v5_6": {
+      "k": 283.0,
+      "p": 0.2,
+      "f": 12.7,
+      "c": 4.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 283.0,
+      "p": 0.2,
+      "f": 12.7,
+      "c": 4.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "v5_6": {
+      "k": 159.0,
+      "p": 0.3,
+      "f": 7.7,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 159.0,
+      "p": 0.3,
+      "f": 7.7,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "v5_6": {
+      "k": 1140.0,
+      "p": 0.4,
+      "f": 60.8,
+      "c": 5.1,
+      "fi": 2.6
+    },
+    "v5_7": {
+      "k": 272.5,
+      "p": 0.4,
+      "f": 5.1,
+      "c": 60.8,
+      "fi": 2.6
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 1140.0,
+        "v5_7": 272.5
+      },
+      "f": {
+        "v5_6": 60.8,
+        "v5_7": 5.1
+      },
+      "c": {
+        "v5_6": 5.1,
+        "v5_7": 60.8
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "v5_6": {
+      "k": 93.0,
+      "p": 0.2,
+      "f": 4.4,
+      "c": 0.4,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 93.0,
+      "p": 0.2,
+      "f": 4.4,
+      "c": 0.4,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "v5_6": {
+      "k": 469.0,
+      "p": 0.3,
+      "f": 20.9,
+      "c": 7.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 469.0,
+      "p": 0.3,
+      "f": 20.9,
+      "c": 7.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "v5_6": {
+      "k": 332.0,
+      "p": 72.0,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 11.9
+    },
+    "v5_7": {
+      "k": 332.0,
+      "p": 72.0,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 11.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1276,
+    "en": "Anchovy, Gangetic hairfin, raw",
+    "v5_6": {
+      "k": 105.0,
+      "p": 17.7,
+      "f": 3.8,
+      "c": 0.0,
+      "fi": 3.0
+    },
+    "v5_7": {
+      "k": 105.0,
+      "p": 17.7,
+      "f": 3.8,
+      "c": 0.0,
+      "fi": 3.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1278,
+    "en": "Anchovy, Scaly hairfin, raw",
+    "v5_6": {
+      "k": 102.0,
+      "p": 19.4,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.8
+    },
+    "v5_7": {
+      "k": 102.0,
+      "p": 19.4,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1280,
+    "en": "Barb, Olive, without bones, raw",
+    "v5_6": {
+      "k": 174.0,
+      "p": 17.2,
+      "f": 11.7,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 174.0,
+      "p": 17.2,
+      "f": 11.7,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1282,
+    "en": "Bata, raw",
+    "v5_6": {
+      "k": 107.0,
+      "p": 16.2,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 107.0,
+      "p": 16.2,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1283,
+    "en": "Boal, without bones, raw",
+    "v5_6": {
+      "k": 81.0,
+      "p": 15.5,
+      "f": 2.1,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 81.0,
+      "p": 15.5,
+      "f": 2.1,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1284,
+    "en": "Bronze feather back, raw",
+    "v5_6": {
+      "k": 81.0,
+      "p": 18.0,
+      "f": 1.0,
+      "c": 0.0,
+      "fi": 2.7
+    },
+    "v5_7": {
+      "k": 81.0,
+      "p": 18.0,
+      "f": 1.0,
+      "c": 0.0,
+      "fi": 2.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1285,
+    "en": "Calbasu, without bones, raw",
+    "v5_6": {
+      "k": 96.0,
+      "p": 17.2,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v5_7": {
+      "k": 96.0,
+      "p": 17.2,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "v5_6": {
+      "k": 122.0,
+      "p": 16.1,
+      "f": 6.4,
+      "c": 0.0,
+      "fi": 2.2
+    },
+    "v5_7": {
+      "k": 122.0,
+      "p": 16.1,
+      "f": 6.4,
+      "c": 0.0,
+      "fi": 2.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1287,
+    "en": "Catfish, Pabda, raw",
+    "v5_6": {
+      "k": 95.0,
+      "p": 17.4,
+      "f": 2.8,
+      "c": 0.0,
+      "fi": 2.3
+    },
+    "v5_7": {
+      "k": 95.0,
+      "p": 17.4,
+      "f": 2.8,
+      "c": 0.0,
+      "fi": 2.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1288,
+    "en": "Catla, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 19.9,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 19.9,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1291,
+    "en": "Common carp, without bones, raw",
+    "v5_6": {
+      "k": 89.0,
+      "p": 18.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v5_7": {
+      "k": 89.0,
+      "p": 18.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "v5_6": {
+      "k": 117.0,
+      "p": 15.3,
+      "f": 6.2,
+      "c": 0.0,
+      "fi": 2.0
+    },
+    "v5_7": {
+      "k": 117.0,
+      "p": 15.3,
+      "f": 6.2,
+      "c": 0.0,
+      "fi": 2.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1295,
+    "en": "Gangetic mystus, raw",
+    "v5_6": {
+      "k": 87.0,
+      "p": 15.7,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.4
+    },
+    "v5_7": {
+      "k": 87.0,
+      "p": 15.7,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1296,
+    "en": "Giant river-catfish, raw",
+    "v5_6": {
+      "k": 76.0,
+      "p": 16.1,
+      "f": 1.3,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v5_7": {
+      "k": 76.0,
+      "p": 16.1,
+      "f": 1.3,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1298,
+    "en": "Giant sea perch, without bones, raw",
+    "v5_6": {
+      "k": 97.0,
+      "p": 18.6,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 1.7
+    },
+    "v5_7": {
+      "k": 97.0,
+      "p": 18.6,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 1.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1299,
+    "en": "Goby, Tank goby, raw",
+    "v5_6": {
+      "k": 82.0,
+      "p": 14.9,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 2.7
+    },
+    "v5_7": {
+      "k": 82.0,
+      "p": 14.9,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 2.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1300,
+    "en": "Hilsha, without bones, raw",
+    "v5_6": {
+      "k": 221.0,
+      "p": 17.4,
+      "f": 16.8,
+      "c": 0.0,
+      "fi": 1.9
+    },
+    "v5_7": {
+      "k": 221.0,
+      "p": 17.4,
+      "f": 16.8,
+      "c": 0.0,
+      "fi": 1.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1301,
+    "en": "Indian river shad, raw",
+    "v5_6": {
+      "k": 106.0,
+      "p": 15.5,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 4.4
+    },
+    "v5_7": {
+      "k": 106.0,
+      "p": 15.5,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 4.4
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1304,
+    "en": "Minnow, Finescale razorbelly, raw",
+    "v5_6": {
+      "k": 95.0,
+      "p": 15.4,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 3.0
+    },
+    "v5_7": {
+      "k": 95.0,
+      "p": 15.4,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 3.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1306,
+    "en": "Minnow, Large scale razorbelly, raw",
+    "v5_6": {
+      "k": 120.0,
+      "p": 18.3,
+      "f": 5.2,
+      "c": 0.0,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 120.0,
+      "p": 18.3,
+      "f": 5.2,
+      "c": 0.0,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1307,
+    "en": "Mrigal carp, eyes included, raw",
+    "v5_6": {
+      "k": 102.0,
+      "p": 18.8,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 102.0,
+      "p": 18.8,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1309,
+    "en": "Mussel/Clam, mixed species, raw",
+    "v5_6": {
+      "k": 61.0,
+      "p": 11.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 61.0,
+      "p": 11.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1310,
+    "en": "Pangas, without bones, raw",
+    "v5_6": {
+      "k": 162.0,
+      "p": 15.8,
+      "f": 11.0,
+      "c": 0.0,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 162.0,
+      "p": 15.8,
+      "f": 11.0,
+      "c": 0.0,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1311,
+    "en": "Pomfret, Black, raw",
+    "v5_6": {
+      "k": 113.0,
+      "p": 19.9,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 113.0,
+      "p": 19.9,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1312,
+    "en": "Pomfret, Chinese Silver, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 15.8,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 1.5
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 15.8,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 1.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1320,
+    "en": "Prawn, Monsoon river prawn, raw",
+    "v5_6": {
+      "k": 80.0,
+      "p": 18.4,
+      "f": 0.7,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v5_7": {
+      "k": 80.0,
+      "p": 18.4,
+      "f": 0.7,
+      "c": 0.0,
+      "fi": 1.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "v5_6": {
+      "k": 90.0,
+      "p": 16.6,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 90.0,
+      "p": 16.6,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1322,
+    "en": "Rohu, without bones, raw",
+    "v5_6": {
+      "k": 105.0,
+      "p": 20.6,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 105.0,
+      "p": 20.6,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "v5_6": {
+      "k": 82.0,
+      "p": 17.4,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 2.0
+    },
+    "v5_7": {
+      "k": 82.0,
+      "p": 17.4,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 2.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "v5_6": {
+      "k": 92.0,
+      "p": 17.6,
+      "f": 2.4,
+      "c": 0.0,
+      "fi": 4.0
+    },
+    "v5_7": {
+      "k": 92.0,
+      "p": 17.6,
+      "f": 2.4,
+      "c": 0.0,
+      "fi": 4.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1327,
+    "en": "Stinging catfish, raw",
+    "v5_6": {
+      "k": 101.0,
+      "p": 17.2,
+      "f": 3.5,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 101.0,
+      "p": 17.2,
+      "f": 3.5,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "v5_6": {
+      "k": 97.0,
+      "p": 15.3,
+      "f": 3.9,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 97.0,
+      "p": 15.3,
+      "f": 3.9,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1329,
+    "en": "Striped snake-head, raw",
+    "v5_6": {
+      "k": 101.0,
+      "p": 17.7,
+      "f": 3.3,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 101.0,
+      "p": 17.7,
+      "f": 3.3,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1330,
+    "en": "Tuna, without bones, raw",
+    "v5_6": {
+      "k": 118.0,
+      "p": 25.0,
+      "f": 2.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 118.0,
+      "p": 25.0,
+      "f": 2.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1331,
+    "en": "Walking catfish, without bones, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 15.6,
+      "f": 4.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 15.6,
+      "f": 4.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "v5_6": {
+      "k": 449.0,
+      "p": 6.1,
+      "f": 5.3,
+      "c": 0.9,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 449.0,
+      "p": 6.1,
+      "f": 5.3,
+      "c": 0.9,
+      "fi": 1.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "v5_6": {
+      "k": 923.0,
+      "p": 6.7,
+      "f": 21.7,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 220.6,
+      "p": 6.7,
+      "f": 21.7,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 923.0,
+        "v5_7": 220.6
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1334,
+    "en": "Beef liver, raw",
+    "v5_6": {
+      "k": 130.0,
+      "p": 20.4,
+      "f": 3.6,
+      "c": 3.9,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 130.0,
+      "p": 20.4,
+      "f": 3.6,
+      "c": 3.9,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1335,
+    "en": "Beef, meat, lean, boneless, raw",
+    "v5_6": {
+      "k": 103.0,
+      "p": 20.7,
+      "f": 2.3,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 103.0,
+      "p": 20.7,
+      "f": 2.3,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1336,
+    "en": "Beef, meat, 15-20% fat, boneless, raw",
+    "v5_6": {
+      "k": 207.0,
+      "p": 19.7,
+      "f": 14.2,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 207.0,
+      "p": 19.7,
+      "f": 14.2,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1337,
+    "en": "Beef, mince, lean, raw",
+    "v5_6": {
+      "k": 126.0,
+      "p": 20.3,
+      "f": 5.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 126.0,
+      "p": 20.3,
+      "f": 5.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1338,
+    "en": "Buffalo meat, raw",
+    "v5_6": {
+      "k": 95.0,
+      "p": 19.4,
+      "f": 1.9,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 95.0,
+      "p": 19.4,
+      "f": 1.9,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1339,
+    "en": "Chicken breast, without skin, raw",
+    "v5_6": {
+      "k": 106.0,
+      "p": 22.3,
+      "f": 1.8,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 106.0,
+      "p": 22.3,
+      "f": 1.8,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1340,
+    "en": "Chicken leg, without skin, raw",
+    "v5_6": {
+      "k": 128.0,
+      "p": 19.2,
+      "f": 5.7,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 128.0,
+      "p": 19.2,
+      "f": 5.7,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1341,
+    "en": "Chicken liver, raw",
+    "v5_6": {
+      "k": 114.0,
+      "p": 16.9,
+      "f": 4.8,
+      "c": 0.7,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 114.0,
+      "p": 16.9,
+      "f": 4.8,
+      "c": 0.7,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1342,
+    "en": "Duck, meat, raw",
+    "v5_6": {
+      "k": 130.0,
+      "p": 21.6,
+      "f": 4.8,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 130.0,
+      "p": 21.6,
+      "f": 4.8,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1344,
+    "en": "Goat meat, lean, raw",
+    "v5_6": {
+      "k": 118.0,
+      "p": 21.4,
+      "f": 3.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 118.0,
+      "p": 21.4,
+      "f": 3.6,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1345,
+    "en": "Lamb/mutton, meat, moderately fat, raw",
+    "v5_6": {
+      "k": 196.0,
+      "p": 18.5,
+      "f": 13.5,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 196.0,
+      "p": 18.5,
+      "f": 13.5,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1346,
+    "en": "Lamb/Mutton, liver, raw",
+    "v5_6": {
+      "k": 150.0,
+      "p": 19.3,
+      "f": 7.5,
+      "c": 1.3,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 150.0,
+      "p": 19.3,
+      "f": 7.5,
+      "c": 1.3,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1348,
+    "en": "Pork, meat, <5 % fat, raw",
+    "v5_6": {
+      "k": 114.0,
+      "p": 18.7,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 114.0,
+      "p": 18.7,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1349,
+    "en": "Beef handi kabab",
+    "v5_6": {
+      "k": 233.0,
+      "p": 12.7,
+      "f": 16.9,
+      "c": 6.6,
+      "fi": 1.8
+    },
+    "v5_7": {
+      "k": 233.0,
+      "p": 12.7,
+      "f": 16.9,
+      "c": 6.6,
+      "fi": 1.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "v5_6": {
+      "k": 579.0,
+      "p": 9.0,
+      "f": 0.0,
+      "c": 0.8,
+      "fi": 21.0
+    },
+    "v5_7": {
+      "k": 579.0,
+      "p": 9.0,
+      "f": 0.0,
+      "c": 0.8,
+      "fi": 21.0
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "v5_6": {
+      "k": 55.0,
+      "p": 11.6,
+      "f": 0.0,
+      "c": 0.9,
+      "fi": 11.0
+    },
+    "v5_7": {
+      "k": 55.0,
+      "p": 11.6,
+      "f": 0.0,
+      "c": 0.9,
+      "fi": 11.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "v5_6": {
+      "k": 78.2,
+      "p": 14.3,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 1.1
+    },
+    "v5_7": {
+      "k": 78.2,
+      "p": 14.3,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 1.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "v5_6": {
+      "k": 45.0,
+      "p": 13.2,
+      "f": 0.0,
+      "c": 0.0,
+      "fi": 1.0
+    },
+    "v5_7": {
+      "k": 45.0,
+      "p": 13.2,
+      "f": 0.0,
+      "c": 0.0,
+      "fi": 1.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "v5_6": {
+      "k": 88.9,
+      "p": 16.2,
+      "f": 1.6,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v5_7": {
+      "k": 88.9,
+      "p": 16.2,
+      "f": 1.6,
+      "c": 0.0,
+      "fi": 1.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "v5_6": {
+      "k": 137.0,
+      "p": 0.7,
+      "f": 3.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 32.7,
+      "p": 0.7,
+      "f": 3.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 137.0,
+        "v5_7": 32.7
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1358,
+    "en": "Cheese, cottage, 25% fat",
+    "v5_6": {
+      "k": 144.0,
+      "p": 25.1,
+      "f": 5.4,
+      "c": 0.0,
+      "fi": 4.6
+    },
+    "v5_7": {
+      "k": 144.0,
+      "p": 25.1,
+      "f": 5.4,
+      "c": 0.0,
+      "fi": 4.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "v5_6": {
+      "k": 96.0,
+      "p": 4.0,
+      "f": 11.4,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 96.0,
+      "p": 4.0,
+      "f": 11.4,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "v5_6": {
+      "k": 421.0,
+      "p": 7.5,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "v5_7": {
+      "k": 421.0,
+      "p": 7.5,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "v5_6": {
+      "k": 520.0,
+      "p": 1.0,
+      "f": 49.8,
+      "c": 0.0,
+      "fi": 7.9
+    },
+    "v5_7": {
+      "k": 520.0,
+      "p": 1.0,
+      "f": 49.8,
+      "c": 0.0,
+      "fi": 7.9
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1362,
+    "en": "Milk, cow, powder, whole",
+    "v5_6": {
+      "k": 496.0,
+      "p": 26.3,
+      "f": 26.7,
+      "c": 38.4,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 496.0,
+      "p": 26.3,
+      "f": 26.7,
+      "c": 38.4,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "v5_6": {
+      "k": 125.0,
+      "p": 0.1,
+      "f": 4.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 125.0,
+      "p": 0.1,
+      "f": 4.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "v5_6": {
+      "k": 63.0,
+      "p": 3.7,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 63.0,
+      "p": 3.7,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "v5_6": {
+      "k": 285.0,
+      "p": 4.1,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "v5_7": {
+      "k": 285.0,
+      "p": 4.1,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "v5_6": {
+      "k": 242.0,
+      "p": 2.6,
+      "f": 6.6,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_7": {
+      "k": 242.0,
+      "p": 2.6,
+      "f": 6.6,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "v5_6": {
+      "k": 260.0,
+      "p": 4.0,
+      "f": 7.2,
+      "c": 0.0,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 260.0,
+      "p": 4.0,
+      "f": 7.2,
+      "c": 0.0,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "v5_6": {
+      "k": 717.0,
+      "p": 0.9,
+      "f": 81.1,
+      "c": 0.1,
+      "fi": 2.1
+    },
+    "v5_7": {
+      "k": 717.0,
+      "p": 0.9,
+      "f": 81.1,
+      "c": 0.1,
+      "fi": 2.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1370,
+    "en": "Fish oil, cod liver",
+    "v5_6": {
+      "k": 902.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 902.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1371,
+    "en": "Ghee, cow",
+    "v5_6": {
+      "k": 900.0,
+      "p": 0.3,
+      "f": 99.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v5_7": {
+      "k": 900.0,
+      "p": 0.3,
+      "f": 99.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1372,
+    "en": "Ghee, vegetable",
+    "v5_6": {
+      "k": 900.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 900.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "v5_6": {
+      "k": 718.0,
+      "p": 0.2,
+      "f": 80.4,
+      "c": 0.2,
+      "fi": 2.3
+    },
+    "v5_7": {
+      "k": 718.0,
+      "p": 0.2,
+      "f": 80.4,
+      "c": 0.2,
+      "fi": 2.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1374,
+    "en": "Mayonnaise, salted",
+    "v5_6": {
+      "k": 680.0,
+      "p": 1.1,
+      "f": 74.9,
+      "c": 0.6,
+      "fi": 1.5
+    },
+    "v5_7": {
+      "k": 680.0,
+      "p": 1.1,
+      "f": 74.9,
+      "c": 0.6,
+      "fi": 1.5
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1379,
+    "en": "Soybean oil",
+    "v5_6": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "v5_6": {
+      "k": 60.0,
+      "p": 0.8,
+      "f": 6.8,
+      "c": 0.0,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 60.0,
+      "p": 0.8,
+      "f": 6.8,
+      "c": 0.0,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "v5_6": {
+      "k": 330.0,
+      "p": 0.5,
+      "f": 75.4,
+      "c": 0.0,
+      "fi": 8.8
+    },
+    "v5_7": {
+      "k": 330.0,
+      "p": 0.5,
+      "f": 75.4,
+      "c": 0.0,
+      "fi": 8.8
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "v5_6": {
+      "k": 75.0,
+      "p": 0.0,
+      "f": 10.3,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v5_7": {
+      "k": 75.0,
+      "p": 0.0,
+      "f": 10.3,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "v5_6": {
+      "k": 225.0,
+      "p": 2.4,
+      "f": 4.9,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "v5_7": {
+      "k": 53.8,
+      "p": 2.4,
+      "f": 4.9,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "v7_changes": {
+      "k": {
+        "v5_6": 225.0,
+        "v5_7": 53.8
+      }
+    },
+    "v6_status": "column_shift",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "v5_6": {
+      "k": 139.0,
+      "p": 0.0,
+      "f": 7.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v5_7": {
+      "k": 139.0,
+      "p": 0.0,
+      "f": 7.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "v5_6": {
+      "k": 72.0,
+      "p": 0.8,
+      "f": 7.6,
+      "c": 0.2,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 72.0,
+      "p": 0.8,
+      "f": 7.6,
+      "c": 0.2,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "v5_6": {
+      "k": 125.0,
+      "p": 0.0,
+      "f": 7.1,
+      "c": 0.1,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 125.0,
+      "p": 0.0,
+      "f": 7.1,
+      "c": 0.1,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "v5_6": {
+      "k": 350.0,
+      "p": 0.0,
+      "f": 49.5,
+      "c": 8.5,
+      "fi": 16.0
+    },
+    "v5_7": {
+      "k": 350.0,
+      "p": 0.0,
+      "f": 49.5,
+      "c": 8.5,
+      "fi": 16.0
+    },
+    "v7_changes": {},
+    "v6_status": "column_shift",
+    "v7_status": "column_shift"
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "v5_6": {
+      "k": 172.0,
+      "p": 5.2,
+      "f": 0.0,
+      "c": 37.8,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 172.0,
+      "p": 5.2,
+      "f": 0.0,
+      "c": 37.8,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "v5_6": {
+      "k": 42.0,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 4.1,
+      "fi": 4.7
+    },
+    "v5_7": {
+      "k": 42.0,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 4.1,
+      "fi": 4.7
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "v5_6": {
+      "k": 326.0,
+      "p": 0.3,
+      "f": 0.0,
+      "c": 81.1,
+      "fi": 0.2
+    },
+    "v5_7": {
+      "k": 326.0,
+      "p": 0.3,
+      "f": 0.0,
+      "c": 81.1,
+      "fi": 0.2
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "v5_6": {
+      "k": 385.0,
+      "p": 0.5,
+      "f": 0.1,
+      "c": 95.4,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 385.0,
+      "p": 0.5,
+      "f": 0.1,
+      "c": 95.4,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "v5_6": {
+      "k": 352.0,
+      "p": 1.5,
+      "f": 0.3,
+      "c": 85.7,
+      "fi": 0.3
+    },
+    "v5_7": {
+      "k": 352.0,
+      "p": 1.5,
+      "f": 0.3,
+      "c": 85.7,
+      "fi": 0.3
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "v5_6": {
+      "k": 86.0,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 20.9,
+      "fi": 0.1
+    },
+    "v5_7": {
+      "k": 86.0,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 20.9,
+      "fi": 0.1
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "v5_6": {
+      "k": 398.0,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 99.5,
+      "fi": 0.0
+    },
+    "v5_7": {
+      "k": 398.0,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 99.5,
+      "fi": 0.0
+    },
+    "v7_changes": {},
+    "v6_status": "correct",
+    "v7_status": "correct"
+  }
+]

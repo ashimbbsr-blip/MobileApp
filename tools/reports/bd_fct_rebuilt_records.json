@@ -1,0 +1,4611 @@
+[
+  {
+    "id": 1068,
+    "en": "Barley, whole-grain, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.8% ≤ 30% threshold",
+    "values": {
+      "k": 324.0,
+      "p": 10.9,
+      "f": 2.2,
+      "c": 56.4,
+      "fi": 17.3
+    }
+  },
+  {
+    "id": 1069,
+    "en": "Bread, bun/roll",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=2.2% ≤ 30% threshold",
+    "values": {
+      "k": 270.0,
+      "p": 8.8,
+      "f": 2.8,
+      "c": 50.9,
+      "fi": 2.8
+    }
+  },
+  {
+    "id": 1070,
+    "en": "Bread, white, for toasting",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 272.0,
+      "p": 8.0,
+      "f": 1.4,
+      "c": 55.6,
+      "fi": 2.5
+    }
+  },
+  {
+    "id": 1071,
+    "en": "Maize/corn flour, whole, white",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.9% ≤ 30% threshold",
+    "values": {
+      "k": 355.0,
+      "p": 6.9,
+      "f": 3.9,
+      "c": 69.6,
+      "fi": 7.3
+    }
+  },
+  {
+    "id": 1072,
+    "en": "Maize/corn, yellow, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=4.4% ≤ 30% threshold",
+    "values": {
+      "k": 344.0,
+      "p": 9.9,
+      "f": 3.4,
+      "c": 64.7,
+      "fi": 7.3
+    }
+  },
+  {
+    "id": 1073,
+    "en": "Millet, Foxtail, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=4.9% ≤ 30% threshold",
+    "values": {
+      "k": 344.0,
+      "p": 10.4,
+      "f": 4.3,
+      "c": 61.7,
+      "fi": 8.5
+    }
+  },
+  {
+    "id": 1074,
+    "en": "Millet, Proso, whole-grain, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.0% ≤ 30% threshold",
+    "values": {
+      "k": 341.0,
+      "p": 11.2,
+      "f": 4.2,
+      "c": 60.3,
+      "fi": 8.5
+    }
+  },
+  {
+    "id": 1075,
+    "en": "Pear millet, whole-grain, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.2% ≤ 30% threshold",
+    "values": {
+      "k": 349.0,
+      "p": 10.1,
+      "f": 5.0,
+      "c": 61.4,
+      "fi": 8.8
+    }
+  },
+  {
+    "id": 1076,
+    "en": "Popcorn, maize (salt added)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.8% ≤ 30% threshold",
+    "values": {
+      "k": 328.0,
+      "p": 10.0,
+      "f": 3.1,
+      "c": 58.6,
+      "fi": 12.9
+    }
+  },
+  {
+    "id": 1077,
+    "en": "Rice flakes, white grain, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.9% ≤ 30% threshold",
+    "values": {
+      "k": 356.0,
+      "p": 6.5,
+      "f": 1.1,
+      "c": 79.2,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1079,
+    "en": "Rice, BR-28, parboiled, milled, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=2.1% ≤ 30% threshold",
+    "values": {
+      "k": 344.0,
+      "p": 6.5,
+      "f": 0.4,
+      "c": 76.8,
+      "fi": 3.4
+    }
+  },
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1660.0,
+      "p": 20.9,
+      "f": 28.6,
+      "c": 21.0,
+      "fi": 10.0
+    },
+    "v5_8_corrected": {
+      "k": 396.7,
+      "p": 23.5,
+      "f": 20.9,
+      "c": 28.6,
+      "fi": 21.0
+    },
+    "energy_diff_was_pct": 74.4,
+    "protein_clamped": false,
+    "raw_protein": 23.55
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1620.0,
+      "p": 0.1,
+      "f": 87.0,
+      "c": 1.4,
+      "fi": 0.4
+    },
+    "v5_8_corrected": {
+      "k": 387.2,
+      "p": 9.6,
+      "f": 0.1,
+      "c": 87.0,
+      "fi": 1.4
+    },
+    "energy_diff_was_pct": 51.3,
+    "protein_clamped": false,
+    "raw_protein": 9.57
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1540.0,
+      "p": 0.1,
+      "f": 82.7,
+      "c": 1.4,
+      "fi": 1.8
+    },
+    "v5_8_corrected": {
+      "k": 368.1,
+      "p": 9.1,
+      "f": 0.1,
+      "c": 82.7,
+      "fi": 1.4
+    },
+    "energy_diff_was_pct": 51.3,
+    "protein_clamped": false,
+    "raw_protein": 9.1
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1470.0,
+      "p": 1.4,
+      "f": 70.6,
+      "c": 3.9,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 351.3,
+      "p": 14.1,
+      "f": 1.4,
+      "c": 70.6,
+      "fi": 3.9
+    },
+    "energy_diff_was_pct": 55.3,
+    "protein_clamped": false,
+    "raw_protein": 14.08
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1480.0,
+      "p": 3.3,
+      "f": 66.9,
+      "c": 6.3,
+      "fi": 1.5
+    },
+    "v5_8_corrected": {
+      "k": 353.7,
+      "p": 14.1,
+      "f": 3.3,
+      "c": 66.9,
+      "fi": 6.3
+    },
+    "energy_diff_was_pct": 56.7,
+    "protein_clamped": false,
+    "raw_protein": 14.1
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 621.0,
+      "p": 1.4,
+      "f": 28.7,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 148.4,
+      "p": 5.3,
+      "f": 1.4,
+      "c": 28.7,
+      "fi": 2.8
+    },
+    "energy_diff_was_pct": 55.7,
+    "protein_clamped": false,
+    "raw_protein": 5.25
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1470.0,
+      "p": 0.6,
+      "f": 74.9,
+      "c": 3.2,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 351.3,
+      "p": 11.6,
+      "f": 0.6,
+      "c": 74.9,
+      "fi": 3.2
+    },
+    "energy_diff_was_pct": 53.1,
+    "protein_clamped": false,
+    "raw_protein": 11.57
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1470.0,
+      "p": 1.6,
+      "f": 70.3,
+      "c": 4.4,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 351.3,
+      "p": 13.9,
+      "f": 1.6,
+      "c": 70.3,
+      "fi": 4.4
+    },
+    "energy_diff_was_pct": 55.3,
+    "protein_clamped": false,
+    "raw_protein": 13.93
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1450.0,
+      "p": 2.9,
+      "f": 62.0,
+      "c": 12.2,
+      "fi": 1.6
+    },
+    "v5_8_corrected": {
+      "k": 346.6,
+      "p": 18.1,
+      "f": 2.9,
+      "c": 62.0,
+      "fi": 12.2
+    },
+    "energy_diff_was_pct": 57.4,
+    "protein_clamped": false,
+    "raw_protein": 18.13
+  },
+  {
+    "id": 1091,
+    "en": "Biscuit, sweet",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.2% ≤ 30% threshold",
+    "values": {
+      "k": 344.0,
+      "p": 5.8,
+      "f": 10.0,
+      "c": 56.7,
+      "fi": 2.4
+    }
+  },
+  {
+    "id": 1092,
+    "en": "Plain Khichuri* Khichuri",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.2% ≤ 30% threshold",
+    "values": {
+      "k": 163.0,
+      "p": 5.1,
+      "f": 7.4,
+      "c": 17.7,
+      "fi": 2.5
+    }
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 464.0,
+      "p": 0.1,
+      "f": 24.3,
+      "c": 1.1,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 110.9,
+      "p": 3.2,
+      "f": 0.1,
+      "c": 24.3,
+      "fi": 1.1
+    },
+    "energy_diff_was_pct": 51.8,
+    "protein_clamped": false,
+    "raw_protein": 3.2
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1040.0,
+      "p": 1.2,
+      "f": 49.7,
+      "c": 3.1,
+      "fi": 1.1
+    },
+    "v5_8_corrected": {
+      "k": 248.6,
+      "p": 9.7,
+      "f": 1.2,
+      "c": 49.7,
+      "fi": 3.1
+    },
+    "energy_diff_was_pct": 55.3,
+    "protein_clamped": false,
+    "raw_protein": 9.75
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "cat": "grain",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 640.0,
+      "p": 0.3,
+      "f": 32.6,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "v5_8_corrected": {
+      "k": 153.0,
+      "p": 5.0,
+      "f": 0.3,
+      "c": 32.6,
+      "fi": 1.4
+    },
+    "energy_diff_was_pct": 53.1,
+    "protein_clamped": false,
+    "raw_protein": 4.97
+  },
+  {
+    "id": 1099,
+    "en": "Black gram, dehulled, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.1% ≤ 30% threshold",
+    "values": {
+      "k": 317.0,
+      "p": 22.3,
+      "f": 1.7,
+      "c": 45.1,
+      "fi": 16.3
+    }
+  },
+  {
+    "id": 1100,
+    "en": "Black gram, split, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.5% ≤ 30% threshold",
+    "values": {
+      "k": 350.0,
+      "p": 22.6,
+      "f": 1.2,
+      "c": 61.8,
+      "fi": 0.9
+    }
+  },
+  {
+    "id": 1101,
+    "en": "Green gram, split, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.5% ≤ 30% threshold",
+    "values": {
+      "k": 351.0,
+      "p": 23.7,
+      "f": 1.2,
+      "c": 60.9,
+      "fi": 0.7
+    }
+  },
+  {
+    "id": 1102,
+    "en": "Green gram, whole, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.2% ≤ 30% threshold",
+    "values": {
+      "k": 318.0,
+      "p": 23.7,
+      "f": 1.3,
+      "c": 44.8,
+      "fi": 16.3
+    }
+  },
+  {
+    "id": 1103,
+    "en": "Grass pea, split, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.2% ≤ 30% threshold",
+    "values": {
+      "k": 352.0,
+      "p": 28.4,
+      "f": 0.9,
+      "c": 56.5,
+      "fi": 2.2
+    }
+  },
+  {
+    "id": 1104,
+    "en": "Lentil, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.3% ≤ 30% threshold",
+    "values": {
+      "k": 317.0,
+      "p": 27.7,
+      "f": 0.8,
+      "c": 43.2,
+      "fi": 13.2
+    }
+  },
+  {
+    "id": 1105,
+    "en": "Pea, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.1% ≤ 30% threshold",
+    "values": {
+      "k": 327.0,
+      "p": 22.1,
+      "f": 2.1,
+      "c": 48.3,
+      "fi": 13.0
+    }
+  },
+  {
+    "id": 1106,
+    "en": "Red gram, split, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.8% ≤ 30% threshold",
+    "values": {
+      "k": 347.0,
+      "p": 22.3,
+      "f": 1.5,
+      "c": 60.4,
+      "fi": 1.5
+    }
+  },
+  {
+    "id": 1107,
+    "en": "Soybean, dried, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=4.5% ≤ 30% threshold",
+    "values": {
+      "k": 424.0,
+      "p": 32.9,
+      "f": 19.9,
+      "c": 23.6,
+      "fi": 9.3
+    }
+  },
+  {
+    "id": 1110,
+    "en": "Lentil, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.9% ≤ 30% threshold",
+    "values": {
+      "k": 155.0,
+      "p": 13.6,
+      "f": 0.4,
+      "c": 21.2,
+      "fi": 6.5
+    }
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 91.0,
+      "p": 0.1,
+      "f": 3.7,
+      "c": 1.2,
+      "fi": 1.8
+    },
+    "v5_8_corrected": {
+      "k": 21.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 3.7,
+      "fi": 1.2
+    },
+    "energy_diff_was_pct": 57.7,
+    "protein_clamped": false,
+    "raw_protein": 1.5
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 228.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 2.0,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 54.5,
+      "p": 5.1,
+      "f": 0.1,
+      "c": 8.3,
+      "fi": 2.0
+    },
+    "energy_diff_was_pct": 63.6,
+    "protein_clamped": false,
+    "raw_protein": 5.1
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 122.0,
+      "p": 0.1,
+      "f": 2.5,
+      "c": 4.3,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 29.2,
+      "p": 4.6,
+      "f": 0.1,
+      "c": 2.5,
+      "fi": 4.3
+    },
+    "energy_diff_was_pct": 67.1,
+    "protein_clamped": false,
+    "raw_protein": 4.58
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=12.0% ≤ 30% threshold",
+    "values": {
+      "k": 94.0,
+      "p": 0.1,
+      "f": 7.9,
+      "c": 2.8,
+      "fi": 1.4
+    }
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 100.0,
+      "p": 0.1,
+      "f": 2.0,
+      "c": 4.1,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 23.9,
+      "p": 3.7,
+      "f": 0.1,
+      "c": 2.0,
+      "fi": 4.1
+    },
+    "energy_diff_was_pct": 65.2,
+    "protein_clamped": false,
+    "raw_protein": 3.75
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 209.0,
+      "p": 0.6,
+      "f": 4.5,
+      "c": 4.2,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 50.0,
+      "p": 6.7,
+      "f": 0.6,
+      "c": 4.5,
+      "fi": 4.2
+    },
+    "energy_diff_was_pct": 71.4,
+    "protein_clamped": false,
+    "raw_protein": 6.65
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 101.0,
+      "p": 0.3,
+      "f": 2.6,
+      "c": 2.5,
+      "fi": 0.4
+    },
+    "v5_8_corrected": {
+      "k": 24.1,
+      "p": 2.8,
+      "f": 0.3,
+      "c": 2.6,
+      "fi": 2.5
+    },
+    "energy_diff_was_pct": 65.7,
+    "protein_clamped": false,
+    "raw_protein": 2.75
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 147.0,
+      "p": 0.3,
+      "f": 6.0,
+      "c": 2.6,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 35.1,
+      "p": 2.1,
+      "f": 0.3,
+      "c": 6.0,
+      "fi": 2.6
+    },
+    "energy_diff_was_pct": 55.4,
+    "protein_clamped": false,
+    "raw_protein": 2.1
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 113.0,
+      "p": 0.3,
+      "f": 2.5,
+      "c": 2.0,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 27.0,
+      "p": 3.6,
+      "f": 0.3,
+      "c": 2.5,
+      "fi": 2.0
+    },
+    "energy_diff_was_pct": 71.9,
+    "protein_clamped": false,
+    "raw_protein": 3.58
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 189.0,
+      "p": 0.1,
+      "f": 5.9,
+      "c": 4.7,
+      "fi": 1.0
+    },
+    "v5_8_corrected": {
+      "k": 45.2,
+      "p": 5.2,
+      "f": 0.1,
+      "c": 5.9,
+      "fi": 4.7
+    },
+    "energy_diff_was_pct": 61.7,
+    "protein_clamped": false,
+    "raw_protein": 5.18
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.3% ≤ 30% threshold",
+    "values": {
+      "k": 60.0,
+      "p": 0.4,
+      "f": 2.8,
+      "c": 6.0,
+      "fi": 0.8
+    }
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 72.0,
+      "p": 0.1,
+      "f": 2.9,
+      "c": 0.7,
+      "fi": 0.4
+    },
+    "v5_8_corrected": {
+      "k": 17.2,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 2.9,
+      "fi": 0.7
+    },
+    "energy_diff_was_pct": 59.3,
+    "protein_clamped": false,
+    "raw_protein": 1.17
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 181.0,
+      "p": 0.2,
+      "f": 5.1,
+      "c": 4.8,
+      "fi": 1.9
+    },
+    "v5_8_corrected": {
+      "k": 43.3,
+      "p": 5.3,
+      "f": 0.2,
+      "c": 5.1,
+      "fi": 4.8
+    },
+    "energy_diff_was_pct": 63.6,
+    "protein_clamped": false,
+    "raw_protein": 5.27
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 623.0,
+      "p": 0.6,
+      "f": 27.6,
+      "c": 2.1,
+      "fi": 1.3
+    },
+    "v5_8_corrected": {
+      "k": 148.9,
+      "p": 8.3,
+      "f": 0.6,
+      "c": 27.6,
+      "fi": 2.1
+    },
+    "energy_diff_was_pct": 58.4,
+    "protein_clamped": false,
+    "raw_protein": 8.28
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 41.0,
+      "p": 0.1,
+      "f": 1.0,
+      "c": 1.7,
+      "fi": 0.3
+    },
+    "v5_8_corrected": {
+      "k": 9.8,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 1.0,
+      "fi": 1.7
+    },
+    "energy_diff_was_pct": 60.5,
+    "protein_clamped": false,
+    "raw_protein": 1.23
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 129.0,
+      "p": 0.3,
+      "f": 3.6,
+      "c": 2.6,
+      "fi": 1.1
+    },
+    "v5_8_corrected": {
+      "k": 30.8,
+      "p": 3.4,
+      "f": 0.3,
+      "c": 3.6,
+      "fi": 2.6
+    },
+    "energy_diff_was_pct": 65.9,
+    "protein_clamped": false,
+    "raw_protein": 3.42
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 142.0,
+      "p": 0.1,
+      "f": 6.8,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 33.9,
+      "p": 1.4,
+      "f": 0.1,
+      "c": 6.8,
+      "fi": 0.6
+    },
+    "energy_diff_was_pct": 54.9,
+    "protein_clamped": false,
+    "raw_protein": 1.45
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 102.0,
+      "p": 0.3,
+      "f": 2.2,
+      "c": 2.2,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 24.4,
+      "p": 3.2,
+      "f": 0.3,
+      "c": 2.2,
+      "fi": 2.2
+    },
+    "energy_diff_was_pct": 70.8,
+    "protein_clamped": false,
+    "raw_protein": 3.22
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 121.0,
+      "p": 0.4,
+      "f": 4.6,
+      "c": 1.1,
+      "fi": 0.3
+    },
+    "v5_8_corrected": {
+      "k": 28.9,
+      "p": 1.7,
+      "f": 0.4,
+      "c": 4.6,
+      "fi": 1.1
+    },
+    "energy_diff_was_pct": 60.8,
+    "protein_clamped": false,
+    "raw_protein": 1.73
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 103.0,
+      "p": 0.3,
+      "f": 4.5,
+      "c": 0.8,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 24.6,
+      "p": 1.0,
+      "f": 0.3,
+      "c": 4.5,
+      "fi": 0.8
+    },
+    "energy_diff_was_pct": 56.4,
+    "protein_clamped": false,
+    "raw_protein": 0.98
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 102.0,
+      "p": 0.2,
+      "f": 4.3,
+      "c": 1.1,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 24.4,
+      "p": 1.3,
+      "f": 0.2,
+      "c": 4.3,
+      "fi": 1.1
+    },
+    "energy_diff_was_pct": 57.0,
+    "protein_clamped": false,
+    "raw_protein": 1.35
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 259.0,
+      "p": 0.5,
+      "f": 11.8,
+      "c": 1.1,
+      "fi": 1.1
+    },
+    "v5_8_corrected": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.5,
+      "c": 11.8,
+      "fi": 1.1
+    },
+    "energy_diff_was_pct": 56.5,
+    "protein_clamped": false,
+    "raw_protein": 2.55
+  },
+  {
+    "id": 1133,
+    "en": "Okra/ladies finger, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.8% ≤ 30% threshold",
+    "values": {
+      "k": 64.0,
+      "p": 0.2,
+      "f": 5.7,
+      "c": 3.1,
+      "fi": 1.1
+    }
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 249.0,
+      "p": 0.1,
+      "f": 12.2,
+      "c": 1.9,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 59.5,
+      "p": 2.5,
+      "f": 0.1,
+      "c": 12.2,
+      "fi": 1.9
+    },
+    "energy_diff_was_pct": 52.7,
+    "protein_clamped": false,
+    "raw_protein": 2.45
+  },
+  {
+    "id": 1135,
+    "en": "Papaya, unripe, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.3% ≤ 30% threshold",
+    "values": {
+      "k": 30.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 5.7,
+      "fi": 1.5
+    }
+  },
+  {
+    "id": 1136,
+    "en": "Peas, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.3% ≤ 30% threshold",
+    "values": {
+      "k": 91.0,
+      "p": 7.0,
+      "f": 0.4,
+      "c": 12.5,
+      "fi": 5.1
+    }
+  },
+  {
+    "id": 1137,
+    "en": "Plantain, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.6% ≤ 30% threshold",
+    "values": {
+      "k": 77.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 15.5,
+      "fi": 2.3
+    }
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=25.0% ≤ 30% threshold",
+    "values": {
+      "k": 18.0,
+      "p": 1.4,
+      "f": 0.3,
+      "c": 1.3,
+      "fi": 2.4
+    }
+  },
+  {
+    "id": 1139,
+    "en": "Radish, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=19.4% ≤ 30% threshold",
+    "values": {
+      "k": 18.0,
+      "p": 0.9,
+      "f": 0.1,
+      "c": 2.5,
+      "fi": 1.6
+    }
+  },
+  {
+    "id": 1140,
+    "en": "Tomato, green, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.7% ≤ 30% threshold",
+    "values": {
+      "k": 23.0,
+      "p": 1.9,
+      "f": 0.2,
+      "c": 2.5,
+      "fi": 1.7
+    }
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=26.2% ≤ 30% threshold",
+    "values": {
+      "k": 16.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 1.4,
+      "fi": 1.7
+    }
+  },
+  {
+    "id": 1142,
+    "en": "Turnip, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=13.1% ≤ 30% threshold",
+    "values": {
+      "k": 26.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 4.1,
+      "fi": 1.8
+    }
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 115.0,
+      "p": 0.4,
+      "f": 2.9,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 27.5,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 2.9,
+      "fi": 2.8
+    },
+    "energy_diff_was_pct": 66.2,
+    "protein_clamped": false,
+    "raw_protein": 3.08
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=2.1% ≤ 30% threshold",
+    "values": {
+      "k": 81.0,
+      "p": 0.3,
+      "f": 7.3,
+      "c": 3.1,
+      "fi": 0.7
+    }
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 119.0,
+      "p": 0.3,
+      "f": 2.7,
+      "c": 2.1,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 28.4,
+      "p": 3.7,
+      "f": 0.3,
+      "c": 2.7,
+      "fi": 2.1
+    },
+    "energy_diff_was_pct": 71.5,
+    "protein_clamped": false,
+    "raw_protein": 3.72
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 167.0,
+      "p": 0.4,
+      "f": 3.0,
+      "c": 6.3,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 39.9,
+      "p": 6.1,
+      "f": 0.4,
+      "c": 3.0,
+      "fi": 6.3
+    },
+    "energy_diff_was_pct": 67.8,
+    "protein_clamped": false,
+    "raw_protein": 6.07
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 116.0,
+      "p": 0.4,
+      "f": 2.5,
+      "c": 2.5,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 27.7,
+      "p": 3.5,
+      "f": 0.4,
+      "c": 2.5,
+      "fi": 2.5
+    },
+    "energy_diff_was_pct": 70.6,
+    "protein_clamped": false,
+    "raw_protein": 3.52
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 294.0,
+      "p": 0.5,
+      "f": 13.4,
+      "c": 1.3,
+      "fi": 1.2
+    },
+    "v5_8_corrected": {
+      "k": 70.3,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 13.4,
+      "fi": 1.3
+    },
+    "energy_diff_was_pct": 56.5,
+    "protein_clamped": false,
+    "raw_protein": 3.05
+  },
+  {
+    "id": 1151,
+    "en": "Papaya, unripe, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.9% ≤ 30% threshold",
+    "values": {
+      "k": 32.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 6.1,
+      "fi": 1.6
+    }
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=25.2% ≤ 30% threshold",
+    "values": {
+      "k": 29.0,
+      "p": 2.2,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.8
+    }
+  },
+  {
+    "id": 1153,
+    "en": "Radish, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=21.3% ≤ 30% threshold",
+    "values": {
+      "k": 24.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 3.3,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 526.0,
+      "p": 7.4,
+      "f": 9.0,
+      "c": 5.0,
+      "fi": 3.1
+    },
+    "v5_8_corrected": {
+      "k": 125.7,
+      "p": 5.8,
+      "f": 7.4,
+      "c": 9.0,
+      "fi": 5.0
+    },
+    "energy_diff_was_pct": 75.2,
+    "protein_clamped": false,
+    "raw_protein": 5.77
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 540.0,
+      "p": 9.1,
+      "f": 7.1,
+      "c": 4.1,
+      "fi": 2.7
+    },
+    "v5_8_corrected": {
+      "k": 129.1,
+      "p": 4.7,
+      "f": 9.1,
+      "c": 7.1,
+      "fi": 4.1
+    },
+    "energy_diff_was_pct": 78.4,
+    "protein_clamped": false,
+    "raw_protein": 4.7
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=17.5% ≤ 30% threshold",
+    "values": {
+      "k": 88.0,
+      "p": 8.4,
+      "f": 1.8,
+      "c": 5.7,
+      "fi": 7.9
+    }
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.4% ≤ 30% threshold",
+    "values": {
+      "k": 57.0,
+      "p": 4.9,
+      "f": 1.2,
+      "c": 6.6,
+      "fi": 2.6
+    }
+  },
+  {
+    "id": 1158,
+    "en": "Amaranth, leaves, spiney, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=16.3% ≤ 30% threshold",
+    "values": {
+      "k": 51.0,
+      "p": 4.8,
+      "f": 0.3,
+      "c": 5.2,
+      "fi": 4.4
+    }
+  },
+  {
+    "id": 1159,
+    "en": "Amaranth, leaves, red, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=29.1% ≤ 30% threshold",
+    "values": {
+      "k": 32.0,
+      "p": 4.5,
+      "f": 0.3,
+      "c": 0.5,
+      "fi": 4.2
+    }
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 25.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 1.5,
+      "fi": 4.4
+    },
+    "v5_8_corrected": {
+      "k": 6.0,
+      "p": 0.0,
+      "f": 2.0,
+      "c": 0.3,
+      "fi": 1.5
+    },
+    "energy_diff_was_pct": 33.2,
+    "protein_clamped": true,
+    "raw_protein": -3.3
+  },
+  {
+    "id": 1161,
+    "en": "Dock leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.0% ≤ 30% threshold",
+    "values": {
+      "k": 46.0,
+      "p": 3.1,
+      "f": 0.7,
+      "c": 5.9,
+      "fi": 1.8
+    }
+  },
+  {
+    "id": 1162,
+    "en": "Beet greens leaves",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=22.3% ≤ 30% threshold",
+    "values": {
+      "k": 31.0,
+      "p": 2.8,
+      "f": 0.5,
+      "c": 2.1,
+      "fi": 3.7
+    }
+  },
+  {
+    "id": 1163,
+    "en": "Bengal dayflower, leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=11.4% ≤ 30% threshold",
+    "values": {
+      "k": 22.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 2.2,
+      "fi": 1.4
+    }
+  },
+  {
+    "id": 1164,
+    "en": "Bitter gourd leaves, green, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=11.8% ≤ 30% threshold",
+    "values": {
+      "k": 55.0,
+      "p": 4.9,
+      "f": 0.5,
+      "c": 6.1,
+      "fi": 3.1
+    }
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 26.0,
+      "p": 2.5,
+      "f": 0.6,
+      "c": 0.6,
+      "fi": 4.4
+    },
+    "v5_8_corrected": {
+      "k": 6.2,
+      "p": 0.0,
+      "f": 2.5,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "energy_diff_was_pct": 31.5,
+    "protein_clamped": true,
+    "raw_protein": -4.67
+  },
+  {
+    "id": 1166,
+    "en": "Bugleweed, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.8% ≤ 30% threshold",
+    "values": {
+      "k": 43.0,
+      "p": 2.6,
+      "f": 1.3,
+      "c": 4.6,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1167,
+    "en": "Cassava, leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.5% ≤ 30% threshold",
+    "values": {
+      "k": 62.0,
+      "p": 4.7,
+      "f": 1.2,
+      "c": 5.7,
+      "fi": 4.8
+    }
+  },
+  {
+    "id": 1168,
+    "en": "Colocasia leaves, black, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=12.3% ≤ 30% threshold",
+    "values": {
+      "k": 62.0,
+      "p": 5.6,
+      "f": 1.2,
+      "c": 5.3,
+      "fi": 3.7
+    }
+  },
+  {
+    "id": 1169,
+    "en": "Colocasia leaves, green, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=14.7% ≤ 30% threshold",
+    "values": {
+      "k": 51.0,
+      "p": 4.0,
+      "f": 1.1,
+      "c": 4.4,
+      "fi": 3.7
+    }
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.5% ≤ 30% threshold",
+    "values": {
+      "k": 33.0,
+      "p": 1.7,
+      "f": 1.0,
+      "c": 3.6,
+      "fi": 1.0
+    }
+  },
+  {
+    "id": 1171,
+    "en": "Drumstick, leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=14.7% ≤ 30% threshold",
+    "values": {
+      "k": 72.0,
+      "p": 6.7,
+      "f": 1.8,
+      "c": 4.6,
+      "fi": 5.2
+    }
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.8% ≤ 30% threshold",
+    "values": {
+      "k": 68.0,
+      "p": 1.3,
+      "f": 0.6,
+      "c": 13.7,
+      "fi": 1.0
+    }
+  },
+  {
+    "id": 1173,
+    "en": "Fenugreek, leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.6% ≤ 30% threshold",
+    "values": {
+      "k": 50.0,
+      "p": 4.4,
+      "f": 0.9,
+      "c": 5.0,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1174,
+    "en": "Indian spinach, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=17.2% ≤ 30% threshold",
+    "values": {
+      "k": 25.0,
+      "p": 2.4,
+      "f": 0.3,
+      "c": 2.1,
+      "fi": 2.2
+    }
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 32.0,
+      "p": 2.9,
+      "f": 0.3,
+      "c": 1.7,
+      "fi": 5.8
+    },
+    "v5_8_corrected": {
+      "k": 7.6,
+      "p": 0.0,
+      "f": 2.9,
+      "c": 0.3,
+      "fi": 1.7
+    },
+    "energy_diff_was_pct": 34.1,
+    "protein_clamped": true,
+    "raw_protein": -4.92
+  },
+  {
+    "id": 1176,
+    "en": "Pumpkin leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.9% ≤ 30% threshold",
+    "values": {
+      "k": 29.0,
+      "p": 2.4,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1177,
+    "en": "Radish leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.3% ≤ 30% threshold",
+    "values": {
+      "k": 32.0,
+      "p": 1.8,
+      "f": 0.7,
+      "c": 3.4,
+      "fi": 2.6
+    }
+  },
+  {
+    "id": 1178,
+    "en": "Slender amaranth leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=18.9% ≤ 30% threshold",
+    "values": {
+      "k": 47.0,
+      "p": 4.1,
+      "f": 0.5,
+      "c": 4.3,
+      "fi": 4.4
+    }
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=22.7% ≤ 30% threshold",
+    "values": {
+      "k": 26.0,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 0.9,
+      "fi": 2.9
+    }
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 45.0,
+      "p": 4.0,
+      "f": 0.8,
+      "c": 1.8,
+      "fi": 7.3
+    },
+    "v5_8_corrected": {
+      "k": 10.8,
+      "p": 0.0,
+      "f": 4.0,
+      "c": 0.8,
+      "fi": 1.8
+    },
+    "energy_diff_was_pct": 32.4,
+    "protein_clamped": true,
+    "raw_protein": -7.1
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 45.0,
+      "p": 3.9,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 7.7
+    },
+    "v5_8_corrected": {
+      "k": 10.8,
+      "p": 0.0,
+      "f": 3.9,
+      "c": 0.4,
+      "fi": 2.8
+    },
+    "energy_diff_was_pct": 32.4,
+    "protein_clamped": true,
+    "raw_protein": -6.47
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 50.0,
+      "p": 3.6,
+      "f": 0.4,
+      "c": 3.9,
+      "fi": 8.0
+    },
+    "v5_8_corrected": {
+      "k": 12.0,
+      "p": 0.0,
+      "f": 3.6,
+      "c": 0.4,
+      "fi": 3.9
+    },
+    "energy_diff_was_pct": 32.8,
+    "protein_clamped": true,
+    "raw_protein": -5.5
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=18.1% ≤ 30% threshold",
+    "values": {
+      "k": 43.0,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 6.0,
+      "fi": 3.7
+    }
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=2.7% ≤ 30% threshold",
+    "values": {
+      "k": 49.0,
+      "p": 2.0,
+      "f": 0.5,
+      "c": 8.8,
+      "fi": 0.5
+    }
+  },
+  {
+    "id": 1188,
+    "en": "Spinach, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=23.2% ≤ 30% threshold",
+    "values": {
+      "k": 47.0,
+      "p": 5.4,
+      "f": 0.9,
+      "c": 1.6,
+      "fi": 5.3
+    }
+  },
+  {
+    "id": 1190,
+    "en": "Colocasia/Taro, corm, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.2% ≤ 30% threshold",
+    "values": {
+      "k": 103.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 21.0,
+      "fi": 4.1
+    }
+  },
+  {
+    "id": 1191,
+    "en": "Colocasia/Taro/Tannia, cormel, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.9% ≤ 30% threshold",
+    "values": {
+      "k": 101.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 20.6,
+      "fi": 4.1
+    }
+  },
+  {
+    "id": 1192,
+    "en": "Elephant foot, corm, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.7% ≤ 30% threshold",
+    "values": {
+      "k": 74.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 15.1,
+      "fi": 4.1
+    }
+  },
+  {
+    "id": 1193,
+    "en": "Giant taro, corm, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=9.5% ≤ 30% threshold",
+    "values": {
+      "k": 82.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 16.6,
+      "fi": 4.1
+    }
+  },
+  {
+    "id": 1194,
+    "en": "Potato, Diamond, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.2% ≤ 30% threshold",
+    "values": {
+      "k": 66.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.0,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.8% ≤ 30% threshold",
+    "values": {
+      "k": 98.0,
+      "p": 0.6,
+      "f": 0.3,
+      "c": 21.8,
+      "fi": 3.0
+    }
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.2% ≤ 30% threshold",
+    "values": {
+      "k": 97.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 20.3,
+      "fi": 4.1
+    }
+  },
+  {
+    "id": 1197,
+    "en": "Colocasia/Taro, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.7% ≤ 30% threshold",
+    "values": {
+      "k": 115.0,
+      "p": 2.5,
+      "f": 0.2,
+      "c": 23.6,
+      "fi": 4.6
+    }
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.4% ≤ 30% threshold",
+    "values": {
+      "k": 67.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.2,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1201,
+    "en": "Giant taro, corm, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.2% ≤ 30% threshold",
+    "values": {
+      "k": 92.0,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 18.6,
+      "fi": 4.6
+    }
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.4% ≤ 30% threshold",
+    "values": {
+      "k": 109.0,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 22.8,
+      "fi": 4.6
+    }
+  },
+  {
+    "id": 1203,
+    "en": "Potato Mash",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.7% ≤ 30% threshold",
+    "values": {
+      "k": 84.0,
+      "p": 1.4,
+      "f": 0.8,
+      "c": 16.6,
+      "fi": 2.5
+    }
+  },
+  {
+    "id": 1204,
+    "en": "Sunflower seeds, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.3% ≤ 30% threshold",
+    "values": {
+      "k": 584.0,
+      "p": 20.8,
+      "f": 51.5,
+      "c": 20.0,
+      "fi": 3.0
+    }
+  },
+  {
+    "id": 1205,
+    "en": "Cashew nuts, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.5% ≤ 30% threshold",
+    "values": {
+      "k": 553.0,
+      "p": 18.2,
+      "f": 43.9,
+      "c": 30.2,
+      "fi": 2.4
+    }
+  },
+  {
+    "id": 1206,
+    "en": "Chilgoza pine, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.4% ≤ 30% threshold",
+    "values": {
+      "k": 673.0,
+      "p": 13.7,
+      "f": 68.4,
+      "c": 13.1,
+      "fi": 2.7
+    }
+  },
+  {
+    "id": 1207,
+    "en": "Coconut milk",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.7% ≤ 30% threshold",
+    "values": {
+      "k": 197.0,
+      "p": 2.3,
+      "f": 21.3,
+      "c": 2.8,
+      "fi": 0.8
+    }
+  },
+  {
+    "id": 1208,
+    "en": "Coconut, desiccated",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=9.6% ≤ 30% threshold",
+    "values": {
+      "k": 650.0,
+      "p": 6.9,
+      "f": 65.0,
+      "c": 25.0,
+      "fi": 1.6
+    }
+  },
+  {
+    "id": 1209,
+    "en": "Coconut, mature kernel",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.1% ≤ 30% threshold",
+    "values": {
+      "k": 354.0,
+      "p": 3.3,
+      "f": 33.5,
+      "c": 15.2,
+      "fi": 1.0
+    }
+  },
+  {
+    "id": 1210,
+    "en": "Groundnuts/Peanut, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.7% ≤ 30% threshold",
+    "values": {
+      "k": 567.0,
+      "p": 25.8,
+      "f": 49.2,
+      "c": 16.1,
+      "fi": 2.4
+    }
+  },
+  {
+    "id": 1211,
+    "en": "Linseed, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.5% ≤ 30% threshold",
+    "values": {
+      "k": 534.0,
+      "p": 18.3,
+      "f": 42.2,
+      "c": 28.9,
+      "fi": 3.7
+    }
+  },
+  {
+    "id": 1212,
+    "en": "Lotus seeds, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.4% ≤ 30% threshold",
+    "values": {
+      "k": 332.0,
+      "p": 15.4,
+      "f": 2.0,
+      "c": 63.4,
+      "fi": 3.2
+    }
+  },
+  {
+    "id": 1213,
+    "en": "Lotus seeds, green",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.1% ≤ 30% threshold",
+    "values": {
+      "k": 89.0,
+      "p": 4.3,
+      "f": 0.6,
+      "c": 17.3,
+      "fi": 1.1
+    }
+  },
+  {
+    "id": 1214,
+    "en": "Mustard seeds, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.8% ≤ 30% threshold",
+    "values": {
+      "k": 508.0,
+      "p": 26.1,
+      "f": 36.2,
+      "c": 28.1,
+      "fi": 4.2
+    }
+  },
+  {
+    "id": 1215,
+    "en": "Pistachio nuts, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.3% ≤ 30% threshold",
+    "values": {
+      "k": 562.0,
+      "p": 20.2,
+      "f": 45.3,
+      "c": 27.2,
+      "fi": 2.9
+    }
+  },
+  {
+    "id": 1216,
+    "en": "Pumpkin seeds, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.3% ≤ 30% threshold",
+    "values": {
+      "k": 559.0,
+      "p": 30.2,
+      "f": 49.1,
+      "c": 10.7,
+      "fi": 4.7
+    }
+  },
+  {
+    "id": 1217,
+    "en": "Sesame seeds, whole, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.8% ≤ 30% threshold",
+    "values": {
+      "k": 573.0,
+      "p": 17.7,
+      "f": 49.7,
+      "c": 23.5,
+      "fi": 5.2
+    }
+  },
+  {
+    "id": 1219,
+    "en": "Bay leaf, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=14.8% ≤ 30% threshold",
+    "values": {
+      "k": 353.0,
+      "p": 7.6,
+      "f": 8.4,
+      "c": 48.7,
+      "fi": 26.3
+    }
+  },
+  {
+    "id": 1220,
+    "en": "Cardamom",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=18.9% ≤ 30% threshold",
+    "values": {
+      "k": 261.0,
+      "p": 10.2,
+      "f": 2.2,
+      "c": 37.8,
+      "fi": 24.4
+    }
+  },
+  {
+    "id": 1221,
+    "en": "Chilli, red, dry",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=16.9% ≤ 30% threshold",
+    "values": {
+      "k": 313.0,
+      "p": 15.9,
+      "f": 6.2,
+      "c": 35.2,
+      "fi": 26.6
+    }
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 243.0,
+      "p": 4.0,
+      "f": 1.2,
+      "c": 27.5,
+      "fi": 53.1
+    },
+    "v5_8_corrected": {
+      "k": 58.1,
+      "p": 4.3,
+      "f": 4.0,
+      "c": 1.2,
+      "fi": 27.5
+    },
+    "energy_diff_was_pct": 43.7,
+    "protein_clamped": false,
+    "raw_protein": 4.33
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=21.2% ≤ 30% threshold",
+    "values": {
+      "k": 267.0,
+      "p": 5.2,
+      "f": 8.9,
+      "c": 27.4,
+      "fi": 28.1
+    }
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=24.1% ≤ 30% threshold",
+    "values": {
+      "k": 336.0,
+      "p": 14.1,
+      "f": 16.1,
+      "c": 13.4,
+      "fi": 40.8
+    }
+  },
+  {
+    "id": 1225,
+    "en": "Cumin seeds",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.4% ≤ 30% threshold",
+    "values": {
+      "k": 402.0,
+      "p": 18.3,
+      "f": 17.6,
+      "c": 37.2,
+      "fi": 10.5
+    }
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=24.2% ≤ 30% threshold",
+    "values": {
+      "k": 329.0,
+      "p": 15.8,
+      "f": 14.9,
+      "c": 13.0,
+      "fi": 39.8
+    }
+  },
+  {
+    "id": 1227,
+    "en": "Fenugreek seeds",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.0% ≤ 30% threshold",
+    "values": {
+      "k": 330.0,
+      "p": 21.8,
+      "f": 6.9,
+      "c": 32.8,
+      "fi": 24.6
+    }
+  },
+  {
+    "id": 1228,
+    "en": "Ginger root, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=5.6% ≤ 30% threshold",
+    "values": {
+      "k": 72.0,
+      "p": 1.9,
+      "f": 0.8,
+      "c": 13.3,
+      "fi": 2.0
+    }
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 37.0,
+      "p": 2.3,
+      "f": 0.5,
+      "c": 1.6,
+      "fi": 8.7
+    },
+    "v5_8_corrected": {
+      "k": 8.8,
+      "p": 0.0,
+      "f": 2.3,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "energy_diff_was_pct": 45.7,
+    "protein_clamped": true,
+    "raw_protein": -3.47
+  },
+  {
+    "id": 1230,
+    "en": "Lemon grass, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 116.0,
+      "p": 1.4,
+      "f": 0.9,
+      "c": 25.5,
+      "fi": 2.0
+    }
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 65.0,
+      "p": 1.6,
+      "f": 0.4,
+      "c": 8.7,
+      "fi": 10.6
+    },
+    "v5_8_corrected": {
+      "k": 15.5,
+      "p": 0.0,
+      "f": 1.6,
+      "c": 0.4,
+      "fi": 8.7
+    },
+    "energy_diff_was_pct": 31.1,
+    "protein_clamped": true,
+    "raw_protein": -0.12
+  },
+  {
+    "id": 1232,
+    "en": "Mace, ground",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.9% ≤ 30% threshold",
+    "values": {
+      "k": 415.0,
+      "p": 6.5,
+      "f": 24.4,
+      "c": 33.1,
+      "fi": 18.5
+    }
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1980.0,
+      "p": 36.4,
+      "f": 21.1,
+      "c": 19.0,
+      "fi": 1.7
+    },
+    "v5_8_corrected": {
+      "k": 473.2,
+      "p": 15.3,
+      "f": 36.4,
+      "c": 21.1,
+      "fi": 19.0
+    },
+    "energy_diff_was_pct": 79.2,
+    "protein_clamped": false,
+    "raw_protein": 15.3
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=6.4% ≤ 30% threshold",
+    "values": {
+      "k": 525.0,
+      "p": 18.0,
+      "f": 41.6,
+      "c": 28.1,
+      "fi": 7.7
+    }
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1400.0,
+      "p": 8.4,
+      "f": 47.3,
+      "c": 21.1,
+      "fi": 4.8
+    },
+    "v5_8_corrected": {
+      "k": 334.6,
+      "p": 17.5,
+      "f": 8.4,
+      "c": 47.3,
+      "fi": 21.1
+    },
+    "energy_diff_was_pct": 61.2,
+    "protein_clamped": false,
+    "raw_protein": 17.45
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 215.0,
+      "p": 0.1,
+      "f": 11.5,
+      "c": 1.3,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 51.4,
+      "p": 1.1,
+      "f": 0.1,
+      "c": 11.5,
+      "fi": 1.3
+    },
+    "energy_diff_was_pct": 49.3,
+    "protein_clamped": false,
+    "raw_protein": 1.12
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 262.0,
+      "p": 0.2,
+      "f": 13.5,
+      "c": 2.4,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 62.6,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 13.5,
+      "fi": 2.4
+    },
+    "energy_diff_was_pct": 49.7,
+    "protein_clamped": false,
+    "raw_protein": 1.7
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 259.0,
+      "p": 0.3,
+      "f": 12.3,
+      "c": 3.6,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.3,
+      "c": 12.3,
+      "fi": 3.6
+    },
+    "energy_diff_was_pct": 51.2,
+    "protein_clamped": false,
+    "raw_protein": 2.5
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 400.0,
+      "p": 0.8,
+      "f": 19.2,
+      "c": 2.6,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 95.6,
+      "p": 2.9,
+      "f": 0.8,
+      "c": 19.2,
+      "fi": 2.6
+    },
+    "energy_diff_was_pct": 53.4,
+    "protein_clamped": false,
+    "raw_protein": 2.9
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 293.0,
+      "p": 0.2,
+      "f": 13.0,
+      "c": 4.9,
+      "fi": 0.9
+    },
+    "v5_8_corrected": {
+      "k": 70.0,
+      "p": 4.0,
+      "f": 0.2,
+      "c": 13.0,
+      "fi": 4.9
+    },
+    "energy_diff_was_pct": 53.1,
+    "protein_clamped": false,
+    "raw_protein": 4.05
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 340.0,
+      "p": 0.2,
+      "f": 15.7,
+      "c": 5.2,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 81.3,
+      "p": 4.2,
+      "f": 0.2,
+      "c": 15.7,
+      "fi": 5.2
+    },
+    "energy_diff_was_pct": 52.1,
+    "protein_clamped": false,
+    "raw_protein": 4.17
+  },
+  {
+    "id": 1242,
+    "en": "Carambola, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.2% ≤ 30% threshold",
+    "values": {
+      "k": 72.0,
+      "p": 0.7,
+      "f": 6.7,
+      "c": 2.8,
+      "fi": 0.5
+    }
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 357.0,
+      "p": 0.3,
+      "f": 16.6,
+      "c": 4.4,
+      "fi": 0.9
+    },
+    "v5_8_corrected": {
+      "k": 85.3,
+      "p": 4.0,
+      "f": 0.3,
+      "c": 16.6,
+      "fi": 4.4
+    },
+    "energy_diff_was_pct": 52.9,
+    "protein_clamped": false,
+    "raw_protein": 4.05
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1270.0,
+      "p": 0.6,
+      "f": 67.5,
+      "c": 8.3,
+      "fi": 3.4
+    },
+    "v5_8_corrected": {
+      "k": 303.5,
+      "p": 7.0,
+      "f": 0.6,
+      "c": 67.5,
+      "fi": 8.3
+    },
+    "energy_diff_was_pct": 49.4,
+    "protein_clamped": false,
+    "raw_protein": 7.03
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 636.0,
+      "p": 0.4,
+      "f": 33.4,
+      "c": 4.1,
+      "fi": 1.7
+    },
+    "v5_8_corrected": {
+      "k": 152.0,
+      "p": 3.7,
+      "f": 0.4,
+      "c": 33.4,
+      "fi": 4.1
+    },
+    "energy_diff_was_pct": 49.9,
+    "protein_clamped": false,
+    "raw_protein": 3.7
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 271.0,
+      "p": 0.4,
+      "f": 10.3,
+      "c": 3.5,
+      "fi": 1.8
+    },
+    "v5_8_corrected": {
+      "k": 64.8,
+      "p": 5.0,
+      "f": 0.4,
+      "c": 10.3,
+      "fi": 3.5
+    },
+    "energy_diff_was_pct": 60.0,
+    "protein_clamped": false,
+    "raw_protein": 5.0
+  },
+  {
+    "id": 1247,
+    "en": "Emblic, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.1% ≤ 30% threshold",
+    "values": {
+      "k": 86.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 3.4,
+      "fi": 0.7
+    }
+  },
+  {
+    "id": 1248,
+    "en": "Fig, ripe, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=8.1% ≤ 30% threshold",
+    "values": {
+      "k": 68.0,
+      "p": 0.2,
+      "f": 6.7,
+      "c": 3.1,
+      "fi": 0.6
+    }
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 398.0,
+      "p": 0.6,
+      "f": 20.2,
+      "c": 2.9,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 95.1,
+      "p": 2.2,
+      "f": 0.6,
+      "c": 20.2,
+      "fi": 2.9
+    },
+    "energy_diff_was_pct": 50.8,
+    "protein_clamped": false,
+    "raw_protein": 2.22
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 265.0,
+      "p": 0.5,
+      "f": 10.9,
+      "c": 5.4,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 63.3,
+      "p": 3.8,
+      "f": 0.5,
+      "c": 10.9,
+      "fi": 5.4
+    },
+    "energy_diff_was_pct": 54.1,
+    "protein_clamped": false,
+    "raw_protein": 3.8
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 213.0,
+      "p": 0.8,
+      "f": 8.9,
+      "c": 1.6,
+      "fi": 0.9
+    },
+    "v5_8_corrected": {
+      "k": 50.9,
+      "p": 2.0,
+      "f": 0.8,
+      "c": 8.9,
+      "fi": 1.6
+    },
+    "energy_diff_was_pct": 57.9,
+    "protein_clamped": false,
+    "raw_protein": 2.02
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 312.0,
+      "p": 0.2,
+      "f": 13.3,
+      "c": 7.2,
+      "fi": 1.1
+    },
+    "v5_8_corrected": {
+      "k": 74.6,
+      "p": 4.9,
+      "f": 0.2,
+      "c": 13.3,
+      "fi": 7.2
+    },
+    "energy_diff_was_pct": 52.1,
+    "protein_clamped": false,
+    "raw_protein": 4.9
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.8% ≤ 30% threshold",
+    "values": {
+      "k": 64.0,
+      "p": 0.5,
+      "f": 6.1,
+      "c": 3.5,
+      "fi": 0.8
+    }
+  },
+  {
+    "id": 1254,
+    "en": "Jambos, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=13.0% ≤ 30% threshold",
+    "values": {
+      "k": 69.0,
+      "p": 0.3,
+      "f": 8.0,
+      "c": 1.2,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 149.0,
+      "p": 0.2,
+      "f": 6.9,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 35.6,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 6.9,
+      "fi": 1.6
+    },
+    "energy_diff_was_pct": 53.5,
+    "protein_clamped": false,
+    "raw_protein": 1.55
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 254.0,
+      "p": 0.2,
+      "f": 12.6,
+      "c": 1.0,
+      "fi": 0.0
+    },
+    "v5_8_corrected": {
+      "k": 60.7,
+      "p": 2.1,
+      "f": 0.2,
+      "c": 12.6,
+      "fi": 1.0
+    },
+    "energy_diff_was_pct": 53.5,
+    "protein_clamped": false,
+    "raw_protein": 2.13
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 234.0,
+      "p": 1.0,
+      "f": 10.2,
+      "c": 1.3,
+      "fi": 0.7
+    },
+    "v5_8_corrected": {
+      "k": 55.9,
+      "p": 1.5,
+      "f": 1.0,
+      "c": 10.2,
+      "fi": 1.3
+    },
+    "energy_diff_was_pct": 56.8,
+    "protein_clamped": false,
+    "raw_protein": 1.53
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=4.5% ≤ 30% threshold",
+    "values": {
+      "k": 77.0,
+      "p": 0.5,
+      "f": 8.5,
+      "c": 0.5,
+      "fi": 0.6
+    }
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 348.0,
+      "p": 0.4,
+      "f": 18.0,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 83.2,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 18.0,
+      "fi": 1.6
+    },
+    "energy_diff_was_pct": 51.1,
+    "protein_clamped": false,
+    "raw_protein": 1.9
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 73.0,
+      "p": 0.2,
+      "f": 3.1,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 17.4,
+      "p": 0.8,
+      "f": 0.2,
+      "c": 3.1,
+      "fi": 1.0
+    },
+    "energy_diff_was_pct": 55.2,
+    "protein_clamped": false,
+    "raw_protein": 0.8
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 38.0,
+      "p": 0.1,
+      "f": 1.7,
+      "c": 0.2,
+      "fi": 0.1
+    },
+    "v5_8_corrected": {
+      "k": 9.1,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 1.7,
+      "fi": 0.2
+    },
+    "energy_diff_was_pct": 56.6,
+    "protein_clamped": false,
+    "raw_protein": 0.35
+  },
+  {
+    "id": 1262,
+    "en": "Orange, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.1% ≤ 30% threshold",
+    "values": {
+      "k": 86.0,
+      "p": 0.2,
+      "f": 8.7,
+      "c": 2.4,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 208.0,
+      "p": 0.1,
+      "f": 10.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "v5_8_corrected": {
+      "k": 49.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 10.7,
+      "fi": 2.4
+    },
+    "energy_diff_was_pct": 48.9,
+    "protein_clamped": false,
+    "raw_protein": 1.5
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 139.0,
+      "p": 0.1,
+      "f": 6.5,
+      "c": 1.7,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 33.2,
+      "p": 1.6,
+      "f": 0.1,
+      "c": 6.5,
+      "fi": 1.7
+    },
+    "energy_diff_was_pct": 52.7,
+    "protein_clamped": false,
+    "raw_protein": 1.58
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 284.0,
+      "p": 0.2,
+      "f": 13.9,
+      "c": 3.6,
+      "fi": 0.5
+    },
+    "v5_8_corrected": {
+      "k": 67.9,
+      "p": 2.6,
+      "f": 0.2,
+      "c": 13.9,
+      "fi": 3.6
+    },
+    "energy_diff_was_pct": 50.6,
+    "protein_clamped": false,
+    "raw_protein": 2.63
+  },
+  {
+    "id": 1268,
+    "en": "Pineapple, Joldugee, ripe, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.1% ≤ 30% threshold",
+    "values": {
+      "k": 81.0,
+      "p": 0.4,
+      "f": 8.3,
+      "c": 1.4,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1269,
+    "en": "Pineapple, ripe, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.8% ≤ 30% threshold",
+    "values": {
+      "k": 97.0,
+      "p": 0.1,
+      "f": 9.7,
+      "c": 1.4,
+      "fi": 0.6
+    }
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 283.0,
+      "p": 0.2,
+      "f": 12.7,
+      "c": 4.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 67.6,
+      "p": 3.7,
+      "f": 0.2,
+      "c": 12.7,
+      "fi": 4.0
+    },
+    "energy_diff_was_pct": 53.7,
+    "protein_clamped": false,
+    "raw_protein": 3.75
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 159.0,
+      "p": 0.3,
+      "f": 7.7,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 38.0,
+      "p": 1.1,
+      "f": 0.3,
+      "c": 7.7,
+      "fi": 1.0
+    },
+    "energy_diff_was_pct": 53.1,
+    "protein_clamped": false,
+    "raw_protein": 1.12
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 1140.0,
+      "p": 0.4,
+      "f": 60.8,
+      "c": 5.1,
+      "fi": 2.6
+    },
+    "v5_8_corrected": {
+      "k": 272.5,
+      "p": 6.4,
+      "f": 0.4,
+      "c": 60.8,
+      "fi": 5.1
+    },
+    "energy_diff_was_pct": 50.1,
+    "protein_clamped": false,
+    "raw_protein": 6.43
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 93.0,
+      "p": 0.2,
+      "f": 4.4,
+      "c": 0.4,
+      "fi": 0.3
+    },
+    "v5_8_corrected": {
+      "k": 22.2,
+      "p": 0.7,
+      "f": 0.2,
+      "c": 4.4,
+      "fi": 0.4
+    },
+    "energy_diff_was_pct": 54.8,
+    "protein_clamped": false,
+    "raw_protein": 0.7
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "cat": "fruit",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 469.0,
+      "p": 0.3,
+      "f": 20.9,
+      "c": 7.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 112.1,
+      "p": 6.5,
+      "f": 0.3,
+      "c": 20.9,
+      "fi": 7.0
+    },
+    "energy_diff_was_pct": 53.7,
+    "protein_clamped": false,
+    "raw_protein": 6.45
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 332.0,
+      "p": 72.0,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 11.9
+    }
+  },
+  {
+    "id": 1276,
+    "en": "Anchovy, Gangetic hairfin, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 105.0,
+      "p": 17.7,
+      "f": 3.8,
+      "c": 0.0,
+      "fi": 3.0
+    }
+  },
+  {
+    "id": 1278,
+    "en": "Anchovy, Scaly hairfin, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 102.0,
+      "p": 19.4,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.8
+    }
+  },
+  {
+    "id": 1280,
+    "en": "Barb, Olive, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 174.0,
+      "p": 17.2,
+      "f": 11.7,
+      "c": 0.0,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1282,
+    "en": "Bata, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 107.0,
+      "p": 16.2,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1283,
+    "en": "Boal, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 81.0,
+      "p": 15.5,
+      "f": 2.1,
+      "c": 0.0,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1284,
+    "en": "Bronze feather back, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 81.0,
+      "p": 18.0,
+      "f": 1.0,
+      "c": 0.0,
+      "fi": 2.7
+    }
+  },
+  {
+    "id": 1285,
+    "en": "Calbasu, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 96.0,
+      "p": 17.2,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.2
+    }
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 122.0,
+      "p": 16.1,
+      "f": 6.4,
+      "c": 0.0,
+      "fi": 2.2
+    }
+  },
+  {
+    "id": 1287,
+    "en": "Catfish, Pabda, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 95.0,
+      "p": 17.4,
+      "f": 2.8,
+      "c": 0.0,
+      "fi": 2.3
+    }
+  },
+  {
+    "id": 1288,
+    "en": "Catla, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 103.0,
+      "p": 19.9,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1291,
+    "en": "Common carp, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 89.0,
+      "p": 18.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 1.2
+    }
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 117.0,
+      "p": 15.3,
+      "f": 6.2,
+      "c": 0.0,
+      "fi": 2.0
+    }
+  },
+  {
+    "id": 1295,
+    "en": "Gangetic mystus, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 87.0,
+      "p": 15.7,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 2.4
+    }
+  },
+  {
+    "id": 1296,
+    "en": "Giant river-catfish, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 76.0,
+      "p": 16.1,
+      "f": 1.3,
+      "c": 0.0,
+      "fi": 1.2
+    }
+  },
+  {
+    "id": 1298,
+    "en": "Giant sea perch, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 97.0,
+      "p": 18.6,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 1.7
+    }
+  },
+  {
+    "id": 1299,
+    "en": "Goby, Tank goby, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 82.0,
+      "p": 14.9,
+      "f": 2.5,
+      "c": 0.0,
+      "fi": 2.7
+    }
+  },
+  {
+    "id": 1300,
+    "en": "Hilsha, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 221.0,
+      "p": 17.4,
+      "f": 16.8,
+      "c": 0.0,
+      "fi": 1.9
+    }
+  },
+  {
+    "id": 1301,
+    "en": "Indian river shad, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 106.0,
+      "p": 15.5,
+      "f": 4.9,
+      "c": 0.0,
+      "fi": 4.4
+    }
+  },
+  {
+    "id": 1304,
+    "en": "Minnow, Finescale razorbelly, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 95.0,
+      "p": 15.4,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 3.0
+    }
+  },
+  {
+    "id": 1306,
+    "en": "Minnow, Large scale razorbelly, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 120.0,
+      "p": 18.3,
+      "f": 5.2,
+      "c": 0.0,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1307,
+    "en": "Mrigal carp, eyes included, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 102.0,
+      "p": 18.8,
+      "f": 3.0,
+      "c": 0.0,
+      "fi": 1.6
+    }
+  },
+  {
+    "id": 1309,
+    "en": "Mussel/Clam, mixed species, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 61.0,
+      "p": 11.9,
+      "f": 1.5,
+      "c": 0.0,
+      "fi": 0.9
+    }
+  },
+  {
+    "id": 1310,
+    "en": "Pangas, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 162.0,
+      "p": 15.8,
+      "f": 11.0,
+      "c": 0.0,
+      "fi": 1.0
+    }
+  },
+  {
+    "id": 1311,
+    "en": "Pomfret, Black, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 113.0,
+      "p": 19.9,
+      "f": 3.7,
+      "c": 0.0,
+      "fi": 1.1
+    }
+  },
+  {
+    "id": 1312,
+    "en": "Pomfret, Chinese Silver, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 103.0,
+      "p": 15.8,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 1.5
+    }
+  },
+  {
+    "id": 1320,
+    "en": "Prawn, Monsoon river prawn, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 80.0,
+      "p": 18.4,
+      "f": 0.7,
+      "c": 0.0,
+      "fi": 1.3
+    }
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.8% ≤ 30% threshold",
+    "values": {
+      "k": 90.0,
+      "p": 16.6,
+      "f": 2.7,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1322,
+    "en": "Rohu, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.8% ≤ 30% threshold",
+    "values": {
+      "k": 105.0,
+      "p": 20.6,
+      "f": 2.6,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 82.0,
+      "p": 17.4,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 2.0
+    }
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 92.0,
+      "p": 17.6,
+      "f": 2.4,
+      "c": 0.0,
+      "fi": 4.0
+    }
+  },
+  {
+    "id": 1327,
+    "en": "Stinging catfish, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.7% ≤ 30% threshold",
+    "values": {
+      "k": 101.0,
+      "p": 17.2,
+      "f": 3.5,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.7% ≤ 30% threshold",
+    "values": {
+      "k": 97.0,
+      "p": 15.3,
+      "f": 3.9,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1329,
+    "en": "Striped snake-head, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.5% ≤ 30% threshold",
+    "values": {
+      "k": 101.0,
+      "p": 17.7,
+      "f": 3.3,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1330,
+    "en": "Tuna, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 118.0,
+      "p": 25.0,
+      "f": 2.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1331,
+    "en": "Walking catfish, without bones, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.8% ≤ 30% threshold",
+    "values": {
+      "k": 103.0,
+      "p": 15.6,
+      "f": 4.6,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "cat": "fish",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 449.0,
+      "p": 6.1,
+      "f": 5.3,
+      "c": 0.9,
+      "fi": 1.6
+    },
+    "v5_8_corrected": {
+      "k": 107.3,
+      "p": 7.8,
+      "f": 6.1,
+      "c": 5.3,
+      "fi": 0.9
+    },
+    "energy_diff_was_pct": 83.1,
+    "protein_clamped": false,
+    "raw_protein": 7.8
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "cat": "fish",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 923.0,
+      "p": 6.7,
+      "f": 21.7,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "v5_8_corrected": {
+      "k": 220.6,
+      "p": 18.4,
+      "f": 6.7,
+      "c": 21.7,
+      "fi": 5.0
+    },
+    "energy_diff_was_pct": 73.8,
+    "protein_clamped": false,
+    "raw_protein": 18.38
+  },
+  {
+    "id": 1334,
+    "en": "Beef liver, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 130.0,
+      "p": 20.4,
+      "f": 3.6,
+      "c": 3.9,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1335,
+    "en": "Beef, meat, lean, boneless, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.5% ≤ 30% threshold",
+    "values": {
+      "k": 103.0,
+      "p": 20.7,
+      "f": 2.3,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1336,
+    "en": "Beef, meat, 15-20% fat, boneless, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 207.0,
+      "p": 19.7,
+      "f": 14.2,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1337,
+    "en": "Beef, mince, lean, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 126.0,
+      "p": 20.3,
+      "f": 5.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1338,
+    "en": "Buffalo meat, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 95.0,
+      "p": 19.4,
+      "f": 1.9,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1339,
+    "en": "Chicken breast, without skin, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.6% ≤ 30% threshold",
+    "values": {
+      "k": 106.0,
+      "p": 22.3,
+      "f": 1.8,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1340,
+    "en": "Chicken leg, without skin, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 128.0,
+      "p": 19.2,
+      "f": 5.7,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1341,
+    "en": "Chicken liver, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.4% ≤ 30% threshold",
+    "values": {
+      "k": 114.0,
+      "p": 16.9,
+      "f": 4.8,
+      "c": 0.7,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1342,
+    "en": "Duck, meat, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 130.0,
+      "p": 21.6,
+      "f": 4.8,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1344,
+    "en": "Goat meat, lean, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 118.0,
+      "p": 21.4,
+      "f": 3.6,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1345,
+    "en": "Lamb/mutton, meat, moderately fat, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 196.0,
+      "p": 18.5,
+      "f": 13.5,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1346,
+    "en": "Lamb/Mutton, liver, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 150.0,
+      "p": 19.3,
+      "f": 7.5,
+      "c": 1.3,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1348,
+    "en": "Pork, meat, <5 % fat, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.4% ≤ 30% threshold",
+    "values": {
+      "k": 114.0,
+      "p": 18.7,
+      "f": 4.4,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1349,
+    "en": "Beef handi kabab",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.6% ≤ 30% threshold",
+    "values": {
+      "k": 233.0,
+      "p": 12.7,
+      "f": 16.9,
+      "c": 6.6,
+      "fi": 1.8
+    }
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 579.0,
+      "p": 9.0,
+      "f": 0.0,
+      "c": 0.8,
+      "fi": 21.0
+    },
+    "v5_8_corrected": {
+      "k": 138.4,
+      "p": 14.4,
+      "f": 9.0,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "energy_diff_was_pct": 93.2,
+    "protein_clamped": false,
+    "raw_protein": 14.35
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=9.1% ≤ 30% threshold",
+    "values": {
+      "k": 55.0,
+      "p": 11.6,
+      "f": 0.0,
+      "c": 0.9,
+      "fi": 11.0
+    }
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.7% ≤ 30% threshold",
+    "values": {
+      "k": 78.2,
+      "p": 14.3,
+      "f": 1.4,
+      "c": 0.0,
+      "fi": 1.1
+    }
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=17.3% ≤ 30% threshold",
+    "values": {
+      "k": 45.0,
+      "p": 13.2,
+      "f": 0.0,
+      "c": 0.0,
+      "fi": 1.0
+    }
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=10.9% ≤ 30% threshold",
+    "values": {
+      "k": 88.9,
+      "p": 16.2,
+      "f": 1.6,
+      "c": 0.0,
+      "fi": 1.2
+    }
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 137.0,
+      "p": 0.7,
+      "f": 3.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 32.7,
+      "p": 3.5,
+      "f": 0.7,
+      "c": 3.1,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 77.6,
+    "protein_clamped": false,
+    "raw_protein": 3.5
+  },
+  {
+    "id": 1358,
+    "en": "Cheese, cottage, 25% fat",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=3.5% ≤ 30% threshold",
+    "values": {
+      "k": 144.0,
+      "p": 25.1,
+      "f": 5.4,
+      "c": 0.0,
+      "fi": 4.6
+    }
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=23.5% ≤ 30% threshold",
+    "values": {
+      "k": 96.0,
+      "p": 4.0,
+      "f": 11.4,
+      "c": 0.0,
+      "fi": 0.8
+    }
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 421.0,
+      "p": 7.5,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "v5_8_corrected": {
+      "k": 100.6,
+      "p": 3.6,
+      "f": 7.5,
+      "c": 4.7,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 82.8,
+    "protein_clamped": false,
+    "raw_protein": 3.57
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=13.0% ≤ 30% threshold",
+    "values": {
+      "k": 520.0,
+      "p": 1.0,
+      "f": 49.8,
+      "c": 0.0,
+      "fi": 7.9
+    }
+  },
+  {
+    "id": 1362,
+    "en": "Milk, cow, powder, whole",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.6% ≤ 30% threshold",
+    "values": {
+      "k": 496.0,
+      "p": 26.3,
+      "f": 26.7,
+      "c": 38.4,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 125.0,
+      "p": 0.1,
+      "f": 4.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 29.9,
+      "p": 3.1,
+      "f": 0.1,
+      "c": 4.1,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 70.2,
+    "protein_clamped": false,
+    "raw_protein": 3.15
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=15.1% ≤ 30% threshold",
+    "values": {
+      "k": 63.0,
+      "p": 3.7,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.6
+    }
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 285.0,
+      "p": 4.1,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "v5_8_corrected": {
+      "k": 68.1,
+      "p": 3.5,
+      "f": 4.1,
+      "c": 4.3,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 80.7,
+    "protein_clamped": false,
+    "raw_protein": 3.5
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 242.0,
+      "p": 2.6,
+      "f": 6.6,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "v5_8_corrected": {
+      "k": 57.8,
+      "p": 2.0,
+      "f": 2.6,
+      "c": 6.6,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 71.2,
+    "protein_clamped": false,
+    "raw_protein": 2.0
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "cat": "dairy",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 260.0,
+      "p": 4.0,
+      "f": 7.2,
+      "c": 0.0,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 62.1,
+      "p": 0.0,
+      "f": 4.0,
+      "c": 7.2,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 68.9,
+    "protein_clamped": true,
+    "raw_protein": -0.68
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=2.4% ≤ 30% threshold",
+    "values": {
+      "k": 717.0,
+      "p": 0.9,
+      "f": 81.1,
+      "c": 0.1,
+      "fi": 2.1
+    }
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1370,
+    "en": "Fish oil, cod liver",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.2% ≤ 30% threshold",
+    "values": {
+      "k": 902.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1371,
+    "en": "Ghee, cow",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.4% ≤ 30% threshold",
+    "values": {
+      "k": 900.0,
+      "p": 0.3,
+      "f": 99.5,
+      "c": 0.0,
+      "fi": 0.1
+    }
+  },
+  {
+    "id": 1372,
+    "en": "Ghee, vegetable",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 900.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.0% ≤ 30% threshold",
+    "values": {
+      "k": 718.0,
+      "p": 0.2,
+      "f": 80.4,
+      "c": 0.2,
+      "fi": 2.3
+    }
+  },
+  {
+    "id": 1374,
+    "en": "Mayonnaise, salted",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 680.0,
+      "p": 1.1,
+      "f": 74.9,
+      "c": 0.6,
+      "fi": 1.5
+    }
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1379,
+    "en": "Soybean oil",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=1.8% ≤ 30% threshold",
+    "values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=7.3% ≤ 30% threshold",
+    "values": {
+      "k": 60.0,
+      "p": 0.8,
+      "f": 6.8,
+      "c": 0.0,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 330.0,
+      "p": 0.5,
+      "f": 75.4,
+      "c": 0.0,
+      "fi": 8.8
+    },
+    "v5_8_corrected": {
+      "k": 78.9,
+      "p": 0.0,
+      "f": 0.5,
+      "c": 75.4,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 106.2,
+    "protein_clamped": true,
+    "raw_protein": -56.8
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=23.6% ≤ 30% threshold",
+    "values": {
+      "k": 75.0,
+      "p": 0.0,
+      "f": 10.3,
+      "c": 0.0,
+      "fi": 0.1
+    }
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 225.0,
+      "p": 2.4,
+      "f": 4.9,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "v5_8_corrected": {
+      "k": 53.8,
+      "p": 3.1,
+      "f": 2.4,
+      "c": 4.9,
+      "fi": 0.5
+    },
+    "energy_diff_was_pct": 75.2,
+    "protein_clamped": false,
+    "raw_protein": 3.15
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 139.0,
+      "p": 0.0,
+      "f": 7.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "v5_8_corrected": {
+      "k": 33.2,
+      "p": 0.8,
+      "f": 0.0,
+      "c": 7.5,
+      "fi": 0.0
+    },
+    "energy_diff_was_pct": 51.4,
+    "protein_clamped": false,
+    "raw_protein": 0.8
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.6% ≤ 30% threshold",
+    "values": {
+      "k": 72.0,
+      "p": 0.8,
+      "f": 7.6,
+      "c": 0.2,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 125.0,
+      "p": 0.0,
+      "f": 7.1,
+      "c": 0.1,
+      "fi": 0.2
+    },
+    "v5_8_corrected": {
+      "k": 29.9,
+      "p": 0.4,
+      "f": 0.0,
+      "c": 7.1,
+      "fi": 0.1
+    },
+    "energy_diff_was_pct": 48.6,
+    "protein_clamped": false,
+    "raw_protein": 0.38
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "action": "column_shift_fixed",
+    "v5_6_original": {
+      "k": 350.0,
+      "p": 0.0,
+      "f": 49.5,
+      "c": 8.5,
+      "fi": 16.0
+    },
+    "v5_8_corrected": {
+      "k": 83.7,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 49.5,
+      "fi": 8.5
+    },
+    "energy_diff_was_pct": 37.0,
+    "protein_clamped": true,
+    "raw_protein": -28.57
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 172.0,
+      "p": 5.2,
+      "f": 0.0,
+      "c": 37.8,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=22.9% ≤ 30% threshold",
+    "values": {
+      "k": 42.0,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 4.1,
+      "fi": 4.7
+    }
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 326.0,
+      "p": 0.3,
+      "f": 0.0,
+      "c": 81.1,
+      "fi": 0.2
+    }
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 385.0,
+      "p": 0.5,
+      "f": 0.1,
+      "c": 95.4,
+      "fi": 0.0
+    }
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.1% ≤ 30% threshold",
+    "values": {
+      "k": 352.0,
+      "p": 1.5,
+      "f": 0.3,
+      "c": 85.7,
+      "fi": 0.3
+    }
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.3% ≤ 30% threshold",
+    "values": {
+      "k": 86.0,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 20.9,
+      "fi": 0.1
+    }
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "action": "kept_unchanged",
+    "reason": "energy_diff=0.0% ≤ 30% threshold",
+    "values": {
+      "k": 398.0,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 99.5,
+      "fi": 0.0
+    }
+  }
+]

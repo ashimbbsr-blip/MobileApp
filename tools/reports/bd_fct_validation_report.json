@@ -1,0 +1,5945 @@
+[
+  {
+    "id": 1068,
+    "en": "Barley, whole-grain, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 324.0,
+      "p": 10.9,
+      "f": 2.2,
+      "c": 56.4
+    },
+    "energy_diff_pct": 10.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1069,
+    "en": "Bread, bun/roll",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 270.0,
+      "p": 8.8,
+      "f": 2.8,
+      "c": 50.9
+    },
+    "energy_diff_pct": 2.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1070,
+    "en": "Bread, white, for toasting",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 272.0,
+      "p": 8.0,
+      "f": 1.4,
+      "c": 55.6
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1071,
+    "en": "Maize/corn flour, whole, white",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 355.0,
+      "p": 6.9,
+      "f": 3.9,
+      "c": 69.6
+    },
+    "energy_diff_pct": 3.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1072,
+    "en": "Maize/corn, yellow, dried, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 344.0,
+      "p": 9.9,
+      "f": 3.4,
+      "c": 64.7
+    },
+    "energy_diff_pct": 4.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1073,
+    "en": "Millet, Foxtail, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 344.0,
+      "p": 10.4,
+      "f": 4.3,
+      "c": 61.7
+    },
+    "energy_diff_pct": 4.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1074,
+    "en": "Millet, Proso, whole-grain, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 341.0,
+      "p": 11.2,
+      "f": 4.2,
+      "c": 60.3
+    },
+    "energy_diff_pct": 5.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1075,
+    "en": "Pear millet, whole-grain, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 349.0,
+      "p": 10.1,
+      "f": 5.0,
+      "c": 61.4
+    },
+    "energy_diff_pct": 5.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1076,
+    "en": "Popcorn, maize (salt added)",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 328.0,
+      "p": 10.0,
+      "f": 3.1,
+      "c": 58.6
+    },
+    "energy_diff_pct": 7.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1077,
+    "en": "Rice flakes, white grain, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 356.0,
+      "p": 6.5,
+      "f": 1.1,
+      "c": 79.2
+    },
+    "energy_diff_pct": 0.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1079,
+    "en": "Rice, BR-28, parboiled, milled, raw",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 344.0,
+      "p": 6.5,
+      "f": 0.4,
+      "c": 76.8
+    },
+    "energy_diff_pct": 2.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 396.7,
+      "p": 23.5,
+      "f": 20.9,
+      "c": 28.6
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 387.2,
+      "p": 9.6,
+      "f": 0.1,
+      "c": 87.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 368.1,
+      "p": 9.1,
+      "f": 0.1,
+      "c": 82.7
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 351.3,
+      "p": 14.1,
+      "f": 1.4,
+      "c": 70.6
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 353.7,
+      "p": 14.1,
+      "f": 3.3,
+      "c": 66.9
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 148.4,
+      "p": 5.3,
+      "f": 1.4,
+      "c": 28.7
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 351.3,
+      "p": 11.6,
+      "f": 0.6,
+      "c": 74.9
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 351.3,
+      "p": 13.9,
+      "f": 1.6,
+      "c": 70.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 346.6,
+      "p": 18.1,
+      "f": 2.9,
+      "c": 62.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1091,
+    "en": "Biscuit, sweet",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 344.0,
+      "p": 5.8,
+      "f": 10.0,
+      "c": 56.7
+    },
+    "energy_diff_pct": 1.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1092,
+    "en": "Plain Khichuri* Khichuri",
+    "cat": "grain",
+    "action": "kept",
+    "new_values": {
+      "k": 163.0,
+      "p": 5.1,
+      "f": 7.4,
+      "c": 17.7
+    },
+    "energy_diff_pct": 3.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 110.9,
+      "p": 3.2,
+      "f": 0.1,
+      "c": 24.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 248.6,
+      "p": 9.7,
+      "f": 1.2,
+      "c": 49.7
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "cat": "grain",
+    "action": "fixed",
+    "new_values": {
+      "k": 153.0,
+      "p": 5.0,
+      "f": 0.3,
+      "c": 32.6
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1099,
+    "en": "Black gram, dehulled, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 317.0,
+      "p": 22.3,
+      "f": 1.7,
+      "c": 45.1
+    },
+    "energy_diff_pct": 10.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1100,
+    "en": "Black gram, split, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 350.0,
+      "p": 22.6,
+      "f": 1.2,
+      "c": 61.8
+    },
+    "energy_diff_pct": 0.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1101,
+    "en": "Green gram, split, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 351.0,
+      "p": 23.7,
+      "f": 1.2,
+      "c": 60.9
+    },
+    "energy_diff_pct": 0.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1102,
+    "en": "Green gram, whole, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 318.0,
+      "p": 23.7,
+      "f": 1.3,
+      "c": 44.8
+    },
+    "energy_diff_pct": 10.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1103,
+    "en": "Grass pea, split, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 352.0,
+      "p": 28.4,
+      "f": 0.9,
+      "c": 56.5
+    },
+    "energy_diff_pct": 1.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1104,
+    "en": "Lentil, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 317.0,
+      "p": 27.7,
+      "f": 0.8,
+      "c": 43.2
+    },
+    "energy_diff_pct": 8.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1105,
+    "en": "Pea, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 327.0,
+      "p": 22.1,
+      "f": 2.1,
+      "c": 48.3
+    },
+    "energy_diff_pct": 8.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1106,
+    "en": "Red gram, split, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 347.0,
+      "p": 22.3,
+      "f": 1.5,
+      "c": 60.4
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1107,
+    "en": "Soybean, dried, raw",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 424.0,
+      "p": 32.9,
+      "f": 19.9,
+      "c": 23.6
+    },
+    "energy_diff_pct": 4.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1110,
+    "en": "Lentil, boiled* (without salt)",
+    "cat": "legume",
+    "action": "kept",
+    "new_values": {
+      "k": 155.0,
+      "p": 13.6,
+      "f": 0.4,
+      "c": 21.2
+    },
+    "energy_diff_pct": 7.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 21.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 3.7
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 54.5,
+      "p": 5.1,
+      "f": 0.1,
+      "c": 8.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 29.2,
+      "p": 4.6,
+      "f": 0.1,
+      "c": 2.5
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 94.0,
+      "p": 0.1,
+      "f": 7.9,
+      "c": 2.8
+    },
+    "energy_diff_pct": 12.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 23.9,
+      "p": 3.7,
+      "f": 0.1,
+      "c": 2.0
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 50.0,
+      "p": 6.7,
+      "f": 0.6,
+      "c": 4.5
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 24.1,
+      "p": 2.8,
+      "f": 0.3,
+      "c": 2.6
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 35.1,
+      "p": 2.1,
+      "f": 0.3,
+      "c": 6.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 27.0,
+      "p": 3.6,
+      "f": 0.3,
+      "c": 2.5
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 45.2,
+      "p": 5.2,
+      "f": 0.1,
+      "c": 5.9
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 60.0,
+      "p": 0.4,
+      "f": 2.8,
+      "c": 6.0
+    },
+    "energy_diff_pct": 15.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 17.2,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 2.9
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 43.3,
+      "p": 5.3,
+      "f": 0.2,
+      "c": 5.1
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 148.9,
+      "p": 8.3,
+      "f": 0.6,
+      "c": 27.6
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 9.8,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 1.0
+    },
+    "energy_diff_pct": 1.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 30.8,
+      "p": 3.4,
+      "f": 0.3,
+      "c": 3.6
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 33.9,
+      "p": 1.4,
+      "f": 0.1,
+      "c": 6.8
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 24.4,
+      "p": 3.2,
+      "f": 0.3,
+      "c": 2.2
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 28.9,
+      "p": 1.7,
+      "f": 0.4,
+      "c": 4.6
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 24.6,
+      "p": 1.0,
+      "f": 0.3,
+      "c": 4.5
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 24.4,
+      "p": 1.3,
+      "f": 0.2,
+      "c": 4.3
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.5,
+      "c": 11.8
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1133,
+    "en": "Okra/ladies finger, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 64.0,
+      "p": 0.2,
+      "f": 5.7,
+      "c": 3.1
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 59.5,
+      "p": 2.5,
+      "f": 0.1,
+      "c": 12.2
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1135,
+    "en": "Papaya, unripe, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 30.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 5.7
+    },
+    "energy_diff_pct": 10.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1136,
+    "en": "Peas, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 91.0,
+      "p": 7.0,
+      "f": 0.4,
+      "c": 12.5
+    },
+    "energy_diff_pct": 10.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1137,
+    "en": "Plantain, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 77.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 15.5
+    },
+    "energy_diff_pct": 5.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 18.0,
+      "p": 1.4,
+      "f": 0.3,
+      "c": 1.3
+    },
+    "energy_diff_pct": 25.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1139,
+    "en": "Radish, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 18.0,
+      "p": 0.9,
+      "f": 0.1,
+      "c": 2.5
+    },
+    "energy_diff_pct": 19.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1140,
+    "en": "Tomato, green, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 23.0,
+      "p": 1.9,
+      "f": 0.2,
+      "c": 2.5
+    },
+    "energy_diff_pct": 15.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 16.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 1.4
+    },
+    "energy_diff_pct": 26.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1142,
+    "en": "Turnip, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 26.0,
+      "p": 1.1,
+      "f": 0.2,
+      "c": 4.1
+    },
+    "energy_diff_pct": 13.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 27.5,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 2.9
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 81.0,
+      "p": 0.3,
+      "f": 7.3,
+      "c": 3.1
+    },
+    "energy_diff_pct": 2.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 28.4,
+      "p": 3.7,
+      "f": 0.3,
+      "c": 2.7
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 39.9,
+      "p": 6.1,
+      "f": 0.4,
+      "c": 3.0
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 27.7,
+      "p": 3.5,
+      "f": 0.4,
+      "c": 2.5
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 70.3,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 13.4
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1151,
+    "en": "Papaya, unripe, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 32.0,
+      "p": 0.8,
+      "f": 0.1,
+      "c": 6.1
+    },
+    "energy_diff_pct": 10.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 29.0,
+      "p": 2.2,
+      "f": 0.5,
+      "c": 2.1
+    },
+    "energy_diff_pct": 25.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1153,
+    "en": "Radish, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 24.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 3.3
+    },
+    "energy_diff_pct": 21.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 125.7,
+      "p": 5.8,
+      "f": 7.4,
+      "c": 9.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 129.1,
+      "p": 4.7,
+      "f": 9.1,
+      "c": 7.1
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 88.0,
+      "p": 8.4,
+      "f": 1.8,
+      "c": 5.7
+    },
+    "energy_diff_pct": 17.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 57.0,
+      "p": 4.9,
+      "f": 1.2,
+      "c": 6.6
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1158,
+    "en": "Amaranth, leaves, spiney, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 51.0,
+      "p": 4.8,
+      "f": 0.3,
+      "c": 5.2
+    },
+    "energy_diff_pct": 16.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1159,
+    "en": "Amaranth, leaves, red, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 32.0,
+      "p": 4.5,
+      "f": 0.3,
+      "c": 0.5
+    },
+    "energy_diff_pct": 29.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 6.0,
+      "p": 0.0,
+      "f": 2.0,
+      "c": 0.3
+    },
+    "energy_diff_pct": 220.0,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1161,
+    "en": "Dock leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 46.0,
+      "p": 3.1,
+      "f": 0.7,
+      "c": 5.9
+    },
+    "energy_diff_pct": 8.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1162,
+    "en": "Beet greens leaves",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 31.0,
+      "p": 2.8,
+      "f": 0.5,
+      "c": 2.1
+    },
+    "energy_diff_pct": 22.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1163,
+    "en": "Bengal dayflower, leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 22.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 2.2
+    },
+    "energy_diff_pct": 11.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1164,
+    "en": "Bitter gourd leaves, green, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 55.0,
+      "p": 4.9,
+      "f": 0.5,
+      "c": 6.1
+    },
+    "energy_diff_pct": 11.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 6.2,
+      "p": 0.0,
+      "f": 2.5,
+      "c": 0.6
+    },
+    "energy_diff_pct": 301.6,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1166,
+    "en": "Bugleweed, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 43.0,
+      "p": 2.6,
+      "f": 1.3,
+      "c": 4.6
+    },
+    "energy_diff_pct": 5.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1167,
+    "en": "Cassava, leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 62.0,
+      "p": 4.7,
+      "f": 1.2,
+      "c": 5.7
+    },
+    "energy_diff_pct": 15.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1168,
+    "en": "Colocasia leaves, black, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 62.0,
+      "p": 5.6,
+      "f": 1.2,
+      "c": 5.3
+    },
+    "energy_diff_pct": 12.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1169,
+    "en": "Colocasia leaves, green, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 51.0,
+      "p": 4.0,
+      "f": 1.1,
+      "c": 4.4
+    },
+    "energy_diff_pct": 14.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 33.0,
+      "p": 1.7,
+      "f": 1.0,
+      "c": 3.6
+    },
+    "energy_diff_pct": 8.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1171,
+    "en": "Drumstick, leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 72.0,
+      "p": 6.7,
+      "f": 1.8,
+      "c": 4.6
+    },
+    "energy_diff_pct": 14.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 68.0,
+      "p": 1.3,
+      "f": 0.6,
+      "c": 13.7
+    },
+    "energy_diff_pct": 3.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1173,
+    "en": "Fenugreek, leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 50.0,
+      "p": 4.4,
+      "f": 0.9,
+      "c": 5.0
+    },
+    "energy_diff_pct": 8.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1174,
+    "en": "Indian spinach, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 25.0,
+      "p": 2.4,
+      "f": 0.3,
+      "c": 2.1
+    },
+    "energy_diff_pct": 17.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 7.6,
+      "p": 0.0,
+      "f": 2.9,
+      "c": 0.3
+    },
+    "energy_diff_pct": 259.2,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1176,
+    "en": "Pumpkin leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 29.0,
+      "p": 2.4,
+      "f": 0.4,
+      "c": 2.8
+    },
+    "energy_diff_pct": 15.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1177,
+    "en": "Radish leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 32.0,
+      "p": 1.8,
+      "f": 0.7,
+      "c": 3.4
+    },
+    "energy_diff_pct": 15.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1178,
+    "en": "Slender amaranth leaves, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 47.0,
+      "p": 4.1,
+      "f": 0.5,
+      "c": 4.3
+    },
+    "energy_diff_pct": 18.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 26.0,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 0.9
+    },
+    "energy_diff_pct": 22.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 10.8,
+      "p": 0.0,
+      "f": 4.0,
+      "c": 0.8
+    },
+    "energy_diff_pct": 263.0,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 10.8,
+      "p": 0.0,
+      "f": 3.9,
+      "c": 0.4
+    },
+    "energy_diff_pct": 239.8,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 12.0,
+      "p": 0.0,
+      "f": 3.6,
+      "c": 0.4
+    },
+    "energy_diff_pct": 183.3,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 43.0,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 6.0
+    },
+    "energy_diff_pct": 18.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 49.0,
+      "p": 2.0,
+      "f": 0.5,
+      "c": 8.8
+    },
+    "energy_diff_pct": 2.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1188,
+    "en": "Spinach, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 47.0,
+      "p": 5.4,
+      "f": 0.9,
+      "c": 1.6
+    },
+    "energy_diff_pct": 23.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1190,
+    "en": "Colocasia/Taro, corm, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 103.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 21.0
+    },
+    "energy_diff_pct": 8.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1191,
+    "en": "Colocasia/Taro/Tannia, cormel, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 101.0,
+      "p": 2.2,
+      "f": 0.2,
+      "c": 20.6
+    },
+    "energy_diff_pct": 7.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1192,
+    "en": "Elephant foot, corm, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 74.0,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 15.1
+    },
+    "energy_diff_pct": 10.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1193,
+    "en": "Giant taro, corm, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 82.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 16.6
+    },
+    "energy_diff_pct": 9.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1194,
+    "en": "Potato, Diamond, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 66.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.0
+    },
+    "energy_diff_pct": 5.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 98.0,
+      "p": 0.6,
+      "f": 0.3,
+      "c": 21.8
+    },
+    "energy_diff_pct": 5.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 97.0,
+      "p": 1.5,
+      "f": 0.2,
+      "c": 20.3
+    },
+    "energy_diff_pct": 8.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1197,
+    "en": "Colocasia/Taro, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 115.0,
+      "p": 2.5,
+      "f": 0.2,
+      "c": 23.6
+    },
+    "energy_diff_pct": 7.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 67.0,
+      "p": 1.2,
+      "f": 0.2,
+      "c": 14.2
+    },
+    "energy_diff_pct": 5.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1201,
+    "en": "Giant taro, corm, boiled* (without salt)",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 92.0,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 18.6
+    },
+    "energy_diff_pct": 10.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 109.0,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 22.8
+    },
+    "energy_diff_pct": 8.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1203,
+    "en": "Potato Mash",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 84.0,
+      "p": 1.4,
+      "f": 0.8,
+      "c": 16.6
+    },
+    "energy_diff_pct": 5.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1204,
+    "en": "Sunflower seeds, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 584.0,
+      "p": 20.8,
+      "f": 51.5,
+      "c": 20.0
+    },
+    "energy_diff_pct": 7.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1205,
+    "en": "Cashew nuts, raw",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 553.0,
+      "p": 18.2,
+      "f": 43.9,
+      "c": 30.2
+    },
+    "energy_diff_pct": 6.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1206,
+    "en": "Chilgoza pine, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 673.0,
+      "p": 13.7,
+      "f": 68.4,
+      "c": 13.1
+    },
+    "energy_diff_pct": 7.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1207,
+    "en": "Coconut milk",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 197.0,
+      "p": 2.3,
+      "f": 21.3,
+      "c": 2.8
+    },
+    "energy_diff_pct": 7.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1208,
+    "en": "Coconut, desiccated",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 650.0,
+      "p": 6.9,
+      "f": 65.0,
+      "c": 25.0
+    },
+    "energy_diff_pct": 9.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1209,
+    "en": "Coconut, mature kernel",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 354.0,
+      "p": 3.3,
+      "f": 33.5,
+      "c": 15.2
+    },
+    "energy_diff_pct": 6.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1210,
+    "en": "Groundnuts/Peanut, raw",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 567.0,
+      "p": 25.8,
+      "f": 49.2,
+      "c": 16.1
+    },
+    "energy_diff_pct": 7.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1211,
+    "en": "Linseed, raw",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 534.0,
+      "p": 18.3,
+      "f": 42.2,
+      "c": 28.9
+    },
+    "energy_diff_pct": 6.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1212,
+    "en": "Lotus seeds, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 332.0,
+      "p": 15.4,
+      "f": 2.0,
+      "c": 63.4
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1213,
+    "en": "Lotus seeds, green",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 89.0,
+      "p": 4.3,
+      "f": 0.6,
+      "c": 17.3
+    },
+    "energy_diff_pct": 3.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1214,
+    "en": "Mustard seeds, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 508.0,
+      "p": 26.1,
+      "f": 36.2,
+      "c": 28.1
+    },
+    "energy_diff_pct": 6.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1215,
+    "en": "Pistachio nuts, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 562.0,
+      "p": 20.2,
+      "f": 45.3,
+      "c": 27.2
+    },
+    "energy_diff_pct": 6.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1216,
+    "en": "Pumpkin seeds, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 559.0,
+      "p": 30.2,
+      "f": 49.1,
+      "c": 10.7
+    },
+    "energy_diff_pct": 8.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1217,
+    "en": "Sesame seeds, whole, dried",
+    "cat": "snack",
+    "action": "kept",
+    "new_values": {
+      "k": 573.0,
+      "p": 17.7,
+      "f": 49.7,
+      "c": 23.5
+    },
+    "energy_diff_pct": 6.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1219,
+    "en": "Bay leaf, dried",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 353.0,
+      "p": 7.6,
+      "f": 8.4,
+      "c": 48.7
+    },
+    "energy_diff_pct": 14.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1220,
+    "en": "Cardamom",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 261.0,
+      "p": 10.2,
+      "f": 2.2,
+      "c": 37.8
+    },
+    "energy_diff_pct": 18.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1221,
+    "en": "Chilli, red, dry",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 313.0,
+      "p": 15.9,
+      "f": 6.2,
+      "c": 35.2
+    },
+    "energy_diff_pct": 16.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 58.1,
+      "p": 4.3,
+      "f": 4.0,
+      "c": 1.2
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1223,
+    "en": "Cloves, dried",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 267.0,
+      "p": 5.2,
+      "f": 8.9,
+      "c": 27.4
+    },
+    "energy_diff_pct": 21.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1224,
+    "en": "Coriander seed, dry",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 336.0,
+      "p": 14.1,
+      "f": 16.1,
+      "c": 13.4
+    },
+    "energy_diff_pct": 24.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1225,
+    "en": "Cumin seeds",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 402.0,
+      "p": 18.3,
+      "f": 17.6,
+      "c": 37.2
+    },
+    "energy_diff_pct": 5.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1226,
+    "en": "Fennel seeds",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 329.0,
+      "p": 15.8,
+      "f": 14.9,
+      "c": 13.0
+    },
+    "energy_diff_pct": 24.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1227,
+    "en": "Fenugreek seeds",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 330.0,
+      "p": 21.8,
+      "f": 6.9,
+      "c": 32.8
+    },
+    "energy_diff_pct": 15.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1228,
+    "en": "Ginger root, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 72.0,
+      "p": 1.9,
+      "f": 0.8,
+      "c": 13.3
+    },
+    "energy_diff_pct": 5.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 8.8,
+      "p": 0.0,
+      "f": 2.3,
+      "c": 0.5
+    },
+    "energy_diff_pct": 158.0,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1230,
+    "en": "Lemon grass, raw",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 116.0,
+      "p": 1.4,
+      "f": 0.9,
+      "c": 25.5
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 15.5,
+      "p": 0.0,
+      "f": 1.6,
+      "c": 0.4
+    },
+    "energy_diff_pct": 3.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1232,
+    "en": "Mace, ground",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 415.0,
+      "p": 6.5,
+      "f": 24.4,
+      "c": 33.1
+    },
+    "energy_diff_pct": 8.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 473.2,
+      "p": 15.3,
+      "f": 36.4,
+      "c": 21.1
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "cat": "vegetable",
+    "action": "kept",
+    "new_values": {
+      "k": 525.0,
+      "p": 18.0,
+      "f": 41.6,
+      "c": 28.1
+    },
+    "energy_diff_pct": 6.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "action": "fixed",
+    "new_values": {
+      "k": 334.6,
+      "p": 17.5,
+      "f": 8.4,
+      "c": 47.3
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 51.4,
+      "p": 1.1,
+      "f": 0.1,
+      "c": 11.5
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 62.6,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 13.5
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.3,
+      "c": 12.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 95.6,
+      "p": 2.9,
+      "f": 0.8,
+      "c": 19.2
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 70.0,
+      "p": 4.0,
+      "f": 0.2,
+      "c": 13.0
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 81.3,
+      "p": 4.2,
+      "f": 0.2,
+      "c": 15.7
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1242,
+    "en": "Carambola, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 72.0,
+      "p": 0.7,
+      "f": 6.7,
+      "c": 2.8
+    },
+    "energy_diff_pct": 3.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 85.3,
+      "p": 4.0,
+      "f": 0.3,
+      "c": 16.6
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 303.5,
+      "p": 7.0,
+      "f": 0.6,
+      "c": 67.5
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 152.0,
+      "p": 3.7,
+      "f": 0.4,
+      "c": 33.4
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 64.8,
+      "p": 5.0,
+      "f": 0.4,
+      "c": 10.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1247,
+    "en": "Emblic, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 86.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 3.4
+    },
+    "energy_diff_pct": 3.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1248,
+    "en": "Fig, ripe, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 68.0,
+      "p": 0.2,
+      "f": 6.7,
+      "c": 3.1
+    },
+    "energy_diff_pct": 8.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 95.1,
+      "p": 2.2,
+      "f": 0.6,
+      "c": 20.2
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 63.3,
+      "p": 3.8,
+      "f": 0.5,
+      "c": 10.9
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 50.9,
+      "p": 2.0,
+      "f": 0.8,
+      "c": 8.9
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 74.6,
+      "p": 4.9,
+      "f": 0.2,
+      "c": 13.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 64.0,
+      "p": 0.5,
+      "f": 6.1,
+      "c": 3.5
+    },
+    "energy_diff_pct": 10.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1254,
+    "en": "Jambos, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 69.0,
+      "p": 0.3,
+      "f": 8.0,
+      "c": 1.2
+    },
+    "energy_diff_pct": 13.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 35.6,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 6.9
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 60.7,
+      "p": 2.1,
+      "f": 0.2,
+      "c": 12.6
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 55.9,
+      "p": 1.5,
+      "f": 1.0,
+      "c": 10.2
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1258,
+    "en": "Lime, sweet, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 77.0,
+      "p": 0.5,
+      "f": 8.5,
+      "c": 0.5
+    },
+    "energy_diff_pct": 4.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 83.2,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 18.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 17.4,
+      "p": 0.8,
+      "f": 0.2,
+      "c": 3.1
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 9.1,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 1.7
+    },
+    "energy_diff_pct": 2.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1262,
+    "en": "Orange, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 86.0,
+      "p": 0.2,
+      "f": 8.7,
+      "c": 2.4
+    },
+    "energy_diff_pct": 3.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 49.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 10.7
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 33.2,
+      "p": 1.6,
+      "f": 0.1,
+      "c": 6.5
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 67.9,
+      "p": 2.6,
+      "f": 0.2,
+      "c": 13.9
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1268,
+    "en": "Pineapple, Joldugee, ripe, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 81.0,
+      "p": 0.4,
+      "f": 8.3,
+      "c": 1.4
+    },
+    "energy_diff_pct": 1.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1269,
+    "en": "Pineapple, ripe, raw",
+    "cat": "fruit",
+    "action": "kept",
+    "new_values": {
+      "k": 97.0,
+      "p": 0.1,
+      "f": 9.7,
+      "c": 1.4
+    },
+    "energy_diff_pct": 3.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 67.6,
+      "p": 3.7,
+      "f": 0.2,
+      "c": 12.7
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 38.0,
+      "p": 1.1,
+      "f": 0.3,
+      "c": 7.7
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 272.5,
+      "p": 6.4,
+      "f": 0.4,
+      "c": 60.8
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 22.2,
+      "p": 0.7,
+      "f": 0.2,
+      "c": 4.4
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "cat": "fruit",
+    "action": "fixed",
+    "new_values": {
+      "k": 112.1,
+      "p": 6.5,
+      "f": 0.3,
+      "c": 20.9
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 332.0,
+      "p": 72.0,
+      "f": 4.9,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1276,
+    "en": "Anchovy, Gangetic hairfin, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 105.0,
+      "p": 17.7,
+      "f": 3.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1278,
+    "en": "Anchovy, Scaly hairfin, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 102.0,
+      "p": 19.4,
+      "f": 2.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1280,
+    "en": "Barb, Olive, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 174.0,
+      "p": 17.2,
+      "f": 11.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1282,
+    "en": "Bata, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 107.0,
+      "p": 16.2,
+      "f": 4.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1283,
+    "en": "Boal, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 81.0,
+      "p": 15.5,
+      "f": 2.1,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1284,
+    "en": "Bronze feather back, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 81.0,
+      "p": 18.0,
+      "f": 1.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1285,
+    "en": "Calbasu, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 96.0,
+      "p": 17.2,
+      "f": 3.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 122.0,
+      "p": 16.1,
+      "f": 6.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1287,
+    "en": "Catfish, Pabda, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 95.0,
+      "p": 17.4,
+      "f": 2.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1288,
+    "en": "Catla, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 103.0,
+      "p": 19.9,
+      "f": 2.6,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1291,
+    "en": "Common carp, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 89.0,
+      "p": 18.9,
+      "f": 1.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 117.0,
+      "p": 15.3,
+      "f": 6.2,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1295,
+    "en": "Gangetic mystus, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 87.0,
+      "p": 15.7,
+      "f": 2.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1296,
+    "en": "Giant river-catfish, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 76.0,
+      "p": 16.1,
+      "f": 1.3,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1298,
+    "en": "Giant sea perch, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 97.0,
+      "p": 18.6,
+      "f": 2.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1299,
+    "en": "Goby, Tank goby, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 82.0,
+      "p": 14.9,
+      "f": 2.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1300,
+    "en": "Hilsha, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 221.0,
+      "p": 17.4,
+      "f": 16.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1301,
+    "en": "Indian river shad, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 106.0,
+      "p": 15.5,
+      "f": 4.9,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1304,
+    "en": "Minnow, Finescale razorbelly, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 95.0,
+      "p": 15.4,
+      "f": 3.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1306,
+    "en": "Minnow, Large scale razorbelly, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 120.0,
+      "p": 18.3,
+      "f": 5.2,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1307,
+    "en": "Mrigal carp, eyes included, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 102.0,
+      "p": 18.8,
+      "f": 3.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1309,
+    "en": "Mussel/Clam, mixed species, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 61.0,
+      "p": 11.9,
+      "f": 1.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1310,
+    "en": "Pangas, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 162.0,
+      "p": 15.8,
+      "f": 11.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1311,
+    "en": "Pomfret, Black, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 113.0,
+      "p": 19.9,
+      "f": 3.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1312,
+    "en": "Pomfret, Chinese Silver, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 103.0,
+      "p": 15.8,
+      "f": 4.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1320,
+    "en": "Prawn, Monsoon river prawn, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 80.0,
+      "p": 18.4,
+      "f": 0.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 90.0,
+      "p": 16.6,
+      "f": 2.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1322,
+    "en": "Rohu, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 105.0,
+      "p": 20.6,
+      "f": 2.6,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 82.0,
+      "p": 17.4,
+      "f": 1.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 92.0,
+      "p": 17.6,
+      "f": 2.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1327,
+    "en": "Stinging catfish, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 101.0,
+      "p": 17.2,
+      "f": 3.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 97.0,
+      "p": 15.3,
+      "f": 3.9,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1329,
+    "en": "Striped snake-head, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 101.0,
+      "p": 17.7,
+      "f": 3.3,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1330,
+    "en": "Tuna, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 118.0,
+      "p": 25.0,
+      "f": 2.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1331,
+    "en": "Walking catfish, without bones, raw",
+    "cat": "fish",
+    "action": "kept",
+    "new_values": {
+      "k": 103.0,
+      "p": 15.6,
+      "f": 4.6,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "cat": "fish",
+    "action": "fixed",
+    "new_values": {
+      "k": 107.3,
+      "p": 7.8,
+      "f": 6.1,
+      "c": 5.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "cat": "fish",
+    "action": "fixed",
+    "new_values": {
+      "k": 220.6,
+      "p": 18.4,
+      "f": 6.7,
+      "c": 21.7
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1334,
+    "en": "Beef liver, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 130.0,
+      "p": 20.4,
+      "f": 3.6,
+      "c": 3.9
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1335,
+    "en": "Beef, meat, lean, boneless, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 103.0,
+      "p": 20.7,
+      "f": 2.3,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1336,
+    "en": "Beef, meat, 15-20% fat, boneless, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 207.0,
+      "p": 19.7,
+      "f": 14.2,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1337,
+    "en": "Beef, mince, lean, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 126.0,
+      "p": 20.3,
+      "f": 5.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1338,
+    "en": "Buffalo meat, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 95.0,
+      "p": 19.4,
+      "f": 1.9,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1339,
+    "en": "Chicken breast, without skin, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 106.0,
+      "p": 22.3,
+      "f": 1.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1340,
+    "en": "Chicken leg, without skin, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 128.0,
+      "p": 19.2,
+      "f": 5.7,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1341,
+    "en": "Chicken liver, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 114.0,
+      "p": 16.9,
+      "f": 4.8,
+      "c": 0.7
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1342,
+    "en": "Duck, meat, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 130.0,
+      "p": 21.6,
+      "f": 4.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1344,
+    "en": "Goat meat, lean, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 118.0,
+      "p": 21.4,
+      "f": 3.6,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1345,
+    "en": "Lamb/mutton, meat, moderately fat, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 196.0,
+      "p": 18.5,
+      "f": 13.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1346,
+    "en": "Lamb/Mutton, liver, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 150.0,
+      "p": 19.3,
+      "f": 7.5,
+      "c": 1.3
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1348,
+    "en": "Pork, meat, <5 % fat, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 114.0,
+      "p": 18.7,
+      "f": 4.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1349,
+    "en": "Beef handi kabab",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 233.0,
+      "p": 12.7,
+      "f": 16.9,
+      "c": 6.6
+    },
+    "energy_diff_pct": 1.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "action": "fixed",
+    "new_values": {
+      "k": 138.4,
+      "p": 14.4,
+      "f": 9.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 55.0,
+      "p": 11.6,
+      "f": 0.0,
+      "c": 0.9
+    },
+    "energy_diff_pct": 9.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 78.2,
+      "p": 14.3,
+      "f": 1.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 10.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 45.0,
+      "p": 13.2,
+      "f": 0.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 17.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "cat": "meat",
+    "action": "kept",
+    "new_values": {
+      "k": 88.9,
+      "p": 16.2,
+      "f": 1.6,
+      "c": 0.0
+    },
+    "energy_diff_pct": 10.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 32.7,
+      "p": 3.5,
+      "f": 0.7,
+      "c": 3.1
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1358,
+    "en": "Cheese, cottage, 25% fat",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 144.0,
+      "p": 25.1,
+      "f": 5.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 3.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1359,
+    "en": "Curd, sweetened, whole milk",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 96.0,
+      "p": 4.0,
+      "f": 11.4,
+      "c": 0.0
+    },
+    "energy_diff_pct": 23.5,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 100.6,
+      "p": 3.6,
+      "f": 7.5,
+      "c": 4.7
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1361,
+    "en": "Milk, cow, powder, skimmed",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 520.0,
+      "p": 1.0,
+      "f": 49.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 13.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1362,
+    "en": "Milk, cow, powder, whole",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 496.0,
+      "p": 26.3,
+      "f": 26.7,
+      "c": 38.4
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 29.9,
+      "p": 3.1,
+      "f": 0.1,
+      "c": 4.1
+    },
+    "energy_diff_pct": 0.7,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1364,
+    "en": "Milk, cow, whole fat (pasteurized, UTH)",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 63.0,
+      "p": 3.7,
+      "f": 4.3,
+      "c": 0.0
+    },
+    "energy_diff_pct": 15.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 68.1,
+      "p": 3.5,
+      "f": 4.1,
+      "c": 4.3
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 57.8,
+      "p": 2.0,
+      "f": 2.6,
+      "c": 6.6
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "cat": "dairy",
+    "action": "fixed",
+    "new_values": {
+      "k": 62.1,
+      "p": 0.0,
+      "f": 4.0,
+      "c": 7.2
+    },
+    "energy_diff_pct": 4.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 717.0,
+      "p": 0.9,
+      "f": 81.1,
+      "c": 0.1
+    },
+    "energy_diff_pct": 2.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1370,
+    "en": "Fish oil, cod liver",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 902.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.2,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1371,
+    "en": "Ghee, cow",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 900.0,
+      "p": 0.3,
+      "f": 99.5,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1372,
+    "en": "Ghee, vegetable",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 900.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 718.0,
+      "p": 0.2,
+      "f": 80.4,
+      "c": 0.2
+    },
+    "energy_diff_pct": 1.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1374,
+    "en": "Mayonnaise, salted",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 680.0,
+      "p": 1.1,
+      "f": 74.9,
+      "c": 0.6
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1379,
+    "en": "Soybean oil",
+    "cat": "dairy",
+    "action": "kept",
+    "new_values": {
+      "k": 884.0,
+      "p": 0.0,
+      "f": 100.0,
+      "c": 0.0
+    },
+    "energy_diff_pct": 1.8,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "cat": "beverage",
+    "action": "kept",
+    "new_values": {
+      "k": 60.0,
+      "p": 0.8,
+      "f": 6.8,
+      "c": 0.0
+    },
+    "energy_diff_pct": 7.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "action": "fixed",
+    "new_values": {
+      "k": 78.9,
+      "p": 0.0,
+      "f": 0.5,
+      "c": 75.4
+    },
+    "energy_diff_pct": 288.0,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "cat": "beverage",
+    "action": "kept",
+    "new_values": {
+      "k": 75.0,
+      "p": 0.0,
+      "f": 10.3,
+      "c": 0.0
+    },
+    "energy_diff_pct": 23.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "action": "fixed",
+    "new_values": {
+      "k": 53.8,
+      "p": 3.1,
+      "f": 2.4,
+      "c": 4.9
+    },
+    "energy_diff_pct": 0.4,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "action": "fixed",
+    "new_values": {
+      "k": 33.2,
+      "p": 0.8,
+      "f": 0.0,
+      "c": 7.5
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "cat": "beverage",
+    "action": "kept",
+    "new_values": {
+      "k": 72.0,
+      "p": 0.8,
+      "f": 7.6,
+      "c": 0.2
+    },
+    "energy_diff_pct": 0.6,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "action": "fixed",
+    "new_values": {
+      "k": 29.9,
+      "p": 0.4,
+      "f": 0.0,
+      "c": 7.1
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "action": "fixed",
+    "new_values": {
+      "k": 83.7,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 49.5
+    },
+    "energy_diff_pct": 136.6,
+    "checks": {
+      "energy_consistent": false,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 172.0,
+      "p": 5.2,
+      "f": 0.0,
+      "c": 37.8
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 42.0,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 4.1
+    },
+    "energy_diff_pct": 22.9,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 326.0,
+      "p": 0.3,
+      "f": 0.0,
+      "c": 81.1
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 385.0,
+      "p": 0.5,
+      "f": 0.1,
+      "c": 95.4
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 352.0,
+      "p": 1.5,
+      "f": 0.3,
+      "c": 85.7
+    },
+    "energy_diff_pct": 0.1,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 86.0,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 20.9
+    },
+    "energy_diff_pct": 0.3,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": false,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": false
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "cat": "sweet",
+    "action": "kept",
+    "new_values": {
+      "k": 398.0,
+      "p": 0.0,
+      "f": 0.0,
+      "c": 99.5
+    },
+    "energy_diff_pct": 0.0,
+    "checks": {
+      "energy_consistent": true,
+      "kcal_in_range": true,
+      "protein_positive": true,
+      "fat_positive": true,
+      "carbs_positive": true
+    },
+    "all_passed": true
+  }
+]

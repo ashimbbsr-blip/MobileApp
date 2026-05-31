@@ -1,0 +1,108 @@
+{
+  "title": "BD FCT Import Pipeline Column Shift Bug",
+  "confidence": "99%",
+  "affected_records": 80,
+  "total_bd_fct_records": 283,
+  "unaffected_records": 203,
+  "source_file": "tools/extract_fct_bangladesh.py",
+  "function": "parse_proximate_line()",
+  "pdf_column_layout": [
+    "code",
+    "EN_name",
+    "BN_name",
+    "edible_coeff",
+    "(kcal)",
+    "kJ",
+    "water",
+    "protein",
+    "fat",
+    "carb",
+    "fiber",
+    "ash"
+  ],
+  "bug_description": "pdfplumber.extract_text() silently omitted the parenthesized '(kcal)' column from the Bangladesh FCT PDF. The parser expected this column at index 1 of the numeric sequence (after edible_coeff), but the value was missing. Every subsequent column shifted left by 1 position.",
+  "column_shift_mapping": {
+    "stored_k": {
+      "contains": "actual kJ",
+      "fix": "divide by 4.184 → kcal"
+    },
+    "stored_p": {
+      "contains": "actual fat",
+      "fix": "move → f field"
+    },
+    "stored_f": {
+      "contains": "actual carbs",
+      "fix": "move → c field"
+    },
+    "stored_c": {
+      "contains": "actual fiber",
+      "fix": "move → fi field"
+    },
+    "stored_fi": {
+      "contains": "actual ash",
+      "fix": "discard"
+    },
+    "protein": {
+      "contains": "LOST (was water variable, never written to DB)",
+      "fix": "derive from energy: (new_k - 4*new_c - 9*new_f) / 4"
+    }
+  },
+  "detection_method": "Energy balance check: |stored_k - (4p + 9f + 4c)| / stored_k > 30%. For oils/nuts where columns happen to be energy-consistent (<30% diff), the stored values are correct (fat≈99-100g → 9*100≈900 kcal stored as kJ would be 4×900=3763, but stored_k is only 900, so diff would be 0% — meaning those items were NOT affected by the column shift).",
+  "exceptions_unaffected": [
+    "All vegetable oils (9_0001–9_0018): k≈884–900, f≈99–100g, consistent",
+    "Butter, ghee, margarine, mayonnaise: high fat, energy-consistent",
+    "Peanuts, pine nuts, coconut, pumpkin seeds: energy diff <30%"
+  ],
+  "validation": [
+    {
+      "en": "Wheat flour",
+      "id": 1089,
+      "stored_k": 1470,
+      "new_k": 351.5,
+      "ref_kcal": 348,
+      "match": true
+    },
+    {
+      "en": "Buffalo milk",
+      "id": 1360,
+      "stored_k": 421,
+      "new_k": 100.6,
+      "ref_kcal": 100,
+      "match": true
+    },
+    {
+      "en": "Goat milk",
+      "id": 1365,
+      "stored_k": 285,
+      "new_k": 68.1,
+      "ref_kcal": 69,
+      "match": true
+    },
+    {
+      "en": "Buttermilk",
+      "id": 1357,
+      "stored_k": 137,
+      "new_k": 32.7,
+      "ref_kcal": 33,
+      "match": true
+    },
+    {
+      "en": "Cauliflower",
+      "id": 1119,
+      "stored_k": 113,
+      "new_k": 27.0,
+      "ref_kcal": 25,
+      "match": true
+    }
+  ],
+  "fix_algorithm": {
+    "condition": "energy_diff > 0.30",
+    "new_k": "round(stored_k / 4.184, 1)",
+    "new_f": "stored_p",
+    "new_c": "stored_f",
+    "new_fi": "stored_c",
+    "new_p": "round((new_k - 4*new_c - 9*new_f) / 4, 1)",
+    "clamp_p": "max(0.0, min(new_p, 60.0))",
+    "reference": "v5_6 values used (not v5_7, which had incomplete partial fixes)"
+  }
+}

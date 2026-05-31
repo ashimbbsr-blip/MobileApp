@@ -1,432 +1,1848 @@
 [
   {
+    "id": 1069,
+    "en": "Bread, bun/roll",
+    "cat": "grain",
+    "stored_k": 270.0,
+    "corrected_k": 270.0,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1070,
+    "en": "Bread, white, for toasting",
+    "cat": "grain",
+    "stored_k": 272.0,
+    "corrected_k": 272.0,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "cat": "grain",
+    "stored_k": 1660.0,
+    "corrected_k": 396.7,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "cat": "grain",
+    "stored_k": 1620.0,
+    "corrected_k": 387.2,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "cat": "grain",
+    "stored_k": 1540.0,
+    "corrected_k": 368.1,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
     "id": 1085,
     "en": "Semolina, wheat, raw",
     "cat": "grain",
-    "k": 1470.0,
-    "k_after_repair": 1470.0,
-    "expected_range": "200–450",
-    "deviation": "above_ceiling by 1020",
-    "will_be_repaired": false
+    "stored_k": 1470.0,
+    "corrected_k": 351.3,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "cat": "grain",
+    "stored_k": 1480.0,
+    "corrected_k": 353.7,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1087,
     "en": "Sweet corn, yellow, on the cob, raw",
     "cat": "grain",
-    "k": 621.0,
-    "k_after_repair": 621.0,
-    "expected_range": "200–450",
-    "deviation": "above_ceiling by 171",
-    "will_be_repaired": false
+    "stored_k": 621.0,
+    "corrected_k": 148.4,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "cat": "grain",
+    "stored_k": 1470.0,
+    "corrected_k": 351.3,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "cat": "grain",
+    "stored_k": 1470.0,
+    "corrected_k": 351.3,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "cat": "grain",
+    "stored_k": 1450.0,
+    "corrected_k": 346.6,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1092,
     "en": "Plain Khichuri* Khichuri",
     "cat": "grain",
-    "k": 163.0,
-    "k_after_repair": 163.0,
-    "expected_range": "200–450",
-    "deviation": "below_floor by 37",
-    "will_be_repaired": false
+    "stored_k": 163.0,
+    "corrected_k": 163.0,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1094,
     "en": "Rice, BR-28, boiled* (without salt)",
     "cat": "grain",
-    "k": 464.0,
-    "k_after_repair": 464.0,
-    "expected_range": "200–450",
-    "deviation": "above_ceiling by 14",
-    "will_be_repaired": false
+    "stored_k": 464.0,
+    "corrected_k": 110.9,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "stored_k": 1040.0,
+    "corrected_k": 248.6,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
   },
   {
     "id": 1097,
     "en": "Vermicelli, boiled* (without salt)",
     "cat": "grain",
-    "k": 640.0,
-    "k_after_repair": 640.0,
-    "expected_range": "200–450",
-    "deviation": "above_ceiling by 190",
-    "will_be_repaired": false
+    "stored_k": 640.0,
+    "corrected_k": 153.0,
+    "expected_range": [
+      300,
+      380
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
   },
   {
-    "id": 1107,
-    "en": "Soybean, dried, raw",
+    "id": 1110,
+    "en": "Lentil, boiled* (without salt)",
     "cat": "legume",
-    "k": 424.0,
-    "k_after_repair": 424.0,
-    "expected_range": "50–400",
-    "deviation": "above_ceiling by 24",
-    "will_be_repaired": false
+    "stored_k": 155.0,
+    "corrected_k": 155.0,
+    "expected_range": [
+      300,
+      450
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "stored_k": 91.0,
+    "corrected_k": 21.7,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1112,
     "en": "Bean, scarlet runner, raw",
     "cat": "vegetable",
-    "k": 228.0,
-    "k_after_repair": 228.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 78",
-    "will_be_repaired": false
+    "stored_k": 228.0,
+    "corrected_k": 54.5,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "cat": "vegetable",
+    "stored_k": 122.0,
+    "corrected_k": 29.2,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "cat": "vegetable",
+    "stored_k": 94.0,
+    "corrected_k": 94.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "cat": "vegetable",
+    "stored_k": 100.0,
+    "corrected_k": 23.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1116,
     "en": "Broad beans, raw",
     "cat": "vegetable",
-    "k": 209.0,
-    "k_after_repair": 209.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 59",
-    "will_be_repaired": false
+    "stored_k": 209.0,
+    "corrected_k": 50.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "cat": "vegetable",
+    "stored_k": 101.0,
+    "corrected_k": 24.1,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "cat": "vegetable",
+    "stored_k": 147.0,
+    "corrected_k": 35.1,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "cat": "vegetable",
+    "stored_k": 113.0,
+    "corrected_k": 27.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1120,
     "en": "Chilli, green, with seeds, raw",
     "cat": "vegetable",
-    "k": 189.0,
-    "k_after_repair": 189.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 39",
-    "will_be_repaired": false
+    "stored_k": 189.0,
+    "corrected_k": 45.2,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "cat": "vegetable",
+    "stored_k": 72.0,
+    "corrected_k": 17.2,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1123,
     "en": "Drumstick, pods, raw",
     "cat": "vegetable",
-    "k": 181.0,
-    "k_after_repair": 181.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 31",
-    "will_be_repaired": false
+    "stored_k": 181.0,
+    "corrected_k": 43.3,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1124,
     "en": "Garlic, raw",
     "cat": "vegetable",
-    "k": 623.0,
-    "k_after_repair": 623.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 473",
-    "will_be_repaired": false
+    "stored_k": 623.0,
+    "corrected_k": 148.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "cat": "vegetable",
+    "stored_k": 41.0,
+    "corrected_k": 9.8,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "cat": "vegetable",
+    "stored_k": 129.0,
+    "corrected_k": 30.8,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "cat": "vegetable",
+    "stored_k": 142.0,
+    "corrected_k": 33.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "cat": "vegetable",
+    "stored_k": 102.0,
+    "corrected_k": 24.4,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "cat": "vegetable",
+    "stored_k": 121.0,
+    "corrected_k": 28.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "cat": "vegetable",
+    "stored_k": 103.0,
+    "corrected_k": 24.6,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "cat": "vegetable",
+    "stored_k": 102.0,
+    "corrected_k": 24.4,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1132,
     "en": "Gourd, teasle, raw",
     "cat": "vegetable",
-    "k": 259.0,
-    "k_after_repair": 259.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 109",
-    "will_be_repaired": false
+    "stored_k": 259.0,
+    "corrected_k": 61.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1134,
     "en": "Onion, raw",
     "cat": "vegetable",
-    "k": 249.0,
-    "k_after_repair": 249.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 99",
-    "will_be_repaired": false
+    "stored_k": 249.0,
+    "corrected_k": 59.5,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1136,
+    "en": "Peas, raw",
+    "cat": "vegetable",
+    "stored_k": 91.0,
+    "corrected_k": 91.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 115.0,
+    "corrected_k": 27.5,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1145,
+    "en": "Carrot, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 81.0,
+    "corrected_k": 81.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 119.0,
+    "corrected_k": 28.4,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1147,
     "en": "Cowpea, boiled* (without salt)",
     "cat": "vegetable",
-    "k": 167.0,
-    "k_after_repair": 167.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 17",
-    "will_be_repaired": false
+    "stored_k": 167.0,
+    "corrected_k": 39.9,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 116.0,
+    "corrected_k": 27.7,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1149,
     "en": "Gourd, teasle, boiled* (without salt)",
     "cat": "vegetable",
-    "k": 294.0,
-    "k_after_repair": 294.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 144",
-    "will_be_repaired": false
+    "stored_k": 294.0,
+    "corrected_k": 70.3,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "cat": "vegetable",
+    "stored_k": 526.0,
+    "corrected_k": 125.7,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
   },
   {
     "id": 1155,
     "en": "Gourd, bitter, fry",
     "cat": "vegetable",
-    "k": 540.0,
-    "k_after_repair": 540.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 390",
-    "will_be_repaired": false
+    "stored_k": 540.0,
+    "corrected_k": 129.1,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "cat": "vegetable",
+    "stored_k": 88.0,
+    "corrected_k": 88.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "stored_k": 25.0,
+    "corrected_k": 6.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "stored_k": 26.0,
+    "corrected_k": 6.2,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "stored_k": 32.0,
+    "corrected_k": 7.6,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "stored_k": 45.0,
+    "corrected_k": 10.8,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "stored_k": 45.0,
+    "corrected_k": 10.8,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "stored_k": 50.0,
+    "corrected_k": 12.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1190,
+    "en": "Colocasia/Taro, corm, raw",
+    "cat": "vegetable",
+    "stored_k": 103.0,
+    "corrected_k": 103.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1191,
+    "en": "Colocasia/Taro/Tannia, cormel, raw",
+    "cat": "vegetable",
+    "stored_k": 101.0,
+    "corrected_k": 101.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1193,
+    "en": "Giant taro, corm, raw",
+    "cat": "vegetable",
+    "stored_k": 82.0,
+    "corrected_k": 82.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "cat": "vegetable",
+    "stored_k": 98.0,
+    "corrected_k": 98.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "cat": "vegetable",
+    "stored_k": 97.0,
+    "corrected_k": 97.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1197,
+    "en": "Colocasia/Taro, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 115.0,
+    "corrected_k": 115.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1201,
+    "en": "Giant taro, corm, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored_k": 92.0,
+    "corrected_k": 92.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "cat": "vegetable",
+    "stored_k": 109.0,
+    "corrected_k": 109.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1203,
+    "en": "Potato Mash",
+    "cat": "vegetable",
+    "stored_k": 84.0,
+    "corrected_k": 84.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1219,
     "en": "Bay leaf, dried",
     "cat": "vegetable",
-    "k": 353.0,
-    "k_after_repair": 353.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 203",
-    "will_be_repaired": false
+    "stored_k": 353.0,
+    "corrected_k": 353.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1220,
     "en": "Cardamom",
     "cat": "vegetable",
-    "k": 261.0,
-    "k_after_repair": 261.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 111",
-    "will_be_repaired": false
+    "stored_k": 261.0,
+    "corrected_k": 261.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1221,
     "en": "Chilli, red, dry",
     "cat": "vegetable",
-    "k": 313.0,
-    "k_after_repair": 313.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 163",
-    "will_be_repaired": false
+    "stored_k": 313.0,
+    "corrected_k": 313.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1222,
     "en": "Cinnamon, ground",
     "cat": "vegetable",
-    "k": 243.0,
-    "k_after_repair": 243.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 93",
-    "will_be_repaired": false
+    "stored_k": 243.0,
+    "corrected_k": 58.1,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1223,
     "en": "Cloves, dried",
     "cat": "vegetable",
-    "k": 267.0,
-    "k_after_repair": 267.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 117",
-    "will_be_repaired": false
+    "stored_k": 267.0,
+    "corrected_k": 267.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1224,
     "en": "Coriander seed, dry",
     "cat": "vegetable",
-    "k": 336.0,
-    "k_after_repair": 336.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 186",
-    "will_be_repaired": false
+    "stored_k": 336.0,
+    "corrected_k": 336.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1225,
     "en": "Cumin seeds",
     "cat": "vegetable",
-    "k": 402.0,
-    "k_after_repair": 402.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 252",
-    "will_be_repaired": false
+    "stored_k": 402.0,
+    "corrected_k": 402.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1226,
     "en": "Fennel seeds",
     "cat": "vegetable",
-    "k": 329.0,
-    "k_after_repair": 329.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 179",
-    "will_be_repaired": false
+    "stored_k": 329.0,
+    "corrected_k": 329.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1227,
     "en": "Fenugreek seeds",
     "cat": "vegetable",
-    "k": 330.0,
-    "k_after_repair": 330.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 180",
-    "will_be_repaired": false
+    "stored_k": 330.0,
+    "corrected_k": 330.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "stored_k": 37.0,
+    "corrected_k": 8.8,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1230,
+    "en": "Lemon grass, raw",
+    "cat": "vegetable",
+    "stored_k": 116.0,
+    "corrected_k": 116.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "cat": "vegetable",
+    "stored_k": 65.0,
+    "corrected_k": 15.5,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1232,
     "en": "Mace, ground",
     "cat": "vegetable",
-    "k": 415.0,
-    "k_after_repair": 415.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 265",
-    "will_be_repaired": false
+    "stored_k": 415.0,
+    "corrected_k": 415.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1233,
     "en": "Nutmeg, dried",
     "cat": "vegetable",
-    "k": 1980.0,
-    "k_after_repair": 1980.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 1830",
-    "will_be_repaired": false
+    "stored_k": 1980.0,
+    "corrected_k": 473.2,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
   },
   {
     "id": 1234,
     "en": "Poppy seeds",
     "cat": "vegetable",
-    "k": 525.0,
-    "k_after_repair": 525.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 375",
-    "will_be_repaired": false
+    "stored_k": 525.0,
+    "corrected_k": 525.0,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1235,
     "en": "Turmeric, dried",
     "cat": "vegetable",
-    "k": 1400.0,
-    "k_after_repair": 1400.0,
-    "expected_range": "10–150",
-    "deviation": "above_ceiling by 1250",
-    "will_be_repaired": false
+    "stored_k": 1400.0,
+    "corrected_k": 334.6,
+    "expected_range": [
+      10,
+      80
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "cat": "fruit",
+    "stored_k": 215.0,
+    "corrected_k": 51.4,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "cat": "fruit",
+    "stored_k": 262.0,
+    "corrected_k": 62.6,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "cat": "fruit",
+    "stored_k": 259.0,
+    "corrected_k": 61.9,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 400.0,
+    "corrected_k": 95.6,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "cat": "fruit",
+    "stored_k": 293.0,
+    "corrected_k": 70.0,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "cat": "fruit",
+    "stored_k": 340.0,
+    "corrected_k": 81.3,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "cat": "fruit",
+    "stored_k": 357.0,
+    "corrected_k": 85.3,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1244,
     "en": "Dates, dried",
     "cat": "fruit",
-    "k": 1270.0,
-    "k_after_repair": 1270.0,
-    "expected_range": "15–400",
-    "deviation": "above_ceiling by 870",
-    "will_be_repaired": false
+    "stored_k": 1270.0,
+    "corrected_k": 303.5,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1245,
     "en": "Dates, raw",
     "cat": "fruit",
-    "k": 636.0,
-    "k_after_repair": 636.0,
-    "expected_range": "15–400",
-    "deviation": "above_ceiling by 236",
-    "will_be_repaired": false
+    "stored_k": 636.0,
+    "corrected_k": 152.0,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 271.0,
+    "corrected_k": 64.8,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "cat": "fruit",
+    "stored_k": 398.0,
+    "corrected_k": 95.1,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "cat": "fruit",
+    "stored_k": 265.0,
+    "corrected_k": 63.3,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "cat": "fruit",
+    "stored_k": 213.0,
+    "corrected_k": 50.9,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 312.0,
+    "corrected_k": 74.6,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "cat": "fruit",
+    "stored_k": 149.0,
+    "corrected_k": 35.6,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "cat": "fruit",
+    "stored_k": 254.0,
+    "corrected_k": 60.7,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "cat": "fruit",
+    "stored_k": 234.0,
+    "corrected_k": 55.9,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 348.0,
+    "corrected_k": 83.2,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 73.0,
+    "corrected_k": 17.4,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "cat": "fruit",
+    "stored_k": 38.0,
+    "corrected_k": 9.1,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 208.0,
+    "corrected_k": 49.7,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 139.0,
+    "corrected_k": 33.2,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 284.0,
+    "corrected_k": 67.9,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "cat": "fruit",
+    "stored_k": 283.0,
+    "corrected_k": 67.6,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "cat": "fruit",
+    "stored_k": 159.0,
+    "corrected_k": 38.0,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 1140.0,
+    "corrected_k": 272.5,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "cat": "fruit",
+    "stored_k": 93.0,
+    "corrected_k": 22.2,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
   },
   {
     "id": 1274,
     "en": "Wood apple, ripe, raw",
     "cat": "fruit",
-    "k": 469.0,
-    "k_after_repair": 469.0,
-    "expected_range": "15–400",
-    "deviation": "above_ceiling by 69",
-    "will_be_repaired": false
+    "stored_k": 469.0,
+    "corrected_k": 112.1,
+    "expected_range": [
+      25,
+      350
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1275,
+    "en": "Anchovy, Gangetic hairfin, dried",
+    "cat": "fish",
+    "stored_k": 332.0,
+    "corrected_k": 332.0,
+    "expected_range": [
+      70,
+      250
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1309,
+    "en": "Mussel/Clam, mixed species, raw",
+    "cat": "fish",
+    "stored_k": 61.0,
+    "corrected_k": 61.0,
+    "expected_range": [
+      70,
+      250
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1332,
     "en": "Small fish fry",
     "cat": "fish",
-    "k": 449.0,
-    "k_after_repair": 449.0,
-    "expected_range": "50–350",
-    "deviation": "above_ceiling by 99",
-    "will_be_repaired": false
+    "stored_k": 449.0,
+    "corrected_k": 107.3,
+    "expected_range": [
+      70,
+      250
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "cat": "fish",
+    "stored_k": 923.0,
+    "corrected_k": 220.6,
+    "expected_range": [
+      70,
+      250
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1338,
     "en": "Buffalo meat, raw",
     "cat": "meat",
-    "k": 95.0,
-    "k_after_repair": 95.0,
-    "expected_range": "100–500",
-    "deviation": "below_floor by 5",
-    "will_be_repaired": false
+    "stored_k": 95.0,
+    "corrected_k": 95.0,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1350,
     "en": "Egg, chicken, farmed, raw",
     "cat": "meat",
-    "k": 579.0,
-    "k_after_repair": 579.0,
-    "expected_range": "100–500",
-    "deviation": "above_ceiling by 79",
-    "will_be_repaired": false
+    "stored_k": 579.0,
+    "corrected_k": 138.4,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1351,
     "en": "Egg, chicken, native, raw",
     "cat": "meat",
-    "k": 55.0,
-    "k_after_repair": 55.0,
-    "expected_range": "100–500",
-    "deviation": "below_floor by 45",
-    "will_be_repaired": false
+    "stored_k": 55.0,
+    "corrected_k": 55.0,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1353,
     "en": "Egg, duck, whole, raw",
     "cat": "meat",
-    "k": 78.2,
-    "k_after_repair": 78.2,
-    "expected_range": "100–500",
-    "deviation": "below_floor by 22",
-    "will_be_repaired": false
+    "stored_k": 78.2,
+    "corrected_k": 78.2,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1355,
     "en": "Egg, chicken, native, boiled* (without salt)",
     "cat": "meat",
-    "k": 45.0,
-    "k_after_repair": 45.0,
-    "expected_range": "100–500",
-    "deviation": "below_floor by 55",
-    "will_be_repaired": false
+    "stored_k": 45.0,
+    "corrected_k": 45.0,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1356,
     "en": "Egg, duck, whole, boiled* (without salt)",
     "cat": "meat",
-    "k": 88.9,
-    "k_after_repair": 88.9,
-    "expected_range": "100–500",
-    "deviation": "below_floor by 11",
-    "will_be_repaired": false
+    "stored_k": 88.9,
+    "corrected_k": 88.9,
+    "expected_range": [
+      100,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "cat": "dairy",
+    "stored_k": 137.0,
+    "corrected_k": 32.7,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "cat": "dairy",
+    "stored_k": 421.0,
+    "corrected_k": 100.6,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "cat": "dairy",
+    "stored_k": 125.0,
+    "corrected_k": 29.9,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "cat": "dairy",
+    "stored_k": 285.0,
+    "corrected_k": 68.1,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "cat": "dairy",
+    "stored_k": 242.0,
+    "corrected_k": 57.8,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "cat": "dairy",
+    "stored_k": 260.0,
+    "corrected_k": 62.1,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1368,
+    "en": "Butter, salted",
+    "cat": "dairy",
+    "stored_k": 717.0,
+    "corrected_k": 717.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1370,
+    "en": "Fish oil, cod liver",
+    "cat": "dairy",
+    "stored_k": 902.0,
+    "corrected_k": 902.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1371,
+    "en": "Ghee, cow",
+    "cat": "dairy",
+    "stored_k": 900.0,
+    "corrected_k": 900.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1372,
+    "en": "Ghee, vegetable",
+    "cat": "dairy",
+    "stored_k": 900.0,
+    "corrected_k": 900.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1373,
+    "en": "Margarine Margarine",
+    "cat": "dairy",
+    "stored_k": 718.0,
+    "corrected_k": 718.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
+  },
+  {
+    "id": 1379,
+    "en": "Soybean oil",
+    "cat": "dairy",
+    "stored_k": 884.0,
+    "corrected_k": 884.0,
+    "expected_range": [
+      30,
+      700
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1382,
     "en": "Coffee, powder",
     "cat": "beverage",
-    "k": 330.0,
-    "k_after_repair": 330.0,
-    "expected_range": "0–150",
-    "deviation": "above_ceiling by 180",
-    "will_be_repaired": false
+    "stored_k": 330.0,
+    "corrected_k": 78.9,
+    "expected_range": [
+      0,
+      100
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "stored_k": 225.0,
+    "corrected_k": 53.8,
+    "expected_range": [
+      0,
+      100
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "stored_k": 139.0,
+    "corrected_k": 33.2,
+    "expected_range": [
+      0,
+      100
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "stored_k": 125.0,
+    "corrected_k": 29.9,
+    "expected_range": [
+      0,
+      100
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
   },
   {
     "id": 1388,
     "en": "Tea, powder",
     "cat": "beverage",
-    "k": 350.0,
-    "k_after_repair": 350.0,
-    "expected_range": "0–150",
-    "deviation": "above_ceiling by 200",
-    "will_be_repaired": false
+    "stored_k": 350.0,
+    "corrected_k": 83.7,
+    "expected_range": [
+      0,
+      100
+    ],
+    "in_range": true,
+    "root_cause": "column_shift"
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "cat": "sweet",
+    "stored_k": 172.0,
+    "corrected_k": 172.0,
+    "expected_range": [
+      250,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1390,
     "en": "Betel leaves, raw",
     "cat": "sweet",
-    "k": 42.0,
-    "k_after_repair": 42.0,
-    "expected_range": "100–700",
-    "deviation": "below_floor by 58",
-    "will_be_repaired": false
+    "stored_k": 42.0,
+    "corrected_k": 42.0,
+    "expected_range": [
+      250,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   },
   {
     "id": 1394,
     "en": "Jaggery, liquid, date palm",
     "cat": "sweet",
-    "k": 86.0,
-    "k_after_repair": 86.0,
-    "expected_range": "100–700",
-    "deviation": "below_floor by 14",
-    "will_be_repaired": false
+    "stored_k": 86.0,
+    "corrected_k": 86.0,
+    "expected_range": [
+      250,
+      400
+    ],
+    "in_range": false,
+    "root_cause": "correct"
   }
 ]

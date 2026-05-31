@@ -1,0 +1,2699 @@
+[
+  {
+    "id": 1080,
+    "en": "Rice, bran, raw Chaler",
+    "cat": "grain",
+    "stored": {
+      "k": 1660.0,
+      "p": 20.9,
+      "f": 28.6,
+      "c": 21.0,
+      "fi": 10.0
+    },
+    "derived": {
+      "k": 396.7,
+      "p": 23.5,
+      "f": 20.9,
+      "c": 28.6,
+      "fi": 21.0
+    },
+    "energy_diff_pct": 74.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": false,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1082,
+    "en": "Rice, popped",
+    "cat": "grain",
+    "stored": {
+      "k": 1620.0,
+      "p": 0.1,
+      "f": 87.0,
+      "c": 1.4,
+      "fi": 0.4
+    },
+    "derived": {
+      "k": 387.2,
+      "p": 9.6,
+      "f": 0.1,
+      "c": 87.0,
+      "fi": 1.4
+    },
+    "energy_diff_pct": 51.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1083,
+    "en": "Rice, puffed, salted",
+    "cat": "grain",
+    "stored": {
+      "k": 1540.0,
+      "p": 0.1,
+      "f": 82.7,
+      "c": 1.4,
+      "fi": 1.8
+    },
+    "derived": {
+      "k": 368.1,
+      "p": 9.1,
+      "f": 0.1,
+      "c": 82.7,
+      "fi": 1.4
+    },
+    "energy_diff_pct": 51.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "cat": "grain",
+    "stored": {
+      "k": 1470.0,
+      "p": 1.4,
+      "f": 70.6,
+      "c": 3.9,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 351.3,
+      "p": 14.1,
+      "f": 1.4,
+      "c": 70.6,
+      "fi": 3.9
+    },
+    "energy_diff_pct": 55.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1086,
+    "en": "Sorghum, raw",
+    "cat": "grain",
+    "stored": {
+      "k": 1480.0,
+      "p": 3.3,
+      "f": 66.9,
+      "c": 6.3,
+      "fi": 1.5
+    },
+    "derived": {
+      "k": 353.7,
+      "p": 14.1,
+      "f": 3.3,
+      "c": 66.9,
+      "fi": 6.3
+    },
+    "energy_diff_pct": 56.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1087,
+    "en": "Sweet corn, yellow, on the cob, raw",
+    "cat": "grain",
+    "stored": {
+      "k": 621.0,
+      "p": 1.4,
+      "f": 28.7,
+      "c": 2.8,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 148.4,
+      "p": 5.3,
+      "f": 1.4,
+      "c": 28.7,
+      "fi": 2.8
+    },
+    "energy_diff_pct": 55.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1088,
+    "en": "Vermicelli, wheat, raw",
+    "cat": "grain",
+    "stored": {
+      "k": 1470.0,
+      "p": 0.6,
+      "f": 74.9,
+      "c": 3.2,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 351.3,
+      "p": 11.6,
+      "f": 0.6,
+      "c": 74.9,
+      "fi": 3.2
+    },
+    "energy_diff_pct": 53.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1089,
+    "en": "Wheat, flour, white",
+    "cat": "grain",
+    "stored": {
+      "k": 1470.0,
+      "p": 1.6,
+      "f": 70.3,
+      "c": 4.4,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 351.3,
+      "p": 13.9,
+      "f": 1.6,
+      "c": 70.3,
+      "fi": 4.4
+    },
+    "energy_diff_pct": 55.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1090,
+    "en": "Wheat, whole, raw",
+    "cat": "grain",
+    "stored": {
+      "k": 1450.0,
+      "p": 2.9,
+      "f": 62.0,
+      "c": 12.2,
+      "fi": 1.6
+    },
+    "derived": {
+      "k": 346.6,
+      "p": 18.1,
+      "f": 2.9,
+      "c": 62.0,
+      "fi": 12.2
+    },
+    "energy_diff_pct": 57.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1094,
+    "en": "Rice, BR-28, boiled* (without salt)",
+    "cat": "grain",
+    "stored": {
+      "k": 464.0,
+      "p": 0.1,
+      "f": 24.3,
+      "c": 1.1,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 110.9,
+      "p": 3.2,
+      "f": 0.1,
+      "c": 24.3,
+      "fi": 1.1
+    },
+    "energy_diff_pct": 51.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "cat": "grain",
+    "stored": {
+      "k": 1040.0,
+      "p": 1.2,
+      "f": 49.7,
+      "c": 3.1,
+      "fi": 1.1
+    },
+    "derived": {
+      "k": 248.6,
+      "p": 9.7,
+      "f": 1.2,
+      "c": 49.7,
+      "fi": 3.1
+    },
+    "energy_diff_pct": 55.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1097,
+    "en": "Vermicelli, boiled* (without salt)",
+    "cat": "grain",
+    "stored": {
+      "k": 640.0,
+      "p": 0.3,
+      "f": 32.6,
+      "c": 1.4,
+      "fi": 0.3
+    },
+    "derived": {
+      "k": 153.0,
+      "p": 5.0,
+      "f": 0.3,
+      "c": 32.6,
+      "fi": 1.4
+    },
+    "energy_diff_pct": 53.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 91.0,
+      "p": 0.1,
+      "f": 3.7,
+      "c": 1.2,
+      "fi": 1.8
+    },
+    "derived": {
+      "k": 21.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 3.7,
+      "fi": 1.2
+    },
+    "energy_diff_pct": 57.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 228.0,
+      "p": 0.1,
+      "f": 8.3,
+      "c": 2.0,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 54.5,
+      "p": 5.1,
+      "f": 0.1,
+      "c": 8.3,
+      "fi": 2.0
+    },
+    "energy_diff_pct": 63.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1113,
+    "en": "Bean, seeds and pods, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 122.0,
+      "p": 0.1,
+      "f": 2.5,
+      "c": 4.3,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 29.2,
+      "p": 4.6,
+      "f": 0.1,
+      "c": 2.5,
+      "fi": 4.3
+    },
+    "energy_diff_pct": 67.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 100.0,
+      "p": 0.1,
+      "f": 2.0,
+      "c": 4.1,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 23.9,
+      "p": 3.7,
+      "f": 0.1,
+      "c": 2.0,
+      "fi": 4.1
+    },
+    "energy_diff_pct": 65.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1116,
+    "en": "Broad beans, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 209.0,
+      "p": 0.6,
+      "f": 4.5,
+      "c": 4.2,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 50.0,
+      "p": 6.7,
+      "f": 0.6,
+      "c": 4.5,
+      "fi": 4.2
+    },
+    "energy_diff_pct": 71.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1117,
+    "en": "Cabbage, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 101.0,
+      "p": 0.3,
+      "f": 2.6,
+      "c": 2.5,
+      "fi": 0.4
+    },
+    "derived": {
+      "k": 24.1,
+      "p": 2.8,
+      "f": 0.3,
+      "c": 2.6,
+      "fi": 2.5
+    },
+    "energy_diff_pct": 65.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1118,
+    "en": "Carrot, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 147.0,
+      "p": 0.3,
+      "f": 6.0,
+      "c": 2.6,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 35.1,
+      "p": 2.1,
+      "f": 0.3,
+      "c": 6.0,
+      "fi": 2.6
+    },
+    "energy_diff_pct": 55.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1119,
+    "en": "Cauliflower, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 113.0,
+      "p": 0.3,
+      "f": 2.5,
+      "c": 2.0,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 27.0,
+      "p": 3.6,
+      "f": 0.3,
+      "c": 2.5,
+      "fi": 2.0
+    },
+    "energy_diff_pct": 71.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1120,
+    "en": "Chilli, green, with seeds, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 189.0,
+      "p": 0.1,
+      "f": 5.9,
+      "c": 4.7,
+      "fi": 1.0
+    },
+    "derived": {
+      "k": 45.2,
+      "p": 5.2,
+      "f": 0.1,
+      "c": 5.9,
+      "fi": 4.7
+    },
+    "energy_diff_pct": 61.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1122,
+    "en": "Cucumber, peeled, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 72.0,
+      "p": 0.1,
+      "f": 2.9,
+      "c": 0.7,
+      "fi": 0.4
+    },
+    "derived": {
+      "k": 17.2,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 2.9,
+      "fi": 0.7
+    },
+    "energy_diff_pct": 59.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1123,
+    "en": "Drumstick, pods, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 181.0,
+      "p": 0.2,
+      "f": 5.1,
+      "c": 4.8,
+      "fi": 1.9
+    },
+    "derived": {
+      "k": 43.3,
+      "p": 5.3,
+      "f": 0.2,
+      "c": 5.1,
+      "fi": 4.8
+    },
+    "energy_diff_pct": 63.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1124,
+    "en": "Garlic, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 623.0,
+      "p": 0.6,
+      "f": 27.6,
+      "c": 2.1,
+      "fi": 1.3
+    },
+    "derived": {
+      "k": 148.9,
+      "p": 8.3,
+      "f": 0.6,
+      "c": 27.6,
+      "fi": 2.1
+    },
+    "energy_diff_pct": 58.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 41.0,
+      "p": 0.1,
+      "f": 1.0,
+      "c": 1.7,
+      "fi": 0.3
+    },
+    "derived": {
+      "k": 9.8,
+      "p": 1.2,
+      "f": 0.1,
+      "c": 1.0,
+      "fi": 1.7
+    },
+    "energy_diff_pct": 60.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1126,
+    "en": "Gourd, bitter, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 129.0,
+      "p": 0.3,
+      "f": 3.6,
+      "c": 2.6,
+      "fi": 1.1
+    },
+    "derived": {
+      "k": 30.8,
+      "p": 3.4,
+      "f": 0.3,
+      "c": 3.6,
+      "fi": 2.6
+    },
+    "energy_diff_pct": 65.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1127,
+    "en": "Gourd, bottle, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 142.0,
+      "p": 0.1,
+      "f": 6.8,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 33.9,
+      "p": 1.4,
+      "f": 0.1,
+      "c": 6.8,
+      "fi": 0.6
+    },
+    "energy_diff_pct": 54.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1128,
+    "en": "Gourd, pointed, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 102.0,
+      "p": 0.3,
+      "f": 2.2,
+      "c": 2.2,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 24.4,
+      "p": 3.2,
+      "f": 0.3,
+      "c": 2.2,
+      "fi": 2.2
+    },
+    "energy_diff_pct": 70.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1129,
+    "en": "Gourd, ridge, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 121.0,
+      "p": 0.4,
+      "f": 4.6,
+      "c": 1.1,
+      "fi": 0.3
+    },
+    "derived": {
+      "k": 28.9,
+      "p": 1.7,
+      "f": 0.4,
+      "c": 4.6,
+      "fi": 1.1
+    },
+    "energy_diff_pct": 60.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1130,
+    "en": "Gourd, snake, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 103.0,
+      "p": 0.3,
+      "f": 4.5,
+      "c": 0.8,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 24.6,
+      "p": 1.0,
+      "f": 0.3,
+      "c": 4.5,
+      "fi": 0.8
+    },
+    "energy_diff_pct": 56.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1131,
+    "en": "Gourd, sponge, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 102.0,
+      "p": 0.2,
+      "f": 4.3,
+      "c": 1.1,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 24.4,
+      "p": 1.3,
+      "f": 0.2,
+      "c": 4.3,
+      "fi": 1.1
+    },
+    "energy_diff_pct": 57.0,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1132,
+    "en": "Gourd, teasle, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 259.0,
+      "p": 0.5,
+      "f": 11.8,
+      "c": 1.1,
+      "fi": 1.1
+    },
+    "derived": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.5,
+      "c": 11.8,
+      "fi": 1.1
+    },
+    "energy_diff_pct": 56.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1134,
+    "en": "Onion, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 249.0,
+      "p": 0.1,
+      "f": 12.2,
+      "c": 1.9,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 59.5,
+      "p": 2.5,
+      "f": 0.1,
+      "c": 12.2,
+      "fi": 1.9
+    },
+    "energy_diff_pct": 52.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1144,
+    "en": "Cabbage, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored": {
+      "k": 115.0,
+      "p": 0.4,
+      "f": 2.9,
+      "c": 2.8,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 27.5,
+      "p": 3.1,
+      "f": 0.4,
+      "c": 2.9,
+      "fi": 2.8
+    },
+    "energy_diff_pct": 66.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1146,
+    "en": "Cauliflower, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored": {
+      "k": 119.0,
+      "p": 0.3,
+      "f": 2.7,
+      "c": 2.1,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 28.4,
+      "p": 3.7,
+      "f": 0.3,
+      "c": 2.7,
+      "fi": 2.1
+    },
+    "energy_diff_pct": 71.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored": {
+      "k": 167.0,
+      "p": 0.4,
+      "f": 3.0,
+      "c": 6.3,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 39.9,
+      "p": 6.1,
+      "f": 0.4,
+      "c": 3.0,
+      "fi": 6.3
+    },
+    "energy_diff_pct": 67.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1148,
+    "en": "Gourd, pointed, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored": {
+      "k": 116.0,
+      "p": 0.4,
+      "f": 2.5,
+      "c": 2.5,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 27.7,
+      "p": 3.5,
+      "f": 0.4,
+      "c": 2.5,
+      "fi": 2.5
+    },
+    "energy_diff_pct": 70.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1149,
+    "en": "Gourd, teasle, boiled* (without salt)",
+    "cat": "vegetable",
+    "stored": {
+      "k": 294.0,
+      "p": 0.5,
+      "f": 13.4,
+      "c": 1.3,
+      "fi": 1.2
+    },
+    "derived": {
+      "k": 70.3,
+      "p": 3.0,
+      "f": 0.5,
+      "c": 13.4,
+      "fi": 1.3
+    },
+    "energy_diff_pct": 56.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1154,
+    "en": "Lady's finger-tomato bhuna",
+    "cat": "vegetable",
+    "stored": {
+      "k": 526.0,
+      "p": 7.4,
+      "f": 9.0,
+      "c": 5.0,
+      "fi": 3.1
+    },
+    "derived": {
+      "k": 125.7,
+      "p": 5.8,
+      "f": 7.4,
+      "c": 9.0,
+      "fi": 5.0
+    },
+    "energy_diff_pct": 75.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1155,
+    "en": "Gourd, bitter, fry",
+    "cat": "vegetable",
+    "stored": {
+      "k": 540.0,
+      "p": 9.1,
+      "f": 7.1,
+      "c": 4.1,
+      "fi": 2.7
+    },
+    "derived": {
+      "k": 129.1,
+      "p": 4.7,
+      "f": 9.1,
+      "c": 7.1,
+      "fi": 4.1
+    },
+    "energy_diff_pct": 78.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 25.0,
+      "p": 2.0,
+      "f": 0.3,
+      "c": 1.5,
+      "fi": 4.4
+    },
+    "derived": {
+      "k": 6.0,
+      "p": -3.3,
+      "f": 2.0,
+      "c": 0.3,
+      "fi": 1.5
+    },
+    "energy_diff_pct": 33.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 26.0,
+      "p": 2.5,
+      "f": 0.6,
+      "c": 0.6,
+      "fi": 4.4
+    },
+    "derived": {
+      "k": 6.2,
+      "p": -4.7,
+      "f": 2.5,
+      "c": 0.6,
+      "fi": 0.6
+    },
+    "energy_diff_pct": 31.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 32.0,
+      "p": 2.9,
+      "f": 0.3,
+      "c": 1.7,
+      "fi": 5.8
+    },
+    "derived": {
+      "k": 7.6,
+      "p": -4.9,
+      "f": 2.9,
+      "c": 0.3,
+      "fi": 1.7
+    },
+    "energy_diff_pct": 34.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 45.0,
+      "p": 4.0,
+      "f": 0.8,
+      "c": 1.8,
+      "fi": 7.3
+    },
+    "derived": {
+      "k": 10.8,
+      "p": -7.1,
+      "f": 4.0,
+      "c": 0.8,
+      "fi": 1.8
+    },
+    "energy_diff_pct": 32.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": false
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 45.0,
+      "p": 3.9,
+      "f": 0.4,
+      "c": 2.8,
+      "fi": 7.7
+    },
+    "derived": {
+      "k": 10.8,
+      "p": -6.5,
+      "f": 3.9,
+      "c": 0.4,
+      "fi": 2.8
+    },
+    "energy_diff_pct": 32.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": false
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 50.0,
+      "p": 3.6,
+      "f": 0.4,
+      "c": 3.9,
+      "fi": 8.0
+    },
+    "derived": {
+      "k": 12.0,
+      "p": -5.5,
+      "f": 3.6,
+      "c": 0.4,
+      "fi": 3.9
+    },
+    "energy_diff_pct": 32.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": false
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "stored": {
+      "k": 243.0,
+      "p": 4.0,
+      "f": 1.2,
+      "c": 27.5,
+      "fi": 53.1
+    },
+    "derived": {
+      "k": 58.1,
+      "p": 4.3,
+      "f": 4.0,
+      "c": 1.2,
+      "fi": 27.5
+    },
+    "energy_diff_pct": 43.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": false,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 37.0,
+      "p": 2.3,
+      "f": 0.5,
+      "c": 1.6,
+      "fi": 8.7
+    },
+    "derived": {
+      "k": 8.8,
+      "p": -3.5,
+      "f": 2.3,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "energy_diff_pct": 45.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1231,
+    "en": "Lemon peel, raw",
+    "cat": "vegetable",
+    "stored": {
+      "k": 65.0,
+      "p": 1.6,
+      "f": 0.4,
+      "c": 8.7,
+      "fi": 10.6
+    },
+    "derived": {
+      "k": 15.5,
+      "p": -0.1,
+      "f": 1.6,
+      "c": 0.4,
+      "fi": 8.7
+    },
+    "energy_diff_pct": 31.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "stored": {
+      "k": 1980.0,
+      "p": 36.4,
+      "f": 21.1,
+      "c": 19.0,
+      "fi": 1.7
+    },
+    "derived": {
+      "k": 473.2,
+      "p": 15.3,
+      "f": 36.4,
+      "c": 21.1,
+      "fi": 19.0
+    },
+    "energy_diff_pct": 79.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "stored": {
+      "k": 1400.0,
+      "p": 8.4,
+      "f": 47.3,
+      "c": 21.1,
+      "fi": 4.8
+    },
+    "derived": {
+      "k": 334.6,
+      "p": 17.5,
+      "f": 8.4,
+      "c": 47.3,
+      "fi": 21.1
+    },
+    "energy_diff_pct": 61.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": false,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1236,
+    "en": "Apple, without skin, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 215.0,
+      "p": 0.1,
+      "f": 11.5,
+      "c": 1.3,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 51.4,
+      "p": 1.1,
+      "f": 0.1,
+      "c": 11.5,
+      "fi": 1.3
+    },
+    "energy_diff_pct": 49.3,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1237,
+    "en": "Apple, with skin, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 262.0,
+      "p": 0.2,
+      "f": 13.5,
+      "c": 2.4,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 62.6,
+      "p": 1.7,
+      "f": 0.2,
+      "c": 13.5,
+      "fi": 2.4
+    },
+    "energy_diff_pct": 49.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1238,
+    "en": "Asian pears, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 259.0,
+      "p": 0.3,
+      "f": 12.3,
+      "c": 3.6,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 61.9,
+      "p": 2.5,
+      "f": 0.3,
+      "c": 12.3,
+      "fi": 3.6
+    },
+    "energy_diff_pct": 51.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1239,
+    "en": "Banana, Sagar, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 400.0,
+      "p": 0.8,
+      "f": 19.2,
+      "c": 2.6,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 95.6,
+      "p": 2.9,
+      "f": 0.8,
+      "c": 19.2,
+      "fi": 2.6
+    },
+    "energy_diff_pct": 53.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1240,
+    "en": "Breadfruit, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 293.0,
+      "p": 0.2,
+      "f": 13.0,
+      "c": 4.9,
+      "fi": 0.9
+    },
+    "derived": {
+      "k": 70.0,
+      "p": 4.0,
+      "f": 0.2,
+      "c": 13.0,
+      "fi": 4.9
+    },
+    "energy_diff_pct": 53.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1241,
+    "en": "Bullocks Heart, ripe, raw Nona ata",
+    "cat": "fruit",
+    "stored": {
+      "k": 340.0,
+      "p": 0.2,
+      "f": 15.7,
+      "c": 5.2,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 81.3,
+      "p": 4.2,
+      "f": 0.2,
+      "c": 15.7,
+      "fi": 5.2
+    },
+    "energy_diff_pct": 52.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1243,
+    "en": "Custard apple, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 357.0,
+      "p": 0.3,
+      "f": 16.6,
+      "c": 4.4,
+      "fi": 0.9
+    },
+    "derived": {
+      "k": 85.3,
+      "p": 4.0,
+      "f": 0.3,
+      "c": 16.6,
+      "fi": 4.4
+    },
+    "energy_diff_pct": 52.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1244,
+    "en": "Dates, dried",
+    "cat": "fruit",
+    "stored": {
+      "k": 1270.0,
+      "p": 0.6,
+      "f": 67.5,
+      "c": 8.3,
+      "fi": 3.4
+    },
+    "derived": {
+      "k": 303.5,
+      "p": 7.0,
+      "f": 0.6,
+      "c": 67.5,
+      "fi": 8.3
+    },
+    "energy_diff_pct": 49.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1245,
+    "en": "Dates, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 636.0,
+      "p": 0.4,
+      "f": 33.4,
+      "c": 4.1,
+      "fi": 1.7
+    },
+    "derived": {
+      "k": 152.0,
+      "p": 3.7,
+      "f": 0.4,
+      "c": 33.4,
+      "fi": 4.1
+    },
+    "energy_diff_pct": 49.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1246,
+    "en": "Elephant apple, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 271.0,
+      "p": 0.4,
+      "f": 10.3,
+      "c": 3.5,
+      "fi": 1.8
+    },
+    "derived": {
+      "k": 64.8,
+      "p": 5.0,
+      "f": 0.4,
+      "c": 10.3,
+      "fi": 3.5
+    },
+    "energy_diff_pct": 60.0,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1249,
+    "en": "Grapes, green, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 398.0,
+      "p": 0.6,
+      "f": 20.2,
+      "c": 2.9,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 95.1,
+      "p": 2.2,
+      "f": 0.6,
+      "c": 20.2,
+      "fi": 2.9
+    },
+    "energy_diff_pct": 50.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1250,
+    "en": "Guava, green, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 265.0,
+      "p": 0.5,
+      "f": 10.9,
+      "c": 5.4,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 63.3,
+      "p": 3.8,
+      "f": 0.5,
+      "c": 10.9,
+      "fi": 5.4
+    },
+    "energy_diff_pct": 54.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1251,
+    "en": "Hog plum, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 213.0,
+      "p": 0.8,
+      "f": 8.9,
+      "c": 1.6,
+      "fi": 0.9
+    },
+    "derived": {
+      "k": 50.9,
+      "p": 2.0,
+      "f": 0.8,
+      "c": 8.9,
+      "fi": 1.6
+    },
+    "energy_diff_pct": 57.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1252,
+    "en": "Jackfruit, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 312.0,
+      "p": 0.2,
+      "f": 13.3,
+      "c": 7.2,
+      "fi": 1.1
+    },
+    "derived": {
+      "k": 74.6,
+      "p": 4.9,
+      "f": 0.2,
+      "c": 13.3,
+      "fi": 7.2
+    },
+    "energy_diff_pct": 52.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 149.0,
+      "p": 0.2,
+      "f": 6.9,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 35.6,
+      "p": 1.6,
+      "f": 0.2,
+      "c": 6.9,
+      "fi": 1.6
+    },
+    "energy_diff_pct": 53.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1256,
+    "en": "Jujube, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 254.0,
+      "p": 0.2,
+      "f": 12.6,
+      "c": 1.0,
+      "fi": 0.0
+    },
+    "derived": {
+      "k": 60.7,
+      "p": 2.1,
+      "f": 0.2,
+      "c": 12.6,
+      "fi": 1.0
+    },
+    "energy_diff_pct": 53.5,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 234.0,
+      "p": 1.0,
+      "f": 10.2,
+      "c": 1.3,
+      "fi": 0.7
+    },
+    "derived": {
+      "k": 55.9,
+      "p": 1.5,
+      "f": 1.0,
+      "c": 10.2,
+      "fi": 1.3
+    },
+    "energy_diff_pct": 56.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1259,
+    "en": "Mango, Langra, yellow flesh, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 348.0,
+      "p": 0.4,
+      "f": 18.0,
+      "c": 1.6,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 83.2,
+      "p": 1.9,
+      "f": 0.4,
+      "c": 18.0,
+      "fi": 1.6
+    },
+    "energy_diff_pct": 51.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1260,
+    "en": "Melon, Futi, orange flesh, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 73.0,
+      "p": 0.2,
+      "f": 3.1,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 17.4,
+      "p": 0.8,
+      "f": 0.2,
+      "c": 3.1,
+      "fi": 1.0
+    },
+    "energy_diff_pct": 55.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1261,
+    "en": "Orange juice, raw (unsweetened)",
+    "cat": "fruit",
+    "stored": {
+      "k": 38.0,
+      "p": 0.1,
+      "f": 1.7,
+      "c": 0.2,
+      "fi": 0.1
+    },
+    "derived": {
+      "k": 9.1,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 1.7,
+      "fi": 0.2
+    },
+    "energy_diff_pct": 56.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": false,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1263,
+    "en": "Orange, sweet, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 208.0,
+      "p": 0.1,
+      "f": 10.7,
+      "c": 2.4,
+      "fi": 0.3
+    },
+    "derived": {
+      "k": 49.7,
+      "p": 1.5,
+      "f": 0.1,
+      "c": 10.7,
+      "fi": 2.4
+    },
+    "energy_diff_pct": 48.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1266,
+    "en": "Papaya, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 139.0,
+      "p": 0.1,
+      "f": 6.5,
+      "c": 1.7,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 33.2,
+      "p": 1.6,
+      "f": 0.1,
+      "c": 6.5,
+      "fi": 1.7
+    },
+    "energy_diff_pct": 52.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1267,
+    "en": "Persimmon, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 284.0,
+      "p": 0.2,
+      "f": 13.9,
+      "c": 3.6,
+      "fi": 0.5
+    },
+    "derived": {
+      "k": 67.9,
+      "p": 2.6,
+      "f": 0.2,
+      "c": 13.9,
+      "fi": 3.6
+    },
+    "energy_diff_pct": 50.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1270,
+    "en": "Pomegranate, ripe, with seed, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 283.0,
+      "p": 0.2,
+      "f": 12.7,
+      "c": 4.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 67.6,
+      "p": 3.7,
+      "f": 0.2,
+      "c": 12.7,
+      "fi": 4.0
+    },
+    "energy_diff_pct": 53.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1271,
+    "en": "Pomelo, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 159.0,
+      "p": 0.3,
+      "f": 7.7,
+      "c": 1.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 38.0,
+      "p": 1.1,
+      "f": 0.3,
+      "c": 7.7,
+      "fi": 1.0
+    },
+    "energy_diff_pct": 53.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1272,
+    "en": "Tamarind, pulp, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 1140.0,
+      "p": 0.4,
+      "f": 60.8,
+      "c": 5.1,
+      "fi": 2.6
+    },
+    "derived": {
+      "k": 272.5,
+      "p": 6.4,
+      "f": 0.4,
+      "c": 60.8,
+      "fi": 5.1
+    },
+    "energy_diff_pct": 50.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1273,
+    "en": "Watermelon, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 93.0,
+      "p": 0.2,
+      "f": 4.4,
+      "c": 0.4,
+      "fi": 0.3
+    },
+    "derived": {
+      "k": 22.2,
+      "p": 0.7,
+      "f": 0.2,
+      "c": 4.4,
+      "fi": 0.4
+    },
+    "energy_diff_pct": 54.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1274,
+    "en": "Wood apple, ripe, raw",
+    "cat": "fruit",
+    "stored": {
+      "k": 469.0,
+      "p": 0.3,
+      "f": 20.9,
+      "c": 7.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 112.1,
+      "p": 6.5,
+      "f": 0.3,
+      "c": 20.9,
+      "fi": 7.0
+    },
+    "energy_diff_pct": 53.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1332,
+    "en": "Small fish fry",
+    "cat": "fish",
+    "stored": {
+      "k": 449.0,
+      "p": 6.1,
+      "f": 5.3,
+      "c": 0.9,
+      "fi": 1.6
+    },
+    "derived": {
+      "k": 107.3,
+      "p": 7.8,
+      "f": 6.1,
+      "c": 5.3,
+      "fi": 0.9
+    },
+    "energy_diff_pct": 83.1,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1333,
+    "en": "Fish ball* Macher",
+    "cat": "fish",
+    "stored": {
+      "k": 923.0,
+      "p": 6.7,
+      "f": 21.7,
+      "c": 5.0,
+      "fi": 2.1
+    },
+    "derived": {
+      "k": 220.6,
+      "p": 18.4,
+      "f": 6.7,
+      "c": 21.7,
+      "fi": 5.0
+    },
+    "energy_diff_pct": 73.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "cat": "meat",
+    "stored": {
+      "k": 579.0,
+      "p": 9.0,
+      "f": 0.0,
+      "c": 0.8,
+      "fi": 21.0
+    },
+    "derived": {
+      "k": 138.4,
+      "p": 14.4,
+      "f": 9.0,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "energy_diff_pct": 93.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1357,
+    "en": "Buttermilk, fluid, low fat",
+    "cat": "dairy",
+    "stored": {
+      "k": 137.0,
+      "p": 0.7,
+      "f": 3.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 32.7,
+      "p": 3.5,
+      "f": 0.7,
+      "c": 3.1,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 77.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1360,
+    "en": "Milk, buffalo, whole fat",
+    "cat": "dairy",
+    "stored": {
+      "k": 421.0,
+      "p": 7.5,
+      "f": 4.7,
+      "c": 0.0,
+      "fi": 0.8
+    },
+    "derived": {
+      "k": 100.6,
+      "p": 3.6,
+      "f": 7.5,
+      "c": 4.7,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 82.8,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1363,
+    "en": "Milk, cow, skimmed",
+    "cat": "dairy",
+    "stored": {
+      "k": 125.0,
+      "p": 0.1,
+      "f": 4.1,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 29.9,
+      "p": 3.1,
+      "f": 0.1,
+      "c": 4.1,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 70.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1365,
+    "en": "Milk, goat, combined breeds",
+    "cat": "dairy",
+    "stored": {
+      "k": 285.0,
+      "p": 4.1,
+      "f": 4.3,
+      "c": 0.0,
+      "fi": 0.9
+    },
+    "derived": {
+      "k": 68.1,
+      "p": 3.5,
+      "f": 4.1,
+      "c": 4.3,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 80.7,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1366,
+    "en": "Milk, human, colostrum, raw",
+    "cat": "dairy",
+    "stored": {
+      "k": 242.0,
+      "p": 2.6,
+      "f": 6.6,
+      "c": 0.0,
+      "fi": 0.6
+    },
+    "derived": {
+      "k": 57.8,
+      "p": 2.0,
+      "f": 2.6,
+      "c": 6.6,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 71.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1367,
+    "en": "Milk, human, mature, raw",
+    "cat": "dairy",
+    "stored": {
+      "k": 260.0,
+      "p": 4.0,
+      "f": 7.2,
+      "c": 0.0,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 62.1,
+      "p": -0.7,
+      "f": 4.0,
+      "c": 7.2,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 68.9,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "stored": {
+      "k": 330.0,
+      "p": 0.5,
+      "f": 75.4,
+      "c": 0.0,
+      "fi": 8.8
+    },
+    "derived": {
+      "k": 78.9,
+      "p": -56.8,
+      "f": 0.5,
+      "c": 75.4,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 106.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": false
+    },
+    "all_sane": false
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "stored": {
+      "k": 225.0,
+      "p": 2.4,
+      "f": 4.9,
+      "c": 0.5,
+      "fi": 1.6
+    },
+    "derived": {
+      "k": 53.8,
+      "p": 3.1,
+      "f": 2.4,
+      "c": 4.9,
+      "fi": 0.5
+    },
+    "energy_diff_pct": 75.2,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "stored": {
+      "k": 139.0,
+      "p": 0.0,
+      "f": 7.5,
+      "c": 0.0,
+      "fi": 0.1
+    },
+    "derived": {
+      "k": 33.2,
+      "p": 0.8,
+      "f": 0.0,
+      "c": 7.5,
+      "fi": 0.0
+    },
+    "energy_diff_pct": 51.4,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "stored": {
+      "k": 125.0,
+      "p": 0.0,
+      "f": 7.1,
+      "c": 0.1,
+      "fi": 0.2
+    },
+    "derived": {
+      "k": 29.9,
+      "p": 0.4,
+      "f": 0.0,
+      "c": 7.1,
+      "fi": 0.1
+    },
+    "energy_diff_pct": 48.6,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": true,
+      "kcal_plausible": true,
+      "protein_range_ok": true
+    },
+    "all_sane": true
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "stored": {
+      "k": 350.0,
+      "p": 0.0,
+      "f": 49.5,
+      "c": 8.5,
+      "fi": 16.0
+    },
+    "derived": {
+      "k": 83.7,
+      "p": -28.6,
+      "f": 0.0,
+      "c": 49.5,
+      "fi": 8.5
+    },
+    "energy_diff_pct": 37.0,
+    "sanity": {
+      "fat_plausible": true,
+      "carbs_plausible": true,
+      "fiber_plausible": true,
+      "protein_plausible": false,
+      "kcal_plausible": true,
+      "protein_range_ok": false
+    },
+    "all_sane": false
+  }
+]
