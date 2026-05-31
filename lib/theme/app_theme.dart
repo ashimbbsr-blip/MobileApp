@@ -137,23 +137,25 @@ class AppTheme {
     final secondaryColor = brightness == Brightness.light ? AppColors.lightTextSecondary : AppColors.darkTextSecondary;
 
     if (language == 'bn') {
-      return TextTheme(
-        displayLarge: TextStyle(fontFamily: 'HindSiliguri', fontSize: 57, fontWeight: FontWeight.w700, color: color),
-        displayMedium: TextStyle(fontFamily: 'HindSiliguri', fontSize: 45, fontWeight: FontWeight.w600, color: color),
-        displaySmall: TextStyle(fontFamily: 'HindSiliguri', fontSize: 36, fontWeight: FontWeight.w500, color: color),
-        headlineLarge: TextStyle(fontFamily: 'HindSiliguri', fontSize: 32, fontWeight: FontWeight.w700, color: color),
-        headlineMedium: TextStyle(fontFamily: 'HindSiliguri', fontSize: 28, fontWeight: FontWeight.w600, color: color),
-        headlineSmall: TextStyle(fontFamily: 'HindSiliguri', fontSize: 24, fontWeight: FontWeight.w600, color: color),
-        titleLarge: TextStyle(fontFamily: 'HindSiliguri', fontSize: 22, fontWeight: FontWeight.w600, color: color),
-        titleMedium: TextStyle(fontFamily: 'HindSiliguri', fontSize: 16, fontWeight: FontWeight.w500, color: color),
-        titleSmall: TextStyle(fontFamily: 'HindSiliguri', fontSize: 14, fontWeight: FontWeight.w500, color: color),
-        bodyLarge: TextStyle(fontFamily: 'HindSiliguri', fontSize: 16, color: color),
-        bodyMedium: TextStyle(fontFamily: 'HindSiliguri', fontSize: 14, color: secondaryColor),
-        bodySmall: TextStyle(fontFamily: 'HindSiliguri', fontSize: 12, color: secondaryColor),
-        labelLarge: TextStyle(fontFamily: 'HindSiliguri', fontSize: 14, fontWeight: FontWeight.w600, color: color),
-        labelMedium: TextStyle(fontFamily: 'HindSiliguri', fontSize: 12, fontWeight: FontWeight.w500, color: secondaryColor),
-        labelSmall: TextStyle(fontFamily: 'HindSiliguri', fontSize: 11, color: secondaryColor),
-      );
+      // GoogleFonts.hindSiliguri() ensures consistent Bengali ligature rendering
+      // across all Android OEMs — avoids broken যুক্তাক্ষর on Redmi/Samsung M-series.
+      return GoogleFonts.hindSiliguriTextTheme(TextTheme(
+        displayLarge: TextStyle(fontSize: 57, fontWeight: FontWeight.w700, color: color),
+        displayMedium: TextStyle(fontSize: 45, fontWeight: FontWeight.w600, color: color),
+        displaySmall: TextStyle(fontSize: 36, fontWeight: FontWeight.w500, color: color),
+        headlineLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.w700, color: color),
+        headlineMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: color),
+        headlineSmall: TextStyle(fontSize: 24, fontWeight: FontWeight.w600, color: color),
+        titleLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.w600, color: color),
+        titleMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: color),
+        titleSmall: TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: color),
+        bodyLarge: TextStyle(fontSize: 16, color: color),
+        bodyMedium: TextStyle(fontSize: 14, color: secondaryColor),
+        bodySmall: TextStyle(fontSize: 12, color: secondaryColor),
+        labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: color),
+        labelMedium: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: secondaryColor),
+        labelSmall: TextStyle(fontSize: 11, color: secondaryColor),
+      ));
     }
 
     return GoogleFonts.interTextTheme(TextTheme(

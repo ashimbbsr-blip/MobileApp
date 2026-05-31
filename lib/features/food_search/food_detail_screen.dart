@@ -6,10 +6,12 @@ import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../dashboard/providers/dashboard_provider.dart';
+import '../../core/utils/meal_time_utils.dart';
 
 class FoodDetailScreen extends ConsumerStatefulWidget {
   final FoodItem foodItem;
-  const FoodDetailScreen({super.key, required this.foodItem});
+  final String? initialMealType;
+  const FoodDetailScreen({super.key, required this.foodItem, this.initialMealType});
 
   @override
   ConsumerState<FoodDetailScreen> createState() => _FoodDetailScreenState();
@@ -17,12 +19,13 @@ class FoodDetailScreen extends ConsumerStatefulWidget {
 
 class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
   late double _quantity;
-  String _selectedMeal = 'breakfast';
+  late String _selectedMeal;
   final _quantityController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
+    _selectedMeal = widget.initialMealType ?? mealTypeForNow();
     _quantity = widget.foodItem.servingSize;
     _quantityController.text = _quantity.toString();
   }

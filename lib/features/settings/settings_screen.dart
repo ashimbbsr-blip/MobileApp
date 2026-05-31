@@ -2,19 +2,18 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../../localization/app_localizations.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
-import '../../core/constants/app_constants.dart';
 import '../../storage/hive_storage.dart';
-import '../../services/api_key_service.dart';
 import '../../services/export_service.dart';
+import '../../services/notification_service.dart';
 import '../../widgets/common/app_logo.dart';
 import '../settings/providers/settings_provider.dart';
 import '../profile/providers/profile_provider.dart';
 import '../legal/legal_content.dart';
 import '../legal/legal_content_screen.dart';
+import '../../core/constants/app_constants.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -149,8 +148,8 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
-          // ── USDA API Key ──────────────────────────────────────────────────
-          _ApiKeyCard(l10n: l10n, theme: theme),
+          // ── Notifications ─────────────────────────────────────────────────
+          _NotificationCard(l10n: l10n, theme: theme),
 
           const SizedBox(height: 16),
 
@@ -443,129 +442,77 @@ class _SettingsTile extends StatelessWidget {
   }
 }
 
-// ── API Key Management Card ───────────────────────────────────────────────────
+// ── Notification Settings Card ────────────────────────────────────────────────
 
-class _ApiKeyCard extends StatefulWidget {
+class _NotificationCard extends StatefulWidget {
   final AppStrings l10n;
   final ThemeData theme;
-  const _ApiKeyCard({required this.l10n, required this.theme});
+  const _NotificationCard({required this.l10n, required this.theme});
 
   @override
-  State<_ApiKeyCard> createState() => _ApiKeyCardState();
+  State<_NotificationCard> createState() => _NotificationCardState();
 }
 
-class _ApiKeyCardState extends State<_ApiKeyCard> {
-  bool _validating = false;
-  String? _validationResult;
+class _NotificationCardState extends State<_NotificationCard> {
+  late bool _enabled;
+  late int _hour;
+  late int _minute;
+  bool _saving = false;
 
-  Future<void> _showKeyDialog({bool isUpdate = false}) async {
-    final ctrl = TextEditingController(
-      text: isUpdate ? HiveStorage.getApiKey() ?? '' : '',
-    );
-    final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: Text(isUpdate ? widget.l10n.apiKeyUpdate : widget.l10n.apiKeyAdd),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              widget.l10n.apiKeyDialogHint,
-              style: widget.theme.textTheme.bodySmall,
-            ),
-            const SizedBox(height: 12),
-            TextField(
-              controller: ctrl,
-              autofocus: true,
-              decoration: InputDecoration(
-                hintText: widget.l10n.apiKeyPaste,
-                prefixIcon: const Icon(Icons.vpn_key_outlined),
-              ),
-            ),
-            const SizedBox(height: 8),
-            TextButton.icon(
-              icon: const Icon(Icons.open_in_browser_outlined, size: 16),
-              label: Text(
-                widget.l10n.apiKeyGetFree,
-                style: const TextStyle(fontSize: 12),
-              ),
-              onPressed: () async {
-                final uri = Uri.parse(AppConstants.usdaApiKeySignupUrl);
-                if (await canLaunchUrl(uri)) {
-                  await launchUrl(uri, mode: LaunchMode.externalApplication);
-                }
-              },
-            ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text(widget.l10n.cancel),
-          ),
-          ElevatedButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            style: ElevatedButton.styleFrom(backgroundColor: AppColors.primary),
-            child: Text(widget.l10n.save,
-                style: const TextStyle(color: Colors.white)),
-          ),
-        ],
-      ),
-    );
-    if (confirmed == true && ctrl.text.trim().isNotEmpty) {
-      await ApiKeyService.instance.saveKey(ctrl.text.trim());
-      if (mounted) setState(() => _validationResult = null);
-    }
-    ctrl.dispose();
+  @override
+  void initState() {
+    super.initState();
+    _enabled = HiveStorage.notificationEnabled;
+    _hour = HiveStorage.notificationHour;
+    _minute = HiveStorage.notificationMinute;
   }
 
-  Future<void> _validateKey() async {
-    setState(() {
-      _validating = true;
-      _validationResult = null;
-    });
-    final key = HiveStorage.getApiKey() ?? '';
-    final valid = await ApiKeyService.instance.validateKey(key);
-    if (mounted) {
-      setState(() {
-        _validating = false;
-        _validationResult = valid ? 'valid' : 'invalid';
-      });
+  Future<void> _toggleEnabled(bool value) async {
+    setState(() => _saving = true);
+    await HiveStorage.setNotificationEnabled(value);
+    if (value) {
+      final granted =
+          await NotificationService.instance.requestPermissions();
+      if (granted) {
+        await NotificationService.instance.scheduleReminder(
+          hour: _hour,
+          minute: _minute,
+          language: HiveStorage.language,
+        );
+      }
+    } else {
+      await NotificationService.instance.cancelReminder();
     }
+    if (mounted) setState(() { _enabled = value; _saving = false; });
   }
 
-  Future<void> _removeKey() async {
-    final confirmed = await showDialog<bool>(
+  Future<void> _pickTime() async {
+    final picked = await showTimePicker(
       context: context,
-      builder: (ctx) => AlertDialog(
-        title: Text(widget.l10n.apiKeyRemove),
-        content: Text(widget.l10n.apiKeyRemoveConfirm),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text(widget.l10n.cancel),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            style: TextButton.styleFrom(foregroundColor: Colors.red),
-            child: Text(widget.l10n.apiKeyRemove),
-          ),
-        ],
-      ),
+      initialTime: TimeOfDay(hour: _hour, minute: _minute),
+      helpText: widget.l10n.isBengali
+          ? 'রিমাইন্ডারের সময় বেছে নিন'
+          : 'Choose reminder time',
     );
-    if (confirmed == true) {
-      await ApiKeyService.instance.removeKey();
-      if (mounted) setState(() => _validationResult = null);
+    if (picked == null || !mounted) return;
+    setState(() { _hour = picked.hour; _minute = picked.minute; _saving = true; });
+    await HiveStorage.setNotificationTime(picked.hour, picked.minute);
+    if (_enabled) {
+      await NotificationService.instance.scheduleReminder(
+        hour: picked.hour,
+        minute: picked.minute,
+        language: HiveStorage.language,
+      );
     }
+    if (mounted) setState(() => _saving = false);
   }
 
   @override
   Widget build(BuildContext context) {
-    final l10n = widget.l10n;
     final theme = widget.theme;
-    final hasKey = HiveStorage.hasApiKey;
-    final masked = ApiKeyService.instance.maskedKey;
+    final l10n = widget.l10n;
+    final bn = l10n.isBengali;
+    final timeStr = NotificationService.formatTime(_hour, _minute);
 
     return Card(
       child: Column(
@@ -573,98 +520,88 @@ class _ApiKeyCardState extends State<_ApiKeyCard> {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
-            child: Text(l10n.apiKeySection,
+            child: Text(
+              bn ? 'মিল রিমাইন্ডার' : 'Meal Reminders',
+              style: theme.textTheme.bodySmall?.copyWith(
+                  color: AppColors.primary, fontWeight: FontWeight.w700),
+            ),
+          ),
+
+          // Toggle row
+          ListTile(
+            leading: Icon(
+              _enabled
+                  ? Icons.notifications_active_outlined
+                  : Icons.notifications_off_outlined,
+              color: _enabled ? AppColors.primary : Colors.grey,
+            ),
+            title: Text(
+              bn ? 'দৈনিক রিমাইন্ডার' : 'Daily reminder',
+              style: theme.textTheme.bodyLarge
+                  ?.copyWith(fontWeight: FontWeight.w500),
+            ),
+            subtitle: Text(
+              bn
+                  ? 'নাস্তা ও রাতের খাবার না লগ করলে রিমাইন্ড করবে'
+                  : 'Reminds you to log breakfast & dinner',
+              style: theme.textTheme.bodySmall,
+            ),
+            trailing: _saving
+                ? const SizedBox(
+                    width: 24,
+                    height: 24,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : Switch(
+                    value: _enabled,
+                    activeThumbColor: AppColors.primary,
+                    activeTrackColor: AppColors.primary.withValues(alpha: 0.5),
+                    onChanged: _toggleEnabled,
+                  ),
+          ),
+
+          // Time picker row (only when enabled)
+          if (_enabled) ...[
+            const Divider(height: 1),
+            ListTile(
+              leading: const Icon(Icons.schedule_outlined,
+                  color: AppColors.primary),
+              title: Text(
+                bn ? 'রিমাইন্ডারের সময়' : 'Reminder time',
+                style: theme.textTheme.bodyLarge
+                    ?.copyWith(fontWeight: FontWeight.w500),
+              ),
+              subtitle: Text(
+                timeStr,
                 style: theme.textTheme.bodySmall?.copyWith(
-                    color: AppColors.primary, fontWeight: FontWeight.w700)),
-          ),
-
-          // Status row
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            child: Row(
-              children: [
-                Icon(
-                  hasKey ? Icons.vpn_key : Icons.vpn_key_outlined,
-                  size: 18,
-                  color: hasKey ? AppColors.primary : Colors.orange,
+                  color: AppColors.primary,
+                  fontWeight: FontWeight.w600,
                 ),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        hasKey ? l10n.apiKeyLabel : l10n.apiKeyUsingDemo,
-                        style: theme.textTheme.bodyMedium
-                            ?.copyWith(fontWeight: FontWeight.w600),
-                      ),
-                      if (hasKey && masked != null)
-                        Text(masked,
-                            style: theme.textTheme.bodySmall?.copyWith(
-                                fontFamily: 'monospace', color: Colors.grey)),
-                      if (!hasKey)
-                        Text(l10n.apiKeyDemoNote,
-                            style: theme.textTheme.bodySmall
-                                ?.copyWith(color: Colors.orange)),
-                    ],
-                  ),
-                ),
-              ],
+              ),
+              trailing: const Icon(Icons.chevron_right, size: 20),
+              onTap: _pickTime,
             ),
-          ),
-
-          if (_validationResult != null)
             Padding(
-              padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
-              child: Row(children: [
-                Icon(
-                  _validationResult == 'valid'
-                      ? Icons.check_circle_outline
-                      : Icons.error_outline,
-                  size: 16,
-                  color: _validationResult == 'valid' ? Colors.green : Colors.red,
-                ),
-                const SizedBox(width: 6),
-                Text(
-                  _validationResult == 'valid'
-                      ? l10n.apiKeyValid
-                      : l10n.apiKeyInvalid,
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: _validationResult == 'valid' ? Colors.green : Colors.red,
-                    fontWeight: FontWeight.w600,
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+              child: Row(
+                children: [
+                  Icon(Icons.info_outline,
+                      size: 14,
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.45)),
+                  const SizedBox(width: 6),
+                  Expanded(
+                    child: Text(
+                      bn
+                          ? 'উভয় মিল লগ করলে পরের দিনের জন্য স্বয়ংক্রিয়ভাবে সেট হবে।'
+                          : 'Auto-reschedules to next day once both meals are logged.',
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurface.withValues(alpha: 0.55),
+                        fontSize: 11,
+                      ),
+                    ),
                   ),
-                ),
-              ]),
-            ),
-
-          const Divider(height: 1),
-
-          if (!hasKey)
-            _SettingsTile(
-              icon: Icons.add_circle_outline,
-              title: l10n.apiKeyAdd,
-              onTap: () => _showKeyDialog(),
-            ),
-
-          if (hasKey) ...[
-            _SettingsTile(
-              icon: Icons.edit_outlined,
-              title: l10n.apiKeyUpdate,
-              onTap: () => _showKeyDialog(isUpdate: true),
-            ),
-            const Divider(height: 1),
-            _SettingsTile(
-              icon: _validating ? Icons.hourglass_empty : Icons.verified_outlined,
-              title: _validating ? l10n.apiKeyValidating : l10n.apiKeyValidate,
-              onTap: _validating ? null : _validateKey,
-            ),
-            const Divider(height: 1),
-            _SettingsTile(
-              icon: Icons.delete_outline,
-              title: l10n.apiKeyRemove,
-              titleColor: Colors.red,
-              onTap: _removeKey,
+                ],
+              ),
             ),
           ],
         ],

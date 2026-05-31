@@ -243,6 +243,26 @@ class AppStrings {
   String get searchUsda => _t('searchUsda');
   String get noLocalResults => _t('noLocalResults');
 
+  // Camera scan UI
+  String get analysing => _t('analysing');
+  String get scanTip => _t('scanTip');
+  String get searchManually => _t('searchManually');
+  String get foodNotIdentified => _t('foodNotIdentified');
+  String get tryBetterLighting => _t('tryBetterLighting');
+  String get takeAnotherPhoto => _t('takeAnotherPhoto');
+  String get searchFoodHint => _t('searchFoodHint');
+  String get addTo => _t('addTo');
+  String get didYouEat => _t('didYouEat');
+  String get notYourFood => _t('notYourFood');
+  String get searchHintSheet => _t('searchHintSheet');
+  String get howMuch => _t('howMuch');
+  String get portionSmall => _t('portionSmall');
+  String get portionMedium => _t('portionMedium');
+  String get portionLarge => _t('portionLarge');
+  String get portionXl => _t('portionXl');
+  String get portionCustom => _t('portionCustom');
+  String get enterGrams => _t('enterGrams');
+
   String _t(String key) => _translations[language]?[key] ?? _translations['en']![key] ?? key;
 
   static const Map<String, Map<String, String>> _translations = {
@@ -475,6 +495,25 @@ class AppStrings {
       'localResults': 'Results from local dataset',
       'searchUsda': 'Search USDA Database',
       'noLocalResults': 'No local results — try USDA search',
+      // Camera scan UI
+      'analysing': 'Analysing…',
+      'scanTip': 'Place food in frame, then tap the button',
+      'searchManually': 'Search manually instead',
+      'foodNotIdentified': 'Food not identified',
+      'tryBetterLighting': 'Try better lighting or search below.',
+      'takeAnotherPhoto': 'Take another photo',
+      'searchFoodHint': 'e.g. dal, ilish, chicken curry…',
+      'addTo': 'Add to',
+      'didYouEat': 'Did you eat:',
+      'notYourFood': 'Not your food? Search here',
+      'searchHintSheet': 'e.g. ilish, paneer, dal…',
+      'howMuch': 'How much?',
+      'portionSmall': 'Small',
+      'portionMedium': 'Medium',
+      'portionLarge': 'Large',
+      'portionXl': 'XL',
+      'portionCustom': 'Custom',
+      'enterGrams': 'Enter grams',
     },
     'bn': {
       'appName': 'ইনফিনিট হেলথ ট্র্যাকার',
@@ -705,6 +744,25 @@ class AppStrings {
       'localResults': 'স্থানীয় ডেটা থেকে ফলাফল',
       'searchUsda': 'USDA ডেটাবেজে খুঁজুন',
       'noLocalResults': 'স্থানীয় ডেটায় নেই — USDA খুঁজুন',
+      // Camera scan UI
+      'analysing': 'বিশ্লেষণ হচ্ছে…',
+      'scanTip': 'খাবার ফ্রেমে রাখুন, তারপর বোতাম চাপুন',
+      'searchManually': 'পরিবর্তে ম্যানুয়ালি অনুসন্ধান করুন',
+      'foodNotIdentified': 'খাবার চিহ্নিত হয়নি',
+      'tryBetterLighting': 'আরও ভালো আলোতে চেষ্টা করুন বা নিচে অনুসন্ধান করুন।',
+      'takeAnotherPhoto': 'আরেকটি ছবি তুলুন',
+      'searchFoodHint': 'যেমন: ডাল, ইলিশ, মুরগির তরকারি…',
+      'addTo': 'যোগ করুন',
+      'didYouEat': 'আপনি কি খেয়েছেন:',
+      'notYourFood': 'আপনার খাবার নয়? এখানে খুঁজুন',
+      'searchHintSheet': 'যেমন: ইলিশ, পনির, ডাল…',
+      'howMuch': 'কতটুকু?',
+      'portionSmall': 'ছোট',
+      'portionMedium': 'মাঝারি',
+      'portionLarge': 'বড়',
+      'portionXl': 'অতিরিক্ত বড়',
+      'portionCustom': 'কাস্টম',
+      'enterGrams': 'গ্রাম লিখুন',
     },
   };
 }

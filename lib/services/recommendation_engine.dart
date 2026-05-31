@@ -89,7 +89,7 @@ class RecommendationEngine {
     // Default to 30 min when on-target; cap at 60 min to stay actionable.
     final excess = (cal - goals.calories).clamp(0.0, 500.0);
     final walkMins = (excess > 0 ? excess / 4.0 : 30.0).clamp(15.0, 60.0).round();
-    final walkSteps = walkMins * 115; // ~115 steps/min moderate pace
+    final walkSteps = walkMins * 95; // ~95 steps/min — Indian average moderate pace (WHO 2004)
 
     // ── Food-pattern detection ────────────────────────────────────────────────
     final p = _detectPatterns(meals);

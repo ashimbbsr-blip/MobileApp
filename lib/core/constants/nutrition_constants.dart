@@ -9,7 +9,8 @@ class NutritionConstants {
   static const double potassiumMg = 3750;     // ICMR 2020: 3750 mg
   static const double magnesiumMg = 340;      // ICMR 2020: 340 mg
   static const double fiberG = 40;            // ICMR 2020: 40 g
-  static const double waterMl = 3700;
+  // Reference value only — personalized water target is in NutritionCalculator._calculateWater()
+  static const double waterMlIcmrReference = 3700; // ICMR 2020: 3700 ml/day (adult)
 
   // Gender-specific targets (ICMR 2020)
   static const double ironMgMale = 9;         // ICMR 2020: 9 mg (adult male)

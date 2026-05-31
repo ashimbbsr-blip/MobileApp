@@ -7,6 +7,7 @@ import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../core/utils/validators.dart';
 import '../../features/dashboard/providers/dashboard_provider.dart';
+import '../../services/nutrition_calculator.dart';
 import 'providers/profile_provider.dart';
 
 class ProfileScreen extends ConsumerStatefulWidget {
@@ -27,6 +28,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
   String _activityLevel = 'moderately_active';
   String _fitnessGoal = 'maintain';
   DateTime? _dateOfBirth;
+  String? _pregnancyStatus;
   bool _initialized = false;
 
   @override
@@ -50,6 +52,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
     _activityLevel = profile.activityLevel;
     _fitnessGoal = profile.fitnessGoal;
     _dateOfBirth = profile.dateOfBirth;
+    _pregnancyStatus = profile.pregnancyStatus;
     _initialized = true;
   }
 
@@ -91,14 +94,43 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
           weightKg: double.tryParse(_weightCtrl.text) ?? 70,
           activityLevel: _activityLevel,
           fitnessGoal: _fitnessGoal,
+          pregnancyStatus: _gender == 'female' ? _pregnancyStatus : null,
+          clearPregnancyStatus: _gender == 'female' && _pregnancyStatus == null,
         );
     if (ok && mounted) {
       ref.read(dashboardProvider.notifier).refresh();
+      // Warn when calorie target is at the safe minimum floor
+      final savedProfile = ref.read(profileProvider).profile;
+      if (savedProfile != null && NutritionCalculator.isAtCalorieFloor(savedProfile)) {
+        _showCalorieFloorWarning();
+      }
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         content: Text(ref.read(appStringsProvider).profileUpdated),
         backgroundColor: AppColors.primary,
       ));
     }
+  }
+
+  void _showCalorieFloorWarning() {
+    final bn = ref.read(appStringsProvider).isBengali;
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        icon: const Icon(Icons.medical_services_outlined, color: Colors.orange, size: 32),
+        title: Text(bn ? 'ক্যালোরি সীমা' : 'Low Calorie Target'),
+        content: Text(
+          bn
+              ? 'আপনার বর্তমান লক্ষ্যমাত্রা অনুযায়ী ক্যালোরি নিরাপদ সীমার নিচে পড়ছে। অ্যাপটি স্বয়ংক্রিয়ভাবে নিরাপদ ন্যূনতম মান ব্যবহার করেছে। যেকোনো অ্যাগ্রেসিভ ডায়েটের আগে চিকিৎসকের পরামর্শ নিন।'
+              : 'Your current settings result in a calorie target below the safe minimum. The app has automatically applied the safe floor. Please consult a doctor before following a very low calorie diet.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(bn ? 'বুঝলাম' : 'Understood'),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -265,6 +297,42 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               },
               onChanged: (v) => setState(() => _fitnessGoal = v),
             ),
+
+            if (_gender == 'female') ...[
+              const SizedBox(height: 24),
+              _SectionHeader(l10n.isBengali ? 'গর্ভাবস্থা / স্তন্যদান' : 'Pregnancy / Lactation'),
+              const SizedBox(height: 12),
+              DropdownButtonFormField<String?>(
+                value: _pregnancyStatus,
+                decoration: InputDecoration(
+                  labelText: l10n.isBengali ? 'অবস্থা' : 'Status',
+                  prefixIcon: const Icon(Icons.pregnant_woman_outlined),
+                ),
+                items: [
+                  DropdownMenuItem(
+                    value: null,
+                    child: Text(l10n.isBengali ? 'প্রযোজ্য নয়' : 'None / Not applicable'),
+                  ),
+                  DropdownMenuItem(
+                    value: 'pregnant_1st',
+                    child: Text(l10n.isBengali ? 'গর্ভাবস্থা — ১ম ত্রৈমাসিক' : 'Pregnant — 1st Trimester'),
+                  ),
+                  DropdownMenuItem(
+                    value: 'pregnant_2nd',
+                    child: Text(l10n.isBengali ? 'গর্ভাবস্থা — ২য় ত্রৈমাসিক' : 'Pregnant — 2nd Trimester'),
+                  ),
+                  DropdownMenuItem(
+                    value: 'pregnant_3rd',
+                    child: Text(l10n.isBengali ? 'গর্ভাবস্থা — ৩য় ত্রৈমাসিক' : 'Pregnant — 3rd Trimester'),
+                  ),
+                  DropdownMenuItem(
+                    value: 'lactating',
+                    child: Text(l10n.isBengali ? 'স্তন্যদান (বুকের দুধ)' : 'Lactating / Breastfeeding'),
+                  ),
+                ],
+                onChanged: (v) => setState(() => _pregnancyStatus = v),
+              ),
+            ],
 
             if (profile != null) ...[
               const SizedBox(height: 24),

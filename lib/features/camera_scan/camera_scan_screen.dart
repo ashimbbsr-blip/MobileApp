@@ -6,6 +6,7 @@ import '../../localization/app_localizations.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
+import '../../services/local_food_repository.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import 'providers/scan_provider.dart';
@@ -38,7 +39,6 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
     final state = ref.watch(scanProvider);
     final l10n = ref.watch(appStringsProvider);
 
-    // Show suggestion sheet exactly once when ML Kit returns results.
     ref.listen<ScanState>(scanProvider, (_, next) {
       if (next.phase == ScanPhase.done &&
           next.suggestions.isNotEmpty &&
@@ -46,7 +46,6 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
         _sheetShown = true;
         _showSuggestions(next.suggestions);
       }
-      // Re-arm for a fresh scan after the user retries.
       if (next.phase == ScanPhase.idle) _sheetShown = false;
     });
 
@@ -69,10 +68,7 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
     );
   }
 
-  // ── Body dispatcher ───────────────────────────────────────────────────────
-
-  Widget _buildBody(
-      BuildContext context, ScanState state, AppStrings l10n) {
+  Widget _buildBody(BuildContext context, ScanState state, AppStrings l10n) {
     return switch (state.phase) {
       ScanPhase.permissionDenied => _PermissionDeniedView(l10n: l10n),
       ScanPhase.error => _ErrorView(
@@ -83,7 +79,8 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
       ScanPhase.noResults => _NoResultsView(
           labels: state.detectedLabels,
           onRetry: _retry,
-          onManual: () => context.pop(),
+          mealType: widget.mealType,
+          onFoodAdded: () => context.pop(),
           l10n: l10n,
         ),
       ScanPhase.analyzing => _ScanReadyView(
@@ -113,11 +110,11 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
         suggestions: suggestions,
         initialMealType: widget.mealType,
         onFoodAdded: () {
-          Navigator.of(context).pop(); // close sheet
-          context.pop();              // close camera screen
+          Navigator.of(context).pop();
+          context.pop();
         },
         onRetry: () {
-          Navigator.of(context).pop(); // close sheet, return to scan
+          Navigator.of(context).pop();
           _retry();
         },
       ),
@@ -126,7 +123,7 @@ class _CameraScanScreenState extends ConsumerState<CameraScanScreen> {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Scan-ready view (camera button + tips)
+// Scan-ready view
 // ─────────────────────────────────────────────────────────────────────────────
 
 class _ScanReadyView extends StatelessWidget {
@@ -147,18 +144,14 @@ class _ScanReadyView extends StatelessWidget {
     return Stack(
       fit: StackFit.expand,
       children: [
-        // Background hint
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const SizedBox(height: 16),
-            // Viewfinder frame
-            _ViewfinderFrame(isAnalyzing: isAnalyzing),
+            _ViewfinderFrame(isAnalyzing: isAnalyzing, l10n: l10n),
             const SizedBox(height: 8),
-            // Tips
             _TipBanner(l10n: l10n),
             const SizedBox(height: 24),
-            // Shutter + manual search
             _BottomControls(
               isAnalyzing: isAnalyzing,
               onCapture: onCapture,
@@ -175,7 +168,8 @@ class _ScanReadyView extends StatelessWidget {
 
 class _ViewfinderFrame extends StatelessWidget {
   final bool isAnalyzing;
-  const _ViewfinderFrame({required this.isAnalyzing});
+  final AppStrings l10n;
+  const _ViewfinderFrame({required this.isAnalyzing, required this.l10n});
 
   @override
   Widget build(BuildContext context) {
@@ -186,7 +180,6 @@ class _ViewfinderFrame extends StatelessWidget {
       child: Stack(
         fit: StackFit.expand,
         children: [
-          // Darkened centre with rounded rect cutout
           Container(
             decoration: BoxDecoration(
               border: Border.all(
@@ -196,22 +189,20 @@ class _ViewfinderFrame extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
             ),
           ),
-          // Corner accents
           ..._corners(),
-          // Analysing spinner
           if (isAnalyzing)
-            const Center(
+            Center(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  CircularProgressIndicator(
+                  const CircularProgressIndicator(
                     color: AppColors.secondary,
                     strokeWidth: 2.5,
                   ),
-                  SizedBox(height: 16),
+                  const SizedBox(height: 16),
                   Text(
-                    'Analysing…',
-                    style: TextStyle(
+                    l10n.analysing,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
@@ -220,7 +211,6 @@ class _ViewfinderFrame extends StatelessWidget {
                 ],
               ),
             ),
-          // Food icon when idle
           if (!isAnalyzing)
             Center(
               child: Icon(
@@ -289,16 +279,16 @@ class _TipBanner extends StatelessWidget {
         color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
       ),
-      child: const Row(
+      child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(Icons.tips_and_updates_outlined,
+          const Icon(Icons.tips_and_updates_outlined,
               size: 18, color: AppColors.primary),
-          SizedBox(width: 8),
+          const SizedBox(width: 8),
           Flexible(
             child: Text(
-              'Place food in frame, then tap the button',
-              style: TextStyle(
+              l10n.scanTip,
+              style: const TextStyle(
                 color: Colors.white70,
                 fontSize: 13,
               ),
@@ -328,7 +318,6 @@ class _BottomControls extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        // Shutter button
         GestureDetector(
           onTap: isAnalyzing ? null : onCapture,
           child: AnimatedContainer(
@@ -356,7 +345,7 @@ class _BottomControls extends StatelessWidget {
         TextButton(
           onPressed: onManual,
           child: Text(
-            'Search manually instead',
+            l10n.searchManually,
             style: TextStyle(
               color: Colors.white.withValues(alpha: 0.6),
               fontSize: 13,
@@ -407,8 +396,8 @@ class _PermissionDeniedView extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.primary,
                 foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 28, vertical: 14),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 28, vertical: 14),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
               ),
@@ -453,7 +442,7 @@ class _ErrorView extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              message ?? 'Please try again.',
+              message ?? l10n.tryAgain,
               style: const TextStyle(color: Colors.white54, fontSize: 13),
               textAlign: TextAlign.center,
               maxLines: 3,
@@ -465,8 +454,8 @@ class _ErrorView extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.primary,
                 foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 28, vertical: 14),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 28, vertical: 14),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
               ),
@@ -481,74 +470,316 @@ class _ErrorView extends StatelessWidget {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// No-results view
+// No-results view — includes inline manual search
 // ─────────────────────────────────────────────────────────────────────────────
 
-class _NoResultsView extends StatelessWidget {
+// Labels we consider too generic to pre-populate the search field with.
+const _genericLabels = {
+  'food', 'dish', 'meal', 'ingredient', 'cuisine', 'recipe',
+  'tableware', 'plate', 'bowl', 'cup', 'glass', 'mug', 'container',
+  'table', 'kitchen', 'restaurant', 'dining',
+  'photography', 'still life', 'product', 'object', 'material',
+  'serving', 'portion', 'cooking', 'baking',
+  'yellow', 'red', 'green', 'brown', 'white', 'orange', 'golden',
+};
+
+class _NoResultsView extends ConsumerStatefulWidget {
   final List<String> labels;
   final VoidCallback onRetry;
-  final VoidCallback onManual;
+  final String mealType;
+  final VoidCallback onFoodAdded;
   final AppStrings l10n;
 
   const _NoResultsView({
     required this.labels,
     required this.onRetry,
-    required this.onManual,
+    required this.mealType,
+    required this.onFoodAdded,
     required this.l10n,
   });
 
   @override
+  ConsumerState<_NoResultsView> createState() => _NoResultsViewState();
+}
+
+class _NoResultsViewState extends ConsumerState<_NoResultsView> {
+  late final TextEditingController _searchCtrl;
+  List<FoodItem> _searchResults = [];
+  FoodItem? _selected;
+  late String _mealType;
+
+  // Portion state
+  double _multiplier = 1.0;
+  bool _useCustom = false;
+  final _customCtrl = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    _mealType = widget.mealType;
+
+    // Pre-populate with the first 1-2 meaningful detected labels.
+    final meaningful = widget.labels
+        .map((l) => l.toLowerCase().trim())
+        .where((l) => l.isNotEmpty && !_genericLabels.contains(l))
+        .take(2)
+        .toList();
+    final initialQuery = meaningful.join(' ');
+    _searchCtrl = TextEditingController(text: initialQuery);
+
+    if (initialQuery.isNotEmpty) {
+      _runSearch(initialQuery);
+    }
+  }
+
+  @override
+  void dispose() {
+    _searchCtrl.dispose();
+    _customCtrl.dispose();
+    super.dispose();
+  }
+
+  void _runSearch(String q) {
+    final results = LocalFoodRepository.search(q.trim(), limit: 8);
+    setState(() {
+      _searchResults = results;
+      _selected = null;
+      _multiplier = 1.0;
+      _useCustom = false;
+      _customCtrl.clear();
+    });
+  }
+
+  double get _quantityG {
+    if (_selected == null) return 0;
+    if (_useCustom) {
+      return double.tryParse(_customCtrl.text) ?? _selected!.servingSize;
+    }
+    return (_selected!.servingSize * _multiplier).roundToDouble();
+  }
+
+  double get _scaledCalories {
+    if (_selected == null) return 0;
+    return _selected!.calories * (_quantityG / _selected!.servingSize);
+  }
+
+  Future<void> _addFood() async {
+    if (_selected == null) return;
+    final qty = _quantityG;
+    if (qty <= 0) return;
+    await ref
+        .read(mealProvider.notifier)
+        .addFood(_selected!, _mealType, qty);
+    ref.read(dashboardProvider.notifier).refresh();
+    widget.onFoodAdded();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(40),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const Icon(Icons.image_search_outlined,
-                size: 64, color: Colors.white38),
-            const SizedBox(height: 20),
-            const Text(
-              'Food not identified',
-              style: TextStyle(
+    final l10n = widget.l10n;
+    final theme = Theme.of(context);
+
+    final meals = [
+      ('breakfast', l10n.breakfast, Icons.wb_sunny_outlined),
+      ('lunch', l10n.lunch, Icons.lunch_dining_outlined),
+      ('dinner', l10n.dinner, Icons.dinner_dining_outlined),
+      ('snack', l10n.snack, Icons.cookie_outlined),
+    ];
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(24, 24, 24, 40),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Header
+          const Center(
+            child: Icon(Icons.image_search_outlined,
+                size: 56, color: Colors.white38),
+          ),
+          const SizedBox(height: 16),
+          Center(
+            child: Text(
+              l10n.foodNotIdentified,
+              style: const TextStyle(
                 color: Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
               ),
             ),
-            const SizedBox(height: 8),
-            const Text(
-              'Try better lighting, closer framing, or search manually.',
-              style: TextStyle(color: Colors.white54, fontSize: 13),
+          ),
+          const SizedBox(height: 6),
+          Center(
+            child: Text(
+              l10n.tryBetterLighting,
+              style: const TextStyle(color: Colors.white54, fontSize: 13),
               textAlign: TextAlign.center,
             ),
-            if (labels.isNotEmpty) ...[
-              const SizedBox(height: 16),
-              _DetectedLabelChips(labels: labels),
-            ],
-            const SizedBox(height: 28),
-            ElevatedButton.icon(
-              onPressed: onRetry,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primary,
-                foregroundColor: Colors.white,
-                minimumSize: const Size(200, 48),
+          ),
+          if (widget.labels.isNotEmpty) ...[
+            const SizedBox(height: 14),
+            _DetectedLabelChips(labels: widget.labels),
+          ],
+          const SizedBox(height: 20),
+
+          // Retry button
+          Center(
+            child: OutlinedButton.icon(
+              onPressed: widget.onRetry,
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.white70,
+                side: const BorderSide(color: Colors.white24),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 20, vertical: 10),
               ),
-              icon: const Icon(Icons.camera_alt),
-              label: const Text('Take another photo'),
+              icon: const Icon(Icons.camera_alt_outlined, size: 16),
+              label: Text(l10n.takeAnotherPhoto),
             ),
-            const SizedBox(height: 12),
-            TextButton(
-              onPressed: onManual,
-              child: const Text(
-                'Search manually instead',
-                style: TextStyle(color: Colors.white54),
+          ),
+          const SizedBox(height: 28),
+
+          // Search section
+          Text(
+            l10n.searchFood,
+            style: theme.textTheme.titleSmall?.copyWith(
+              color: Colors.white,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          const SizedBox(height: 8),
+          TextField(
+            controller: _searchCtrl,
+            onChanged: _runSearch,
+            style: const TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              hintText: l10n.searchFoodHint,
+              hintStyle: const TextStyle(color: Colors.white38),
+              prefixIcon:
+                  const Icon(Icons.search, color: Colors.white38),
+              filled: true,
+              fillColor: Colors.white.withValues(alpha: 0.08),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide.none,
+              ),
+              contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 16, vertical: 12),
+            ),
+          ),
+
+          // Search results
+          if (_searchResults.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            ..._searchResults.map((food) {
+              final isSelected = _selected?.id == food.id;
+              final lang = l10n.language;
+              return _FoodSuggestionTile(
+                food: food,
+                isSelected: isSelected,
+                lang: lang,
+                onTap: () => setState(() {
+                  _selected = food;
+                  _multiplier = 1.0;
+                  _useCustom = false;
+                  _customCtrl.clear();
+                }),
+              );
+            }),
+          ] else if (_searchCtrl.text.trim().isNotEmpty) ...[
+            const SizedBox(height: 16),
+            Center(
+              child: Text(
+                l10n.noResults,
+                style: const TextStyle(color: Colors.white38, fontSize: 13),
               ),
             ),
           ],
-        ),
+
+          // Meal type + portion + confirm — shown once a food is selected
+          if (_selected != null) ...[
+            const SizedBox(height: 20),
+            const Divider(color: Colors.white12),
+            const SizedBox(height: 12),
+
+            // Meal type chips
+            Text(
+              l10n.addTo,
+              style: theme.textTheme.titleSmall?.copyWith(
+                color: Colors.white,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            const SizedBox(height: 8),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: meals.map((m) {
+                  final active = m.$1 == _mealType;
+                  return Padding(
+                    padding: const EdgeInsets.only(right: 8),
+                    child: ChoiceChip(
+                      avatar: Icon(m.$3,
+                          size: 16,
+                          color: active ? Colors.white : AppColors.primary),
+                      label: Text(m.$2),
+                      selected: active,
+                      selectedColor: AppColors.primary,
+                      labelStyle: TextStyle(
+                        color: active ? Colors.white : null,
+                        fontSize: 12,
+                      ),
+                      visualDensity: VisualDensity.compact,
+                      onSelected: (_) =>
+                          setState(() => _mealType = m.$1),
+                    ),
+                  );
+                }).toList(),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Portion selector
+            _PortionSelector(
+              food: _selected!,
+              multiplier: _multiplier,
+              useCustom: _useCustom,
+              customCtrl: _customCtrl,
+              scaledCalories: _scaledCalories,
+              quantityG: _quantityG,
+              l10n: l10n,
+              onMultiplierChanged: (m) => setState(() {
+                _multiplier = m;
+                _useCustom = false;
+                _customCtrl.clear();
+              }),
+              onCustomSelected: () => setState(() => _useCustom = true),
+              onCustomChanged: (_) => setState(() {}),
+            ),
+            const SizedBox(height: 16),
+
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                onPressed: _addFood,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.primary,
+                  foregroundColor: Colors.white,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 14),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14)),
+                ),
+                icon: const Icon(Icons.add_circle_outline),
+                label: Text(
+                  '${l10n.addToMeal}  •  '
+                  '${_scaledCalories.toStringAsFixed(0)} kcal',
+                  style: const TextStyle(fontWeight: FontWeight.w600),
+                ),
+              ),
+            ),
+          ],
+        ],
       ),
     );
   }
@@ -566,8 +797,7 @@ class _DetectedLabelChips extends StatelessWidget {
       alignment: WrapAlignment.center,
       children: labels.take(6).map((l) {
         return Container(
-          padding:
-              const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
           decoration: BoxDecoration(
             color: Colors.white.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(20),
@@ -609,10 +839,14 @@ class _FoodSuggestionSheetState
   FoodItem? _selected;
   String _mealType = 'snack';
 
-  // Portion state
-  double _multiplier = 1.0;   // 1.0 = one base serving
+  double _multiplier = 1.0;
   bool _useCustom = false;
   final _customCtrl = TextEditingController();
+
+  // Inline search state
+  bool _searchExpanded = false;
+  final _searchCtrl = TextEditingController();
+  List<FoodItem> _searchResults = [];
 
   @override
   void initState() {
@@ -623,6 +857,7 @@ class _FoodSuggestionSheetState
   @override
   void dispose() {
     _customCtrl.dispose();
+    _searchCtrl.dispose();
     super.dispose();
   }
 
@@ -643,10 +878,23 @@ class _FoodSuggestionSheetState
     if (_selected == null) return;
     final qty = _quantityG;
     if (qty <= 0) return;
-
     await ref.read(mealProvider.notifier).addFood(_selected!, _mealType, qty);
     ref.read(dashboardProvider.notifier).refresh();
     widget.onFoodAdded();
+  }
+
+  void _selectFood(FoodItem food) {
+    setState(() {
+      _selected = food;
+      _multiplier = 1.0;
+      _useCustom = false;
+      _customCtrl.clear();
+    });
+  }
+
+  void _runSearch(String q) {
+    final results = LocalFoodRepository.search(q.trim(), limit: 8);
+    setState(() => _searchResults = results);
   }
 
   @override
@@ -674,9 +922,7 @@ class _FoodSuggestionSheetState
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Handle
               const _SheetHandle(),
-              // Header
               _SheetHeader(
                 mealType: _mealType,
                 onMealTypeChanged: (m) => setState(() => _mealType = m),
@@ -684,37 +930,47 @@ class _FoodSuggestionSheetState
                 theme: theme,
               ),
               const Divider(height: 1),
-              // Scrollable body
               Expanded(
                 child: ListView(
                   controller: scrollCtrl,
                   padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
                   children: [
-                    // Food suggestion tiles
+                    // Suggestion tiles from ML Kit
                     ...widget.suggestions.map((food) {
                       final isSelected = _selected?.id == food.id;
                       return _FoodSuggestionTile(
                         food: food,
                         isSelected: isSelected,
                         lang: l10n.language,
-                        onTap: () => setState(() {
-                          _selected = food;
-                          _multiplier = 1.0;
-                          _useCustom = false;
-                          _customCtrl.clear();
-                        }),
+                        onTap: () => _selectFood(food),
                       );
                     }),
-                    // Retry if user doesn't see their food
+
+                    // Retry button
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4),
                       child: TextButton.icon(
                         onPressed: widget.onRetry,
                         icon: const Icon(Icons.camera_alt_outlined, size: 16),
-                        label: const Text('Take another photo'),
+                        label: Text(l10n.takeAnotherPhoto),
                       ),
                     ),
-                    // Portion selector — shown only after selection
+
+                    // Collapsible inline search section
+                    _InlineSearchSection(
+                      expanded: _searchExpanded,
+                      searchCtrl: _searchCtrl,
+                      searchResults: _searchResults,
+                      selected: _selected,
+                      lang: l10n.language,
+                      l10n: l10n,
+                      onToggle: () => setState(
+                          () => _searchExpanded = !_searchExpanded),
+                      onSearch: _runSearch,
+                      onFoodSelected: _selectFood,
+                    ),
+
+                    // Portion selector + confirm
                     if (_selected != null) ...[
                       const Divider(),
                       _PortionSelector(
@@ -724,6 +980,7 @@ class _FoodSuggestionSheetState
                         customCtrl: _customCtrl,
                         scaledCalories: _scaledCalories,
                         quantityG: _quantityG,
+                        l10n: l10n,
                         onMultiplierChanged: (m) => setState(() {
                           _multiplier = m;
                           _useCustom = false;
@@ -741,7 +998,8 @@ class _FoodSuggestionSheetState
                           style: ElevatedButton.styleFrom(
                             backgroundColor: AppColors.primary,
                             foregroundColor: Colors.white,
-                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            padding:
+                                const EdgeInsets.symmetric(vertical: 14),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(14),
                             ),
@@ -750,7 +1008,8 @@ class _FoodSuggestionSheetState
                           label: Text(
                             '${l10n.addToMeal}  •  '
                             '${_scaledCalories.toStringAsFixed(0)} kcal',
-                            style: const TextStyle(fontWeight: FontWeight.w600),
+                            style: const TextStyle(
+                                fontWeight: FontWeight.w600),
                           ),
                         ),
                       ),
@@ -762,6 +1021,117 @@ class _FoodSuggestionSheetState
           ),
         );
       },
+    );
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Inline search section (collapsible, used inside suggestion sheet)
+// ─────────────────────────────────────────────────────────────────────────────
+
+class _InlineSearchSection extends StatelessWidget {
+  final bool expanded;
+  final TextEditingController searchCtrl;
+  final List<FoodItem> searchResults;
+  final FoodItem? selected;
+  final String lang;
+  final AppStrings l10n;
+  final VoidCallback onToggle;
+  final ValueChanged<String> onSearch;
+  final ValueChanged<FoodItem> onFoodSelected;
+
+  const _InlineSearchSection({
+    required this.expanded,
+    required this.searchCtrl,
+    required this.searchResults,
+    required this.selected,
+    required this.lang,
+    required this.l10n,
+    required this.onToggle,
+    required this.onSearch,
+    required this.onFoodSelected,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Tappable header that expands/collapses the section
+        InkWell(
+          onTap: onToggle,
+          borderRadius: BorderRadius.circular(10),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: Row(
+              children: [
+                const Icon(Icons.search,
+                    size: 18, color: AppColors.primary),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    l10n.notYourFood,
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: AppColors.primary,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+                Icon(
+                  expanded
+                      ? Icons.keyboard_arrow_up
+                      : Icons.keyboard_arrow_down,
+                  color: AppColors.primary,
+                  size: 20,
+                ),
+              ],
+            ),
+          ),
+        ),
+
+        if (expanded) ...[
+          const SizedBox(height: 6),
+          TextField(
+            controller: searchCtrl,
+            onChanged: onSearch,
+            decoration: InputDecoration(
+              hintText: l10n.searchHintSheet,
+              prefixIcon:
+                  const Icon(Icons.search, size: 18),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              isDense: true,
+              contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 14, vertical: 10),
+            ),
+          ),
+          if (searchResults.isNotEmpty) ...[
+            const SizedBox(height: 4),
+            ...searchResults.map((food) {
+              final isSelected = selected?.id == food.id;
+              return _FoodSuggestionTile(
+                food: food,
+                isSelected: isSelected,
+                lang: lang,
+                onTap: () => onFoodSelected(food),
+              );
+            }),
+          ] else if (searchCtrl.text.trim().isNotEmpty) ...[
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              child: Center(
+                child: Text(
+                  l10n.noResults,
+                  style: const TextStyle(color: Colors.grey, fontSize: 13),
+                ),
+              ),
+            ),
+          ],
+        ],
+      ],
     );
   }
 }
@@ -816,17 +1186,17 @@ class _SheetHeader extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Icon(Icons.restaurant, color: AppColors.primary, size: 20),
+              const Icon(Icons.restaurant,
+                  color: AppColors.primary, size: 20),
               const SizedBox(width: 8),
               Text(
-                'Did you eat:',
+                l10n.didYouEat,
                 style: theme.textTheme.titleMedium
                     ?.copyWith(fontWeight: FontWeight.w700),
               ),
             ],
           ),
           const SizedBox(height: 10),
-          // Meal type chips
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(
@@ -837,7 +1207,8 @@ class _SheetHeader extends StatelessWidget {
                   child: ChoiceChip(
                     avatar: Icon(m.$3,
                         size: 16,
-                        color: active ? Colors.white : AppColors.primary),
+                        color:
+                            active ? Colors.white : AppColors.primary),
                     label: Text(m.$2),
                     selected: active,
                     selectedColor: AppColors.primary,
@@ -875,9 +1246,10 @@ class _FoodSuggestionTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final displayName = food.displayName(lang);
-    final subName = lang != 'bn' && food.nameBn != null && food.nameBn!.isNotEmpty
-        ? food.nameBn!
-        : null;
+    final subName =
+        lang != 'bn' && food.nameBn != null && food.nameBn!.isNotEmpty
+            ? food.nameBn!
+            : null;
 
     return AnimatedContainer(
       duration: const Duration(milliseconds: 180),
@@ -885,7 +1257,8 @@ class _FoodSuggestionTile extends StatelessWidget {
       decoration: BoxDecoration(
         color: isSelected
             ? AppColors.primary.withValues(alpha: 0.1)
-            : theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.4),
+            : theme.colorScheme.surfaceContainerHighest
+                .withValues(alpha: 0.4),
         borderRadius: BorderRadius.circular(14),
         border: Border.all(
           color: isSelected ? AppColors.primary : Colors.transparent,
@@ -939,7 +1312,9 @@ class _FoodSuggestionTile extends StatelessWidget {
             ),
             const SizedBox(width: 6),
             Icon(
-              isSelected ? Icons.check_circle : Icons.radio_button_unchecked,
+              isSelected
+                  ? Icons.check_circle
+                  : Icons.radio_button_unchecked,
               color: isSelected ? AppColors.primary : Colors.grey.shade400,
               size: 22,
             ),
@@ -981,6 +1356,7 @@ class _PortionSelector extends StatelessWidget {
   final ValueChanged<double> onMultiplierChanged;
   final VoidCallback onCustomSelected;
   final ValueChanged<String> onCustomChanged;
+  final AppStrings l10n;
 
   const _PortionSelector({
     required this.food,
@@ -992,18 +1368,18 @@ class _PortionSelector extends StatelessWidget {
     required this.onMultiplierChanged,
     required this.onCustomSelected,
     required this.onCustomChanged,
+    required this.l10n,
   });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    // Predefined serving multiples with user-friendly labels
-    const portions = [
-      (0.5, 'Small', '½ serv'),
-      (1.0, 'Medium', '1 serv'),
-      (1.5, 'Large', '1½ serv'),
-      (2.0, 'XL', '2 serv'),
+    final portions = [
+      (0.5, l10n.portionSmall, '½ serv'),
+      (1.0, l10n.portionMedium, '1 serv'),
+      (1.5, l10n.portionLarge, '1½ serv'),
+      (2.0, l10n.portionXl, '2 serv'),
     ];
 
     return Column(
@@ -1011,20 +1387,18 @@ class _PortionSelector extends StatelessWidget {
       children: [
         const SizedBox(height: 12),
         Text(
-          'How much?',
-          style: theme.textTheme.titleSmall
-              ?.copyWith(fontWeight: FontWeight.w700),
+          l10n.howMuch,
+          style:
+              theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700),
         ),
         const SizedBox(height: 8),
-        // Serving chips
         Wrap(
           spacing: 8,
           runSpacing: 8,
           children: [
             ...portions.map((p) {
               final active = !useCustom && multiplier == p.$1;
-              final grams =
-                  (food.servingSize * p.$1).roundToDouble();
+              final grams = (food.servingSize * p.$1).roundToDouble();
               return _PortionChip(
                 label: p.$2,
                 sublabel: '${grams.toStringAsFixed(0)}g',
@@ -1032,36 +1406,35 @@ class _PortionSelector extends StatelessWidget {
                 onTap: () => onMultiplierChanged(p.$1),
               );
             }),
-            // Custom chip
             _PortionChip(
-              label: 'Custom',
-              sublabel: useCustom ? '${quantityG.toStringAsFixed(0)}g' : '',
+              label: l10n.portionCustom,
+              sublabel:
+                  useCustom ? '${quantityG.toStringAsFixed(0)}g' : '',
               active: useCustom,
               onTap: onCustomSelected,
             ),
           ],
         ),
-        // Custom text field — shown when custom is selected
         if (useCustom) ...[
           const SizedBox(height: 10),
           TextField(
             controller: customCtrl,
-            keyboardType: const TextInputType.numberWithOptions(decimal: true),
+            keyboardType:
+                const TextInputType.numberWithOptions(decimal: true),
             autofocus: true,
             onChanged: onCustomChanged,
             decoration: InputDecoration(
-              labelText: 'Enter grams',
+              labelText: l10n.enterGrams,
               suffixText: 'g',
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
               isDense: true,
-              contentPadding:
-                  const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 14, vertical: 10),
             ),
           ),
         ],
-        // Live nutrition preview
         const SizedBox(height: 10),
         _NutritionPreview(food: food, quantityG: quantityG),
       ],
@@ -1088,15 +1461,16 @@ class _PortionChip extends StatelessWidget {
       onTap: onTap,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 150),
-        padding:
-            const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
         decoration: BoxDecoration(
           color: active
               ? AppColors.primary
               : AppColors.primary.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(10),
           border: Border.all(
-            color: active ? AppColors.primary : AppColors.primary.withValues(alpha: 0.3),
+            color: active
+                ? AppColors.primary
+                : AppColors.primary.withValues(alpha: 0.3),
           ),
         ),
         child: Column(
@@ -1147,9 +1521,12 @@ class _NutritionPreview extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          _MacroPill('Cal', f.calories.toStringAsFixed(0), AppColors.calories),
-          _MacroPill('P', '${f.proteinG.toStringAsFixed(1)}g', AppColors.protein),
-          _MacroPill('C', '${f.carbsG.toStringAsFixed(1)}g', AppColors.carbs),
+          _MacroPill(
+              'Cal', f.calories.toStringAsFixed(0), AppColors.calories),
+          _MacroPill(
+              'P', '${f.proteinG.toStringAsFixed(1)}g', AppColors.protein),
+          _MacroPill(
+              'C', '${f.carbsG.toStringAsFixed(1)}g', AppColors.carbs),
           _MacroPill('F', '${f.fatG.toStringAsFixed(1)}g', AppColors.fat),
         ],
       ),

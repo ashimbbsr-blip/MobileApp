@@ -3,17 +3,13 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:google_mlkit_image_labeling/google_mlkit_image_labeling.dart';
 import 'package:path_provider/path_provider.dart';
 
-/// Compresses a captured image and runs Google ML Kit Image Labeling on it.
-/// All processing is local — no network calls are made.
 class ImageLabelService {
-  static const _confidenceThreshold = 0.40;
+  static const _confidenceThreshold = 0.30;
+  static const _lowConfidenceThreshold = 0.20;
   static const _jpegQuality = 72;
-  // Target longest-edge dimension after compression (keeps RAM low).
-  static const _maxDimension = 640;
+  static const _maxDimension = 800;
+  static const _maxLowConfidenceLabels = 5;
 
-  /// Returns a list of label strings sorted by confidence (highest first).
-  /// May return an empty list if the model cannot identify anything above
-  /// [_confidenceThreshold].
   static Future<List<String>> labelsFromFile(String originalPath) async {
     String pathToProcess = originalPath;
 
@@ -26,8 +22,6 @@ class ImageLabelService {
 
     return _runLabeling(pathToProcess);
   }
-
-  // ── Private helpers ───────────────────────────────────────────────────────
 
   static Future<String?> _compress(String srcPath) async {
     final dir = await getTemporaryDirectory();
@@ -45,21 +39,40 @@ class ImageLabelService {
   }
 
   static Future<List<String>> _runLabeling(String imagePath) async {
-    final options = ImageLabelerOptions(
+    final inputImage = InputImage.fromFilePath(imagePath);
+
+    final highOptions = ImageLabelerOptions(
       confidenceThreshold: _confidenceThreshold,
     );
-    final labeler = ImageLabeler(options: options);
+    final highLabeler = ImageLabeler(options: highOptions);
+
+    final lowOptions = ImageLabelerOptions(
+      confidenceThreshold: _lowConfidenceThreshold,
+    );
+    final lowLabeler = ImageLabeler(options: lowOptions);
 
     try {
-      final inputImage = InputImage.fromFilePath(imagePath);
-      final results = await labeler.processImage(inputImage);
+      final highResults = await highLabeler.processImage(inputImage);
+      highResults.sort((a, b) => b.confidence.compareTo(a.confidence));
 
-      // Sort by confidence descending so the matcher weights early labels higher.
-      results.sort((a, b) => b.confidence.compareTo(a.confidence));
+      final highLabels = highResults.map((l) => l.label).toList();
+      final highLabelSet = highLabels.toSet();
 
-      return results.map((l) => l.label).toList();
+      final lowResults = await lowLabeler.processImage(inputImage);
+      lowResults.sort((a, b) => b.confidence.compareTo(a.confidence));
+
+      // Append low-confidence labels not captured by the first pass.
+      // The matcher weights them lower by virtue of positional index.
+      final lowOnly = lowResults
+          .where((l) => !highLabelSet.contains(l.label))
+          .take(_maxLowConfidenceLabels)
+          .map((l) => l.label)
+          .toList();
+
+      return [...highLabels, ...lowOnly];
     } finally {
-      await labeler.close();
+      await highLabeler.close();
+      await lowLabeler.close();
     }
   }
 }

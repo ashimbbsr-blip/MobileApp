@@ -6,6 +6,7 @@ import '../../theme/app_colors.dart';
 import '../../models/meal_entry.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../dashboard/providers/dashboard_provider.dart';
+import '../../core/utils/meal_time_utils.dart';
 
 class MealLogScreen extends ConsumerWidget {
   const MealLogScreen({super.key});
@@ -93,7 +94,7 @@ class MealLogScreen extends ConsumerWidget {
             ),
           IconButton(
             icon: const Icon(Icons.camera_alt_outlined),
-            onPressed: () => context.push('/camera', extra: 'snack'),
+            onPressed: () => context.push('/camera', extra: mealTypeForNow()),
           ),
         ],
       ),
@@ -110,7 +111,7 @@ class MealLogScreen extends ConsumerWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => context.push('/meals/add', extra: 'snack'),
+        onPressed: () => context.push('/meals/add', extra: mealTypeForNow()),
         backgroundColor: AppColors.primary,
         foregroundColor: Colors.white,
         icon: const Icon(Icons.add),
@@ -254,6 +255,15 @@ class _EntryTile extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final isBn = ref.watch(appStringsProvider).isBengali;
+    final qg = entry.quantityG.toStringAsFixed(0);
+    final p = entry.proteinG.toStringAsFixed(1);
+    final c = entry.carbsG.toStringAsFixed(1);
+    final f = entry.fatG.toStringAsFixed(1);
+    final macroSubtitle = isBn
+        ? '${qg}গ্রা | প্রো: ${p}গ | কার্ব: ${c}গ | ফ্যা: ${f}গ'
+        : '${qg}g | P: ${p}g | C: ${c}g | F: ${f}g';
+
     return Dismissible(
       key: Key(entry.id),
       direction: DismissDirection.endToStart,
@@ -276,7 +286,7 @@ class _EntryTile extends ConsumerWidget {
           overflow: TextOverflow.ellipsis,
         ),
         subtitle: Text(
-          '${entry.quantityG.toStringAsFixed(0)}g | P: ${entry.proteinG.toStringAsFixed(1)}g | C: ${entry.carbsG.toStringAsFixed(1)}g | F: ${entry.fatG.toStringAsFixed(1)}g',
+          macroSubtitle,
           style: Theme.of(context).textTheme.bodySmall,
         ),
         trailing: Row(

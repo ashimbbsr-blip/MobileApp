@@ -1,8 +1,8 @@
 name: infinity_health_tracker
 description: Infinity Health Tracker - Better Health Every Day. A bilingual AI nutrition tracking app.
 publish_to: 'none'
-version: 1.0.0+1
-# Display version: 1.0
+version: 1.1.0+2
+# Display version: 1.1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -49,6 +49,10 @@ dependencies:
   permission_handler: ^11.3.1
   shimmer: ^3.0.0
   url_launcher: ^6.3.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
 
 dev_dependencies:
   flutter_test:

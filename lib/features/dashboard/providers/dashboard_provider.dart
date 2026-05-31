@@ -12,12 +12,14 @@ class DashboardState {
   final NutritionGoals? goals;
   final List<MealEntry> todaysMeals;
   final String selectedDateKey;
+  final double waterIntakeMl;
 
   const DashboardState({
     this.userProfile,
     this.goals,
     this.todaysMeals = const [],
     required this.selectedDateKey,
+    this.waterIntakeMl = 0,
   });
 
   double get totalCalories => todaysMeals.fold(0, (sum, m) => sum + m.calories);
@@ -54,12 +56,14 @@ class DashboardState {
     NutritionGoals? goals,
     List<MealEntry>? todaysMeals,
     String? selectedDateKey,
+    double? waterIntakeMl,
   }) {
     return DashboardState(
       userProfile: userProfile ?? this.userProfile,
       goals: goals ?? this.goals,
       todaysMeals: todaysMeals ?? this.todaysMeals,
       selectedDateKey: selectedDateKey ?? this.selectedDateKey,
+      waterIntakeMl: waterIntakeMl ?? this.waterIntakeMl,
     );
   }
 }
@@ -74,10 +78,12 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
     final profile = HiveStorage.getUserProfile();
     final goals = profile != null ? NutritionCalculator.calculate(profile) : null;
     final meals = HiveStorage.getMealsForDate(state.selectedDateKey);
+    final water = HiveStorage.getWaterMl(state.selectedDateKey);
     state = state.copyWith(
       userProfile: profile,
       goals: goals,
       todaysMeals: meals,
+      waterIntakeMl: water,
     );
   }
 
@@ -86,6 +92,18 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
   void selectDate(DateTime date) {
     state = state.copyWith(selectedDateKey: date.toLogKey());
     _loadData();
+  }
+
+  Future<void> addWater(double ml) async {
+    final newTotal = (state.waterIntakeMl + ml).clamp(0.0, 5000.0);
+    await HiveStorage.saveWaterMl(state.selectedDateKey, newTotal);
+    state = state.copyWith(waterIntakeMl: newTotal);
+  }
+
+  Future<void> setWater(double ml) async {
+    final clamped = ml.clamp(0.0, 5000.0);
+    await HiveStorage.saveWaterMl(state.selectedDateKey, clamped);
+    state = state.copyWith(waterIntakeMl: clamped);
   }
 }
 

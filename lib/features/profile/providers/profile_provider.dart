@@ -95,6 +95,8 @@ class ProfileNotifier extends StateNotifier<ProfileState> {
     required double weightKg,
     required String activityLevel,
     required String fitnessGoal,
+    String? pregnancyStatus,
+    bool clearPregnancyStatus = false,
   }) async {
     if (state.profile == null) return false;
     state = state.copyWith(isSaving: true, isSaved: false, clearError: true);
@@ -109,6 +111,8 @@ class ProfileNotifier extends StateNotifier<ProfileState> {
         activityLevel: activityLevel,
         fitnessGoal: fitnessGoal,
         age: dateOfBirth != null ? _ageFromDob(dateOfBirth) : state.profile!.age,
+        pregnancyStatus: pregnancyStatus,
+        clearPregnancyStatus: clearPregnancyStatus,
       );
       await HiveStorage.saveUserProfile(updated);
       state = state.copyWith(profile: updated, isSaving: false, isSaved: true);

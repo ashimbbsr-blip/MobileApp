@@ -200,19 +200,24 @@ class HiveStorage {
     return stored.policyVersion != AppConstants.currentPolicyVersion;
   }
 
-  // ── API Key ──────────────────────────────────────────────────────────────
+  // ── Notification Settings ────────────────────────────────────────────────
 
-  static String? getApiKey() =>
-      settingsBox.get(AppConstants.keyApiKey) as String?;
+  static bool get notificationEnabled =>
+      settingsBox.get(AppConstants.keyNotifEnabled, defaultValue: true) as bool;
 
-  static Future<void> saveApiKey(String key) async =>
-      settingsBox.put(AppConstants.keyApiKey, key);
+  static int get notificationHour =>
+      settingsBox.get(AppConstants.keyNotifHour, defaultValue: 18) as int;
 
-  static Future<void> removeApiKey() async =>
-      settingsBox.delete(AppConstants.keyApiKey);
+  static int get notificationMinute =>
+      settingsBox.get(AppConstants.keyNotifMinute, defaultValue: 0) as int;
 
-  static bool get hasApiKey =>
-      settingsBox.containsKey(AppConstants.keyApiKey);
+  static Future<void> setNotificationEnabled(bool enabled) =>
+      settingsBox.put(AppConstants.keyNotifEnabled, enabled);
+
+  static Future<void> setNotificationTime(int hour, int minute) async {
+    await settingsBox.put(AppConstants.keyNotifHour, hour);
+    await settingsBox.put(AppConstants.keyNotifMinute, minute);
+  }
 
   // ── Reset ─────────────────────────────────────────────────────────────────
 
@@ -241,6 +246,14 @@ class HiveStorage {
   static Future<void> setLocalDatasetLoaded() async {
     await settingsBox.put(AppConstants.keyLocalDatasetLoaded, true);
   }
+
+  // ── Water Intake (per-day, stored in settingsBox) ────────────────────────
+
+  static double getWaterMl(String dateKey) =>
+      (settingsBox.get('water_$dateKey', defaultValue: 0.0) as num).toDouble();
+
+  static Future<void> saveWaterMl(String dateKey, double ml) async =>
+      settingsBox.put('water_$dateKey', ml.clamp(0, 5000));
 
   static Future<void> resetAllData() async {
     await userBox.clear();

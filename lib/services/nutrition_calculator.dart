@@ -11,7 +11,7 @@ class NutritionCalculator {
     final calories = baseCalories + pregnancyBonus;
     final calorieFloor = profile.gender == 'male' ? 1500.0 : 1200.0;
 
-    final protein = _calculateProtein(profile.weightKg, profile.fitnessGoal);
+    final protein = _calculateProtein(profile.weightKg, profile.fitnessGoal, profile.activityLevel);
     final fat = _calculateFat(calories);
     final remainingCalories = calories - (protein * NutritionConstants.proteinCaloriesPerGram) - (fat * NutritionConstants.fatCaloriesPerGram);
     final carbs = remainingCalories / NutritionConstants.carbCaloriesPerGram;
@@ -30,11 +30,12 @@ class NutritionCalculator {
   }
 
   static double _calculateBMR(UserProfile profile) {
-    // Mifflin-St Jeor Equation
+    // Mifflin-St Jeor Equation — use computedAge (from DOB) when available
+    final age = profile.computedAge;
     if (profile.gender == 'male') {
-      return (10 * profile.weightKg) + (6.25 * profile.heightCm) - (5 * profile.age) + 5;
+      return (10 * profile.weightKg) + (6.25 * profile.heightCm) - (5 * age) + 5;
     } else {
-      return (10 * profile.weightKg) + (6.25 * profile.heightCm) - (5 * profile.age) - 161;
+      return (10 * profile.weightKg) + (6.25 * profile.heightCm) - (5 * age) - 161;
     }
   }
 
@@ -51,15 +52,22 @@ class NutritionCalculator {
     }
   }
 
-  static double _calculateProtein(double weightKg, String goal) {
+  // Protein targets aligned with ICMR 2020 for sedentary/maintenance;
+  // higher values for active/goal-specific use (still evidence-based).
+  static double _calculateProtein(double weightKg, String goal, String activityLevel) {
     switch (goal) {
       case 'gain_muscle':
-        return weightKg * 2.2; // 2.2g per kg for muscle gain
+        return weightKg * 1.8;
       case 'lose_weight':
       case 'healthy_fat_loss':
-        return weightKg * 2.0; // Higher protein to preserve muscle during deficit
-      default:
-        return weightKg * 1.6; // 1.6g per kg for maintenance
+        return weightKg * 1.4;
+      default: // maintain
+        switch (activityLevel) {
+          case 'sedentary':      return weightKg * 0.83; // ICMR 2020 RDA
+          case 'lightly_active': return weightKg * 1.0;
+          case 'moderately_active': return weightKg * 1.2;
+          default:               return weightKg * 1.6;  // very/extra active
+        }
     }
   }
 
@@ -94,11 +102,24 @@ class NutritionCalculator {
     return weightKg / (heightM * heightM);
   }
 
+  // WHO 2004 / ICMR South Asian BMI cutoffs (lower thresholds than Western norms)
   static String bmiCategory(double bmi) {
     if (bmi < 18.5) return 'Underweight';
-    if (bmi < 25) return 'Normal weight';
-    if (bmi < 30) return 'Overweight';
+    if (bmi < 23.0) return 'Normal';
+    if (bmi < 27.5) return 'Overweight';
     return 'Obese';
+  }
+
+  /// Returns true when the calorie target is clamped to the safe floor
+  /// (1500 kcal for males, 1200 kcal for females). Used to show a
+  /// doctor-consultation prompt in the UI.
+  static bool isAtCalorieFloor(UserProfile profile) {
+    final bmr = _calculateBMR(profile);
+    final tdee = bmr * (NutritionConstants.activityMultipliers[profile.activityLevel] ?? 1.55);
+    final base = _adjustForGoal(tdee, profile.fitnessGoal);
+    final bonus = _pregnancyCalorieBonus(profile.gender, profile.pregnancyStatus);
+    final floor = profile.gender == 'male' ? 1500.0 : 1200.0;
+    return (base + bonus) < floor;
   }
 
   static double estimateWeeklyFatLoss(double caloricDeficit) {

@@ -11,6 +11,7 @@ class HistoryState {
   final double weekAvgCompletion;
   final double monthAvgCompletion;
   final double goalCalories;
+  final double tdee;
   final bool isLoading;
 
   const HistoryState({
@@ -21,6 +22,7 @@ class HistoryState {
     this.weekAvgCompletion = 0,
     this.monthAvgCompletion = 0,
     this.goalCalories = 2000,
+    this.tdee = 0,
     this.isLoading = false,
   });
 
@@ -32,6 +34,7 @@ class HistoryState {
     double? weekAvgCompletion,
     double? monthAvgCompletion,
     double? goalCalories,
+    double? tdee,
     bool? isLoading,
   }) {
     return HistoryState(
@@ -42,6 +45,7 @@ class HistoryState {
       weekAvgCompletion: weekAvgCompletion ?? this.weekAvgCompletion,
       monthAvgCompletion: monthAvgCompletion ?? this.monthAvgCompletion,
       goalCalories: goalCalories ?? this.goalCalories,
+      tdee: tdee ?? this.tdee,
       isLoading: isLoading ?? this.isLoading,
     );
   }
@@ -71,6 +75,7 @@ class HistoryNotifier extends StateNotifier<HistoryState> {
       weekAvgCompletion: AnalyticsService.computeAvgGoalCompletion(week, goalCal),
       monthAvgCompletion: AnalyticsService.computeAvgGoalCompletion(month, goalCal),
       goalCalories: goalCal,
+      tdee: goals?.tdee ?? 0,
       isLoading: false,
     );
   }

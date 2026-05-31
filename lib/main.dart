@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'storage/hive_storage.dart';
 import 'services/analytics_service.dart';
 import 'services/local_food_repository.dart';
+import 'services/notification_service.dart';
 import 'app.dart';
 
 void main() async {
@@ -20,12 +21,14 @@ void main() async {
   ));
 
   await HiveStorage.init();
-
-  // Load the bilingual food dataset into memory before the first frame so
-  // every search returns results instantly with no race condition.
   await LocalFoodRepository.init();
 
-  // Post-frame: background tasks that must not delay first render.
+  // Initialize notifications and ensure daily reminder is scheduled.
+  await NotificationService.instance.init();
+  if (HiveStorage.isOnboardingDone) {
+    await NotificationService.instance.ensureScheduled();
+  }
+
   WidgetsBinding.instance.addPostFrameCallback((_) {
     AnalyticsService.runCleanup(retainDays: 90);
   });

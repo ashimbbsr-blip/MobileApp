@@ -6,11 +6,13 @@ import '../../localization/app_localizations.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/charts/macro_ring_chart.dart';
 import '../../widgets/common/nutrition_progress_bar.dart';
+import '../../models/meal_entry.dart';
 import '../../models/nutrition_goals.dart';
 import '../../core/constants/nutrition_constants.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../../services/recommendation_engine.dart';
+import '../../services/energy_balance_service.dart';
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
@@ -79,6 +81,8 @@ class DashboardScreen extends ConsumerWidget {
                 const SizedBox(height: 16),
                 _CalorieCard(state: state),
                 const SizedBox(height: 16),
+                _EnergyBalanceCard(state: state),
+                const SizedBox(height: 16),
                 _MacrosRow(state: state),
                 const SizedBox(height: 16),
                 _MealSummarySection(state: state),
@@ -145,7 +149,7 @@ class _DateSelector extends ConsumerWidget {
 
     final label = isToday
         ? l10n.today
-        : '${selected.day}/${selected.month}/${selected.year}';
+        : '${selected.day.toString().padLeft(2, '0')}/${selected.month.toString().padLeft(2, '0')}/${selected.year}';
 
     return GestureDetector(
       onTap: () => _pickDate(context, ref),
@@ -189,7 +193,7 @@ class _DateSelector extends ConsumerWidget {
             )
           else
             Text(
-              '${now.day}/${now.month}/${now.year}',
+              '${now.day.toString().padLeft(2, '0')}/${now.month.toString().padLeft(2, '0')}/${now.year}',
               style: Theme.of(context).textTheme.bodyMedium,
             ),
         ],
@@ -216,6 +220,12 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
   late final AnimationController _animCtrl;
   late final Animation<double> _expandAnim;
 
+  // Cached recommendation — only recomputed when meals, goals, or language change
+  DailyRecommendation? _rec;
+  List<MealEntry>? _lastMeals;
+  NutritionGoals? _lastGoals;
+  String? _lastLang;
+
   @override
   void initState() {
     super.initState();
@@ -235,6 +245,25 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
     _expanded ? _animCtrl.forward() : _animCtrl.reverse();
   }
 
+  DailyRecommendation _getRecommendation(String lang) {
+    final meals = widget.state.todaysMeals;
+    final goals = widget.state.goals;
+    if (_rec == null ||
+        !identical(_lastMeals, meals) ||
+        _lastGoals != goals ||
+        _lastLang != lang) {
+      _rec = RecommendationEngine.analyze(
+        goals: goals ?? NutritionGoals.defaults,
+        meals: meals,
+        lang: lang,
+      );
+      _lastMeals = meals;
+      _lastGoals = goals;
+      _lastLang = lang;
+    }
+    return _rec!;
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = ref.watch(appStringsProvider);
@@ -242,11 +271,7 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
 
-    final rec = RecommendationEngine.analyze(
-      goals: widget.state.goals ?? NutritionGoals.defaults,
-      meals: widget.state.todaysMeals,
-      lang: lang,
-    );
+    final rec = _getRecommendation(lang);
 
     final bn = lang == 'bn';
     final stepsDisplay = ((rec.walkingSteps / 500).round() * 500);
@@ -587,6 +612,444 @@ class _CalorieCard extends ConsumerWidget {
   }
 }
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// Energy Balance Card
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _EnergyBalanceCard extends ConsumerStatefulWidget {
+  final DashboardState state;
+  const _EnergyBalanceCard({required this.state});
+
+  @override
+  ConsumerState<_EnergyBalanceCard> createState() =>
+      _EnergyBalanceCardState();
+}
+
+class _EnergyBalanceCardState extends ConsumerState<_EnergyBalanceCard>
+    with SingleTickerProviderStateMixin {
+  bool _expanded = false;
+  late final AnimationController _animCtrl;
+  late final Animation<double> _expandAnim;
+
+  @override
+  void initState() {
+    super.initState();
+    _animCtrl = AnimationController(
+        vsync: this, duration: const Duration(milliseconds: 260));
+    _expandAnim = CurvedAnimation(parent: _animCtrl, curve: Curves.easeInOut);
+  }
+
+  @override
+  void dispose() {
+    _animCtrl.dispose();
+    super.dispose();
+  }
+
+  void _toggle() {
+    setState(() => _expanded = !_expanded);
+    _expanded ? _animCtrl.forward() : _animCtrl.reverse();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = ref.watch(appStringsProvider);
+    final bn = l10n.isBengali;
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+
+    final goals = widget.state.goals;
+    if (goals == null) return const SizedBox.shrink();
+
+    final balance = EnergyBalanceService.calculate(
+      consumedKcal: widget.state.totalCalories,
+      tdeeKcal: goals.tdee,
+      targetKcal: goals.calories,
+      goal: widget.state.userProfile?.fitnessGoal ?? 'maintain',
+      profile: widget.state.userProfile,
+    );
+
+    final statusColor = _statusColor(balance.status);
+    final cardBg = isDark ? const Color(0xFF1A2030) : const Color(0xFFF8F9FF);
+    final borderColor = isDark
+        ? statusColor.withValues(alpha: 0.3)
+        : statusColor.withValues(alpha: 0.25);
+
+    final balanceLabelFull = bn
+        ? (balance.isDeficit
+            ? '${balance.absBalance.round()} kcal ঘাটতি'
+            : '+${balance.absBalance.round()} kcal উদ্বৃত্ত')
+        : (balance.isDeficit
+            ? '${balance.absBalance.round()} kcal deficit'
+            : '+${balance.absBalance.round()} kcal surplus');
+
+    return Container(
+      decoration: BoxDecoration(
+        color: cardBg,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: borderColor, width: 1.2),
+        boxShadow: isDark
+            ? null
+            : [
+                BoxShadow(
+                  color: statusColor.withValues(alpha: 0.06),
+                  blurRadius: 8,
+                  offset: const Offset(0, 3),
+                ),
+              ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(16),
+        child: InkWell(
+          onTap: _toggle,
+          borderRadius: BorderRadius.circular(16),
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // ── Header ────────────────────────────────────────────────
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: statusColor.withValues(alpha: 0.15),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Icon(Icons.bolt_rounded,
+                          color: statusColor, size: 18),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            bn ? 'এনার্জি ব্যালেন্স' : 'Energy Balance',
+                            style: theme.textTheme.titleSmall?.copyWith(
+                              fontWeight: FontWeight.w700,
+                              color: statusColor,
+                            ),
+                          ),
+                          if (balance.hasData)
+                            Text(
+                              balanceLabelFull,
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                color: statusColor,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
+                    AnimatedRotation(
+                      turns: _expanded ? 0.5 : 0.0,
+                      duration: const Duration(milliseconds: 260),
+                      child: Icon(Icons.expand_more_rounded,
+                          color: statusColor, size: 20),
+                    ),
+                  ],
+                ),
+
+                const SizedBox(height: 12),
+
+                // ── Progress bar: consumed vs target ──────────────────────
+                _EnergyProgressBar(
+                  consumed: balance.consumedKcal,
+                  target: balance.targetKcal,
+                  statusColor: statusColor,
+                  bn: bn,
+                  theme: theme,
+                ),
+
+                if (balance.hasData) ...[
+                  const SizedBox(height: 10),
+
+                  // ── Context message (always visible) ─────────────────────
+                  Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: statusColor.withValues(alpha: 0.08),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      bn ? balance.contextBn : balance.contextEn,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        height: 1.45,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ] else ...[
+                  const SizedBox(height: 8),
+                  Text(
+                    bn
+                        ? 'খাবার লগ করুন আপনার এনার্জি ব্যালেন্স দেখতে।'
+                        : 'Log your meals to see your energy balance.',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                    ),
+                  ),
+                ],
+
+                // ── Expanded: activity equivalents ────────────────────────
+                SizeTransition(
+                  sizeFactor: _expandAnim,
+                  child: balance.hasData
+                      ? Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const SizedBox(height: 14),
+                            _SectionLabel(
+                              icon: Icons.directions_run_rounded,
+                              label: bn
+                                  ? 'কার্যকলাপ সমতুল্য'
+                                  : 'Activity Equivalents',
+                              color: statusColor,
+                            ),
+                            const SizedBox(height: 8),
+                            Row(
+                              children: [
+                                _ActivityChip(
+                                  icon: Icons.directions_walk_rounded,
+                                  label: bn
+                                      ? '${balance.walkingMins} মিনিট\nহাঁটা'
+                                      : '${balance.walkingMins} min\nwalk',
+                                  sub: '~${_fmtSteps(balance.walkingSteps)}',
+                                  color: statusColor,
+                                ),
+                                const SizedBox(width: 8),
+                                _ActivityChip(
+                                  icon: Icons.directions_run_rounded,
+                                  label: bn
+                                      ? '${balance.runningMins} মিনিট\nদৌড়'
+                                      : '${balance.runningMins} min\nrun',
+                                  sub: '~9 km/h',
+                                  color: statusColor,
+                                ),
+                                const SizedBox(width: 8),
+                                _ActivityChip(
+                                  icon: Icons.directions_bike_rounded,
+                                  label: bn
+                                      ? '${balance.cyclingMins} মিনিট\nসাইকেল'
+                                      : '${balance.cyclingMins} min\ncycle',
+                                  sub: '~15 km/h',
+                                  color: statusColor,
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 10),
+                            Row(
+                              children: [
+                                Icon(Icons.info_outline,
+                                    size: 12,
+                                    color: theme.colorScheme.onSurface
+                                        .withValues(alpha: 0.4)),
+                                const SizedBox(width: 5),
+                                Expanded(
+                                  child: Text(
+                                    bn
+                                        ? 'TDEE: ${goals.tdee.round()} kcal · BMR: ${goals.bmr.round()} kcal · মানগুলো আনুমানিক।'
+                                        : 'TDEE: ${goals.tdee.round()} kcal · BMR: ${goals.bmr.round()} kcal · Values are approximate.',
+                                    style: theme.textTheme.bodySmall?.copyWith(
+                                      fontSize: 10,
+                                      color: theme.colorScheme.onSurface
+                                          .withValues(alpha: 0.45),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 4),
+                          ],
+                        )
+                      : const SizedBox.shrink(),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Color _statusColor(BalanceStatus s) {
+    switch (s) {
+      case BalanceStatus.deepDeficit:
+        return const Color(0xFF27AE60);
+      case BalanceStatus.deficit:
+        return const Color(0xFF2ECC71);
+      case BalanceStatus.onTarget:
+        return AppColors.primary;
+      case BalanceStatus.slightSurplus:
+        return const Color(0xFFF39C12);
+      case BalanceStatus.surplus:
+        return const Color(0xFFE74C3C);
+      case BalanceStatus.noData:
+        return Colors.grey;
+    }
+  }
+
+  String _fmtSteps(int steps) {
+    if (steps >= 1000) {
+      return '${(steps / 1000).toStringAsFixed(steps % 1000 == 0 ? 0 : 1)}k steps';
+    }
+    return '$steps steps';
+  }
+}
+
+class _EnergyProgressBar extends StatelessWidget {
+  final double consumed, target;
+  final Color statusColor;
+  final bool bn;
+  final ThemeData theme;
+
+  const _EnergyProgressBar({
+    required this.consumed,
+    required this.target,
+    required this.statusColor,
+    required this.bn,
+    required this.theme,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final pct = target > 0 ? (consumed / target).clamp(0.0, 1.5) : 0.0;
+    final barPct = pct.clamp(0.0, 1.0);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              bn
+                  ? '${consumed.round()} kcal খেয়েছেন'
+                  : '${consumed.round()} kcal consumed',
+              style: theme.textTheme.bodySmall?.copyWith(
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            Text(
+              bn
+                  ? 'লক্ষ্য: ${target.round()} kcal'
+                  : 'Target: ${target.round()} kcal',
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 6),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(4),
+          child: Stack(
+            children: [
+              Container(
+                height: 8,
+                color: statusColor.withValues(alpha: 0.12),
+              ),
+              FractionallySizedBox(
+                widthFactor: barPct,
+                child: Container(
+                  height: 8,
+                  decoration: BoxDecoration(
+                    color: statusColor,
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                ),
+              ),
+              // Target line at 100%
+              Positioned(
+                right: 0,
+                top: 0,
+                bottom: 0,
+                child: Container(
+                  width: 2,
+                  color: statusColor.withValues(alpha: 0.5),
+                ),
+              ),
+            ],
+          ),
+        ),
+        if (pct > 1.0) ...[
+          const SizedBox(height: 4),
+          Align(
+            alignment: Alignment.centerRight,
+            child: Text(
+              bn
+                  ? '+${((pct - 1.0) * 100).toStringAsFixed(0)}% অতিরিক্ত'
+                  : '+${((pct - 1.0) * 100).toStringAsFixed(0)}% over',
+              style: TextStyle(
+                fontSize: 10,
+                color: statusColor,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+class _ActivityChip extends StatelessWidget {
+  final IconData icon;
+  final String label, sub;
+  final Color color;
+
+  const _ActivityChip({
+    required this.icon,
+    required this.label,
+    required this.sub,
+    required this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.08),
+          borderRadius: BorderRadius.circular(10),
+          border: Border.all(color: color.withValues(alpha: 0.2)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, color: color, size: 18),
+            const SizedBox(height: 4),
+            Text(
+              label,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.w700,
+                color: color,
+                height: 1.3,
+              ),
+            ),
+            const SizedBox(height: 2),
+            Text(
+              sub,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 9,
+                color: color.withValues(alpha: 0.7),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+
 class _StatRow extends StatelessWidget {
   final String label, value;
   final Color color;
@@ -690,7 +1153,7 @@ class _MealCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final totalCals = entries.fold<double>(0, (sum, e) => sum + (e.calories as double));
+    final totalCals = entries.fold<double>(0, (sum, e) => sum + e.calories);
     return Consumer(builder: (context, ref, _) {
       final l10n = ref.watch(appStringsProvider);
       return Card(
@@ -725,32 +1188,184 @@ class _MealCard extends StatelessWidget {
   }
 }
 
-class _WaterFiberCard extends StatelessWidget {
+class _WaterFiberCard extends ConsumerWidget {
   final DashboardState state;
   const _WaterFiberCard({required this.state});
 
+  void _showWaterInfoDialog(BuildContext context, AppStrings l10n, double waterGoal) {
+    final bn = l10n.isBengali;
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.water_drop, color: Color(0xFF29B6F6), size: 20),
+            const SizedBox(width: 8),
+            Text(bn ? 'পানির লক্ষ্য কীভাবে?' : 'How is your goal set?'),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              bn
+                  ? 'আপনার লক্ষ্য: ${waterGoal.toStringAsFixed(0)} মিলি/দিন'
+                  : 'Your goal: ${waterGoal.toStringAsFixed(0)} ml/day',
+              style: const TextStyle(fontWeight: FontWeight.w600),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              bn
+                  ? '📐 সূত্র: আপনার ওজন (কেজি) × ৩৫ মিলি'
+                  : '📐 Formula: body weight (kg) × 35 ml',
+            ),
+            const SizedBox(height: 4),
+            Text(
+              bn
+                  ? '   + মাঝারি সক্রিয়: +২৫০ মিলি\n   + খুব সক্রিয়: +৫০০ মিলি'
+                  : '   + moderately active: +250 ml\n   + very/extra active: +500 ml',
+              style: const TextStyle(fontSize: 13),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              bn
+                  ? 'ℹ️ ICMR রেফারেন্স: ৩৭০০ মিলি/দিন — এটি একজন ৭০ কেজি প্রাপ্তবয়স্কের জন্য। আপনার লক্ষ্য আপনার আসল ওজনের উপর ভিত্তি করে।'
+                  : 'ℹ️ ICMR reference: 3700 ml/day — this is for a 70 kg adult. Your personalized goal is based on your actual weight.',
+              style: const TextStyle(fontSize: 12, color: Colors.grey),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: Text(l10n.done),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final goals = state.goals;
+    final l10n = ref.watch(appStringsProvider);
+    final bn = l10n.isBengali;
+    final waterGoal = goals?.waterMl ?? 2450;
+    final theme = Theme.of(context);
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // ── Water ──────────────────────────────────────────────────────
+            Row(
+              children: [
+                Text(
+                  l10n.water,
+                  style: theme.textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w500),
+                ),
+                const SizedBox(width: 4),
+                GestureDetector(
+                  onTap: () => _showWaterInfoDialog(context, l10n, waterGoal),
+                  child: const Icon(Icons.info_outline, size: 15, color: Colors.grey),
+                ),
+                const Spacer(),
+                Text(
+                  '${state.waterIntakeMl.toStringAsFixed(0)}ml / ${waterGoal.toStringAsFixed(0)}ml',
+                  style: theme.textTheme.bodySmall?.copyWith(color: const Color(0xFF29B6F6)),
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            NutritionProgressBar(
+              label: l10n.water,
+              current: state.waterIntakeMl,
+              goal: waterGoal,
+              color: const Color(0xFF29B6F6),
+              unit: 'ml',
+              showValues: false,
+            ),
+            const SizedBox(height: 8),
+            Row(
+              children: [
+                _WaterButton(
+                  label: bn ? '+১ গ্লাস' : '+1 glass',
+                  ml: 250,
+                  ref: ref,
+                ),
+                const SizedBox(width: 8),
+                _WaterButton(
+                  label: bn ? '+বোতল' : '+bottle',
+                  ml: 500,
+                  ref: ref,
+                ),
+                const SizedBox(width: 8),
+                _WaterButton(
+                  label: bn ? 'রিসেট' : 'Reset',
+                  ml: -state.waterIntakeMl,
+                  ref: ref,
+                  isReset: true,
+                ),
+              ],
+            ),
+            const SizedBox(height: 14),
+            const Divider(height: 1),
+            const SizedBox(height: 14),
+            // ── Fiber ──────────────────────────────────────────────────────
+            NutritionProgressBar(
+              label: l10n.fiber,
+              current: state.totalFiber,
+              goal: goals?.fiberG ?? 40,
+              color: AppColors.fiber,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _WaterButton extends StatelessWidget {
+  final String label;
+  final double ml;
+  final WidgetRef ref;
+  final bool isReset;
+
+  const _WaterButton({
+    required this.label,
+    required this.ml,
+    required this.ref,
+    this.isReset = false,
+  });
+
   @override
   Widget build(BuildContext context) {
-    final goals = state.goals;
-    return Consumer(builder: (context, ref, _) {
-      final l10n = ref.watch(appStringsProvider);
-      return Card(
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              NutritionProgressBar(
-                label: l10n.fiber,
-                current: state.totalFiber,
-                goal: goals?.fiberG ?? 38,
-                color: AppColors.fiber,
-              ),
-            ],
+    return Expanded(
+      child: OutlinedButton(
+        onPressed: () {
+          if (isReset) {
+            ref.read(dashboardProvider.notifier).setWater(0);
+          } else {
+            ref.read(dashboardProvider.notifier).addWater(ml);
+          }
+        },
+        style: OutlinedButton.styleFrom(
+          foregroundColor: isReset ? Colors.grey : const Color(0xFF29B6F6),
+          side: BorderSide(
+            color: isReset
+                ? Colors.grey.shade300
+                : const Color(0xFF29B6F6).withValues(alpha: 0.5),
           ),
+          padding: const EdgeInsets.symmetric(vertical: 7),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+          textStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
         ),
-      );
-    });
+        child: Text(label),
+      ),
+    );
   }
 }
 
@@ -874,7 +1489,7 @@ class _DailySummarySheet extends StatelessWidget {
                 Text(
                   () {
                     final now = DateTime.now();
-                    return '${now.day}/${now.month}/${now.year}';
+                    return '${now.day.toString().padLeft(2, '0')}/${now.month.toString().padLeft(2, '0')}/${now.year}';
                   }(),
                   style: theme.textTheme.bodySmall,
                 ),
@@ -897,30 +1512,37 @@ class _DailySummarySheet extends StatelessWidget {
                     _SummaryRow(label: l10n.fiber, consumed: state.totalFiber, goal: g.fiberG, unit: l10n.grams, l10n: l10n),
                   ],
                 ),
-                if (state.totalCalcium > 0 || state.totalIron > 0 || state.totalVitaminC > 0 || state.totalVitaminA > 0)
-                  _SummarySection(
-                    title: l10n.micronutrients,
-                    rows: [
-                      if (state.totalVitaminA > 0)
-                        _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: NutritionConstants.vitaminAMcg, unit: l10n.mcg, l10n: l10n),
-                      if (state.totalVitaminB12 > 0)
-                        _SummaryRow(label: l10n.vitaminB, consumed: state.totalVitaminB12, goal: NutritionConstants.vitaminB12Mcg, unit: l10n.mcg, l10n: l10n),
-                      if (state.totalVitaminC > 0)
-                        _SummaryRow(label: l10n.vitaminC, consumed: state.totalVitaminC, goal: NutritionConstants.vitaminCMg, unit: l10n.mg, l10n: l10n),
-                      if (state.totalVitaminD > 0)
-                        _SummaryRow(label: l10n.vitaminD, consumed: state.totalVitaminD, goal: NutritionConstants.vitaminDMcg, unit: l10n.mcg, l10n: l10n),
-                      if (state.totalCalcium > 0)
-                        _SummaryRow(label: l10n.calcium, consumed: state.totalCalcium, goal: NutritionConstants.calciumMg, unit: l10n.mg, l10n: l10n),
-                      if (state.totalIron > 0)
-                        _SummaryRow(label: l10n.iron, consumed: state.totalIron, goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
-                      if (state.totalPotassium > 0)
-                        _SummaryRow(label: l10n.potassium, consumed: state.totalPotassium, goal: NutritionConstants.potassiumMg, unit: l10n.mg, l10n: l10n),
-                      if (state.totalMagnesium > 0)
-                        _SummaryRow(label: l10n.magnesium, consumed: state.totalMagnesium, goal: NutritionConstants.magnesiumMg, unit: l10n.mg, l10n: l10n),
-                      if (state.totalZinc > 0)
-                        _SummaryRow(label: l10n.zinc, consumed: state.totalZinc, goal: NutritionConstants.zincForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
-                    ],
-                  ),
+                // Micronutrient section: always shown to encourage tracking.
+                // B12 is always displayed (deficiency affects ~47% of Indian vegetarians).
+                _SummarySection(
+                  title: l10n.micronutrients,
+                  rows: [
+                    if (state.totalVitaminA > 0)
+                      _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: NutritionConstants.vitaminAMcg, unit: l10n.mcg, l10n: l10n),
+                    _SummaryRow(
+                      label: l10n.vitaminB,
+                      consumed: state.totalVitaminB12,
+                      goal: NutritionConstants.vitaminB12Mcg,
+                      unit: l10n.mcg,
+                      l10n: l10n,
+                      forceWarning: state.totalVitaminB12 == 0,
+                    ),
+                    if (state.totalVitaminC > 0)
+                      _SummaryRow(label: l10n.vitaminC, consumed: state.totalVitaminC, goal: NutritionConstants.vitaminCMg, unit: l10n.mg, l10n: l10n),
+                    if (state.totalVitaminD > 0)
+                      _SummaryRow(label: l10n.vitaminD, consumed: state.totalVitaminD, goal: NutritionConstants.vitaminDMcg, unit: l10n.mcg, l10n: l10n),
+                    if (state.totalCalcium > 0)
+                      _SummaryRow(label: l10n.calcium, consumed: state.totalCalcium, goal: NutritionConstants.calciumMg, unit: l10n.mg, l10n: l10n),
+                    if (state.totalIron > 0)
+                      _SummaryRow(label: l10n.iron, consumed: state.totalIron, goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
+                    if (state.totalPotassium > 0)
+                      _SummaryRow(label: l10n.potassium, consumed: state.totalPotassium, goal: NutritionConstants.potassiumMg, unit: l10n.mg, l10n: l10n),
+                    if (state.totalMagnesium > 0)
+                      _SummaryRow(label: l10n.magnesium, consumed: state.totalMagnesium, goal: NutritionConstants.magnesiumMg, unit: l10n.mg, l10n: l10n),
+                    if (state.totalZinc > 0)
+                      _SummaryRow(label: l10n.zinc, consumed: state.totalZinc, goal: NutritionConstants.zincForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
+                  ],
+                ),
                 const SizedBox(height: 16),
               ],
             ),
@@ -957,20 +1579,29 @@ class _SummaryRow extends StatelessWidget {
   final String label, unit;
   final double consumed, goal;
   final AppStrings l10n;
+  final bool forceWarning;
 
-  const _SummaryRow(
-      {required this.label, required this.consumed, required this.goal, required this.unit, required this.l10n});
+  const _SummaryRow({
+    required this.label,
+    required this.consumed,
+    required this.goal,
+    required this.unit,
+    required this.l10n,
+    this.forceWarning = false,
+  });
 
   @override
   Widget build(BuildContext context) {
     final pct = goal > 0 ? consumed / goal : 0.0;
-    final (statusLabel, statusColor) = pct > 1.1
-        ? (l10n.statusOver, Colors.red.shade400)
-        : pct >= 0.85
-            ? (l10n.statusGood, Colors.green.shade600)
-            : pct >= 0.5
-                ? (l10n.statusLow, Colors.orange.shade700)
-                : (l10n.statusVeryLow, Colors.grey.shade500);
+    final (statusLabel, statusColor) = forceWarning
+        ? (l10n.isBengali ? 'ট্র্যাক করুন' : 'Track it', Colors.red.shade600)
+        : pct > 1.1
+            ? (l10n.statusOver, Colors.red.shade400)
+            : pct >= 0.85
+                ? (l10n.statusGood, Colors.green.shade600)
+                : pct >= 0.5
+                    ? (l10n.statusLow, Colors.orange.shade700)
+                    : (l10n.statusVeryLow, Colors.grey.shade500);
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 7),

@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../models/meal_entry.dart';
 import '../../../models/food_item.dart';
 import '../../../storage/hive_storage.dart';
+import '../../../services/notification_service.dart';
 import '../../../core/utils/extensions.dart';
 import 'package:uuid/uuid.dart';
 
@@ -53,6 +54,11 @@ class MealNotifier extends StateNotifier<MealState> {
     );
     await HiveStorage.addMealEntry(entry);
     _load();
+    // If today's log: check if both breakfast & dinner are done, reschedule
+    final today = DateTime.now().toLogKey();
+    if (state.dateKey == today) {
+      await NotificationService.instance.checkMealsAndMaybeReschedule(today);
+    }
   }
 
   Future<void> deleteEntry(String id) async {

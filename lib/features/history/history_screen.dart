@@ -5,6 +5,7 @@ import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/common/loading_indicator.dart';
 import '../../services/analytics_service.dart';
+import '../../services/energy_balance_service.dart';
 import 'providers/history_provider.dart';
 
 class HistoryScreen extends ConsumerStatefulWidget {
@@ -61,6 +62,7 @@ class _HistoryScreenState extends ConsumerState<HistoryScreen>
                 _PeriodTab(
                   data: state.week,
                   goalCalories: state.goalCalories,
+                  tdee: state.tdee,
                   streak: state.streak,
                   avgCompletion: state.weekAvgCompletion,
                   periodLabel: l10n.days7,
@@ -68,6 +70,7 @@ class _HistoryScreenState extends ConsumerState<HistoryScreen>
                 _PeriodTab(
                   data: state.month,
                   goalCalories: state.goalCalories,
+                  tdee: state.tdee,
                   streak: state.streak,
                   avgCompletion: state.monthAvgCompletion,
                   periodLabel: l10n.days30,
@@ -84,6 +87,7 @@ class _HistoryScreenState extends ConsumerState<HistoryScreen>
 class _PeriodTab extends StatelessWidget {
   final List<DailyNutrition> data;
   final double goalCalories;
+  final double tdee;
   final int streak;
   final double avgCompletion;
   final String periodLabel;
@@ -91,6 +95,7 @@ class _PeriodTab extends StatelessWidget {
   const _PeriodTab({
     required this.data,
     required this.goalCalories,
+    required this.tdee,
     required this.streak,
     required this.avgCompletion,
     required this.periodLabel,
@@ -107,6 +112,8 @@ class _PeriodTab extends StatelessWidget {
         const SizedBox(height: 16),
         if (hasData) ...[
           _CalorieChart(data: data, goalCalories: goalCalories),
+          const SizedBox(height: 16),
+          _WeeklyEnergyBalanceCard(data: data, targetKcal: goalCalories, tdee: tdee),
           const SizedBox(height: 16),
           _MacroAveragesCard(data: data),
           const SizedBox(height: 16),
@@ -317,6 +324,235 @@ class _CalorieChart extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+// ── Weekly Energy Balance Card ────────────────────────────────────────────────
+
+class _WeeklyEnergyBalanceCard extends StatelessWidget {
+  final List<DailyNutrition> data;
+  final double targetKcal;
+  final double tdee;
+
+  const _WeeklyEnergyBalanceCard({
+    required this.data,
+    required this.targetKcal,
+    required this.tdee,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final target = targetKcal > 0 ? targetKcal : tdee;
+    if (target <= 0) return const SizedBox.shrink();
+
+    final dailyInput = data
+        .map((d) => (date: d.date, calories: d.calories))
+        .toList();
+
+    final weekly = EnergyBalanceService.weeklyBalance(
+      dailyData: dailyInput,
+      targetKcal: target,
+    );
+
+    if (!weekly.hasData) return const SizedBox.shrink();
+
+    final theme = Theme.of(context);
+
+    final totalSign = weekly.totalBalance >= 0 ? '+' : '';
+    final totalColor = weekly.totalBalance > 0
+        ? const Color(0xFFE67E22)
+        : const Color(0xFF27AE60);
+    final netLabel =
+        '$totalSign${weekly.totalBalance.round()} kcal net ${weekly.totalBalance >= 0 ? 'surplus' : 'deficit'}';
+
+    // Find max abs balance for scaling bars
+    final maxAbs = weekly.dailyBalances
+        .where((b) => b.hasData)
+        .fold<double>(1, (m, b) => b.balance.abs() > m ? b.balance.abs() : m);
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // ── Header ─────────────────────────────────────────────────
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(7),
+                  decoration: BoxDecoration(
+                    color: AppColors.primary.withOpacity(0.12),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: const Icon(Icons.bolt_rounded,
+                      color: AppColors.primary, size: 16),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    'Energy Balance',
+                    style: theme.textTheme.titleSmall
+                        ?.copyWith(fontWeight: FontWeight.w700),
+                  ),
+                ),
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: totalColor.withOpacity(0.12),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Text(
+                    netLabel,
+                    style: TextStyle(
+                      color: totalColor,
+                      fontSize: 11,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+
+            const SizedBox(height: 16),
+
+            // ── Per-day bars ──────────────────────────────────────────
+            SizedBox(
+              height: 90,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: weekly.dailyBalances.map((b) {
+                  if (!b.hasData) {
+                    return Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 2),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Container(
+                              height: 4,
+                              decoration: BoxDecoration(
+                                color: Colors.grey.withOpacity(0.2),
+                                borderRadius: BorderRadius.circular(2),
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              _dayLabel(b.date),
+                              style: const TextStyle(fontSize: 9),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  }
+
+                  final isSurplus = b.balance > 0;
+                  final barColor = isSurplus
+                      ? const Color(0xFFE67E22)
+                      : const Color(0xFF27AE60);
+                  final heightFraction =
+                      (b.balance.abs() / maxAbs).clamp(0.05, 1.0);
+                  final barH = (heightFraction * 64).clamp(4.0, 64.0);
+
+                  return Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 2),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          Text(
+                            '${b.balance >= 0 ? '+' : ''}${(b.balance / 100).round() * 100 == 0 ? b.balance.round() : (b.balance / 100).round() * 100}',
+                            style: TextStyle(
+                              fontSize: 8,
+                              color: barColor,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          const SizedBox(height: 2),
+                          Container(
+                            height: barH,
+                            decoration: BoxDecoration(
+                              color: barColor,
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          Text(
+                            _dayLabel(b.date),
+                            style: TextStyle(
+                              fontSize: 9,
+                              color:
+                                  theme.colorScheme.onSurface.withOpacity(0.6),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                }).toList(),
+              ),
+            ),
+
+            const SizedBox(height: 14),
+            const Divider(height: 1),
+            const SizedBox(height: 10),
+
+            // ── Summary stats ─────────────────────────────────────────
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                _BalanceStat(
+                  label: 'On Target',
+                  value: '${weekly.onTargetDays}d',
+                  color: AppColors.primary,
+                ),
+                _BalanceStat(
+                  label: 'Deficit',
+                  value: '${weekly.deficitDays}d',
+                  color: const Color(0xFF27AE60),
+                ),
+                _BalanceStat(
+                  label: 'Surplus',
+                  value: '${weekly.surplusDays}d',
+                  color: const Color(0xFFE67E22),
+                ),
+                _BalanceStat(
+                  label: 'Avg/day',
+                  value: '${weekly.avgBalance >= 0 ? '+' : ''}${weekly.avgBalance.round()}',
+                  color: weekly.avgBalance > 0
+                      ? const Color(0xFFE67E22)
+                      : const Color(0xFF27AE60),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  String _dayLabel(DateTime d) {
+    const days = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+    return days[d.weekday - 1];
+  }
+}
+
+class _BalanceStat extends StatelessWidget {
+  final String label, value;
+  final Color color;
+  const _BalanceStat(
+      {required this.label, required this.value, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(children: [
+      Text(value,
+          style: TextStyle(
+              color: color, fontWeight: FontWeight.w800, fontSize: 15)),
+      Text(label, style: Theme.of(context).textTheme.bodySmall),
+    ]);
   }
 }
 

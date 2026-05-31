@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
@@ -6,11 +7,12 @@ import 'package:flutter/services.dart';
 class LocalSearchService {
   static Map<String, List<int>>? _indexEn;
   static Map<String, List<int>>? _indexBn;
-  static bool _loading = false;
+  static Completer<void>? _loadCompleter;
 
   static Future<void> ensureLoaded() async {
-    if (_indexEn != null || _loading) return;
-    _loading = true;
+    if (_indexEn != null) return;
+    if (_loadCompleter != null) return _loadCompleter!.future;
+    _loadCompleter = Completer<void>();
     try {
       final results = await Future.wait([
         rootBundle.loadString('assets/data/index_en_v5_3.json'),
@@ -18,8 +20,12 @@ class LocalSearchService {
       ]);
       _indexEn = _parseIndex(results[0]);
       _indexBn = _parseIndex(results[1]);
-    } finally {
-      _loading = false;
+      _loadCompleter!.complete();
+    } catch (e) {
+      final completer = _loadCompleter!;
+      _loadCompleter = null;
+      completer.completeError(e);
+      rethrow;
     }
   }
 

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../../theme/app_colors.dart';
 
 class HelpScreen extends StatelessWidget {
@@ -70,27 +69,8 @@ class HelpScreen extends StatelessWidget {
             children: const [
               _Bullet('Local tab (offline): 1,377 Indian / Bengali / Odia foods. Type English or Bengali — autocomplete suggestions appear after 1 character.'),
               _Bullet('Category chips (rice, dal, fish…) instantly browse all items in that group.'),
-              _Bullet('USDA tab (online): Search millions of global foods from the US Dept. of Agriculture database. Requires internet.'),
+              _Bullet('USDA tab (online): Search millions of global foods from the US Dept. of Agriculture database. Requires an internet connection. No account or API key needed — this is handled automatically.'),
               _Bullet('My Foods tab: Create custom entries for home-cooked dishes with your own calorie values.'),
-            ],
-          ),
-          const SizedBox(height: 12),
-          _Section(
-            icon: Icons.vpn_key_outlined,
-            title: 'Getting a Free USDA API Key',
-            isDark: isDark,
-            children: [
-              const _Bullet(
-                'The USDA tab works with a DEMO key (limited to ~30 requests/hour). For unlimited access, get a free API key in under a minute:',
-              ),
-              const _Step(n: 1, text: 'Visit fdc.nal.usda.gov/api-key-signup.html (link below).'),
-              const _Step(n: 2, text: 'Enter your name and email — no payment required.'),
-              const _Step(n: 3, text: 'Check your inbox for the key (arrives in seconds).'),
-              const _Step(n: 4, text: 'In this app: Settings → USDA API Key → Add Key → paste it.'),
-              _LinkButton(
-                label: 'Get Free USDA API Key',
-                url: 'https://fdc.nal.usda.gov/api-key-signup.html',
-              ),
             ],
           ),
           const SizedBox(height: 12),
@@ -106,12 +86,35 @@ class HelpScreen extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           _Section(
+            icon: Icons.notifications_outlined,
+            title: 'Meal Reminders',
+            isDark: isDark,
+            children: const [
+              _Bullet('By default, the app sends a reminder at 6:00 PM to log your breakfast and dinner if you haven\'t done so yet.'),
+              _Bullet('To change the time or turn reminders off: Settings → Meal Reminders.'),
+              _Bullet('Once both breakfast and dinner are logged for the day, the reminder is automatically moved to the next day.'),
+            ],
+          ),
+          const SizedBox(height: 12),
+          _Section(
+            icon: Icons.bolt_outlined,
+            title: 'Energy Balance',
+            isDark: isDark,
+            children: const [
+              _Bullet('The Energy Balance card on the Home tab compares your daily calorie intake against your personalised TDEE (Total Daily Energy Expenditure).'),
+              _Bullet('It shows your daily surplus or deficit in kcal, along with equivalent activities — like how many minutes of walking, running, or cycling that represents.'),
+              _Bullet('The 7-Day History tab shows a weekly energy balance chart so you can spot trends at a glance.'),
+              _Bullet('All values are approximate and for guidance only — always consult a professional for medical advice.'),
+            ],
+          ),
+          const SizedBox(height: 12),
+          _Section(
             icon: Icons.lightbulb_outline_rounded,
             title: 'Tips',
             isDark: isDark,
             children: const [
-              _Bullet('Set your profile (weight, height, age, activity) for accurate calorie targets.'),
-              _Bullet('Log water and beverages too — they count toward your daily energy.'),
+              _Bullet('Set your profile (weight, height, age, activity) for accurate calorie targets and energy balance calculations.'),
+              _Bullet('Log water and beverages too — they count toward your daily goals.'),
               _Bullet('The app works completely offline — your data never leaves your phone.'),
               _Bullet('Switch language to Bengali (Settings → Language) for Bengali food names and tips.'),
             ],
@@ -244,31 +247,3 @@ class _Step extends StatelessWidget {
   }
 }
 
-class _LinkButton extends StatelessWidget {
-  final String label;
-  final String url;
-  const _LinkButton({required this.label, required this.url});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 6),
-      child: OutlinedButton.icon(
-        onPressed: () async {
-          final uri = Uri.parse(url);
-          if (await canLaunchUrl(uri)) {
-            await launchUrl(uri, mode: LaunchMode.externalApplication);
-          }
-        },
-        icon: const Icon(Icons.open_in_browser_outlined, size: 16),
-        label: Text(label, style: const TextStyle(fontSize: 13)),
-        style: OutlinedButton.styleFrom(
-          foregroundColor: AppColors.primary,
-          side: const BorderSide(color: AppColors.primary),
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-        ),
-      ),
-    );
-  }
-}

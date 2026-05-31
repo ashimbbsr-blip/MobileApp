@@ -139,13 +139,13 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
                     ],
                   ),
                 ),
-                const Tab(
+                Tab(
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.travel_explore_rounded, size: 15),
-                      SizedBox(width: 4),
-                      Text('USDA'),
+                      const Icon(Icons.travel_explore_rounded, size: 15),
+                      const SizedBox(width: 4),
+                      Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
                     ],
                   ),
                 ),
@@ -207,15 +207,15 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
     final bn = widget.lang == 'bn';
     final ok = await showDialog<bool>(
       context: context,
-      builder: (_) => AlertDialog(
+      builder: (ctx) => AlertDialog(
         title: Text(bn ? 'মুছে ফেলবেন?' : 'Delete?'),
         content: Text('"${food.name}"'),
         actions: [
           TextButton(
-              onPressed: () => Navigator.pop(context, false),
+              onPressed: () => Navigator.pop(ctx, false),
               child: Text(bn ? 'বাতিল' : 'Cancel')),
           FilledButton(
-              onPressed: () => Navigator.pop(context, true),
+              onPressed: () => Navigator.pop(ctx, true),
               style: FilledButton.styleFrom(backgroundColor: Colors.red),
               child: Text(bn ? 'মুছুন' : 'Delete')),
         ],
@@ -430,7 +430,7 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
                           ? 'কোনো খাবার পাওয়া যায়নি'
                           : 'No Results Found',
                       subtitle: lang == 'bn'
-                          ? 'International ট্যাবে খুঁজুন'
+                          ? 'আন্তর্জাতিক ট্যাবে খুঁজুন'
                           : 'Try the International tab',
                     )
                   : ListView.builder(
@@ -951,6 +951,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
   final _proteinCtrl = TextEditingController(text: '0');
   final _carbCtrl = TextEditingController(text: '0');
   final _fatCtrl = TextEditingController(text: '0');
+  final _fiberCtrl = TextEditingController(text: '0');
   String _unit = 'g';
   List<FoodItem> _customFoods = [];
 
@@ -971,6 +972,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
     _proteinCtrl.dispose();
     _carbCtrl.dispose();
     _fatCtrl.dispose();
+    _fiberCtrl.dispose();
     super.dispose();
   }
 
@@ -990,6 +992,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
     _proteinCtrl.text = '0';
     _carbCtrl.text = '0';
     _fatCtrl.text = '0';
+    _fiberCtrl.text = '0';
     setState(() => _unit = 'g');
   }
 
@@ -1004,7 +1007,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
       proteinG: double.tryParse(_proteinCtrl.text) ?? 0,
       carbsG: double.tryParse(_carbCtrl.text) ?? 0,
       fatG: double.tryParse(_fatCtrl.text) ?? 0,
-      fiberG: 0,
+      fiberG: double.tryParse(_fiberCtrl.text) ?? 0,
       isCustom: true,
       source: 'custom',
     );
@@ -1182,6 +1185,18 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                           ],
                         ),
                       ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: _SheetField(
+                          controller: _fiberCtrl,
+                          label: bn ? 'ফাইবার (g)' : 'Fiber (g)',
+                          hint: '0',
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [
+                            FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*'))
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                   const SizedBox(height: 14),
@@ -1230,15 +1245,15 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                 onDelete: () async {
                   final ok = await showDialog<bool>(
                     context: context,
-                    builder: (_) => AlertDialog(
+                    builder: (ctx) => AlertDialog(
                       title: Text(bn ? 'মুছে ফেলবেন?' : 'Delete?'),
                       content: Text('"${food.name}"'),
                       actions: [
                         TextButton(
-                            onPressed: () => Navigator.pop(context, false),
+                            onPressed: () => Navigator.pop(ctx, false),
                             child: Text(bn ? 'বাতিল' : 'Cancel')),
                         FilledButton(
-                            onPressed: () => Navigator.pop(context, true),
+                            onPressed: () => Navigator.pop(ctx, true),
                             style: FilledButton.styleFrom(
                                 backgroundColor: Colors.red),
                             child: Text(bn ? 'মুছুন' : 'Delete')),

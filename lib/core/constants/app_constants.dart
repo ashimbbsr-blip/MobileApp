@@ -2,11 +2,9 @@ class AppConstants {
   static const String appName = 'Infinite Health Tracker';
   static const String appTagline = 'Better Health Every Day';
 
-  static const String demoUsdaApiKey = 'DEMO_KEY';
+  // USDA Food Data Central API — managed key, not exposed to users
+  static const String usdaApiKey = 'Bgn3gF9OaAKYl2OIGvjqv1WU1bbNekWmBblfH8Ne';
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
-
-  static const String usdaApiKeySignupUrl =
-      'https://fdc.nal.usda.gov/api-key-signup.html';
 
   // Search & Cache
   static const int maxRecentSearches = 10;
@@ -38,8 +36,12 @@ class AppConstants {
   static const String keyLanguage = 'language';
   static const String keyOnboardingDone = 'onboarding_done';
   static const String keyLegalAcceptance = 'legal_acceptance';
-  static const String keyApiKey = 'usda_api_key';
   static const String keyLocalDatasetLoaded = 'local_dataset_loaded';
+
+  // Notification settings keys
+  static const String keyNotifEnabled = 'notif_enabled';
+  static const String keyNotifHour = 'notif_hour';
+  static const String keyNotifMinute = 'notif_minute';
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';

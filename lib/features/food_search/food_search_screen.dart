@@ -7,6 +7,7 @@ import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
 import '../../services/local_food_repository.dart';
 import 'providers/food_search_provider.dart';
+import '../../core/utils/meal_time_utils.dart';
 
 // ── Category metadata ─────────────────────────────────────────────────────────
 
@@ -185,7 +186,7 @@ class _FoodSearchScreenState extends ConsumerState<FoodSearchScreen>
                         children: [
                           const Icon(Icons.travel_explore_rounded, size: 16),
                           const SizedBox(width: 5),
-                          const Text('USDA'),
+                          Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
                         ],
                       ),
                     ),
@@ -605,7 +606,7 @@ class _LocalResults extends StatelessWidget {
               ? '"${state.localQuery}" স্থানীয় ডেটায় পাওয়া যায়নি'
               : '"${state.localQuery}" not in local database'),
       hint: lang == 'bn'
-          ? 'ইংরেজি বা বাংলায় চেষ্টা করুন, অথবা International ট্যাবে খুঁজুন'
+          ? 'ইংরেজি বা বাংলায় চেষ্টা করুন, অথবা আন্তর্জাতিক ট্যাবে খুঁজুন'
           : 'Try English or Bengali, or search the International tab',
     );
   }
@@ -1230,7 +1231,7 @@ class _CustomFoodCard extends StatelessWidget {
     final theme = Theme.of(context);
 
     return GestureDetector(
-      onTap: () => context.push('/food-search/detail', extra: food),
+      onTap: () => context.push('/food-search/detail', extra: {'food': food, 'mealType': mealTypeForNow()}),
       child: Container(
         margin: const EdgeInsets.only(bottom: 8),
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
@@ -1313,16 +1314,16 @@ class _CustomFoodCard extends StatelessWidget {
               onTap: () async {
                 final ok = await showDialog<bool>(
                   context: context,
-                  builder: (_) => AlertDialog(
+                  builder: (ctx) => AlertDialog(
                     title: Text(
                         lang == 'bn' ? 'মুছে ফেলবেন?' : 'Delete?'),
                     content: Text('"${food.name}"'),
                     actions: [
                       TextButton(
-                          onPressed: () => Navigator.pop(context, false),
+                          onPressed: () => Navigator.pop(ctx, false),
                           child: Text(lang == 'bn' ? 'বাতিল' : 'Cancel')),
                       FilledButton(
-                          onPressed: () => Navigator.pop(context, true),
+                          onPressed: () => Navigator.pop(ctx, true),
                           style: FilledButton.styleFrom(
                               backgroundColor: Colors.red),
                           child: Text(lang == 'bn' ? 'মুছুন' : 'Delete')),
@@ -1631,7 +1632,7 @@ class _FoodCard extends StatelessWidget {
     final alt = lang == 'bn' ? food.name : food.nameBn;
 
     return GestureDetector(
-      onTap: () => context.push('/food-search/detail', extra: food),
+      onTap: () => context.push('/food-search/detail', extra: {'food': food, 'mealType': mealTypeForNow()}),
       child: Container(
         margin: const EdgeInsets.only(bottom: 8),
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),

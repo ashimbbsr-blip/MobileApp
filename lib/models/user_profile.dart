@@ -74,10 +74,11 @@ class UserProfile extends HiveObject {
 
   double get bmi => weightKg / ((heightCm / 100) * (heightCm / 100));
 
+  // WHO 2004 / ICMR South Asian cutoffs: Normal < 23, Overweight < 27.5
   String get bmiCategory {
     if (bmi < 18.5) return 'Underweight';
-    if (bmi < 25) return 'Normal';
-    if (bmi < 30) return 'Overweight';
+    if (bmi < 23.0) return 'Normal';
+    if (bmi < 27.5) return 'Overweight';
     return 'Obese';
   }
 

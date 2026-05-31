@@ -19,6 +19,7 @@ import '../features/profile/profile_screen.dart';
 import '../features/help/help_screen.dart';
 import '../features/camera_scan/camera_scan_screen.dart';
 import '../models/food_item.dart';
+import '../core/utils/meal_time_utils.dart';
 
 final appRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
@@ -71,9 +72,20 @@ final appRouterProvider = Provider<GoRouter>((ref) {
               GoRoute(
                 path: 'detail',
                 builder: (context, state) {
-                  final food = state.extra as FoodItem?;
+                  final extra = state.extra;
+                  FoodItem? food;
+                  String? mealType;
+                  if (extra is Map<String, dynamic>) {
+                    food = extra['food'] as FoodItem?;
+                    mealType = extra['mealType'] as String?;
+                  } else if (extra is FoodItem) {
+                    food = extra;
+                  }
                   if (food == null) return const Scaffold(body: SizedBox.shrink());
-                  return FoodDetailScreen(foodItem: food);
+                  return FoodDetailScreen(
+                    foodItem: food,
+                    initialMealType: mealType ?? mealTypeForNow(),
+                  );
                 },
               ),
             ],
