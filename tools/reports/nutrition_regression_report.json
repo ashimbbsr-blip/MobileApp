@@ -1,0 +1,2090 @@
+[
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "serving": "25g",
+    "k_v5_4": 573.6,
+    "k_v5_5": 573.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 60.5,
+        "v5_5_value": 6.0,
+        "drop_pct": 90.1
+      },
+      {
+        "field": "f",
+        "v5_4_value": 31.2,
+        "v5_5_value": 3.1,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 13.1,
+        "restored_to": 13.1
+      },
+      "c": {
+        "from_v5_5": 6.0,
+        "restored_to": 60.5
+      },
+      "f": {
+        "from_v5_5": 3.1,
+        "restored_to": 31.2
+      },
+      "fi": {
+        "from_v5_5": 1.2,
+        "restored_to": 1.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 135,
+    "en": "Strawberry and vanilla cake with butter icing",
+    "serving": "30g",
+    "k_v5_4": 431.7,
+    "k_v5_5": 431.7,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 51.6,
+        "v5_5_value": 5.2,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 4.5,
+        "restored_to": 4.5
+      },
+      "c": {
+        "from_v5_5": 5.2,
+        "restored_to": 51.6
+      },
+      "f": {
+        "from_v5_5": 23.8,
+        "restored_to": 23.8
+      },
+      "fi": {
+        "from_v5_5": 0.9,
+        "restored_to": 0.9
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "serving": "1 bowl",
+    "k_v5_4": 218.0,
+    "k_v5_5": 218.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 6.1,
+        "v5_5_value": 0.6,
+        "drop_pct": 90.2
+      },
+      {
+        "field": "c",
+        "v5_4_value": 28.4,
+        "v5_5_value": 0.3,
+        "drop_pct": 98.9
+      },
+      {
+        "field": "f",
+        "v5_4_value": 8.6,
+        "v5_5_value": 0.9,
+        "drop_pct": 89.5
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.6,
+        "restored_to": 6.1
+      },
+      "c": {
+        "from_v5_5": 0.3,
+        "restored_to": 28.4
+      },
+      "f": {
+        "from_v5_5": 0.9,
+        "restored_to": 8.6
+      },
+      "fi": {
+        "from_v5_5": 0.0,
+        "restored_to": 0.0
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "serving": "2 pcs",
+    "k_v5_4": 284.0,
+    "k_v5_5": 284.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 6.5,
+        "v5_5_value": 0.7,
+        "drop_pct": 89.2
+      },
+      {
+        "field": "c",
+        "v5_4_value": 38.2,
+        "v5_5_value": 0.4,
+        "drop_pct": 99.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 11.0,
+        "v5_5_value": 1.1,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.7,
+        "restored_to": 6.5
+      },
+      "c": {
+        "from_v5_5": 0.4,
+        "restored_to": 38.2
+      },
+      "f": {
+        "from_v5_5": 1.1,
+        "restored_to": 11.0
+      },
+      "fi": {
+        "from_v5_5": 1.8,
+        "restored_to": 1.8
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "serving": "1 bowl",
+    "k_v5_4": 224.0,
+    "k_v5_5": 224.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 5.4,
+        "v5_5_value": 0.5,
+        "drop_pct": 90.7
+      },
+      {
+        "field": "c",
+        "v5_4_value": 31.7,
+        "v5_5_value": 0.3,
+        "drop_pct": 99.1
+      },
+      {
+        "field": "f",
+        "v5_4_value": 8.2,
+        "v5_5_value": 0.8,
+        "drop_pct": 90.2
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.5,
+        "restored_to": 5.4
+      },
+      "c": {
+        "from_v5_5": 0.3,
+        "restored_to": 31.7
+      },
+      "f": {
+        "from_v5_5": 0.8,
+        "restored_to": 8.2
+      },
+      "fi": {
+        "from_v5_5": 0.6,
+        "restored_to": 0.6
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 214,
+    "en": "Fish pakora/pakoda",
+    "serving": "30g",
+    "k_v5_4": 395.4,
+    "k_v5_5": 395.4,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 40.8,
+        "v5_5_value": 4.1,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 4.1,
+        "restored_to": 4.1
+      },
+      "c": {
+        "from_v5_5": 3.1,
+        "restored_to": 3.1
+      },
+      "f": {
+        "from_v5_5": 4.1,
+        "restored_to": 40.8
+      },
+      "fi": {
+        "from_v5_5": 0.7,
+        "restored_to": 0.7
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 239,
+    "en": "Apple banana pie",
+    "serving": "80g",
+    "k_v5_4": 948.5,
+    "k_v5_5": 948.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 124.8,
+        "v5_5_value": 12.5,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 12.2,
+        "restored_to": 12.2
+      },
+      "c": {
+        "from_v5_5": 12.5,
+        "restored_to": 124.8
+      },
+      "f": {
+        "from_v5_5": 44.3,
+        "restored_to": 44.3
+      },
+      "fi": {
+        "from_v5_5": 7.3,
+        "restored_to": 7.3
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 240,
+    "en": "Apple cinnamon pie",
+    "serving": "30g",
+    "k_v5_4": 458.3,
+    "k_v5_5": 458.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 59.7,
+        "v5_5_value": 6.0,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 5.9,
+        "restored_to": 5.9
+      },
+      "c": {
+        "from_v5_5": 6.0,
+        "restored_to": 59.7
+      },
+      "f": {
+        "from_v5_5": 21.6,
+        "restored_to": 21.6
+      },
+      "fi": {
+        "from_v5_5": 3.1,
+        "restored_to": 3.1
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 259,
+    "en": "Dry mango chutney",
+    "serving": "15g",
+    "k_v5_4": 82.6,
+    "k_v5_5": 82.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 19.2,
+        "v5_5_value": 1.9,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.7,
+        "restored_to": 0.7
+      },
+      "c": {
+        "from_v5_5": 1.9,
+        "restored_to": 19.2
+      },
+      "f": {
+        "from_v5_5": 0.2,
+        "restored_to": 0.2
+      },
+      "fi": {
+        "from_v5_5": 1.0,
+        "restored_to": 1.0
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 268,
+    "en": "Mango cheesecake",
+    "serving": "30g",
+    "k_v5_4": 265.6,
+    "k_v5_5": 265.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 34.9,
+        "v5_5_value": 3.5,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 4.2,
+        "restored_to": 4.2
+      },
+      "c": {
+        "from_v5_5": 3.5,
+        "restored_to": 34.9
+      },
+      "f": {
+        "from_v5_5": 12.7,
+        "restored_to": 12.7
+      },
+      "fi": {
+        "from_v5_5": 2.0,
+        "restored_to": 2.0
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 276,
+    "en": "Orange chiffon pie",
+    "serving": "80g",
+    "k_v5_4": 1449.9,
+    "k_v5_5": 1449.9,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 161.6,
+        "v5_5_value": 16.2,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 27.2,
+        "restored_to": 27.2
+      },
+      "c": {
+        "from_v5_5": 16.2,
+        "restored_to": 161.6
+      },
+      "f": {
+        "from_v5_5": 77.9,
+        "restored_to": 77.9
+      },
+      "fi": {
+        "from_v5_5": 4.9,
+        "restored_to": 4.9
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 330,
+    "en": "Chicken pakora/pakoda",
+    "serving": "30g",
+    "k_v5_4": 404.3,
+    "k_v5_5": 404.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 41.8,
+        "v5_5_value": 4.2,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 4.1,
+        "restored_to": 4.1
+      },
+      "c": {
+        "from_v5_5": 3.1,
+        "restored_to": 3.1
+      },
+      "f": {
+        "from_v5_5": 4.2,
+        "restored_to": 41.8
+      },
+      "fi": {
+        "from_v5_5": 0.7,
+        "restored_to": 0.7
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 357,
+    "en": "Shahi keema kofta curry",
+    "serving": "250g",
+    "k_v5_4": 2580.3,
+    "k_v5_5": 2580.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 270.4,
+        "v5_5_value": 27.0,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 25.6,
+        "restored_to": 25.6
+      },
+      "c": {
+        "from_v5_5": 10.7,
+        "restored_to": 10.7
+      },
+      "f": {
+        "from_v5_5": 27.0,
+        "restored_to": 270.4
+      },
+      "fi": {
+        "from_v5_5": 5.6,
+        "restored_to": 5.6
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "serving": "25g",
+    "k_v5_4": 875.5,
+    "k_v5_5": 875.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 118.0,
+        "v5_5_value": 11.8,
+        "drop_pct": 90.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 41.8,
+        "v5_5_value": 4.2,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 11.1,
+        "restored_to": 11.1
+      },
+      "c": {
+        "from_v5_5": 11.8,
+        "restored_to": 118.0
+      },
+      "f": {
+        "from_v5_5": 4.2,
+        "restored_to": 41.8
+      },
+      "fi": {
+        "from_v5_5": 6.1,
+        "restored_to": 6.1
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 422,
+    "en": "Chocolate meringue pie",
+    "serving": "30g",
+    "k_v5_4": 395.7,
+    "k_v5_5": 395.7,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 53.1,
+        "v5_5_value": 5.3,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 9.2,
+        "restored_to": 9.2
+      },
+      "c": {
+        "from_v5_5": 5.3,
+        "restored_to": 53.1
+      },
+      "f": {
+        "from_v5_5": 16.9,
+        "restored_to": 16.9
+      },
+      "fi": {
+        "from_v5_5": 0.7,
+        "restored_to": 0.7
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 437,
+    "en": "Cranberry cookies",
+    "serving": "25g",
+    "k_v5_4": 506.1,
+    "k_v5_5": 506.1,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 67.6,
+        "v5_5_value": 6.8,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 7.3,
+        "restored_to": 7.3
+      },
+      "c": {
+        "from_v5_5": 6.8,
+        "restored_to": 67.6
+      },
+      "f": {
+        "from_v5_5": 23.5,
+        "restored_to": 23.5
+      },
+      "fi": {
+        "from_v5_5": 2.1,
+        "restored_to": 2.1
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "serving": "1 bowl",
+    "k_v5_4": 188.0,
+    "k_v5_5": 188.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 8.9,
+        "v5_5_value": 0.9,
+        "drop_pct": 89.9
+      },
+      {
+        "field": "c",
+        "v5_4_value": 24.8,
+        "v5_5_value": 0.2,
+        "drop_pct": 99.2
+      },
+      {
+        "field": "f",
+        "v5_4_value": 5.4,
+        "v5_5_value": 0.5,
+        "drop_pct": 90.7
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.9,
+        "restored_to": 8.9
+      },
+      "c": {
+        "from_v5_5": 0.2,
+        "restored_to": 24.8
+      },
+      "f": {
+        "from_v5_5": 0.5,
+        "restored_to": 5.4
+      },
+      "fi": {
+        "from_v5_5": 6.2,
+        "restored_to": 6.2
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 461,
+    "en": "Fruit flan",
+    "serving": "100g",
+    "k_v5_4": 1215.9,
+    "k_v5_5": 1215.9,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 161.5,
+        "v5_5_value": 16.1,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 15.3,
+        "restored_to": 15.3
+      },
+      "c": {
+        "from_v5_5": 16.1,
+        "restored_to": 161.5
+      },
+      "f": {
+        "from_v5_5": 58.1,
+        "restored_to": 58.1
+      },
+      "fi": {
+        "from_v5_5": 3.3,
+        "restored_to": 3.3
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 478,
+    "en": "Gujarati handvo",
+    "serving": "100g",
+    "k_v5_4": 1442.5,
+    "k_v5_5": 1442.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 221.9,
+        "v5_5_value": 22.2,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 57.4,
+        "restored_to": 57.4
+      },
+      "c": {
+        "from_v5_5": 22.2,
+        "restored_to": 221.9
+      },
+      "f": {
+        "from_v5_5": 33.4,
+        "restored_to": 33.4
+      },
+      "fi": {
+        "from_v5_5": 34.5,
+        "restored_to": 34.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "serving": "25g",
+    "k_v5_4": 423.0,
+    "k_v5_5": 423.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 33.8,
+        "v5_5_value": 3.4,
+        "drop_pct": 89.9
+      },
+      {
+        "field": "f",
+        "v5_4_value": 30.0,
+        "v5_5_value": 3.0,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 5.4,
+        "restored_to": 5.4
+      },
+      "c": {
+        "from_v5_5": 3.4,
+        "restored_to": 33.8
+      },
+      "f": {
+        "from_v5_5": 3.0,
+        "restored_to": 30.0
+      },
+      "fi": {
+        "from_v5_5": 2.1,
+        "restored_to": 2.1
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 505,
+    "en": "Lemon chiffon pie",
+    "serving": "80g",
+    "k_v5_4": 1389.9,
+    "k_v5_5": 1389.9,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 148.1,
+        "v5_5_value": 14.8,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 26.1,
+        "restored_to": 26.1
+      },
+      "c": {
+        "from_v5_5": 14.8,
+        "restored_to": 148.1
+      },
+      "f": {
+        "from_v5_5": 77.8,
+        "restored_to": 77.8
+      },
+      "fi": {
+        "from_v5_5": 3.5,
+        "restored_to": 3.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "serving": "25g",
+    "k_v5_4": 617.4,
+    "k_v5_5": 617.4,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 66.0,
+        "v5_5_value": 6.6,
+        "drop_pct": 90.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 36.0,
+        "v5_5_value": 3.6,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 8.8,
+        "restored_to": 8.8
+      },
+      "c": {
+        "from_v5_5": 6.6,
+        "restored_to": 66.0
+      },
+      "f": {
+        "from_v5_5": 3.6,
+        "restored_to": 36.0
+      },
+      "fi": {
+        "from_v5_5": 1.2,
+        "restored_to": 1.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 508,
+    "en": "Lemon meringue pie",
+    "serving": "30g",
+    "k_v5_4": 352.1,
+    "k_v5_5": 352.1,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 55.1,
+        "v5_5_value": 5.5,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 6.1,
+        "restored_to": 6.1
+      },
+      "c": {
+        "from_v5_5": 5.5,
+        "restored_to": 55.1
+      },
+      "f": {
+        "from_v5_5": 12.8,
+        "restored_to": 12.8
+      },
+      "fi": {
+        "from_v5_5": 0.7,
+        "restored_to": 0.7
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 528,
+    "en": "Methi chaman",
+    "serving": "250g",
+    "k_v5_4": 4763.4,
+    "k_v5_5": 4763.4,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 509.8,
+        "v5_5_value": 51.0,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 15.4,
+        "restored_to": 15.4
+      },
+      "c": {
+        "from_v5_5": 27.8,
+        "restored_to": 27.8
+      },
+      "f": {
+        "from_v5_5": 51.0,
+        "restored_to": 509.8
+      },
+      "fi": {
+        "from_v5_5": 5.3,
+        "restored_to": 5.3
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 551,
+    "en": "Pear preserves",
+    "serving": "100g",
+    "k_v5_4": 603.5,
+    "k_v5_5": 603.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 153.0,
+        "v5_5_value": 15.3,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 1.5,
+        "restored_to": 1.5
+      },
+      "c": {
+        "from_v5_5": 15.3,
+        "restored_to": 153.0
+      },
+      "f": {
+        "from_v5_5": 1.1,
+        "restored_to": 1.1
+      },
+      "fi": {
+        "from_v5_5": 18.2,
+        "restored_to": 18.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 579,
+    "en": "Saunth/Sonth chutney with tamarind/imli",
+    "serving": "5g",
+    "k_v5_4": 25.1,
+    "k_v5_5": 25.1,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 5.9,
+        "v5_5_value": 0.6,
+        "drop_pct": 89.8
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.2,
+        "restored_to": 0.2
+      },
+      "c": {
+        "from_v5_5": 0.6,
+        "restored_to": 5.9
+      },
+      "f": {
+        "from_v5_5": 0.0,
+        "restored_to": 0.0
+      },
+      "fi": {
+        "from_v5_5": 0.2,
+        "restored_to": 0.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "serving": "25g",
+    "k_v5_4": 954.3,
+    "k_v5_5": 954.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 73.4,
+        "v5_5_value": 7.3,
+        "drop_pct": 90.1
+      },
+      {
+        "field": "f",
+        "v5_4_value": 66.5,
+        "v5_5_value": 6.7,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 17.4,
+        "restored_to": 17.4
+      },
+      "c": {
+        "from_v5_5": 7.3,
+        "restored_to": 73.4
+      },
+      "f": {
+        "from_v5_5": 6.7,
+        "restored_to": 66.5
+      },
+      "fi": {
+        "from_v5_5": 7.2,
+        "restored_to": 7.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "serving": "80g",
+    "k_v5_4": 1325.3,
+    "k_v5_5": 1325.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 131.4,
+        "v5_5_value": 13.1,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 9.1,
+        "restored_to": 9.1
+      },
+      "c": {
+        "from_v5_5": 26.2,
+        "restored_to": 26.2
+      },
+      "f": {
+        "from_v5_5": 13.1,
+        "restored_to": 131.4
+      },
+      "fi": {
+        "from_v5_5": 3.4,
+        "restored_to": 3.4
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "serving": "80g",
+    "k_v5_4": 1312.5,
+    "k_v5_5": 1312.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 135.6,
+        "v5_5_value": 13.6,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 15.0,
+        "restored_to": 15.0
+      },
+      "c": {
+        "from_v5_5": 8.1,
+        "restored_to": 8.1
+      },
+      "f": {
+        "from_v5_5": 13.6,
+        "restored_to": 135.6
+      },
+      "fi": {
+        "from_v5_5": 2.3,
+        "restored_to": 2.3
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 703,
+    "en": "Bhel puri",
+    "serving": "300g",
+    "k_v5_4": 3573.6,
+    "k_v5_5": 3573.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 335.8,
+        "v5_5_value": 33.6,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 24.7,
+        "restored_to": 24.7
+      },
+      "c": {
+        "from_v5_5": 115.4,
+        "restored_to": 115.4
+      },
+      "f": {
+        "from_v5_5": 33.6,
+        "restored_to": 335.8
+      },
+      "fi": {
+        "from_v5_5": 15.7,
+        "restored_to": 15.7
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 713,
+    "en": "Ginger bread man",
+    "serving": "15g",
+    "k_v5_4": 108.5,
+    "k_v5_5": 108.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 17.9,
+        "v5_5_value": 1.8,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 2.0,
+        "restored_to": 2.0
+      },
+      "c": {
+        "from_v5_5": 1.8,
+        "restored_to": 17.9
+      },
+      "f": {
+        "from_v5_5": 3.3,
+        "restored_to": 3.3
+      },
+      "fi": {
+        "from_v5_5": 0.5,
+        "restored_to": 0.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 742,
+    "en": "Frozen frosty fruit salad",
+    "serving": "30g",
+    "k_v5_4": 241.2,
+    "k_v5_5": 241.2,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 36.4,
+        "v5_5_value": 3.6,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 3.9,
+        "restored_to": 3.9
+      },
+      "c": {
+        "from_v5_5": 3.6,
+        "restored_to": 36.4
+      },
+      "f": {
+        "from_v5_5": 9.7,
+        "restored_to": 9.7
+      },
+      "fi": {
+        "from_v5_5": 0.6,
+        "restored_to": 0.6
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "serving": "15g",
+    "k_v5_4": 414.5,
+    "k_v5_5": 414.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 44.9,
+        "v5_5_value": 4.5,
+        "drop_pct": 90.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 22.5,
+        "v5_5_value": 2.2,
+        "drop_pct": 90.2
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 7.4,
+        "restored_to": 7.4
+      },
+      "c": {
+        "from_v5_5": 4.5,
+        "restored_to": 44.9
+      },
+      "f": {
+        "from_v5_5": 2.2,
+        "restored_to": 22.5
+      },
+      "fi": {
+        "from_v5_5": 1.5,
+        "restored_to": 1.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 778,
+    "en": "Classic club sandwich",
+    "serving": "35g",
+    "k_v5_4": 448.9,
+    "k_v5_5": 448.9,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 41.3,
+        "v5_5_value": 4.1,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 15.1,
+        "restored_to": 15.1
+      },
+      "c": {
+        "from_v5_5": 4.1,
+        "restored_to": 41.3
+      },
+      "f": {
+        "from_v5_5": 25.8,
+        "restored_to": 25.8
+      },
+      "fi": {
+        "from_v5_5": 3.6,
+        "restored_to": 3.6
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "serving": "1 bowl",
+    "k_v5_4": 212.0,
+    "k_v5_5": 212.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 9.2,
+        "v5_5_value": 0.9,
+        "drop_pct": 90.2
+      },
+      {
+        "field": "c",
+        "v5_4_value": 31.6,
+        "v5_5_value": 0.3,
+        "drop_pct": 99.1
+      },
+      {
+        "field": "f",
+        "v5_4_value": 5.4,
+        "v5_5_value": 0.5,
+        "drop_pct": 90.7
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.9,
+        "restored_to": 9.2
+      },
+      "c": {
+        "from_v5_5": 0.3,
+        "restored_to": 31.6
+      },
+      "f": {
+        "from_v5_5": 0.5,
+        "restored_to": 5.4
+      },
+      "fi": {
+        "from_v5_5": 7.1,
+        "restored_to": 7.1
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 799,
+    "en": "Masala onion pakora/pakoda",
+    "serving": "30g",
+    "k_v5_4": 389.0,
+    "k_v5_5": 389.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 40.6,
+        "v5_5_value": 4.1,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 1.4,
+        "restored_to": 1.4
+      },
+      "c": {
+        "from_v5_5": 4.6,
+        "restored_to": 4.6
+      },
+      "f": {
+        "from_v5_5": 4.1,
+        "restored_to": 40.6
+      },
+      "fi": {
+        "from_v5_5": 1.0,
+        "restored_to": 1.0
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 808,
+    "en": "Olive biscuit",
+    "serving": "15g",
+    "k_v5_4": 207.3,
+    "k_v5_5": 207.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 26.0,
+        "v5_5_value": 2.6,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 1.5,
+        "restored_to": 1.5
+      },
+      "c": {
+        "from_v5_5": 2.6,
+        "restored_to": 26.0
+      },
+      "f": {
+        "from_v5_5": 11.2,
+        "restored_to": 11.2
+      },
+      "fi": {
+        "from_v5_5": 0.4,
+        "restored_to": 0.4
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 810,
+    "en": "Orange biscuit",
+    "serving": "15g",
+    "k_v5_4": 214.6,
+    "k_v5_5": 214.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 37.6,
+        "v5_5_value": 3.8,
+        "drop_pct": 89.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 2.2,
+        "restored_to": 2.2
+      },
+      "c": {
+        "from_v5_5": 3.8,
+        "restored_to": 37.6
+      },
+      "f": {
+        "from_v5_5": 6.7,
+        "restored_to": 6.7
+      },
+      "fi": {
+        "from_v5_5": 0.5,
+        "restored_to": 0.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 883,
+    "en": "Carrot cake",
+    "serving": "30g",
+    "k_v5_4": 255.5,
+    "k_v5_5": 255.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 36.0,
+        "v5_5_value": 3.6,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 5.6,
+        "restored_to": 5.6
+      },
+      "c": {
+        "from_v5_5": 3.6,
+        "restored_to": 36.0
+      },
+      "f": {
+        "from_v5_5": 10.3,
+        "restored_to": 10.3
+      },
+      "fi": {
+        "from_v5_5": 2.9,
+        "restored_to": 2.9
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 891,
+    "en": "Christmas cake",
+    "serving": "30g",
+    "k_v5_4": 388.6,
+    "k_v5_5": 388.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 50.3,
+        "v5_5_value": 5.0,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 5.7,
+        "restored_to": 5.7
+      },
+      "c": {
+        "from_v5_5": 5.0,
+        "restored_to": 50.3
+      },
+      "f": {
+        "from_v5_5": 17.6,
+        "restored_to": 17.6
+      },
+      "fi": {
+        "from_v5_5": 1.6,
+        "restored_to": 1.6
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 898,
+    "en": "Honey cake",
+    "serving": "30g",
+    "k_v5_4": 546.1,
+    "k_v5_5": 546.1,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 80.3,
+        "v5_5_value": 8.0,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 5.0,
+        "restored_to": 5.0
+      },
+      "c": {
+        "from_v5_5": 8.0,
+        "restored_to": 80.3
+      },
+      "f": {
+        "from_v5_5": 24.1,
+        "restored_to": 24.1
+      },
+      "fi": {
+        "from_v5_5": 0.8,
+        "restored_to": 0.8
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 903,
+    "en": "Lotus seed halwa",
+    "serving": "60g",
+    "k_v5_4": 1343.2,
+    "k_v5_5": 1343.2,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 143.4,
+        "v5_5_value": 14.3,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 28.2,
+        "restored_to": 28.2
+      },
+      "c": {
+        "from_v5_5": 14.3,
+        "restored_to": 143.4
+      },
+      "f": {
+        "from_v5_5": 45.0,
+        "restored_to": 45.0
+      },
+      "fi": {
+        "from_v5_5": 1.5,
+        "restored_to": 1.5
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 913,
+    "en": "Pineapple cake",
+    "serving": "30g",
+    "k_v5_4": 1003.3,
+    "k_v5_5": 1003.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 120.6,
+        "v5_5_value": 12.1,
+        "drop_pct": 90.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 47.9,
+        "v5_5_value": 4.8,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 25.7,
+        "restored_to": 25.7
+      },
+      "c": {
+        "from_v5_5": 12.1,
+        "restored_to": 120.6
+      },
+      "f": {
+        "from_v5_5": 4.8,
+        "restored_to": 47.9
+      },
+      "fi": {
+        "from_v5_5": 3.9,
+        "restored_to": 3.9
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "serving": "2 pcs",
+    "k_v5_4": 246.0,
+    "k_v5_5": 246.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 7.2,
+        "v5_5_value": 0.7,
+        "drop_pct": 90.3
+      },
+      {
+        "field": "c",
+        "v5_4_value": 29.5,
+        "v5_5_value": 0.3,
+        "drop_pct": 99.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 10.2,
+        "v5_5_value": 1.0,
+        "drop_pct": 90.2
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.7,
+        "restored_to": 7.2
+      },
+      "c": {
+        "from_v5_5": 0.3,
+        "restored_to": 29.5
+      },
+      "f": {
+        "from_v5_5": 1.0,
+        "restored_to": 10.2
+      },
+      "fi": {
+        "from_v5_5": 0.0,
+        "restored_to": 0.0
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 943,
+    "en": "Tutti frutti cake",
+    "serving": "100g",
+    "k_v5_4": 2949.5,
+    "k_v5_5": 2949.5,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 449.0,
+        "v5_5_value": 44.9,
+        "drop_pct": 90.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 107.6,
+        "v5_5_value": 10.8,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 38.1,
+        "restored_to": 38.1
+      },
+      "c": {
+        "from_v5_5": 44.9,
+        "restored_to": 449.0
+      },
+      "f": {
+        "from_v5_5": 10.8,
+        "restored_to": 107.6
+      },
+      "fi": {
+        "from_v5_5": 7.2,
+        "restored_to": 7.2
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "serving": "1 bowl",
+    "k_v5_4": 228.0,
+    "k_v5_5": 228.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 4.8,
+        "v5_5_value": 0.5,
+        "drop_pct": 89.6
+      },
+      {
+        "field": "c",
+        "v5_4_value": 18.5,
+        "v5_5_value": 0.2,
+        "drop_pct": 98.9
+      },
+      {
+        "field": "f",
+        "v5_4_value": 15.6,
+        "v5_5_value": 0.2,
+        "drop_pct": 98.7
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.5,
+        "restored_to": 4.8
+      },
+      "c": {
+        "from_v5_5": 0.2,
+        "restored_to": 18.5
+      },
+      "f": {
+        "from_v5_5": 0.2,
+        "restored_to": 15.6
+      },
+      "fi": {
+        "from_v5_5": 3.4,
+        "restored_to": 3.4
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "serving": "1 bowl",
+    "k_v5_4": 126.0,
+    "k_v5_5": 126.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 3.6,
+        "v5_5_value": 0.4,
+        "drop_pct": 88.9
+      },
+      {
+        "field": "c",
+        "v5_4_value": 14.8,
+        "v5_5_value": 0.1,
+        "drop_pct": 99.3
+      },
+      {
+        "field": "f",
+        "v5_4_value": 5.9,
+        "v5_5_value": 0.6,
+        "drop_pct": 89.8
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.4,
+        "restored_to": 3.6
+      },
+      "c": {
+        "from_v5_5": 0.1,
+        "restored_to": 14.8
+      },
+      "f": {
+        "from_v5_5": 0.6,
+        "restored_to": 5.9
+      },
+      "fi": {
+        "from_v5_5": 5.2,
+        "restored_to": 5.2
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 994,
+    "en": "Creamed spinach and mushroom",
+    "serving": "250g",
+    "k_v5_4": 2496.7,
+    "k_v5_5": 2496.7,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "f",
+        "v5_4_value": 262.6,
+        "v5_5_value": 26.3,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 13.6,
+        "restored_to": 13.6
+      },
+      "c": {
+        "from_v5_5": 18.8,
+        "restored_to": 18.8
+      },
+      "f": {
+        "from_v5_5": 26.3,
+        "restored_to": 262.6
+      },
+      "fi": {
+        "from_v5_5": 6.1,
+        "restored_to": 6.1
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 1034,
+    "en": "Pumpkin cookies",
+    "serving": "25g",
+    "k_v5_4": 186.6,
+    "k_v5_5": 186.6,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 38.2,
+        "v5_5_value": 3.8,
+        "drop_pct": 90.1
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 2.1,
+        "restored_to": 2.1
+      },
+      "c": {
+        "from_v5_5": 3.8,
+        "restored_to": 38.2
+      },
+      "f": {
+        "from_v5_5": 3.4,
+        "restored_to": 3.4
+      },
+      "fi": {
+        "from_v5_5": 0.9,
+        "restored_to": 0.9
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "serving": "15g",
+    "k_v5_4": 447.3,
+    "k_v5_5": 447.3,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "c",
+        "v5_4_value": 57.5,
+        "v5_5_value": 5.8,
+        "drop_pct": 89.9
+      },
+      {
+        "field": "f",
+        "v5_4_value": 20.1,
+        "v5_5_value": 2.0,
+        "drop_pct": 90.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 7.8,
+        "restored_to": 7.8
+      },
+      "c": {
+        "from_v5_5": 5.8,
+        "restored_to": 57.5
+      },
+      "f": {
+        "from_v5_5": 2.0,
+        "restored_to": 20.1
+      },
+      "fi": {
+        "from_v5_5": 3.4,
+        "restored_to": 3.4
+      }
+    },
+    "note": "Macro decimal-shift repair was incorrect. Restored from v5_4."
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "serving": "1 bowl",
+    "k_v5_4": 392.0,
+    "k_v5_5": 392.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 17.5,
+        "v5_5_value": 0.2,
+        "drop_pct": 98.9
+      },
+      {
+        "field": "c",
+        "v5_4_value": 41.2,
+        "v5_5_value": 0.4,
+        "drop_pct": 99.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 16.8,
+        "v5_5_value": 0.2,
+        "drop_pct": 98.8
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.2,
+        "restored_to": 17.5
+      },
+      "c": {
+        "from_v5_5": 0.4,
+        "restored_to": 41.2
+      },
+      "f": {
+        "from_v5_5": 0.2,
+        "restored_to": 16.8
+      },
+      "fi": {
+        "from_v5_5": 2.1,
+        "restored_to": 2.1
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "serving": "1 plate",
+    "k_v5_4": 468.0,
+    "k_v5_5": 468.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 8.4,
+        "v5_5_value": 0.8,
+        "drop_pct": 90.5
+      },
+      {
+        "field": "c",
+        "v5_4_value": 52.0,
+        "v5_5_value": 0.5,
+        "drop_pct": 99.0
+      },
+      {
+        "field": "f",
+        "v5_4_value": 24.5,
+        "v5_5_value": 0.2,
+        "drop_pct": 99.2
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.8,
+        "restored_to": 8.4
+      },
+      "c": {
+        "from_v5_5": 0.5,
+        "restored_to": 52.0
+      },
+      "f": {
+        "from_v5_5": 0.2,
+        "restored_to": 24.5
+      },
+      "fi": {
+        "from_v5_5": 4.1,
+        "restored_to": 4.1
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "serving": "1 bowl",
+    "k_v5_4": 418.0,
+    "k_v5_5": 418.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 24.6,
+        "v5_5_value": 0.2,
+        "drop_pct": 99.2
+      },
+      {
+        "field": "c",
+        "v5_4_value": 7.4,
+        "v5_5_value": 0.7,
+        "drop_pct": 90.5
+      },
+      {
+        "field": "f",
+        "v5_4_value": 31.5,
+        "v5_5_value": 0.3,
+        "drop_pct": 99.0
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.2,
+        "restored_to": 24.6
+      },
+      "c": {
+        "from_v5_5": 0.7,
+        "restored_to": 7.4
+      },
+      "f": {
+        "from_v5_5": 0.3,
+        "restored_to": 31.5
+      },
+      "fi": {
+        "from_v5_5": 1.5,
+        "restored_to": 1.5
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "serving": "1 bowl",
+    "k_v5_4": 142.0,
+    "k_v5_5": 142.0,
+    "k_change_pct": 0.0,
+    "regressed_fields": [
+      {
+        "field": "p",
+        "v5_4_value": 3.8,
+        "v5_5_value": 0.4,
+        "drop_pct": 89.5
+      },
+      {
+        "field": "c",
+        "v5_4_value": 28.5,
+        "v5_5_value": 0.3,
+        "drop_pct": 98.9
+      },
+      {
+        "field": "f",
+        "v5_4_value": 1.8,
+        "v5_5_value": 0.2,
+        "drop_pct": 88.9
+      }
+    ],
+    "restored_fields": {
+      "p": {
+        "from_v5_5": 0.4,
+        "restored_to": 3.8
+      },
+      "c": {
+        "from_v5_5": 0.3,
+        "restored_to": 28.5
+      },
+      "f": {
+        "from_v5_5": 0.2,
+        "restored_to": 1.8
+      },
+      "fi": {
+        "from_v5_5": 0.8,
+        "restored_to": 0.8
+      }
+    },
+    "note": "Serving was non-gram (e.g. '1 bowl') — v5_5 repair extracted wrong serving weight and incorrectly scaled macros. Restored from v5_4."
+  }
+]

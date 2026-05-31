@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 16,
+    "en": "Infinity Wellness Bowl",
+    "bn": "ইনফিনিটি বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 20,
+    "en": "Banana Oats",
+    "bn": "কলা ওটস",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 25,
+    "en": "Chitoi Pitha",
+    "bn": "চিতই পিঠা",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 26,
+    "en": "Doi Chire",
+    "bn": "দই চিঁড়ে",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 27,
+    "en": "Egg Toast",
+    "bn": "টোস্ট",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 28,
+    "en": "Healthy Breakfast Bowl",
+    "bn": "হেলদি ব্রেকফাস্ট",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 33,
+    "en": "Kochuri",
+    "bn": "কচুরি",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 34,
+    "en": "Luchi",
+    "bn": "লুচি",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 37,
+    "en": "Oats Milk Bowl",
+    "bn": "ওটস দুধ",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 38,
+    "en": "Oats Porridge",
+    "bn": "ওটস",
+    "cat": "breakfast",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 54,
+    "en": "Aam Chutney",
+    "bn": "আমের চাটনি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 55,
+    "en": "Tomato Chutney",
+    "bn": "টমেটো চাটনি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 141,
+    "en": "Chana Bhuna",
+    "bn": "ছোলা ভুনা",
+    "cat": "legume",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 142,
+    "en": "Cholar Dal",
+    "bn": "ছোলার ডাল",
+    "cat": "legume",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 152,
+    "en": "Masoor Dal",
+    "bn": "মসুর ডালের তরকারি",
+    "cat": "legume",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 153,
+    "en": "Mixed Dal",
+    "bn": "মিক্সড ডাল",
+    "cat": "legume",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 168,
+    "en": "Bhapa Pitha",
+    "bn": "ভাপা পিঠা",
+    "cat": "dessert",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 170,
+    "en": "Nolen Gur Sandesh",
+    "bn": "নলেন গুড় সন্দেশ",
+    "cat": "dessert",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 174,
+    "en": "Sandesh",
+    "bn": "সন্দেশ",
+    "cat": "dessert",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 175,
+    "en": "Strawberry Yogurt",
+    "bn": "স্ট্রবেরি দই",
+    "cat": "dessert",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 176,
+    "en": "Detox Bowl",
+    "bn": "ডিটক্স বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 177,
+    "en": "Weight Loss Soup",
+    "bn": "ওজন কমানোর স্যুপ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 178,
+    "en": "Apple Cider Drink",
+    "bn": "অ্যাপল সাইডার",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 179,
+    "en": "Banana Shake",
+    "bn": "কলা শেক",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 180,
+    "en": "Black Coffee",
+    "bn": "কফি",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 181,
+    "en": "Black Tea",
+    "bn": "কালো চা",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 182,
+    "en": "Chocolate Milk",
+    "bn": "চকো মিল্ক",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 183,
+    "en": "Coconut Water",
+    "bn": "ডাবের জল",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 184,
+    "en": "Detox Water",
+    "bn": "ডিটক্স জল",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 185,
+    "en": "Fat Burn Drink",
+    "bn": "ফ্যাট বার্ন ড্রিংক",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 186,
+    "en": "Ginger Tea",
+    "bn": "আদা চা",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 187,
+    "en": "Herbal Tea",
+    "bn": "হারবাল চা",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 189,
+    "en": "Lemon Honey Water",
+    "bn": "লেবু মধু জল",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 190,
+    "en": "Lemon Water",
+    "bn": "লেবু জল",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 191,
+    "en": "Mango Shake",
+    "bn": "আম শেক",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 192,
+    "en": "Milk Coffee",
+    "bn": "দুধ কফি",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 193,
+    "en": "Milk Tea",
+    "bn": "চা",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 194,
+    "en": "Salt Lassi",
+    "bn": "নোনতা লাচ্ছি",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 195,
+    "en": "Sweet Lassi",
+    "bn": "মিষ্টি লাচ্ছি",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 196,
+    "en": "Air Fry Fish",
+    "bn": "এয়ার ফ্রাই মাছ",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 200,
+    "en": "Bhetki Paturi",
+    "bn": "ভেটকি পাতুরি",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 201,
+    "en": "Chingri Bhapa",
+    "bn": "চিংড়ি ভাপা",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 202,
+    "en": "Chingri Bhorta",
+    "bn": "চিংড়ি ভর্তা",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 203,
+    "en": "Chingri Malai",
+    "bn": "চিংড়ি মালাই",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 205,
+    "en": "Daab Chingri",
+    "bn": "ডাব চিংড়ি",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 206,
+    "en": "Fish Fry",
+    "bn": "ফিশ ফ্রাই",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 207,
+    "en": "Fish Kalia",
+    "bn": "মাছ কালিয়া",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 208,
+    "en": "Fish Steam",
+    "bn": "স্টিম মাছ",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 222,
+    "en": "Ilish Bhapa",
+    "bn": "ইলিশ ভাপা",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 223,
+    "en": "Katla Curry",
+    "bn": "কাতলা মাছের তরকারি",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 224,
+    "en": "Lean Fish Bowl",
+    "bn": "লিন মাছ",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 226,
+    "en": "Macher Bhaja",
+    "bn": "মাছ ভাজা",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 227,
+    "en": "Macher Jhol",
+    "bn": "মাছের ঝোল",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 228,
+    "en": "Pabda Jhol",
+    "bn": "পাবদা ঝোল",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 231,
+    "en": "Rohu Curry",
+    "bn": "রুই মাছের ঝোল",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 232,
+    "en": "Shorshe Ilish",
+    "bn": "সরষে ইলিশ",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 234,
+    "en": "Tangra Jhol",
+    "bn": "ট্যাংরা ঝোল",
+    "cat": "fish",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 236,
+    "en": "Fitness Bowl",
+    "bn": "ফিটনেস বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 237,
+    "en": "Low Carb Bowl",
+    "bn": "লো কার্ব বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 238,
+    "en": "Apple",
+    "bn": "আপেল",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 245,
+    "en": "Banana",
+    "bn": "কলা",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 256,
+    "en": "Dates",
+    "bn": "খেজুর",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 260,
+    "en": "Fruit Salad",
+    "bn": "ফল সালাদ",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 262,
+    "en": "Guava",
+    "bn": "পেয়ারা",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 266,
+    "en": "Jackfruit",
+    "bn": "কাঁঠাল",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 267,
+    "en": "Mango",
+    "bn": "আম",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 275,
+    "en": "Mixed Fruit Bowl",
+    "bn": "ফল বোল",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 295,
+    "en": "Watermelon",
+    "bn": "তরমুজ",
+    "cat": "fruit",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 301,
+    "en": "Rice",
+    "bn": "ভাত",
+    "cat": "grain",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 308,
+    "en": "Balanced Diet Bowl",
+    "bn": "ব্যালান্স ডায়েট",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 309,
+    "en": "Healthy Curry Bowl",
+    "bn": "হেলদি কারি",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 310,
+    "en": "Light Dinner Bowl",
+    "bn": "ডিনার বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 311,
+    "en": "Light Lunch Bowl",
+    "bn": "লাইট লাঞ্চ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 312,
+    "en": "Simple Chicken Meal",
+    "bn": "সিম্পল চিকেন",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 313,
+    "en": "Simple Veg Meal",
+    "bn": "সিম্পল ভেজ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 314,
+    "en": "Wellness Bowl",
+    "bn": "ওয়েলনেস বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 316,
+    "en": "Air Fry Chicken",
+    "bn": "এয়ার ফ্রাই চিকেন",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 317,
+    "en": "Boiled Chicken",
+    "bn": "সেদ্ধ চিকেন",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 321,
+    "en": "Chicken Curry",
+    "bn": "মুরগির ঝোল",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 322,
+    "en": "Chicken Grill",
+    "bn": "গ্রিল চিকেন",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 323,
+    "en": "Chicken Roast",
+    "bn": "চিকেন রোস্ট",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 339,
+    "en": "Egg Curry",
+    "bn": "ডিমের ঝোল",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 347,
+    "en": "Light Chicken Curry",
+    "bn": "হালকা চিকেন কারি",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 348,
+    "en": "Mutton Curry",
+    "bn": "মাটন কারি",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 362,
+    "en": "Chicken Chowmein",
+    "bn": "চিকেন চাওমিন",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 364,
+    "en": "Egg Chowmein",
+    "bn": "এগ চাওমিন",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 375,
+    "en": "Almonds",
+    "bn": "বাদাম",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 376,
+    "en": "Cashew",
+    "bn": "কাজু",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 385,
+    "en": "Walnuts",
+    "bn": "আখরোট",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 490,
+    "en": "Jam filling",
+    "bn": "জাম ফিললিনগ",
+    "cat": "snack",
+    "src": "indb",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 640,
+    "en": "Boiled Egg",
+    "bn": "সেদ্ধ ডিম",
+    "cat": "egg",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 642,
+    "en": "Egg Bhurji",
+    "bn": "ডিম ভুরজি",
+    "cat": "egg",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 643,
+    "en": "Egg White Omelette",
+    "bn": "এগ হোয়াইট অমলেট",
+    "cat": "egg",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 652,
+    "en": "Fried Egg",
+    "bn": "ডিম ভাজা",
+    "cat": "egg",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 653,
+    "en": "High Protein Bowl",
+    "bn": "প্রোটিন বোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 657,
+    "en": "Lean Chicken Bowl",
+    "bn": "লিন চিকেন",
+    "cat": "meat",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 659,
+    "en": "Protein Bar",
+    "bn": "প্রোটিন বার",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 664,
+    "en": "Veg Protein Bowl",
+    "bn": "ভেজ প্রোটিন",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 667,
+    "en": "Basanti Pulao",
+    "bn": "বসন্তী পোলাও",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 668,
+    "en": "Chicken Khichdi",
+    "bn": "চিকেন খিচুড়ি",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 671,
+    "en": "Coconut Rice",
+    "bn": "নারকেল ভাত",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 673,
+    "en": "Curd Rice",
+    "bn": "দই ভাত",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 674,
+    "en": "Fish Pulao",
+    "bn": "মাছ পোলাও",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 675,
+    "en": "Fried Rice",
+    "bn": "ফ্রাইড রাইস",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 677,
+    "en": "Khichuri",
+    "bn": "খিচুড়ি",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 678,
+    "en": "Kolkata Biryani",
+    "bn": "কলকাতা বিরিয়ানি",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 679,
+    "en": "Lemon Rice",
+    "bn": "লেবু ভাত",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 680,
+    "en": "Light Rice Bowl",
+    "bn": "লাইট রাইস",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 681,
+    "en": "Mishti Pulao",
+    "bn": "মিষ্টি পোলাও",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 688,
+    "en": "Panta Bhat",
+    "bn": "পান্তা ভাত",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 693,
+    "en": "Protein Khichdi",
+    "bn": "প্রোটিন খিচুড়ি",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 695,
+    "en": "Spinach Rice",
+    "bn": "পালং ভাত",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 696,
+    "en": "Veg Pulao",
+    "bn": "সবজি পোলাও",
+    "cat": "rice",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 737,
+    "en": "Boiled Chicken Salad",
+    "bn": "সেদ্ধ চিকেন সালাদ",
+    "cat": "salad",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 740,
+    "en": "Chickpea Salad",
+    "bn": "ছোলা সালাদ",
+    "cat": "salad",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 745,
+    "en": "Gym Salad",
+    "bn": "জিম সালাদ",
+    "cat": "salad",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 751,
+    "en": "Moong Sprouts",
+    "bn": "মুগ স্প্রাউটস",
+    "cat": "salad",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 755,
+    "en": "Sprouts Salad",
+    "bn": "স্প্রাউটস",
+    "cat": "salad",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 761,
+    "en": "Aloo Bhaja",
+    "bn": "আলু ভাজা",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 763,
+    "en": "Beguni",
+    "bn": "বেগুনি",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 768,
+    "en": "Chicken Roll",
+    "bn": "চিকেন রোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 769,
+    "en": "Chicken Sandwich",
+    "bn": "চিকেন স্যান্ডউইচ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 770,
+    "en": "Chingri Cutlet",
+    "bn": "চিংড়ি কাটলেট",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 784,
+    "en": "Egg Devil",
+    "bn": "এগ ডেভিল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 785,
+    "en": "Egg Sandwich",
+    "bn": "ডিম স্যান্ডউইচ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 786,
+    "en": "Energy Bar",
+    "bn": "এনার্জি বার",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 794,
+    "en": "Jhalmuri",
+    "bn": "ঝালমুড়ি",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 795,
+    "en": "Kathi Roll Chicken",
+    "bn": "কাঠি রোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 804,
+    "en": "Murir Moa",
+    "bn": "মুড়ির মোয়া",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 807,
+    "en": "Nut Mix",
+    "bn": "বাদাম মিক্স",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 812,
+    "en": "Peanut Chikki",
+    "bn": "চিক্কি",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 816,
+    "en": "Phuchka",
+    "bn": "ফুচকা",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 821,
+    "en": "Roasted Chana",
+    "bn": "ছোলা ভাজা",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 825,
+    "en": "Samosa",
+    "bn": "সমোসা",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 826,
+    "en": "Seed Mix",
+    "bn": "সিড মিক্স",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 829,
+    "en": "Singara",
+    "bn": "সিঙ্গারা",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 840,
+    "en": "Veg Chop",
+    "bn": "চপ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 841,
+    "en": "Veg Roll",
+    "bn": "ভেজ রোল",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 842,
+    "en": "Veg Sandwich",
+    "bn": "ভেজ স্যান্ডউইচ",
+    "cat": "snack",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 849,
+    "en": "Bone Broth Chicken",
+    "bn": "বোন ব্রথ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 850,
+    "en": "Chicken Soup",
+    "bn": "চিকেন স্যুপ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 855,
+    "en": "Dal Soup",
+    "bn": "ডাল স্যুপ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 856,
+    "en": "Fish Broth",
+    "bn": "মাছ স্যুপ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 868,
+    "en": "Tomato Soup",
+    "bn": "টমেটো স্যুপ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 869,
+    "en": "Veg Soup",
+    "bn": "সবজি স্যুপ",
+    "cat": "soup",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 949,
+    "en": "Alur Dom",
+    "bn": "আলুর দম",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 950,
+    "en": "Begun Bhaja",
+    "bn": "বেগুন ভাজা",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 951,
+    "en": "Boiled Veg Mix",
+    "bn": "সেদ্ধ মিক্সড সবজি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 952,
+    "en": "Cabbage Curry",
+    "bn": "বাঁধাকপির তরকারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 953,
+    "en": "Cauliflower Curry",
+    "bn": "ফুলকপি কারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 954,
+    "en": "Dalna",
+    "bn": "ডালনা",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 955,
+    "en": "Dhokar Dalna",
+    "bn": "ঢোকার ডালনা",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 956,
+    "en": "Grilled Paneer",
+    "bn": "গ্রিল পনির",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 957,
+    "en": "Labra",
+    "bn": "লাবড়া",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 958,
+    "en": "Lau Ghonto",
+    "bn": "লাউ ঘন্ট",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 959,
+    "en": "Light Veg Curry",
+    "bn": "হালকা সবজি কারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 960,
+    "en": "Mixed Veg",
+    "bn": "মিক্সড সবজি তরকারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 961,
+    "en": "Mochar Ghonto",
+    "bn": "মোচার ঘন্ট",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 962,
+    "en": "Palong Saag",
+    "bn": "পালং শাকের তরকারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 963,
+    "en": "Paneer Bhurji",
+    "bn": "পনির ভুরজি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 964,
+    "en": "Paneer Curry",
+    "bn": "পনির কারি",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 965,
+    "en": "Posto Bata",
+    "bn": "পোস্ত বাটা",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 966,
+    "en": "Potol Posto",
+    "bn": "পটল পোস্ত",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 967,
+    "en": "Roasted Veg Bowl",
+    "bn": "রোস্টেড ভেজ",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 969,
+    "en": "Steamed Veg",
+    "bn": "স্টিম ভেজ",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 970,
+    "en": "Vegetable Stew",
+    "bn": "সবজি স্টু",
+    "cat": "vegetable",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "bn": "সুজি",
+    "cat": "grain",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "bn": "রুটি",
+    "cat": "grain",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "bn": "ডাঁটাশাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "bn": "শিম",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "bn": "বিট",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "bn": "বরবটি",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "bn": "বক ফুল শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "bn": "মালঞ্চ শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "bn": "দিমা শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "bn": "ঢেঁকি শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "bn": "পালং শাক, কাঁচা",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "bn": "মিষ্টি আলুর শাক (SP4)",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "bn": "মিষ্টি আলুর শাক (SP8)",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "bn": "কলমি শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "bn": "হেলেঞ্চা শাক",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "bn": "মিষ্টি আলু, সাদা",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "bn": "বন আলু",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "bn": "গোল আলু সিদ্ধ",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "bn": "বন আলু সিদ্ধ",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "bn": "জয়ফল",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "bn": "পোস্তদানা",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "bn": "হলুদ",
+    "cat": "vegetable",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "bn": "কালোজাম",
+    "cat": "fruit",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "bn": "গোলাপজাম",
+    "cat": "fruit",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "bn": "কাগজি লেবু",
+    "cat": "fruit",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "bn": "বাচা মাছ",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "bn": "কাজুলি মাছ",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "bn": "রুই মাছ, নদীর",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "bn": "চিংড়ি, ছোট",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "bn": "টাকি মাছ",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "bn": "তাটকিনি মাছ",
+    "cat": "fish",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "bn": "মুরগির ডিম, ফার্মের",
+    "cat": "meat",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "bn": "মুরগির ডিম, দেশি (কাঁচা)",
+    "cat": "meat",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "bn": "হাঁসের ডিম",
+    "cat": "meat",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "bn": "মুরগির ডিম, দেশি (সিদ্ধ)",
+    "cat": "meat",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "bn": "হাঁসের ডিম, সিদ্ধ",
+    "cat": "meat",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "bn": "তুলার বিচির তেল",
+    "cat": "dairy",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "bn": "সরিষার তেল",
+    "cat": "dairy",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "bn": "পাম তেল",
+    "cat": "dairy",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "bn": "চিনা বাদামের তেল",
+    "cat": "dairy",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "bn": "তিলের তেল",
+    "cat": "dairy",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "bn": "তাৎক্ষণিক কফি (চিনি ও দুধ সহ)",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "bn": "কফি পাউডার",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "bn": "কোমল পানীয়",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "bn": "সয়াবিনের দুধ",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "bn": "আখের রস",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "bn": "দুধ চা (চিনি ও গুঁড়া দুধ সহ)",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "bn": "লিকার চা (চিনিসহ)",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "bn": "চা পাতা",
+    "cat": "beverage",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "bn": "বেকিং পাউডার",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "bn": "পান পাতা",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "bn": "মধু",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "bn": "গুড়, আখ",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "bn": "খেজুর গুড়",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "bn": "নলেন গুড়",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "bn": "চিনি, সাদা",
+    "cat": "sweet",
+    "src": "bd_fct",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1425,
+    "en": "Whiskey / Whisky (30ml)",
+    "bn": "হুইস্কি",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1426,
+    "en": "Rum (30ml)",
+    "bn": "রাম",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  },
+  {
+    "id": 1427,
+    "en": "Vodka (30ml)",
+    "bn": "ভদকা",
+    "cat": "beverage",
+    "src": "local",
+    "note": "ca=0 AND fe=0 AND zn=0 — micronutrient data missing"
+  }
+]

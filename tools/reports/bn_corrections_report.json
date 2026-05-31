@@ -1,0 +1,1536 @@
+[
+  {
+    "id": 2,
+    "en": "Coffee drops",
+    "bn": "কফি দরোপস",
+    "patterns": [
+      {
+        "pattern": "দরোপস",
+        "english_word": "drops",
+        "description": "English word 'drops' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 19,
+    "en": "Bacon and mushroom pancake",
+    "bn": "বাকোন ানদ মুশরুম পানকাকে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 24,
+    "en": "Cereal pulse mix with amylase rice flour",
+    "bn": "কেরোল পুলসে মিক্স ওিথ ামযলাসে ভাত ফলউর",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "ফলউর",
+        "english_word": "flour",
+        "description": "English word 'flour' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 31,
+    "en": "Jam and fruit pancake",
+    "bn": "জাম ানদ ফরুিত পানকাকে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 58,
+    "en": "Cheese and chilli sandwich",
+    "bn": "চিজ ানদ চিললি স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 65,
+    "en": "Cheese sauce",
+    "bn": "চিজ সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 77,
+    "en": "Cornflakes with milk",
+    "bn": "কর্নফ্লেক্স ওিথ দুধ",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 83,
+    "en": "Cucumber and yogurt salad",
+    "bn": "কুকুমবের ানদ দই সালাদ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 88,
+    "en": "Curd with potatoes",
+    "bn": "দই ওিথ পোতাতোেস",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 90,
+    "en": "Gulab Jamun with khoya",
+    "bn": "গুলাব জামুন ওিথ খোয়া",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 94,
+    "en": "Khoa and coconut pancake",
+    "bn": "খোয়া ানদ নারকেল পানকাকে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 100,
+    "en": "Mashed banana with milk",
+    "bn": "মাশেদ কলা ওিথ দুধ",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 104,
+    "en": "Mushroom and cheese sandwich",
+    "bn": "মুশরুম ানদ চিজ স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 105,
+    "en": "Orange and pineapple cream",
+    "bn": "কমলা ানদ আনারস ক্রিম",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 107,
+    "en": "Paneer and pea samosa",
+    "bn": "পনির ানদ পো সমোসা",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 109,
+    "en": "Paneer in butter sauce",
+    "bn": "পনির িন মাখন সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 121,
+    "en": "Paneer, apple and pineapple salad",
+    "bn": "পানির, আপেল ানদ আনারস সালাদ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 122,
+    "en": "Pasta cheese sauce",
+    "bn": "পাস্তা চিজ সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 127,
+    "en": "Poha with curd",
+    "bn": "চিড়া ওিথ দই",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 131,
+    "en": "Semolina ladoo with khoya",
+    "bn": "সেমোলিনা লাড্ডু ওিথ খোয়া",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 134,
+    "en": "Spaghetti and cheese balls in tomato sauce",
+    "bn": "সপাঘেততি ানদ চিজ বাললস িন টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 135,
+    "en": "Strawberry and vanilla cake with butter icing",
+    "bn": "স্ট্রবেরি ানদ ভানিললা কাকে ওিথ মাখন িকিনগ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      },
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 159,
+    "en": "Rasam with tamarind",
+    "bn": "রসম ওিথ তেঁতুল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 167,
+    "en": "Wheat flour and moong dal burfi",
+    "bn": "গম ফলউর ানদ মুগ ডাল বুরফি",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      },
+      {
+        "pattern": "ফলউর",
+        "english_word": "flour",
+        "description": "English word 'flour' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 197,
+    "en": "Baked fish with cheese sauce",
+    "bn": "বেক মাছ ওিথ চিজ সআউকে",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 204,
+    "en": "Crispy baked fish",
+    "bn": "করিসপয বেক মাছ",
+    "patterns": [
+      {
+        "pattern": "করিসপয",
+        "english_word": "crispy",
+        "description": "English word 'crispy' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 233,
+    "en": "Tandoori fish",
+    "bn": "তানদুরি মাছ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 249,
+    "en": "Beans with coconut",
+    "bn": "শিম ওিথ নারকেল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 261,
+    "en": "Grape and orange whip",
+    "bn": "গরাপে ানদ কমলা ওহিপ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 271,
+    "en": "Mango murabba candy",
+    "bn": "আম মুরাববা কানদয",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 292,
+    "en": "Raw papaya with coconut",
+    "bn": "রাও পেঁপে ওিথ নারকেল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 293,
+    "en": "Raw turnip with coconut",
+    "bn": "রাও তুরনিপ ওিথ নারকেল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 294,
+    "en": "Vegetable curry with coconut",
+    "bn": "সবজির তরকারি ওিথ নারকেল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 324,
+    "en": "Chicken and tomato towers",
+    "bn": "চিকেন ানদ টমেটো তোওেরস",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 340,
+    "en": "Fried chicken with tomato sauce",
+    "bn": "ভাজা চিকেন ওিথ টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 342,
+    "en": "Handi chicken",
+    "bn": "হানদি চিকেন",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 359,
+    "en": "Tandoori chicken",
+    "bn": "তানদুরি চিকেন",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 361,
+    "en": "Beans and macaroni",
+    "bn": "শিম ানদ মাকারোনি",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 366,
+    "en": "Meat and macaroni casserole",
+    "bn": "মোত ানদ মাকারোনি কাসসেরোলে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 370,
+    "en": "Spaghetti with meat balls and tomato sauce",
+    "bn": "সপাঘেততি ওিথ মোত বাললস ানদ টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      },
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 377,
+    "en": "Cherry and walnut cookies",
+    "bn": "চেররয ানদ আখরোট কুকিেস",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 391,
+    "en": "Baked eggs in tomato sauce",
+    "bn": "বেক েগগস িন টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 393,
+    "en": "Barbeque sauce",
+    "bn": "বারবেকুে সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 399,
+    "en": "Besan kadhi with pakodies",
+    "bn": "বেসান কাড়ি ওিথ পাকোদিেস",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 404,
+    "en": "Brown sauce",
+    "bn": "বাদামি সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 408,
+    "en": "Carrot and fenugreek leaves",
+    "bn": "গাজর ানদ ফেনুগরিক লোভেস",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 416,
+    "en": "Chickpea flour cookies",
+    "bn": "চিককপো ফলউর কুকিেস",
+    "patterns": [
+      {
+        "pattern": "ফলউর",
+        "english_word": "flour",
+        "description": "English word 'flour' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 424,
+    "en": "Chocolate sauce",
+    "bn": "চোকোলাতে সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 435,
+    "en": "Coriander chutney",
+    "bn": "কোরিানদের চাটনি",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 444,
+    "en": "Date and nut pie",
+    "bn": "দাতে ানদ নুত পিে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 466,
+    "en": "Ginger candy",
+    "bn": "আদা কানদয",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 472,
+    "en": "Gram flour burfi",
+    "bn": "গরাম ফলউর বুরফি",
+    "patterns": [
+      {
+        "pattern": "ফলউর",
+        "english_word": "flour",
+        "description": "English word 'flour' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 475,
+    "en": "Green gram whole with baghar",
+    "bn": "গরিন গরাম ওহোলে ওিথ বাঘার",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 478,
+    "en": "Gujarati handvo",
+    "bn": "গুজারাতি হানদভো",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 483,
+    "en": "Hot cherry sauce",
+    "bn": "হোত চেররয সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 491,
+    "en": "Jhatpat achar with carrot",
+    "bn": "ঝাতপাত াচার ওিথ গাজর",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 502,
+    "en": "Lasagne with meat sauce",
+    "bn": "লাসাগনে ওিথ মোত সআউকে",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 504,
+    "en": "Lemon and ginger squash",
+    "bn": "লেবু ানদ আদা সকুাশ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 512,
+    "en": "Lentils and semolina porridge",
+    "bn": "লেনতিলস ানদ সেমোলিনা পোররিদগে",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 524,
+    "en": "Mayonnaise without eggs",
+    "bn": "মেয়োনিজ ওিথোুত েগগস",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 530,
+    "en": "Mint and coriander chutney",
+    "bn": "মিনত ানদ কোরিানদের চাটনি",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 537,
+    "en": "Mushroom sauce",
+    "bn": "মুশরুম সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 538,
+    "en": "Mustard sauce",
+    "bn": "মুসতারদ সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 579,
+    "en": "Saunth/Sonth chutney with tamarind/imli",
+    "bn": "সআউনথ/সোনথ চাটনি ওিথ তামারিনদ/িমলি",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 580,
+    "en": "Sauteed radishes with green beans",
+    "bn": "সআউতিদ রাদিশেস ওিথ গরিন শিম",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 609,
+    "en": "Tartare sauce",
+    "bn": "তারতারে সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 610,
+    "en": "Thandai",
+    "bn": "থানদআই",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 611,
+    "en": "Thousand island dressing",
+    "bn": "থোুসানদ িসলানদ দরেসসিনগ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 616,
+    "en": "Tomato sauce",
+    "bn": "টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 630,
+    "en": "White sauce",
+    "bn": "সাদা সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 639,
+    "en": "Beetroot and egg salad",
+    "bn": "বিতরুত ানদ ডিম সালাদ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 644,
+    "en": "Egg and tomato sandwich",
+    "bn": "ডিম ানদ টমেটো স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 651,
+    "en": "Egg sauce",
+    "bn": "ডিম সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "bn": "িনদিান লামব ানদ ডিমের ঝোল",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 663,
+    "en": "Vanilla ice cream without egg",
+    "bn": "ভানিললা আইসক্রিম ওিথোুত ডিম",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 701,
+    "en": "Besan and spinach parantha/paratha",
+    "bn": "বেসান ানদ পালং পারানথা/পারাথা",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 704,
+    "en": "Bread and butter pudding",
+    "bn": "পাউরুটি ানদ মাখন পুদদিনগ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 707,
+    "en": "Bread sauce",
+    "bn": "পাউরুটি সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 735,
+    "en": "Tandoori parantha/paratha",
+    "bn": "তানদুরি পারানথা/পারাথা",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 750,
+    "en": "Mixed pulse and vegetable salad",
+    "bn": "মিশ্র পুলসে ানদ ভেগেতাবলে সালাদ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 813,
+    "en": "Peanut and tomato sandwich",
+    "bn": "চিনাবাদাম ানদ টমেটো স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 835,
+    "en": "Sunset and sunrise open sandwich",
+    "bn": "সুনসেত ানদ সুনরিসে োপেন স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 837,
+    "en": "Tomato and cucumber sandwich",
+    "bn": "টমেটো ানদ কুকুমবের স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 843,
+    "en": "Vegetable and mayonnaise sandwich",
+    "bn": "ভেগেতাবলে ানদ মেয়োনিজ স্যান্ডউইচ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 861,
+    "en": "Ham and Bean soup",
+    "bn": "হাম ানদ বোন স্যুপ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 862,
+    "en": "Hot and sour soup",
+    "bn": "হোত ানদ সউর স্যুপ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 863,
+    "en": "Lemon coriander soup",
+    "bn": "লেবু কোরিানদের স্যুপ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 874,
+    "en": "Apple and honey sorbet",
+    "bn": "আপেল ানদ হোনেয সোরবেত",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 879,
+    "en": "Baked custard",
+    "bn": "বেক কুসতারদ",
+    "patterns": [
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 882,
+    "en": "Caramel custard",
+    "bn": "কারামেল কুসতারদ",
+    "patterns": [
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 894,
+    "en": "Custard tart",
+    "bn": "কুসতারদ তারত",
+    "patterns": [
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 906,
+    "en": "Mango vanilla custard",
+    "bn": "আম ভানিললা কুসতারদ",
+    "patterns": [
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 908,
+    "en": "Meringue and rice pudding",
+    "bn": "মেরিনগুে ানদ ভাত পুদদিনগ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 926,
+    "en": "Soft Custard",
+    "bn": "সোফত কুসতারদ",
+    "patterns": [
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 927,
+    "en": "Soya chunks sweet and sour",
+    "bn": "সোযা চুনকস মিষ্টি ানদ সউর",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 929,
+    "en": "Steamed cake with chocolate sauce",
+    "bn": "স্টিম কাকে ওিথ চোকোলাতে সআউকে",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 931,
+    "en": "Stewed apple with custard",
+    "bn": "সতেওেদ আপেল ওিথ কুসতারদ",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "কুসতারদ",
+        "english_word": "custard",
+        "description": "English word 'custard' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 932,
+    "en": "Sweet and salty biscuit",
+    "bn": "মিষ্টি ানদ সালতয বিসকুিত",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 946,
+    "en": "Wheat and gram flour ladoo",
+    "bn": "গম ানদ গরাম ফলউর লাড্ডু",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      },
+      {
+        "pattern": "ফলউর",
+        "english_word": "flour",
+        "description": "English word 'flour' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 971,
+    "en": "Arhar with spinach",
+    "bn": "ারহার ওিথ পালং",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 972,
+    "en": "Baked brinjal in tomato sauce",
+    "bn": "বেক বেগুন িন টমেটো সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 973,
+    "en": "Baked potato with skin",
+    "bn": "বেক আলু ওিথ সকিন",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 977,
+    "en": "Cabbage and peas",
+    "bn": "বাঁধাকপি ানদ মটর",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 991,
+    "en": "Cauliflower with coconut",
+    "bn": "ফুলকপি ওিথ নারকেল",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 992,
+    "en": "Cauliflower, pea and potato bhujia",
+    "bn": "কআউলিফলোওের, পো ানদ আলু ভুজিা",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 993,
+    "en": "Chinese cabbage and meat ball soup",
+    "bn": "চিনেসে বাঁধাকপি ানদ মোত বালল স্যুপ",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 994,
+    "en": "Creamed spinach and mushroom",
+    "bn": "করোমেদ পালং ানদ মুশরুম",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 995,
+    "en": "Crispy okra/Crispy lady's fingers",
+    "bn": "করিসপয োকরা/করিসপয লাদয'স ফিনগেরস",
+    "patterns": [
+      {
+        "pattern": "করিসপয",
+        "english_word": "crispy",
+        "description": "English word 'crispy' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 1001,
+    "en": "Fettuccine with spinach sauce",
+    "bn": "ফেততুককিনে ওিথ পালং সআউকে",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      },
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 1013,
+    "en": "Pasta spinach sauce",
+    "bn": "পাস্তা পালং সআউকে",
+    "patterns": [
+      {
+        "pattern": "সআউকে",
+        "english_word": "sauce",
+        "description": "English word 'sauce' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 1032,
+    "en": "Potato with curd",
+    "bn": "আলু ওিথ দই",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 1041,
+    "en": "Spinach and potato",
+    "bn": "পালং ানদ আলু",
+    "patterns": [
+      {
+        "pattern": "ানদ",
+        "english_word": "and",
+        "description": "English conjunction 'and' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  },
+  {
+    "id": 1053,
+    "en": "Split bengal gram with bottle gourd",
+    "bn": "সপলিত বেনগাল গরাম ওিথ বোততলে লাউ",
+    "patterns": [
+      {
+        "pattern": "ওিথ",
+        "english_word": "with",
+        "description": "English preposition 'with' in Bengali script"
+      }
+    ],
+    "action": "MANUAL_REVIEW — do not auto-correct; requires proper Bengali translation"
+  }
+]

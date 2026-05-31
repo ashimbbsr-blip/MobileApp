@@ -22,7 +22,7 @@ class LocalFoodRepository {
     if (_items != null) return;
     try {
       final jsonStr =
-          await rootBundle.loadString('assets/data/food_master_v5_5.json');
+          await rootBundle.loadString('assets/data/food_master_v5_6.json');
       if (jsonStr.isEmpty) {
         debugPrint('[LocalFoodRepo] food_master.json is empty');
         _items = [];
