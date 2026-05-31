@@ -65,15 +65,16 @@ class LegalContent {
           'dietary management, or any health-critical dietary decision.',
     ),
     LegalSection(
-      '4. AI Food Scanning Disclaimer',
-      'The App includes an AI-powered food recognition feature. This feature:\n\n'
-          '• May misidentify foods or ingredients\n'
-          '• May provide incomplete or imprecise nutritional results\n'
-          '• May fail under poor lighting, unusual angles, or low image quality\n'
-          '• Cannot reliably distinguish between similar-looking foods\n\n'
-          'You are solely responsible for verifying all AI-detected foods, quantities, '
-          'and serving sizes before logging them. Do not rely on AI scanning for allergy '
-          'management, medical diets, or clinical nutrition needs.',
+      '4. Data Accuracy Disclaimer',
+      'Nutritional data in the App is sourced from curated databases and may not '
+          'precisely reflect every brand, preparation method, or regional variation. '
+          'Factors that can affect accuracy include:\n\n'
+          '• Differences in food preparation and cooking methods\n'
+          '• Regional and brand-specific product variations\n'
+          '• Natural variation in whole foods\n\n'
+          'You are solely responsible for verifying all food quantities and serving '
+          'sizes before logging them. Do not rely on the App for allergy management, '
+          'medical diets, or clinical nutrition needs.',
     ),
     LegalSection(
       '5. User Responsibility',
@@ -93,7 +94,7 @@ class LegalContent {
           'Infinity Health Tracker shall NOT be liable for:\n\n'
           '• Any health issues arising directly or indirectly from App use\n'
           '• Adverse dietary or allergic reactions\n'
-          '• Incorrect food identification by AI scanning\n'
+          '• Inaccurate food identification from manual entry errors\n'
           '• Inaccurate nutritional calculations or estimates\n'
           '• Fitness or wellness outcomes\n'
           '• Indirect, incidental, or consequential damages of any kind\n'
@@ -106,7 +107,7 @@ class LegalContent {
       '7. Acceptance of Risk',
       'By using the App, you voluntarily acknowledge that:\n\n'
           '• Nutrition and calorie estimation is inherently imprecise\n'
-          '• AI food recognition has technical limitations\n'
+          '• Nutrition and calorie estimation is inherently imprecise\n'
           '• Personal health decisions remain entirely your own responsibility\n'
           '• The App is a wellness tool, not a substitute for professional care\n'
           '• You use the App freely and at your own risk\n\n'
@@ -247,17 +248,14 @@ class LegalContent {
           'lifestyle, adherence, and many other factors outside App control.',
     ),
     LegalSection(
-      'AI Food Scanning Accuracy',
-      'AI-based food recognition is a convenience feature only. It is not a '
-          'precision nutrition tool.\n\n'
-          'Food scan results MUST always be manually verified before logging. '
-          'Never rely on AI scanning for:\n\n'
-          '• Allergy or food intolerance management\n'
-          '• Medical or clinical dietary requirements\n'
-          '• Exact calorie counting for medical weight management\n'
-          '• Any health-critical dietary decision\n\n'
-          'The App developer assumes no liability for harm arising from reliance '
-          'on AI food recognition results.',
+      'Manual Entry Accuracy',
+      'The App relies on manual food logging. Nutritional data accuracy depends on:\n\n'
+          '• Correct food selection from the database\n'
+          '• Accurate portion size estimation by the user\n'
+          '• Database coverage for specific regional or branded foods\n\n'
+          'Always cross-check nutrition data with food labels for health-critical '
+          'decisions. Never rely solely on App data for allergy management, medical '
+          'diets, or clinical nutrition requirements.',
     ),
     LegalSection(
       'Export & Data Responsibility',

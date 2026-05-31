@@ -23,7 +23,6 @@ class AppStrings {
   String get snack => _t('snack');
   String get addFood => _t('addFood');
   String get searchFood => _t('searchFood');
-  String get scanFood => _t('scanFood');
   String get today => _t('today');
   String get goal => _t('goal');
   String get remaining => _t('remaining');
@@ -93,14 +92,7 @@ class AppStrings {
   String get noFoodLogged => _t('noFoodLogged');
   String get tapToAdd => _t('tapToAdd');
   String get permissionDenied => _t('permissionDenied');
-  String get cameraPermission => _t('cameraPermission');
   String get openSettings => _t('openSettings');
-  String get detectingFood => _t('detectingFood');
-  String get foodDetected => _t('foodDetected');
-  String get confirmFood => _t('confirmFood');
-  String get confidence => _t('confidence');
-  String get lowConfidence => _t('lowConfidence');
-  String get tryAgain => _t('tryAgain');
   String get customFood => _t('customFood');
   String get recent => _t('recent');
   String get vitaminA => _t('vitaminA');
@@ -148,7 +140,6 @@ class AppStrings {
   String get editProfile => _t('editProfile');
   String get profilePicture => _t('profilePicture');
   String get fromGallery => _t('fromGallery');
-  String get fromCamera => _t('fromCamera');
   String get fullName => _t('fullName');
   String get dateOfBirth => _t('dateOfBirth');
   String get profileUpdated => _t('profileUpdated');
@@ -233,35 +224,12 @@ class AppStrings {
   String get apiKeyGetFree => _t('apiKeyGetFree');
 
   // Food detection
-  String get unableToIdentify => _t('unableToIdentify');
-  String get modelNotAvailable => _t('modelNotAvailable');
-
   // Local dataset
   String get localDatasetReady => _t('localDatasetReady');
   String get searchBilingual => _t('searchBilingual');
   String get localResults => _t('localResults');
   String get searchUsda => _t('searchUsda');
   String get noLocalResults => _t('noLocalResults');
-
-  // Camera scan UI
-  String get analysing => _t('analysing');
-  String get scanTip => _t('scanTip');
-  String get searchManually => _t('searchManually');
-  String get foodNotIdentified => _t('foodNotIdentified');
-  String get tryBetterLighting => _t('tryBetterLighting');
-  String get takeAnotherPhoto => _t('takeAnotherPhoto');
-  String get searchFoodHint => _t('searchFoodHint');
-  String get addTo => _t('addTo');
-  String get didYouEat => _t('didYouEat');
-  String get notYourFood => _t('notYourFood');
-  String get searchHintSheet => _t('searchHintSheet');
-  String get howMuch => _t('howMuch');
-  String get portionSmall => _t('portionSmall');
-  String get portionMedium => _t('portionMedium');
-  String get portionLarge => _t('portionLarge');
-  String get portionXl => _t('portionXl');
-  String get portionCustom => _t('portionCustom');
-  String get enterGrams => _t('enterGrams');
 
   String _t(String key) => _translations[language]?[key] ?? _translations['en']![key] ?? key;
 
@@ -286,7 +254,6 @@ class AppStrings {
       'snack': 'Snack',
       'addFood': 'Add Food',
       'searchFood': 'Search Food',
-      'scanFood': 'Scan Food',
       'today': 'Today',
       'goal': 'Goal',
       'remaining': 'Remaining',
@@ -356,14 +323,7 @@ class AppStrings {
       'noFoodLogged': 'No food logged yet',
       'tapToAdd': 'Tap + to add food',
       'permissionDenied': 'Permission Denied',
-      'cameraPermission': 'Camera permission is required to scan food.',
       'openSettings': 'Open Settings',
-      'detectingFood': 'Detecting food...',
-      'foodDetected': 'Food Detected',
-      'confirmFood': 'Confirm Food',
-      'confidence': 'Confidence',
-      'lowConfidence': 'Low confidence. Try retaking.',
-      'tryAgain': 'Try Again',
       'customFood': 'Custom Food',
       'recent': 'Recent',
       'vitaminA': 'Vitamin A',
@@ -409,7 +369,6 @@ class AppStrings {
       'editProfile': 'Edit Profile',
       'profilePicture': 'Tap to change photo',
       'fromGallery': 'From Gallery',
-      'fromCamera': 'From Camera',
       'fullName': 'Full Name',
       'dateOfBirth': 'Date of Birth',
       'profileUpdated': 'Profile updated successfully',
@@ -442,7 +401,7 @@ class AppStrings {
       'legalBullet1': 'All your data stays on your device — nothing leaves it.',
       'legalBullet2': 'We don\'t collect, track, or share your personal data.',
       'legalBullet3': 'Nutrition data is for wellness guidance only, not medical advice.',
-      'legalBullet4': 'AI food scanning may be inaccurate — always verify results.',
+      'legalBullet4': 'Always verify nutrition data against food labels for accuracy.',
       'legalBullet5': 'This app is not a substitute for professional medical advice.',
       'legalReadDocs': 'Read the full documents:',
       'legalCheckTerms': 'I have read and agree to the Terms & Conditions and Privacy Notice.',
@@ -486,34 +445,12 @@ class AppStrings {
       'apiKeyDialogHint': 'Register at fdc.nal.usda.gov for a free key — it will be emailed to you.',
       'apiKeyPaste': 'Paste your API key here',
       'apiKeyGetFree': 'Get a free API key',
-      // Food detection
-      'unableToIdentify': 'Unable to confidently identify this food. Try again with better lighting.',
-      'modelNotAvailable': 'Food detection model unavailable. Please install the model file.',
       // Local dataset
       'localDatasetReady': '1,057 foods available offline',
       'searchBilingual': 'Search in English or Bengali…',
       'localResults': 'Results from local dataset',
       'searchUsda': 'Search USDA Database',
       'noLocalResults': 'No local results — try USDA search',
-      // Camera scan UI
-      'analysing': 'Analysing…',
-      'scanTip': 'Place food in frame, then tap the button',
-      'searchManually': 'Search manually instead',
-      'foodNotIdentified': 'Food not identified',
-      'tryBetterLighting': 'Try better lighting or search below.',
-      'takeAnotherPhoto': 'Take another photo',
-      'searchFoodHint': 'e.g. dal, ilish, chicken curry…',
-      'addTo': 'Add to',
-      'didYouEat': 'Did you eat:',
-      'notYourFood': 'Not your food? Search here',
-      'searchHintSheet': 'e.g. ilish, paneer, dal…',
-      'howMuch': 'How much?',
-      'portionSmall': 'Small',
-      'portionMedium': 'Medium',
-      'portionLarge': 'Large',
-      'portionXl': 'XL',
-      'portionCustom': 'Custom',
-      'enterGrams': 'Enter grams',
     },
     'bn': {
       'appName': 'ইনফিনিট হেলথ ট্র্যাকার',
@@ -535,7 +472,6 @@ class AppStrings {
       'snack': 'স্ন্যাকস',
       'addFood': 'খাবার যোগ করুন',
       'searchFood': 'খাবার অনুসন্ধান',
-      'scanFood': 'খাবার স্ক্যান',
       'today': 'আজকে',
       'goal': 'লক্ষ্য',
       'remaining': 'বাকি',
@@ -605,14 +541,7 @@ class AppStrings {
       'noFoodLogged': 'এখনো কোনো খাবার লগ করা হয়নি',
       'tapToAdd': 'খাবার যোগ করতে + চাপুন',
       'permissionDenied': 'অনুমতি অস্বীকৃত',
-      'cameraPermission': 'খাবার স্ক্যান করতে ক্যামেরার অনুমতি প্রয়োজন।',
       'openSettings': 'সেটিংস খুলুন',
-      'detectingFood': 'খাবার শনাক্ত করা হচ্ছে...',
-      'foodDetected': 'খাবার শনাক্ত হয়েছে',
-      'confirmFood': 'খাবার নিশ্চিত করুন',
-      'confidence': 'নিশ্চিততা',
-      'lowConfidence': 'কম নিশ্চিততা। আবার তুলুন।',
-      'tryAgain': 'আবার চেষ্টা করুন',
       'customFood': 'কাস্টম খাবার',
       'recent': 'সাম্প্রতিক',
       'vitaminA': 'ভিটামিন এ',
@@ -658,7 +587,6 @@ class AppStrings {
       'editProfile': 'প্রোফাইল সম্পাদনা',
       'profilePicture': 'ছবি পরিবর্তন করতে চাপুন',
       'fromGallery': 'গ্যালারি থেকে',
-      'fromCamera': 'ক্যামেরা থেকে',
       'fullName': 'পুরো নাম',
       'dateOfBirth': 'জন্ম তারিখ',
       'profileUpdated': 'প্রোফাইল সফলভাবে আপডেট হয়েছে',
@@ -691,7 +619,7 @@ class AppStrings {
       'legalBullet1': 'আপনার সব তথ্য আপনার ডিভাইসেই থাকে — কোথাও যায় না।',
       'legalBullet2': 'আমরা আপনার ব্যক্তিগত তথ্য সংগ্রহ, ট্র্যাক বা শেয়ার করি না।',
       'legalBullet3': 'পুষ্টির তথ্য শুধুমাত্র সুস্বাস্থ্য নির্দেশনার জন্য, চিকিৎসা পরামর্শ নয়।',
-      'legalBullet4': 'AI ফুড স্ক্যানিং ভুল হতে পারে — সর্বদা ফলাফল যাচাই করুন।',
+      'legalBullet4': 'সঠিকতার জন্য সর্বদা খাবারের লেবেলের সাথে পুষ্টির তথ্য যাচাই করুন।',
       'legalBullet5': 'এই অ্যাপ পেশাদার চিকিৎসা পরামর্শের বিকল্প নয়।',
       'legalReadDocs': 'সম্পূর্ণ দলিল পড়ুন:',
       'legalCheckTerms': 'আমি শর্তাবলী ও গোপনীয়তা বিজ্ঞপ্তি পড়েছি এবং সম্মত হচ্ছি।',
@@ -735,34 +663,12 @@ class AppStrings {
       'apiKeyDialogHint': 'বিনামূল্যে কীর জন্য fdc.nal.usda.gov-এ নিবন্ধন করুন — ইমেইলে পাঠানো হবে।',
       'apiKeyPaste': 'এখানে API কী পেস্ট করুন',
       'apiKeyGetFree': 'বিনামূল্যে API কী পান',
-      // Food detection
-      'unableToIdentify': 'এই খাবারটি আত্মবিশ্বাসের সাথে চিহ্নিত করা সম্ভব হয়নি। আরও ভালো আলোতে আবার চেষ্টা করুন।',
-      'modelNotAvailable': 'ফুড ডিটেকশন মডেল পাওয়া যাচ্ছে না। মডেল ফাইলটি ইনস্টল করুন।',
       // Local dataset
       'localDatasetReady': '১,০৫৭টি খাবার অফলাইনে উপলব্ধ',
       'searchBilingual': 'বাংলা বা ইংরেজিতে খুঁজুন…',
       'localResults': 'স্থানীয় ডেটা থেকে ফলাফল',
       'searchUsda': 'USDA ডেটাবেজে খুঁজুন',
       'noLocalResults': 'স্থানীয় ডেটায় নেই — USDA খুঁজুন',
-      // Camera scan UI
-      'analysing': 'বিশ্লেষণ হচ্ছে…',
-      'scanTip': 'খাবার ফ্রেমে রাখুন, তারপর বোতাম চাপুন',
-      'searchManually': 'পরিবর্তে ম্যানুয়ালি অনুসন্ধান করুন',
-      'foodNotIdentified': 'খাবার চিহ্নিত হয়নি',
-      'tryBetterLighting': 'আরও ভালো আলোতে চেষ্টা করুন বা নিচে অনুসন্ধান করুন।',
-      'takeAnotherPhoto': 'আরেকটি ছবি তুলুন',
-      'searchFoodHint': 'যেমন: ডাল, ইলিশ, মুরগির তরকারি…',
-      'addTo': 'যোগ করুন',
-      'didYouEat': 'আপনি কি খেয়েছেন:',
-      'notYourFood': 'আপনার খাবার নয়? এখানে খুঁজুন',
-      'searchHintSheet': 'যেমন: ইলিশ, পনির, ডাল…',
-      'howMuch': 'কতটুকু?',
-      'portionSmall': 'ছোট',
-      'portionMedium': 'মাঝারি',
-      'portionLarge': 'বড়',
-      'portionXl': 'অতিরিক্ত বড়',
-      'portionCustom': 'কাস্টম',
-      'enterGrams': 'গ্রাম লিখুন',
     },
   };
 }

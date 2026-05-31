@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
@@ -88,29 +87,19 @@ class OnboardingNotifier extends StateNotifier<OnboardingState> {
       ? state.copyWith(clearPregnancyStatus: true)
       : state.copyWith(pregnancyStatus: status);
 
-  Future<void> pickAndSaveProfileImage(ImageSource source) async {
+  Future<void> pickAndSaveProfileImage() async {
     try {
       final picker = ImagePicker();
       final XFile? picked = await picker.pickImage(
-        source: source,
+        source: ImageSource.gallery,
         maxWidth: 800,
         maxHeight: 800,
-        imageQuality: 90,
+        imageQuality: 85,
       );
       if (picked == null) return;
-
-      final bytes = await FlutterImageCompress.compressWithFile(
-        picked.path,
-        minWidth: 200,
-        minHeight: 200,
-        quality: 85,
-        keepExif: false,
-      );
-      if (bytes == null) return;
-
       final dir = await getApplicationDocumentsDirectory();
       final target = File('${dir.path}/profile_avatar.jpg');
-      await target.writeAsBytes(bytes);
+      await File(picked.path).copy(target.path);
       state = state.copyWith(profileImagePath: target.path);
     } catch (_) {
       // Silently ignore — photo is optional

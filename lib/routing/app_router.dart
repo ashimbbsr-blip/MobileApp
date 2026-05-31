@@ -17,7 +17,6 @@ import '../features/settings/settings_screen.dart';
 import '../features/history/history_screen.dart';
 import '../features/profile/profile_screen.dart';
 import '../features/help/help_screen.dart';
-import '../features/camera_scan/camera_scan_screen.dart';
 import '../models/food_item.dart';
 import '../core/utils/meal_time_utils.dart';
 
@@ -120,13 +119,6 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/help',
         builder: (context, state) => const HelpScreen(),
-      ),
-      GoRoute(
-        path: '/camera',
-        builder: (context, state) {
-          final mealType = state.extra as String? ?? 'snack';
-          return CameraScanScreen(mealType: mealType);
-        },
       ),
     ],
     redirect: (context, state) {

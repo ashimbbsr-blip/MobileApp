@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:path_provider/path_provider.dart';
 import '../../../models/user_profile.dart';
 import '../../../storage/hive_storage.dart';
@@ -46,29 +45,19 @@ class ProfileNotifier extends StateNotifier<ProfileState> {
 
   void refresh() => _load();
 
-  Future<String?> pickAndCompressImage(ImageSource source) async {
+  Future<String?> pickImage() async {
     try {
       final picker = ImagePicker();
       final XFile? picked = await picker.pickImage(
-        source: source,
+        source: ImageSource.gallery,
         maxWidth: 800,
         maxHeight: 800,
-        imageQuality: 90,
+        imageQuality: 85,
       );
       if (picked == null) return null;
-
-      final bytes = await FlutterImageCompress.compressWithFile(
-        picked.path,
-        minWidth: 200,
-        minHeight: 200,
-        quality: 85,
-        keepExif: false,
-      );
-      if (bytes == null) return null;
-
       final dir = await getApplicationDocumentsDirectory();
       final target = File('${dir.path}/profile_avatar.jpg');
-      await target.writeAsBytes(bytes);
+      await File(picked.path).copy(target.path);
       return target.path;
     } catch (_) {
       return null;

@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
@@ -256,16 +255,8 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
   }
 
   Future<void> _pickPhoto() async {
-    final source = await showModalBottomSheet<ImageSource>(
-      context: context,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (_) => _PhotoSourceSheet(),
-    );
-    if (source == null || !mounted) return;
     setState(() => _pickingImage = true);
-    await ref.read(onboardingProvider.notifier).pickAndSaveProfileImage(source);
+    await ref.read(onboardingProvider.notifier).pickAndSaveProfileImage();
     if (mounted) setState(() => _pickingImage = false);
   }
 
@@ -311,7 +302,7 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
                           border: Border.all(
                               color: theme.scaffoldBackgroundColor, width: 2),
                         ),
-                        child: const Icon(Icons.camera_alt,
+                        child: const Icon(Icons.photo_library_outlined,
                             size: 16, color: Colors.white),
                       ),
                     ),
@@ -900,37 +891,3 @@ class _AvatarCircle extends StatelessWidget {
   Widget _icon() => const Icon(Icons.person, size: 48, color: AppColors.primary);
 }
 
-class _PhotoSourceSheet extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 40,
-              height: 4,
-              margin: const EdgeInsets.only(bottom: 12),
-              decoration: BoxDecoration(
-                color: Colors.grey.shade300,
-                borderRadius: BorderRadius.circular(2),
-              ),
-            ),
-            ListTile(
-              leading: const Icon(Icons.photo_library_outlined, color: AppColors.primary),
-              title: const Text('From Gallery'),
-              onTap: () => Navigator.pop(context, ImageSource.gallery),
-            ),
-            ListTile(
-              leading: const Icon(Icons.camera_alt_outlined, color: AppColors.primary),
-              title: const Text('From Camera'),
-              onTap: () => Navigator.pop(context, ImageSource.camera),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}

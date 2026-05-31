@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
@@ -57,17 +56,8 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
   }
 
   Future<void> _pickImage(BuildContext ctx) async {
-    final source = await showModalBottomSheet<ImageSource>(
-      context: ctx,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (_) => _ImageSourceSheet(),
-    );
-    if (source == null || !mounted) return;
-    final path =
-        await ref.read(profileProvider.notifier).pickAndCompressImage(source);
-    if (path != null) {
+    final path = await ref.read(profileProvider.notifier).pickImage();
+    if (path != null && mounted) {
       ref.read(profileProvider.notifier).updateProfileImagePath(path);
     }
   }
@@ -179,7 +169,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                           shape: BoxShape.circle,
                           border: Border.all(color: theme.scaffoldBackgroundColor, width: 2),
                         ),
-                        child: const Icon(Icons.camera_alt, size: 18, color: Colors.white),
+                        child: const Icon(Icons.photo_library_outlined, size: 18, color: Colors.white),
                       ),
                     ),
                   ),
@@ -374,39 +364,6 @@ class _ProfileAvatar extends StatelessWidget {
   }
 
   Widget _placeholder() => const Icon(Icons.person, size: 52, color: AppColors.primary);
-}
-
-class _ImageSourceSheet extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 40,
-              height: 4,
-              margin: const EdgeInsets.only(bottom: 12),
-              decoration: BoxDecoration(
-                  color: Colors.grey.shade300, borderRadius: BorderRadius.circular(2)),
-            ),
-            ListTile(
-              leading: const Icon(Icons.photo_library_outlined, color: AppColors.primary),
-              title: const Text('From Gallery'),
-              onTap: () => Navigator.pop(context, ImageSource.gallery),
-            ),
-            ListTile(
-              leading: const Icon(Icons.camera_alt_outlined, color: AppColors.primary),
-              title: const Text('From Camera'),
-              onTap: () => Navigator.pop(context, ImageSource.camera),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
 }
 
 class _SectionHeader extends StatelessWidget {

@@ -92,10 +92,6 @@ class MealLogScreen extends ConsumerWidget {
                 ),
               ),
             ),
-          IconButton(
-            icon: const Icon(Icons.camera_alt_outlined),
-            onPressed: () => context.push('/camera', extra: mealTypeForNow()),
-          ),
         ],
       ),
       body: ListView(
