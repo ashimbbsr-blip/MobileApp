@@ -1,0 +1,1016 @@
+[
+  {
+    "id": 31,
+    "en": "Jam and fruit pancake",
+    "bn": "জাম ও ফরুিত পানকেক",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 59,
+    "en": "Cheese balls",
+    "bn": "চিজ বাললস",
+    "flags": [
+      "বাললস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 60,
+    "en": "Cheese noodle ring",
+    "bn": "চিজ নুদলে রিনগ",
+    "flags": [
+      "নুদলে",
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 61,
+    "en": "Cheese open sandwich",
+    "bn": "চিজ োপেন স্যান্ডউইচ",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োপেন"
+    ]
+  },
+  {
+    "id": 67,
+    "en": "Cheese straws",
+    "bn": "চিজ সতরাওস",
+    "flags": [
+      "সতরাওস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 78,
+    "en": "Cottage cheese pie",
+    "bn": "পনির পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 89,
+    "en": "Fruit Ice cream",
+    "bn": "ফরুিত আইসক্রিম",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 92,
+    "en": "Hot cheese souffle",
+    "bn": "হোত চিজ সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 98,
+    "en": "Macroni cheese pie",
+    "bn": "মাকরোনি চিজ পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "bn": "দুধ কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 120,
+    "en": "Paneer stuffed cheela/chilla",
+    "bn": "পনির স্টাফড চেেলা/চিললা",
+    "flags": [
+      "চিললা"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 134,
+    "en": "Spaghetti and cheese balls in tomato sauce",
+    "bn": "সপাঘেততি ও চিজ বাললস ইন টমেটো সস",
+    "flags": [
+      "বাললস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 213,
+    "en": "Fish orly",
+    "bn": "মাছ োরলয",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োরলয"
+    ]
+  },
+  {
+    "id": 215,
+    "en": "Fish pie",
+    "bn": "মাছ পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 217,
+    "en": "Fish souffle",
+    "bn": "মাছ সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 221,
+    "en": "Hot fish souffle",
+    "bn": "হোত মাছ সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 239,
+    "en": "Apple banana pie",
+    "bn": "আপেল কলা পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 240,
+    "en": "Apple cinnamon pie",
+    "bn": "আপেল কিননামোন পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 244,
+    "en": "Apple snowballs",
+    "bn": "আপেল সনোওবাললস",
+    "flags": [
+      "বাললস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 254,
+    "en": "Cold orange souffle",
+    "bn": "কোলদ কমলা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 255,
+    "en": "Cold pineapple souffle",
+    "bn": "কোলদ আনারস সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 265,
+    "en": "Hot orange souffle",
+    "bn": "হোত কমলা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 276,
+    "en": "Orange chiffon pie",
+    "bn": "কমলা চিফফোন পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 280,
+    "en": "Orange omelette/omlet",
+    "bn": "কমলা োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 281,
+    "en": "Orange souffle",
+    "bn": "কমলা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 285,
+    "en": "Pineapple pastry",
+    "bn": "আনারস পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 287,
+    "en": "Pineapple souffle",
+    "bn": "আনারস সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 338,
+    "en": "Creamy chicken",
+    "bn": "করোময চিকেন",
+    "flags": [
+      "করোময"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 363,
+    "en": "Classic italian pasta",
+    "bn": "কলাসসিক িতালিান পাস্তা",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "িতালিান"
+    ]
+  },
+  {
+    "id": 370,
+    "en": "Spaghetti with meat balls and tomato sauce",
+    "bn": "সপাঘেততি উইথ মোত বাললস ও টমেটো সস",
+    "flags": [
+      "বাললস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 377,
+    "en": "Cherry and walnut cookies",
+    "bn": "চেররয ও আখরোট কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 378,
+    "en": "Chocolate walnut cookies",
+    "bn": "চকলেট আখরোট কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 389,
+    "en": "Assorted pastry",
+    "bn": "াসসোরতেদ পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 391,
+    "en": "Baked eggs in tomato sauce",
+    "bn": "বেক েগগস ইন টমেটো সস",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েগগস"
+    ]
+  },
+  {
+    "id": 397,
+    "en": "Besan bathua chilla/cheela",
+    "bn": "বেসান বাথুা চিললা/চেেলা",
+    "flags": [
+      "চিললা"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 401,
+    "en": "Black forest pastry",
+    "bn": "বলাকক ফোরেসত পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 403,
+    "en": "Broccoli delight",
+    "bn": "ব্রকলি দেলিঘত",
+    "flags": [
+      "দেলিঘত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "bn": "কারদামোম কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 416,
+    "en": "Chickpea flour cookies",
+    "bn": "চিককপো আটা কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 419,
+    "en": "Chocolate chip cookies",
+    "bn": "চকলেট চিপ কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 420,
+    "en": "Chocolate eclairs",
+    "bn": "চকলেট েকলআইরস",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েকলআইরস"
+    ]
+  },
+  {
+    "id": 422,
+    "en": "Chocolate meringue pie",
+    "bn": "চকলেট মেরিনগুে পিে",
+    "flags": [
+      "পিে",
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 423,
+    "en": "Chocolate pastry",
+    "bn": "চকলেট পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 425,
+    "en": "Chocolate souffle",
+    "bn": "চকলেট সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 426,
+    "en": "Choux pastry",
+    "bn": "চোুক্স পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 430,
+    "en": "Cold chocolate souffle",
+    "bn": "কোলদ চকলেট সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 431,
+    "en": "Cold lemon souffle",
+    "bn": "কোলদ লেবু সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 432,
+    "en": "Cold vanilla souffle",
+    "bn": "কোলদ ভানিললা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 436,
+    "en": "Corn omelette/omlet",
+    "bn": "ভুট্টা োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 437,
+    "en": "Cranberry cookies",
+    "bn": "করানবেররয কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 443,
+    "en": "Danish cookies",
+    "bn": "দানিশ কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 444,
+    "en": "Date and nut pie",
+    "bn": "দাতে ও নুত পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 452,
+    "en": "Flaky pastry",
+    "bn": "ফলাকয পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 453,
+    "en": "Flan pastry",
+    "bn": "ফলান পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 456,
+    "en": "French omelette/omlet",
+    "bn": "ফরেনচ োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 458,
+    "en": "Fruit Loaf",
+    "bn": "ফরুিত লোাফ",
+    "flags": [
+      "ফরুিত",
+      "লোাফ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 460,
+    "en": "Fruit delight",
+    "bn": "ফরুিত দেলিঘত",
+    "flags": [
+      "ফরুিত",
+      "দেলিঘত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 461,
+    "en": "Fruit flan",
+    "bn": "ফরুিত ফলান",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 477,
+    "en": "Greenpea cookies",
+    "bn": "গরিনপো কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "bn": "হাজেলনুত কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 484,
+    "en": "Hot chocolate souffle",
+    "bn": "হোত চকলেট সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 486,
+    "en": "Hot lemon souffle",
+    "bn": "হোত লেবু সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 487,
+    "en": "Hot vanilla souffle",
+    "bn": "হোত ভানিললা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 488,
+    "en": "Ice box cookies",
+    "bn": "আইস বক্স কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 505,
+    "en": "Lemon chiffon pie",
+    "bn": "লেবু চিফফোন পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "bn": "লেবু কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 508,
+    "en": "Lemon meringue pie",
+    "bn": "লেবু মেরিনগুে পিে",
+    "flags": [
+      "পিে",
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 509,
+    "en": "Lemon souffle",
+    "bn": "লেবু সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 521,
+    "en": "Masala souffle",
+    "bn": "মশলা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 524,
+    "en": "Mayonnaise without eggs",
+    "bn": "মেয়োনিজ উইথোুত েগগস",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েগগস"
+    ]
+  },
+  {
+    "id": 558,
+    "en": "Plain omelette/omlet",
+    "bn": "সাদা োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 562,
+    "en": "Poshtik chilla/cheela",
+    "bn": "পোশতিক চিললা/চেেলা",
+    "flags": [
+      "চিললা"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 565,
+    "en": "Puffy omelette/omlet",
+    "bn": "পুফফয োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 570,
+    "en": "Raspberry shortbread cookies",
+    "bn": "রাসপবেররয শোরতবরোদ কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 589,
+    "en": "Shepherd's pie",
+    "bn": "শেফেরদ'স পিে",
+    "flags": [
+      "পিে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 591,
+    "en": "Short crust pastry",
+    "bn": "শোরত করুসত পাসতরয",
+    "flags": [
+      "পাসতরয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 599,
+    "en": "Spanish omelette/omlet",
+    "bn": "সপানিশ োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 600,
+    "en": "Starfruit preserves",
+    "bn": "সতারফরুিত পরেসেরভেস",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 601,
+    "en": "Stewed fruit",
+    "bn": "স্টুড ফরুিত",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "bn": "সুনফলোওের কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 611,
+    "en": "Thousand island dressing",
+    "bn": "থোুসও িসলও দরেসসিনগ",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "িসলও"
+    ]
+  },
+  {
+    "id": 619,
+    "en": "Vanilla souffle",
+    "bn": "ভানিললা সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 662,
+    "en": "Stuffed egg omelette/omlet",
+    "bn": "স্টাফড ডিম োমেলেততে/োমলেত",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োমেলেততে/োমলেত"
+    ]
+  },
+  {
+    "id": 719,
+    "en": "Onion-green chilli parantha/paratha",
+    "bn": "োনিোন-গরইন চিললি পারানথা/পারাথা",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োনিোন-গরইন"
+    ]
+  },
+  {
+    "id": 721,
+    "en": "Paushtik roti",
+    "bn": "পআউশতিক রুটি",
+    "flags": [
+      "পআউশতিক"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 729,
+    "en": "Short bread cookies",
+    "bn": "শোরত পাউরুটি কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 732,
+    "en": "Sprouted moong parantha/paratha",
+    "bn": "সপরউতেদ মুনগ পারানথা/পারাথা",
+    "flags": [
+      "সপরউতেদ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 742,
+    "en": "Frozen frosty fruit salad",
+    "bn": "ফরোজেন ফরোসতয ফল সালাদ",
+    "flags": [
+      "ফরোসতয"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 746,
+    "en": "Hawain salad",
+    "bn": "হাওআইন সালাদ",
+    "flags": [
+      "হাওআইন"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 753,
+    "en": "Russian salad",
+    "bn": "রুসসিান সালাদ",
+    "flags": [
+      "রুসসিান"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 754,
+    "en": "Spring basket salad",
+    "bn": "সপরিনগ বাসকেত সালাদ",
+    "flags": [
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 759,
+    "en": "Waldroff salad",
+    "bn": "ওালদরোফফ সালাদ",
+    "flags": [
+      "ওালদরোফফ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 833,
+    "en": "Spring roll",
+    "bn": "সপরিনগ রোল",
+    "flags": [
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 835,
+    "en": "Sunset and sunrise open sandwich",
+    "bn": "সুনসেত ও সুনরিসে োপেন স্যান্ডউইচ",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োপেন"
+    ]
+  },
+  {
+    "id": 839,
+    "en": "Tutti fruitti biscuit",
+    "bn": "তুততি ফরুিততি বিস্কুট",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 878,
+    "en": "Apple mousse",
+    "bn": "আপেল মউসসে",
+    "flags": [
+      "মউসসে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 888,
+    "en": "Chocolate eggless cake",
+    "bn": "চকলেট েগগলেসস কেক",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েগগলেসস"
+    ]
+  },
+  {
+    "id": 893,
+    "en": "Creamy chocolate mousse",
+    "bn": "করোময চকলেট মউসসে",
+    "flags": [
+      "মউসসে",
+      "করোময"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 896,
+    "en": "Eggless cake",
+    "bn": "েগগলেসস কেক",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েগগলেসস"
+    ]
+  },
+  {
+    "id": 897,
+    "en": "Fruit puree tart",
+    "bn": "ফরুিত পুরি তারত",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 905,
+    "en": "Mango mousse",
+    "bn": "আম মউসসে",
+    "flags": [
+      "মউসসে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 908,
+    "en": "Meringue and rice pudding",
+    "bn": "মেরিনগুে ও ভাত পুদদিনগ",
+    "flags": [
+      "রিনগ"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 910,
+    "en": "Orange eggless cake",
+    "bn": "কমলা েগগলেসস কেক",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "েগগলেসস"
+    ]
+  },
+  {
+    "id": 911,
+    "en": "Paushtik ladoo",
+    "bn": "পআউশতিক লাড্ডু",
+    "flags": [
+      "পআউশতিক"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 915,
+    "en": "Pineapple upside down pudding",
+    "bn": "আনারস ুপসিদে দোওন পুদদিনগ",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "ুপসিদে"
+    ]
+  },
+  {
+    "id": 919,
+    "en": "Rich chocolate mousse",
+    "bn": "রিচ চকলেট মউসসে",
+    "flags": [
+      "মউসসে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 936,
+    "en": "Sweet open sandwich",
+    "bn": "মিষ্টি োপেন স্যান্ডউইচ",
+    "flags": [],
+    "leading_vowel_artifacts": [
+      "োপেন"
+    ]
+  },
+  {
+    "id": 1004,
+    "en": "Hot potato souffle",
+    "bn": "হোত আলু সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 1005,
+    "en": "Hot spinach souffle",
+    "bn": "হোত পালং সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 1009,
+    "en": "Jackfruit/Kathal",
+    "bn": "জাককফরুিত/কাথাল",
+    "flags": [
+      "ফরুিত"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 1034,
+    "en": "Pumpkin cookies",
+    "bn": "কুমড়া কুকিেস",
+    "flags": [
+      "কুকিেস"
+    ],
+    "leading_vowel_artifacts": []
+  },
+  {
+    "id": 1051,
+    "en": "Spinach souffle",
+    "bn": "পালং সউফফলে",
+    "flags": [
+      "সউফফলে"
+    ],
+    "leading_vowel_artifacts": []
+  }
+]

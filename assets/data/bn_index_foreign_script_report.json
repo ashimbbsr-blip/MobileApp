@@ -1,0 +1,70 @@
+[
+  {
+    "token": "ଛେନା",
+    "scripts": [
+      "Odia"
+    ],
+    "food_ids": [
+      415
+    ],
+    "foods": [
+      {
+        "id": 415,
+        "en": "Chhena poda",
+        "bn": "ଛେନା ପୋଡ଼ା"
+      }
+    ],
+    "recommendation": "retain_as_alias_only"
+  },
+  {
+    "token": "ପୋଡ଼ା",
+    "scripts": [
+      "Odia"
+    ],
+    "food_ids": [
+      415
+    ],
+    "foods": [
+      {
+        "id": 415,
+        "en": "Chhena poda",
+        "bn": "ଛେନା ପୋଡ଼ା"
+      }
+    ],
+    "recommendation": "retain_as_alias_only"
+  },
+  {
+    "token": "ପଖାଳ",
+    "scripts": [
+      "Odia"
+    ],
+    "food_ids": [
+      1434
+    ],
+    "foods": [
+      {
+        "id": 1434,
+        "en": "Pakhala bhata",
+        "bn": "ପଖାଳ ଭାତ"
+      }
+    ],
+    "recommendation": "retain_as_alias_only"
+  },
+  {
+    "token": "ଭାତ",
+    "scripts": [
+      "Odia"
+    ],
+    "food_ids": [
+      1434
+    ],
+    "foods": [
+      {
+        "id": 1434,
+        "en": "Pakhala bhata",
+        "bn": "ପଖାଳ ଭାତ"
+      }
+    ],
+    "recommendation": "retain_as_alias_only"
+  }
+]

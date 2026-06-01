@@ -1,0 +1,434 @@
+[
+  {
+    "id": 238,
+    "en": "Apple",
+    "ca": 10,
+    "fe": 1.0,
+    "zn": 0.04,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 245,
+    "en": "Banana",
+    "ca": 17,
+    "fe": 0.9,
+    "zn": 0.2,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 262,
+    "en": "Guava",
+    "ca": 18,
+    "fe": 0.3,
+    "zn": 0.2,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 266,
+    "en": "Jackfruit",
+    "ca": 37,
+    "fe": 0.5,
+    "zn": 0.13,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 267,
+    "en": "Mango",
+    "ca": 14,
+    "fe": 0.3,
+    "zn": 0.09,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 295,
+    "en": "Watermelon",
+    "ca": 11,
+    "fe": 0.5,
+    "zn": 0.1,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1253,
+    "en": "Jambolan, raw",
+    "ca": 15,
+    "fe": 1.2,
+    "zn": 0.2,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1255,
+    "en": "Java apple, raw",
+    "ca": 29,
+    "fe": 0.07,
+    "zn": 0.06,
+    "source": "USDA-FNDDS",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1257,
+    "en": "Lemon, Kagoji, raw",
+    "ca": 26,
+    "fe": 0.6,
+    "zn": 0.06,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 640,
+    "en": "Boiled Egg",
+    "ca": 56,
+    "fe": 2.7,
+    "zn": 1.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1350,
+    "en": "Egg, chicken, farmed, raw",
+    "ca": 56,
+    "fe": 1.8,
+    "zn": 1.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1351,
+    "en": "Egg, chicken, native, raw",
+    "ca": 56,
+    "fe": 2.7,
+    "zn": 1.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1353,
+    "en": "Egg, duck, whole, raw",
+    "ca": 64,
+    "fe": 2.7,
+    "zn": 1.4,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1355,
+    "en": "Egg, chicken, native, boiled* (without salt)",
+    "ca": 56,
+    "fe": 2.7,
+    "zn": 1.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1356,
+    "en": "Egg, duck, whole, boiled* (without salt)",
+    "ca": 64,
+    "fe": 2.7,
+    "zn": 1.4,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1111,
+    "en": "Amaranth, stem, raw",
+    "ca": 150,
+    "fe": 3.0,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1112,
+    "en": "Bean, scarlet runner, raw",
+    "ca": 40,
+    "fe": 1.0,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1114,
+    "en": "Beet root, red, raw",
+    "ca": 16,
+    "fe": 0.8,
+    "zn": 0.35,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "ca": 37,
+    "fe": 0.7,
+    "zn": 0.8,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "ca": 37,
+    "fe": 0.7,
+    "zn": 0.8,
+    "source": "BD-FCT-2013",
+    "note": "overrode implausible ca=0.5 fe=43.0 zn=0.12"
+  },
+  {
+    "id": 1156,
+    "en": "Agathi, raw",
+    "ca": 1130,
+    "fe": 3.9,
+    "zn": 1.2,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1157,
+    "en": "Alligator weed, raw",
+    "ca": 170,
+    "fe": 4.2,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1172,
+    "en": "Fern, leaves, raw",
+    "ca": 26,
+    "fe": 1.5,
+    "zn": 0.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1179,
+    "en": "Spinach, raw",
+    "ca": 99,
+    "fe": 2.7,
+    "zn": 0.53,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "ca": 107,
+    "fe": 2.1,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "ca": 80,
+    "fe": 1.8,
+    "zn": 0.4,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "ca": 96,
+    "fe": 2.0,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "overrode implausible ca=2.7 fe=50.0 zn=0.19"
+  },
+  {
+    "id": 1184,
+    "en": "Water spinach, raw",
+    "ca": 77,
+    "fe": 1.7,
+    "zn": 0.4,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1185,
+    "en": "Watercress, raw",
+    "ca": 120,
+    "fe": 0.4,
+    "zn": 0.4,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "ca": 100,
+    "fe": 5.8,
+    "zn": 0.7,
+    "source": "ICMR-2017",
+    "note": "overrode implausible ca=3.1 fe=69.0 zn=0.15"
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "ca": 303,
+    "fe": 11.6,
+    "zn": 0.4,
+    "source": "ICMR-2017",
+    "note": "overrode implausible ca=9.7 fe=42.0 zn=0.02"
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "ca": 200,
+    "fe": 3.0,
+    "zn": 0.6,
+    "source": "ICMR-2017",
+    "note": "overrode implausible ca=8.4 fe=181.0 zn=0.12"
+  },
+  {
+    "id": 1195,
+    "en": "Sweet potato, white flesh, raw Misti Sweet potato, white flesh, raw Sweet potato, white flesh, raw 1",
+    "ca": 30,
+    "fe": 0.8,
+    "zn": 0.4,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1196,
+    "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+    "ca": 17,
+    "fe": 0.5,
+    "zn": 0.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1198,
+    "en": "Potato, Diamond, boiled* (without salt)",
+    "ca": 10,
+    "fe": 0.7,
+    "zn": 0.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1202,
+    "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+    "ca": 17,
+    "fe": 0.5,
+    "zn": 0.3,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "ca": 171,
+    "fe": 6.3,
+    "zn": 0.7,
+    "source": "BD-FCT-2013",
+    "note": "overrode implausible ca=3.2 fe=56.0 zn=0.3"
+  },
+  {
+    "id": 1085,
+    "en": "Semolina, wheat, raw",
+    "ca": 17,
+    "fe": 1.3,
+    "zn": 0.8,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1096,
+    "en": "Ruti* Ruti",
+    "ca": 14,
+    "fe": 2.3,
+    "zn": 1.1,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1321,
+    "en": "Rohu, river, raw",
+    "ca": 30,
+    "fe": 0.7,
+    "zn": 1.0,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1323,
+    "en": "Shrimp, Speckled, raw",
+    "ca": 323,
+    "fe": 2.25,
+    "zn": 1.9,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1326,
+    "en": "Spotted snakehead, raw",
+    "ca": 30,
+    "fe": 0.7,
+    "zn": 0.5,
+    "source": "BD-FCT-2013",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1390,
+    "en": "Betel leaves, raw",
+    "ca": 230,
+    "fe": 7.0,
+    "zn": 0.5,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1391,
+    "en": "Honey",
+    "ca": 5,
+    "fe": 0.4,
+    "zn": 0.22,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1392,
+    "en": "Jaggery, sugarcane, solid",
+    "ca": 80,
+    "fe": 2.6,
+    "zn": 0.14,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1393,
+    "en": "Jaggery/Panela, date palm",
+    "ca": 108,
+    "fe": 6.8,
+    "zn": 0.3,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1394,
+    "en": "Jaggery, liquid, date palm",
+    "ca": 108,
+    "fe": 6.8,
+    "zn": 0.3,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  },
+  {
+    "id": 1395,
+    "en": "Sugar, white",
+    "ca": 1,
+    "fe": 0.05,
+    "zn": 0.01,
+    "source": "ICMR-2017",
+    "note": "filled (was zero)"
+  }
+]

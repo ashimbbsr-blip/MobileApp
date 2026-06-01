@@ -1,0 +1,21 @@
+{
+  "unicode_valid": true,
+  "duplicate_ids": [],
+  "ocr_fragments_remaining": 0,
+  "en_index": {
+    "label": "en_v6_3",
+    "total_tokens": 1215,
+    "orphan_count": 0,
+    "orphans": [],
+    "has_duplicates": false
+  },
+  "bn_index": {
+    "label": "bn_v6_3",
+    "total_tokens": 1075,
+    "orphan_count": 0,
+    "orphans": [],
+    "has_duplicates": false
+  },
+  "foreign_script_tokens": 4,
+  "foreign_script_retained_as_aliases": true
+}

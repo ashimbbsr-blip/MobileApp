@@ -1,0 +1,74 @@
+[
+  {
+    "id": 18,
+    "en": "Apple oats chia seed smoothie",
+    "bn": "আপেল ওটস চিা সিদ সমুথিে",
+    "patterns_found": [
+      "সমুথিে"
+    ]
+  },
+  {
+    "id": 475,
+    "en": "Green gram whole with baghar",
+    "bn": "গ্রিন গরাম ওহোলে উইথ বাঘার",
+    "patterns_found": [
+      "ওহোলে"
+    ]
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "bn": "ভেগেতারিান নারগিসি কোফতা তরকারি",
+    "patterns_found": [
+      "ভেগেতারিান"
+    ]
+  },
+  {
+    "id": 632,
+    "en": "Whole masoor",
+    "bn": "ওহোলে মাসুর",
+    "patterns_found": [
+      "ওহোলে"
+    ]
+  },
+  {
+    "id": 633,
+    "en": "Whole moong",
+    "bn": "ওহোলে মুনগ",
+    "patterns_found": [
+      "ওহোলে"
+    ]
+  },
+  {
+    "id": 634,
+    "en": "Whole moth",
+    "bn": "ওহোলে মোথ",
+    "patterns_found": [
+      "ওহোলে"
+    ]
+  },
+  {
+    "id": 635,
+    "en": "Whole urad",
+    "bn": "ওহোলে উরাদ",
+    "patterns_found": [
+      "ওহোলে"
+    ]
+  },
+  {
+    "id": 665,
+    "en": "Vegetarian egg kofta curry",
+    "bn": "ভেগেতারিান ডিম কোফতা তরকারি",
+    "patterns_found": [
+      "ভেগেতারিান"
+    ]
+  },
+  {
+    "id": 847,
+    "en": "Vegetarian club sandwich",
+    "bn": "ভেগেতারিান কলুব স্যান্ডউইচ",
+    "patterns_found": [
+      "ভেগেতারিান"
+    ]
+  }
+]

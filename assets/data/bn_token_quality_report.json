@@ -1,0 +1,1071 @@
+[
+  {
+    "token": "ালাসকা",
+    "len": 6,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 3,
+        "en": "Coffee pear alaska",
+        "bn": "কফি পোর ালাসকা"
+      }
+    ]
+  },
+  {
+    "token": "জল",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 5,
+        "en": "Cumin infused water",
+        "bn": "জিরা জল"
+      },
+      {
+        "id": 183,
+        "en": "Coconut Water",
+        "bn": "ডাবের জল"
+      },
+      {
+        "id": 184,
+        "en": "Detox Water",
+        "bn": "ডিটক্স জল"
+      }
+    ]
+  },
+  {
+    "token": "চা",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 7,
+        "en": "Hot tea",
+        "bn": "গরম চা"
+      },
+      {
+        "id": 8,
+        "en": "Iced tea",
+        "bn": "ঠান্ডা চা"
+      },
+      {
+        "id": 10,
+        "en": "Kashmiri tea",
+        "bn": "কাশমিরি চা"
+      }
+    ]
+  },
+  {
+    "token": "রস",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 15,
+        "en": "Woodapple juice",
+        "bn": "ওুদাপপলে রস"
+      },
+      {
+        "id": 1261,
+        "en": "Orange juice, raw (unsweetened)",
+        "bn": "কমলার রস"
+      },
+      {
+        "id": 1385,
+        "en": "Sugar cane juice",
+        "bn": "আখের রস"
+      }
+    ]
+  },
+  {
+    "token": "ামযলাসে",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 24,
+        "en": "Cereal pulse mix with amylase rice flour",
+        "bn": "কেরোল পুলসে মিক্স উইথ ামযলাসে ভাত আটা"
+      }
+    ]
+  },
+  {
+    "token": "দই",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 26,
+        "en": "Doi Chire",
+        "bn": "দই চিঁড়ে"
+      },
+      {
+        "id": 83,
+        "en": "Cucumber and yogurt salad",
+        "bn": "কুকুমবের ও দই সালাদ"
+      },
+      {
+        "id": 84,
+        "en": "Curd dip",
+        "bn": "দই দিপ"
+      }
+    ]
+  },
+  {
+    "token": "োপেন",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 61,
+        "en": "Cheese open sandwich",
+        "bn": "চিজ ওপেন স্যান্ডউইচ"
+      },
+      {
+        "id": 835,
+        "en": "Sunset and sunrise open sandwich",
+        "bn": "সানসেট ও সানরাইজ ওপেন স্যান্ডউইচ"
+      },
+      {
+        "id": 936,
+        "en": "Sweet open sandwich",
+        "bn": "মিষ্টি ওপেন স্যান্ডউইচ"
+      }
+    ]
+  },
+  {
+    "token": "সস",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 65,
+        "en": "Cheese sauce",
+        "bn": "চিজ সস"
+      },
+      {
+        "id": 109,
+        "en": "Paneer in butter sauce",
+        "bn": "পনির ইন মাখন সস"
+      },
+      {
+        "id": 122,
+        "en": "Pasta cheese sauce",
+        "bn": "পাস্তা চিজ সস"
+      }
+    ]
+  },
+  {
+    "token": "অফ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 81,
+        "en": "Cream of tomato soup",
+        "bn": "ক্রিম অফ টমেটো স্যুপ"
+      },
+      {
+        "id": 457,
+        "en": "Fricassee of Mushroom",
+        "bn": "ফরিকাসসি অফ মুশরুম"
+      },
+      {
+        "id": 916,
+        "en": "Queen of pudding",
+        "bn": "কুইন অফ পুদদিনগ"
+      }
+    ]
+  },
+  {
+    "token": "আম",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 99,
+        "en": "Mango ice cream",
+        "bn": "আম আইসক্রিম"
+      },
+      {
+        "id": 191,
+        "en": "Mango Shake",
+        "bn": "আম শেক"
+      },
+      {
+        "id": 267,
+        "en": "Mango",
+        "bn": "আম"
+      }
+    ]
+  },
+  {
+    "token": "পো",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 107,
+        "en": "Paneer and pea samosa",
+        "bn": "পনির ও পো সমোসা"
+      },
+      {
+        "id": 117,
+        "en": "Paneer pea sandwich",
+        "bn": "পনির পো স্যান্ডউইচ"
+      },
+      {
+        "id": 123,
+        "en": "Pea paneer curry",
+        "bn": "পো পনির কারি"
+      }
+    ]
+  },
+  {
+    "token": "ইন",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 109,
+        "en": "Paneer in butter sauce",
+        "bn": "পনির ইন মাখন সস"
+      },
+      {
+        "id": 134,
+        "en": "Spaghetti and cheese balls in tomato sauce",
+        "bn": "সপাঘেততি ও চিজ বলস ইন টমেটো সস"
+      },
+      {
+        "id": 212,
+        "en": "Fish in coconut milk",
+        "bn": "মাছ ইন নারকেল দুধ"
+      }
+    ]
+  },
+  {
+    "token": "াততা",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 140,
+        "en": "Atta dal burfi",
+        "bn": "াততা ডাল বুরফি"
+      }
+    ]
+  },
+  {
+    "token": "মা",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 150,
+        "en": "Maa chaane ki dal",
+        "bn": "মা চাানে কি ডাল"
+      }
+    ]
+  },
+  {
+    "token": "কি",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 150,
+        "en": "Maa chaane ki dal",
+        "bn": "মা চাানে কি ডাল"
+      }
+    ]
+  },
+  {
+    "token": "গম",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 167,
+        "en": "Wheat flour and moong dal burfi",
+        "bn": "গম আটা ও মুগ ডাল বুরফি"
+      },
+      {
+        "id": 297,
+        "en": "Cracked wheat porridge",
+        "bn": "করাককেদ গম পোররিদগে"
+      },
+      {
+        "id": 300,
+        "en": "Puffed wheat",
+        "bn": "পুফফেদ গম"
+      }
+    ]
+  },
+  {
+    "token": "োরলয",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 213,
+        "en": "Fish orly",
+        "bn": "মাছ ওরলি"
+      }
+    ]
+  },
+  {
+    "token": "লো",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 237,
+        "en": "Low Carb Bowl",
+        "bn": "লো কার্ব বোল"
+      }
+    ]
+  },
+  {
+    "token": "ফল",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 260,
+        "en": "Fruit Salad",
+        "bn": "ফল সালাদ"
+      },
+      {
+        "id": 275,
+        "en": "Mixed Fruit Bowl",
+        "bn": "ফল বোল"
+      },
+      {
+        "id": 742,
+        "en": "Frozen frosty fruit salad",
+        "bn": "ফরোজেন ফ্রস্টি ফল সালাদ"
+      }
+    ]
+  },
+  {
+    "token": "োমেলেততে",
+    "len": 8,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 280,
+        "en": "Orange omelette/omlet",
+        "bn": "কমলা অমলেট/অমলেট"
+      },
+      {
+        "id": 436,
+        "en": "Corn omelette/omlet",
+        "bn": "ভুট্টা অমলেট/অমলেট"
+      },
+      {
+        "id": 456,
+        "en": "French omelette/omlet",
+        "bn": "ফরেনচ অমলেট/অমলেট"
+      }
+    ]
+  },
+  {
+    "token": "োমলেত",
+    "len": 5,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 280,
+        "en": "Orange omelette/omlet",
+        "bn": "কমলা অমলেট/অমলেট"
+      },
+      {
+        "id": 436,
+        "en": "Corn omelette/omlet",
+        "bn": "ভুট্টা অমলেট/অমলেট"
+      },
+      {
+        "id": 456,
+        "en": "French omelette/omlet",
+        "bn": "ফরেনচ অমলেট/অমলেট"
+      }
+    ]
+  },
+  {
+    "token": "াফঘানি",
+    "len": 6,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 315,
+        "en": "Afghani chicken",
+        "bn": "াফঘানি চিকেন"
+      }
+    ]
+  },
+  {
+    "token": "ালা",
+    "len": 3,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 318,
+        "en": "Broccoli chicken ala king",
+        "bn": "ব্রকলি চিকেন ালা কিনগ"
+      }
+    ]
+  },
+  {
+    "token": "দো",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 350,
+        "en": "Mutton do piaza",
+        "bn": "মাটন দো পিাজা"
+      },
+      {
+        "id": 542,
+        "en": "Paaner do pyaza",
+        "bn": "পআনের দো পযাজা"
+      }
+    ]
+  },
+  {
+    "token": "িতালিান",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 363,
+        "en": "Classic italian pasta",
+        "bn": "কলাসসিক ইতালিয়ান পাস্তা"
+      }
+    ]
+  },
+  {
+    "token": "এগ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 364,
+        "en": "Egg Chowmein",
+        "bn": "এগ চাওমিন"
+      },
+      {
+        "id": 643,
+        "en": "Egg White Omelette",
+        "bn": "এগ হোয়াইট অমলেট"
+      },
+      {
+        "id": 784,
+        "en": "Egg Devil",
+        "bn": "এগ ডেভিল"
+      }
+    ]
+  },
+  {
+    "token": "াল",
+    "len": 2,
+    "reasons": [
+      "short_len(2)",
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 386,
+        "en": "Al yakhani",
+        "bn": "াল যাখানি"
+      }
+    ]
+  },
+  {
+    "token": "ামেরিকান",
+    "len": 8,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 387,
+        "en": "American frosting",
+        "bn": "ামেরিকান ফরোসতিনগ"
+      }
+    ]
+  },
+  {
+    "token": "াপরিকোত",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 388,
+        "en": "Apricot fool",
+        "bn": "াপরিকোত ফুল"
+      }
+    ]
+  },
+  {
+    "token": "াসসোরতেদ",
+    "len": 8,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 389,
+        "en": "Assorted pastry",
+        "bn": "অ্যাসর্টেড পেস্ট্রি"
+      }
+    ]
+  },
+  {
+    "token": "াভিাল",
+    "len": 5,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 390,
+        "en": "Avial",
+        "bn": "াভিাল"
+      }
+    ]
+  },
+  {
+    "token": "েগগস",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 391,
+        "en": "Baked eggs in tomato sauce",
+        "bn": "বেক এগস ইন টমেটো সস"
+      },
+      {
+        "id": 524,
+        "en": "Mayonnaise without eggs",
+        "bn": "মেয়োনিজ উইথআউট এগস"
+      }
+    ]
+  },
+  {
+    "token": "েকলআইরস",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 420,
+        "en": "Chocolate eclairs",
+        "bn": "চকলেট এক্লেয়ার্স"
+      }
+    ]
+  },
+  {
+    "token": "আউ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 434,
+        "en": "Consomme au julienne",
+        "bn": "কোনসোমমে আউ জুলিেননে"
+      },
+      {
+        "id": 983,
+        "en": "Cauliflower au gratin",
+        "bn": "ফুলকপি আউ গরাতিন"
+      }
+    ]
+  },
+  {
+    "token": "ারবি",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 448,
+        "en": "Dry arbi",
+        "bn": "দরয ারবি"
+      },
+      {
+        "id": 520,
+        "en": "Masala arbi",
+        "bn": "মশলা ারবি"
+      }
+    ]
+  },
+  {
+    "token": "াচার",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 491,
+        "en": "Jhatpat achar with carrot",
+        "bn": "ঝাতপাত াচার উইথ গাজর"
+      }
+    ]
+  },
+  {
+    "token": "কা",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 577,
+        "en": "Sarson ka saag",
+        "bn": "সারসোন কা সআগ"
+      }
+    ]
+  },
+  {
+    "token": "িমলি",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 579,
+        "en": "Saunth/Sonth chutney with tamarind/imli",
+        "bn": "সআউনথ/সোনথ চাটনি উইথ তামারিনদ/িমলি"
+      }
+    ]
+  },
+  {
+    "token": "াহার",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 590,
+        "en": "Shishu ahar",
+        "bn": "শিশু াহার"
+      }
+    ]
+  },
+  {
+    "token": "িসলও",
+    "len": 4,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 611,
+        "en": "Thousand island dressing",
+        "bn": "থাউজেন্ড আইল্যান্ড ড্রেসিং"
+      }
+    ]
+  },
+  {
+    "token": "াসপিক",
+    "len": 5,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 612,
+        "en": "Tomato aspic",
+        "bn": "টমেটো াসপিক"
+      }
+    ]
+  },
+  {
+    "token": "োনিোন",
+    "len": 5,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 719,
+        "en": "Onion-green chilli parantha/paratha",
+        "bn": "অনিয়ন-গ্রিন চিললি পারানথা/পারাথা"
+      }
+    ]
+  },
+  {
+    "token": "চপ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 840,
+        "en": "Veg Chop",
+        "bn": "চপ"
+      }
+    ]
+  },
+  {
+    "token": "ামারানথ",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 873,
+        "en": "Amaranth ladoo",
+        "bn": "ামারানথ লাড্ডু"
+      }
+    ]
+  },
+  {
+    "token": "েগগলেসস",
+    "len": 7,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 888,
+        "en": "Chocolate eggless cake",
+        "bn": "চকলেট এগলেস কেক"
+      },
+      {
+        "id": 896,
+        "en": "Eggless cake",
+        "bn": "এগলেস কেক"
+      },
+      {
+        "id": 910,
+        "en": "Orange eggless cake",
+        "bn": "কমলা এগলেস কেক"
+      }
+    ]
+  },
+  {
+    "token": "ুপসিদে",
+    "len": 6,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 915,
+        "en": "Pineapple upside down pudding",
+        "bn": "আনারস আপসাইড ডাউন পুদদিনগ"
+      }
+    ]
+  },
+  {
+    "token": "দম",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 949,
+        "en": "Alur Dom",
+        "bn": "আলুর দম"
+      },
+      {
+        "id": 1431,
+        "en": "Luchi alur dom",
+        "bn": "লুচি আলুর দম"
+      }
+    ]
+  },
+  {
+    "token": "ারহার",
+    "len": 5,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 971,
+        "en": "Arhar with spinach",
+        "bn": "ারহার উইথ পালং"
+      }
+    ]
+  },
+  {
+    "token": "ালু",
+    "len": 3,
+    "reasons": [
+      "leading_vowel_sign"
+    ],
+    "foods": [
+      {
+        "id": 999,
+        "en": "Dum aloo",
+        "bn": "দুম ালু"
+      }
+    ]
+  },
+  {
+    "token": "65",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1003,
+        "en": "Gobi 65",
+        "bn": "গোবি 65"
+      }
+    ]
+  },
+  {
+    "token": "যব",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1068,
+        "en": "Barley, whole-grain, raw",
+        "bn": "যব, গোটা শস্য, কাঁচা"
+      }
+    ]
+  },
+  {
+    "token": "BR",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1079,
+        "en": "Rice, BR-28, parboiled, milled, raw",
+        "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া"
+      },
+      {
+        "id": 1094,
+        "en": "Rice, BR-28, boiled* (without salt)",
+        "bn": "ভাত, BR-28"
+      }
+    ]
+  },
+  {
+    "token": "28",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1079,
+        "en": "Rice, BR-28, parboiled, milled, raw",
+        "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া"
+      },
+      {
+        "id": 1094,
+        "en": "Rice, BR-28, boiled* (without salt)",
+        "bn": "ভাত, BR-28"
+      }
+    ]
+  },
+  {
+    "token": "খই",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1082,
+        "en": "Rice, popped",
+        "bn": "খই"
+      }
+    ]
+  },
+  {
+    "token": "বক",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1156,
+        "en": "Agathi, raw",
+        "bn": "বক ফুল শাক"
+      }
+    ]
+  },
+  {
+    "token": "ওল",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1192,
+        "en": "Elephant foot, corm, raw",
+        "bn": "ওল কচু"
+      }
+    ]
+  },
+  {
+    "token": "বন",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1196,
+        "en": "Yam, tuber, raw Bon Yam, tuber, raw Yam, tuber, raw 3",
+        "bn": "বন আলু"
+      },
+      {
+        "id": 1202,
+        "en": "Yam, tuber, boiled* (without salt) Bon Yam, tuber, boiled* (without salt) Yam, tuber, boiled* (without salt) 3",
+        "bn": "বন আলু সিদ্ধ"
+      }
+    ]
+  },
+  {
+    "token": "সহ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1203,
+        "en": "Potato Mash",
+        "bn": "আলু সিদ্ধ, লবণ সহ"
+      }
+    ]
+  },
+  {
+    "token": "১৫",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1336,
+        "en": "Beef, meat, 15-20% fat, boneless, raw",
+        "bn": "গরুর মাংস, ১৫-২০% চর্বি, হাড় ছাড়া"
+      }
+    ]
+  },
+  {
+    "token": "কড",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1370,
+        "en": "Fish oil, cod liver",
+        "bn": "কড লিভার তেল"
+      }
+    ]
+  },
+  {
+    "token": "ঘি",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1371,
+        "en": "Ghee, cow",
+        "bn": "ঘি, গরু"
+      }
+    ]
+  },
+  {
+    "token": "আখ",
+    "len": 2,
+    "reasons": [
+      "short_len(2)"
+    ],
+    "foods": [
+      {
+        "id": 1392,
+        "en": "Jaggery, sugarcane, solid",
+        "bn": "গুড়, আখ"
+      }
+    ]
+  }
+]

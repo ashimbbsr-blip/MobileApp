@@ -1,0 +1,16 @@
+{
+  "foods_with_zero_minerals": 183,
+  "foods_completed": 0,
+  "foods_still_missing": 183,
+  "completion_percentage": 0.0,
+  "note": "No new source data available; gaps carried from v6_2",
+  "by_category": {
+    "bengali_food": 90,
+    "fish": 21,
+    "fruit": 3,
+    "grain": 25,
+    "meat": 12,
+    "sweet": 5,
+    "vegetable": 27
+  }
+}

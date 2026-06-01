@@ -1,0 +1,1100 @@
+[
+  {
+    "id": 16,
+    "en": "Infinity Wellness Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 20,
+    "en": "Banana Oats",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 25,
+    "en": "Chitoi Pitha",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 26,
+    "en": "Doi Chire",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 27,
+    "en": "Egg Toast",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 28,
+    "en": "Healthy Breakfast Bowl",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 33,
+    "en": "Kochuri",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 34,
+    "en": "Luchi",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 37,
+    "en": "Oats Milk Bowl",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 38,
+    "en": "Oats Porridge",
+    "cat": "breakfast",
+    "gap_class": "grain"
+  },
+  {
+    "id": 54,
+    "en": "Aam Chutney",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 55,
+    "en": "Tomato Chutney",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 141,
+    "en": "Chana Bhuna",
+    "cat": "legume",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 142,
+    "en": "Cholar Dal",
+    "cat": "legume",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 152,
+    "en": "Masoor Dal",
+    "cat": "legume",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 153,
+    "en": "Mixed Dal",
+    "cat": "legume",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 168,
+    "en": "Bhapa Pitha",
+    "cat": "dessert",
+    "gap_class": "sweet"
+  },
+  {
+    "id": 170,
+    "en": "Nolen Gur Sandesh",
+    "cat": "dessert",
+    "gap_class": "sweet"
+  },
+  {
+    "id": 174,
+    "en": "Sandesh",
+    "cat": "dessert",
+    "gap_class": "sweet"
+  },
+  {
+    "id": 175,
+    "en": "Strawberry Yogurt",
+    "cat": "dessert",
+    "gap_class": "sweet"
+  },
+  {
+    "id": 176,
+    "en": "Detox Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 177,
+    "en": "Weight Loss Soup",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 178,
+    "en": "Apple Cider Drink",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 179,
+    "en": "Banana Shake",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 180,
+    "en": "Black Coffee",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 181,
+    "en": "Black Tea",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 182,
+    "en": "Chocolate Milk",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 183,
+    "en": "Coconut Water",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 184,
+    "en": "Detox Water",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 185,
+    "en": "Fat Burn Drink",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 186,
+    "en": "Ginger Tea",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 187,
+    "en": "Herbal Tea",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 189,
+    "en": "Lemon Honey Water",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 190,
+    "en": "Lemon Water",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 191,
+    "en": "Mango Shake",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 192,
+    "en": "Milk Coffee",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 193,
+    "en": "Milk Tea",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 194,
+    "en": "Salt Lassi",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 195,
+    "en": "Sweet Lassi",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 196,
+    "en": "Air Fry Fish",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 200,
+    "en": "Bhetki Paturi",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 201,
+    "en": "Chingri Bhapa",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 202,
+    "en": "Chingri Bhorta",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 203,
+    "en": "Chingri Malai",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 205,
+    "en": "Daab Chingri",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 206,
+    "en": "Fish Fry",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 207,
+    "en": "Fish Kalia",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 208,
+    "en": "Fish Steam",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 222,
+    "en": "Ilish Bhapa",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 223,
+    "en": "Katla Curry",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 224,
+    "en": "Lean Fish Bowl",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 226,
+    "en": "Macher Bhaja",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 227,
+    "en": "Macher Jhol",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 228,
+    "en": "Pabda Jhol",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 231,
+    "en": "Rohu Curry",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 232,
+    "en": "Shorshe Ilish",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 234,
+    "en": "Tangra Jhol",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 236,
+    "en": "Fitness Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 237,
+    "en": "Low Carb Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 256,
+    "en": "Dates",
+    "cat": "fruit",
+    "gap_class": "fruit"
+  },
+  {
+    "id": 260,
+    "en": "Fruit Salad",
+    "cat": "fruit",
+    "gap_class": "fruit"
+  },
+  {
+    "id": 275,
+    "en": "Mixed Fruit Bowl",
+    "cat": "fruit",
+    "gap_class": "fruit"
+  },
+  {
+    "id": 301,
+    "en": "Rice",
+    "cat": "grain",
+    "gap_class": "grain"
+  },
+  {
+    "id": 308,
+    "en": "Balanced Diet Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 309,
+    "en": "Healthy Curry Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 310,
+    "en": "Light Dinner Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 311,
+    "en": "Light Lunch Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 312,
+    "en": "Simple Chicken Meal",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 313,
+    "en": "Simple Veg Meal",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 314,
+    "en": "Wellness Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 316,
+    "en": "Air Fry Chicken",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 317,
+    "en": "Boiled Chicken",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 321,
+    "en": "Chicken Curry",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 322,
+    "en": "Chicken Grill",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 323,
+    "en": "Chicken Roast",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 339,
+    "en": "Egg Curry",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 347,
+    "en": "Light Chicken Curry",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 348,
+    "en": "Mutton Curry",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 362,
+    "en": "Chicken Chowmein",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 364,
+    "en": "Egg Chowmein",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 375,
+    "en": "Almonds",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 376,
+    "en": "Cashew",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 385,
+    "en": "Walnuts",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 490,
+    "en": "Jam filling",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 642,
+    "en": "Egg Bhurji",
+    "cat": "egg",
+    "gap_class": "meat"
+  },
+  {
+    "id": 643,
+    "en": "Egg White Omelette",
+    "cat": "egg",
+    "gap_class": "meat"
+  },
+  {
+    "id": 652,
+    "en": "Fried Egg",
+    "cat": "egg",
+    "gap_class": "meat"
+  },
+  {
+    "id": 653,
+    "en": "High Protein Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 657,
+    "en": "Lean Chicken Bowl",
+    "cat": "meat",
+    "gap_class": "meat"
+  },
+  {
+    "id": 659,
+    "en": "Protein Bar",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 664,
+    "en": "Veg Protein Bowl",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 667,
+    "en": "Basanti Pulao",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 668,
+    "en": "Chicken Khichdi",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 671,
+    "en": "Coconut Rice",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 673,
+    "en": "Curd Rice",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 674,
+    "en": "Fish Pulao",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 675,
+    "en": "Fried Rice",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 677,
+    "en": "Khichuri",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 678,
+    "en": "Kolkata Biryani",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 679,
+    "en": "Lemon Rice",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 680,
+    "en": "Light Rice Bowl",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 681,
+    "en": "Mishti Pulao",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 688,
+    "en": "Panta Bhat",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 693,
+    "en": "Protein Khichdi",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 695,
+    "en": "Spinach Rice",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 696,
+    "en": "Veg Pulao",
+    "cat": "rice",
+    "gap_class": "grain"
+  },
+  {
+    "id": 737,
+    "en": "Boiled Chicken Salad",
+    "cat": "salad",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 740,
+    "en": "Chickpea Salad",
+    "cat": "salad",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 745,
+    "en": "Gym Salad",
+    "cat": "salad",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 751,
+    "en": "Moong Sprouts",
+    "cat": "salad",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 755,
+    "en": "Sprouts Salad",
+    "cat": "salad",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 761,
+    "en": "Aloo Bhaja",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 763,
+    "en": "Beguni",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 768,
+    "en": "Chicken Roll",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 769,
+    "en": "Chicken Sandwich",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 770,
+    "en": "Chingri Cutlet",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 784,
+    "en": "Egg Devil",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 785,
+    "en": "Egg Sandwich",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 786,
+    "en": "Energy Bar",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 794,
+    "en": "Jhalmuri",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 795,
+    "en": "Kathi Roll Chicken",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 804,
+    "en": "Murir Moa",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 807,
+    "en": "Nut Mix",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 812,
+    "en": "Peanut Chikki",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 816,
+    "en": "Phuchka",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 821,
+    "en": "Roasted Chana",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 825,
+    "en": "Samosa",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 826,
+    "en": "Seed Mix",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 829,
+    "en": "Singara",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 840,
+    "en": "Veg Chop",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 841,
+    "en": "Veg Roll",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 842,
+    "en": "Veg Sandwich",
+    "cat": "snack",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 849,
+    "en": "Bone Broth Chicken",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 850,
+    "en": "Chicken Soup",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 855,
+    "en": "Dal Soup",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 856,
+    "en": "Fish Broth",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 868,
+    "en": "Tomato Soup",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 869,
+    "en": "Veg Soup",
+    "cat": "soup",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 949,
+    "en": "Alur Dom",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 950,
+    "en": "Begun Bhaja",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 951,
+    "en": "Boiled Veg Mix",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 952,
+    "en": "Cabbage Curry",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 953,
+    "en": "Cauliflower Curry",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 954,
+    "en": "Dalna",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 955,
+    "en": "Dhokar Dalna",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 956,
+    "en": "Grilled Paneer",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 957,
+    "en": "Labra",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 958,
+    "en": "Lau Ghonto",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 959,
+    "en": "Light Veg Curry",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 960,
+    "en": "Mixed Veg",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 961,
+    "en": "Mochar Ghonto",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 962,
+    "en": "Palong Saag",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 963,
+    "en": "Paneer Bhurji",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 964,
+    "en": "Paneer Curry",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 965,
+    "en": "Posto Bata",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 966,
+    "en": "Potol Posto",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 967,
+    "en": "Roasted Veg Bowl",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 969,
+    "en": "Steamed Veg",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 970,
+    "en": "Vegetable Stew",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 1170,
+    "en": "Dima leaves, raw",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 1233,
+    "en": "Nutmeg, dried",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 1234,
+    "en": "Poppy seeds",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 1235,
+    "en": "Turmeric, dried",
+    "cat": "vegetable",
+    "gap_class": "vegetable"
+  },
+  {
+    "id": 1286,
+    "en": "Catfish, Bacha, raw",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 1294,
+    "en": "Gangetic ailia, raw",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 1328,
+    "en": "Stone roller, raw",
+    "cat": "fish",
+    "gap_class": "fish"
+  },
+  {
+    "id": 1369,
+    "en": "Cottonseed oil",
+    "cat": "dairy",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1375,
+    "en": "Mustard oil",
+    "cat": "dairy",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1376,
+    "en": "Palm oil",
+    "cat": "dairy",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1377,
+    "en": "Peanut oil China badam",
+    "cat": "dairy",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1378,
+    "en": "Sesame oil",
+    "cat": "dairy",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1381,
+    "en": "Coffee, instant, with sugar and milk",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1382,
+    "en": "Coffee, powder",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1383,
+    "en": "Soft drinks, carbonated",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1384,
+    "en": "Soya milk (not sweetened)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1385,
+    "en": "Sugar cane juice",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1386,
+    "en": "Tea, milk tea (with sugar and milk powder)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1387,
+    "en": "Tea, infusion (with sugar)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1388,
+    "en": "Tea, powder",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1389,
+    "en": "Baking powder",
+    "cat": "sweet",
+    "gap_class": "sweet"
+  },
+  {
+    "id": 1425,
+    "en": "Whiskey / Whisky (30ml)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1426,
+    "en": "Rum (30ml)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  },
+  {
+    "id": 1427,
+    "en": "Vodka (30ml)",
+    "cat": "beverage",
+    "gap_class": "bengali_food"
+  }
+]

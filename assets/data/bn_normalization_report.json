@@ -1,0 +1,1350 @@
+{
+  "summary": {
+    "records_scanned": 1391,
+    "candidates_found": 9,
+    "records_modified": 9,
+    "manual_review": 0,
+    "validation_issues": 150,
+    "en_index_tokens": 822,
+    "en_index_orphans": 0,
+    "bn_index_tokens": 302,
+    "bn_index_orphans": 0
+  },
+  "fixes": [
+    {
+      "id": 18,
+      "en": "Apple oats chia seed smoothie",
+      "before": "আপেল ওটস চিা সিদ সমুথিে",
+      "after": "আপেল ওটস চিা সিদ স্মুদি",
+      "fixes": [
+        {
+          "rule": "C",
+          "replaced": "সমুথিে",
+          "with": "স্মুদি",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "en": "Green gram whole with baghar",
+      "before": "গ্রিন গরাম ওহোলে উইথ বাঘার",
+      "after": "গ্রিন গরাম হোল উইথ বাঘার",
+      "fixes": [
+        {
+          "rule": "A",
+          "replaced": "ওহোলে",
+          "with": "হোল",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 629,
+      "en": "Vegetarian nargisi kofta curry",
+      "before": "ভেগেতারিান নারগিসি কোফতা তরকারি",
+      "after": "ভেজিটেরিয়ান নারগিসি কোফতা তরকারি",
+      "fixes": [
+        {
+          "rule": "B",
+          "replaced": "ভেগেতারিান",
+          "with": "ভেজিটেরিয়ান",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 632,
+      "en": "Whole masoor",
+      "before": "ওহোলে মাসুর",
+      "after": "হোল মাসুর",
+      "fixes": [
+        {
+          "rule": "A",
+          "replaced": "ওহোলে",
+          "with": "হোল",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 633,
+      "en": "Whole moong",
+      "before": "ওহোলে মুনগ",
+      "after": "হোল মুনগ",
+      "fixes": [
+        {
+          "rule": "A",
+          "replaced": "ওহোলে",
+          "with": "হোল",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 634,
+      "en": "Whole moth",
+      "before": "ওহোলে মোথ",
+      "after": "হোল মোথ",
+      "fixes": [
+        {
+          "rule": "A",
+          "replaced": "ওহোলে",
+          "with": "হোল",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "en": "Whole urad",
+      "before": "ওহোলে উরাদ",
+      "after": "হোল উরাদ",
+      "fixes": [
+        {
+          "rule": "A",
+          "replaced": "ওহোলে",
+          "with": "হোল",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "en": "Vegetarian egg kofta curry",
+      "before": "ভেগেতারিান ডিম কোফতা তরকারি",
+      "after": "ভেজিটেরিয়ান ডিম কোফতা তরকারি",
+      "fixes": [
+        {
+          "rule": "B",
+          "replaced": "ভেগেতারিান",
+          "with": "ভেজিটেরিয়ান",
+          "confidence": 99
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "en": "Vegetarian club sandwich",
+      "before": "ভেগেতারিান কলুব স্যান্ডউইচ",
+      "after": "ভেজিটেরিয়ান কলুব স্যান্ডউইচ",
+      "fixes": [
+        {
+          "rule": "B",
+          "replaced": "ভেগেতারিান",
+          "with": "ভেজিটেরিয়ান",
+          "confidence": 99
+        }
+      ]
+    }
+  ],
+  "validation_issues": [
+    {
+      "id": 12,
+      "en": "Nannari sharbat",
+      "bn": "নাননারি শরবত",
+      "issues": [
+        "doubled_char_ন_at_2"
+      ]
+    },
+    {
+      "id": 15,
+      "en": "Woodapple juice",
+      "bn": "ওুদাপপলে রস",
+      "issues": [
+        "doubled_char_প_at_4"
+      ]
+    },
+    {
+      "id": 63,
+      "en": "Cheese pizza",
+      "bn": "চিজ পিজজা",
+      "issues": [
+        "doubled_char_জ_at_6"
+      ]
+    },
+    {
+      "id": 64,
+      "en": "Cheese pudding",
+      "bn": "চিজ পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_6"
+      ]
+    },
+    {
+      "id": 65,
+      "en": "Cheese sauce",
+      "bn": "চিজ সস",
+      "issues": [
+        "doubled_char_স_at_4"
+      ]
+    },
+    {
+      "id": 72,
+      "en": "Chocolate cream shells",
+      "bn": "চকলেট ক্রিম শেললস",
+      "issues": [
+        "doubled_char_ল_at_14"
+      ]
+    },
+    {
+      "id": 82,
+      "en": "Cream puffs",
+      "bn": "ক্রিম পুফফস",
+      "issues": [
+        "doubled_char_ফ_at_8"
+      ]
+    },
+    {
+      "id": 97,
+      "en": "Lemon curd filling",
+      "bn": "লেবু দই ফিললিনগ",
+      "issues": [
+        "doubled_char_ল_at_10"
+      ]
+    },
+    {
+      "id": 109,
+      "en": "Paneer in butter sauce",
+      "bn": "পনির ইন মাখন সস",
+      "issues": [
+        "doubled_char_স_at_13"
+      ]
+    },
+    {
+      "id": 118,
+      "en": "Paneer shaslik/tikka",
+      "bn": "পনির শাসলিক/তিককা",
+      "issues": [
+        "doubled_char_ক_at_14"
+      ]
+    },
+    {
+      "id": 120,
+      "en": "Paneer stuffed cheela/chilla",
+      "bn": "পনির স্টাফড চেেলা/চিলা",
+      "issues": [
+        "doubled_char_ে_at_13"
+      ]
+    },
+    {
+      "id": 122,
+      "en": "Pasta cheese sauce",
+      "bn": "পাস্তা চিজ সস",
+      "issues": [
+        "doubled_char_স_at_11"
+      ]
+    },
+    {
+      "id": 129,
+      "en": "Saffron milk",
+      "bn": "সাফফরোন দুধ",
+      "issues": [
+        "doubled_char_ফ_at_2"
+      ]
+    },
+    {
+      "id": 134,
+      "en": "Spaghetti and cheese balls in tomato sauce",
+      "bn": "স্প্যাগেটি ও চিজ বলস ইন টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_30"
+      ]
+    },
+    {
+      "id": 135,
+      "en": "Strawberry and vanilla cake with butter icing",
+      "bn": "স্ট্রবেরি ও ভানিললা কেক উইথ মাখন আইসিং",
+      "issues": [
+        "doubled_char_ল_at_16"
+      ]
+    },
+    {
+      "id": 138,
+      "en": "Thickened sweetened milk",
+      "bn": "থিককেনেদ সওিতেনেদ দুধ",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 140,
+      "en": "Atta dal burfi",
+      "bn": "াততা ডাল বুরফি",
+      "issues": [
+        "leading_vowel_sign",
+        "doubled_char_ত_at_1"
+      ]
+    },
+    {
+      "id": 150,
+      "en": "Maa chaane ki dal",
+      "bn": "মা চাানে কি ডাল",
+      "issues": [
+        "doubled_char_া_at_4"
+      ]
+    },
+    {
+      "id": 160,
+      "en": "Rice dal porridge",
+      "bn": "ভাত ডাল পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_10"
+      ]
+    },
+    {
+      "id": 161,
+      "en": "Rice moong dal cheela",
+      "bn": "ভাত মুগ ডাল চেেলা",
+      "issues": [
+        "doubled_char_ে_at_13"
+      ]
+    },
+    {
+      "id": 197,
+      "en": "Baked fish with cheese sauce",
+      "bn": "বেকড মাছ উইথ চিজ সস",
+      "issues": [
+        "doubled_char_স_at_17"
+      ]
+    },
+    {
+      "id": 218,
+      "en": "Fish tikka",
+      "bn": "মাছ তিককা",
+      "issues": [
+        "doubled_char_ক_at_6"
+      ]
+    },
+    {
+      "id": 220,
+      "en": "Hariyali Fish Tikka",
+      "bn": "হারিযালি মাছ তিককা",
+      "issues": [
+        "doubled_char_ক_at_15"
+      ]
+    },
+    {
+      "id": 240,
+      "en": "Apple cinnamon pie",
+      "bn": "আপেল কিননামোন পাই",
+      "issues": [
+        "doubled_char_ন_at_7"
+      ]
+    },
+    {
+      "id": 242,
+      "en": "Apple jelly",
+      "bn": "আপেল জেললয",
+      "issues": [
+        "doubled_char_ল_at_7"
+      ]
+    },
+    {
+      "id": 258,
+      "en": "Dessicated coconut chutney",
+      "bn": "দেসসিকাতেদ নারকেল চাটনি",
+      "issues": [
+        "doubled_char_স_at_2"
+      ]
+    },
+    {
+      "id": 263,
+      "en": "Guava jelly",
+      "bn": "পেয়ারা জেললয",
+      "issues": [
+        "doubled_char_ল_at_10"
+      ]
+    },
+    {
+      "id": 268,
+      "en": "Mango cheesecake",
+      "bn": "আম চেেসেকেক",
+      "issues": [
+        "doubled_char_ে_at_4"
+      ]
+    },
+    {
+      "id": 271,
+      "en": "Mango murabba candy",
+      "bn": "আম মুরাববা কওয",
+      "issues": [
+        "doubled_char_ব_at_7"
+      ]
+    },
+    {
+      "id": 276,
+      "en": "Orange chiffon pie",
+      "bn": "কমলা চিফফোন পাই",
+      "issues": [
+        "doubled_char_ফ_at_7"
+      ]
+    },
+    {
+      "id": 297,
+      "en": "Cracked wheat porridge",
+      "bn": "করাককেদ গম পোররিদগে",
+      "issues": [
+        "doubled_char_ক_at_3",
+        "doubled_char_র_at_13"
+      ]
+    },
+    {
+      "id": 300,
+      "en": "Puffed wheat",
+      "bn": "পুফফেদ গম",
+      "issues": [
+        "doubled_char_ফ_at_2"
+      ]
+    },
+    {
+      "id": 304,
+      "en": "Rice puttu",
+      "bn": "ভাত পুততু",
+      "issues": [
+        "doubled_char_ত_at_6"
+      ]
+    },
+    {
+      "id": 315,
+      "en": "Afghani chicken",
+      "bn": "াফঘানি চিকেন",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 340,
+      "en": "Fried chicken with tomato sauce",
+      "bn": "ভাজা চিকেন উইথ টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_21"
+      ]
+    },
+    {
+      "id": 363,
+      "en": "Classic italian pasta",
+      "bn": "কলাসসিক ইতালিয়ান পাস্তা",
+      "issues": [
+        "doubled_char_স_at_3"
+      ]
+    },
+    {
+      "id": 370,
+      "en": "Spaghetti with meat balls and tomato sauce",
+      "bn": "স্প্যাগেটি উইথ মাংস বলস ও টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_32"
+      ]
+    },
+    {
+      "id": 372,
+      "en": "Vermicelli porridge",
+      "bn": "ভেরমিকেললি পোররিদগে",
+      "issues": [
+        "doubled_char_ল_at_7",
+        "doubled_char_র_at_13"
+      ]
+    },
+    {
+      "id": 386,
+      "en": "Al yakhani",
+      "bn": "াল যাখানি",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 387,
+      "en": "American frosting",
+      "bn": "ামেরিকান ফরোসতিনগ",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 388,
+      "en": "Apricot fool",
+      "bn": "াপরিকোত ফুল",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 390,
+      "en": "Avial",
+      "bn": "াভিাল",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 391,
+      "en": "Baked eggs in tomato sauce",
+      "bn": "বেকড এগস ইন টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_18"
+      ]
+    },
+    {
+      "id": 393,
+      "en": "Barbeque sauce",
+      "bn": "বারবেকুে সস",
+      "issues": [
+        "doubled_char_স_at_9"
+      ]
+    },
+    {
+      "id": 397,
+      "en": "Besan bathua chilla/cheela",
+      "bn": "বেসান বাথুা চিলা/চেেলা",
+      "issues": [
+        "doubled_char_ে_at_18"
+      ]
+    },
+    {
+      "id": 398,
+      "en": "Besan gatte curry",
+      "bn": "বেসান গাততে তরকারি",
+      "issues": [
+        "doubled_char_ত_at_8"
+      ]
+    },
+    {
+      "id": 400,
+      "en": "Black channa curry/Bengal gram curry",
+      "bn": "ব্ল্যাক চানা কুররয/বেনগাল গরাম তরকারি",
+      "issues": [
+        "doubled_char_র_at_15"
+      ]
+    },
+    {
+      "id": 404,
+      "en": "Brown sauce",
+      "bn": "বাদামি সস",
+      "issues": [
+        "doubled_char_স_at_7"
+      ]
+    },
+    {
+      "id": 409,
+      "en": "Carrot murabba",
+      "bn": "গাজর মুরাববা",
+      "issues": [
+        "doubled_char_ব_at_9"
+      ]
+    },
+    {
+      "id": 412,
+      "en": "Charlotte rousse",
+      "bn": "চারলোততে রউসসে",
+      "issues": [
+        "doubled_char_ত_at_5",
+        "doubled_char_স_at_11"
+      ]
+    },
+    {
+      "id": 414,
+      "en": "Chenna murki",
+      "bn": "চেননা মুরকি",
+      "issues": [
+        "doubled_char_ন_at_2"
+      ]
+    },
+    {
+      "id": 416,
+      "en": "Chickpea flour cookies",
+      "bn": "চিককপো আটা কুকিজ",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 424,
+      "en": "Chocolate sauce",
+      "bn": "চকলেট সস",
+      "issues": [
+        "doubled_char_স_at_6"
+      ]
+    },
+    {
+      "id": 429,
+      "en": "Classic seasoned black beans",
+      "bn": "কলাসসিক সোসোনেদ ব্ল্যাক শিম",
+      "issues": [
+        "doubled_char_স_at_3"
+      ]
+    },
+    {
+      "id": 432,
+      "en": "Cold vanilla souffle",
+      "bn": "কোল্ড ভানিললা সুফলে",
+      "issues": [
+        "doubled_char_ল_at_10"
+      ]
+    },
+    {
+      "id": 434,
+      "en": "Consomme au julienne",
+      "bn": "কনসোমে আউ জুলিেননে",
+      "issues": [
+        "doubled_char_ন_at_15"
+      ]
+    },
+    {
+      "id": 438,
+      "en": "Crunchy butterscotch",
+      "bn": "করুনচয বুততেরসকোতচ",
+      "issues": [
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 440,
+      "en": "Dahi vadas/Dahi bhalla",
+      "bn": "দাহি ভাদাস/দাহি ভাললা",
+      "issues": [
+        "doubled_char_ল_at_18"
+      ]
+    },
+    {
+      "id": 451,
+      "en": "Fermented bamboo shoot pickle",
+      "bn": "ফেরমেনতেদ বামবু শোোত আচার",
+      "issues": [
+        "doubled_char_ো_at_17"
+      ]
+    },
+    {
+      "id": 457,
+      "en": "Fricassee of Mushroom",
+      "bn": "ফরিকাসসি অফ মুশরুম",
+      "issues": [
+        "doubled_char_স_at_5"
+      ]
+    },
+    {
+      "id": 469,
+      "en": "Gooseberry chutney",
+      "bn": "গুসেবেররয চাটনি",
+      "issues": [
+        "doubled_char_র_at_6"
+      ]
+    },
+    {
+      "id": 470,
+      "en": "Gooseberry marmalade",
+      "bn": "গুসেবেররয মারমালাদে",
+      "issues": [
+        "doubled_char_র_at_6"
+      ]
+    },
+    {
+      "id": 471,
+      "en": "Gooseberry pickle",
+      "bn": "গুসেবেররয আচার",
+      "issues": [
+        "doubled_char_র_at_6"
+      ]
+    },
+    {
+      "id": 483,
+      "en": "Hot cherry sauce",
+      "bn": "হট চেরি সস",
+      "issues": [
+        "doubled_char_স_at_8"
+      ]
+    },
+    {
+      "id": 487,
+      "en": "Hot vanilla souffle",
+      "bn": "হট ভানিললা সুফলে",
+      "issues": [
+        "doubled_char_ল_at_7"
+      ]
+    },
+    {
+      "id": 490,
+      "en": "Jam filling",
+      "bn": "জাম ফিললিনগ",
+      "issues": [
+        "doubled_char_ল_at_6"
+      ]
+    },
+    {
+      "id": 502,
+      "en": "Lasagne with meat sauce",
+      "bn": "লাসাগনা উইথ মাংস সস",
+      "issues": [
+        "doubled_char_স_at_17"
+      ]
+    },
+    {
+      "id": 505,
+      "en": "Lemon chiffon pie",
+      "bn": "লেবু চিফফোন পাই",
+      "issues": [
+        "doubled_char_ফ_at_7"
+      ]
+    },
+    {
+      "id": 512,
+      "en": "Lentils and semolina porridge",
+      "bn": "মসুর ও সেমোলিনা পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_18"
+      ]
+    },
+    {
+      "id": 516,
+      "en": "Low calorie quick mayonnaise",
+      "bn": "লোও কালোরিে কুিকক মেয়োনিজ",
+      "issues": [
+        "doubled_char_ক_at_15"
+      ]
+    },
+    {
+      "id": 517,
+      "en": "Maize porridge",
+      "bn": "মআইজে পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_8"
+      ]
+    },
+    {
+      "id": 537,
+      "en": "Mushroom sauce",
+      "bn": "মুশরুম সস",
+      "issues": [
+        "doubled_char_স_at_7"
+      ]
+    },
+    {
+      "id": 538,
+      "en": "Mustard sauce",
+      "bn": "মুসতারদ সস",
+      "issues": [
+        "doubled_char_স_at_8"
+      ]
+    },
+    {
+      "id": 540,
+      "en": "Oatmeal Porridge",
+      "bn": "ওটস পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_6"
+      ]
+    },
+    {
+      "id": 553,
+      "en": "Penne platter",
+      "bn": "পেননে পলাততের",
+      "issues": [
+        "doubled_char_ন_at_2",
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 555,
+      "en": "Pickled mustard greens",
+      "bn": "পিককলেদ মুসতারদ গরিনস",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 562,
+      "en": "Poshtik chilla/cheela",
+      "bn": "পুষ্টিকর চিলা/চেেলা",
+      "issues": [
+        "doubled_char_ে_at_15"
+      ]
+    },
+    {
+      "id": 565,
+      "en": "Puffy omelette/omlet",
+      "bn": "পুফফয অমলেট/অমলেট",
+      "issues": [
+        "doubled_char_ফ_at_2"
+      ]
+    },
+    {
+      "id": 578,
+      "en": "Sattu drink",
+      "bn": "সাততু দরিনক",
+      "issues": [
+        "doubled_char_ত_at_2"
+      ]
+    },
+    {
+      "id": 581,
+      "en": "Savoury puffs",
+      "bn": "সাভউরয পুফফস",
+      "issues": [
+        "doubled_char_ফ_at_9"
+      ]
+    },
+    {
+      "id": 584,
+      "en": "Semolina porridge",
+      "bn": "সেমোলিনা পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_11"
+      ]
+    },
+    {
+      "id": 592,
+      "en": "Small onion pickle",
+      "bn": "সমালল পেঁয়াজ আচার",
+      "issues": [
+        "doubled_char_ল_at_3"
+      ]
+    },
+    {
+      "id": 603,
+      "en": "Stuffed bittergourd",
+      "bn": "স্টাফড বিততেরগউরদ",
+      "issues": [
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 609,
+      "en": "Tartare sauce",
+      "bn": "তারতারে সস",
+      "issues": [
+        "doubled_char_স_at_8"
+      ]
+    },
+    {
+      "id": 616,
+      "en": "Tomato sauce",
+      "bn": "টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_6"
+      ]
+    },
+    {
+      "id": 619,
+      "en": "Vanilla souffle",
+      "bn": "ভানিললা সুফলে",
+      "issues": [
+        "doubled_char_ল_at_4"
+      ]
+    },
+    {
+      "id": 630,
+      "en": "White sauce",
+      "bn": "সাদা সস",
+      "issues": [
+        "doubled_char_স_at_5"
+      ]
+    },
+    {
+      "id": 648,
+      "en": "Egg in a pepper",
+      "bn": "ডিম ইন া পেপপের",
+      "issues": [
+        "doubled_char_প_at_11"
+      ]
+    },
+    {
+      "id": 651,
+      "en": "Egg sauce",
+      "bn": "ডিম সস",
+      "issues": [
+        "doubled_char_স_at_4"
+      ]
+    },
+    {
+      "id": 663,
+      "en": "Vanilla ice cream without egg",
+      "bn": "ভানিললা আইসক্রিম উইথআউট ডিম",
+      "issues": [
+        "doubled_char_ল_at_4"
+      ]
+    },
+    {
+      "id": 704,
+      "en": "Bread and butter pudding",
+      "bn": "পাউরুটি ও মাখন পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_17"
+      ]
+    },
+    {
+      "id": 707,
+      "en": "Bread sauce",
+      "bn": "পাউরুটি সস",
+      "issues": [
+        "doubled_char_স_at_8"
+      ]
+    },
+    {
+      "id": 734,
+      "en": "Sweet split chickpea roti",
+      "bn": "মিষ্টি সপলিত চিককপো রুটি",
+      "issues": [
+        "doubled_char_ক_at_15"
+      ]
+    },
+    {
+      "id": 747,
+      "en": "Jellied sunshine fruit salad",
+      "bn": "জেললিেদ সুনশিনে ফল সালাদ",
+      "issues": [
+        "doubled_char_ল_at_2"
+      ]
+    },
+    {
+      "id": 757,
+      "en": "Tossed green salad",
+      "bn": "তোসসেদ সবুজ সালাদ",
+      "issues": [
+        "doubled_char_স_at_2"
+      ]
+    },
+    {
+      "id": 758,
+      "en": "Tossed salad",
+      "bn": "তোসসেদ সালাদ",
+      "issues": [
+        "doubled_char_স_at_2"
+      ]
+    },
+    {
+      "id": 764,
+      "en": "Butterfly biscuit",
+      "bn": "বুততেরফলয বিস্কুট",
+      "issues": [
+        "doubled_char_ত_at_2"
+      ]
+    },
+    {
+      "id": 767,
+      "en": "Checker board sandwich",
+      "bn": "চেককের বোারদ স্যান্ডউইচ",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 772,
+      "en": "Chocolate swiss roll",
+      "bn": "চকলেট সওিসস রোল",
+      "issues": [
+        "doubled_char_স_at_9"
+      ]
+    },
+    {
+      "id": 773,
+      "en": "Christmas bell biscuit",
+      "bn": "চরিসতমাস বেলল বিস্কুট",
+      "issues": [
+        "doubled_char_ল_at_11"
+      ]
+    },
+    {
+      "id": 778,
+      "en": "Classic club sandwich",
+      "bn": "কলাসসিক কলুব স্যান্ডউইচ",
+      "issues": [
+        "doubled_char_স_at_3"
+      ]
+    },
+    {
+      "id": 793,
+      "en": "Jelly biscuit",
+      "bn": "জেললয বিস্কুট",
+      "issues": [
+        "doubled_char_ল_at_2"
+      ]
+    },
+    {
+      "id": 818,
+      "en": "Pizza",
+      "bn": "পিজজা",
+      "issues": [
+        "doubled_char_জ_at_2"
+      ]
+    },
+    {
+      "id": 820,
+      "en": "Ribbon sandwich",
+      "bn": "রিববোন স্যান্ডউইচ",
+      "issues": [
+        "doubled_char_ব_at_2"
+      ]
+    },
+    {
+      "id": 822,
+      "en": "Rolled sandwich",
+      "bn": "রোললেদ স্যান্ডউইচ",
+      "issues": [
+        "doubled_char_ল_at_2"
+      ]
+    },
+    {
+      "id": 823,
+      "en": "Saffron biscuit",
+      "bn": "সাফফরোন বিস্কুট",
+      "issues": [
+        "doubled_char_ফ_at_2"
+      ]
+    },
+    {
+      "id": 836,
+      "en": "Swiss roll",
+      "bn": "সওিসস রোল",
+      "issues": [
+        "doubled_char_স_at_3"
+      ]
+    },
+    {
+      "id": 839,
+      "en": "Tutti fruitti biscuit",
+      "bn": "তুততি ফ্রুটতি বিস্কুট",
+      "issues": [
+        "doubled_char_ত_at_2"
+      ]
+    },
+    {
+      "id": 848,
+      "en": "Watercress sandwich",
+      "bn": "ওাতেরকরেসস স্যান্ডউইচ",
+      "issues": [
+        "doubled_char_স_at_8"
+      ]
+    },
+    {
+      "id": 853,
+      "en": "Cold summer garden soup",
+      "bn": "কোল্ড সুমমের গারদেন স্যুপ",
+      "issues": [
+        "doubled_char_ম_at_8"
+      ]
+    },
+    {
+      "id": 858,
+      "en": "Garlic chickpea soup",
+      "bn": "রসুন চিককপো স্যুপ",
+      "issues": [
+        "doubled_char_ক_at_7"
+      ]
+    },
+    {
+      "id": 866,
+      "en": "Mulligatawny soup",
+      "bn": "মুললিগাতাওনয স্যুপ",
+      "issues": [
+        "doubled_char_ল_at_2"
+      ]
+    },
+    {
+      "id": 873,
+      "en": "Amaranth ladoo",
+      "bn": "ামারানথ লাড্ডু",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 876,
+      "en": "Apple crumb pudding",
+      "bn": "আপেল করুমব পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_13"
+      ]
+    },
+    {
+      "id": 887,
+      "en": "Chocolate chiffon cake",
+      "bn": "চকলেট চিফফোন কেক",
+      "issues": [
+        "doubled_char_ফ_at_8"
+      ]
+    },
+    {
+      "id": 889,
+      "en": "Chocolate pudding",
+      "bn": "চকলেট পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_8"
+      ]
+    },
+    {
+      "id": 900,
+      "en": "Kiwi granola pudding",
+      "bn": "কিউই গ্রানোলা পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_16"
+      ]
+    },
+    {
+      "id": 906,
+      "en": "Mango vanilla custard",
+      "bn": "আম ভানিললা কাস্টার্ড",
+      "issues": [
+        "doubled_char_ল_at_7"
+      ]
+    },
+    {
+      "id": 908,
+      "en": "Meringue and rice pudding",
+      "bn": "মেরিনগুে ও ভাত পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_17"
+      ]
+    },
+    {
+      "id": 915,
+      "en": "Pineapple upside down pudding",
+      "bn": "আনারস আপসাইড ডাউন পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_20"
+      ]
+    },
+    {
+      "id": 916,
+      "en": "Queen of pudding",
+      "bn": "কুইন অফ পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_10"
+      ]
+    },
+    {
+      "id": 925,
+      "en": "Snow flakes pudding",
+      "bn": "সনোও ফলাকেস পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_14"
+      ]
+    },
+    {
+      "id": 929,
+      "en": "Steamed cake with chocolate sauce",
+      "bn": "স্টিম কেক উইথ চকলেট সস",
+      "issues": [
+        "doubled_char_স_at_20"
+      ]
+    },
+    {
+      "id": 930,
+      "en": "Steamed orange pudding",
+      "bn": "স্টিম কমলা পুদদিনগ",
+      "issues": [
+        "doubled_char_দ_at_13"
+      ]
+    },
+    {
+      "id": 934,
+      "en": "Sweet couscous dessert",
+      "bn": "মিষ্টি কউসকউস দেসসেরত",
+      "issues": [
+        "doubled_char_স_at_16"
+      ]
+    },
+    {
+      "id": 941,
+      "en": "Sweet wheat porridge",
+      "bn": "মিষ্টি গম পোররিদগে",
+      "issues": [
+        "doubled_char_র_at_12"
+      ]
+    },
+    {
+      "id": 942,
+      "en": "Triffle pudding",
+      "bn": "তরিফফলে পুদদিনগ",
+      "issues": [
+        "doubled_char_ফ_at_3",
+        "doubled_char_দ_at_10"
+      ]
+    },
+    {
+      "id": 943,
+      "en": "Tutti frutti cake",
+      "bn": "তুততি ফরুততি কেক",
+      "issues": [
+        "doubled_char_ত_at_2",
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 971,
+      "en": "Arhar with spinach",
+      "bn": "ারহার উইথ পালং",
+      "issues": [
+        "leading_vowel_sign"
+      ]
+    },
+    {
+      "id": 972,
+      "en": "Baked brinjal in tomato sauce",
+      "bn": "বেকড বেগুন ইন টমেটো সস",
+      "issues": [
+        "doubled_char_স_at_20"
+      ]
+    },
+    {
+      "id": 974,
+      "en": "Bottle gourd raita",
+      "bn": "বোততলে লাউ রায়তা",
+      "issues": [
+        "doubled_char_ত_at_2"
+      ]
+    },
+    {
+      "id": 982,
+      "en": "Cabbage rolls",
+      "bn": "বাঁধাকপি রোললস )",
+      "issues": [
+        "doubled_char_ল_at_11"
+      ]
+    },
+    {
+      "id": 988,
+      "en": "Cauliflower musallam",
+      "bn": "ফুলকপি মুসাললাম",
+      "issues": [
+        "doubled_char_ল_at_11"
+      ]
+    },
+    {
+      "id": 993,
+      "en": "Chinese cabbage and meat ball soup",
+      "bn": "চিনেসে বাঁধাকপি ও মাংস বালল স্যুপ",
+      "issues": [
+        "doubled_char_ল_at_25"
+      ]
+    },
+    {
+      "id": 996,
+      "en": "Curried Cauliflower soup",
+      "bn": "কুররিেদ ফুলকপি স্যুপ",
+      "issues": [
+        "doubled_char_র_at_2"
+      ]
+    },
+    {
+      "id": 998,
+      "en": "Ducheese potato",
+      "bn": "দুচেেসে আলু",
+      "issues": [
+        "doubled_char_ে_at_3"
+      ]
+    },
+    {
+      "id": 1001,
+      "en": "Fettuccine with spinach sauce",
+      "bn": "ফেতুচিনি উইথ পালং সস",
+      "issues": [
+        "doubled_char_স_at_18"
+      ]
+    },
+    {
+      "id": 1006,
+      "en": "Jackfruit fritters",
+      "bn": "কাঁঠাল ফরিততেরস",
+      "issues": [
+        "doubled_char_ত_at_10"
+      ]
+    },
+    {
+      "id": 1009,
+      "en": "Jackfruit/Kathal",
+      "bn": "জাককফ্রুট/কাথাল",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 1013,
+      "en": "Pasta spinach sauce",
+      "bn": "পাস্তা পালং সস",
+      "issues": [
+        "doubled_char_স_at_12"
+      ]
+    },
+    {
+      "id": 1016,
+      "en": "Pickled cabbage",
+      "bn": "পিককলেদ বাঁধাকপি",
+      "issues": [
+        "doubled_char_ক_at_2"
+      ]
+    },
+    {
+      "id": 1017,
+      "en": "Potato aigrettes",
+      "bn": "আলু আইগরেততেস",
+      "issues": [
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 1053,
+      "en": "Split bengal gram with bottle gourd",
+      "bn": "সপলিত বেনগাল গরাম উইথ বোততলে লাউ",
+      "issues": [
+        "doubled_char_ত_at_24"
+      ]
+    },
+    {
+      "id": 1054,
+      "en": "Stuffed bottle gourd",
+      "bn": "স্টাফড বোততলে লাউ",
+      "issues": [
+        "doubled_char_ত_at_9"
+      ]
+    },
+    {
+      "id": 1076,
+      "en": "Popcorn, maize (salt added)",
+      "bn": "পপকর্ন (লবণ সহ)",
+      "issues": [
+        "doubled_char_প_at_0"
+      ]
+    },
+    {
+      "id": 1079,
+      "en": "Rice, BR-28, parboiled, milled, raw",
+      "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া",
+      "issues": [
+        "ascii_in_bengali"
+      ]
+    },
+    {
+      "id": 1094,
+      "en": "Rice, BR-28, boiled* (without salt)",
+      "bn": "ভাত, BR-28",
+      "issues": [
+        "ascii_in_bengali"
+      ]
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP4)",
+      "issues": [
+        "ascii_in_bengali"
+      ]
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP8)",
+      "issues": [
+        "ascii_in_bengali"
+      ]
+    },
+    {
+      "id": 1194,
+      "en": "Potato, Diamond, raw",
+      "bn": "গোল আলু, Diamond জাত",
+      "issues": [
+        "ascii_in_bengali"
+      ]
+    }
+  ]
+}

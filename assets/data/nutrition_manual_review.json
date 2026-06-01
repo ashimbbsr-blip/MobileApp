@@ -1,0 +1,528 @@
+[
+  {
+    "id": 81,
+    "en": "Cream of tomato soup",
+    "reason": "energy_mismatch",
+    "k": 452.3,
+    "est": 703.4,
+    "diff_pct": 55.5,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 90,
+    "en": "Gulab Jamun with khoya",
+    "reason": "energy_mismatch",
+    "k": 918.5,
+    "est": 551.7,
+    "diff_pct": 39.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 103,
+    "en": "Milk cookies",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 31.2,
+    "serving_g": 25.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 107,
+    "en": "Paneer and pea samosa",
+    "reason": "energy_mismatch",
+    "k": 841.3,
+    "est": 531.1,
+    "diff_pct": 36.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 149,
+    "en": "Lentil soup",
+    "reason": "energy_mismatch",
+    "k": 121.3,
+    "est": 621.5,
+    "diff_pct": 412.4,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 151,
+    "en": "Masala urad dal vada",
+    "reason": "energy_mismatch",
+    "k": 602.0,
+    "est": 380.0,
+    "diff_pct": 36.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 157,
+    "en": "Plain urad dal vada",
+    "reason": "energy_mismatch",
+    "k": 588.0,
+    "est": 369.7,
+    "diff_pct": 37.1,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 169,
+    "en": "Mishti Doi",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 8.6,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 171,
+    "en": "Patishapta",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 11.0,
+    "serving_g": 2.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 172,
+    "en": "Payesh",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 8.2,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 214,
+    "en": "Fish pakora/pakoda",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 40.8,
+    "serving_g": 30.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 325,
+    "en": "Chicken consomme",
+    "reason": "energy_mismatch",
+    "k": 108.3,
+    "est": 359.2,
+    "diff_pct": 231.7,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 330,
+    "en": "Chicken pakora/pakoda",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 41.8,
+    "serving_g": 30.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 334,
+    "en": "Chicken sweet corn soup",
+    "reason": "energy_mismatch",
+    "k": 68.5,
+    "est": 429.2,
+    "diff_pct": 526.6,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 357,
+    "en": "Shahi keema kofta curry",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 270.4,
+    "serving_g": 250.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 369,
+    "en": "Spaghetti bolognese",
+    "reason": "energy_mismatch",
+    "k": 364.7,
+    "est": 610.8,
+    "diff_pct": 67.5,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 374,
+    "en": "Almond soup",
+    "reason": "energy_mismatch",
+    "k": 375.2,
+    "est": 855.8,
+    "diff_pct": 128.1,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 404,
+    "en": "Brown sauce",
+    "reason": "energy_mismatch",
+    "k": 109.2,
+    "est": 282.5,
+    "diff_pct": 158.7,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 407,
+    "en": "Cardamom cookies",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 41.8,
+    "serving_g": 25.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 415,
+    "en": "Chhena poda",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 14.5,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 429,
+    "en": "Classic seasoned black beans",
+    "reason": "energy_mismatch",
+    "k": 50.7,
+    "est": 241.8,
+    "diff_pct": 376.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 434,
+    "en": "Consomme au julienne",
+    "reason": "energy_mismatch",
+    "k": 213.7,
+    "est": 1169.7,
+    "diff_pct": 447.4,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 441,
+    "en": "Dalma",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 5.4,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 465,
+    "en": "Ghujia/Lavang latika",
+    "reason": "energy_mismatch",
+    "k": 818.7,
+    "est": 516.8,
+    "diff_pct": 36.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 482,
+    "en": "Hazelnut cookies",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 30.0,
+    "serving_g": 25.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 498,
+    "en": "Khasta kachori",
+    "reason": "energy_mismatch",
+    "k": 717.6,
+    "est": 454.9,
+    "diff_pct": 36.6,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 506,
+    "en": "Lemon cookies",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 36.0,
+    "serving_g": 25.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 525,
+    "en": "Meat consomme",
+    "reason": "energy_mismatch",
+    "k": 184.5,
+    "est": 1144.4,
+    "diff_pct": 520.3,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 528,
+    "en": "Methi chaman",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 509.8,
+    "serving_g": 250.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 592,
+    "en": "Small onion pickle",
+    "reason": "energy_mismatch",
+    "k": 18.9,
+    "est": 25.9,
+    "diff_pct": 37.0,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 607,
+    "en": "Sunflower cookies",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 66.5,
+    "serving_g": 25.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 629,
+    "en": "Vegetarian nargisi kofta curry",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 131.4,
+    "serving_g": 80.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 646,
+    "en": "Egg drop soup",
+    "reason": "energy_mismatch",
+    "k": 84.6,
+    "est": 564.5,
+    "diff_pct": 567.3,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 655,
+    "en": "Indian lamb and egg curry",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 135.6,
+    "serving_g": 80.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 703,
+    "en": "Bhel puri",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 335.8,
+    "serving_g": 300.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 712,
+    "en": "Dal stuffed poori",
+    "reason": "energy_mismatch",
+    "k": 932.6,
+    "est": 581.8,
+    "diff_pct": 37.6,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 717,
+    "en": "Methi poori",
+    "reason": "energy_mismatch",
+    "k": 923.0,
+    "est": 573.0,
+    "diff_pct": 37.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 725,
+    "en": "Poori",
+    "reason": "energy_mismatch",
+    "k": 921.3,
+    "est": 570.9,
+    "diff_pct": 38.0,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 727,
+    "en": "Potato stuffed poori",
+    "reason": "energy_mismatch",
+    "k": 925.9,
+    "est": 575.8,
+    "diff_pct": 37.8,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 731,
+    "en": "Spinach poori",
+    "reason": "energy_mismatch",
+    "k": 923.7,
+    "est": 573.4,
+    "diff_pct": 37.9,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 765,
+    "en": "Buttermilk biscuit",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 22.5,
+    "serving_g": 15.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 787,
+    "en": "Fermented bengal gram vada",
+    "reason": "energy_mismatch",
+    "k": 592.6,
+    "est": 373.6,
+    "diff_pct": 37.0,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 790,
+    "en": "Ghugni",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 5.4,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 799,
+    "en": "Masala onion pakora/pakoda",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 40.6,
+    "serving_g": 30.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 801,
+    "en": "Mathri",
+    "reason": "energy_mismatch",
+    "k": 702.2,
+    "est": 440.3,
+    "diff_pct": 37.3,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 803,
+    "en": "Minced meat samosa",
+    "reason": "energy_mismatch",
+    "k": 837.5,
+    "est": 525.2,
+    "diff_pct": 37.3,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 913,
+    "en": "Pineapple cake",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 47.9,
+    "serving_g": 30.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 917,
+    "en": "Rasmalai",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 10.2,
+    "serving_g": 2.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 943,
+    "en": "Tutti frutti cake",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 107.6,
+    "serving_g": 100.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 948,
+    "en": "Aloo Posto",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 15.6,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 968,
+    "en": "Shukto",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 5.9,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 994,
+    "en": "Creamed spinach and mushroom",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 262.6,
+    "serving_g": 250.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 996,
+    "en": "Curried Cauliflower soup",
+    "reason": "energy_mismatch",
+    "k": 129.8,
+    "est": 442.8,
+    "diff_pct": 241.1,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 1031,
+    "en": "Potato samosa",
+    "reason": "energy_mismatch",
+    "k": 813.8,
+    "est": 511.6,
+    "diff_pct": 37.1,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 1052,
+    "en": "Spinach soup",
+    "reason": "energy_mismatch",
+    "k": 163.9,
+    "est": 918.1,
+    "diff_pct": 460.2,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 1057,
+    "en": "Sweet potato biscuit",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 20.1,
+    "serving_g": 15.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 1424,
+    "en": "Beer (Strong)",
+    "reason": "energy_mismatch",
+    "k": 210.0,
+    "est": 70.0,
+    "diff_pct": 66.7,
+    "note": "Review original ICMR source — k may be per-100g while macros are per-serving"
+  },
+  {
+    "id": 1430,
+    "en": "Chicken biryani",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 16.8,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 1431,
+    "en": "Luchi alur dom",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 24.5,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 1433,
+    "en": "Mutton kosha",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 31.5,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 1434,
+    "en": "Pakhala bhata",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 1.8,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  },
+  {
+    "id": 1435,
+    "en": "Egg roll Kolkata style",
+    "reason": "fat_exceeds_serving_weight",
+    "f": 18.2,
+    "serving_g": 1.0,
+    "note": "Values likely per entire recipe, not per serving"
+  }
+]

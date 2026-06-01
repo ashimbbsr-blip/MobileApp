@@ -1,0 +1,1040 @@
+[
+  {
+    "english_word": "Steeped hot coffee",
+    "bad_form": "হোত ",
+    "id": 13,
+    "confidence": 98
+  },
+  {
+    "english_word": "Buckwheat pancake",
+    "bad_form": "বুককওহোত",
+    "id": 22,
+    "confidence": 98
+  },
+  {
+    "english_word": "Jam and fruit pancake",
+    "bad_form": "ফরুিত",
+    "id": 31,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cheese balls",
+    "bad_form": "বাললস",
+    "id": 59,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cheese noodle ring",
+    "bad_form": "নুদলে",
+    "id": 60,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cheese noodle ring",
+    "bad_form": " রিনগ",
+    "id": 60,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cheese open sandwich",
+    "bad_form": "োপেন",
+    "id": 61,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cheese straws",
+    "bad_form": "সতরাওস",
+    "id": 67,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cottage cheese pie",
+    "bad_form": "পিে",
+    "id": 78,
+    "confidence": 98
+  },
+  {
+    "english_word": "Curd dressing",
+    "bad_form": "দরেসসিনগ",
+    "id": 85,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit Ice cream",
+    "bad_form": "ফরুিত",
+    "id": 89,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot cheese souffle",
+    "bad_form": "সউফফলে",
+    "id": 92,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot cheese souffle",
+    "bad_form": "হোত ",
+    "id": 92,
+    "confidence": 98
+  },
+  {
+    "english_word": "Macroni cheese pie",
+    "bad_form": "পিে",
+    "id": 98,
+    "confidence": 98
+  },
+  {
+    "english_word": "Milk cookies",
+    "bad_form": "কুকিেস",
+    "id": 103,
+    "confidence": 98
+  },
+  {
+    "english_word": "Paneer stuffed cheela/chilla",
+    "bad_form": "চিললা",
+    "id": 120,
+    "confidence": 98
+  },
+  {
+    "english_word": "Raspberry bavarian cream",
+    "bad_form": "রাসপবেররয",
+    "id": 128,
+    "confidence": 98
+  },
+  {
+    "english_word": "Spaghetti and cheese balls in tomato sauce",
+    "bad_form": "বাললস",
+    "id": 134,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fish orly",
+    "bad_form": "োরলয",
+    "id": 213,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fish pie",
+    "bad_form": "পিে",
+    "id": 215,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fish souffle",
+    "bad_form": "সউফফলে",
+    "id": 217,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot fish souffle",
+    "bad_form": "সউফফলে",
+    "id": 221,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot fish souffle",
+    "bad_form": "হোত ",
+    "id": 221,
+    "confidence": 98
+  },
+  {
+    "english_word": "Apple banana pie",
+    "bad_form": "পিে",
+    "id": 239,
+    "confidence": 98
+  },
+  {
+    "english_word": "Apple cinnamon pie",
+    "bad_form": "পিে",
+    "id": 240,
+    "confidence": 98
+  },
+  {
+    "english_word": "Apple snowballs",
+    "bad_form": "সনোওবাললস",
+    "id": 244,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold orange souffle",
+    "bad_form": "সউফফলে",
+    "id": 254,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold orange souffle",
+    "bad_form": "কোলদ ",
+    "id": 254,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold pineapple souffle",
+    "bad_form": "সউফফলে",
+    "id": 255,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold pineapple souffle",
+    "bad_form": "কোলদ ",
+    "id": 255,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot orange souffle",
+    "bad_form": "সউফফলে",
+    "id": 265,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot orange souffle",
+    "bad_form": "হোত ",
+    "id": 265,
+    "confidence": 98
+  },
+  {
+    "english_word": "Orange chiffon pie",
+    "bad_form": "পিে",
+    "id": 276,
+    "confidence": 98
+  },
+  {
+    "english_word": "Orange omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 280,
+    "confidence": 98
+  },
+  {
+    "english_word": "Orange souffle",
+    "bad_form": "সউফফলে",
+    "id": 281,
+    "confidence": 98
+  },
+  {
+    "english_word": "Pineapple pastry",
+    "bad_form": "পাসতরয",
+    "id": 285,
+    "confidence": 98
+  },
+  {
+    "english_word": "Pineapple souffle",
+    "bad_form": "সউফফলে",
+    "id": 287,
+    "confidence": 98
+  },
+  {
+    "english_word": "Creamy chicken",
+    "bad_form": "করোময",
+    "id": 338,
+    "confidence": 98
+  },
+  {
+    "english_word": "Classic italian pasta",
+    "bad_form": "িতালিান",
+    "id": 363,
+    "confidence": 98
+  },
+  {
+    "english_word": "Pasta hot pot",
+    "bad_form": "হোত ",
+    "id": 367,
+    "confidence": 98
+  },
+  {
+    "english_word": "Spaghetti with meat balls and tomato sauce",
+    "bad_form": "বাললস",
+    "id": 370,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cherry and walnut cookies",
+    "bad_form": "কুকিেস",
+    "id": 377,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cherry and walnut cookies",
+    "bad_form": "চেররয",
+    "id": 377,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate walnut cookies",
+    "bad_form": "কুকিেস",
+    "id": 378,
+    "confidence": 98
+  },
+  {
+    "english_word": "Assorted pastry",
+    "bad_form": "পাসতরয",
+    "id": 389,
+    "confidence": 98
+  },
+  {
+    "english_word": "Assorted pastry",
+    "bad_form": "াসসোরতেদ",
+    "id": 389,
+    "confidence": 98
+  },
+  {
+    "english_word": "Baked eggs in tomato sauce",
+    "bad_form": "েগগস",
+    "id": 391,
+    "confidence": 98
+  },
+  {
+    "english_word": "Besan bathua chilla/cheela",
+    "bad_form": "চিললা",
+    "id": 397,
+    "confidence": 98
+  },
+  {
+    "english_word": "Black channa curry/Bengal gram curry",
+    "bad_form": "বলাকক",
+    "id": 400,
+    "confidence": 98
+  },
+  {
+    "english_word": "Black forest pastry",
+    "bad_form": "পাসতরয",
+    "id": 401,
+    "confidence": 98
+  },
+  {
+    "english_word": "Black forest pastry",
+    "bad_form": "বলাকক",
+    "id": 401,
+    "confidence": 98
+  },
+  {
+    "english_word": "Black forest pastry",
+    "bad_form": "ফোরেসত",
+    "id": 401,
+    "confidence": 98
+  },
+  {
+    "english_word": "Broccoli delight",
+    "bad_form": "দেলিঘত",
+    "id": 403,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cardamom cookies",
+    "bad_form": "কুকিেস",
+    "id": 407,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chickpea flour cookies",
+    "bad_form": "কুকিেস",
+    "id": 416,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate chip cookies",
+    "bad_form": "কুকিেস",
+    "id": 419,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate eclairs",
+    "bad_form": "েকলআইরস",
+    "id": 420,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate meringue pie",
+    "bad_form": "পিে",
+    "id": 422,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate pastry",
+    "bad_form": "পাসতরয",
+    "id": 423,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate souffle",
+    "bad_form": "সউফফলে",
+    "id": 425,
+    "confidence": 98
+  },
+  {
+    "english_word": "Choux pastry",
+    "bad_form": "পাসতরয",
+    "id": 426,
+    "confidence": 98
+  },
+  {
+    "english_word": "Classic seasoned black beans",
+    "bad_form": "বলাকক",
+    "id": 429,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold chocolate souffle",
+    "bad_form": "সউফফলে",
+    "id": 430,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold chocolate souffle",
+    "bad_form": "কোলদ ",
+    "id": 430,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold lemon souffle",
+    "bad_form": "সউফফলে",
+    "id": 431,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold lemon souffle",
+    "bad_form": "কোলদ ",
+    "id": 431,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold vanilla souffle",
+    "bad_form": "সউফফলে",
+    "id": 432,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold vanilla souffle",
+    "bad_form": "কোলদ ",
+    "id": 432,
+    "confidence": 98
+  },
+  {
+    "english_word": "Corn omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 436,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cranberry cookies",
+    "bad_form": "কুকিেস",
+    "id": 437,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cranberry cookies",
+    "bad_form": "করানবেররয",
+    "id": 437,
+    "confidence": 98
+  },
+  {
+    "english_word": "Danish cookies",
+    "bad_form": "কুকিেস",
+    "id": 443,
+    "confidence": 98
+  },
+  {
+    "english_word": "Danish cookies",
+    "bad_form": "দানিশ",
+    "id": 443,
+    "confidence": 98
+  },
+  {
+    "english_word": "Date and nut pie",
+    "bad_form": "পিে",
+    "id": 444,
+    "confidence": 98
+  },
+  {
+    "english_word": "Flaky pastry",
+    "bad_form": "পাসতরয",
+    "id": 452,
+    "confidence": 98
+  },
+  {
+    "english_word": "Flan pastry",
+    "bad_form": "ফলান ",
+    "id": 453,
+    "confidence": 98
+  },
+  {
+    "english_word": "Flan pastry",
+    "bad_form": "পাসতরয",
+    "id": 453,
+    "confidence": 98
+  },
+  {
+    "english_word": "French dressing",
+    "bad_form": "দরেসসিনগ",
+    "id": 455,
+    "confidence": 98
+  },
+  {
+    "english_word": "French omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 456,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit Loaf",
+    "bad_form": "লোাফ",
+    "id": 458,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit Loaf",
+    "bad_form": "ফরুিত",
+    "id": 458,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit delight",
+    "bad_form": "ফরুিত",
+    "id": 460,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit delight",
+    "bad_form": "দেলিঘত",
+    "id": 460,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit flan",
+    "bad_form": "ফরুিত",
+    "id": 461,
+    "confidence": 98
+  },
+  {
+    "english_word": "Green gram whole with baghar",
+    "bad_form": "গরইন ",
+    "id": 475,
+    "confidence": 98
+  },
+  {
+    "english_word": "Green tomato pickle",
+    "bad_form": "গরইন ",
+    "id": 476,
+    "confidence": 98
+  },
+  {
+    "english_word": "Greenpea cookies",
+    "bad_form": "কুকিেস",
+    "id": 477,
+    "confidence": 98
+  },
+  {
+    "english_word": "Greenpea cookies",
+    "bad_form": "গরিনপো",
+    "id": 477,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hazelnut cookies",
+    "bad_form": "কুকিেস",
+    "id": 482,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hazelnut cookies",
+    "bad_form": "হাজেলনুত",
+    "id": 482,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot cherry sauce",
+    "bad_form": "চেররয",
+    "id": 483,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot cherry sauce",
+    "bad_form": "হোত ",
+    "id": 483,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot chocolate souffle",
+    "bad_form": "সউফফলে",
+    "id": 484,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot chocolate souffle",
+    "bad_form": "হোত ",
+    "id": 484,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot lemon souffle",
+    "bad_form": "সউফফলে",
+    "id": 486,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot lemon souffle",
+    "bad_form": "হোত ",
+    "id": 486,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot vanilla souffle",
+    "bad_form": "সউফফলে",
+    "id": 487,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot vanilla souffle",
+    "bad_form": "হোত ",
+    "id": 487,
+    "confidence": 98
+  },
+  {
+    "english_word": "Ice box cookies",
+    "bad_form": "কুকিেস",
+    "id": 488,
+    "confidence": 98
+  },
+  {
+    "english_word": "Lemon chiffon pie",
+    "bad_form": "পিে",
+    "id": 505,
+    "confidence": 98
+  },
+  {
+    "english_word": "Lemon cookies",
+    "bad_form": "কুকিেস",
+    "id": 506,
+    "confidence": 98
+  },
+  {
+    "english_word": "Lemon green chilli pickle",
+    "bad_form": "গরইন ",
+    "id": 507,
+    "confidence": 98
+  },
+  {
+    "english_word": "Lemon meringue pie",
+    "bad_form": "পিে",
+    "id": 508,
+    "confidence": 98
+  },
+  {
+    "english_word": "Lemon souffle",
+    "bad_form": "সউফফলে",
+    "id": 509,
+    "confidence": 98
+  },
+  {
+    "english_word": "Masala souffle",
+    "bad_form": "সউফফলে",
+    "id": 521,
+    "confidence": 98
+  },
+  {
+    "english_word": "Mayonnaise without eggs",
+    "bad_form": "েগগস",
+    "id": 524,
+    "confidence": 98
+  },
+  {
+    "english_word": "Mayonnaise without eggs",
+    "bad_form": "উইথোুত",
+    "id": 524,
+    "confidence": 98
+  },
+  {
+    "english_word": "Plain omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 558,
+    "confidence": 98
+  },
+  {
+    "english_word": "Poshtik chilla/cheela",
+    "bad_form": "পোশতিক",
+    "id": 562,
+    "confidence": 98
+  },
+  {
+    "english_word": "Poshtik chilla/cheela",
+    "bad_form": "চিললা",
+    "id": 562,
+    "confidence": 98
+  },
+  {
+    "english_word": "Poshtik cutlet",
+    "bad_form": "পোশতিক",
+    "id": 563,
+    "confidence": 98
+  },
+  {
+    "english_word": "Poshtik namak paras",
+    "bad_form": "পোশতিক",
+    "id": 564,
+    "confidence": 98
+  },
+  {
+    "english_word": "Puffy omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 565,
+    "confidence": 98
+  },
+  {
+    "english_word": "Raspberry shortbread cookies",
+    "bad_form": "কুকিেস",
+    "id": 570,
+    "confidence": 98
+  },
+  {
+    "english_word": "Raspberry shortbread cookies",
+    "bad_form": "রাসপবেররয",
+    "id": 570,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sauteed radishes with green beans",
+    "bad_form": "গরইন ",
+    "id": 580,
+    "confidence": 98
+  },
+  {
+    "english_word": "Shepherd's pie",
+    "bad_form": "পিে",
+    "id": 589,
+    "confidence": 98
+  },
+  {
+    "english_word": "Short crust pastry",
+    "bad_form": "পাসতরয",
+    "id": 591,
+    "confidence": 98
+  },
+  {
+    "english_word": "Short crust pastry",
+    "bad_form": "করুসত",
+    "id": 591,
+    "confidence": 98
+  },
+  {
+    "english_word": "Spanish omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 599,
+    "confidence": 98
+  },
+  {
+    "english_word": "Starfruit preserves",
+    "bad_form": "ফরুিত",
+    "id": 600,
+    "confidence": 98
+  },
+  {
+    "english_word": "Stewed fruit",
+    "bad_form": "ফরুিত",
+    "id": 601,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sunflower cookies",
+    "bad_form": "কুকিেস",
+    "id": 607,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sunflower cookies",
+    "bad_form": "সুনফলোওের",
+    "id": 607,
+    "confidence": 98
+  },
+  {
+    "english_word": "Thousand island dressing",
+    "bad_form": "থোুসও",
+    "id": 611,
+    "confidence": 98
+  },
+  {
+    "english_word": "Thousand island dressing",
+    "bad_form": " িসলও",
+    "id": 611,
+    "confidence": 98
+  },
+  {
+    "english_word": "Thousand island dressing",
+    "bad_form": "দরেসসিনগ",
+    "id": 611,
+    "confidence": 98
+  },
+  {
+    "english_word": "Vanilla souffle",
+    "bad_form": "সউফফলে",
+    "id": 619,
+    "confidence": 98
+  },
+  {
+    "english_word": "Stuffed egg omelette/omlet",
+    "bad_form": "োমেলেততে/োমলেত",
+    "id": 662,
+    "confidence": 98
+  },
+  {
+    "english_word": "Vanilla ice cream without egg",
+    "bad_form": "উইথোুত",
+    "id": 663,
+    "confidence": 98
+  },
+  {
+    "english_word": "Green chickpeas pulao",
+    "bad_form": "গরইন ",
+    "id": 676,
+    "confidence": 98
+  },
+  {
+    "english_word": "Poshtik khichdi/khichri",
+    "bad_form": "পোশতিক",
+    "id": 692,
+    "confidence": 98
+  },
+  {
+    "english_word": "Onion-green chilli parantha/paratha",
+    "bad_form": "োনিোন",
+    "id": 719,
+    "confidence": 98
+  },
+  {
+    "english_word": "Onion-green chilli parantha/paratha",
+    "bad_form": "গরইন ",
+    "id": 719,
+    "confidence": 98
+  },
+  {
+    "english_word": "Paushtik roti",
+    "bad_form": "পআউশতিক",
+    "id": 721,
+    "confidence": 98
+  },
+  {
+    "english_word": "Short bread cookies",
+    "bad_form": "কুকিেস",
+    "id": 729,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sprouted moong parantha/paratha",
+    "bad_form": "সপরউতেদ",
+    "id": 732,
+    "confidence": 98
+  },
+  {
+    "english_word": "Frozen frosty fruit salad",
+    "bad_form": "ফরোসতয",
+    "id": 742,
+    "confidence": 98
+  },
+  {
+    "english_word": "Green chilli raita",
+    "bad_form": "গরইন ",
+    "id": 744,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hawain salad",
+    "bad_form": "হাওআইন",
+    "id": 746,
+    "confidence": 98
+  },
+  {
+    "english_word": "Russian salad",
+    "bad_form": "রুসসিান",
+    "id": 753,
+    "confidence": 98
+  },
+  {
+    "english_word": "Waldroff salad",
+    "bad_form": "ওালদরোফফ",
+    "id": 759,
+    "confidence": 98
+  },
+  {
+    "english_word": "Danish luncheon sandwich",
+    "bad_form": "দানিশ",
+    "id": 783,
+    "confidence": 98
+  },
+  {
+    "english_word": "Masala green chilli pakora/pakoda",
+    "bad_form": "গরইন ",
+    "id": 798,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sunset and sunrise open sandwich",
+    "bad_form": "োপেন",
+    "id": 835,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sunset and sunrise open sandwich",
+    "bad_form": "সুনসেত",
+    "id": 835,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sunset and sunrise open sandwich",
+    "bad_form": "সুনরিসে",
+    "id": 835,
+    "confidence": 98
+  },
+  {
+    "english_word": "Tutti fruitti biscuit",
+    "bad_form": "ফরুিত",
+    "id": 839,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold cucumber soup",
+    "bad_form": "কোলদ ",
+    "id": 852,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold summer garden soup",
+    "bad_form": "কোলদ ",
+    "id": 853,
+    "confidence": 98
+  },
+  {
+    "english_word": "Cold tomato soup",
+    "bad_form": "কোলদ ",
+    "id": 854,
+    "confidence": 98
+  },
+  {
+    "english_word": "Green pea soup",
+    "bad_form": "গরইন ",
+    "id": 860,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot and sour soup",
+    "bad_form": "হোত ",
+    "id": 862,
+    "confidence": 98
+  },
+  {
+    "english_word": "Apple mousse",
+    "bad_form": "মউসসে",
+    "id": 878,
+    "confidence": 98
+  },
+  {
+    "english_word": "Black rice kheer",
+    "bad_form": "বলাকক",
+    "id": 881,
+    "confidence": 98
+  },
+  {
+    "english_word": "Chocolate eggless cake",
+    "bad_form": "েগগলেসস",
+    "id": 888,
+    "confidence": 98
+  },
+  {
+    "english_word": "Creamy chocolate mousse",
+    "bad_form": "করোময",
+    "id": 893,
+    "confidence": 98
+  },
+  {
+    "english_word": "Creamy chocolate mousse",
+    "bad_form": "মউসসে",
+    "id": 893,
+    "confidence": 98
+  },
+  {
+    "english_word": "Eggless cake",
+    "bad_form": "েগগলেসস",
+    "id": 896,
+    "confidence": 98
+  },
+  {
+    "english_word": "Fruit puree tart",
+    "bad_form": "ফরুিত",
+    "id": 897,
+    "confidence": 98
+  },
+  {
+    "english_word": "Mango mousse",
+    "bad_form": "মউসসে",
+    "id": 905,
+    "confidence": 98
+  },
+  {
+    "english_word": "Orange eggless cake",
+    "bad_form": "েগগলেসস",
+    "id": 910,
+    "confidence": 98
+  },
+  {
+    "english_word": "Paushtik ladoo",
+    "bad_form": "পআউশতিক",
+    "id": 911,
+    "confidence": 98
+  },
+  {
+    "english_word": "Pineapple upside down pudding",
+    "bad_form": "ুপসিদে দোওন",
+    "id": 915,
+    "confidence": 98
+  },
+  {
+    "english_word": "Rich chocolate mousse",
+    "bad_form": "মউসসে",
+    "id": 919,
+    "confidence": 98
+  },
+  {
+    "english_word": "Sweet open sandwich",
+    "bad_form": "োপেন",
+    "id": 936,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot potato souffle",
+    "bad_form": "সউফফলে",
+    "id": 1004,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot potato souffle",
+    "bad_form": "হোত ",
+    "id": 1004,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot spinach souffle",
+    "bad_form": "সউফফলে",
+    "id": 1005,
+    "confidence": 98
+  },
+  {
+    "english_word": "Hot spinach souffle",
+    "bad_form": "হোত ",
+    "id": 1005,
+    "confidence": 98
+  },
+  {
+    "english_word": "Jackfruit/Kathal",
+    "bad_form": "ফরুিত",
+    "id": 1009,
+    "confidence": 98
+  },
+  {
+    "english_word": "Pumpkin cookies",
+    "bad_form": "কুকিেস",
+    "id": 1034,
+    "confidence": 98
+  },
+  {
+    "english_word": "Spinach souffle",
+    "bad_form": "সউফফলে",
+    "id": 1051,
+    "confidence": 98
+  }
+]

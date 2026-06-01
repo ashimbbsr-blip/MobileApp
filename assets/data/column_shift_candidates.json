@@ -1,0 +1,325 @@
+[
+  {
+    "id": 996,
+    "en": "Curried Cauliflower soup",
+    "cat": "vegetable",
+    "orig": {
+      "p": 23.4,
+      "c": 10.8,
+      "f": 34.0,
+      "k": 129.8
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 23.4,
+      "c": 34.0,
+      "f": 10.8
+    },
+    "energy_improvement_pct": 89.4,
+    "confidence": 85
+  },
+  {
+    "id": 1052,
+    "en": "Spinach soup",
+    "cat": "vegetable",
+    "orig": {
+      "p": 53.0,
+      "c": 15.2,
+      "f": 71.7,
+      "k": 163.9
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 53.0,
+      "c": 71.7,
+      "f": 15.2
+    },
+    "energy_improvement_pct": 172.4,
+    "confidence": 85
+  },
+  {
+    "id": 1115,
+    "en": "Brinjal, purple, long, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 1.9,
+      "c": 2.0,
+      "f": 0.1,
+      "k": 24.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.1,
+      "c": 2.0,
+      "f": 1.9
+    },
+    "energy_improvement_pct": 25.0,
+    "confidence": 70
+  },
+  {
+    "id": 1121,
+    "en": "Cowpea, pods and seeds, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 3.0,
+      "c": 2.8,
+      "f": 0.4,
+      "k": 39.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 3.0,
+      "c": 0.4,
+      "f": 2.8
+    },
+    "energy_improvement_pct": 30.8,
+    "confidence": 70
+  },
+  {
+    "id": 1125,
+    "en": "Gourd, ash, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 0.4,
+      "c": 1.0,
+      "f": 0.1,
+      "k": 10.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 0.4,
+      "c": 0.1,
+      "f": 1.0
+    },
+    "energy_improvement_pct": 25.0,
+    "confidence": 70
+  },
+  {
+    "id": 1138,
+    "en": "Pumpkin, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 1.4,
+      "c": 1.3,
+      "f": 0.3,
+      "k": 18.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 1.4,
+      "c": 0.3,
+      "f": 1.3
+    },
+    "energy_improvement_pct": 22.2,
+    "confidence": 70
+  },
+  {
+    "id": 1141,
+    "en": "Tomato, red, ripe, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 1.1,
+      "c": 1.4,
+      "f": 0.2,
+      "k": 16.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.2,
+      "c": 1.4,
+      "f": 1.1
+    },
+    "energy_improvement_pct": 24.4,
+    "confidence": 70
+  },
+  {
+    "id": 1147,
+    "en": "Cowpea, boiled* (without salt)",
+    "cat": "vegetable",
+    "orig": {
+      "p": 3.1,
+      "c": 3.0,
+      "f": 0.4,
+      "k": 40.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 3.1,
+      "c": 0.4,
+      "f": 3.0
+    },
+    "energy_improvement_pct": 27.5,
+    "confidence": 70
+  },
+  {
+    "id": 1152,
+    "en": "Pumpkin, boiled* (without salt)",
+    "cat": "vegetable",
+    "orig": {
+      "p": 2.2,
+      "c": 2.1,
+      "f": 0.5,
+      "k": 29.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 2.2,
+      "c": 0.5,
+      "f": 2.1
+    },
+    "energy_improvement_pct": 22.8,
+    "confidence": 70
+  },
+  {
+    "id": 1160,
+    "en": "Amaranth, leaves, green, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 2.0,
+      "c": 1.5,
+      "f": 0.3,
+      "k": 25.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.3,
+      "c": 1.5,
+      "f": 2.0
+    },
+    "energy_improvement_pct": 32.4,
+    "confidence": 70
+  },
+  {
+    "id": 1165,
+    "en": "Bottle gourd leaves, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 2.5,
+      "c": 0.6,
+      "f": 0.6,
+      "k": 26.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.6,
+      "c": 0.6,
+      "f": 2.5
+    },
+    "energy_improvement_pct": 26.5,
+    "confidence": 70
+  },
+  {
+    "id": 1175,
+    "en": "Jute leaves, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 2.9,
+      "c": 1.7,
+      "f": 0.3,
+      "k": 32.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.3,
+      "c": 1.7,
+      "f": 2.9
+    },
+    "energy_improvement_pct": 27.5,
+    "confidence": 70
+  },
+  {
+    "id": 1180,
+    "en": "Sweet potato leaves, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 4.0,
+      "c": 1.8,
+      "f": 0.8,
+      "k": 45.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.8,
+      "c": 1.8,
+      "f": 4.0
+    },
+    "energy_improvement_pct": 29.3,
+    "confidence": 70
+  },
+  {
+    "id": 1181,
+    "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 3.9,
+      "c": 2.8,
+      "f": 0.4,
+      "k": 45.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 3.9,
+      "c": 0.4,
+      "f": 2.8
+    },
+    "energy_improvement_pct": 26.7,
+    "confidence": 70
+  },
+  {
+    "id": 1183,
+    "en": "Sweet potato leaves, SP8, light green, mature, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 3.6,
+      "c": 3.9,
+      "f": 0.4,
+      "k": 50.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.4,
+      "c": 3.9,
+      "f": 3.6
+    },
+    "energy_improvement_pct": 32.0,
+    "confidence": 70
+  },
+  {
+    "id": 1222,
+    "en": "Cinnamon, ground",
+    "cat": "vegetable",
+    "orig": {
+      "p": 4.0,
+      "c": 27.5,
+      "f": 1.2,
+      "k": 243.0
+    },
+    "pattern": "carbs<->fat",
+    "swapped": {
+      "p": 4.0,
+      "c": 1.2,
+      "f": 27.5
+    },
+    "energy_improvement_pct": 33.3,
+    "confidence": 70
+  },
+  {
+    "id": 1229,
+    "en": "Indian pennywort, raw",
+    "cat": "vegetable",
+    "orig": {
+      "p": 2.3,
+      "c": 1.6,
+      "f": 0.5,
+      "k": 37.0
+    },
+    "pattern": "protein<->fat",
+    "swapped": {
+      "p": 0.5,
+      "c": 1.6,
+      "f": 2.3
+    },
+    "energy_improvement_pct": 24.3,
+    "confidence": 70
+  }
+]
