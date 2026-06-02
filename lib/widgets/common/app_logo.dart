@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../theme/app_colors.dart';
 
 class AppLogo extends StatelessWidget {
+  /// Height of the logo image. Width scales naturally with the 3:2 aspect ratio.
   final double size;
   final bool showTagline;
   final bool light;
@@ -15,12 +16,11 @@ class AppLogo extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/healthtrackerlogo.png',
-          width: size,
+          'assets/images/infinitehealthtrackerlogo.png',
           height: size,
-          fit: BoxFit.contain,
+          fit: BoxFit.fitHeight,
         ),
-        const SizedBox(height: 12),
+        const SizedBox(height: 8),
         Text(
           'Infinite Health Tracker',
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
@@ -36,6 +36,7 @@ class AppLogo extends StatelessWidget {
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
               color: light ? Colors.white70 : AppColors.primary,
               fontWeight: FontWeight.w500,
+              letterSpacing: 0.3,
             ),
           ),
         ],

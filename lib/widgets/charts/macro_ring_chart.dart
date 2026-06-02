@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import '../../theme/app_colors.dart';
+import '../../core/constants/nutrition_constants.dart';
 
 class MacroRingChart extends StatelessWidget {
   final double calories;
@@ -8,6 +9,7 @@ class MacroRingChart extends StatelessWidget {
   final double protein;
   final double carbs;
   final double fat;
+  final double alcoholG;
 
   const MacroRingChart({
     super.key,
@@ -16,13 +18,15 @@ class MacroRingChart extends StatelessWidget {
     required this.protein,
     required this.carbs,
     required this.fat,
+    this.alcoholG = 0.0,
   });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final remaining = (calorieGoal - calories).clamp(0.0, calorieGoal);
-    final total = protein + carbs + fat;
+    final hasMacros = protein > 0 || carbs > 0 || fat > 0 || alcoholG > 0;
+    final alcoholKcal = alcoholG * NutritionConstants.alcoholCaloriesPerGram;
 
     return SizedBox(
       width: 180,
@@ -32,7 +36,7 @@ class MacroRingChart extends StatelessWidget {
         children: [
           PieChart(
             PieChartData(
-              sections: total > 0
+              sections: hasMacros
                   ? [
                       PieChartSectionData(
                         value: protein * 4,
@@ -52,6 +56,13 @@ class MacroRingChart extends StatelessWidget {
                         radius: 28,
                         showTitle: false,
                       ),
+                      if (alcoholKcal > 0)
+                        PieChartSectionData(
+                          value: alcoholKcal,
+                          color: AppColors.alcohol,
+                          radius: 28,
+                          showTitle: false,
+                        ),
                       if (remaining > 0)
                         PieChartSectionData(
                           value: remaining,

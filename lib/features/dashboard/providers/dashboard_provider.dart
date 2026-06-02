@@ -27,6 +27,8 @@ class DashboardState {
   double get totalCarbs => todaysMeals.fold(0, (sum, m) => sum + m.carbsG);
   double get totalFat => todaysMeals.fold(0, (sum, m) => sum + m.fatG);
   double get totalFiber => todaysMeals.fold(0, (sum, m) => sum + m.fiberG);
+  double get totalAlcohol => todaysMeals.fold(0, (sum, m) => sum + m.alcoholG);
+  double get totalSodium => todaysMeals.fold(0, (sum, m) => sum + m.sodiumMg);
 
   double _microSum(double? Function(FoodItem) getter) =>
       todaysMeals.fold<double>(0, (sum, m) {

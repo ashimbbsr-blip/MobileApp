@@ -13,9 +13,8 @@ import '../../core/utils/meal_time_utils.dart';
 
 // All normalised categories present in the dataset.
 const _localCategories = [
-  'rice', 'roti', 'dal', 'fish', 'meat', 'vegetable', 'fruit',
-  'dairy', 'snack', 'sweets', 'beverage', 'soup', 'breakfast',
-  'protein', 'grain', 'noodle', 'nut',
+  'rice', 'roti', 'dal', 'fish', 'meat', 'egg', 'vegetable', 'fruit',
+  'dairy', 'snack', 'sweets', 'beverage', 'soup', 'breakfast', 'grain',
 ];
 
 const _catIcons = <String, IconData>{
@@ -26,6 +25,7 @@ const _catIcons = <String, IconData>{
   'fruit':     Icons.apple_outlined,
   'fish':      Icons.set_meal_outlined,
   'meat':      Icons.lunch_dining_outlined,
+  'egg':       Icons.egg_outlined,
   'dairy':     Icons.water_drop_outlined,
   'snack':     Icons.cookie_outlined,
   'sweets':    Icons.cake_outlined,
@@ -33,9 +33,6 @@ const _catIcons = <String, IconData>{
   'soup':      Icons.soup_kitchen_outlined,
   'breakfast': Icons.free_breakfast_outlined,
   'grain':     Icons.grain_outlined,
-  'nut':       Icons.circle_outlined,
-  'protein':   Icons.fitness_center_outlined,
-  'noodle':    Icons.ramen_dining_outlined,
   'other':     Icons.fastfood_outlined,
 };
 
@@ -48,6 +45,7 @@ Color _catColor(String? cat) {
     case 'fruit':     return const Color(0xFFD81B60);
     case 'fish':      return const Color(0xFF1E88E5);
     case 'meat':      return const Color(0xFFD32F2F);
+    case 'egg':       return const Color(0xFFFF8F00);
     case 'dairy':     return const Color(0xFF0288D1);
     case 'snack':     return const Color(0xFF6D4C41);
     case 'sweets':    return const Color(0xFFC2185B);
@@ -67,10 +65,9 @@ String _catLabel(String cat, String lang) {
     const bn = <String, String>{
       'rice': 'ভাত', 'roti': 'রুটি', 'dal': 'ডাল',
       'vegetable': 'সবজি', 'fruit': 'ফল', 'fish': 'মাছ',
-      'meat': 'মাংস', 'dairy': 'দুগ্ধ', 'snack': 'স্ন্যাকস',
+      'meat': 'মাংস', 'egg': 'ডিম', 'dairy': 'দুগ্ধ', 'snack': 'স্ন্যাকস',
       'sweets': 'মিষ্টি', 'beverage': 'পানীয়', 'soup': 'স্যুপ',
-      'breakfast': 'সকালের খাবার', 'protein': 'প্রোটিন',
-      'grain': 'শস্য', 'noodle': 'নুডলস', 'nut': 'বাদাম',
+      'breakfast': 'সকালের খাবার', 'grain': 'শস্য',
     };
     return bn[cat] ?? cat;
   }
@@ -323,12 +320,41 @@ class _LocalTabState extends ConsumerState<_LocalTab>
     final theme = Theme.of(context);
     final fieldFill = isDark ? AppColors.darkCard : AppColors.lightBackground;
 
+    final dbError = LocalFoodRepository.initError;
+
     return Stack(
       fit: StackFit.expand,
       children: [
         // ── Main layout ──────────────────────────────────────────────────
         Column(
           children: [
+            // ── Food-DB error banner ───────────────────────────────────
+            if (dbError != null && !LocalFoodRepository.isReady)
+              Container(
+                width: double.infinity,
+                color: Colors.red.shade700,
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8),
+                child: Row(
+                  children: [
+                    const Icon(Icons.warning_amber_rounded,
+                        color: Colors.white, size: 16),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        lang == 'bn'
+                            ? 'খাবার ডেটাবেস লোড হয়নি। অ্যাপটি পুনরায় চালু করুন।'
+                            : 'Food database failed to load. Please restart the app.',
+                        style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+
             // ── Search bar area ────────────────────────────────────────
             Container(
               color: isDark

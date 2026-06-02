@@ -9,6 +9,7 @@ class NutritionConstants {
   static const double potassiumMg = 3750;     // ICMR 2020: 3750 mg
   static const double magnesiumMg = 340;      // ICMR 2020: 340 mg
   static const double fiberG = 40;            // ICMR 2020: 40 g
+  static const double sodiumMg = 2000;        // WHO/ICMR limit: 2000 mg/day (<2 g Na)
   // Reference value only — personalized water target is in NutritionCalculator._calculateWater()
   static const double waterMlIcmrReference = 3700; // ICMR 2020: 3700 ml/day (adult)
 
@@ -32,6 +33,7 @@ class NutritionConstants {
   static const double proteinCaloriesPerGram = 4;
   static const double carbCaloriesPerGram = 4;
   static const double fatCaloriesPerGram = 9;
+  static const double alcoholCaloriesPerGram = 7.0; // Atwater ethanol factor
 
   // Deficit for healthy fat loss (500 kcal/day = ~0.5 kg/week)
   static const double fatLossDeficit = 500;

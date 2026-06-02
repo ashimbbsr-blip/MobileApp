@@ -29,46 +29,51 @@ class DashboardScreen extends ConsumerWidget {
         physics: const BouncingScrollPhysics(),
         slivers: [
           SliverAppBar(
-            toolbarHeight: 72,
+            toolbarHeight: 68,
             floating: true,
             pinned: false,
             automaticallyImplyLeading: false,
-            titleSpacing: 16,
+            titleSpacing: 0,
             backgroundColor: theme.scaffoldBackgroundColor,
-            title: Row(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Image.asset(
-                  'assets/images/healthtrackerlogo.png',
-                  width: 32,
-                  height: 32,
-                  fit: BoxFit.contain,
-                ),
-                const SizedBox(width: 9),
-                Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      l10n.appName,
-                      style: theme.textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w700,
-                        color: AppColors.primary,
-                        fontSize: 15,
+            title: Padding(
+              padding: const EdgeInsets.only(left: 4, right: 8),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  // Logo — natural 3:2 aspect ratio, no forced-square gaps
+                  Image.asset(
+                    'assets/images/infinitehealthtrackerlogo.png',
+                    height: 44,
+                    fit: BoxFit.fitHeight,
+                  ),
+                  const SizedBox(width: 10),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        l10n.appName,
+                        style: theme.textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w800,
+                          color: AppColors.primary,
+                          fontSize: 16,
+                          letterSpacing: -0.3,
+                        ),
                       ),
-                    ),
-                    Text(
-                      l10n.tagline,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: AppColors.primary.withValues(alpha: 0.65),
-                        fontSize: 10,
-                        fontWeight: FontWeight.w500,
+                      Text(
+                        l10n.tagline,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: AppColors.primary.withValues(alpha: 0.70),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w500,
+                          letterSpacing: 0.2,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
           SliverPadding(
@@ -586,6 +591,7 @@ class _CalorieCard extends ConsumerWidget {
               protein: state.totalProtein,
               carbs: state.totalCarbs,
               fat: state.totalFat,
+              alcoholG: state.totalAlcohol,
             ),
             const SizedBox(width: 20),
             Expanded(
@@ -1289,12 +1295,32 @@ class _WaterFiberCard extends ConsumerWidget {
               showValues: false,
             ),
             const SizedBox(height: 8),
+            // Glass row: minus and plus side by side
             Row(
               children: [
+                _WaterButton(
+                  label: bn ? '−১ গ্লাস' : '−1 glass',
+                  ml: -250,
+                  ref: ref,
+                  isSubtract: true,
+                ),
+                const SizedBox(width: 8),
                 _WaterButton(
                   label: bn ? '+১ গ্লাস' : '+1 glass',
                   ml: 250,
                   ref: ref,
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            // Bottle row: minus and plus side by side
+            Row(
+              children: [
+                _WaterButton(
+                  label: bn ? '−বোতল' : '−bottle',
+                  ml: -500,
+                  ref: ref,
+                  isSubtract: true,
                 ),
                 const SizedBox(width: 8),
                 _WaterButton(
@@ -1302,14 +1328,23 @@ class _WaterFiberCard extends ConsumerWidget {
                   ml: 500,
                   ref: ref,
                 ),
-                const SizedBox(width: 8),
-                _WaterButton(
-                  label: bn ? 'রিসেট' : 'Reset',
-                  ml: -state.waterIntakeMl,
-                  ref: ref,
-                  isReset: true,
-                ),
               ],
+            ),
+            const SizedBox(height: 6),
+            // Reset — full width
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton(
+                onPressed: () => ref.read(dashboardProvider.notifier).setWater(0),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.grey,
+                  side: BorderSide(color: Colors.grey.shade300),
+                  padding: const EdgeInsets.symmetric(vertical: 7),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                  textStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+                ),
+                child: Text(bn ? 'রিসেট' : 'Reset'),
+              ),
             ),
             const SizedBox(height: 14),
             const Divider(height: 1),
@@ -1333,16 +1368,32 @@ class _WaterButton extends StatelessWidget {
   final double ml;
   final WidgetRef ref;
   final bool isReset;
+  final bool isSubtract;
 
   const _WaterButton({
     required this.label,
     required this.ml,
     required this.ref,
     this.isReset = false,
+    this.isSubtract = false,
   });
 
   @override
   Widget build(BuildContext context) {
+    const waterBlue = Color(0xFF29B6F6);
+    const subtractRed = Color(0xFFEF5350);
+
+    final fgColor = isReset
+        ? Colors.grey
+        : isSubtract
+            ? subtractRed
+            : waterBlue;
+    final borderColor = isReset
+        ? Colors.grey.shade300
+        : isSubtract
+            ? subtractRed.withValues(alpha: 0.45)
+            : waterBlue.withValues(alpha: 0.5);
+
     return Expanded(
       child: OutlinedButton(
         onPressed: () {
@@ -1353,12 +1404,8 @@ class _WaterButton extends StatelessWidget {
           }
         },
         style: OutlinedButton.styleFrom(
-          foregroundColor: isReset ? Colors.grey : const Color(0xFF29B6F6),
-          side: BorderSide(
-            color: isReset
-                ? Colors.grey.shade300
-                : const Color(0xFF29B6F6).withValues(alpha: 0.5),
-          ),
+          foregroundColor: fgColor,
+          side: BorderSide(color: borderColor),
           padding: const EdgeInsets.symmetric(vertical: 7),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
           textStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),

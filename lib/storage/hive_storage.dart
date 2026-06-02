@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import '../models/user_profile.dart';
 import '../models/food_item.dart';
@@ -11,11 +12,18 @@ class HiveStorage {
   // Hive places it inside the OS-managed app documents directory, so data
   // survives upgrades automatically and is wiped when the user uninstalls.
   static const _dataFolder = 'infinite_health_data';
+  static bool _initialized = false;
 
   static Future<void> init() async {
-    await Hive.initFlutter(_dataFolder);
+    if (_initialized) return; // idempotent — safe to call on hot-restart / re-launch
+    try {
+      await Hive.initFlutter(_dataFolder);
+    } catch (e) {
+      debugPrint('[HiveStorage] initFlutter warning: $e');
+    }
     _registerAdapters();
-    await _openBoxes();
+    await _openBoxesSafely();
+    _initialized = true;
   }
 
   static void _registerAdapters() {
@@ -26,16 +34,33 @@ class HiveStorage {
     if (!Hive.isAdapterRegistered(4)) Hive.registerAdapter(LegalAcceptanceAdapter());
   }
 
-  static Future<void> _openBoxes() async {
-    await Future.wait([
-      Hive.openBox(AppConstants.hiveUserBox),
-      Hive.openBox<MealEntry>(AppConstants.hiveMealsBox),
-      Hive.openBox<FoodItem>(AppConstants.hiveFoodCacheBox),
-      Hive.openBox<FoodItem>(AppConstants.hiveLocalFoodBox),
-      Hive.openBox(AppConstants.hiveSettingsBox),
-      Hive.openBox<MonthlySummary>(AppConstants.hiveMonthlySummaryBox),
-      Hive.openBox(AppConstants.hiveLegalBox),
-    ]);
+  // Opens every box individually so one corrupt box cannot block the others.
+  // If a box fails to open, it is deleted from disk and recreated empty —
+  // user data in that box is lost but the app stays functional.
+  static Future<void> _openBoxesSafely() async {
+    await _safeOpen(AppConstants.hiveUserBox,            () => Hive.openBox(AppConstants.hiveUserBox));
+    await _safeOpen(AppConstants.hiveMealsBox,           () => Hive.openBox<MealEntry>(AppConstants.hiveMealsBox));
+    await _safeOpen(AppConstants.hiveFoodCacheBox,       () => Hive.openBox<FoodItem>(AppConstants.hiveFoodCacheBox));
+    await _safeOpen(AppConstants.hiveLocalFoodBox,       () => Hive.openBox<FoodItem>(AppConstants.hiveLocalFoodBox));
+    await _safeOpen(AppConstants.hiveSettingsBox,        () => Hive.openBox(AppConstants.hiveSettingsBox));
+    await _safeOpen(AppConstants.hiveMonthlySummaryBox,  () => Hive.openBox<MonthlySummary>(AppConstants.hiveMonthlySummaryBox));
+    await _safeOpen(AppConstants.hiveLegalBox,           () => Hive.openBox(AppConstants.hiveLegalBox));
+  }
+
+  static Future<void> _safeOpen(String name, Future<dynamic> Function() open) async {
+    if (Hive.isBoxOpen(name)) return;
+    try {
+      await open();
+    } catch (e) {
+      debugPrint('[HiveStorage] box "$name" failed ($e) — deleting and recreating');
+      try {
+        await Hive.deleteBoxFromDisk(name);
+        await open();
+        debugPrint('[HiveStorage] box "$name" recreated successfully');
+      } catch (e2) {
+        debugPrint('[HiveStorage] box "$name" unrecoverable: $e2');
+      }
+    }
   }
 
   // Box accessors

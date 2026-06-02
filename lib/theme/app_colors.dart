@@ -14,6 +14,7 @@ class AppColors {
   static const Color fat = Color(0xFFE67E22);
   static const Color fiber = Color(0xFF2ECC71);
   static const Color water = Color(0xFF1ABC9C);
+  static const Color alcohol = Color(0xFFAB8B2A); // deep amber — distinct from fat's orange
 
   // Micronutrient colors
   static const Color vitaminA = Color(0xFFFF6B6B);

@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -8,6 +9,18 @@ import 'services/notification_service.dart';
 import 'app.dart';
 
 void main() async {
+  // Catch Flutter framework errors (widget build, layout, etc.) — prevents white-screen crash.
+  FlutterError.onError = (details) {
+    FlutterError.presentError(details);
+    debugPrint('[FlutterError] ${details.exceptionAsString()}');
+  };
+
+  // Catch async errors that escape the widget tree (Dart isolate top-level).
+  PlatformDispatcher.instance.onError = (error, stack) {
+    debugPrint('[PlatformError] $error\n$stack');
+    return true; // mark handled — prevents OS from killing the process
+  };
+
   WidgetsFlutterBinding.ensureInitialized();
 
   await SystemChrome.setPreferredOrientations([
@@ -23,14 +36,20 @@ void main() async {
   await HiveStorage.init();
   await LocalFoodRepository.init();
 
-  // Initialize notifications and ensure daily reminder is scheduled.
-  await NotificationService.instance.init();
-  if (HiveStorage.isOnboardingDone) {
-    await NotificationService.instance.ensureScheduled();
+  // Notifications are best-effort — a failure here must never crash startup.
+  try {
+    await NotificationService.instance.init();
+    if (HiveStorage.isOnboardingDone) {
+      await NotificationService.instance.ensureScheduled();
+    }
+  } catch (e) {
+    debugPrint('[Notifications] init failed (non-fatal): $e');
   }
 
   WidgetsBinding.instance.addPostFrameCallback((_) {
-    AnalyticsService.runCleanup(retainDays: 90);
+    try {
+      AnalyticsService.runCleanup(retainDays: 90);
+    } catch (_) {}
   });
 
   runApp(
@@ -38,4 +57,4 @@ void main() async {
       child: InfinityHealthApp(),
     ),
   );
-}claude
+}

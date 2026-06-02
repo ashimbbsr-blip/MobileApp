@@ -31,7 +31,7 @@ class DailyRecommendation {
   bool get hasData => consumedCalories > 50;
   bool get isOnTarget {
     final pct = targetCalories > 0 ? consumedCalories / targetCalories : 0.0;
-    return pct >= 0.85 && pct <= 1.1;
+    return pct >= 0.90 && pct <= 1.1;
   }
 }
 
@@ -102,7 +102,7 @@ class RecommendationEngine {
     final insights = <String>[];
 
     if (cal > 50) {
-      if (calPct >= 0.85 && calPct <= 1.1) {
+      if (calPct >= 0.90 && calPct <= 1.1) {
         insights.add(bn
             ? 'আজকের ক্যালোরি লক্ষ্যমাত্রা একদম সঠিক আছে।'
             : 'Calorie intake is right on target today.');
@@ -370,7 +370,7 @@ class RecommendationEngine {
     }
 
     // Right on target — celebrate it
-    if (calPct >= 0.85 && calPct <= 1.1) {
+    if (calPct >= 0.90 && calPct <= 1.1) {
       return bn
           ? 'দারুণ! আজকের ক্যালোরি লক্ষ্যমাত্রা একদম সঠিকভাবে পূরণ হয়েছে।'
           : 'Excellent! You\'re right on track with your calorie goal today. Keep it up!';

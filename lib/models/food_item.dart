@@ -81,6 +81,12 @@ class FoodItem extends HiveObject {
   @HiveField(24)
   double? vitaminB12Mcg;
 
+  @HiveField(25)
+  double? alcoholG; // grams of ethanol per serving (7 kcal/g, Atwater)
+
+  @HiveField(26)
+  double? sodiumMg; // milligrams of sodium per serving
+
   FoodItem({
     required this.id,
     required this.name,
@@ -107,6 +113,8 @@ class FoodItem extends HiveObject {
     this.source,
     this.keywords,
     this.vitaminB12Mcg,
+    this.alcoholG,
+    this.sodiumMg,
   });
 
   // ── Factory: compact local JSON schema ───────────────────────────────────
@@ -131,8 +139,11 @@ class FoodItem extends HiveObject {
       calciumMg:   (m['ca'] as num?)?.toDouble(),
       ironMg:      (m['fe'] as num?)?.toDouble(),
       zincMg:      (m['zn'] as num?)?.toDouble(),
-      magnesiumMg: (m['mg'] as num?)?.toDouble(),
-      potassiumMg: (m['pot'] as num?)?.toDouble(),
+      magnesiumMg:    (m['mg']  as num?)?.toDouble(),
+      potassiumMg:    (m['pot'] as num?)?.toDouble(),
+      vitaminB12Mcg:  (m['b12'] as num?)?.toDouble(),
+      alcoholG:       (m['alc_g'] as num?)?.toDouble(),
+      sodiumMg:       (m['na'] as num?)?.toDouble(),
       category: _normalizeCategory(m['cat'] as String?),
       keywords: (m['kw'] as List?)?.cast<String>(),
       source: m['src'] as String? ?? 'local',
@@ -143,13 +154,17 @@ class FoodItem extends HiveObject {
   // Normalise dataset category names to UI category names.
   static String? _normalizeCategory(String? cat) {
     switch (cat) {
+      // Dataset → UI renames
+      case 'legume':    return 'dal';       // lentils, beans, dals
+      case 'bread':     return 'roti';      // roti, chapati, naan, puri, paratha
+      case 'sweet':     return 'sweets';    // Indian sweets / mithai
+      case 'dessert':   return 'sweets';    // Western-style desserts
       case 'veg':       return 'vegetable';
+      case 'salad':     return 'vegetable'; // salads filed under vegetable
       case 'drink':     return 'beverage';
-      case 'dessert':   return 'sweets';
-      case 'salad':     return 'vegetable';
       case 'fitness':   return 'protein';
       case 'brand':     return 'snack';
-      case 'condiment': return 'other';
+      case 'condiment': return 'condiment';
       case 'diet':      return 'other';
       case 'meal':      return 'other';
       default:          return cat;
@@ -243,6 +258,8 @@ class FoodItem extends HiveObject {
       magnesiumMg: magnesiumMg != null ? magnesiumMg! * factor : null,
       zincMg: zincMg != null ? zincMg! * factor : null,
       vitaminB12Mcg: vitaminB12Mcg != null ? vitaminB12Mcg! * factor : null,
+      alcoholG: alcoholG != null ? alcoholG! * factor : null,
+      sodiumMg: sodiumMg != null ? sodiumMg! * factor : null,
       usdaFdcId: usdaFdcId,
       isCustom: isCustom,
       category: category,

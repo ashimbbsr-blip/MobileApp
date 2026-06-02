@@ -39,4 +39,6 @@ class MealEntry extends HiveObject {
   double get carbsG => foodItem.carbsG * (quantityG / foodItem.servingSize);
   double get fatG => foodItem.fatG * (quantityG / foodItem.servingSize);
   double get fiberG => foodItem.fiberG * (quantityG / foodItem.servingSize);
+  double get alcoholG => (foodItem.alcoholG ?? 0) * (quantityG / foodItem.servingSize);
+  double get sodiumMg => (foodItem.sodiumMg ?? 0) * (quantityG / foodItem.servingSize);
 }
