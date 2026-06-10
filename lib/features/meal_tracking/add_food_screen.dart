@@ -1350,7 +1350,11 @@ class _AddFoodTileState extends State<_AddFoodTile> {
   Future<void> _add() async {
     if (_adding) return;
     setState(() => _adding = true);
-    await widget.onAdd(widget.food, _qty);
+    try {
+      await widget.onAdd(widget.food, _qty);
+    } finally {
+      if (mounted) setState(() => _adding = false);
+    }
   }
 
   @override

@@ -33,6 +33,7 @@ class DashboardScreen extends ConsumerWidget {
             floating: true,
             pinned: false,
             automaticallyImplyLeading: false,
+            centerTitle: false,
             titleSpacing: 0,
             backgroundColor: theme.scaffoldBackgroundColor,
             title: Padding(
