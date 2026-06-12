@@ -33,7 +33,7 @@ class LegalContent {
   static const List<LegalSection> _termsEn = [
     LegalSection(
       '1. General Use',
-      'Infinity Health Tracker ("the App") is provided "as is" for informational '
+      'Infinite Nutrition Tracker ("the App") is provided "as is" for informational '
           'and personal wellness purposes only. By using the App, you acknowledge that '
           'you do so at your own discretion and risk.\n\n'
           'The App is designed to assist in tracking nutrition and wellness habits — not '
@@ -91,7 +91,7 @@ class LegalContent {
     LegalSection(
       '6. Limitation of Liability',
       'To the maximum extent permitted by applicable law, the developer of '
-          'Infinity Health Tracker shall NOT be liable for:\n\n'
+          'Infinite Nutrition Tracker shall NOT be liable for:\n\n'
           '• Any health issues arising directly or indirectly from App use\n'
           '• Adverse dietary or allergic reactions\n'
           '• Inaccurate food identification from manual entry errors\n'
@@ -106,7 +106,6 @@ class LegalContent {
     LegalSection(
       '7. Acceptance of Risk',
       'By using the App, you voluntarily acknowledge that:\n\n'
-          '• Nutrition and calorie estimation is inherently imprecise\n'
           '• Nutrition and calorie estimation is inherently imprecise\n'
           '• Personal health decisions remain entirely your own responsibility\n'
           '• The App is a wellness tool, not a substitute for professional care\n'
@@ -205,7 +204,7 @@ class LegalContent {
   static const List<LegalSection> _healthEn = [
     LegalSection(
       'General Health Disclaimer',
-      'Infinity Health Tracker provides general nutrition and wellness tracking '
+      'Infinite Nutrition Tracker provides general nutrition and wellness tracking '
           'tools. The information provided by the App is for general informational '
           'purposes only.\n\n'
           'It is NOT intended as:\n'
@@ -274,7 +273,7 @@ class LegalContent {
   static const List<LegalSection> _termsBn = [
     LegalSection(
       '১. সাধারণ ব্যবহার',
-      'ইনফিনিটি হেলথ ট্র্যাকার ("অ্যাপ") "যেমন আছে" (as is) ভিত্তিতে শুধুমাত্র '
+      'ইনফিনিট নিউট্রিশন ট্র্যাকার ("অ্যাপ") "যেমন আছে" (as is) ভিত্তিতে শুধুমাত্র '
           'তথ্যগত ও ব্যক্তিগত সুস্বাস্থ্যের উদ্দেশ্যে প্রদান করা হয়েছে। অ্যাপটি '
           'ব্যবহার করে আপনি স্বীকার করছেন যে আপনি নিজের বিবেচনায় ও ঝুঁকিতে এটি ব্যবহার করছেন।\n\n'
           'অ্যাপটি পুষ্টি ও সুস্বাস্থ্য অভ্যাস ট্র্যাক করতে সহায়তার জন্য ডিজাইন করা হয়েছে — '
@@ -302,14 +301,16 @@ class LegalContent {
           'জন্য শুধুমাত্র এই অ্যাপের উপর নির্ভর করবেন না।',
     ),
     LegalSection(
-      '৪. AI ফুড স্ক্যানিং দাবিত্যাগ',
-      'অ্যাপটিতে AI-ভিত্তিক খাদ্য শনাক্তকরণ ফিচার রয়েছে। এই ফিচার:\n\n'
-          '• খাবার বা উপাদান ভুল শনাক্ত করতে পারে\n'
-          '• অসম্পূর্ণ বা অনির্ভুল পুষ্টি তথ্য দিতে পারে\n'
-          '• কম আলো বা খারাপ ছবির মানে ব্যর্থ হতে পারে\n\n'
-          'লগ করার আগে সমস্ত AI-শনাক্তকৃত খাবার, পরিমাণ ও সার্ভিং সাইজ নিজে '
-          'যাচাই করা আপনার একক দায়িত্ব। অ্যালার্জি বা ক্লিনিক্যাল পুষ্টির '
-          'জন্য AI স্ক্যানের উপর নির্ভর করবেন না।',
+      '৪. তথ্যের নির্ভুলতা সম্পর্কিত দাবিত্যাগ',
+      'অ্যাপের পুষ্টি তথ্য নির্বাচিত ডেটাবেস থেকে নেওয়া এবং প্রতিটি ব্র্যান্ড, '
+          'রান্নার পদ্ধতি বা আঞ্চলিক বিভিন্নতা সঠিকভাবে প্রতিফলিত নাও হতে পারে। '
+          'নির্ভুলতাকে প্রভাবিত করতে পারে এমন বিষয়সমূহ:\n\n'
+          '• রান্নার পদ্ধতির পার্থক্য\n'
+          '• অঞ্চল ও ব্র্যান্ডভেদে পণ্যের পার্থক্য\n'
+          '• প্রাকৃতিক খাদ্যে স্বাভাবিক পরিবর্তন\n\n'
+          'লগ করার আগে সমস্ত খাদ্যের পরিমাণ ও সার্ভিং সাইজ নিজে যাচাই করার '
+          'দায়িত্ব সম্পূর্ণরূপে আপনার। অ্যালার্জি ব্যবস্থাপনা, চিকিৎসাগত ডায়েট '
+          'বা ক্লিনিক্যাল পুষ্টির প্রয়োজনে শুধুমাত্র অ্যাপের উপর নির্ভর করবেন না।',
     ),
     LegalSection(
       '৫. ব্যবহারকারীর দায়িত্ব',
@@ -324,11 +325,11 @@ class LegalContent {
     ),
     LegalSection(
       '৬. দায়বদ্ধতার সীমাবদ্ধতা',
-      'প্রযোজ্য আইনের সর্বোচ্চ সীমার মধ্যে, ইনফিনিটি হেলথ ট্র্যাকারের '
+      'প্রযোজ্য আইনের সর্বোচ্চ সীমার মধ্যে, ইনফিনিট নিউট্রিশন ট্র্যাকারের '
           'নির্মাতা দায়ী থাকবেন না:\n\n'
           '• অ্যাপ ব্যবহারের ফলে সৃষ্ট যেকোনো স্বাস্থ্যগত সমস্যার জন্য\n'
           '• খাদ্যাভ্যাসগত বা অ্যালার্জিক প্রতিক্রিয়ার জন্য\n'
-          '• AI স্ক্যানে ভুল খাবার শনাক্তকরণের জন্য\n'
+          '• ম্যানুয়াল এন্ট্রিতে ভুল খাবার শনাক্তকরণের জন্য\n'
           '• অনির্ভুল পুষ্টি গণনার জন্য\n'
           '• পরোক্ষ বা আনুষঙ্গিক ক্ষতির জন্য\n'
           '• ডিভাইসে সংরক্ষিত ডেটা হারানোর জন্য\n\n'
@@ -339,7 +340,6 @@ class LegalContent {
       '৭. ঝুঁকির স্বীকৃতি',
       'অ্যাপ ব্যবহার করে আপনি স্বেচ্ছায় স্বীকার করছেন যে:\n\n'
           '• পুষ্টি ও ক্যালোরি অনুমান স্বাভাবিকভাবেই অনির্ভুল হতে পারে\n'
-          '• AI খাদ্য শনাক্তকরণের প্রযুক্তিগত সীমাবদ্ধতা রয়েছে\n'
           '• ব্যক্তিগত স্বাস্থ্য সিদ্ধান্ত সম্পূর্ণরূপে আপনার নিজের দায়িত্ব\n'
           '• অ্যাপটি একটি সুস্বাস্থ্য সহায়ক — পেশাদার সেবার বিকল্প নয়\n'
           '• আপনি স্বাধীনভাবে ও ব্যক্তিগত ঝুঁকিতে অ্যাপটি ব্যবহার করছেন',
@@ -437,7 +437,7 @@ class LegalContent {
   static const List<LegalSection> _healthBn = [
     LegalSection(
       'সাধারণ স্বাস্থ্য দাবিত্যাগ',
-      'ইনফিনিটি হেলথ ট্র্যাকার সাধারণ পুষ্টি ও সুস্বাস্থ্য ট্র্যাকিং সরঞ্জাম প্রদান করে। '
+      'ইনফিনিট নিউট্রিশন ট্র্যাকার সাধারণ পুষ্টি ও সুস্বাস্থ্য ট্র্যাকিং সরঞ্জাম প্রদান করে। '
           'অ্যাপের তথ্য শুধুমাত্র সাধারণ তথ্যের উদ্দেশ্যে।\n\n'
           'এটি নিম্নলিখিত হিসেবে প্রদান করা হয় না:\n'
           '• চিকিৎসা পরামর্শ বা ক্লিনিক্যাল রোগ নির্ণয়\n'
@@ -475,14 +475,14 @@ class LegalContent {
           'নির্ভর করে ব্যক্তিগত ফলাফল উল্লেখযোগ্যভাবে ভিন্ন হতে পারে।',
     ),
     LegalSection(
-      'AI ফুড স্ক্যানিংয়ের যথার্থতা',
-      'AI-ভিত্তিক খাদ্য শনাক্তকরণ শুধুমাত্র একটি সুবিধার ফিচার। এটি নির্ভুল '
-          'পুষ্টি সরঞ্জাম নয়।\n\n'
-          'লগ করার আগে স্ক্যানের ফলাফল সর্বদা ম্যানুয়ালি যাচাই করতে হবে। '
-          'AI স্ক্যানের উপর নির্ভর করবেন না:\n\n'
-          '• অ্যালার্জি বা খাদ্য অসহিষ্ণুতা ব্যবস্থাপনার জন্য\n'
-          '• চিকিৎসাগত বা ক্লিনিক্যাল খাদ্যতালিকার প্রয়োজনের জন্য\n'
-          '• স্বাস্থ্য-সংকটজনক খাদ্য সিদ্ধান্তের জন্য',
+      'ম্যানুয়াল এন্ট্রির যথার্থতা',
+      'অ্যাপটি ম্যানুয়াল খাদ্য লগিংয়ের উপর নির্ভর করে। পুষ্টি তথ্যের নির্ভুলতা নির্ভর করে:\n\n'
+          '• ডেটাবেস থেকে সঠিক খাবার নির্বাচনের উপর\n'
+          '• ব্যবহারকারীর সঠিক পরিমাণ অনুমানের উপর\n'
+          '• নির্দিষ্ট আঞ্চলিক বা ব্র্যান্ডেড খাবারের ডেটাবেস কভারেজের উপর\n\n'
+          'স্বাস্থ্য-সংকটজনক সিদ্ধান্তের জন্য সর্বদা খাদ্য লেবেলের সাথে পুষ্টি তথ্য '
+          'যাচাই করুন। অ্যালার্জি ব্যবস্থাপনা, চিকিৎসাগত ডায়েট বা ক্লিনিক্যাল পুষ্টির '
+          'প্রয়োজনে শুধুমাত্র অ্যাপের তথ্যের উপর নির্ভর করবেন না।',
     ),
     LegalSection(
       'রপ্তানি ও ডেটার দায়িত্ব',

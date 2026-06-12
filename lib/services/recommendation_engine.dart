@@ -221,18 +221,53 @@ class RecommendationEngine {
   static _Pattern _detectPatterns(List<MealEntry> meals) {
     int fried = 0, sweets = 0, bev = 0, alcohol = 0, beer = 0, spirits = 0, wine = 0, veg = 0, prot = 0;
 
+    // Common fruit/vegetable names for name-based detection (covers USDA foods
+    // whose category field uses USDA group names like "Fruits and Fruit Juices")
+    const fruitNames = [
+      'apple', 'banana', 'mango', 'orange', 'grape', 'pear', 'peach', 'plum',
+      'berry', 'berries', 'melon', 'pineapple', 'papaya', 'lemon', 'lime',
+      'strawberry', 'blueberry', 'watermelon', 'guava', 'coconut', 'date',
+      'fig', 'cherry', 'kiwi', 'pomegranate', 'jackfruit', 'litchi', 'lychee',
+      'apricot', 'avocado', 'cantaloupe', 'clementine', 'grapefruit', 'mandarin',
+      'nectarine', 'passion fruit', 'tangerine', 'starfruit', 'tamarind',
+    ];
+    const vegNames = [
+      'spinach', 'broccoli', 'carrot', 'tomato', 'cucumber', 'lettuce',
+      'cabbage', 'onion', 'garlic', 'pepper', 'eggplant', 'cauliflower',
+      'zucchini', 'celery', 'mushroom', 'asparagus', 'artichoke', 'beetroot',
+      'beet', 'capsicum', 'courgette', 'kale', 'leek', 'parsley', 'pumpkin',
+      'radish', 'squash', 'sweet potato', 'turnip',
+    ];
+
     for (final m in meals) {
       final cat = m.foodItem.category ?? '';
+      final catLower = cat.toLowerCase();
       final name = m.foodItem.name.toLowerCase();
       final kws = (m.foodItem.keywords ?? []).join(' ').toLowerCase();
       final combined = '$name $kws';
 
-      // Categories
-      if (cat == 'sweets') sweets++;
-      if (cat == 'beverage') bev++;
-      if (cat == 'vegetable' || cat == 'fruit') veg++;
-      if (cat == 'meat' || cat == 'fish' || cat == 'dairy' || cat == 'protein' ||
-          cat == 'dal' || cat == 'egg' || cat == 'nut' || cat == 'grain') prot++;
+      // Categories — covers both local short names and USDA long group names
+      if (catLower == 'sweets' || catLower.contains('sweet') ||
+          catLower.contains('sugar') || catLower.contains('confection')) sweets++;
+      if (catLower == 'beverage' || catLower.contains('beverage') ||
+          catLower.contains('drink') || catLower.contains('juice')) bev++;
+
+      // Fruit/vegetable: category check + USDA group names + name-based fallback
+      final isFruitOrVegCat = catLower == 'vegetable' || catLower == 'fruit' ||
+          catLower.contains('fruit') || catLower.contains('vegetable') ||
+          catLower.contains('produce') || catLower.contains('salad');
+      final isFruitOrVegName = fruitNames.any((k) => name.contains(k)) ||
+          vegNames.any((k) => name.contains(k));
+      if (isFruitOrVegCat || isFruitOrVegName) veg++;
+
+      if (catLower == 'meat' || catLower == 'fish' || catLower == 'dairy' ||
+          catLower == 'protein' || catLower == 'dal' || catLower == 'egg' ||
+          catLower == 'nut' || catLower == 'grain' ||
+          catLower.contains('meat') || catLower.contains('poultry') ||
+          catLower.contains('fish') || catLower.contains('seafood') ||
+          catLower.contains('dairy') || catLower.contains('egg') ||
+          catLower.contains('legume') || catLower.contains('nut') ||
+          catLower.contains('grain') || catLower.contains('bean')) prot++;
 
       // Fried food detection
       if (kws.contains('fried') || kws.contains('fry') ||

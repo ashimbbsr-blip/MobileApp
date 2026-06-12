@@ -63,7 +63,7 @@ class ExportService {
       final backup = {
         'version': '1.0',
         'exportDate': DateTime.now().toIso8601String(),
-        'appName': 'Infinity Health Tracker',
+        'appName': 'Infinite Nutrition Tracker',
         'profile': profile != null ? _profileToJson(profile) : null,
         'meals': meals.map(_mealToJson).toList(),
         'monthlySummaries': summaries.map(_summaryToJson).toList(),
@@ -80,7 +80,7 @@ class ExportService {
 
       await Share.shareXFiles(
         [XFile(file.path, mimeType: 'application/json')],
-        subject: 'Infinity Health Tracker Backup',
+        subject: 'Infinite Nutrition Tracker Backup',
       );
       return true;
     } catch (_) {

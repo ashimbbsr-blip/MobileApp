@@ -183,7 +183,7 @@ class _FoodSearchScreenState extends ConsumerState<FoodSearchScreen>
                         children: [
                           const Icon(Icons.travel_explore_rounded, size: 16),
                           const SizedBox(width: 5),
-                          Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
+                          Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'International'),
                         ],
                       ),
                     ),

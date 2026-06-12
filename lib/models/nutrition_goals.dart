@@ -29,4 +29,26 @@ class NutritionGoals {
     bmr: 1700,
     tdee: 2500,
   );
+
+  NutritionGoals copyWith({
+    double? calories,
+    double? proteinG,
+    double? carbsG,
+    double? fatG,
+    double? fiberG,
+    double? waterMl,
+    double? bmr,
+    double? tdee,
+  }) {
+    return NutritionGoals(
+      calories: calories ?? this.calories,
+      proteinG: proteinG ?? this.proteinG,
+      carbsG: carbsG ?? this.carbsG,
+      fatG: fatG ?? this.fatG,
+      fiberG: fiberG ?? this.fiberG,
+      waterMl: waterMl ?? this.waterMl,
+      bmr: bmr ?? this.bmr,
+      tdee: tdee ?? this.tdee,
+    );
+  }
 }

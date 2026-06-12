@@ -231,11 +231,34 @@ class AppStrings {
   String get searchUsda => _t('searchUsda');
   String get noLocalResults => _t('noLocalResults');
 
+  // Custom Nutrition Limits
+  String get customNutritionLimits => _t('customNutritionLimits');
+  String get customLimitsToggle => _t('customLimitsToggle');
+  String get customLimitsDisclaimer => _t('customLimitsDisclaimer');
+  String get customLimitsDoctorNote => _t('customLimitsDoctorNote');
+  String get customCalorieLimit => _t('customCalorieLimit');
+  String get customProteinLimit => _t('customProteinLimit');
+  String get customCarbsLimit => _t('customCarbsLimit');
+  String get customFatLimit => _t('customFatLimit');
+  String get useAutoCalculated => _t('useAutoCalculated');
+  String get customLimitsActive => _t('customLimitsActive');
+
+  // Activity & Burned Calories
+  String get activityCalories => _t('activityCalories');
+  String get activityBurned => _t('activityBurned');
+  String get deductFromDaily => _t('deductFromDaily');
+  String get netCalories => _t('netCalories');
+  String get burnedKcalLabel => _t('burnedKcalLabel');
+  String get logActivityBurned => _t('logActivityBurned');
+  String get enterBurnedKcal => _t('enterBurnedKcal');
+  String get items => _t('items');
+  String get steps => _t('steps');
+
   String _t(String key) => _translations[language]?[key] ?? _translations['en']![key] ?? key;
 
   static const Map<String, Map<String, String>> _translations = {
     'en': {
-      'appName': 'Infinite Health Tracker',
+      'appName': 'Infinite Nutrition Tracker',
       'tagline': 'Better Health Every Day',
       'dashboard': 'Dashboard',
       'foodSearch': 'Food Search',
@@ -311,7 +334,7 @@ class AppStrings {
       'nutritionFacts': 'Nutrition Facts',
       'vitamins': 'Vitamins',
       'minerals': 'Minerals',
-      'welcomeTitle': 'Welcome to\nInfinite Health Tracker',
+      'welcomeTitle': 'Welcome to\nInfinite Nutrition Tracker',
       'welcomeSubtitle': 'Your personal nutrition companion.\nTrack calories, macros & vitamins.',
       'getStarted': 'Get Started',
       'profile': 'Profile',
@@ -449,11 +472,32 @@ class AppStrings {
       'localDatasetReady': '1,057 foods available offline',
       'searchBilingual': 'Search in English or Bengali…',
       'localResults': 'Results from local dataset',
-      'searchUsda': 'Search USDA Database',
-      'noLocalResults': 'No local results — try USDA search',
+      'searchUsda': 'Search International Database',
+      'noLocalResults': 'No local results — try International search',
+      // Custom Nutrition Limits
+      'customNutritionLimits': 'Custom Nutrition Goals',
+      'customLimitsToggle': 'Set My Own Goals',
+      'customLimitsDisclaimer': '⚠️  Medical Conditions Detected',
+      'customLimitsDoctorNote': 'If you have diabetes, pregnancy, kidney disease, or any other medical condition, please strictly consult a doctor or registered dietitian before setting custom nutrition goals. Incorrect limits can be harmful.',
+      'customCalorieLimit': 'Daily Calorie Limit (kcal)',
+      'customProteinLimit': 'Protein Goal (g)',
+      'customCarbsLimit': 'Carbs Goal (g)',
+      'customFatLimit': 'Fat Goal (g)',
+      'useAutoCalculated': 'Use auto-calculated goals',
+      'customLimitsActive': 'Custom goals active',
+      // Activity & Burned Calories
+      'activityCalories': 'Activity Calories',
+      'activityBurned': 'Activity Burned',
+      'deductFromDaily': 'Deduct from daily calorie total',
+      'netCalories': 'Net Calories',
+      'burnedKcalLabel': 'Burned (kcal)',
+      'logActivityBurned': 'Log Activity',
+      'enterBurnedKcal': 'Enter burned calories',
+      'items': 'items',
+      'steps': 'steps',
     },
     'bn': {
-      'appName': 'ইনফিনিট হেলথ ট্র্যাকার',
+      'appName': 'ইনফিনিট নিউট্রিশন ট্র্যাকার',
       'tagline': 'প্রতিদিন সুস্বাস্থ্য',
       'dashboard': 'ড্যাশবোর্ড',
       'foodSearch': 'খাবার খুঁজুন',
@@ -529,7 +573,7 @@ class AppStrings {
       'nutritionFacts': 'পুষ্টির তথ্য',
       'vitamins': 'ভিটামিন',
       'minerals': 'খনিজ',
-      'welcomeTitle': 'ইনফিনিট হেলথ\nট্র্যাকারে স্বাগতম',
+      'welcomeTitle': 'ইনফিনিট নিউট্রিশন\nট্র্যাকারে স্বাগতম',
       'welcomeSubtitle': 'আপনার ব্যক্তিগত পুষ্টি সহায়ক।\nক্যালোরি, ম্যাক্রো এবং ভিটামিন ট্র্যাক করুন।',
       'getStarted': 'শুরু করুন',
       'profile': 'প্রোফাইল',
@@ -667,8 +711,29 @@ class AppStrings {
       'localDatasetReady': '১,০৫৭টি খাবার অফলাইনে উপলব্ধ',
       'searchBilingual': 'বাংলা বা ইংরেজিতে খুঁজুন…',
       'localResults': 'স্থানীয় ডেটা থেকে ফলাফল',
-      'searchUsda': 'USDA ডেটাবেজে খুঁজুন',
-      'noLocalResults': 'স্থানীয় ডেটায় নেই — USDA খুঁজুন',
+      'searchUsda': 'আন্তর্জাতিক ডেটাবেজে খুঁজুন',
+      'noLocalResults': 'স্থানীয় ডেটায় নেই — আন্তর্জাতিক খুঁজুন',
+      // Custom Nutrition Limits
+      'customNutritionLimits': 'কাস্টম পুষ্টির লক্ষ্যমাত্রা',
+      'customLimitsToggle': 'নিজের লক্ষ্য নির্ধারণ করুন',
+      'customLimitsDisclaimer': '⚠️  চিকিৎসাগত অবস্থা',
+      'customLimitsDoctorNote': 'ডায়াবেটিস, গর্ভাবস্থা, কিডনি রোগ বা অন্য কোনো চিকিৎসাগত সমস্যা থাকলে কাস্টম পুষ্টির লক্ষ্যমাত্রা নির্ধারণের আগে অবশ্যই ডাক্তার বা রেজিস্টার্ড পুষ্টিবিদের পরামর্শ নিন। ভুল সীমা স্বাস্থ্যের জন্য ক্ষতিকর হতে পারে।',
+      'customCalorieLimit': 'দৈনিক ক্যালোরি সীমা (kcal)',
+      'customProteinLimit': 'প্রোটিন লক্ষ্য (গ্রাম)',
+      'customCarbsLimit': 'কার্বস লক্ষ্য (গ্রাম)',
+      'customFatLimit': 'ফ্যাট লক্ষ্য (গ্রাম)',
+      'useAutoCalculated': 'স্বয়ংক্রিয় হিসাব ব্যবহার করুন',
+      'customLimitsActive': 'কাস্টম লক্ষ্য সক্রিয়',
+      // Activity & Burned Calories
+      'activityCalories': 'কার্যকলাপ ক্যালোরি',
+      'activityBurned': 'কার্যকলাপে পোড়া',
+      'deductFromDaily': 'দৈনিক মোট থেকে বাদ দিন',
+      'netCalories': 'নেট ক্যালোরি',
+      'burnedKcalLabel': 'পোড়া (কিলোক্যালোরি)',
+      'logActivityBurned': 'কার্যকলাপ লগ করুন',
+      'enterBurnedKcal': 'পোড়া ক্যালোরি লিখুন',
+      'items': 'আইটেম',
+      'steps': 'স্টেপ',
     },
   };
 }

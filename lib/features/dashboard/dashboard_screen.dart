@@ -87,6 +87,8 @@ class DashboardScreen extends ConsumerWidget {
                 const SizedBox(height: 16),
                 _CalorieCard(state: state),
                 const SizedBox(height: 16),
+                _ActivityCaloriesCard(state: state),
+                const SizedBox(height: 16),
                 _EnergyBalanceCard(state: state),
                 const SizedBox(height: 16),
                 _MacrosRow(state: state),
@@ -577,9 +579,13 @@ class _CalorieCard extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = ref.watch(appStringsProvider);
     final theme = Theme.of(context);
+    final bn = l10n.isBengali;
     final goals = state.goals;
     final calorieGoal = goals?.calories ?? 2000;
-    final remaining = (calorieGoal - state.totalCalories).clamp(0.0, calorieGoal);
+
+    final hasBurned = state.deductBurnedCalories && state.burnedCaloriesKcal > 0;
+    final netCal = state.netCalories;
+    final remaining = (calorieGoal - netCal).clamp(0.0, calorieGoal);
 
     return Card(
       child: Padding(
@@ -587,7 +593,7 @@ class _CalorieCard extends ConsumerWidget {
         child: Row(
           children: [
             MacroRingChart(
-              calories: state.totalCalories,
+              calories: netCal,
               calorieGoal: calorieGoal,
               protein: state.totalProtein,
               carbs: state.totalCarbs,
@@ -599,21 +605,346 @@ class _CalorieCard extends ConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  _StatRow(label: l10n.consumed, value: '${state.totalCalories.toStringAsFixed(0)} ${l10n.kcal}', color: AppColors.calories),
+                  _StatRow(
+                    label: l10n.consumed,
+                    value: '${state.totalCalories.toStringAsFixed(0)} kcal',
+                    color: AppColors.calories,
+                  ),
+                  if (hasBurned) ...[
+                    const SizedBox(height: 6),
+                    _StatRow(
+                      label: l10n.activityBurned,
+                      value: '−${state.burnedCaloriesKcal.toStringAsFixed(0)} kcal',
+                      color: const Color(0xFF27AE60),
+                    ),
+                    const SizedBox(height: 6),
+                    _StatRow(
+                      label: l10n.netCalories,
+                      value: '${netCal.toStringAsFixed(0)} kcal',
+                      color: AppColors.primary,
+                    ),
+                  ],
                   const SizedBox(height: 8),
-                  _StatRow(label: l10n.goal, value: '${calorieGoal.toStringAsFixed(0)} ${l10n.kcal}', color: AppColors.primary),
+                  _StatRow(
+                    label: l10n.goal,
+                    value: '${calorieGoal.toStringAsFixed(0)} kcal',
+                    color: AppColors.primary,
+                  ),
                   const SizedBox(height: 8),
-                  _StatRow(label: l10n.remaining, value: '${remaining.toStringAsFixed(0)} ${l10n.kcal}', color: AppColors.secondary),
+                  _StatRow(
+                    label: l10n.remaining,
+                    value: '${remaining.toStringAsFixed(0)} kcal',
+                    color: AppColors.secondary,
+                  ),
                   if (goals != null) ...[
-                    const SizedBox(height: 12),
-                    Text('BMR: ${goals.bmr.toStringAsFixed(0)} kcal', style: theme.textTheme.bodySmall),
-                    Text('TDEE: ${goals.tdee.toStringAsFixed(0)} kcal', style: theme.textTheme.bodySmall),
+                    const SizedBox(height: 10),
+                    Text(
+                      bn
+                          ? 'বিএমআর: ${goals.bmr.toStringAsFixed(0)} kcal'
+                          : 'BMR: ${goals.bmr.toStringAsFixed(0)} kcal',
+                      style: theme.textTheme.bodySmall,
+                    ),
+                    Text(
+                      bn
+                          ? 'টিডিইই: ${goals.tdee.toStringAsFixed(0)} kcal'
+                          : 'TDEE: ${goals.tdee.toStringAsFixed(0)} kcal',
+                      style: theme.textTheme.bodySmall,
+                    ),
                   ],
                 ],
               ),
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// Activity Calories Card
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _ActivityCaloriesCard extends ConsumerWidget {
+  final DashboardState state;
+  const _ActivityCaloriesCard({required this.state});
+
+  void _showInputDialog(BuildContext context, WidgetRef ref, AppStrings l10n) {
+    final ctrl = TextEditingController(
+      text: state.burnedCaloriesKcal > 0
+          ? state.burnedCaloriesKcal.toStringAsFixed(0)
+          : '',
+    );
+    final bn = l10n.isBengali;
+    showDialog(
+      context: context,
+      builder: (_) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.directions_run_rounded,
+                color: Color(0xFF27AE60), size: 20),
+            const SizedBox(width: 8),
+            Text(l10n.logActivityBurned),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              bn
+                  ? 'আজকের কার্যকলাপে কত ক্যালোরি পুড়েছেন? (যেমন: হাঁটা, দৌড়, সাইকেল, যোগব্যায়াম)'
+                  : 'How many calories did you burn through activity today? (e.g. walking, running, cycling, yoga)',
+              style: const TextStyle(fontSize: 13),
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: ctrl,
+              keyboardType: TextInputType.number,
+              autofocus: true,
+              decoration: InputDecoration(
+                labelText: l10n.burnedKcalLabel,
+                suffixText: 'kcal',
+                border: const OutlineInputBorder(),
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.cancel),
+          ),
+          if (state.burnedCaloriesKcal > 0)
+            TextButton(
+              onPressed: () {
+                ref.read(dashboardProvider.notifier).setBurnedCalories(0);
+                Navigator.pop(context);
+              },
+              child: Text(
+                bn ? 'রিসেট' : 'Reset',
+                style: const TextStyle(color: Colors.red),
+              ),
+            ),
+          ElevatedButton(
+            onPressed: () {
+              final v = double.tryParse(ctrl.text.trim());
+              if (v != null && v >= 0) {
+                ref.read(dashboardProvider.notifier).setBurnedCalories(v);
+              }
+              Navigator.pop(context);
+            },
+            child: Text(l10n.save),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = ref.watch(appStringsProvider);
+    final bn = l10n.isBengali;
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    const green = Color(0xFF27AE60);
+    final burned = state.burnedCaloriesKcal;
+    final deduct = state.deductBurnedCalories;
+
+    final cardBg = isDark ? const Color(0xFF1A2A1F) : const Color(0xFFF0FFF4);
+    final borderColor = isDark
+        ? green.withValues(alpha: 0.3)
+        : green.withValues(alpha: 0.3);
+
+    return Container(
+      decoration: BoxDecoration(
+        color: cardBg,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: borderColor, width: 1.2),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // ── Header ──────────────────────────────────────────────────
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(7),
+                  decoration: BoxDecoration(
+                    color: green.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(9),
+                  ),
+                  child: const Icon(Icons.directions_run_rounded,
+                      color: green, size: 17),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        l10n.activityCalories,
+                        style: theme.textTheme.titleSmall?.copyWith(
+                          fontWeight: FontWeight.w700,
+                          color: green,
+                        ),
+                      ),
+                      if (burned > 0)
+                        Text(
+                          bn
+                              ? '${burned.toStringAsFixed(0)} kcal পোড়া হয়েছে'
+                              : '${burned.toStringAsFixed(0)} kcal burned today',
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: green,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        )
+                      else
+                        Text(
+                          bn
+                              ? 'আজকের কার্যকলাপ লগ করুন'
+                              : 'Log today\'s activity calories',
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.colorScheme.onSurface
+                                .withValues(alpha: 0.55),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+                // Log / Edit button
+                OutlinedButton.icon(
+                  onPressed: () => _showInputDialog(context, ref, l10n),
+                  icon: Icon(
+                    burned > 0 ? Icons.edit_rounded : Icons.add_rounded,
+                    size: 14,
+                  ),
+                  label: Text(
+                    burned > 0
+                        ? (bn ? 'সম্পাদনা' : 'Edit')
+                        : l10n.logActivityBurned,
+                    style: const TextStyle(fontSize: 12),
+                  ),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: green,
+                    side: BorderSide(color: green.withValues(alpha: 0.5)),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 10, vertical: 6),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8)),
+                  ),
+                ),
+              ],
+            ),
+
+            if (burned > 0) ...[
+              const SizedBox(height: 12),
+              // Quick +/- buttons
+              Row(
+                children: [
+                  _BurnButton(
+                    label: bn ? '−৫০' : '−50',
+                    kcal: -50,
+                    color: Colors.red.shade400,
+                    ref: ref,
+                    current: burned,
+                  ),
+                  const SizedBox(width: 6),
+                  _BurnButton(
+                    label: bn ? '−১০০' : '−100',
+                    kcal: -100,
+                    color: Colors.red.shade400,
+                    ref: ref,
+                    current: burned,
+                  ),
+                  const SizedBox(width: 6),
+                  _BurnButton(
+                    label: bn ? '+৫০' : '+50',
+                    kcal: 50,
+                    color: green,
+                    ref: ref,
+                    current: burned,
+                  ),
+                  const SizedBox(width: 6),
+                  _BurnButton(
+                    label: bn ? '+১০০' : '+100',
+                    kcal: 100,
+                    color: green,
+                    ref: ref,
+                    current: burned,
+                  ),
+                ],
+              ),
+            ],
+
+            const SizedBox(height: 10),
+            // ── Deduct toggle ─────────────────────────────────────────────
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    l10n.deductFromDaily,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+                Transform.scale(
+                  scale: 0.85,
+                  child: Switch(
+                    value: deduct,
+                    activeThumbColor: green,
+                    activeTrackColor: green.withValues(alpha: 0.4),
+                    onChanged: (v) {
+                      ref
+                          .read(dashboardProvider.notifier)
+                          .setDeductBurnedCalories(v);
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _BurnButton extends StatelessWidget {
+  final String label;
+  final double kcal;
+  final Color color;
+  final WidgetRef ref;
+  final double current;
+
+  const _BurnButton({
+    required this.label,
+    required this.kcal,
+    required this.color,
+    required this.ref,
+    required this.current,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: OutlinedButton(
+        onPressed: () {
+          final next = (current + kcal).clamp(0.0, 5000.0);
+          ref.read(dashboardProvider.notifier).setBurnedCalories(next);
+        },
+        style: OutlinedButton.styleFrom(
+          foregroundColor: color,
+          side: BorderSide(color: color.withValues(alpha: 0.5)),
+          padding: const EdgeInsets.symmetric(vertical: 6),
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8)),
+          textStyle:
+              const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+        ),
+        child: Text(label),
       ),
     );
   }
@@ -899,10 +1230,12 @@ class _EnergyBalanceCardState extends ConsumerState<_EnergyBalanceCard>
   }
 
   String _fmtSteps(int steps) {
+    final l10n = ref.read(appStringsProvider);
+    final label = l10n.steps;
     if (steps >= 1000) {
-      return '${(steps / 1000).toStringAsFixed(steps % 1000 == 0 ? 0 : 1)}k steps';
+      return '${(steps / 1000).toStringAsFixed(steps % 1000 == 0 ? 0 : 1)}k $label';
     }
-    return '$steps steps';
+    return '$steps $label';
   }
 }
 
@@ -1176,7 +1509,9 @@ class _MealCard extends StatelessWidget {
           ),
           title: Text(label, style: Theme.of(context).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600)),
           subtitle: Text(
-            entries.isEmpty ? l10n.tapToAdd : '${entries.length} items',
+            entries.isEmpty
+                ? l10n.tapToAdd
+                : '${entries.length} ${l10n.items}',
             style: Theme.of(context).textTheme.bodySmall,
           ),
           trailing: entries.isEmpty

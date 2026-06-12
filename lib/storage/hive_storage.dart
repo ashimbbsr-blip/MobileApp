@@ -280,6 +280,64 @@ class HiveStorage {
   static Future<void> saveWaterMl(String dateKey, double ml) async =>
       settingsBox.put('water_$dateKey', ml.clamp(0, 5000));
 
+  // ── Activity Burned Calories (per-day) ───────────────────────────────────
+
+  static double getBurnedCalories(String dateKey) =>
+      (settingsBox.get('burned_$dateKey', defaultValue: 0.0) as num).toDouble();
+
+  static Future<void> saveBurnedCalories(String dateKey, double kcal) async =>
+      settingsBox.put('burned_$dateKey', kcal.clamp(0, 5000));
+
+  static bool get deductBurnedCalories =>
+      settingsBox.get('deductBurnedCalories', defaultValue: false) as bool;
+
+  static Future<void> setDeductBurnedCalories(bool v) async =>
+      settingsBox.put('deductBurnedCalories', v);
+
+  // ── Custom Nutrition Limits ──────────────────────────────────────────────
+
+  static bool get useCustomLimits =>
+      settingsBox.get('useCustomLimits', defaultValue: false) as bool;
+
+  static Future<void> setUseCustomLimits(bool v) async =>
+      settingsBox.put('useCustomLimits', v);
+
+  static double? get customCalories {
+    final v = settingsBox.get('customCalories');
+    return v is num ? v.toDouble() : null;
+  }
+
+  static Future<void> saveCustomCalories(double? v) async => v == null
+      ? settingsBox.delete('customCalories')
+      : settingsBox.put('customCalories', v);
+
+  static double? get customProteinG {
+    final v = settingsBox.get('customProteinG');
+    return v is num ? v.toDouble() : null;
+  }
+
+  static Future<void> saveCustomProteinG(double? v) async => v == null
+      ? settingsBox.delete('customProteinG')
+      : settingsBox.put('customProteinG', v);
+
+  static double? get customCarbsG {
+    final v = settingsBox.get('customCarbsG');
+    return v is num ? v.toDouble() : null;
+  }
+
+  static Future<void> saveCustomCarbsG(double? v) async => v == null
+      ? settingsBox.delete('customCarbsG')
+      : settingsBox.put('customCarbsG', v);
+
+  static double? get customFatG {
+    final v = settingsBox.get('customFatG');
+    return v is num ? v.toDouble() : null;
+  }
+
+  static Future<void> saveCustomFatG(double? v) async => v == null
+      ? settingsBox.delete('customFatG')
+      : settingsBox.put('customFatG', v);
+
   static Future<void> resetAllData() async {
     await userBox.clear();
     await mealsBox.clear();

@@ -78,6 +78,11 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
+          // ── Custom Nutrition Goals ────────────────────────────────────────
+          _CustomNutritionLimitsCard(l10n: l10n, theme: theme),
+
+          const SizedBox(height: 16),
+
           // ── Appearance ────────────────────────────────────────────────────
           Card(
             child: Column(
@@ -323,13 +328,304 @@ class SettingsScreen extends ConsumerWidget {
       context: context,
       builder: (ctx) => AboutDialog(
         applicationName: l10n.appName,
-        applicationVersion: '1.0.0',
-        applicationLegalese: '© 2026 Infinity Health Tracker\n${l10n.tagline}',
+        applicationVersion: AppConstants.currentAppVersion,
+        applicationLegalese: '© 2026 Infinite Nutrition Tracker\n${l10n.tagline}',
         children: [
           const SizedBox(height: 16),
           const Text(
               'A bilingual (English + Bengali) nutrition tracking app.\nFully offline-first. No data leaves your device.'),
         ],
+      ),
+    );
+  }
+}
+
+// ── Custom Nutrition Limits ───────────────────────────────────────────────────
+
+class _CustomNutritionLimitsCard extends ConsumerStatefulWidget {
+  final AppStrings l10n;
+  final ThemeData theme;
+  const _CustomNutritionLimitsCard(
+      {required this.l10n, required this.theme});
+
+  @override
+  ConsumerState<_CustomNutritionLimitsCard> createState() =>
+      _CustomNutritionLimitsCardState();
+}
+
+class _CustomNutritionLimitsCardState
+    extends ConsumerState<_CustomNutritionLimitsCard> {
+  bool _useCustom = false;
+  final _calCtrl = TextEditingController();
+  final _proCtrl = TextEditingController();
+  final _carbCtrl = TextEditingController();
+  final _fatCtrl = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    _useCustom = HiveStorage.useCustomLimits;
+    _calCtrl.text = HiveStorage.customCalories?.toStringAsFixed(0) ?? '';
+    _proCtrl.text = HiveStorage.customProteinG?.toStringAsFixed(0) ?? '';
+    _carbCtrl.text = HiveStorage.customCarbsG?.toStringAsFixed(0) ?? '';
+    _fatCtrl.text = HiveStorage.customFatG?.toStringAsFixed(0) ?? '';
+  }
+
+  @override
+  void dispose() {
+    _calCtrl.dispose();
+    _proCtrl.dispose();
+    _carbCtrl.dispose();
+    _fatCtrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _saveAll() async {
+    await HiveStorage.setUseCustomLimits(_useCustom);
+    await HiveStorage.saveCustomCalories(double.tryParse(_calCtrl.text.trim()));
+    await HiveStorage.saveCustomProteinG(double.tryParse(_proCtrl.text.trim()));
+    await HiveStorage.saveCustomCarbsG(double.tryParse(_carbCtrl.text.trim()));
+    await HiveStorage.saveCustomFatG(double.tryParse(_fatCtrl.text.trim()));
+    ref.read(profileProvider.notifier).refresh();
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        content: Text(widget.l10n.isBengali
+            ? 'পুষ্টির লক্ষ্যমাত্রা সংরক্ষিত হয়েছে'
+            : 'Nutrition goals saved'),
+        backgroundColor: AppColors.primary,
+      ));
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = widget.l10n;
+    final theme = widget.theme;
+    final bn = l10n.isBengali;
+    final isDark = theme.brightness == Brightness.dark;
+    const accent = Color(0xFF8E44AD);
+
+    return Card(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // ── Section header ─────────────────────────────────────────────
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+            child: Row(
+              children: [
+                const Icon(Icons.tune_rounded,
+                    color: Color(0xFF8E44AD), size: 16),
+                const SizedBox(width: 6),
+                Text(
+                  l10n.customNutritionLimits,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                      color: accent, fontWeight: FontWeight.w700),
+                ),
+                if (_useCustom) ...[
+                  const SizedBox(width: 8),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 7, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: accent.withValues(alpha: 0.12),
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                    child: Text(
+                      l10n.customLimitsActive,
+                      style: TextStyle(
+                          fontSize: 10,
+                          color: accent,
+                          fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ),
+
+          // ── Toggle row ─────────────────────────────────────────────────
+          ListTile(
+            leading: const Icon(Icons.settings_applications_rounded,
+                color: Color(0xFF8E44AD)),
+            title: Text(l10n.customLimitsToggle),
+            trailing: Switch(
+              value: _useCustom,
+              activeThumbColor: accent,
+              activeTrackColor: accent.withValues(alpha: 0.4),
+              onChanged: (v) async {
+                setState(() => _useCustom = v);
+                await HiveStorage.setUseCustomLimits(v);
+                ref.read(profileProvider.notifier).refresh();
+              },
+            ),
+          ),
+
+          if (_useCustom) ...[
+            // ── Medical disclaimer ───────────────────────────────────────
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+              child: Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: isDark
+                      ? Colors.orange.shade900.withValues(alpha: 0.3)
+                      : Colors.amber.shade50,
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(
+                      color: Colors.orange.shade300, width: 1.2),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Icon(Icons.medical_services_outlined,
+                            color: Colors.orange.shade700, size: 17),
+                        const SizedBox(width: 6),
+                        Text(
+                          l10n.customLimitsDisclaimer,
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w700,
+                            color: Colors.orange.shade800,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      l10n.customLimitsDoctorNote,
+                      style: TextStyle(
+                          fontSize: 12, color: Colors.orange.shade800),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+            // ── Input fields ─────────────────────────────────────────────
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 4),
+              child: Column(
+                children: [
+                  _LimitField(
+                    ctrl: _calCtrl,
+                    label: l10n.customCalorieLimit,
+                    hint: bn ? 'যেমন: ১৮০০' : 'e.g. 1800',
+                    unit: 'kcal',
+                    icon: Icons.local_fire_department_rounded,
+                    color: AppColors.calories,
+                  ),
+                  const SizedBox(height: 10),
+                  _LimitField(
+                    ctrl: _proCtrl,
+                    label: l10n.customProteinLimit,
+                    hint: bn ? 'যেমন: ৮০' : 'e.g. 80',
+                    unit: 'g',
+                    icon: Icons.fitness_center_rounded,
+                    color: AppColors.protein,
+                  ),
+                  const SizedBox(height: 10),
+                  _LimitField(
+                    ctrl: _carbCtrl,
+                    label: l10n.customCarbsLimit,
+                    hint: bn ? 'যেমন: ২০০' : 'e.g. 200',
+                    unit: 'g',
+                    icon: Icons.grain_rounded,
+                    color: AppColors.carbs,
+                  ),
+                  const SizedBox(height: 10),
+                  _LimitField(
+                    ctrl: _fatCtrl,
+                    label: l10n.customFatLimit,
+                    hint: bn ? 'যেমন: ৬০' : 'e.g. 60',
+                    unit: 'g',
+                    icon: Icons.opacity_rounded,
+                    color: AppColors.fat,
+                  ),
+                  const SizedBox(height: 14),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      onPressed: _saveAll,
+                      icon: const Icon(Icons.save_rounded, size: 16),
+                      label: Text(l10n.save),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: accent,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10)),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  TextButton(
+                    onPressed: () async {
+                      setState(() {
+                        _useCustom = false;
+                        _calCtrl.clear();
+                        _proCtrl.clear();
+                        _carbCtrl.clear();
+                        _fatCtrl.clear();
+                      });
+                      await HiveStorage.setUseCustomLimits(false);
+                      await HiveStorage.saveCustomCalories(null);
+                      await HiveStorage.saveCustomProteinG(null);
+                      await HiveStorage.saveCustomCarbsG(null);
+                      await HiveStorage.saveCustomFatG(null);
+                      ref.read(profileProvider.notifier).refresh();
+                    },
+                    child: Text(
+                      l10n.useAutoCalculated,
+                      style: TextStyle(
+                          color: theme.colorScheme.onSurface
+                              .withValues(alpha: 0.55)),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _LimitField extends StatelessWidget {
+  final TextEditingController ctrl;
+  final String label, hint, unit;
+  final IconData icon;
+  final Color color;
+
+  const _LimitField({
+    required this.ctrl,
+    required this.label,
+    required this.hint,
+    required this.unit,
+    required this.icon,
+    required this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return TextField(
+      controller: ctrl,
+      keyboardType: const TextInputType.numberWithOptions(decimal: true),
+      decoration: InputDecoration(
+        labelText: label,
+        hintText: hint,
+        suffixText: unit,
+        prefixIcon: Icon(icon, color: color, size: 18),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10),
+          borderSide: BorderSide(color: color, width: 1.5),
+        ),
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
       ),
     );
   }

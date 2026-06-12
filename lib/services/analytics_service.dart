@@ -20,6 +20,7 @@ class DailyNutrition {
   final double magnesium;
   final double zinc;
   final int mealCount;
+  final double burnedCalories;
 
   const DailyNutrition({
     required this.date,
@@ -37,6 +38,7 @@ class DailyNutrition {
     required this.magnesium,
     required this.zinc,
     required this.mealCount,
+    this.burnedCalories = 0,
   });
 
   bool get hasData => mealCount > 0;
@@ -60,6 +62,7 @@ class DailyNutrition {
         magnesium: 0,
         zinc: 0,
         mealCount: 0,
+        burnedCalories: 0,
       );
 
   static DailyNutrition fromMeals(DateTime date, List<MealEntry> meals) {
@@ -87,6 +90,7 @@ class DailyNutrition {
       magnesium: micro((f) => f.magnesiumMg),
       zinc: micro((f) => f.zincMg),
       mealCount: meals.length,
+      burnedCalories: HiveStorage.getBurnedCalories(date.toLogKey()),
     );
   }
 }
@@ -130,7 +134,7 @@ class AnalyticsService {
     return List.generate(n, (i) {
       final date = today.subtract(Duration(days: n - 1 - i));
       final meals = HiveStorage.getMealsForDate(date.toLogKey());
-      return DailyNutrition.fromMeals(date, meals);
+      return DailyNutrition.fromMeals(date, meals); // burnedCalories loaded inside fromMeals
     });
   }
 

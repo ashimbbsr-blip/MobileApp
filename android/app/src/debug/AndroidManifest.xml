@@ -1,6 +1,8 @@
 ﻿<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <application>
+    <application
+        android:usesCleartextTraffic="true"
+        tools:replace="android:usesCleartextTraffic">
         <!-- Disable Impeller on x86_64 debug emulators — avoids black screen
              on Android 17 AVDs. Release builds (arm64) use Impeller normally. -->
         <meta-data

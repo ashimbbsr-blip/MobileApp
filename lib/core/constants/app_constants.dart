@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Infinite Health Tracker';
+  static const String appName = 'Infinite Nutrition Tracker';
   static const String appTagline = 'Better Health Every Day';
 
   // USDA Food Data Central API — managed key, not exposed to users
@@ -26,7 +26,6 @@ class AppConstants {
   static const String hiveFoodCacheBox = 'food_cache_box';
   static const String hiveLocalFoodBox = 'local_food_box';
   static const String hiveSettingsBox = 'settings_box';
-  static const String hiveDailyLogsBox = 'daily_logs_box';
   static const String hiveMonthlySummaryBox = 'monthly_summary_box';
   static const String hiveLegalBox = 'legal_box';
 
@@ -45,5 +44,5 @@ class AppConstants {
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.0';
+  static const String currentAppVersion = '1.1.1';
 }

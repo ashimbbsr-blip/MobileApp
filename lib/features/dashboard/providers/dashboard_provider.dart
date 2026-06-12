@@ -13,6 +13,8 @@ class DashboardState {
   final List<MealEntry> todaysMeals;
   final String selectedDateKey;
   final double waterIntakeMl;
+  final double burnedCaloriesKcal;
+  final bool deductBurnedCalories;
 
   const DashboardState({
     this.userProfile,
@@ -20,6 +22,8 @@ class DashboardState {
     this.todaysMeals = const [],
     required this.selectedDateKey,
     this.waterIntakeMl = 0,
+    this.burnedCaloriesKcal = 0,
+    this.deductBurnedCalories = false,
   });
 
   double get totalCalories => todaysMeals.fold(0, (sum, m) => sum + m.calories);
@@ -29,6 +33,11 @@ class DashboardState {
   double get totalFiber => todaysMeals.fold(0, (sum, m) => sum + m.fiberG);
   double get totalAlcohol => todaysMeals.fold(0, (sum, m) => sum + m.alcoholG);
   double get totalSodium => todaysMeals.fold(0, (sum, m) => sum + m.sodiumMg);
+
+  // Net calories = consumed minus activity burned (when deduction is enabled)
+  double get netCalories => deductBurnedCalories && burnedCaloriesKcal > 0
+      ? (totalCalories - burnedCaloriesKcal).clamp(0.0, double.infinity)
+      : totalCalories;
 
   double _microSum(double? Function(FoodItem) getter) =>
       todaysMeals.fold<double>(0, (sum, m) {
@@ -59,6 +68,8 @@ class DashboardState {
     List<MealEntry>? todaysMeals,
     String? selectedDateKey,
     double? waterIntakeMl,
+    double? burnedCaloriesKcal,
+    bool? deductBurnedCalories,
   }) {
     return DashboardState(
       userProfile: userProfile ?? this.userProfile,
@@ -66,6 +77,8 @@ class DashboardState {
       todaysMeals: todaysMeals ?? this.todaysMeals,
       selectedDateKey: selectedDateKey ?? this.selectedDateKey,
       waterIntakeMl: waterIntakeMl ?? this.waterIntakeMl,
+      burnedCaloriesKcal: burnedCaloriesKcal ?? this.burnedCaloriesKcal,
+      deductBurnedCalories: deductBurnedCalories ?? this.deductBurnedCalories,
     );
   }
 }
@@ -78,14 +91,30 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
 
   void _loadData() {
     final profile = HiveStorage.getUserProfile();
-    final goals = profile != null ? NutritionCalculator.calculate(profile) : null;
+    var goals = profile != null ? NutritionCalculator.calculate(profile) : null;
+
+    // Apply custom nutrition limits if enabled
+    if (goals != null && HiveStorage.useCustomLimits) {
+      goals = goals.copyWith(
+        calories: HiveStorage.customCalories ?? goals.calories,
+        proteinG: HiveStorage.customProteinG ?? goals.proteinG,
+        carbsG: HiveStorage.customCarbsG ?? goals.carbsG,
+        fatG: HiveStorage.customFatG ?? goals.fatG,
+      );
+    }
+
     final meals = HiveStorage.getMealsForDate(state.selectedDateKey);
     final water = HiveStorage.getWaterMl(state.selectedDateKey);
+    final burned = HiveStorage.getBurnedCalories(state.selectedDateKey);
+    final deduct = HiveStorage.deductBurnedCalories;
+
     state = state.copyWith(
       userProfile: profile,
       goals: goals,
       todaysMeals: meals,
       waterIntakeMl: water,
+      burnedCaloriesKcal: burned,
+      deductBurnedCalories: deduct,
     );
   }
 
@@ -106,6 +135,23 @@ class DashboardNotifier extends StateNotifier<DashboardState> {
     final clamped = ml.clamp(0.0, 5000.0);
     await HiveStorage.saveWaterMl(state.selectedDateKey, clamped);
     state = state.copyWith(waterIntakeMl: clamped);
+  }
+
+  Future<void> addBurnedCalories(double kcal) async {
+    final newTotal = (state.burnedCaloriesKcal + kcal).clamp(0.0, 5000.0);
+    await HiveStorage.saveBurnedCalories(state.selectedDateKey, newTotal);
+    state = state.copyWith(burnedCaloriesKcal: newTotal);
+  }
+
+  Future<void> setBurnedCalories(double kcal) async {
+    final clamped = kcal.clamp(0.0, 5000.0);
+    await HiveStorage.saveBurnedCalories(state.selectedDateKey, clamped);
+    state = state.copyWith(burnedCaloriesKcal: clamped);
+  }
+
+  Future<void> setDeductBurnedCalories(bool v) async {
+    await HiveStorage.setDeductBurnedCalories(v);
+    state = state.copyWith(deductBurnedCalories: v);
   }
 }
 

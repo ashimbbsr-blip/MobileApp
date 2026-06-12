@@ -115,6 +115,8 @@ class _PeriodTab extends StatelessWidget {
           const SizedBox(height: 16),
           _WeeklyEnergyBalanceCard(data: data, targetKcal: goalCalories, tdee: tdee),
           const SizedBox(height: 16),
+          _ActivityBurnedSummaryCard(data: data),
+          const SizedBox(height: 16),
           _MacroAveragesCard(data: data),
           const SizedBox(height: 16),
           _NutritionStreakCard(data: data, goalCalories: goalCalories),
@@ -766,6 +768,122 @@ class _MiniStat extends StatelessWidget {
     return Column(children: [
       Text(value, style: TextStyle(color: color, fontWeight: FontWeight.w700, fontSize: 14)),
       Text(label, style: Theme.of(context).textTheme.bodySmall),
+    ]);
+  }
+}
+
+// ── Activity Burned Summary ───────────────────────────────────────────────────
+
+class _ActivityBurnedSummaryCard extends StatelessWidget {
+  final List<DailyNutrition> data;
+  const _ActivityBurnedSummaryCard({required this.data});
+
+  @override
+  Widget build(BuildContext context) {
+    final totalBurned = data.fold<double>(0, (s, d) => s + d.burnedCalories);
+    if (totalBurned <= 0) return const SizedBox.shrink();
+
+    final daysWithActivity =
+        data.where((d) => d.burnedCalories > 0).length;
+    final avgBurned =
+        daysWithActivity > 0 ? totalBurned / daysWithActivity : 0.0;
+    const green = Color(0xFF27AE60);
+    final theme = Theme.of(context);
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: green.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Icon(Icons.directions_run_rounded,
+                    color: green, size: 18),
+              ),
+              const SizedBox(width: 10),
+              Text(
+                'Activity Burned',
+                style: theme.textTheme.titleSmall
+                    ?.copyWith(fontWeight: FontWeight.w700),
+              ),
+            ]),
+            const SizedBox(height: 12),
+            Row(children: [
+              Expanded(
+                child: _ActivityStat(
+                  value: '${totalBurned.toStringAsFixed(0)}',
+                  unit: 'kcal',
+                  label: 'Total Burned',
+                  color: green,
+                ),
+              ),
+              Expanded(
+                child: _ActivityStat(
+                  value: '$daysWithActivity',
+                  unit: 'days',
+                  label: 'Active Days',
+                  color: AppColors.primary,
+                ),
+              ),
+              Expanded(
+                child: _ActivityStat(
+                  value: '${avgBurned.toStringAsFixed(0)}',
+                  unit: 'kcal/day',
+                  label: 'Avg Burned',
+                  color: AppColors.secondary,
+                ),
+              ),
+            ]),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ActivityStat extends StatelessWidget {
+  final String value, unit, label;
+  final Color color;
+  const _ActivityStat(
+      {required this.value,
+      required this.unit,
+      required this.label,
+      required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(children: [
+      RichText(
+        text: TextSpan(
+          children: [
+            TextSpan(
+              text: value,
+              style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w800,
+                  color: color),
+            ),
+            TextSpan(
+              text: ' $unit',
+              style: TextStyle(
+                  fontSize: 11,
+                  color: color.withOpacity(0.7)),
+            ),
+          ],
+        ),
+      ),
+      const SizedBox(height: 2),
+      Text(label,
+          style: Theme.of(context)
+              .textTheme
+              .bodySmall
+              ?.copyWith(fontSize: 11)),
     ]);
   }
 }
