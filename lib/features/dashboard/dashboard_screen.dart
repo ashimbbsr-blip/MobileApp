@@ -678,7 +678,7 @@ class _ActivityCaloriesCard extends ConsumerWidget {
     final bn = l10n.isBengali;
     showDialog(
       context: context,
-      builder: (_) => AlertDialog(
+      builder: (ctx) => AlertDialog(
         title: Row(
           children: [
             const Icon(Icons.directions_run_rounded,
@@ -711,14 +711,14 @@ class _ActivityCaloriesCard extends ConsumerWidget {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context),
+            onPressed: () => Navigator.pop(ctx),
             child: Text(l10n.cancel),
           ),
           if (state.burnedCaloriesKcal > 0)
             TextButton(
               onPressed: () {
                 ref.read(dashboardProvider.notifier).setBurnedCalories(0);
-                Navigator.pop(context);
+                Navigator.pop(ctx);
               },
               child: Text(
                 bn ? 'রিসেট' : 'Reset',
@@ -731,7 +731,7 @@ class _ActivityCaloriesCard extends ConsumerWidget {
               if (v != null && v >= 0) {
                 ref.read(dashboardProvider.notifier).setBurnedCalories(v);
               }
-              Navigator.pop(context);
+              Navigator.pop(ctx);
             },
             child: Text(l10n.save),
           ),

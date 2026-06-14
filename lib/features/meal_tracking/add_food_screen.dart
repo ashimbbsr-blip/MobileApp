@@ -13,28 +13,29 @@ import '../meal_tracking/providers/meal_provider.dart';
 // ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
 
 const _localCategories = [
-  'rice', 'roti', 'dal', 'fish', 'meat', 'vegetable', 'fruit',
-  'dairy', 'snack', 'sweets', 'beverage', 'soup', 'breakfast',
-  'protein', 'grain', 'noodle', 'nut',
+  'rice', 'bread', 'vegetable', 'legume', 'fish', 'meat', 'egg', 'dairy',
+  'fruit', 'snack', 'sweet', 'dessert', 'beverage', 'soup', 'breakfast',
+  'grain', 'salad', 'noodle',
 ];
 
 const _catIcons = <String, IconData>{
   'rice':      Icons.rice_bowl_outlined,
-  'roti':      Icons.breakfast_dining_outlined,
-  'dal':       Icons.soup_kitchen_outlined,
+  'bread':     Icons.breakfast_dining_outlined,
   'vegetable': Icons.eco_outlined,
+  'legume':    Icons.grass_outlined,
   'fruit':     Icons.apple_outlined,
   'fish':      Icons.set_meal_outlined,
   'meat':      Icons.lunch_dining_outlined,
+  'egg':       Icons.egg_outlined,
   'dairy':     Icons.water_drop_outlined,
   'snack':     Icons.cookie_outlined,
-  'sweets':    Icons.cake_outlined,
+  'sweet':     Icons.cake_outlined,
+  'dessert':   Icons.icecream_outlined,
   'beverage':  Icons.local_drink_outlined,
   'soup':      Icons.soup_kitchen_outlined,
   'breakfast': Icons.free_breakfast_outlined,
   'grain':     Icons.grain_outlined,
-  'nut':       Icons.circle_outlined,
-  'protein':   Icons.fitness_center_outlined,
+  'salad':     Icons.local_florist_outlined,
   'noodle':    Icons.ramen_dining_outlined,
   'other':     Icons.fastfood_outlined,
 };
@@ -42,21 +43,22 @@ const _catIcons = <String, IconData>{
 Color _catColor(String? cat) {
   switch (cat) {
     case 'rice':      return const Color(0xFFFF8C42);
-    case 'roti':      return const Color(0xFFE6A020);
-    case 'dal':       return const Color(0xFFD4A017);
+    case 'bread':     return const Color(0xFFE6A020);
+    case 'legume':    return const Color(0xFFD4A017);
     case 'vegetable': return const Color(0xFF43A047);
     case 'fruit':     return const Color(0xFFD81B60);
     case 'fish':      return const Color(0xFF1E88E5);
     case 'meat':      return const Color(0xFFD32F2F);
+    case 'egg':       return const Color(0xFFFF8F00);
     case 'dairy':     return const Color(0xFF0288D1);
     case 'snack':     return const Color(0xFF6D4C41);
-    case 'sweets':    return const Color(0xFFC2185B);
+    case 'sweet':     return const Color(0xFFC2185B);
+    case 'dessert':   return const Color(0xFFAD1457);
     case 'beverage':  return const Color(0xFF00897B);
     case 'soup':      return const Color(0xFFEF6C00);
     case 'breakfast': return const Color(0xFFF9A825);
     case 'grain':     return const Color(0xFF8D6E63);
-    case 'nut':       return const Color(0xFF795548);
-    case 'protein':   return const Color(0xFF6A1B9A);
+    case 'salad':     return const Color(0xFF2E7D32);
     case 'noodle':    return const Color(0xFFF57F17);
     default:          return const Color(0xFF546E7A);
   }
@@ -65,12 +67,24 @@ Color _catColor(String? cat) {
 String _catLabel(String cat, String lang) {
   if (lang == 'bn') {
     const bn = <String, String>{
-      'rice': 'ভাত', 'roti': 'রুটি', 'dal': 'ডাল',
-      'vegetable': 'সবজি', 'fruit': 'ফল', 'fish': 'মাছ',
-      'meat': 'মাংস', 'dairy': 'দুগ্ধ', 'snack': 'স্ন্যাকস',
-      'sweets': 'মিষ্টি', 'beverage': 'পানীয়', 'soup': 'স্যুপ',
-      'breakfast': 'সকালের খাবার', 'protein': 'প্রোটিন',
-      'grain': 'শস্য', 'noodle': 'নুডলস', 'nut': 'বাদাম',
+      'rice':      'ভাত',
+      'bread':     'রুটি',
+      'legume':    'ডাল',
+      'vegetable': 'সবজি',
+      'fruit':     'ফল',
+      'fish':      'মাছ',
+      'meat':      'মাংস',
+      'egg':       'ডিম',
+      'dairy':     'দুগ্ধ',
+      'snack':     'স্ন্যাকস',
+      'sweet':     'মিষ্টি',
+      'dessert':   'ডেজার্ট',
+      'beverage':  'পানীয়',
+      'soup':      'স্যুপ',
+      'breakfast': 'সকালের খাবার',
+      'grain':     'শস্য',
+      'salad':     'সালাদ',
+      'noodle':    'নুডুলস',
     };
     return bn[cat] ?? cat;
   }
@@ -145,7 +159,7 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
                     children: [
                       const Icon(Icons.travel_explore_rounded, size: 15),
                       const SizedBox(width: 4),
-                      Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
+                      Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'International'),
                     ],
                   ),
                 ),
