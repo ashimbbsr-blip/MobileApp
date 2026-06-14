@@ -42,7 +42,7 @@ class NutritionProgressBar extends StatelessWidget {
           borderRadius: BorderRadius.circular(4),
           child: LinearProgressIndicator(
             value: progress,
-            backgroundColor: color.withOpacity(0.15),
+            backgroundColor: color.withValues(alpha:0.15),
             valueColor: AlwaysStoppedAnimation<Color>(
               progress >= 1.0 ? Colors.red.shade400 : color,
             ),

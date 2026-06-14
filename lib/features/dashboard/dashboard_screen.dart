@@ -847,7 +847,6 @@ class _ActivityCaloriesCard extends ConsumerWidget {
                     label: bn ? '−৫০' : '−50',
                     kcal: -50,
                     color: Colors.red.shade400,
-                    ref: ref,
                     current: burned,
                   ),
                   const SizedBox(width: 6),
@@ -855,7 +854,6 @@ class _ActivityCaloriesCard extends ConsumerWidget {
                     label: bn ? '−১০০' : '−100',
                     kcal: -100,
                     color: Colors.red.shade400,
-                    ref: ref,
                     current: burned,
                   ),
                   const SizedBox(width: 6),
@@ -863,7 +861,6 @@ class _ActivityCaloriesCard extends ConsumerWidget {
                     label: bn ? '+৫০' : '+50',
                     kcal: 50,
                     color: green,
-                    ref: ref,
                     current: burned,
                   ),
                   const SizedBox(width: 6),
@@ -871,7 +868,6 @@ class _ActivityCaloriesCard extends ConsumerWidget {
                     label: bn ? '+১০০' : '+100',
                     kcal: 100,
                     color: green,
-                    ref: ref,
                     current: burned,
                   ),
                 ],
@@ -912,23 +908,21 @@ class _ActivityCaloriesCard extends ConsumerWidget {
   }
 }
 
-class _BurnButton extends StatelessWidget {
+class _BurnButton extends ConsumerWidget {
   final String label;
   final double kcal;
   final Color color;
-  final WidgetRef ref;
   final double current;
 
   const _BurnButton({
     required this.label,
     required this.kcal,
     required this.color,
-    required this.ref,
     required this.current,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Expanded(
       child: OutlinedButton(
         onPressed: () {
@@ -1502,7 +1496,7 @@ class _MealCard extends StatelessWidget {
           leading: Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: AppColors.primary.withOpacity(0.1),
+              color: AppColors.primary.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Icon(icon, color: AppColors.primary, size: 20),
@@ -1637,14 +1631,12 @@ class _WaterFiberCard extends ConsumerWidget {
                 _WaterButton(
                   label: bn ? '−১ গ্লাস' : '−1 glass',
                   ml: -250,
-                  ref: ref,
                   isSubtract: true,
                 ),
                 const SizedBox(width: 8),
                 _WaterButton(
                   label: bn ? '+১ গ্লাস' : '+1 glass',
                   ml: 250,
-                  ref: ref,
                 ),
               ],
             ),
@@ -1655,14 +1647,12 @@ class _WaterFiberCard extends ConsumerWidget {
                 _WaterButton(
                   label: bn ? '−বোতল' : '−bottle',
                   ml: -500,
-                  ref: ref,
                   isSubtract: true,
                 ),
                 const SizedBox(width: 8),
                 _WaterButton(
                   label: bn ? '+বোতল' : '+bottle',
                   ml: 500,
-                  ref: ref,
                 ),
               ],
             ),
@@ -1699,46 +1689,30 @@ class _WaterFiberCard extends ConsumerWidget {
   }
 }
 
-class _WaterButton extends StatelessWidget {
+class _WaterButton extends ConsumerWidget {
   final String label;
   final double ml;
-  final WidgetRef ref;
-  final bool isReset;
   final bool isSubtract;
 
   const _WaterButton({
     required this.label,
     required this.ml,
-    required this.ref,
-    this.isReset = false,
     this.isSubtract = false,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     const waterBlue = Color(0xFF29B6F6);
     const subtractRed = Color(0xFFEF5350);
 
-    final fgColor = isReset
-        ? Colors.grey
-        : isSubtract
-            ? subtractRed
-            : waterBlue;
-    final borderColor = isReset
-        ? Colors.grey.shade300
-        : isSubtract
-            ? subtractRed.withValues(alpha: 0.45)
-            : waterBlue.withValues(alpha: 0.5);
+    final fgColor = isSubtract ? subtractRed : waterBlue;
+    final borderColor = isSubtract
+        ? subtractRed.withValues(alpha: 0.45)
+        : waterBlue.withValues(alpha: 0.5);
 
     return Expanded(
       child: OutlinedButton(
-        onPressed: () {
-          if (isReset) {
-            ref.read(dashboardProvider.notifier).setWater(0);
-          } else {
-            ref.read(dashboardProvider.notifier).addWater(ml);
-          }
-        },
+        onPressed: () => ref.read(dashboardProvider.notifier).addWater(ml),
         style: OutlinedButton.styleFrom(
           foregroundColor: fgColor,
           side: BorderSide(color: borderColor),
@@ -1788,7 +1762,7 @@ class _DailySummaryCard extends ConsumerWidget {
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withOpacity(0.1),
+                  color: AppColors.primary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: const Icon(Icons.bar_chart_rounded, color: AppColors.primary),
@@ -1871,6 +1845,10 @@ class _DailySummarySheet extends StatelessWidget {
                 const Spacer(),
                 Text(
                   () {
+                    final parts = state.selectedDateKey.split('_');
+                    if (parts.length == 3) {
+                      return '${parts[2]}/${parts[1]}/${parts[0]}';
+                    }
                     final now = DateTime.now();
                     return '${now.day.toString().padLeft(2, '0')}/${now.month.toString().padLeft(2, '0')}/${now.year}';
                   }(),
@@ -1917,7 +1895,16 @@ class _DailySummarySheet extends StatelessWidget {
                     if (state.totalCalcium > 0)
                       _SummaryRow(label: l10n.calcium, consumed: state.totalCalcium, goal: NutritionConstants.calciumMg, unit: l10n.mg, l10n: l10n),
                     if (state.totalIron > 0)
-                      _SummaryRow(label: l10n.iron, consumed: state.totalIron, goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mg, l10n: l10n),
+                      _SummaryRow(
+                        label: l10n.iron,
+                        consumed: state.totalIron,
+                        goal: NutritionConstants.ironForGender(state.userProfile?.gender ?? 'male'),
+                        unit: l10n.mg,
+                        l10n: l10n,
+                        // ICMR 2020: females 19–50 need 29 mg/day; warn if below 60% (~17.4 mg)
+                        forceWarning: state.userProfile?.gender == 'female' &&
+                            state.totalIron < NutritionConstants.ironForGender('female') * 0.6,
+                      ),
                     if (state.totalPotassium > 0)
                       _SummaryRow(label: l10n.potassium, consumed: state.totalPotassium, goal: NutritionConstants.potassiumMg, unit: l10n.mg, l10n: l10n),
                     if (state.totalMagnesium > 0)
@@ -2020,7 +2007,7 @@ class _SummaryRow extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
             decoration: BoxDecoration(
-              color: statusColor.withOpacity(0.12),
+              color: statusColor.withValues(alpha: 0.12),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Text(

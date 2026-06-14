@@ -254,6 +254,64 @@ class AppStrings {
   String get items => _t('items');
   String get steps => _t('steps');
 
+  // Help
+  String get helpGuide => _t('helpGuide');
+
+  // Reset dialog
+  String get resetDataConfirm => _t('resetDataConfirm');
+
+  // Add-to-meal snackbar
+  String get addedTo => _t('addedTo');
+  String get quantityRequired => _t('quantityRequired');
+
+  // Onboarding validators
+  String get nameRequired => _t('nameRequired');
+  String get nameTooShort => _t('nameTooShort');
+  String get emailOptionalHint => _t('emailOptionalHint');
+  String get emailInvalid => _t('emailInvalid');
+  String get dobRequired => _t('dobRequired');
+
+  // Activity level descriptions
+  String get activitySedentaryDesc => _t('activitySedentaryDesc');
+  String get activityLightlyDesc => _t('activityLightlyDesc');
+  String get activityModeratelyDesc => _t('activityModeratelyDesc');
+  String get activityVeryDesc => _t('activityVeryDesc');
+  String get activityExtraDesc => _t('activityExtraDesc');
+
+  // Fitness goal descriptions
+  String get goalLoseWeightDesc => _t('goalLoseWeightDesc');
+  String get goalFatLossDesc => _t('goalFatLossDesc');
+  String get goalMaintainDesc => _t('goalMaintainDesc');
+  String get goalGainMuscleDesc => _t('goalGainMuscleDesc');
+
+  // Pregnancy page
+  String get pregnancyTitle => _t('pregnancyTitle');
+  String get pregnancySubtitle => _t('pregnancySubtitle');
+  String get pregnancyNotApplicable => _t('pregnancyNotApplicable');
+  String get pregnancyNotApplicableDesc => _t('pregnancyNotApplicableDesc');
+  String get pregnancyFirst => _t('pregnancyFirst');
+  String get pregnancyFirstDesc => _t('pregnancyFirstDesc');
+  String get pregnancySecond => _t('pregnancySecond');
+  String get pregnancySecondDesc => _t('pregnancySecondDesc');
+  String get pregnancyThird => _t('pregnancyThird');
+  String get pregnancyThirdDesc => _t('pregnancyThirdDesc');
+  String get pregnancyLactating => _t('pregnancyLactating');
+  String get pregnancyLactatingDesc => _t('pregnancyLactatingDesc');
+
+  // Food card / search
+  String get perServing => _t('perServing');
+  String foodsCount(int n) => isBengali ? '$n টি খাবার' : '$n foods';
+
+  // Nutrition education
+  String get fiberGoalInfo => _t('fiberGoalInfo');
+  String get sodiumLabel => _t('sodiumLabel');
+  String get ironWarningFemale => _t('ironWarningFemale');
+
+  // Custom food units
+  String get unitKatori => _t('unitKatori');
+  String get unitTbsp => _t('unitTbsp');
+  String get unitTsp => _t('unitTsp');
+
   String _t(String key) => _translations[language]?[key] ?? _translations['en']![key] ?? key;
 
   static const Map<String, Map<String, String>> _translations = {
@@ -495,6 +553,52 @@ class AppStrings {
       'enterBurnedKcal': 'Enter burned calories',
       'items': 'items',
       'steps': 'steps',
+      // Help & Settings
+      'helpGuide': 'Help & Guide',
+      'resetDataConfirm': 'This will permanently delete all your logged meals, profile, and food data. This action cannot be undone. Continue?',
+      // Add-to-meal
+      'addedTo': 'Added to',
+      'quantityRequired': 'Please enter a quantity greater than 0',
+      // Onboarding validators
+      'nameRequired': 'Name is required',
+      'nameTooShort': 'Name must be at least 2 characters',
+      'emailOptionalHint': 'Optional — for your reference only',
+      'emailInvalid': 'Please enter a valid email address',
+      'dobRequired': 'Date of birth is required',
+      // Activity level descriptions
+      'activitySedentaryDesc': 'Desk job or mostly sitting; little to no exercise',
+      'activityLightlyDesc': 'Light exercise 1–3 days/week or office job with walking',
+      'activityModeratelyDesc': 'Moderate exercise 3–5 days/week',
+      'activityVeryDesc': 'Hard exercise 6–7 days/week or physical job',
+      'activityExtraDesc': 'Very hard exercise daily or two-a-day training',
+      // Fitness goal descriptions
+      'goalLoseWeightDesc': 'Calorie deficit to reduce body weight',
+      'goalFatLossDesc': 'Moderate deficit to reduce fat while preserving muscle',
+      'goalMaintainDesc': 'Eat at maintenance to sustain current weight',
+      'goalGainMuscleDesc': 'Calorie surplus with high protein to build muscle',
+      // Pregnancy page
+      'pregnancyTitle': 'Pregnancy / Lactation',
+      'pregnancySubtitle': 'Select your current status for personalised nutrition targets (ICMR 2020)',
+      'pregnancyNotApplicable': 'Not Applicable',
+      'pregnancyNotApplicableDesc': 'Not pregnant or breastfeeding',
+      'pregnancyFirst': 'First Trimester',
+      'pregnancyFirstDesc': '+0 kcal/day · +1g protein/day',
+      'pregnancySecond': 'Second Trimester',
+      'pregnancySecondDesc': '+350 kcal/day · +7.5g protein/day',
+      'pregnancyThird': 'Third Trimester',
+      'pregnancyThirdDesc': '+350 kcal/day · +22.5g protein/day',
+      'pregnancyLactating': 'Breastfeeding',
+      'pregnancyLactatingDesc': '+600 kcal/day · +19g protein/day',
+      // Food card / search
+      'perServing': 'per serving',
+      // Nutrition education
+      'fiberGoalInfo': 'Fiber aids digestion, lowers cholesterol, and stabilises blood sugar. ICMR recommends 40 g/day for adults.',
+      'sodiumLabel': 'Sodium',
+      'ironWarningFemale': 'Iron intake is below recommended levels. Females aged 19–50 need 29 mg/day (ICMR 2020).',
+      // Custom food units (Indian)
+      'unitKatori': 'katori (150 ml)',
+      'unitTbsp': 'tbsp (15 ml)',
+      'unitTsp': 'tsp (5 ml)',
     },
     'bn': {
       'appName': 'ইনফিনিট নিউট্রিশন ট্র্যাকার',
@@ -734,6 +838,52 @@ class AppStrings {
       'enterBurnedKcal': 'পোড়া ক্যালোরি লিখুন',
       'items': 'আইটেম',
       'steps': 'স্টেপ',
+      // Help & Settings
+      'helpGuide': 'সাহায্য ও গাইড',
+      'resetDataConfirm': 'এটি আপনার সমস্ত লগ করা খাবার, প্রোফাইল এবং খাবারের তথ্য স্থায়ীভাবে মুছে দেবে। এই কাজটি পূর্বাবস্থায় ফেরানো যাবে না। চালিয়ে যাবেন?',
+      // Add-to-meal
+      'addedTo': 'যোগ হয়েছে',
+      'quantityRequired': 'অনুগ্রহ করে ০-এর বেশি পরিমাণ লিখুন',
+      // Onboarding validators
+      'nameRequired': 'নাম আবশ্যক',
+      'nameTooShort': 'নাম কমপক্ষে ২ অক্ষরের হতে হবে',
+      'emailOptionalHint': 'ঐচ্ছিক — শুধুমাত্র আপনার রেফারেন্সের জন্য',
+      'emailInvalid': 'অনুগ্রহ করে একটি বৈধ ইমেইল ঠিকানা দিন',
+      'dobRequired': 'জন্ম তারিখ আবশ্যক',
+      // Activity level descriptions
+      'activitySedentaryDesc': 'ডেস্ক জব বা বেশিরভাগ বসে থাকা; সামান্য বা কোনো ব্যায়াম নেই',
+      'activityLightlyDesc': 'সপ্তাহে ১–৩ দিন হালকা ব্যায়াম বা হাঁটা-চলা',
+      'activityModeratelyDesc': 'সপ্তাহে ৩–৫ দিন মাঝারি ব্যায়াম',
+      'activityVeryDesc': 'সপ্তাহে ৬–৭ দিন কঠোর ব্যায়াম বা শারীরিক কাজ',
+      'activityExtraDesc': 'প্রতিদিন অত্যন্ত কঠোর ব্যায়াম বা দিনে দুবার প্রশিক্ষণ',
+      // Fitness goal descriptions
+      'goalLoseWeightDesc': 'শরীরের ওজন কমাতে ক্যালোরি ঘাটতি',
+      'goalFatLossDesc': 'পেশী রেখে চর্বি কমাতে মাঝারি ক্যালোরি ঘাটতি',
+      'goalMaintainDesc': 'বর্তমান ওজন বজায় রাখতে রক্ষণাবেক্ষণ মাত্রায় খাওয়া',
+      'goalGainMuscleDesc': 'পেশী গড়তে বেশি প্রোটিন সহ ক্যালোরি উদ্বৃত্ত',
+      // Pregnancy page
+      'pregnancyTitle': 'গর্ভাবস্থা / স্তন্যপান',
+      'pregnancySubtitle': 'ব্যক্তিগত পুষ্টির লক্ষ্যমাত্রার জন্য বর্তমান অবস্থা নির্বাচন করুন (ICMR 2020)',
+      'pregnancyNotApplicable': 'প্রযোজ্য নয়',
+      'pregnancyNotApplicableDesc': 'গর্ভবতী বা স্তন্যদানকারী নন',
+      'pregnancyFirst': 'প্রথম ত্রৈমাসিক',
+      'pregnancyFirstDesc': '+০ কিলোক্যালোরি/দিন · +১ গ্রাম প্রোটিন/দিন',
+      'pregnancySecond': 'দ্বিতীয় ত্রৈমাসিক',
+      'pregnancySecondDesc': '+৩৫০ কিলোক্যালোরি/দিন · +৭.৫ গ্রাম প্রোটিন/দিন',
+      'pregnancyThird': 'তৃতীয় ত্রৈমাসিক',
+      'pregnancyThirdDesc': '+৩৫০ কিলোক্যালোরি/দিন · +২২.৫ গ্রাম প্রোটিন/দিন',
+      'pregnancyLactating': 'বুকের দুধ খাওয়ানো',
+      'pregnancyLactatingDesc': '+৬০০ কিলোক্যালোরি/দিন · +১৯ গ্রাম প্রোটিন/দিন',
+      // Food card / search
+      'perServing': 'প্রতি পরিবেশনে',
+      // Nutrition education
+      'fiberGoalInfo': 'ফাইবার হজম সহজ করে, কোলেস্টেরল কমায় এবং রক্তের শর্করা স্থিতিশীল রাখে। ICMR প্রাপ্তবয়স্কদের জন্য দৈনিক ৪০ গ্রাম সুপারিশ করে।',
+      'sodiumLabel': 'সোডিয়াম',
+      'ironWarningFemale': 'আয়রন গ্রহণ সুপারিশকৃত মাত্রার নিচে। ১৯–৫০ বছর বয়সী মহিলাদের দৈনিক ২৯ মিগ্রা আয়রন প্রয়োজন (ICMR 2020)।',
+      // Custom food units (Indian)
+      'unitKatori': 'কাটোরি (১৫০ মিলি)',
+      'unitTbsp': 'টেবিল চামচ (১৫ মিলি)',
+      'unitTsp': 'চা চামচ (৫ মিলি)',
     },
   };
 }

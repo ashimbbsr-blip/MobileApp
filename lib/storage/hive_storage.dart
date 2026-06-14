@@ -339,12 +339,29 @@ class HiveStorage {
       : settingsBox.put('customFatG', v);
 
   static Future<void> resetAllData() async {
+    // Preserve user preferences across a data reset.
+    final theme = settingsBox.get(AppConstants.keyThemeMode);
+    final lang = settingsBox.get(AppConstants.keyLanguage);
+    final legal = settingsBox.get(AppConstants.keyLegalAcceptance);
+    final datasetLoaded = settingsBox.get(AppConstants.keyLocalDatasetLoaded);
+    final notifEnabled = settingsBox.get(AppConstants.keyNotifEnabled);
+    final notifHour = settingsBox.get(AppConstants.keyNotifHour);
+    final notifMinute = settingsBox.get(AppConstants.keyNotifMinute);
+
     await userBox.clear();
     await mealsBox.clear();
     await foodCacheBox.clear();
     await settingsBox.clear();
     await monthlySummaryBox.clear();
-    // Note: localFoodBox is NOT cleared on reset — dataset is immutable app data.
-    // Legal acceptance is intentionally preserved — the user already agreed.
+    // localFoodBox is immutable app data — never cleared.
+
+    // Restore preserved preferences.
+    if (theme != null) await settingsBox.put(AppConstants.keyThemeMode, theme);
+    if (lang != null) await settingsBox.put(AppConstants.keyLanguage, lang);
+    if (legal != null) await settingsBox.put(AppConstants.keyLegalAcceptance, legal);
+    if (datasetLoaded != null) await settingsBox.put(AppConstants.keyLocalDatasetLoaded, datasetLoaded);
+    if (notifEnabled != null) await settingsBox.put(AppConstants.keyNotifEnabled, notifEnabled);
+    if (notifHour != null) await settingsBox.put(AppConstants.keyNotifHour, notifHour);
+    if (notifMinute != null) await settingsBox.put(AppConstants.keyNotifMinute, notifMinute);
   }
 }

@@ -39,12 +39,21 @@ class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
   FoodItem get _scaledFood => widget.foodItem.scaledTo(_quantity);
 
   Future<void> _addToMeal() async {
+    if (_quantity <= 0) return;
     await ref.read(mealProvider.notifier).addFood(widget.foodItem, _selectedMeal, _quantity);
     ref.read(dashboardProvider.notifier).refresh();
     if (mounted) {
+      final l10n = ref.read(appStringsProvider);
+      final mealNames = {
+        'breakfast': l10n.breakfast,
+        'lunch': l10n.lunch,
+        'dinner': l10n.dinner,
+        'snack': l10n.snack,
+      };
+      final mealLabel = mealNames[_selectedMeal] ?? _selectedMeal;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Added to ${_selectedMeal}'),
+          content: Text('${l10n.addedTo} $mealLabel'),
           backgroundColor: AppColors.primary,
           duration: const Duration(seconds: 2),
         ),
@@ -168,7 +177,7 @@ class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
             ),
             const SizedBox(height: 24),
             ElevatedButton.icon(
-              onPressed: _addToMeal,
+              onPressed: _quantity > 0 ? _addToMeal : null,
               icon: const Icon(Icons.add),
               label: Text(l10n.addToMeal),
             ),
@@ -224,7 +233,7 @@ class _MealSelector extends StatelessWidget {
           selected: selected == m.$1,
           onSelected: (_) => onSelected(m.$1),
           avatar: Icon(m.$3, size: 16),
-          selectedColor: AppColors.primary.withOpacity(0.2),
+          selectedColor: AppColors.primary.withValues(alpha:0.2),
         )).toList(),
       );
     });

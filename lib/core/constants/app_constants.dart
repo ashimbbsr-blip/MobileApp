@@ -2,8 +2,13 @@ class AppConstants {
   static const String appName = 'Infinite Nutrition Tracker';
   static const String appTagline = 'Better Health Every Day';
 
-  // USDA Food Data Central API — managed key, not exposed to users
-  static const String usdaApiKey = 'Bgn3gF9OaAKYl2OIGvjqv1WU1bbNekWmBblfH8Ne';
+  // USDA Food Data Central API
+  // Injected at build time via: flutter build apk --dart-define=USDA_API_KEY=your_key
+  // Never hard-code a real key here — this file is committed to source control.
+  static const String usdaApiKey = String.fromEnvironment(
+    'USDA_API_KEY',
+    defaultValue: 'DEMO_KEY',
+  );
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
 
   // Search & Cache
@@ -44,5 +49,5 @@ class AppConstants {
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.1.1';
+  static const String currentAppVersion = '1.1.2';
 }

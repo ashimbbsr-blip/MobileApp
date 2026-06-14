@@ -151,18 +151,12 @@ class FoodItem extends HiveObject {
     );
   }
 
-  // Normalise dataset category names to UI category names.
+  // Normalise legacy/variant dataset category names to UI category names.
   static String? _normalizeCategory(String? cat) {
     switch (cat) {
-      // Dataset → UI renames
-      case 'legume':    return 'dal';       // lentils, beans, dals
-      case 'bread':     return 'roti';      // roti, chapati, naan, puri, paratha
-      case 'sweet':     return 'sweets';    // Indian sweets / mithai
-      case 'dessert':   return 'sweets';    // Western-style desserts
       case 'veg':       return 'vegetable';
-      case 'salad':     return 'vegetable'; // salads filed under vegetable
       case 'drink':     return 'beverage';
-      case 'fitness':   return 'protein';
+      case 'fitness':   return 'other';
       case 'brand':     return 'snack';
       case 'condiment': return 'condiment';
       case 'diet':      return 'other';

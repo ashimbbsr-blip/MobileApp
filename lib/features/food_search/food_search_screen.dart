@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:uuid/uuid.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
@@ -119,7 +120,8 @@ class _FoodSearchScreenState extends ConsumerState<FoodSearchScreen>
   @override
   Widget build(BuildContext context) {
     final state = ref.watch(foodSearchProvider);
-    final lang = ref.watch(appStringsProvider).language;
+    final l10n = ref.watch(appStringsProvider);
+    final lang = l10n.language;
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final topPad = MediaQuery.of(context).padding.top;
@@ -160,7 +162,7 @@ class _FoodSearchScreenState extends ConsumerState<FoodSearchScreen>
                               size: 11, color: AppColors.primary),
                           const SizedBox(width: 4),
                           Text(
-                            '${LocalFoodRepository.itemCount} foods',
+                            l10n.foodsCount(LocalFoodRepository.itemCount),
                             style: const TextStyle(
                               fontSize: 11,
                               color: AppColors.primary,
@@ -1425,7 +1427,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
   void _save() {
     if (!_formKey.currentState!.validate()) return;
     final food = FoodItem(
-      id: 'custom_${DateTime.now().millisecondsSinceEpoch}',
+      id: 'custom_${const Uuid().v4()}',
       name: _nameCtrl.text.trim(),
       servingSize: double.tryParse(_servingCtrl.text) ?? 100,
       servingUnit: _unit,
@@ -1526,7 +1528,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10)),
                           ),
-                          items: ['g', 'ml', 'pcs', 'oz', 'cup'].map((u) {
+                          items: ['g', 'ml', 'pcs', 'oz', 'cup', 'katori', 'tbsp', 'tsp'].map((u) {
                             return DropdownMenuItem(value: u, child: Text(u));
                           }).toList(),
                           onChanged: (v) =>
@@ -1775,11 +1777,13 @@ class _FoodCard extends StatelessWidget {
                     style: theme.textTheme.labelSmall
                         ?.copyWith(fontSize: 10, fontWeight: FontWeight.w500)),
                 if (food.servingSize > 0)
-                  Text(
-                    'per ${food.servingSize.toStringAsFixed(0)}${food.servingUnit}',
-                    style:
-                        theme.textTheme.labelSmall?.copyWith(fontSize: 9),
-                  ),
+                  Consumer(builder: (context, ref, _) {
+                    final l10n = ref.watch(appStringsProvider);
+                    return Text(
+                      '${l10n.perServing} · ${food.servingSize.toStringAsFixed(0)}${food.servingUnit}',
+                      style: theme.textTheme.labelSmall?.copyWith(fontSize: 9),
+                    );
+                  }),
               ],
             ),
             const SizedBox(width: 2),

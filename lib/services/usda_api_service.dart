@@ -88,6 +88,11 @@ class UsdaApiService {
         );
       }
 
+      // Real network failure (airplane mode, no wifi, DNS failure, etc.)
+      if (e.type == DioExceptionType.connectionError) {
+        throw Exception('No internet connection. Check your network and try again.');
+      }
+
       // Exponential backoff on timeout (attempt 0→1s, 1→2s, 2→4s)
       final isTimeout = e.type == DioExceptionType.connectionTimeout ||
           e.type == DioExceptionType.sendTimeout;
@@ -97,10 +102,16 @@ class UsdaApiService {
       }
 
       if (isTimeout || e.type == DioExceptionType.receiveTimeout) {
-        throw Exception('Network timeout. Check your connection.');
+        throw Exception('Network timeout. Check your connection and try again.');
       }
 
-      throw Exception('Search failed. Check your internet connection.');
+      // 403/401 → invalid or missing API key
+      final status = e.response?.statusCode;
+      if (status == 403 || status == 401) {
+        throw Exception('USDA API key error (HTTP $status). The search service is temporarily unavailable.');
+      }
+
+      throw Exception('Search failed (HTTP ${status ?? 'unknown'}). Please try again.');
     }
   }
 

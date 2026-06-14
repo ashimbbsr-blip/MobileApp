@@ -351,8 +351,8 @@ class _ProfileAvatar extends StatelessWidget {
       height: 100,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        color: AppColors.primary.withOpacity(0.1),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3), width: 2),
+        color: AppColors.primary.withValues(alpha:0.1),
+        border: Border.all(color: AppColors.primary.withValues(alpha:0.3), width: 2),
       ),
       child: ClipOval(
         child: hasImage
@@ -413,7 +413,7 @@ class _GenderOption extends StatelessWidget {
         duration: const Duration(milliseconds: 200),
         padding: const EdgeInsets.symmetric(vertical: 14),
         decoration: BoxDecoration(
-          color: selected ? AppColors.primary : AppColors.primary.withOpacity(0.07),
+          color: selected ? AppColors.primary : AppColors.primary.withValues(alpha:0.07),
           borderRadius: BorderRadius.circular(12),
           border: Border.all(color: selected ? AppColors.primary : Colors.transparent),
         ),

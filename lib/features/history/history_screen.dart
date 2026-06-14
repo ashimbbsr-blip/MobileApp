@@ -174,7 +174,7 @@ class _StatCard extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: iconColor.withOpacity(0.1),
+              color: iconColor.withValues(alpha:0.1),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Icon(icon, color: iconColor, size: 22),
@@ -237,7 +237,7 @@ class _CalorieChart extends StatelessWidget {
                   drawVerticalLine: false,
                   horizontalInterval: 500,
                   getDrawingHorizontalLine: (v) => FlLine(
-                    color: Colors.grey.withOpacity(0.15),
+                    color: Colors.grey.withValues(alpha:0.15),
                     strokeWidth: 1,
                   ),
                 ),
@@ -277,7 +277,7 @@ class _CalorieChart extends StatelessWidget {
                   horizontalLines: [
                     HorizontalLine(
                       y: goalCalories,
-                      color: AppColors.primary.withOpacity(0.5),
+                      color: AppColors.primary.withValues(alpha:0.5),
                       strokeWidth: 1.5,
                       dashArray: [6, 4],
                       label: HorizontalLineLabel(
@@ -313,7 +313,7 @@ class _CalorieChart extends StatelessWidget {
                     belowBarData: BarAreaData(
                       show: true,
                       gradient: LinearGradient(
-                        colors: [AppColors.calories.withOpacity(0.2), AppColors.calories.withOpacity(0.0)],
+                        colors: [AppColors.calories.withValues(alpha:0.2), AppColors.calories.withValues(alpha:0.0)],
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                       ),
@@ -384,7 +384,7 @@ class _WeeklyEnergyBalanceCard extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(7),
                   decoration: BoxDecoration(
-                    color: AppColors.primary.withOpacity(0.12),
+                    color: AppColors.primary.withValues(alpha:0.12),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: const Icon(Icons.bolt_rounded,
@@ -402,7 +402,7 @@ class _WeeklyEnergyBalanceCard extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                   decoration: BoxDecoration(
-                    color: totalColor.withOpacity(0.12),
+                    color: totalColor.withValues(alpha:0.12),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Text(
@@ -435,7 +435,7 @@ class _WeeklyEnergyBalanceCard extends StatelessWidget {
                             Container(
                               height: 4,
                               decoration: BoxDecoration(
-                                color: Colors.grey.withOpacity(0.2),
+                                color: Colors.grey.withValues(alpha:0.2),
                                 borderRadius: BorderRadius.circular(2),
                               ),
                             ),
@@ -486,7 +486,7 @@ class _WeeklyEnergyBalanceCard extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 9,
                               color:
-                                  theme.colorScheme.onSurface.withOpacity(0.6),
+                                  theme.colorScheme.onSurface.withValues(alpha:0.6),
                             ),
                           ),
                         ],
@@ -609,7 +609,7 @@ class _MacroBadge extends StatelessWidget {
       Container(
         width: 60,
         height: 60,
-        decoration: BoxDecoration(shape: BoxShape.circle, color: color.withOpacity(0.12)),
+        decoration: BoxDecoration(shape: BoxShape.circle, color: color.withValues(alpha:0.12)),
         child: Center(
           child: Text(
             value.toStringAsFixed(0),
@@ -686,7 +686,7 @@ class _ConsistencyBar extends StatelessWidget {
         child: LinearProgressIndicator(
           value: value.clamp(0.0, 1.0),
           minHeight: 8,
-          backgroundColor: color.withOpacity(0.12),
+          backgroundColor: color.withValues(alpha:0.12),
           valueColor: AlwaysStoppedAnimation<Color>(color),
         ),
       ),
@@ -731,7 +731,7 @@ class _MonthCard extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withOpacity(0.1),
+                  color: AppColors.primary.withValues(alpha:0.1),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text('${data.daysLogged} days',
@@ -800,7 +800,7 @@ class _ActivityBurnedSummaryCard extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: green.withOpacity(0.12),
+                  color: green.withValues(alpha:0.12),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: const Icon(Icons.directions_run_rounded,
@@ -873,7 +873,7 @@ class _ActivityStat extends StatelessWidget {
               text: ' $unit',
               style: TextStyle(
                   fontSize: 11,
-                  color: color.withOpacity(0.7)),
+                  color: color.withValues(alpha:0.7)),
             ),
           ],
         ),
@@ -899,7 +899,7 @@ class _EmptyState extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.bar_chart, size: 64, color: AppColors.primary.withOpacity(0.3)),
+            Icon(Icons.bar_chart, size: 64, color: AppColors.primary.withValues(alpha:0.3)),
             const SizedBox(height: 16),
             Text('No data yet',
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.grey)),

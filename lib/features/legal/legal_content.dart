@@ -136,10 +136,12 @@ class LegalContent {
     ),
     LegalSection(
       '2. No Account Required',
-      'The App requires absolutely no account creation, email address, phone '
-          'number, or any form of login credentials.\n\n'
-          'You can use every feature of the App without identifying yourself in '
-          'any way to the developer or any third party.',
+      'The App does not require account creation, login credentials, or any '
+          'form of online registration.\n\n'
+          'During setup, you may optionally enter an email address. If provided, '
+          'it is stored only on your device and is never transmitted to the '
+          'developer or any third party. You can use every feature of the App '
+          'without providing an email address.',
     ),
     LegalSection(
       '3. No Tracking or Analytics',

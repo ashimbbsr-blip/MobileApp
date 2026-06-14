@@ -66,7 +66,7 @@ class MacroRingChart extends StatelessWidget {
                       if (remaining > 0)
                         PieChartSectionData(
                           value: remaining,
-                          color: theme.colorScheme.surfaceContainerHighest.withOpacity(0.3),
+                          color: theme.colorScheme.surfaceContainerHighest.withValues(alpha:0.3),
                           radius: 28,
                           showTitle: false,
                         ),
@@ -74,7 +74,7 @@ class MacroRingChart extends StatelessWidget {
                   : [
                       PieChartSectionData(
                         value: 1,
-                        color: theme.colorScheme.surfaceContainerHighest.withOpacity(0.3),
+                        color: theme.colorScheme.surfaceContainerHighest.withValues(alpha:0.3),
                         radius: 28,
                         showTitle: false,
                       ),

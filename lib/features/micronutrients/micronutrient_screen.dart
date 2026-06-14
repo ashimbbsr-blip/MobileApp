@@ -148,7 +148,7 @@ class _MicroCard extends StatelessWidget {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                color: color.withOpacity(0.15),
+                color: color.withValues(alpha:0.15),
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Center(
@@ -169,7 +169,7 @@ class _MicroCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(4),
                     child: LinearProgressIndicator(
                       value: progress,
-                      backgroundColor: color.withOpacity(0.15),
+                      backgroundColor: color.withValues(alpha:0.15),
                       valueColor: AlwaysStoppedAnimation(progress >= 1.0 ? AppColors.primary : color),
                       minHeight: 6,
                     ),

@@ -93,7 +93,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         end: Alignment.bottomCenter,
                         colors: [
                           Colors.transparent,
-                          Colors.black.withOpacity(0.72),
+                          Colors.black.withValues(alpha:0.72),
                         ],
                       ),
                     ),
@@ -120,7 +120,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         ),
                         const SizedBox(height: 10),
                         const Text(
-                          'INFINITE HEALTH TRACKER',
+                          'INFINITE NUTRITION TRACKER',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -133,7 +133,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                           decoration: BoxDecoration(
-                            color: AppColors.primary.withOpacity(0.9),
+                            color: AppColors.primary.withValues(alpha:0.9),
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: const Text(

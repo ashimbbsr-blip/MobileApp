@@ -11,8 +11,6 @@ import '../../services/notification_service.dart';
 import '../../widgets/common/app_logo.dart';
 import '../settings/providers/settings_provider.dart';
 import '../profile/providers/profile_provider.dart';
-import '../legal/legal_content.dart';
-import '../legal/legal_content_screen.dart';
 import '../../core/constants/app_constants.dart';
 
 class SettingsScreen extends ConsumerWidget {
@@ -170,7 +168,7 @@ class SettingsScreen extends ConsumerWidget {
                     if (context.mounted) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          content: const Text('Cache cleared'),
+                          content: Text(l10n.clearCache),
                           backgroundColor: AppColors.primary,
                         ),
                       );
@@ -204,37 +202,19 @@ class SettingsScreen extends ConsumerWidget {
                 _SettingsTile(
                   icon: Icons.description_outlined,
                   title: l10n.legalTerms,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) =>
-                          const LegalContentScreen(type: LegalDocType.terms),
-                    ),
-                  ),
+                  onTap: () => context.push('/legal/terms'),
                 ),
                 const Divider(height: 1),
                 _SettingsTile(
                   icon: Icons.lock_outline,
                   title: l10n.legalPrivacy,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) =>
-                          const LegalContentScreen(type: LegalDocType.privacy),
-                    ),
-                  ),
+                  onTap: () => context.push('/legal/privacy'),
                 ),
                 const Divider(height: 1),
                 _SettingsTile(
                   icon: Icons.health_and_safety_outlined,
                   title: l10n.legalHealth,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) =>
-                          const LegalContentScreen(type: LegalDocType.health),
-                    ),
-                  ),
+                  onTap: () => context.push('/legal/health'),
                 ),
                 const Divider(height: 1),
                 _LegalAcceptanceInfo(l10n: l10n, theme: theme),
@@ -250,7 +230,7 @@ class SettingsScreen extends ConsumerWidget {
               children: [
                 _SettingsTile(
                   icon: Icons.help_outline_rounded,
-                  title: 'Help & Guide',
+                  title: l10n.helpGuide,
                   onTap: () => context.push('/help'),
                 ),
                 const Divider(height: 1),
@@ -306,7 +286,7 @@ class SettingsScreen extends ConsumerWidget {
       context: context,
       builder: (ctx) => AlertDialog(
         title: Text(l10n.resetData),
-        content: const Text('This will delete all your data permanently. Are you sure?'),
+        content: Text(l10n.resetDataConfirm),
         actions: [
           TextButton(onPressed: () => Navigator.pop(ctx), child: Text(l10n.cancel)),
           TextButton(
@@ -356,6 +336,7 @@ class _CustomNutritionLimitsCard extends ConsumerStatefulWidget {
 class _CustomNutritionLimitsCardState
     extends ConsumerState<_CustomNutritionLimitsCard> {
   bool _useCustom = false;
+  final _formKey = GlobalKey<FormState>();
   final _calCtrl = TextEditingController();
   final _proCtrl = TextEditingController();
   final _carbCtrl = TextEditingController();
@@ -381,6 +362,7 @@ class _CustomNutritionLimitsCardState
   }
 
   Future<void> _saveAll() async {
+    if (!(_formKey.currentState?.validate() ?? true)) return;
     await HiveStorage.setUseCustomLimits(_useCustom);
     await HiveStorage.saveCustomCalories(double.tryParse(_calCtrl.text.trim()));
     await HiveStorage.saveCustomProteinG(double.tryParse(_proCtrl.text.trim()));
@@ -507,7 +489,9 @@ class _CustomNutritionLimitsCardState
             // ── Input fields ─────────────────────────────────────────────
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 0, 16, 4),
-              child: Column(
+              child: Form(
+                key: _formKey,
+                child: Column(
                 children: [
                   _LimitField(
                     ctrl: _calCtrl,
@@ -516,6 +500,7 @@ class _CustomNutritionLimitsCardState
                     unit: 'kcal',
                     icon: Icons.local_fire_department_rounded,
                     color: AppColors.calories,
+                    min: 800, max: 5000,
                   ),
                   const SizedBox(height: 10),
                   _LimitField(
@@ -525,6 +510,7 @@ class _CustomNutritionLimitsCardState
                     unit: 'g',
                     icon: Icons.fitness_center_rounded,
                     color: AppColors.protein,
+                    min: 10, max: 400,
                   ),
                   const SizedBox(height: 10),
                   _LimitField(
@@ -534,6 +520,7 @@ class _CustomNutritionLimitsCardState
                     unit: 'g',
                     icon: Icons.grain_rounded,
                     color: AppColors.carbs,
+                    min: 20, max: 700,
                   ),
                   const SizedBox(height: 10),
                   _LimitField(
@@ -543,6 +530,7 @@ class _CustomNutritionLimitsCardState
                     unit: 'g',
                     icon: Icons.opacity_rounded,
                     color: AppColors.fat,
+                    min: 10, max: 300,
                   ),
                   const SizedBox(height: 14),
                   SizedBox(
@@ -587,6 +575,7 @@ class _CustomNutritionLimitsCardState
                 ],
               ),
             ),
+          ),
           ],
         ],
       ),
@@ -599,6 +588,8 @@ class _LimitField extends StatelessWidget {
   final String label, hint, unit;
   final IconData icon;
   final Color color;
+  final double min;
+  final double max;
 
   const _LimitField({
     required this.ctrl,
@@ -607,11 +598,13 @@ class _LimitField extends StatelessWidget {
     required this.unit,
     required this.icon,
     required this.color,
+    this.min = 0,
+    this.max = 9999,
   });
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return TextFormField(
       controller: ctrl,
       keyboardType: const TextInputType.numberWithOptions(decimal: true),
       decoration: InputDecoration(
@@ -627,6 +620,13 @@ class _LimitField extends StatelessWidget {
         contentPadding:
             const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
       ),
+      validator: (v) {
+        if (v == null || v.trim().isEmpty) return null;
+        final n = double.tryParse(v.trim());
+        if (n == null) return 'Enter a valid number';
+        if (n < min || n > max) return 'Enter a value between ${min.toInt()} and ${max.toInt()}';
+        return null;
+      },
     );
   }
 }
@@ -643,8 +643,8 @@ class _ProfileAvatar extends StatelessWidget {
       height: 56,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        color: AppColors.primary.withOpacity(0.1),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3), width: 1.5),
+        color: AppColors.primary.withValues(alpha: 0.1),
+        border: Border.all(color: AppColors.primary.withValues(alpha: 0.3), width: 1.5),
       ),
       child: ClipOval(
         child: hasImage

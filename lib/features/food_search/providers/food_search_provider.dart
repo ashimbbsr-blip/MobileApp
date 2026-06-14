@@ -235,9 +235,9 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
     } catch (e) {
       if (_disposed) return;
       final msg = e.toString().replaceAll('Exception: ', '');
-      final isOffline = msg.contains('connection') ||
-          msg.contains('network') ||
-          msg.contains('timeout');
+      final isOffline = msg.contains('No internet') ||
+          msg.contains('Network timeout') ||
+          msg.contains('No internet connection');
       state = FoodSearchState(
         localQuery: state.localQuery,
         localCategory: state.localCategory,

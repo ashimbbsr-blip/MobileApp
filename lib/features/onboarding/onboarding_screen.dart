@@ -92,7 +92,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                       decoration: BoxDecoration(
                         color: i < state.currentStep
                             ? AppColors.primary
-                            : AppColors.primary.withOpacity(0.18),
+                            : AppColors.primary.withValues(alpha:0.18),
                         borderRadius: BorderRadius.circular(2),
                       ),
                     ),
@@ -330,8 +330,8 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
                 prefixIcon: const Icon(Icons.person_outline),
               ),
               validator: (v) {
-                if (v == null || v.trim().isEmpty) return 'Full name is required';
-                if (v.trim().length < 2) return 'Name must be at least 2 characters';
+                if (v == null || v.trim().isEmpty) return l10n.nameRequired;
+                if (v.trim().length < 2) return l10n.nameTooShort;
                 return null;
               },
             ),
@@ -367,7 +367,7 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
               Padding(
                 padding: const EdgeInsets.only(left: 12),
                 child: Text(
-                  'Age: ${_computeAge(state.dateOfBirth!)} years',
+                  '${l10n.age}: ${_computeAge(state.dateOfBirth!)} ${l10n.years}',
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: AppColors.primary,
                     fontWeight: FontWeight.w600,
@@ -377,18 +377,19 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
             ],
             const SizedBox(height: 14),
 
-            // Email (required)
+            // Email (optional)
             TextFormField(
               controller: widget.emailCtrl,
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
-                labelText: l10n.emailAddress,
+                labelText: '${l10n.emailAddress} (${l10n.optional})',
+                hintText: l10n.emailOptionalHint,
                 prefixIcon: const Icon(Icons.email_outlined),
               ),
               validator: (v) {
-                if (v == null || v.trim().isEmpty) return 'Email address is required';
+                if (v == null || v.trim().isEmpty) return null;
                 final emailRegex = RegExp(r'^[\w\.\+\-]+@[\w\-]+\.[a-zA-Z]{2,}$');
-                if (!emailRegex.hasMatch(v.trim())) return 'Enter a valid email address';
+                if (!emailRegex.hasMatch(v.trim())) return l10n.emailInvalid;
                 return null;
               },
             ),
@@ -403,9 +404,10 @@ class _PersonalInfoPageState extends ConsumerState<_PersonalInfoPage> {
                 child: ElevatedButton(
                   onPressed: () {
                     if (ref.read(onboardingProvider).dateOfBirth == null) {
+                      final l10nRead = ref.read(appStringsProvider);
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Please select your date of birth'),
+                        SnackBar(
+                          content: Text(l10nRead.dobRequired),
                           backgroundColor: Colors.red,
                         ),
                       );
@@ -545,11 +547,11 @@ class _ActivityPage extends StatelessWidget {
     return Consumer(builder: (context, ref, _) {
       final l10n = ref.watch(appStringsProvider);
       final options = [
-        ('sedentary', l10n.sedentary, 'Little or no exercise', Icons.chair),
-        ('lightly_active', l10n.lightlyActive, '1-3 days/week', Icons.directions_walk),
-        ('moderately_active', l10n.moderatelyActive, '3-5 days/week', Icons.directions_run),
-        ('very_active', l10n.veryActive, '6-7 days/week', Icons.fitness_center),
-        ('extra_active', l10n.extraActive, 'Physical job + exercise', Icons.sports),
+        ('sedentary', l10n.sedentary, l10n.activitySedentaryDesc, Icons.chair),
+        ('lightly_active', l10n.lightlyActive, l10n.activityLightlyDesc, Icons.directions_walk),
+        ('moderately_active', l10n.moderatelyActive, l10n.activityModeratelyDesc, Icons.directions_run),
+        ('very_active', l10n.veryActive, l10n.activityVeryDesc, Icons.fitness_center),
+        ('extra_active', l10n.extraActive, l10n.activityExtraDesc, Icons.sports),
       ];
 
       return Padding(
@@ -606,10 +608,10 @@ class _GoalPage extends StatelessWidget {
     return Consumer(builder: (context, ref, _) {
       final l10n = ref.watch(appStringsProvider);
       final options = [
-        ('lose_weight', l10n.loseWeight, 'Calorie deficit approach', Icons.trending_down),
-        ('healthy_fat_loss', l10n.healthyFatLoss, 'Preserve muscle, lose fat', Icons.local_fire_department),
-        ('maintain', l10n.maintain, 'Balance intake & output', Icons.balance),
-        ('gain_muscle', l10n.gainMuscle, 'Build lean mass', Icons.fitness_center),
+        ('lose_weight', l10n.loseWeight, l10n.goalLoseWeightDesc, Icons.trending_down),
+        ('healthy_fat_loss', l10n.healthyFatLoss, l10n.goalFatLossDesc, Icons.local_fire_department),
+        ('maintain', l10n.maintain, l10n.goalMaintainDesc, Icons.balance),
+        ('gain_muscle', l10n.gainMuscle, l10n.goalGainMuscleDesc, Icons.fitness_center),
       ];
 
       return Padding(
@@ -665,11 +667,11 @@ class _PregnancyPage extends StatelessWidget {
     return Consumer(builder: (context, ref, _) {
       final l10n = ref.watch(appStringsProvider);
       final options = <(String?, String, String, IconData)>[
-        (null, 'Not Applicable', 'I am not pregnant or breastfeeding', Icons.person_outline),
-        ('pregnant_1st', '1st Trimester', 'Weeks 1–12 (+350 kcal/day)', Icons.pregnant_woman),
-        ('pregnant_2nd', '2nd Trimester', 'Weeks 13–26 (+350 kcal/day)', Icons.pregnant_woman),
-        ('pregnant_3rd', '3rd Trimester', 'Weeks 27–40 (+450 kcal/day)', Icons.pregnant_woman),
-        ('lactating', 'Breastfeeding', 'Lactation period (+550 kcal/day)', Icons.child_care),
+        (null, l10n.pregnancyNotApplicable, l10n.pregnancyNotApplicableDesc, Icons.person_outline),
+        ('pregnant_1st', l10n.pregnancyFirst, l10n.pregnancyFirstDesc, Icons.pregnant_woman),
+        ('pregnant_2nd', l10n.pregnancySecond, l10n.pregnancySecondDesc, Icons.pregnant_woman),
+        ('pregnant_3rd', l10n.pregnancyThird, l10n.pregnancyThirdDesc, Icons.pregnant_woman),
+        ('lactating', l10n.pregnancyLactating, l10n.pregnancyLactatingDesc, Icons.child_care),
       ];
 
       return Padding(
@@ -677,13 +679,13 @@ class _PregnancyPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Pregnancy & Lactation',
+            Text(l10n.pregnancyTitle,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
             Text('${l10n.step} 5 ${l10n.ofWord} 5',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: AppColors.primary)),
             const SizedBox(height: 8),
-            Text('We adjust your calorie goal per ICMR 2020 guidelines.',
+            Text(l10n.pregnancySubtitle,
                 style: Theme.of(context).textTheme.bodySmall),
             const SizedBox(height: 16),
             Expanded(
@@ -696,7 +698,7 @@ class _PregnancyPage extends StatelessWidget {
                     padding: const EdgeInsets.all(14),
                     decoration: BoxDecoration(
                       color: selected == o.$1
-                          ? AppColors.primary.withOpacity(0.1)
+                          ? AppColors.primary.withValues(alpha:0.1)
                           : Theme.of(context).cardTheme.color,
                       border: Border.all(
                         color: selected == o.$1 ? AppColors.primary : Colors.transparent,
@@ -711,7 +713,7 @@ class _PregnancyPage extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: selected == o.$1
                                 ? AppColors.primary
-                                : AppColors.primary.withOpacity(0.1),
+                                : AppColors.primary.withValues(alpha:0.1),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           child: Icon(o.$4,
@@ -771,7 +773,7 @@ class _GenderChip extends StatelessWidget {
           decoration: BoxDecoration(
             color: selected ? AppColors.primary : Colors.transparent,
             border: Border.all(
-              color: selected ? AppColors.primary : AppColors.primary.withOpacity(0.3),
+              color: selected ? AppColors.primary : AppColors.primary.withValues(alpha:0.3),
               width: 2,
             ),
             borderRadius: BorderRadius.circular(14),
@@ -816,7 +818,7 @@ class _OptionTile extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: isSelected
-              ? AppColors.primary.withOpacity(0.1)
+              ? AppColors.primary.withValues(alpha:0.1)
               : Theme.of(context).cardTheme.color,
           border: Border.all(
             color: isSelected ? AppColors.primary : Colors.transparent,
@@ -829,7 +831,7 @@ class _OptionTile extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: isSelected ? AppColors.primary : AppColors.primary.withOpacity(0.1),
+                color: isSelected ? AppColors.primary : AppColors.primary.withValues(alpha:0.1),
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Icon(icon, color: isSelected ? Colors.white : AppColors.primary, size: 20),
@@ -867,8 +869,8 @@ class _AvatarCircle extends StatelessWidget {
       height: size,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        color: AppColors.primary.withOpacity(0.1),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3), width: 2),
+        color: AppColors.primary.withValues(alpha:0.1),
+        border: Border.all(color: AppColors.primary.withValues(alpha:0.3), width: 2),
       ),
       child: ClipOval(
         child: isLoading
