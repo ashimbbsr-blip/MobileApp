@@ -5,6 +5,9 @@ import '../models/food_item.dart';
 import '../models/meal_entry.dart';
 import '../models/monthly_summary.dart';
 import '../models/legal_acceptance.dart';
+import '../models/weight_entry.dart';
+import '../models/daily_summary.dart';
+import '../models/yearly_summary.dart';
 import '../core/constants/app_constants.dart';
 
 class HiveStorage {
@@ -32,6 +35,9 @@ class HiveStorage {
     if (!Hive.isAdapterRegistered(2)) Hive.registerAdapter(MealEntryAdapter());
     if (!Hive.isAdapterRegistered(3)) Hive.registerAdapter(MonthlySummaryAdapter());
     if (!Hive.isAdapterRegistered(4)) Hive.registerAdapter(LegalAcceptanceAdapter());
+    if (!Hive.isAdapterRegistered(5)) Hive.registerAdapter(WeightEntryAdapter());
+    if (!Hive.isAdapterRegistered(6)) Hive.registerAdapter(DailySummaryAdapter());
+    if (!Hive.isAdapterRegistered(7)) Hive.registerAdapter(YearlySummaryAdapter());
   }
 
   // Opens every box individually so one corrupt box cannot block the others.
@@ -45,6 +51,9 @@ class HiveStorage {
     await _safeOpen(AppConstants.hiveSettingsBox,        () => Hive.openBox(AppConstants.hiveSettingsBox));
     await _safeOpen(AppConstants.hiveMonthlySummaryBox,  () => Hive.openBox<MonthlySummary>(AppConstants.hiveMonthlySummaryBox));
     await _safeOpen(AppConstants.hiveLegalBox,           () => Hive.openBox(AppConstants.hiveLegalBox));
+    await _safeOpen(AppConstants.hiveWeightHistoryBox,   () => Hive.openBox<WeightEntry>(AppConstants.hiveWeightHistoryBox));
+    await _safeOpen(AppConstants.hiveDailySummaryBox,    () => Hive.openBox<DailySummary>(AppConstants.hiveDailySummaryBox));
+    await _safeOpen(AppConstants.hiveYearlySummaryBox,   () => Hive.openBox<YearlySummary>(AppConstants.hiveYearlySummaryBox));
   }
 
   static Future<void> _safeOpen(String name, Future<dynamic> Function() open) async {
@@ -72,6 +81,12 @@ class HiveStorage {
   static Box<MonthlySummary> get monthlySummaryBox =>
       Hive.box<MonthlySummary>(AppConstants.hiveMonthlySummaryBox);
   static Box get legalBox => Hive.box(AppConstants.hiveLegalBox);
+  static Box<WeightEntry> get weightHistoryBox =>
+      Hive.box<WeightEntry>(AppConstants.hiveWeightHistoryBox);
+  static Box<DailySummary> get dailySummaryBox =>
+      Hive.box<DailySummary>(AppConstants.hiveDailySummaryBox);
+  static Box<YearlySummary> get yearlySummaryBox =>
+      Hive.box<YearlySummary>(AppConstants.hiveYearlySummaryBox);
 
   // ── User Profile ─────────────────────────────────────────────────────────
 
@@ -338,6 +353,123 @@ class HiveStorage {
       ? settingsBox.delete('customFatG')
       : settingsBox.put('customFatG', v);
 
+  // ── Weight History ────────────────────────────────────────────────────────
+
+  static List<WeightEntry> getWeightHistory() {
+    final list = weightHistoryBox.values.toList()
+      ..sort((a, b) => a.recordedAt.compareTo(b.recordedAt));
+    return list;
+  }
+
+  /// Stores one canonical weight entry per day (keyed by dateKey).
+  static Future<void> saveWeightEntry(WeightEntry entry) async {
+    await weightHistoryBox.put(entry.dateKey, entry);
+  }
+
+  static Future<void> deleteWeightEntry(String dateKey) async {
+    await weightHistoryBox.delete(dateKey);
+  }
+
+  // ── Archived Daily Summaries ──────────────────────────────────────────────
+
+  static List<DailySummary> getDailySummaries() {
+    return dailySummaryBox.values.toList()
+      ..sort((a, b) => a.date.compareTo(b.date));
+  }
+
+  static DailySummary? getDailySummary(String dateKey) =>
+      dailySummaryBox.get(dateKey);
+
+  static Future<void> saveDailySummary(DailySummary s) async {
+    await dailySummaryBox.put(s.dateKey, s);
+  }
+
+  // ── Archived Yearly Summaries ─────────────────────────────────────────────
+
+  static List<YearlySummary> getYearlySummaries() {
+    return yearlySummaryBox.values.toList()
+      ..sort((a, b) => a.year.compareTo(b.year));
+  }
+
+  static YearlySummary? getYearlySummary(int year) =>
+      yearlySummaryBox.get(year.toString());
+
+  static Future<void> saveYearlySummary(YearlySummary s) async {
+    await yearlySummaryBox.put(s.key, s);
+  }
+
+  static Future<void> deleteMonthlySummariesByKeys(List<String> keys) async {
+    await monthlySummaryBox.deleteAll(keys);
+  }
+
+  // ── Per-day Water history (stored as 'water_<dateKey>' in settingsBox) ─────
+
+  /// Returns a map of dateKey → ml for every recorded water entry.
+  static Map<String, double> getAllWaterEntries() {
+    final out = <String, double>{};
+    for (final k in settingsBox.keys) {
+      if (k is String && k.startsWith('water_')) {
+        final v = settingsBox.get(k);
+        if (v is num) out[k.substring(6)] = v.toDouble();
+      }
+    }
+    return out;
+  }
+
+  static Map<String, double> getAllBurnedEntries() {
+    final out = <String, double>{};
+    for (final k in settingsBox.keys) {
+      if (k is String && k.startsWith('burned_')) {
+        final v = settingsBox.get(k);
+        if (v is num) out[k.substring(7)] = v.toDouble();
+      }
+    }
+    return out;
+  }
+
+  // ── Measurement unit ──────────────────────────────────────────────────────
+
+  static String get measurementUnit =>
+      settingsBox.get(AppConstants.keyMeasurementUnit, defaultValue: 'metric') as String;
+
+  static Future<void> setMeasurementUnit(String unit) async =>
+      settingsBox.put(AppConstants.keyMeasurementUnit, unit);
+
+  // ── Backup / Archive bookkeeping ──────────────────────────────────────────
+
+  static DateTime? get lastBackupAt {
+    final v = settingsBox.get(AppConstants.keyLastBackupAt);
+    return v is String ? DateTime.tryParse(v) : null;
+  }
+
+  static Future<void> setLastBackupAt(DateTime t) async =>
+      settingsBox.put(AppConstants.keyLastBackupAt, t.toIso8601String());
+
+  static DateTime? get lastArchiveAt {
+    final v = settingsBox.get(AppConstants.keyLastArchiveAt);
+    return v is String ? DateTime.tryParse(v) : null;
+  }
+
+  static Future<void> setLastArchiveAt(DateTime t) async =>
+      settingsBox.put(AppConstants.keyLastArchiveAt, t.toIso8601String());
+
+  /// Snapshot of all user-preference settings entries (everything except the
+  /// regenerable per-day water/burned caches), for inclusion in backups.
+  static Map<String, dynamic> exportSettingsSnapshot() {
+    final out = <String, dynamic>{};
+    for (final k in settingsBox.keys) {
+      if (k is! String) continue;
+      // Water & burned per-day values are exported separately as structured
+      // history; skip the legal blob (restored from its own box).
+      if (k.startsWith('water_') || k.startsWith('burned_')) continue;
+      final v = settingsBox.get(k);
+      if (v == null || v is bool || v is num || v is String) {
+        out[k] = v;
+      }
+    }
+    return out;
+  }
+
   static Future<void> resetAllData() async {
     // Preserve user preferences across a data reset.
     final theme = settingsBox.get(AppConstants.keyThemeMode);
@@ -353,6 +485,9 @@ class HiveStorage {
     await foodCacheBox.clear();
     await settingsBox.clear();
     await monthlySummaryBox.clear();
+    await weightHistoryBox.clear();
+    await dailySummaryBox.clear();
+    await yearlySummaryBox.clear();
     // localFoodBox is immutable app data — never cleared.
 
     // Restore preserved preferences.

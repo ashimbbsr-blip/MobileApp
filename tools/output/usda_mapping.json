@@ -1,0 +1,26 @@
+{
+  "description": "USDA normalization pipeline — maps raw USDA food names to NutriCheck canonical foods",
+  "version": 1,
+  "pipeline_steps": [
+    "1. Normalize: lowercase, strip commas/parens, collapse spaces",
+    "2. Detect family using FAMILY_RULES keyword list",
+    "3. Find local canonical food for that family (canonical=true)",
+    "4. If SequenceMatcher ratio >= 0.85, link to canonical; else create new local item",
+    "5. Tag: src=usda, nutrition_source=usda, nutrition_confidence=medium",
+    "6. Store usda_cache={fdc_id, cached:true, cached_at, local_id}"
+  ],
+  "cache_schema": {
+    "source": "usda",
+    "fdc_id": 0,
+    "cached": true,
+    "cached_at": "ISO8601",
+    "local_id": "int"
+  },
+  "example_mappings": {
+    "Rice, white, long-grain, cooked": "→ id:298 (Flattened rice cutlet)",
+    "Rice, white, enriched, cooked": "→ id:298 (Flattened rice cutlet)",
+    "Chicken, broilers, meat only, roasted": "→ id:315 (Afghani chicken)",
+    "Chicken breast, cooked": "→ id:315 (Afghani chicken)"
+  },
+  "dedup_rule": "If similarity >= 0.85 to existing canonical, reuse canonical id. Do not create duplicate."
+}

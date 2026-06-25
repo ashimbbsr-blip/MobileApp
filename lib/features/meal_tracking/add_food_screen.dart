@@ -13,15 +13,17 @@ import '../meal_tracking/providers/meal_provider.dart';
 // ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
 
 const _localCategories = [
-  'rice', 'bread', 'vegetable', 'legume', 'fish', 'meat', 'egg', 'dairy',
-  'fruit', 'snack', 'sweet', 'dessert', 'beverage', 'soup', 'breakfast',
-  'grain', 'salad', 'noodle',
+  'rice', 'bread', 'bakery', 'vegetable', 'shaak', 'legume', 'fish', 'meat', 'egg', 'dairy',
+  'fruit', 'snack', 'sweet', 'beverage', 'soup', 'breakfast',
+  'grain', 'salad', 'noodle', 'pizza',
 ];
 
 const _catIcons = <String, IconData>{
   'rice':      Icons.rice_bowl_outlined,
   'bread':     Icons.breakfast_dining_outlined,
+  'bakery':    Icons.bakery_dining_outlined,
   'vegetable': Icons.eco_outlined,
+  'shaak':     Icons.spa_outlined,
   'legume':    Icons.grass_outlined,
   'fruit':     Icons.apple_outlined,
   'fish':      Icons.set_meal_outlined,
@@ -30,13 +32,13 @@ const _catIcons = <String, IconData>{
   'dairy':     Icons.water_drop_outlined,
   'snack':     Icons.cookie_outlined,
   'sweet':     Icons.cake_outlined,
-  'dessert':   Icons.icecream_outlined,
   'beverage':  Icons.local_drink_outlined,
   'soup':      Icons.soup_kitchen_outlined,
   'breakfast': Icons.free_breakfast_outlined,
   'grain':     Icons.grain_outlined,
   'salad':     Icons.local_florist_outlined,
   'noodle':    Icons.ramen_dining_outlined,
+  'pizza':     Icons.local_pizza_outlined,
   'other':     Icons.fastfood_outlined,
 };
 
@@ -44,8 +46,10 @@ Color _catColor(String? cat) {
   switch (cat) {
     case 'rice':      return const Color(0xFFFF8C42);
     case 'bread':     return const Color(0xFFE6A020);
+    case 'bakery':    return const Color(0xFFBF7A28);
     case 'legume':    return const Color(0xFFD4A017);
     case 'vegetable': return const Color(0xFF43A047);
+    case 'shaak':     return const Color(0xFF1B5E20);
     case 'fruit':     return const Color(0xFFD81B60);
     case 'fish':      return const Color(0xFF1E88E5);
     case 'meat':      return const Color(0xFFD32F2F);
@@ -53,13 +57,13 @@ Color _catColor(String? cat) {
     case 'dairy':     return const Color(0xFF0288D1);
     case 'snack':     return const Color(0xFF6D4C41);
     case 'sweet':     return const Color(0xFFC2185B);
-    case 'dessert':   return const Color(0xFFAD1457);
     case 'beverage':  return const Color(0xFF00897B);
     case 'soup':      return const Color(0xFFEF6C00);
     case 'breakfast': return const Color(0xFFF9A825);
     case 'grain':     return const Color(0xFF8D6E63);
     case 'salad':     return const Color(0xFF2E7D32);
     case 'noodle':    return const Color(0xFFF57F17);
+    case 'pizza':     return const Color(0xFFE53935);
     default:          return const Color(0xFF546E7A);
   }
 }
@@ -69,25 +73,29 @@ String _catLabel(String cat, String lang) {
     const bn = <String, String>{
       'rice':      'ভাত',
       'bread':     'রুটি',
+      'bakery':    'বেকারি',
       'legume':    'ডাল',
       'vegetable': 'সবজি',
+      'shaak':     'শাক',
       'fruit':     'ফল',
       'fish':      'মাছ',
       'meat':      'মাংস',
       'egg':       'ডিম',
       'dairy':     'দুগ্ধ',
       'snack':     'স্ন্যাকস',
-      'sweet':     'মিষ্টি',
-      'dessert':   'ডেজার্ট',
+      'sweet':     'মিষ্টি/ডেজার্ট',
       'beverage':  'পানীয়',
       'soup':      'স্যুপ',
       'breakfast': 'সকালের খাবার',
       'grain':     'শস্য',
       'salad':     'সালাদ',
       'noodle':    'নুডুলস',
+      'pizza':     'পিৎজা',
     };
     return bn[cat] ?? cat;
   }
+  if (cat == 'sweet') return 'Sweet & Dessert';
+  if (cat == 'shaak') return 'Leafy Greens';
   return cat[0].toUpperCase() + cat.substring(1);
 }
 
@@ -120,7 +128,32 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
   Future<void> _addFood(FoodItem food, double quantity) async {
     await ref.read(mealProvider.notifier).addFood(food, widget.mealType, quantity);
     ref.read(dashboardProvider.notifier).refresh();
-    if (mounted) Navigator.of(context).pop();
+    if (!mounted) return;
+    final lang = ref.read(appStringsProvider).language;
+    final name = food.displayName(lang);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Row(
+          children: [
+            const Icon(Icons.check_circle_rounded, color: Colors.white, size: 18),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                lang == 'bn' ? '"$name" যোগ হয়েছে!' : '"$name" added!',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
+        ),
+        backgroundColor: AppColors.primary,
+        duration: const Duration(seconds: 2),
+        behavior: SnackBarBehavior.floating,
+        margin: const EdgeInsets.all(12),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      ),
+    );
+    Navigator.of(context).pop();
   }
 
   @override
@@ -159,7 +192,7 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
                     children: [
                       const Icon(Icons.travel_explore_rounded, size: 15),
                       const SizedBox(width: 4),
-                      Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'International'),
+                      Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
                     ],
                   ),
                 ),
@@ -382,56 +415,59 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
                   ),
                 ],
               ),
-              const SizedBox(height: 8),
-              SizedBox(
-                height: 32,
-                child: ListView.separated(
-                  scrollDirection: Axis.horizontal,
-                  padding: EdgeInsets.zero,
-                  itemCount: _localCategories.length,
-                  separatorBuilder: (_, __) => const SizedBox(width: 6),
-                  itemBuilder: (context, i) {
-                    final cat = _localCategories[i];
-                    final sel = _selectedCategory == cat;
-                    final color = _catColor(cat);
-                    return GestureDetector(
-                      onTap: () => _setCategory(cat),
-                      child: AnimatedContainer(
-                        duration: const Duration(milliseconds: 180),
-                        padding: const EdgeInsets.symmetric(horizontal: 10),
-                        decoration: BoxDecoration(
-                          color: sel ? color : color.withValues(alpha: 0.1),
-                          borderRadius: BorderRadius.circular(16),
-                          border: Border.all(
-                              color: sel
-                                  ? color
-                                  : color.withValues(alpha: 0.4),
-                              width: 1.2),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Icon(
-                                _catIcons[cat] ?? Icons.fastfood_outlined,
-                                size: 12,
-                                color: sel ? Colors.white : color),
-                            const SizedBox(width: 4),
-                            Text(
-                              _catLabel(cat, lang),
-                              style: TextStyle(
-                                fontSize: 11,
-                                fontWeight: FontWeight.w600,
-                                color: sel ? Colors.white : color,
+              if (_ctrl.text.isEmpty) ...[
+                const SizedBox(height: 8),
+                SizedBox(
+                  height: 32,
+                  child: ListView.separated(
+                    scrollDirection: Axis.horizontal,
+                    padding: EdgeInsets.zero,
+                    itemCount: _localCategories.length,
+                    separatorBuilder: (_, __) => const SizedBox(width: 6),
+                    itemBuilder: (context, i) {
+                      final cat = _localCategories[i];
+                      final sel = _selectedCategory == cat;
+                      final color = _catColor(cat);
+                      return GestureDetector(
+                        onTap: () => _setCategory(cat),
+                        child: AnimatedContainer(
+                          duration: const Duration(milliseconds: 180),
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          decoration: BoxDecoration(
+                            color: sel ? color : color.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(16),
+                            border: Border.all(
+                                color: sel
+                                    ? color
+                                    : color.withValues(alpha: 0.4),
+                                width: 1.2),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                  _catIcons[cat] ?? Icons.fastfood_outlined,
+                                  size: 12,
+                                  color: sel ? Colors.white : color),
+                              const SizedBox(width: 4),
+                              Text(
+                                _catLabel(cat, lang),
+                                style: TextStyle(
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w600,
+                                  color: sel ? Colors.white : color,
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
-                      ),
-                    );
-                  },
+                      );
+                    },
+                  ),
                 ),
-              ),
-              const SizedBox(height: 10),
+                const SizedBox(height: 10),
+              ] else
+                const SizedBox(height: 4),
             ],
           ),
         ),
@@ -445,7 +481,7 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
                           : 'No Results Found',
                       subtitle: lang == 'bn'
                           ? 'আন্তর্জাতিক ট্যাবে খুঁজুন'
-                          : 'Try the International tab',
+                          : 'Try the USDA tab',
                     )
                   : ListView.builder(
                       padding: const EdgeInsets.fromLTRB(16, 10, 16, 20),
@@ -917,7 +953,7 @@ class _UsdaIdle extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      lang == 'bn' ? 'আন্তর্জাতিক ডেটাবেজ' : 'International Database',
+                      lang == 'bn' ? 'আন্তর্জাতিক ডেটাবেজ' : 'USDA Database',
                       style: const TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -967,6 +1003,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
   final _fatCtrl = TextEditingController(text: '0');
   final _fiberCtrl = TextEditingController(text: '0');
   String _unit = 'g';
+  bool _saveForFuture = false;
   List<FoodItem> _customFoods = [];
 
   @override
@@ -1007,7 +1044,10 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
     _carbCtrl.text = '0';
     _fatCtrl.text = '0';
     _fiberCtrl.text = '0';
-    setState(() => _unit = 'g');
+    setState(() {
+      _unit = 'g';
+      _saveForFuture = false;
+    });
   }
 
   Future<void> _save() async {
@@ -1022,22 +1062,26 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
       carbsG: double.tryParse(_carbCtrl.text) ?? 0,
       fatG: double.tryParse(_fatCtrl.text) ?? 0,
       fiberG: double.tryParse(_fiberCtrl.text) ?? 0,
-      isCustom: true,
+      isCustom: _saveForFuture,
       source: 'custom',
     );
-    await HiveStorage.saveCustomFood(food);
-    _clearForm();
-    _reload();
-    if (mounted) {
-      final bn = widget.lang == 'bn';
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(bn ? 'সংরক্ষণ হয়েছে!' : 'Saved!'),
-          duration: const Duration(seconds: 2),
-          backgroundColor: const Color(0xFF7B61FF),
-        ),
-      );
+    if (_saveForFuture) {
+      await HiveStorage.saveCustomFood(food);
+      _reload();
+      if (mounted) {
+        final bn = widget.lang == 'bn';
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(bn ? 'সংরক্ষণ হয়েছে!' : 'Saved!'),
+            duration: const Duration(seconds: 2),
+            backgroundColor: const Color(0xFF7B61FF),
+          ),
+        );
+      }
     }
+    final serving = double.tryParse(_servingCtrl.text) ?? 100;
+    _clearForm();
+    await widget.onAdd(food, serving);
   }
 
   Future<void> _delete(String id) async {
@@ -1214,13 +1258,66 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                     ],
                   ),
                   const SizedBox(height: 14),
+                  // Save for future checkbox
+                  GestureDetector(
+                    onTap: () => setState(() => _saveForFuture = !_saveForFuture),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                      decoration: BoxDecoration(
+                        color: _saveForFuture
+                            ? const Color(0xFF7B61FF).withValues(alpha: 0.08)
+                            : theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.4),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: _saveForFuture
+                              ? const Color(0xFF7B61FF).withValues(alpha: 0.5)
+                              : theme.dividerColor,
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Checkbox(
+                            value: _saveForFuture,
+                            onChanged: (v) => setState(() => _saveForFuture = v ?? false),
+                            activeColor: const Color(0xFF7B61FF),
+                            materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                            visualDensity: VisualDensity.compact,
+                          ),
+                          const SizedBox(width: 4),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  bn ? 'ভবিষ্যতে ব্যবহারের জন্য সংরক্ষণ করুন' : 'Save for future use',
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 13,
+                                  ),
+                                ),
+                                Text(
+                                  bn
+                                      ? 'চেক না করলে শুধু এবারের মিলে যোগ হবে'
+                                      : 'Unchecked: add to this meal only, not saved',
+                                  style: theme.textTheme.bodySmall?.copyWith(fontSize: 11),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 12),
                   SizedBox(
                     width: double.infinity,
                     child: FilledButton.icon(
                       onPressed: _save,
-                      icon: const Icon(Icons.save_rounded, size: 18),
+                      icon: Icon(_saveForFuture ? Icons.save_rounded : Icons.add_rounded, size: 18),
                       label: Text(
-                        bn ? 'সংরক্ষণ করুন' : 'Save Food',
+                        _saveForFuture
+                            ? (bn ? 'সংরক্ষণ করে যোগ করুন' : 'Save & Add to Meal')
+                            : (bn ? 'মিলে যোগ করুন' : 'Add to Meal'),
                         style: const TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 15),
                       ),

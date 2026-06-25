@@ -22,7 +22,7 @@ class LocalFoodRepository {
     if (_items != null) return;
     try {
       final jsonStr =
-          await rootBundle.loadString('assets/data/food_master_v7_2.json');
+          await rootBundle.loadString('assets/data/food_master_v8_0.json');
       if (jsonStr.isEmpty) {
         debugPrint('[LocalFoodRepo] food_master.json is empty');
         _items = [];
@@ -66,9 +66,11 @@ class LocalFoodRepository {
     if (_items == null || _items!.isEmpty) return [];
     final q = query.toLowerCase().trim();
 
-    // Empty query with category → browse all items in that category.
+    // Empty query with category → browse all items, sorted by searchPriority.
     if (q.isEmpty && category != null) {
-      return _items!.where((f) => f.category == category).take(limit).toList();
+      final items = _items!.where((f) => f.category == category).toList()
+        ..sort((a, b) => (b.searchPriority ?? 50).compareTo(a.searchPriority ?? 50));
+      return items.take(limit).toList();
     }
     if (q.isEmpty) return [];
 
@@ -82,31 +84,41 @@ class LocalFoodRepository {
     return results.take(limit).map((s) => s.food).toList();
   }
 
+  // Returns a relevance score in [0, 1000].
+  // Tiers: exact=900, word-start=700, phrase-start=600, contains=500,
+  //        keyword-match=400, multi-word=350.
+  // searchPriority (0-100) is added as a 0-90 tiebreaker within each tier
+  // so that higher-quality / more-popular foods rank first when match strength
+  // is equal.
   static int _score(FoodItem food, String q) {
-    final en = food.name.toLowerCase();
-    final bn = food.nameBn?.toLowerCase() ?? '';
+    final en     = food.name.toLowerCase();
+    final bn     = food.nameBn?.toLowerCase() ?? '';
     final kwList = food.keywords ?? [];
-    final kw = kwList.join(' ');
+    final kw     = kwList.join(' ');
+    final alList = food.aliases ?? [];
+    final al     = alList.join(' ');
+    final pri    = food.searchPriority ?? 50; // 0-100
+    final bonus  = (pri * 0.9).round();       // up to +90
 
-    if (en == q || bn == q) return 100;
-    if (en.startsWith(q) || bn.startsWith(q)) return 80;
+    if (en == q || bn == q) return 900 + bonus;
+    if (en.startsWith(q) || bn.startsWith(q)) return 700 + bonus;
 
     if (q.length == 1) {
       final enWords = en.split(RegExp(r'[\s/\-]+'));
       final bnWords = bn.split(RegExp(r'[\s/\-]+'));
       if (enWords.any((w) => w.startsWith(q)) ||
           bnWords.any((w) => w.startsWith(q)) ||
-          kwList.any((w) => w.startsWith(q))) return 70;
+          kwList.any((w) => w.startsWith(q))) { return 600 + bonus; }
       return 0;
     }
 
-    if (en.contains(q) || bn.contains(q)) return 60;
-    if (kw.contains(q)) return 40;
+    if (en.contains(q) || bn.contains(q)) return 500 + bonus;
+    if (kw.contains(q) || al.contains(q))  return 400 + bonus;
 
     final words = q.split(RegExp(r'\s+'));
     if (words.length > 1) {
-      final combined = '$en $bn $kw';
-      if (words.every(combined.contains)) return 50;
+      final combined = '$en $bn $kw $al';
+      if (words.every(combined.contains)) return 350 + bonus;
     }
     return 0;
   }

@@ -17,6 +17,8 @@ import '../features/settings/settings_screen.dart';
 import '../features/history/history_screen.dart';
 import '../features/profile/profile_screen.dart';
 import '../features/help/help_screen.dart';
+import '../features/backup/backup_archive_screen.dart';
+import '../features/weight/weight_screen.dart';
 import '../models/food_item.dart';
 import '../core/utils/meal_time_utils.dart';
 
@@ -119,6 +121,14 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/help',
         builder: (context, state) => const HelpScreen(),
+      ),
+      GoRoute(
+        path: '/backup',
+        builder: (context, state) => const BackupArchiveScreen(),
+      ),
+      GoRoute(
+        path: '/weight',
+        builder: (context, state) => const WeightScreen(),
       ),
     ],
     redirect: (context, state) {

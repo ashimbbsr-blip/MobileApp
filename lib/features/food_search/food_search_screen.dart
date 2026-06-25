@@ -14,15 +14,17 @@ import '../../core/utils/meal_time_utils.dart';
 
 // All normalised categories present in the dataset.
 const _localCategories = [
-  'rice', 'bread', 'vegetable', 'legume', 'fish', 'meat', 'egg', 'dairy',
-  'fruit', 'snack', 'sweet', 'dessert', 'beverage', 'soup', 'breakfast',
-  'grain', 'salad', 'noodle',
+  'rice', 'bread', 'bakery', 'vegetable', 'shaak', 'legume', 'fish', 'meat', 'egg', 'dairy',
+  'fruit', 'snack', 'sweet', 'beverage', 'soup', 'breakfast',
+  'grain', 'salad', 'noodle', 'pizza',
 ];
 
 const _catIcons = <String, IconData>{
   'rice':      Icons.rice_bowl_outlined,
   'bread':     Icons.breakfast_dining_outlined,
+  'bakery':    Icons.bakery_dining_outlined,
   'vegetable': Icons.eco_outlined,
+  'shaak':     Icons.spa_outlined,
   'legume':    Icons.grass_outlined,
   'fruit':     Icons.apple_outlined,
   'fish':      Icons.set_meal_outlined,
@@ -31,13 +33,13 @@ const _catIcons = <String, IconData>{
   'dairy':     Icons.water_drop_outlined,
   'snack':     Icons.cookie_outlined,
   'sweet':     Icons.cake_outlined,
-  'dessert':   Icons.icecream_outlined,
   'beverage':  Icons.local_drink_outlined,
   'soup':      Icons.soup_kitchen_outlined,
   'breakfast': Icons.free_breakfast_outlined,
   'grain':     Icons.grain_outlined,
   'salad':     Icons.local_florist_outlined,
   'noodle':    Icons.ramen_dining_outlined,
+  'pizza':     Icons.local_pizza_outlined,
   'other':     Icons.fastfood_outlined,
 };
 
@@ -45,8 +47,10 @@ Color _catColor(String? cat) {
   switch (cat) {
     case 'rice':      return const Color(0xFFFF8C42);
     case 'bread':     return const Color(0xFFE6A020);
+    case 'bakery':    return const Color(0xFFBF7A28);
     case 'legume':    return const Color(0xFFD4A017);
     case 'vegetable': return const Color(0xFF43A047);
+    case 'shaak':     return const Color(0xFF1B5E20);
     case 'fruit':     return const Color(0xFFD81B60);
     case 'fish':      return const Color(0xFF1E88E5);
     case 'meat':      return const Color(0xFFD32F2F);
@@ -54,13 +58,13 @@ Color _catColor(String? cat) {
     case 'dairy':     return const Color(0xFF0288D1);
     case 'snack':     return const Color(0xFF6D4C41);
     case 'sweet':     return const Color(0xFFC2185B);
-    case 'dessert':   return const Color(0xFFAD1457);
     case 'beverage':  return const Color(0xFF00897B);
     case 'soup':      return const Color(0xFFEF6C00);
     case 'breakfast': return const Color(0xFFF9A825);
     case 'grain':     return const Color(0xFF8D6E63);
     case 'salad':     return const Color(0xFF2E7D32);
     case 'noodle':    return const Color(0xFFF57F17);
+    case 'pizza':     return const Color(0xFFE53935);
     default:          return const Color(0xFF546E7A);
   }
 }
@@ -70,6 +74,7 @@ String _catLabel(String cat, String lang) {
     const bn = <String, String>{
       'rice':      'ভাত',
       'bread':     'রুটি',
+      'bakery':    'বেকারি',
       'legume':    'ডাল',
       'vegetable': 'সবজি',
       'fruit':     'ফল',
@@ -78,17 +83,20 @@ String _catLabel(String cat, String lang) {
       'egg':       'ডিম',
       'dairy':     'দুগ্ধ',
       'snack':     'স্ন্যাকস',
-      'sweet':     'মিষ্টি',
-      'dessert':   'ডেজার্ট',
+      'shaak':     'শাক',
+      'sweet':     'মিষ্টি/ডেজার্ট',
       'beverage':  'পানীয়',
       'soup':      'স্যুপ',
       'breakfast': 'সকালের খাবার',
       'grain':     'শস্য',
       'salad':     'সালাদ',
       'noodle':    'নুডুলস',
+      'pizza':     'পিৎজা',
     };
     return bn[cat] ?? cat;
   }
+  if (cat == 'sweet') return 'Sweet & Dessert';
+  if (cat == 'shaak') return 'Leafy Greens';
   return cat[0].toUpperCase() + cat.substring(1);
 }
 
@@ -202,7 +210,7 @@ class _FoodSearchScreenState extends ConsumerState<FoodSearchScreen>
                         children: [
                           const Icon(Icons.travel_explore_rounded, size: 16),
                           const SizedBox(width: 5),
-                          Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'International'),
+                          Text(lang == 'bn' ? 'আন্তর্জাতিক' : 'USDA'),
                         ],
                       ),
                     ),
@@ -447,63 +455,65 @@ class _LocalTabState extends ConsumerState<_LocalTab>
                     ],
                   ),
 
-                  const SizedBox(height: 8),
-
-                  // Category chips
-                  SizedBox(
-                    height: 32,
-                    child: ListView.separated(
-                      scrollDirection: Axis.horizontal,
-                      padding: EdgeInsets.zero,
-                      itemCount: _localCategories.length,
-                      separatorBuilder: (_, __) => const SizedBox(width: 6),
-                      itemBuilder: (context, i) {
-                        final cat = _localCategories[i];
-                        final sel = state.localCategory == cat;
-                        final color = _catColor(cat);
-                        return GestureDetector(
-                          onTap: () => ref
-                              .read(foodSearchProvider.notifier)
-                              .setLocalCategory(cat),
-                          child: AnimatedContainer(
-                            duration: const Duration(milliseconds: 180),
-                            padding: const EdgeInsets.symmetric(horizontal: 10),
-                            decoration: BoxDecoration(
-                              color: sel
-                                  ? color
-                                  : color.withValues(alpha: 0.1),
-                              borderRadius: BorderRadius.circular(16),
-                              border: Border.all(
-                                  color: sel
-                                      ? color
-                                      : color.withValues(alpha: 0.4),
-                                  width: 1.2),
-                            ),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(
-                                    _catIcons[cat] ??
-                                        Icons.fastfood_outlined,
-                                    size: 12,
-                                    color: sel ? Colors.white : color),
-                                const SizedBox(width: 4),
-                                Text(
-                                  _catLabel(cat, lang),
-                                  style: TextStyle(
-                                    fontSize: 11,
-                                    fontWeight: FontWeight.w600,
-                                    color: sel ? Colors.white : color,
+                  // Category chips — hidden while user is typing
+                  if (_ctrl.text.isEmpty) ...[
+                    const SizedBox(height: 8),
+                    SizedBox(
+                      height: 32,
+                      child: ListView.separated(
+                        scrollDirection: Axis.horizontal,
+                        padding: EdgeInsets.zero,
+                        itemCount: _localCategories.length,
+                        separatorBuilder: (_, __) => const SizedBox(width: 6),
+                        itemBuilder: (context, i) {
+                          final cat = _localCategories[i];
+                          final sel = state.localCategory == cat;
+                          final color = _catColor(cat);
+                          return GestureDetector(
+                            onTap: () => ref
+                                .read(foodSearchProvider.notifier)
+                                .setLocalCategory(cat),
+                            child: AnimatedContainer(
+                              duration: const Duration(milliseconds: 180),
+                              padding: const EdgeInsets.symmetric(horizontal: 10),
+                              decoration: BoxDecoration(
+                                color: sel
+                                    ? color
+                                    : color.withValues(alpha: 0.1),
+                                borderRadius: BorderRadius.circular(16),
+                                border: Border.all(
+                                    color: sel
+                                        ? color
+                                        : color.withValues(alpha: 0.4),
+                                    width: 1.2),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(
+                                      _catIcons[cat] ??
+                                          Icons.fastfood_outlined,
+                                      size: 12,
+                                      color: sel ? Colors.white : color),
+                                  const SizedBox(width: 4),
+                                  Text(
+                                    _catLabel(cat, lang),
+                                    style: TextStyle(
+                                      fontSize: 11,
+                                      fontWeight: FontWeight.w600,
+                                      color: sel ? Colors.white : color,
+                                    ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
-                          ),
-                        );
-                      },
+                          );
+                        },
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 10),
+                    const SizedBox(height: 10),
+                  ] else
+                    const SizedBox(height: 4),
                 ],
               ),
             ),
@@ -534,6 +544,7 @@ class _LocalTabState extends ConsumerState<_LocalTab>
                 elevation: 8,
                 shadowColor: Colors.black26,
                 borderRadius: BorderRadius.circular(12),
+                color: isDark ? const Color(0xFF2A2A2A) : const Color(0xFFF5F5F5),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(12),
                   child: Column(
@@ -551,7 +562,7 @@ class _LocalTabState extends ConsumerState<_LocalTab>
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           if (i > 0)
-                            const Divider(height: 1, indent: 44),
+                            Divider(height: 1, indent: 44, color: isDark ? Colors.white12 : Colors.black12),
                           InkWell(
                             onTap: () => _pickSuggestion(food),
                             child: Padding(
@@ -578,7 +589,10 @@ class _LocalTabState extends ConsumerState<_LocalTab>
                                               .bodyMedium
                                               ?.copyWith(
                                                   fontWeight: FontWeight.w600,
-                                                  fontSize: 13),
+                                                  fontSize: 13,
+                                                  color: isDark
+                                                      ? Colors.grey.shade300
+                                                      : Colors.grey.shade700),
                                           maxLines: 1,
                                           overflow: TextOverflow.ellipsis,
                                         ),
@@ -652,7 +666,7 @@ class _LocalResults extends StatelessWidget {
               : '"${state.localQuery}" not in local database'),
       hint: lang == 'bn'
           ? 'ইংরেজি বা বাংলায় চেষ্টা করুন, অথবা আন্তর্জাতিক ট্যাবে খুঁজুন'
-          : 'Try English or Bengali, or search the International tab',
+          : 'Try English or Bengali, or search the USDA tab',
     );
   }
 }
@@ -1003,7 +1017,7 @@ class _UsdaIdle extends StatelessWidget {
                     Text(
                       lang == 'bn'
                           ? 'আন্তর্জাতিক ডেটাবেজ'
-                          : 'International Database',
+                          : 'USDA Database',
                       style: const TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -1038,7 +1052,7 @@ class _UsdaIdle extends StatelessWidget {
                 ]
               : [
                   'Packaged & branded foods (Coca-Cola, KitKat…)',
-                  'International restaurant dishes',
+                  'USDA restaurant dishes',
                   'USDA FoodData Central database',
                 ],
         ),
@@ -1075,8 +1089,13 @@ class _CustomTabState extends ConsumerState<_CustomTab>
       backgroundColor: Colors.transparent,
       builder: (_) => _AddCustomFoodSheet(
         lang: widget.lang,
-        onSave: (food) =>
-            ref.read(foodSearchProvider.notifier).addCustomFood(food),
+        onSave: (food, saveForFuture) {
+          if (saveForFuture) {
+            ref.read(foodSearchProvider.notifier).addCustomFood(food);
+          }
+          context.push('/food-search/detail',
+              extra: {'food': food, 'mealType': mealTypeForNow()});
+        },
       ),
     );
   }
@@ -1395,7 +1414,7 @@ class _CustomFoodCard extends StatelessWidget {
 
 class _AddCustomFoodSheet extends StatefulWidget {
   final String lang;
-  final void Function(FoodItem food) onSave;
+  final void Function(FoodItem food, bool saveForFuture) onSave;
 
   const _AddCustomFoodSheet({required this.lang, required this.onSave});
 
@@ -1412,6 +1431,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
   final _carbCtrl = TextEditingController(text: '0');
   final _fatCtrl = TextEditingController(text: '0');
   String _unit = 'g';
+  bool _saveForFuture = false;
 
   @override
   void dispose() {
@@ -1424,7 +1444,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
     super.dispose();
   }
 
-  void _save() {
+  void _add() {
     if (!_formKey.currentState!.validate()) return;
     final food = FoodItem(
       id: 'custom_${const Uuid().v4()}',
@@ -1436,10 +1456,10 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
       carbsG: double.tryParse(_carbCtrl.text) ?? 0,
       fatG: double.tryParse(_fatCtrl.text) ?? 0,
       fiberG: 0,
-      isCustom: true,
+      isCustom: _saveForFuture,
       source: 'custom',
     );
-    widget.onSave(food);
+    widget.onSave(food, _saveForFuture);
     Navigator.pop(context);
   }
 
@@ -1472,7 +1492,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
               ),
             ),
             Text(
-              bn ? 'কাস্টম খাবার তৈরি করুন' : 'Create Custom Food',
+              bn ? 'কাস্টম খাবার যোগ করুন' : 'Add Custom Food',
               style: theme.textTheme.titleMedium
                   ?.copyWith(fontWeight: FontWeight.w800),
             ),
@@ -1595,11 +1615,62 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 16),
+                  // Save for future use checkbox
+                  GestureDetector(
+                    onTap: () => setState(() => _saveForFuture = !_saveForFuture),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                      decoration: BoxDecoration(
+                        color: _saveForFuture
+                            ? const Color(0xFF7B61FF).withValues(alpha: 0.08)
+                            : theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.4),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: _saveForFuture
+                              ? const Color(0xFF7B61FF).withValues(alpha: 0.5)
+                              : theme.dividerColor,
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Checkbox(
+                            value: _saveForFuture,
+                            onChanged: (v) => setState(() => _saveForFuture = v ?? false),
+                            activeColor: const Color(0xFF7B61FF),
+                            materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                            visualDensity: VisualDensity.compact,
+                          ),
+                          const SizedBox(width: 4),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  bn ? 'ভবিষ্যতে ব্যবহারের জন্য সংরক্ষণ করুন' : 'Save for future use',
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 13,
+                                  ),
+                                ),
+                                Text(
+                                  bn
+                                      ? 'চেক না করলে শুধু এবারের জন্য যোগ হবে'
+                                      : 'Unchecked: add to this meal only, not saved',
+                                  style: theme.textTheme.bodySmall?.copyWith(fontSize: 11),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
                   SizedBox(
                     width: double.infinity,
                     child: FilledButton(
-                      onPressed: _save,
+                      onPressed: _add,
                       style: FilledButton.styleFrom(
                         backgroundColor: const Color(0xFF7B61FF),
                         foregroundColor: Colors.white,
@@ -1608,7 +1679,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
                             borderRadius: BorderRadius.circular(12)),
                       ),
                       child: Text(
-                        bn ? 'সংরক্ষণ করুন' : 'Save Custom Food',
+                        bn ? 'খাবার যোগ করুন' : 'Add Food',
                         style: const TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 15),
                       ),

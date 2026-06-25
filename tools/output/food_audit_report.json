@@ -1,0 +1,5275 @@
+{
+  "total": 2284,
+  "summary": {
+    "duplicates": 63,
+    "near_duplicates": 1454,
+    "variants": 5062,
+    "no_src": 140,
+    "low_quality": 10,
+    "bn_qa": 5
+  },
+  "duplicates": [
+    {
+      "id_a": 98200,
+      "en_a": "Fresh Lime Soda Salty Pizza Hut",
+      "id_b": 98201,
+      "en_b": "Fresh Lime Soda Sweet Pizza Hut",
+      "similarity": 0.903,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98200,
+      "en_a": "Fresh Lime Soda Salty Pizza Hut",
+      "id_b": 98202,
+      "en_b": "Fresh Lime Soda Sweet Salty Pizza Hut",
+      "similarity": 0.912,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98201,
+      "en_a": "Fresh Lime Soda Sweet Pizza Hut",
+      "id_b": 98202,
+      "en_b": "Fresh Lime Soda Sweet Salty Pizza Hut",
+      "similarity": 0.912,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98205,
+      "en_b": "Masala Pepsi Pizza Hut",
+      "similarity": 0.905,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98191,
+      "en_a": "Baked Cheesy Momo Veg Pizza Hut",
+      "id_b": 98194,
+      "en_b": "Baked Cheesy Momo Non Veg Pizza Hut",
+      "similarity": 0.939,
+      "category": "snack"
+    },
+    {
+      "id_a": 98192,
+      "en_a": "Cheesy Pocket Pizza Hut (2pc)",
+      "id_b": 98193,
+      "en_b": "Indi Cheesy Pocket Pizza Hut (2pc)",
+      "similarity": 0.921,
+      "category": "snack"
+    },
+    {
+      "id_a": 790,
+      "en_a": "Ghugni",
+      "id_b": 1402,
+      "en_b": "Ghuguni",
+      "similarity": 0.923,
+      "category": "legume"
+    },
+    {
+      "id_a": 1101,
+      "en_a": "Green gram, split, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "similarity": 0.929,
+      "category": "legume"
+    },
+    {
+      "id_a": 518,
+      "en_a": "Mal pua",
+      "id_b": 96022,
+      "en_b": "Malpua",
+      "similarity": 0.923,
+      "category": "sweet"
+    },
+    {
+      "id_a": 775,
+      "en_a": "Christmas star biscuit",
+      "id_b": 776,
+      "en_b": "Christmas tree biscuit",
+      "similarity": 0.909,
+      "category": "sweet"
+    },
+    {
+      "id_a": 791,
+      "en_a": "Ginger biscuit",
+      "id_b": 792,
+      "en_b": "Gingerman biscuit",
+      "similarity": 0.903,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1401,
+      "en_a": "Manda Pitha",
+      "id_b": 30042,
+      "en_b": "Mandia Pitha",
+      "similarity": 0.957,
+      "category": "sweet"
+    },
+    {
+      "id_a": 228,
+      "en_a": "Pabda Jhol",
+      "id_b": 1436,
+      "en_b": "Pabda Jhal",
+      "similarity": 0.9,
+      "category": "fish"
+    },
+    {
+      "id_a": 232,
+      "en_a": "Shorshe Ilish",
+      "id_b": 4012,
+      "en_b": "Sorshe Ilish",
+      "similarity": 0.96,
+      "category": "fish"
+    },
+    {
+      "id_a": 234,
+      "en_a": "Tangra Jhol",
+      "id_b": 4018,
+      "en_b": "Tangra Jhal",
+      "similarity": 0.909,
+      "category": "fish"
+    },
+    {
+      "id_a": 1275,
+      "en_a": "Anchovy, Gangetic hairfin, dried",
+      "id_b": 1276,
+      "en_b": "Anchovy, Gangetic hairfin, raw",
+      "similarity": 0.903,
+      "category": "fish"
+    },
+    {
+      "id_a": 1410,
+      "en_a": "Maachha Jhola",
+      "id_b": 30012,
+      "en_b": "Machha Jhola",
+      "similarity": 0.96,
+      "category": "fish"
+    },
+    {
+      "id_a": 1236,
+      "en_a": "Apple, without skin, raw",
+      "id_b": 1237,
+      "en_b": "Apple, with skin, raw",
+      "similarity": 0.933,
+      "category": "fruit"
+    },
+    {
+      "id_a": 1159,
+      "en_a": "Amaranth, leaves, red, raw",
+      "id_b": 1160,
+      "en_b": "Amaranth, leaves, green, raw",
+      "similarity": 0.926,
+      "category": "vegetable"
+    },
+    {
+      "id_a": 349,
+      "en_a": "Mutton chops",
+      "id_b": 3037,
+      "en_b": "Mutton Chop",
+      "similarity": 0.957,
+      "category": "meat"
+    },
+    {
+      "id_a": 350,
+      "en_a": "Mutton do piaza",
+      "id_b": 3021,
+      "en_b": "Mutton Do Pyaza",
+      "similarity": 0.933,
+      "category": "meat"
+    },
+    {
+      "id_a": 588,
+      "en_a": "Shammi kebab",
+      "id_b": 60017,
+      "en_b": "Shami Kebab",
+      "similarity": 0.957,
+      "category": "meat"
+    },
+    {
+      "id_a": 3046,
+      "en_a": "Mutton Jhal",
+      "id_b": 90010,
+      "en_b": "Mutton Jhol",
+      "similarity": 0.909,
+      "category": "meat"
+    },
+    {
+      "id_a": 98154,
+      "en_a": "Spicy Baked Chicken Wings (4pc)",
+      "id_b": 98156,
+      "en_b": "Spicy Baked Chicken Wings (6pc)",
+      "similarity": 0.968,
+      "category": "meat"
+    },
+    {
+      "id_a": 98155,
+      "en_a": "BBQ Chicken Wings (4pc)",
+      "id_b": 98157,
+      "en_b": "BBQ Chicken Wings (6pc)",
+      "similarity": 0.957,
+      "category": "meat"
+    },
+    {
+      "id_a": 98158,
+      "en_a": "Baked Royal Spice Chicken Wings (6pc)",
+      "id_b": 98159,
+      "en_b": "Baked Royal Spice Chicken Wings (4pc)",
+      "similarity": 0.973,
+      "category": "meat"
+    },
+    {
+      "id_a": 98160,
+      "en_a": "Baked Southern Fiery Chicken Wings (6pc)",
+      "id_b": 98161,
+      "en_b": "Baked Southern Fiery Chicken Wings (4pc)",
+      "similarity": 0.975,
+      "category": "meat"
+    },
+    {
+      "id_a": 99074,
+      "en_a": "McDonalds Chicken McNuggets 4pc",
+      "id_b": 99075,
+      "en_b": "McDonalds Chicken McNuggets 6pc",
+      "similarity": 0.968,
+      "category": "meat"
+    },
+    {
+      "id_a": 99074,
+      "en_a": "McDonalds Chicken McNuggets 4pc",
+      "id_b": 99076,
+      "en_b": "McDonalds Chicken McNuggets 9pc",
+      "similarity": 0.968,
+      "category": "meat"
+    },
+    {
+      "id_a": 99074,
+      "en_a": "McDonalds Chicken McNuggets 4pc",
+      "id_b": 99077,
+      "en_b": "McDonalds Chicken McNuggets 20pc",
+      "similarity": 0.952,
+      "category": "meat"
+    },
+    {
+      "id_a": 99075,
+      "en_a": "McDonalds Chicken McNuggets 6pc",
+      "id_b": 99076,
+      "en_b": "McDonalds Chicken McNuggets 9pc",
+      "similarity": 0.968,
+      "category": "meat"
+    },
+    {
+      "id_a": 99075,
+      "en_a": "McDonalds Chicken McNuggets 6pc",
+      "id_b": 99077,
+      "en_b": "McDonalds Chicken McNuggets 20pc",
+      "similarity": 0.952,
+      "category": "meat"
+    },
+    {
+      "id_a": 99076,
+      "en_a": "McDonalds Chicken McNuggets 9pc",
+      "id_b": 99077,
+      "en_b": "McDonalds Chicken McNuggets 20pc",
+      "similarity": 0.952,
+      "category": "meat"
+    },
+    {
+      "id_a": 364,
+      "en_a": "Egg Chowmein",
+      "id_b": 80019,
+      "en_b": "Veg Chowmein",
+      "similarity": 0.917,
+      "category": "noodle"
+    },
+    {
+      "id_a": 711,
+      "en_a": "Dal parantha/paratha",
+      "id_b": 722,
+      "en_b": "Pea parantha/paratha",
+      "similarity": 0.9,
+      "category": "bread"
+    },
+    {
+      "id_a": 714,
+      "en_a": "Keema parantha/paratha",
+      "id_b": 722,
+      "en_b": "Pea parantha/paratha",
+      "similarity": 0.905,
+      "category": "bread"
+    },
+    {
+      "id_a": 722,
+      "en_a": "Pea parantha/paratha",
+      "id_b": 724,
+      "en_b": "Plain parantha/paratha",
+      "similarity": 0.905,
+      "category": "bread"
+    },
+    {
+      "id_a": 785,
+      "en_a": "Egg Sandwich",
+      "id_b": 842,
+      "en_b": "Veg Sandwich",
+      "similarity": 0.917,
+      "category": "bread"
+    },
+    {
+      "id_a": 98172,
+      "en_a": "Southern Fiery Garlic Bread",
+      "id_b": 98176,
+      "en_b": "Southern Fiery Keema Garlic Bread",
+      "similarity": 0.9,
+      "category": "bread"
+    },
+    {
+      "id_a": 11002,
+      "en_a": "Lal Shaak Bhaja",
+      "id_b": 11010,
+      "en_b": "Lau Shaak Bhaja",
+      "similarity": 0.933,
+      "category": "shaak"
+    },
+    {
+      "id_a": 97004,
+      "en_a": "Dominos Double Cheese Margherita (Regular)",
+      "id_b": 97006,
+      "en_b": "Dominos Double Cheese Margherita (Large)",
+      "similarity": 0.927,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97007,
+      "en_a": "Dominos Country Special (Regular)",
+      "id_b": 97009,
+      "en_b": "Dominos Country Special (Large)",
+      "similarity": 0.906,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97013,
+      "en_a": "Dominos Mexican Green Wave (Regular)",
+      "id_b": 97015,
+      "en_b": "Dominos Mexican Green Wave (Large)",
+      "similarity": 0.914,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97016,
+      "en_a": "Dominos Spicy Triple Tango (Regular)",
+      "id_b": 97018,
+      "en_b": "Dominos Spicy Triple Tango (Large)",
+      "similarity": 0.914,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97025,
+      "en_a": "Dominos Veggie Paradise (Regular)",
+      "id_b": 97027,
+      "en_b": "Dominos Veggie Paradise (Large)",
+      "similarity": 0.906,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97028,
+      "en_a": "Dominos Veggie Deluxe (Regular)",
+      "id_b": 97030,
+      "en_b": "Dominos Veggie Deluxe (Large)",
+      "similarity": 0.9,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97031,
+      "en_a": "Dominos Veg Extravaganza (Regular)",
+      "id_b": 97033,
+      "en_b": "Dominos Veg Extravaganza (Large)",
+      "similarity": 0.909,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97037,
+      "en_a": "Dominos Chefs Veg Wonder (Regular)",
+      "id_b": 97039,
+      "en_b": "Dominos Chefs Veg Wonder (Large)",
+      "similarity": 0.909,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97040,
+      "en_a": "Dominos Cheese BBQ Chicken (Regular)",
+      "id_b": 97042,
+      "en_b": "Dominos Cheese BBQ Chicken (Large)",
+      "similarity": 0.914,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97043,
+      "en_a": "Dominos Chicken Salami Special (Regular)",
+      "id_b": 97045,
+      "en_b": "Dominos Chicken Salami Special (Large)",
+      "similarity": 0.923,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97049,
+      "en_a": "Dominos Chicken Fiesta (Regular)",
+      "id_b": 97051,
+      "en_b": "Dominos Chicken Fiesta (Large)",
+      "similarity": 0.903,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97052,
+      "en_a": "Dominos Chicken Lovers (Regular)",
+      "id_b": 97054,
+      "en_b": "Dominos Chicken Lovers (Large)",
+      "similarity": 0.903,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97055,
+      "en_a": "Dominos Chicken Mexicana (Regular)",
+      "id_b": 97057,
+      "en_b": "Dominos Chicken Mexicana (Large)",
+      "similarity": 0.909,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97058,
+      "en_a": "Dominos Chicken Golden Delight (Regular)",
+      "id_b": 97060,
+      "en_b": "Dominos Chicken Golden Delight (Large)",
+      "similarity": 0.923,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97061,
+      "en_a": "Dominos Chefs Chicken Choice (Regular)",
+      "id_b": 97063,
+      "en_b": "Dominos Chefs Chicken Choice (Large)",
+      "similarity": 0.919,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97064,
+      "en_a": "Dominos Chicken Dominator (Regular)",
+      "id_b": 97066,
+      "en_b": "Dominos Chicken Dominator (Large)",
+      "similarity": 0.912,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97067,
+      "en_a": "Dominos Seventh Heaven (Regular)",
+      "id_b": 97069,
+      "en_b": "Dominos Seventh Heaven (Large)",
+      "similarity": 0.903,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97070,
+      "en_a": "Dominos Non-Veg Supreme (Regular)",
+      "id_b": 97072,
+      "en_b": "Dominos Non-Veg Supreme (Large)",
+      "similarity": 0.906,
+      "category": "pizza"
+    },
+    {
+      "id_a": 97073,
+      "en_a": "Dominos Cheese Pepperoni (Regular)",
+      "id_b": 97075,
+      "en_b": "Dominos Cheese Pepperoni (Large)",
+      "similarity": 0.909,
+      "category": "pizza"
+    },
+    {
+      "id_a": 98005,
+      "en_a": "Spiced Paneer Pan Pizza (Personal)",
+      "id_b": 98012,
+      "en_b": "Royal Spice Paneer Pan Pizza (Personal)",
+      "similarity": 0.904,
+      "category": "pizza"
+    },
+    {
+      "id_a": 98023,
+      "en_a": "Chicken Supreme Pan Pizza (Personal)",
+      "id_b": 98024,
+      "en_b": "Chicken Tikka Supreme Pan Pizza (Personal)",
+      "similarity": 0.923,
+      "category": "pizza"
+    },
+    {
+      "id_a": 98052,
+      "en_a": "Chicken Supreme Pan Pizza (Medium)",
+      "id_b": 98053,
+      "en_b": "Chicken Tikka Supreme Pan Pizza (Medium)",
+      "similarity": 0.919,
+      "category": "pizza"
+    },
+    {
+      "id_a": 98082,
+      "en_a": "Chicken Supreme Pan Pizza (Large)",
+      "id_b": 98083,
+      "en_b": "Chicken Tikka Supreme Pan Pizza (Large)",
+      "similarity": 0.917,
+      "category": "pizza"
+    }
+  ],
+  "near_duplicates": [
+    {
+      "id_a": 179,
+      "en_a": "Banana Shake",
+      "id_b": 247,
+      "en_b": "Banana milkshake",
+      "similarity": 0.857,
+      "category": "beverage"
+    },
+    {
+      "id_a": 180,
+      "en_a": "Black Coffee",
+      "id_b": 192,
+      "en_b": "Milk Coffee",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 182,
+      "en_a": "Chocolate Milk",
+      "id_b": 1207,
+      "en_b": "Coconut milk",
+      "similarity": 0.769,
+      "category": "beverage"
+    },
+    {
+      "id_a": 189,
+      "en_a": "Lemon Honey Water",
+      "id_b": 190,
+      "en_b": "Lemon Water",
+      "similarity": 0.786,
+      "category": "beverage"
+    },
+    {
+      "id_a": 191,
+      "en_a": "Mango Shake",
+      "id_b": 270,
+      "en_b": "Mango milkshake",
+      "similarity": 0.846,
+      "category": "beverage"
+    },
+    {
+      "id_a": 194,
+      "en_a": "Salt Lassi",
+      "id_b": 195,
+      "en_b": "Sweet Lassi",
+      "similarity": 0.762,
+      "category": "beverage"
+    },
+    {
+      "id_a": 247,
+      "en_a": "Banana milkshake",
+      "id_b": 270,
+      "en_b": "Mango milkshake",
+      "similarity": 0.774,
+      "category": "beverage"
+    },
+    {
+      "id_a": 247,
+      "en_a": "Banana milkshake",
+      "id_b": 279,
+      "en_b": "Orange milkshake",
+      "similarity": 0.75,
+      "category": "beverage"
+    },
+    {
+      "id_a": 270,
+      "en_a": "Mango milkshake",
+      "id_b": 279,
+      "en_b": "Orange milkshake",
+      "similarity": 0.839,
+      "category": "beverage"
+    },
+    {
+      "id_a": 510,
+      "en_a": "Lemon squash",
+      "id_b": 561,
+      "en_b": "Plum squash",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 1428,
+      "en_a": "Red Wine (150ml)",
+      "id_b": 1429,
+      "en_b": "White Wine (150ml)",
+      "similarity": 0.824,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98204,
+      "en_b": "Masala Lemonade Pizza Hut",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98206,
+      "en_b": "Masala Mirinda Pizza Hut",
+      "similarity": 0.773,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.829,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98204,
+      "en_a": "Masala Lemonade Pizza Hut",
+      "id_b": 98205,
+      "en_b": "Masala Pepsi Pizza Hut",
+      "similarity": 0.766,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98204,
+      "en_a": "Masala Lemonade Pizza Hut",
+      "id_b": 98206,
+      "en_b": "Masala Mirinda Pizza Hut",
+      "similarity": 0.816,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98204,
+      "en_a": "Masala Lemonade Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98206,
+      "en_b": "Masala Mirinda Pizza Hut",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98207,
+      "en_b": "Pepsi Pizza Hut",
+      "similarity": 0.811,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.837,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98206,
+      "en_a": "Masala Mirinda Pizza Hut",
+      "id_b": 98209,
+      "en_b": "Mirinda Pizza Hut",
+      "similarity": 0.829,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98206,
+      "en_a": "Masala Mirinda Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98208,
+      "en_b": "7UP Pizza Hut",
+      "similarity": 0.786,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98210,
+      "en_b": "Pepsi Black Pizza Hut",
+      "similarity": 0.833,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98215,
+      "en_a": "Sunfeast Dark Fantasy Chocolate Shake 300ml",
+      "id_b": 98216,
+      "en_b": "Sunfeast Dark Fantasy Chocolate Shake with Vanilla",
+      "similarity": 0.839,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98219,
+      "en_a": "Hot Chocolate Pizza Hut",
+      "id_b": 98222,
+      "en_b": "Cold Chocolate Pizza Hut",
+      "similarity": 0.894,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98221,
+      "en_a": "Cold Coffee Pizza Hut",
+      "id_b": 98222,
+      "en_b": "Cold Chocolate Pizza Hut",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99095,
+      "en_a": "McDonalds Black Coffee",
+      "id_b": 99108,
+      "en_b": "McDonalds Cold Coffee",
+      "similarity": 0.837,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99096,
+      "en_a": "McDonalds Coca-Cola Small",
+      "id_b": 99097,
+      "en_b": "McDonalds Coca-Cola Medium",
+      "similarity": 0.824,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99096,
+      "en_a": "McDonalds Coca-Cola Small",
+      "id_b": 99098,
+      "en_b": "McDonalds Coca-Cola Large",
+      "similarity": 0.84,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99096,
+      "en_a": "McDonalds Coca-Cola Small",
+      "id_b": 99099,
+      "en_b": "McDonalds Fanta Small",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99097,
+      "en_a": "McDonalds Coca-Cola Medium",
+      "id_b": 99098,
+      "en_b": "McDonalds Coca-Cola Large",
+      "similarity": 0.824,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99097,
+      "en_a": "McDonalds Coca-Cola Medium",
+      "id_b": 99100,
+      "en_b": "McDonalds Fanta Medium",
+      "similarity": 0.792,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99101,
+      "en_b": "McDonalds Fanta Large",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99099,
+      "en_a": "McDonalds Fanta Small",
+      "id_b": 99100,
+      "en_b": "McDonalds Fanta Medium",
+      "similarity": 0.791,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99099,
+      "en_a": "McDonalds Fanta Small",
+      "id_b": 99101,
+      "en_b": "McDonalds Fanta Large",
+      "similarity": 0.81,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99099,
+      "en_a": "McDonalds Fanta Small",
+      "id_b": 99102,
+      "en_b": "McDonalds Sprite Small",
+      "similarity": 0.791,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99099,
+      "en_a": "McDonalds Fanta Small",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.81,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99100,
+      "en_a": "McDonalds Fanta Medium",
+      "id_b": 99101,
+      "en_b": "McDonalds Fanta Large",
+      "similarity": 0.791,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99100,
+      "en_a": "McDonalds Fanta Medium",
+      "id_b": 99103,
+      "en_b": "McDonalds Sprite Medium",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99101,
+      "en_a": "McDonalds Fanta Large",
+      "id_b": 99104,
+      "en_b": "McDonalds Sprite Large",
+      "similarity": 0.791,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99101,
+      "en_a": "McDonalds Fanta Large",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.857,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99102,
+      "en_a": "McDonalds Sprite Small",
+      "id_b": 99103,
+      "en_b": "McDonalds Sprite Medium",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99102,
+      "en_a": "McDonalds Sprite Small",
+      "id_b": 99104,
+      "en_b": "McDonalds Sprite Large",
+      "similarity": 0.818,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99102,
+      "en_a": "McDonalds Sprite Small",
+      "id_b": 99107,
+      "en_b": "McDonalds Sprite Float",
+      "similarity": 0.818,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99103,
+      "en_a": "McDonalds Sprite Medium",
+      "id_b": 99104,
+      "en_b": "McDonalds Sprite Large",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99103,
+      "en_a": "McDonalds Sprite Medium",
+      "id_b": 99107,
+      "en_b": "McDonalds Sprite Float",
+      "similarity": 0.756,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99107,
+      "en_b": "McDonalds Sprite Float",
+      "similarity": 0.864,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.78,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99107,
+      "en_b": "McDonalds Sprite Float",
+      "similarity": 0.81,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99109,
+      "en_b": "McDonalds Cold Coffee Float",
+      "similarity": 0.809,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.821,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99106,
+      "en_a": "McDonalds Fanta Float",
+      "id_b": 99107,
+      "en_b": "McDonalds Sprite Float",
+      "similarity": 0.791,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99108,
+      "en_a": "McDonalds Cold Coffee",
+      "id_b": 99109,
+      "en_b": "McDonalds Cold Coffee Float",
+      "similarity": 0.875,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99110,
+      "en_a": "McDonalds Iced Tea",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.757,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99111,
+      "en_a": "McDonalds Masala Chai Regular",
+      "id_b": 99112,
+      "en_b": "McDonalds Masala Chai Cutting",
+      "similarity": 0.793,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99125,
+      "en_a": "McCafe Cappuccino Small",
+      "id_b": 99126,
+      "en_b": "McCafe Cappuccino Regular",
+      "similarity": 0.792,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99125,
+      "en_a": "McCafe Cappuccino Small",
+      "id_b": 99129,
+      "en_b": "McCafe Americano Small",
+      "similarity": 0.756,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99126,
+      "en_a": "McCafe Cappuccino Regular",
+      "id_b": 99130,
+      "en_b": "McCafe Americano Regular",
+      "similarity": 0.776,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99126,
+      "en_a": "McCafe Cappuccino Regular",
+      "id_b": 99132,
+      "en_b": "McCafe Mocha Regular",
+      "similarity": 0.756,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99127,
+      "en_a": "McCafe Latte Small",
+      "id_b": 99129,
+      "en_b": "McCafe Americano Small",
+      "similarity": 0.75,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99127,
+      "en_a": "McCafe Latte Small",
+      "id_b": 99131,
+      "en_b": "McCafe Mocha Small",
+      "similarity": 0.778,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99128,
+      "en_a": "McCafe Latte Regular",
+      "id_b": 99130,
+      "en_b": "McCafe Americano Regular",
+      "similarity": 0.773,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99128,
+      "en_a": "McCafe Latte Regular",
+      "id_b": 99132,
+      "en_b": "McCafe Mocha Regular",
+      "similarity": 0.8,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99129,
+      "en_a": "McCafe Americano Small",
+      "id_b": 99130,
+      "en_b": "McCafe Americano Regular",
+      "similarity": 0.783,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99135,
+      "en_a": "McCafe Hot Chocolate",
+      "id_b": 99139,
+      "en_b": "McCafe Chocolate Shake",
+      "similarity": 0.762,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99136,
+      "en_a": "McCafe Cold Coffee Frappe",
+      "id_b": 99138,
+      "en_b": "McCafe Choco Frappe",
+      "similarity": 0.818,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99137,
+      "en_a": "McCafe Caramel Frappe",
+      "id_b": 99138,
+      "en_b": "McCafe Choco Frappe",
+      "similarity": 0.75,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99140,
+      "en_a": "McCafe Strawberry Shake",
+      "id_b": 99143,
+      "en_b": "McCafe Strawberry Banana Shake",
+      "similarity": 0.868,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99141,
+      "en_a": "McCafe Vanilla Shake",
+      "id_b": 99142,
+      "en_b": "McCafe Vanilla Oreo Shake",
+      "similarity": 0.889,
+      "category": "beverage"
+    },
+    {
+      "id_a": 653,
+      "en_a": "High Protein Bowl",
+      "id_b": 664,
+      "en_b": "Veg Protein Bowl",
+      "similarity": 0.848,
+      "category": "salad"
+    },
+    {
+      "id_a": 738,
+      "en_a": "Boondi raita",
+      "id_b": 752,
+      "en_b": "Onion raita",
+      "similarity": 0.783,
+      "category": "salad"
+    },
+    {
+      "id_a": 749,
+      "en_a": "Mint raita",
+      "id_b": 752,
+      "en_b": "Onion raita",
+      "similarity": 0.762,
+      "category": "salad"
+    },
+    {
+      "id_a": 752,
+      "en_a": "Onion raita",
+      "id_b": 756,
+      "en_b": "Tomato onion raita",
+      "similarity": 0.759,
+      "category": "salad"
+    },
+    {
+      "id_a": 757,
+      "en_a": "Tossed green salad",
+      "id_b": 758,
+      "en_b": "Tossed salad",
+      "similarity": 0.8,
+      "category": "salad"
+    },
+    {
+      "id_a": 35,
+      "en_a": "Masala dosa",
+      "id_b": 20003,
+      "en_b": "Mysore Masala Dosa",
+      "similarity": 0.759,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 44,
+      "en_a": "Rice upma",
+      "id_b": 373,
+      "en_b": "Vermicelli upma",
+      "similarity": 0.75,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 45,
+      "en_a": "Semolina dosa",
+      "id_b": 46,
+      "en_b": "Semolina idli",
+      "similarity": 0.769,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 45,
+      "en_a": "Semolina dosa",
+      "id_b": 47,
+      "en_b": "Semolina upma",
+      "similarity": 0.769,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 51,
+      "en_a": "Vegetable pancake",
+      "id_b": 52,
+      "en_b": "Vegetable poha",
+      "similarity": 0.774,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 51,
+      "en_a": "Vegetable pancake",
+      "id_b": 53,
+      "en_b": "Vegetable upma",
+      "similarity": 0.774,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 52,
+      "en_a": "Vegetable poha",
+      "id_b": 53,
+      "en_b": "Vegetable upma",
+      "similarity": 0.857,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 20013,
+      "en_a": "Pongal",
+      "id_b": 20014,
+      "en_b": "Ven Pongal",
+      "similarity": 0.75,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 257,
+      "en_b": "Dates chutney",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 559,
+      "en_b": "Plum chutney",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 55,
+      "en_a": "Tomato Chutney",
+      "id_b": 531,
+      "en_b": "Mint tomato chutney",
+      "similarity": 0.848,
+      "category": "snack"
+    },
+    {
+      "id_a": 55,
+      "en_a": "Tomato Chutney",
+      "id_b": 613,
+      "en_b": "Tomato ginger chutney",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 251,
+      "en_a": "Coconut chutney",
+      "id_b": 381,
+      "en_b": "Peanut chutney",
+      "similarity": 0.759,
+      "category": "snack"
+    },
+    {
+      "id_a": 251,
+      "en_a": "Coconut chutney",
+      "id_b": 384,
+      "en_b": "Walnut chutney",
+      "similarity": 0.759,
+      "category": "snack"
+    },
+    {
+      "id_a": 381,
+      "en_a": "Peanut chutney",
+      "id_b": 382,
+      "en_b": "Peanut cutlet",
+      "similarity": 0.815,
+      "category": "snack"
+    },
+    {
+      "id_a": 381,
+      "en_a": "Peanut chutney",
+      "id_b": 384,
+      "en_b": "Walnut chutney",
+      "similarity": 0.857,
+      "category": "snack"
+    },
+    {
+      "id_a": 381,
+      "en_a": "Peanut chutney",
+      "id_b": 559,
+      "en_b": "Plum chutney",
+      "similarity": 0.769,
+      "category": "snack"
+    },
+    {
+      "id_a": 384,
+      "en_a": "Walnut chutney",
+      "id_b": 559,
+      "en_b": "Plum chutney",
+      "similarity": 0.769,
+      "category": "snack"
+    },
+    {
+      "id_a": 424,
+      "en_a": "Chocolate sauce",
+      "id_b": 771,
+      "en_b": "Chocolate biscuit",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 435,
+      "en_a": "Coriander chutney",
+      "id_b": 530,
+      "en_b": "Mint and coriander chutney",
+      "similarity": 0.791,
+      "category": "snack"
+    },
+    {
+      "id_a": 445,
+      "en_a": "Date pickle",
+      "id_b": 1028,
+      "en_b": "Potato pickle",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 474,
+      "en_a": "Green chutney",
+      "id_b": 13208,
+      "en_b": "Kurkure Green Chutney",
+      "similarity": 0.765,
+      "category": "snack"
+    },
+    {
+      "id_a": 498,
+      "en_a": "Khasta kachori",
+      "id_b": 552,
+      "en_b": "Peas kachori",
+      "similarity": 0.769,
+      "category": "snack"
+    },
+    {
+      "id_a": 539,
+      "en_a": "Mustard seeds baghar",
+      "id_b": 1214,
+      "en_b": "Mustard seeds, dried",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 552,
+      "en_a": "Peas kachori",
+      "id_b": 96019,
+      "en_b": "Pyaz Kachori",
+      "similarity": 0.833,
+      "category": "snack"
+    },
+    {
+      "id_a": 552,
+      "en_a": "Peas kachori",
+      "id_b": 96020,
+      "en_b": "Dal Kachori",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 615,
+      "en_a": "Tomato puree",
+      "id_b": 616,
+      "en_b": "Tomato sauce",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 798,
+      "en_a": "Masala green chilli pakora/pakoda",
+      "id_b": 799,
+      "en_b": "Masala onion pakora/pakoda",
+      "similarity": 0.78,
+      "category": "snack"
+    },
+    {
+      "id_a": 799,
+      "en_a": "Masala onion pakora/pakoda",
+      "id_b": 809,
+      "en_b": "Onion pakora/pakoda",
+      "similarity": 0.844,
+      "category": "snack"
+    },
+    {
+      "id_a": 800,
+      "en_a": "Masala vada",
+      "id_b": 13003,
+      "en_b": "Masala Papad",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 802,
+      "en_a": "Methi pakora/pakoda",
+      "id_b": 809,
+      "en_b": "Onion pakora/pakoda",
+      "similarity": 0.789,
+      "category": "snack"
+    },
+    {
+      "id_a": 1204,
+      "en_a": "Sunflower seeds, dried",
+      "id_b": 1212,
+      "en_b": "Lotus seeds, dried",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 1212,
+      "en_a": "Lotus seeds, dried",
+      "id_b": 1213,
+      "en_b": "Lotus seeds, green",
+      "similarity": 0.833,
+      "category": "snack"
+    },
+    {
+      "id_a": 1212,
+      "en_a": "Lotus seeds, dried",
+      "id_b": 1214,
+      "en_b": "Mustard seeds, dried",
+      "similarity": 0.789,
+      "category": "snack"
+    },
+    {
+      "id_a": 1446,
+      "en_a": "Pani Puri",
+      "id_b": 1448,
+      "en_b": "Dahi Puri",
+      "similarity": 0.778,
+      "category": "snack"
+    },
+    {
+      "id_a": 40016,
+      "en_a": "Dahi Bada",
+      "id_b": 60009,
+      "en_b": "Dahi Bhalla",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 60006,
+      "en_a": "Aloo Tikki",
+      "id_b": 60007,
+      "en_b": "Aloo Tikki Chaat",
+      "similarity": 0.769,
+      "category": "snack"
+    },
+    {
+      "id_a": 96019,
+      "en_a": "Pyaz Kachori",
+      "id_b": 96020,
+      "en_b": "Dal Kachori",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 97076,
+      "en_a": "Dominos Garlic Breadsticks",
+      "id_b": 97077,
+      "en_b": "Dominos Stuffed Garlic Breadsticks",
+      "similarity": 0.867,
+      "category": "snack"
+    },
+    {
+      "id_a": 97079,
+      "en_a": "Dominos Taco Mexicana Veg",
+      "id_b": 97086,
+      "en_b": "Dominos Taco Mexicana Chicken",
+      "similarity": 0.852,
+      "category": "snack"
+    },
+    {
+      "id_a": 97080,
+      "en_a": "Dominos Calzone Pockets Veg",
+      "id_b": 97087,
+      "en_b": "Dominos Calzone Pockets Chicken",
+      "similarity": 0.862,
+      "category": "snack"
+    },
+    {
+      "id_a": 97081,
+      "en_a": "Dominos Zingy Parcel Veg",
+      "id_b": 97085,
+      "en_b": "Dominos Zingy Parcel Chicken",
+      "similarity": 0.846,
+      "category": "snack"
+    },
+    {
+      "id_a": 98137,
+      "en_a": "Cheezy Cheese Veg Melt",
+      "id_b": 98138,
+      "en_b": "Cheezy Cheese Chicken Melt",
+      "similarity": 0.833,
+      "category": "snack"
+    },
+    {
+      "id_a": 98139,
+      "en_a": "Loaded Veggie BBQ Melt",
+      "id_b": 98140,
+      "en_b": "Loaded Chicken BBQ Melt",
+      "similarity": 0.756,
+      "category": "snack"
+    },
+    {
+      "id_a": 98141,
+      "en_a": "Royal Spice Paneer Melt",
+      "id_b": 98144,
+      "en_b": "Royal Spice Chicken Melt",
+      "similarity": 0.766,
+      "category": "snack"
+    },
+    {
+      "id_a": 98164,
+      "en_a": "Jalapeno Pepper Dip Pizza Hut",
+      "id_b": 98188,
+      "en_b": "Jalapeno Poppers Pizza Hut (4pc)",
+      "similarity": 0.787,
+      "category": "snack"
+    },
+    {
+      "id_a": 98189,
+      "en_a": "Sprinkled Fries Pizza Hut",
+      "id_b": 98190,
+      "en_b": "Cheezy Sprinkled Fries Pizza Hut",
+      "similarity": 0.877,
+      "category": "snack"
+    },
+    {
+      "id_a": 99013,
+      "en_a": "KFC Classic Zinger Burger",
+      "id_b": 99014,
+      "en_b": "KFC Spicy Zinger Burger",
+      "similarity": 0.875,
+      "category": "snack"
+    },
+    {
+      "id_a": 99013,
+      "en_a": "KFC Classic Zinger Burger",
+      "id_b": 99015,
+      "en_b": "KFC Pro Zinger Burger",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 99013,
+      "en_a": "KFC Classic Zinger Burger",
+      "id_b": 99016,
+      "en_b": "KFC Veg Zinger Burger",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 99013,
+      "en_a": "KFC Classic Zinger Burger",
+      "id_b": 99017,
+      "en_b": "KFC Paneer Zinger Burger",
+      "similarity": 0.776,
+      "category": "snack"
+    },
+    {
+      "id_a": 99014,
+      "en_a": "KFC Spicy Zinger Burger",
+      "id_b": 99015,
+      "en_b": "KFC Pro Zinger Burger",
+      "similarity": 0.864,
+      "category": "snack"
+    },
+    {
+      "id_a": 99014,
+      "en_a": "KFC Spicy Zinger Burger",
+      "id_b": 99016,
+      "en_b": "KFC Veg Zinger Burger",
+      "similarity": 0.818,
+      "category": "snack"
+    },
+    {
+      "id_a": 99014,
+      "en_a": "KFC Spicy Zinger Burger",
+      "id_b": 99017,
+      "en_b": "KFC Paneer Zinger Burger",
+      "similarity": 0.809,
+      "category": "snack"
+    },
+    {
+      "id_a": 99014,
+      "en_a": "KFC Spicy Zinger Burger",
+      "id_b": 99060,
+      "en_b": "McSpicy Paneer Burger",
+      "similarity": 0.773,
+      "category": "snack"
+    },
+    {
+      "id_a": 99015,
+      "en_a": "KFC Pro Zinger Burger",
+      "id_b": 99016,
+      "en_b": "KFC Veg Zinger Burger",
+      "similarity": 0.857,
+      "category": "snack"
+    },
+    {
+      "id_a": 99015,
+      "en_a": "KFC Pro Zinger Burger",
+      "id_b": 99017,
+      "en_b": "KFC Paneer Zinger Burger",
+      "similarity": 0.889,
+      "category": "snack"
+    },
+    {
+      "id_a": 99016,
+      "en_a": "KFC Veg Zinger Burger",
+      "id_b": 99017,
+      "en_b": "KFC Paneer Zinger Burger",
+      "similarity": 0.844,
+      "category": "snack"
+    },
+    {
+      "id_a": 99016,
+      "en_a": "KFC Veg Zinger Burger",
+      "id_b": 99018,
+      "en_b": "KFC Egg Burger",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 99018,
+      "en_a": "KFC Egg Burger",
+      "id_b": 99019,
+      "en_b": "KFC Loaded Egg Burger",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 99018,
+      "en_a": "KFC Egg Burger",
+      "id_b": 99021,
+      "en_b": "KFC Dunked Burger",
+      "similarity": 0.774,
+      "category": "snack"
+    },
+    {
+      "id_a": 99018,
+      "en_a": "KFC Egg Burger",
+      "id_b": 99057,
+      "en_b": "McVeggie Burger",
+      "similarity": 0.759,
+      "category": "snack"
+    },
+    {
+      "id_a": 99018,
+      "en_a": "KFC Egg Burger",
+      "id_b": 99068,
+      "en_b": "McEgg Burger",
+      "similarity": 0.846,
+      "category": "snack"
+    },
+    {
+      "id_a": 99022,
+      "en_a": "KFC Classic Chicken Krisper",
+      "id_b": 99023,
+      "en_b": "KFC Spicy Chicken Krisper",
+      "similarity": 0.885,
+      "category": "snack"
+    },
+    {
+      "id_a": 99022,
+      "en_a": "KFC Classic Chicken Krisper",
+      "id_b": 99024,
+      "en_b": "KFC Classic Veg Krisper",
+      "similarity": 0.84,
+      "category": "snack"
+    },
+    {
+      "id_a": 99023,
+      "en_a": "KFC Spicy Chicken Krisper",
+      "id_b": 99025,
+      "en_b": "KFC Spicy Veg Krisper",
+      "similarity": 0.826,
+      "category": "snack"
+    },
+    {
+      "id_a": 99023,
+      "en_a": "KFC Spicy Chicken Krisper",
+      "id_b": 99071,
+      "en_b": "McSpicy Chicken Burger",
+      "similarity": 0.766,
+      "category": "snack"
+    },
+    {
+      "id_a": 99023,
+      "en_a": "KFC Spicy Chicken Krisper",
+      "id_b": 99072,
+      "en_b": "McSpicy Chicken Wrap",
+      "similarity": 0.756,
+      "category": "snack"
+    },
+    {
+      "id_a": 99024,
+      "en_a": "KFC Classic Veg Krisper",
+      "id_b": 99025,
+      "en_b": "KFC Spicy Veg Krisper",
+      "similarity": 0.864,
+      "category": "snack"
+    },
+    {
+      "id_a": 99026,
+      "en_a": "KFC Chicken Longer",
+      "id_b": 99027,
+      "en_b": "KFC Chicken Roll",
+      "similarity": 0.765,
+      "category": "snack"
+    },
+    {
+      "id_a": 99027,
+      "en_a": "KFC Chicken Roll",
+      "id_b": 99028,
+      "en_b": "KFC Double Chicken Roll",
+      "similarity": 0.821,
+      "category": "snack"
+    },
+    {
+      "id_a": 99030,
+      "en_a": "KFC Veg Patty",
+      "id_b": 99031,
+      "en_b": "KFC Double Veg Patty",
+      "similarity": 0.788,
+      "category": "snack"
+    },
+    {
+      "id_a": 99041,
+      "en_a": "KFC Dunked Wings",
+      "id_b": 99042,
+      "en_b": "KFC Dunked Boneless Wings",
+      "similarity": 0.78,
+      "category": "snack"
+    },
+    {
+      "id_a": 99041,
+      "en_a": "KFC Dunked Wings",
+      "id_b": 99043,
+      "en_b": "KFC Dunked Strips",
+      "similarity": 0.788,
+      "category": "snack"
+    },
+    {
+      "id_a": 99041,
+      "en_a": "KFC Dunked Wings",
+      "id_b": 99044,
+      "en_b": "KFC Dunked Drums",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 99045,
+      "en_a": "KFC French Fries Regular",
+      "id_b": 99046,
+      "en_b": "KFC French Fries Medium",
+      "similarity": 0.809,
+      "category": "snack"
+    },
+    {
+      "id_a": 99045,
+      "en_a": "KFC French Fries Regular",
+      "id_b": 99047,
+      "en_b": "KFC French Fries Large",
+      "similarity": 0.87,
+      "category": "snack"
+    },
+    {
+      "id_a": 99045,
+      "en_a": "KFC French Fries Regular",
+      "id_b": 99078,
+      "en_b": "McDonalds French Fries Regular",
+      "similarity": 0.815,
+      "category": "snack"
+    },
+    {
+      "id_a": 99046,
+      "en_a": "KFC French Fries Medium",
+      "id_b": 99047,
+      "en_b": "KFC French Fries Large",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 99046,
+      "en_a": "KFC French Fries Medium",
+      "id_b": 99079,
+      "en_b": "McDonalds French Fries Medium",
+      "similarity": 0.808,
+      "category": "snack"
+    },
+    {
+      "id_a": 99047,
+      "en_a": "KFC French Fries Large",
+      "id_b": 99080,
+      "en_b": "McDonalds French Fries Large",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 99057,
+      "en_a": "McVeggie Burger",
+      "id_b": 99068,
+      "en_b": "McEgg Burger",
+      "similarity": 0.889,
+      "category": "snack"
+    },
+    {
+      "id_a": 99060,
+      "en_a": "McSpicy Paneer Burger",
+      "id_b": 99061,
+      "en_b": "McSpicy Paneer Wrap",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 99063,
+      "en_a": "Butter Paneer Grilled Burger",
+      "id_b": 99067,
+      "en_b": "Butter Chicken Grilled Burger",
+      "similarity": 0.807,
+      "category": "snack"
+    },
+    {
+      "id_a": 99064,
+      "en_a": "Veg Maharaja Mac",
+      "id_b": 99073,
+      "en_b": "Chicken Maharaja Mac",
+      "similarity": 0.778,
+      "category": "snack"
+    },
+    {
+      "id_a": 99066,
+      "en_a": "Chicken McGrill Burger",
+      "id_b": 99067,
+      "en_b": "Butter Chicken Grilled Burger",
+      "similarity": 0.784,
+      "category": "snack"
+    },
+    {
+      "id_a": 99069,
+      "en_a": "McChicken Burger",
+      "id_b": 99071,
+      "en_b": "McSpicy Chicken Burger",
+      "similarity": 0.842,
+      "category": "snack"
+    },
+    {
+      "id_a": 99071,
+      "en_a": "McSpicy Chicken Burger",
+      "id_b": 99072,
+      "en_b": "McSpicy Chicken Wrap",
+      "similarity": 0.81,
+      "category": "snack"
+    },
+    {
+      "id_a": 99078,
+      "en_a": "McDonalds French Fries Regular",
+      "id_b": 99079,
+      "en_b": "McDonalds French Fries Medium",
+      "similarity": 0.847,
+      "category": "snack"
+    },
+    {
+      "id_a": 99078,
+      "en_a": "McDonalds French Fries Regular",
+      "id_b": 99080,
+      "en_b": "McDonalds French Fries Large",
+      "similarity": 0.897,
+      "category": "snack"
+    },
+    {
+      "id_a": 99079,
+      "en_a": "McDonalds French Fries Medium",
+      "id_b": 99080,
+      "en_b": "McDonalds French Fries Large",
+      "similarity": 0.842,
+      "category": "snack"
+    },
+    {
+      "id_a": 99116,
+      "en_a": "McDonalds Mustard Dip Sauce",
+      "id_b": 99117,
+      "en_b": "McDonalds Barbeque Dip Sauce",
+      "similarity": 0.8,
+      "category": "snack"
+    },
+    {
+      "id_a": 13001,
+      "en_a": "Urad Papad",
+      "id_b": 13004,
+      "en_b": "Roasted Papad",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 13001,
+      "en_a": "Urad Papad",
+      "id_b": 13005,
+      "en_b": "Fried Papad",
+      "similarity": 0.762,
+      "category": "snack"
+    },
+    {
+      "id_a": 13004,
+      "en_a": "Roasted Papad",
+      "id_b": 13005,
+      "en_b": "Fried Papad",
+      "similarity": 0.75,
+      "category": "snack"
+    },
+    {
+      "id_a": 13101,
+      "en_a": "Haldiram Aloo Bhujia",
+      "id_b": 13102,
+      "en_b": "Haldiram Bhujia Sev",
+      "similarity": 0.769,
+      "category": "snack"
+    },
+    {
+      "id_a": 13103,
+      "en_a": "Haldiram Navratan Mixture",
+      "id_b": 13105,
+      "en_b": "Haldiram Kaju Mixture",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 13103,
+      "en_a": "Haldiram Navratan Mixture",
+      "id_b": 13110,
+      "en_b": "Haldiram Diet Mixture",
+      "similarity": 0.783,
+      "category": "snack"
+    },
+    {
+      "id_a": 13105,
+      "en_a": "Haldiram Kaju Mixture",
+      "id_b": 13110,
+      "en_b": "Haldiram Diet Mixture",
+      "similarity": 0.81,
+      "category": "snack"
+    },
+    {
+      "id_a": 59,
+      "en_a": "Cheese balls",
+      "id_b": 68,
+      "en_b": "Cheese toast",
+      "similarity": 0.75,
+      "category": "dairy"
+    },
+    {
+      "id_a": 65,
+      "en_a": "Cheese sauce",
+      "id_b": 66,
+      "en_b": "Cheese soup",
+      "similarity": 0.783,
+      "category": "dairy"
+    },
+    {
+      "id_a": 65,
+      "en_a": "Cheese sauce",
+      "id_b": 122,
+      "en_b": "Pasta cheese sauce",
+      "similarity": 0.8,
+      "category": "dairy"
+    },
+    {
+      "id_a": 70,
+      "en_a": "Chocochip ice cream",
+      "id_b": 73,
+      "en_b": "Chocolate ice cream",
+      "similarity": 0.789,
+      "category": "dairy"
+    },
+    {
+      "id_a": 70,
+      "en_a": "Chocochip ice cream",
+      "id_b": 74,
+      "en_b": "Choconut ice cream",
+      "similarity": 0.811,
+      "category": "dairy"
+    },
+    {
+      "id_a": 73,
+      "en_a": "Chocolate ice cream",
+      "id_b": 74,
+      "en_b": "Choconut ice cream",
+      "similarity": 0.865,
+      "category": "dairy"
+    },
+    {
+      "id_a": 75,
+      "en_a": "Coffee ice cream",
+      "id_b": 76,
+      "en_b": "Cold coffee with ice cream",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 79,
+      "en_a": "Cream buns",
+      "id_b": 80,
+      "en_b": "Cream horns",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 79,
+      "en_a": "Cream buns",
+      "id_b": 82,
+      "en_b": "Cream puffs",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 84,
+      "en_a": "Curd dip",
+      "id_b": 86,
+      "en_b": "Curd mint dip",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 93,
+      "en_a": "Kadhai Paneer",
+      "id_b": 133,
+      "en_b": "Shahi paneer",
+      "similarity": 0.8,
+      "category": "dairy"
+    },
+    {
+      "id_a": 102,
+      "en_a": "Milk cake",
+      "id_b": 103,
+      "en_b": "Milk cookies",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 109,
+      "en_a": "Paneer in butter sauce",
+      "id_b": 40015,
+      "en_b": "Paneer Butter Masala",
+      "similarity": 0.762,
+      "category": "dairy"
+    },
+    {
+      "id_a": 118,
+      "en_a": "Paneer shaslik/tikka",
+      "id_b": 60019,
+      "en_b": "Paneer Tikka",
+      "similarity": 0.75,
+      "category": "dairy"
+    },
+    {
+      "id_a": 1361,
+      "en_a": "Milk, cow, powder, skimmed",
+      "id_b": 1362,
+      "en_b": "Milk, cow, powder, whole",
+      "similarity": 0.8,
+      "category": "dairy"
+    },
+    {
+      "id_a": 1361,
+      "en_a": "Milk, cow, powder, skimmed",
+      "id_b": 1363,
+      "en_b": "Milk, cow, skimmed",
+      "similarity": 0.818,
+      "category": "dairy"
+    },
+    {
+      "id_a": 1366,
+      "en_a": "Milk, human, colostrum, raw",
+      "id_b": 1367,
+      "en_b": "Milk, human, mature, raw",
+      "similarity": 0.784,
+      "category": "dairy"
+    },
+    {
+      "id_a": 151,
+      "en_a": "Masala urad dal vada",
+      "id_b": 157,
+      "en_b": "Plain urad dal vada",
+      "similarity": 0.821,
+      "category": "legume"
+    },
+    {
+      "id_a": 152,
+      "en_a": "Masoor Dal",
+      "id_b": 90008,
+      "en_b": "Motor Dal",
+      "similarity": 0.842,
+      "category": "legume"
+    },
+    {
+      "id_a": 158,
+      "en_a": "Rasam powder",
+      "id_b": 163,
+      "en_b": "Sambar powder",
+      "similarity": 0.8,
+      "category": "legume"
+    },
+    {
+      "id_a": 500,
+      "en_a": "Kidney bean curry",
+      "id_b": 80012,
+      "en_b": "Kinema Curry",
+      "similarity": 0.759,
+      "category": "legume"
+    },
+    {
+      "id_a": 632,
+      "en_a": "Whole masoor",
+      "id_b": 633,
+      "en_b": "Whole moong",
+      "similarity": 0.783,
+      "category": "legume"
+    },
+    {
+      "id_a": 633,
+      "en_a": "Whole moong",
+      "id_b": 634,
+      "en_b": "Whole moth",
+      "similarity": 0.762,
+      "category": "legume"
+    },
+    {
+      "id_a": 1099,
+      "en_a": "Black gram, dehulled, dried, raw",
+      "id_b": 1100,
+      "en_b": "Black gram, split, dried, raw",
+      "similarity": 0.82,
+      "category": "legume"
+    },
+    {
+      "id_a": 1100,
+      "en_a": "Black gram, split, dried, raw",
+      "id_b": 1101,
+      "en_b": "Green gram, split, dried, raw",
+      "similarity": 0.828,
+      "category": "legume"
+    },
+    {
+      "id_a": 1100,
+      "en_a": "Black gram, split, dried, raw",
+      "id_b": 1103,
+      "en_b": "Grass pea, split, dried, raw",
+      "similarity": 0.772,
+      "category": "legume"
+    },
+    {
+      "id_a": 1100,
+      "en_a": "Black gram, split, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "similarity": 0.857,
+      "category": "legume"
+    },
+    {
+      "id_a": 1101,
+      "en_a": "Green gram, split, dried, raw",
+      "id_b": 1102,
+      "en_b": "Green gram, whole, dried, raw",
+      "similarity": 0.862,
+      "category": "legume"
+    },
+    {
+      "id_a": 1101,
+      "en_a": "Green gram, split, dried, raw",
+      "id_b": 1103,
+      "en_b": "Grass pea, split, dried, raw",
+      "similarity": 0.772,
+      "category": "legume"
+    },
+    {
+      "id_a": 1102,
+      "en_a": "Green gram, whole, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "similarity": 0.786,
+      "category": "legume"
+    },
+    {
+      "id_a": 1103,
+      "en_a": "Grass pea, split, dried, raw",
+      "id_b": 1106,
+      "en_b": "Red gram, split, dried, raw",
+      "similarity": 0.8,
+      "category": "legume"
+    },
+    {
+      "id_a": 1104,
+      "en_a": "Lentil, dried, raw",
+      "id_b": 1105,
+      "en_b": "Pea, dried, raw",
+      "similarity": 0.788,
+      "category": "legume"
+    },
+    {
+      "id_a": 1104,
+      "en_a": "Lentil, dried, raw",
+      "id_b": 1107,
+      "en_b": "Soybean, dried, raw",
+      "similarity": 0.757,
+      "category": "legume"
+    },
+    {
+      "id_a": 1105,
+      "en_a": "Pea, dried, raw",
+      "id_b": 1107,
+      "en_b": "Soybean, dried, raw",
+      "similarity": 0.824,
+      "category": "legume"
+    },
+    {
+      "id_a": 168,
+      "en_a": "Bhapa Pitha",
+      "id_b": 30032,
+      "en_b": "Poda Pitha",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 239,
+      "en_a": "Apple banana pie",
+      "id_b": 240,
+      "en_b": "Apple cinnamon pie",
+      "similarity": 0.765,
+      "category": "sweet"
+    },
+    {
+      "id_a": 250,
+      "en_a": "Coconut burfi",
+      "id_b": 418,
+      "en_b": "Chocolate burfi",
+      "similarity": 0.786,
+      "category": "sweet"
+    },
+    {
+      "id_a": 250,
+      "en_a": "Coconut burfi",
+      "id_b": 780,
+      "en_b": "Coconut biscuit",
+      "similarity": 0.786,
+      "category": "sweet"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 265,
+      "en_b": "Hot orange souffle",
+      "similarity": 0.865,
+      "category": "sweet"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 281,
+      "en_b": "Orange souffle",
+      "similarity": 0.848,
+      "category": "sweet"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 430,
+      "en_b": "Cold chocolate souffle",
+      "similarity": 0.78,
+      "category": "sweet"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 431,
+      "en_b": "Cold lemon souffle",
+      "similarity": 0.811,
+      "category": "sweet"
+    },
+    {
+      "id_a": 254,
+      "en_a": "Cold orange souffle",
+      "id_b": 432,
+      "en_b": "Cold vanilla souffle",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 255,
+      "en_a": "Cold pineapple souffle",
+      "id_b": 287,
+      "en_b": "Pineapple souffle",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 255,
+      "en_a": "Cold pineapple souffle",
+      "id_b": 431,
+      "en_b": "Cold lemon souffle",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 265,
+      "en_a": "Hot orange souffle",
+      "id_b": 281,
+      "en_b": "Orange souffle",
+      "similarity": 0.875,
+      "category": "sweet"
+    },
+    {
+      "id_a": 265,
+      "en_a": "Hot orange souffle",
+      "id_b": 484,
+      "en_b": "Hot chocolate souffle",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 265,
+      "en_a": "Hot orange souffle",
+      "id_b": 486,
+      "en_b": "Hot lemon souffle",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 265,
+      "en_a": "Hot orange souffle",
+      "id_b": 487,
+      "en_b": "Hot vanilla souffle",
+      "similarity": 0.757,
+      "category": "sweet"
+    },
+    {
+      "id_a": 276,
+      "en_a": "Orange chiffon pie",
+      "id_b": 505,
+      "en_b": "Lemon chiffon pie",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 285,
+      "en_a": "Pineapple pastry",
+      "id_b": 914,
+      "en_b": "Pineapple tart",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 378,
+      "en_a": "Chocolate walnut cookies",
+      "id_b": 419,
+      "en_b": "Chocolate chip cookies",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 378,
+      "en_a": "Chocolate walnut cookies",
+      "id_b": 482,
+      "en_b": "Hazelnut cookies",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 379,
+      "en_a": "Peanut brittle",
+      "id_b": 380,
+      "en_b": "Peanut burfi",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 380,
+      "en_a": "Peanut burfi",
+      "id_b": 556,
+      "en_b": "Plain burfi",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 418,
+      "en_a": "Chocolate burfi",
+      "id_b": 425,
+      "en_b": "Chocolate souffle",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 418,
+      "en_a": "Chocolate burfi",
+      "id_b": 889,
+      "en_b": "Chocolate pudding",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 419,
+      "en_a": "Chocolate chip cookies",
+      "id_b": 887,
+      "en_b": "Chocolate chiffon cake",
+      "similarity": 0.773,
+      "category": "sweet"
+    },
+    {
+      "id_a": 425,
+      "en_a": "Chocolate souffle",
+      "id_b": 430,
+      "en_b": "Cold chocolate souffle",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 425,
+      "en_a": "Chocolate souffle",
+      "id_b": 484,
+      "en_b": "Hot chocolate souffle",
+      "similarity": 0.895,
+      "category": "sweet"
+    },
+    {
+      "id_a": 430,
+      "en_a": "Cold chocolate souffle",
+      "id_b": 484,
+      "en_b": "Hot chocolate souffle",
+      "similarity": 0.884,
+      "category": "sweet"
+    },
+    {
+      "id_a": 431,
+      "en_a": "Cold lemon souffle",
+      "id_b": 486,
+      "en_b": "Hot lemon souffle",
+      "similarity": 0.857,
+      "category": "sweet"
+    },
+    {
+      "id_a": 431,
+      "en_a": "Cold lemon souffle",
+      "id_b": 509,
+      "en_b": "Lemon souffle",
+      "similarity": 0.839,
+      "category": "sweet"
+    },
+    {
+      "id_a": 432,
+      "en_a": "Cold vanilla souffle",
+      "id_b": 487,
+      "en_b": "Hot vanilla souffle",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 432,
+      "en_a": "Cold vanilla souffle",
+      "id_b": 619,
+      "en_b": "Vanilla souffle",
+      "similarity": 0.857,
+      "category": "sweet"
+    },
+    {
+      "id_a": 438,
+      "en_a": "Crunchy butterscotch",
+      "id_b": 99083,
+      "en_b": "McSwirl ButterScotch",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 452,
+      "en_a": "Flaky pastry",
+      "id_b": 453,
+      "en_b": "Flan pastry",
+      "similarity": 0.87,
+      "category": "sweet"
+    },
+    {
+      "id_a": 486,
+      "en_a": "Hot lemon souffle",
+      "id_b": 509,
+      "en_b": "Lemon souffle",
+      "similarity": 0.867,
+      "category": "sweet"
+    },
+    {
+      "id_a": 487,
+      "en_a": "Hot vanilla souffle",
+      "id_b": 619,
+      "en_b": "Vanilla souffle",
+      "similarity": 0.882,
+      "category": "sweet"
+    },
+    {
+      "id_a": 506,
+      "en_a": "Lemon cookies",
+      "id_b": 901,
+      "en_b": "Lemon cake",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 521,
+      "en_a": "Masala souffle",
+      "id_b": 619,
+      "en_b": "Vanilla souffle",
+      "similarity": 0.759,
+      "category": "sweet"
+    },
+    {
+      "id_a": 568,
+      "en_a": "Rajbogh",
+      "id_b": 12002,
+      "en_b": "Rajbhog",
+      "similarity": 0.857,
+      "category": "sweet"
+    },
+    {
+      "id_a": 569,
+      "en_a": "Rasbhari",
+      "id_b": 1415,
+      "en_b": "Rasabali",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 569,
+      "en_a": "Rasbhari",
+      "id_b": 60022,
+      "en_b": "Rabri",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 760,
+      "en_a": "Almond biscuit",
+      "id_b": 823,
+      "en_b": "Saffron biscuit",
+      "similarity": 0.759,
+      "category": "sweet"
+    },
+    {
+      "id_a": 764,
+      "en_a": "Butterfly biscuit",
+      "id_b": 765,
+      "en_b": "Buttermilk biscuit",
+      "similarity": 0.857,
+      "category": "sweet"
+    },
+    {
+      "id_a": 773,
+      "en_a": "Christmas bell biscuit",
+      "id_b": 774,
+      "en_b": "Christmas biscuit",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 773,
+      "en_a": "Christmas bell biscuit",
+      "id_b": 775,
+      "en_b": "Christmas star biscuit",
+      "similarity": 0.818,
+      "category": "sweet"
+    },
+    {
+      "id_a": 773,
+      "en_a": "Christmas bell biscuit",
+      "id_b": 776,
+      "en_b": "Christmas tree biscuit",
+      "similarity": 0.864,
+      "category": "sweet"
+    },
+    {
+      "id_a": 773,
+      "en_a": "Christmas bell biscuit",
+      "id_b": 777,
+      "en_b": "Christmas wreath biscuit",
+      "similarity": 0.826,
+      "category": "sweet"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 775,
+      "en_b": "Christmas star biscuit",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 776,
+      "en_b": "Christmas tree biscuit",
+      "similarity": 0.872,
+      "category": "sweet"
+    },
+    {
+      "id_a": 774,
+      "en_a": "Christmas biscuit",
+      "id_b": 777,
+      "en_b": "Christmas wreath biscuit",
+      "similarity": 0.829,
+      "category": "sweet"
+    },
+    {
+      "id_a": 775,
+      "en_a": "Christmas star biscuit",
+      "id_b": 777,
+      "en_b": "Christmas wreath biscuit",
+      "similarity": 0.826,
+      "category": "sweet"
+    },
+    {
+      "id_a": 776,
+      "en_a": "Christmas tree biscuit",
+      "id_b": 777,
+      "en_b": "Christmas wreath biscuit",
+      "similarity": 0.87,
+      "category": "sweet"
+    },
+    {
+      "id_a": 791,
+      "en_a": "Ginger biscuit",
+      "id_b": 810,
+      "en_b": "Orange biscuit",
+      "similarity": 0.786,
+      "category": "sweet"
+    },
+    {
+      "id_a": 875,
+      "en_a": "Apple cake",
+      "id_b": 877,
+      "en_b": "Apple kheer",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 875,
+      "en_a": "Apple cake",
+      "id_b": 907,
+      "en_b": "Marble cake",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 875,
+      "en_a": "Apple cake",
+      "id_b": 913,
+      "en_b": "Pineapple cake",
+      "similarity": 0.833,
+      "category": "sweet"
+    },
+    {
+      "id_a": 881,
+      "en_a": "Black rice kheer",
+      "id_b": 918,
+      "en_b": "Rice kheer",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 883,
+      "en_a": "Carrot cake",
+      "id_b": 885,
+      "en_b": "Carrot kheer",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 887,
+      "en_b": "Chocolate chiffon cake",
+      "similarity": 0.778,
+      "category": "sweet"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 888,
+      "en_b": "Chocolate eggless cake",
+      "similarity": 0.778,
+      "category": "sweet"
+    },
+    {
+      "id_a": 886,
+      "en_a": "Chocolate cake",
+      "id_b": 890,
+      "en_b": "Chocolate sponge cake",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 887,
+      "en_a": "Chocolate chiffon cake",
+      "id_b": 890,
+      "en_b": "Chocolate sponge cake",
+      "similarity": 0.791,
+      "category": "sweet"
+    },
+    {
+      "id_a": 888,
+      "en_a": "Chocolate eggless cake",
+      "id_b": 910,
+      "en_b": "Orange eggless cake",
+      "similarity": 0.78,
+      "category": "sweet"
+    },
+    {
+      "id_a": 893,
+      "en_a": "Creamy chocolate mousse",
+      "id_b": 919,
+      "en_b": "Rich chocolate mousse",
+      "similarity": 0.818,
+      "category": "sweet"
+    },
+    {
+      "id_a": 896,
+      "en_a": "Eggless cake",
+      "id_b": 910,
+      "en_b": "Orange eggless cake",
+      "similarity": 0.774,
+      "category": "sweet"
+    },
+    {
+      "id_a": 898,
+      "en_a": "Honey cake",
+      "id_b": 909,
+      "en_b": "Orange cake",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 898,
+      "en_a": "Honey cake",
+      "id_b": 928,
+      "en_b": "Sponge cake",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 901,
+      "en_a": "Lemon cake",
+      "id_b": 920,
+      "en_b": "Semolina cake",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 909,
+      "en_a": "Orange cake",
+      "id_b": 928,
+      "en_b": "Sponge cake",
+      "similarity": 0.818,
+      "category": "sweet"
+    },
+    {
+      "id_a": 913,
+      "en_a": "Pineapple cake",
+      "id_b": 914,
+      "en_b": "Pineapple tart",
+      "similarity": 0.786,
+      "category": "sweet"
+    },
+    {
+      "id_a": 917,
+      "en_a": "Rasmalai",
+      "id_b": 1415,
+      "en_b": "Rasabali",
+      "similarity": 0.75,
+      "category": "sweet"
+    },
+    {
+      "id_a": 918,
+      "en_a": "Rice kheer",
+      "id_b": 944,
+      "en_b": "Vermicelli kheer",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 920,
+      "en_a": "Semolina cake",
+      "id_b": 922,
+      "en_b": "Semolina kheer",
+      "similarity": 0.815,
+      "category": "sweet"
+    },
+    {
+      "id_a": 932,
+      "en_a": "Sweet and salty biscuit",
+      "id_b": 938,
+      "en_b": "Sweet plain biscuit",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 935,
+      "en_a": "Sweet lemon pickle",
+      "id_b": 937,
+      "en_b": "Sweet peach pickle",
+      "similarity": 0.778,
+      "category": "sweet"
+    },
+    {
+      "id_a": 939,
+      "en_a": "Sweet raita",
+      "id_b": 940,
+      "en_b": "Sweet rice",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1400,
+      "en_a": "Arisa Pitha",
+      "id_b": 30029,
+      "en_b": "Kakara Pitha",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1400,
+      "en_a": "Arisa Pitha",
+      "id_b": 30042,
+      "en_b": "Mandia Pitha",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1401,
+      "en_a": "Manda Pitha",
+      "id_b": 30032,
+      "en_b": "Poda Pitha",
+      "similarity": 0.762,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1416,
+      "en_a": "Chhena Jhili",
+      "id_b": 12010,
+      "en_b": "Chhanar Jilipi",
+      "similarity": 0.769,
+      "category": "sweet"
+    },
+    {
+      "id_a": 1421,
+      "en_a": "Odia Khaja",
+      "id_b": 1422,
+      "en_b": "Odia Gaja",
+      "similarity": 0.842,
+      "category": "sweet"
+    },
+    {
+      "id_a": 60022,
+      "en_a": "Rabri",
+      "id_b": 96010,
+      "en_b": "Rabdi",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99085,
+      "en_b": "McDonalds Sundae Chocolate Medium",
+      "similarity": 0.866,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99086,
+      "en_b": "McDonalds Sundae Strawberry Regular",
+      "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99088,
+      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
+      "similarity": 0.895,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99089,
+      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
+      "similarity": 0.8,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99085,
+      "en_a": "McDonalds Sundae Chocolate Medium",
+      "id_b": 99087,
+      "en_b": "McDonalds Sundae Strawberry Medium",
+      "similarity": 0.776,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99085,
+      "en_a": "McDonalds Sundae Chocolate Medium",
+      "id_b": 99088,
+      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
+      "similarity": 0.773,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99085,
+      "en_a": "McDonalds Sundae Chocolate Medium",
+      "id_b": 99089,
+      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
+      "similarity": 0.892,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99086,
+      "en_a": "McDonalds Sundae Strawberry Regular",
+      "id_b": 99087,
+      "en_b": "McDonalds Sundae Strawberry Medium",
+      "similarity": 0.87,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99086,
+      "en_a": "McDonalds Sundae Strawberry Regular",
+      "id_b": 99088,
+      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
+      "similarity": 0.753,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99088,
+      "en_a": "McDonalds Sundae Chocolate Brownie Regular",
+      "id_b": 99089,
+      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
+      "similarity": 0.892,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99090,
+      "en_a": "McFlurry Oreo Small",
+      "id_b": 99091,
+      "en_b": "McFlurry Oreo Regular",
+      "similarity": 0.75,
+      "category": "sweet"
+    }
+  ],
+  "variants": [
+    {
+      "id_a": 2,
+      "en_a": "Coffee drops",
+      "id_b": 1382,
+      "en_b": "Coffee, powder",
+      "similarity": 0.692,
+      "category": "beverage"
+    },
+    {
+      "id_a": 3,
+      "en_a": "Coffee pear alaska",
+      "id_b": 1382,
+      "en_b": "Coffee, powder",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 6,
+      "en_a": "Espresso coffee",
+      "id_b": 13,
+      "en_b": "Steeped hot coffee",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 7,
+      "en_a": "Hot tea",
+      "id_b": 485,
+      "en_b": "Hot cocoa",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 8,
+      "en_a": "Iced tea",
+      "id_b": 186,
+      "en_b": "Ginger Tea",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 8,
+      "en_a": "Iced tea",
+      "id_b": 193,
+      "en_b": "Milk Tea",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 9,
+      "en_a": "Instant coffee",
+      "id_b": 13,
+      "en_b": "Steeped hot coffee",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 9,
+      "en_a": "Instant coffee",
+      "id_b": 192,
+      "en_b": "Milk Coffee",
+      "similarity": 0.64,
+      "category": "beverage"
+    },
+    {
+      "id_a": 11,
+      "en_a": "Lassi",
+      "id_b": 194,
+      "en_b": "Salt Lassi",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 11,
+      "en_a": "Lassi",
+      "id_b": 195,
+      "en_b": "Sweet Lassi",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 179,
+      "en_a": "Banana Shake",
+      "id_b": 191,
+      "en_b": "Mango Shake",
+      "similarity": 0.696,
+      "category": "beverage"
+    },
+    {
+      "id_a": 180,
+      "en_a": "Black Coffee",
+      "id_b": 181,
+      "en_b": "Black Tea",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 180,
+      "en_a": "Black Coffee",
+      "id_b": 99095,
+      "en_b": "McDonalds Black Coffee",
+      "similarity": 0.706,
+      "category": "beverage"
+    },
+    {
+      "id_a": 181,
+      "en_a": "Black Tea",
+      "id_b": 187,
+      "en_b": "Herbal Tea",
+      "similarity": 0.632,
+      "category": "beverage"
+    },
+    {
+      "id_a": 181,
+      "en_a": "Black Tea",
+      "id_b": 193,
+      "en_b": "Milk Tea",
+      "similarity": 0.706,
+      "category": "beverage"
+    },
+    {
+      "id_a": 182,
+      "en_a": "Chocolate Milk",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 183,
+      "en_a": "Coconut Water",
+      "id_b": 190,
+      "en_b": "Lemon Water",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 183,
+      "en_a": "Coconut Water",
+      "id_b": 1207,
+      "en_b": "Coconut milk",
+      "similarity": 0.64,
+      "category": "beverage"
+    },
+    {
+      "id_a": 184,
+      "en_a": "Detox Water",
+      "id_b": 190,
+      "en_b": "Lemon Water",
+      "similarity": 0.727,
+      "category": "beverage"
+    },
+    {
+      "id_a": 185,
+      "en_a": "Fat Burn Drink",
+      "id_b": 578,
+      "en_b": "Sattu drink",
+      "similarity": 0.72,
+      "category": "beverage"
+    },
+    {
+      "id_a": 190,
+      "en_a": "Lemon Water",
+      "id_b": 511,
+      "en_b": "Lemonade",
+      "similarity": 0.737,
+      "category": "beverage"
+    },
+    {
+      "id_a": 191,
+      "en_a": "Mango Shake",
+      "id_b": 279,
+      "en_b": "Orange milkshake",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 192,
+      "en_a": "Milk Coffee",
+      "id_b": 193,
+      "en_b": "Milk Tea",
+      "similarity": 0.632,
+      "category": "beverage"
+    },
+    {
+      "id_a": 247,
+      "en_a": "Banana milkshake",
+      "id_b": 284,
+      "en_b": "Pineapple milkshake",
+      "similarity": 0.629,
+      "category": "beverage"
+    },
+    {
+      "id_a": 247,
+      "en_a": "Banana milkshake",
+      "id_b": 454,
+      "en_b": "Flavoured milkshake",
+      "similarity": 0.629,
+      "category": "beverage"
+    },
+    {
+      "id_a": 270,
+      "en_a": "Mango milkshake",
+      "id_b": 284,
+      "en_b": "Pineapple milkshake",
+      "similarity": 0.647,
+      "category": "beverage"
+    },
+    {
+      "id_a": 270,
+      "en_a": "Mango milkshake",
+      "id_b": 454,
+      "en_b": "Flavoured milkshake",
+      "similarity": 0.706,
+      "category": "beverage"
+    },
+    {
+      "id_a": 279,
+      "en_a": "Orange milkshake",
+      "id_b": 284,
+      "en_b": "Pineapple milkshake",
+      "similarity": 0.686,
+      "category": "beverage"
+    },
+    {
+      "id_a": 279,
+      "en_a": "Orange milkshake",
+      "id_b": 454,
+      "en_b": "Flavoured milkshake",
+      "similarity": 0.743,
+      "category": "beverage"
+    },
+    {
+      "id_a": 485,
+      "en_a": "Hot cocoa",
+      "id_b": 99135,
+      "en_b": "McCafe Hot Chocolate",
+      "similarity": 0.621,
+      "category": "beverage"
+    },
+    {
+      "id_a": 504,
+      "en_a": "Lemon and ginger squash",
+      "id_b": 510,
+      "en_b": "Lemon squash",
+      "similarity": 0.686,
+      "category": "beverage"
+    },
+    {
+      "id_a": 510,
+      "en_a": "Lemon squash",
+      "id_b": 513,
+      "en_b": "Lichi squash",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 511,
+      "en_a": "Lemonade",
+      "id_b": 532,
+      "en_b": "Mintade",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 513,
+      "en_a": "Lichi squash",
+      "id_b": 561,
+      "en_b": "Plum squash",
+      "similarity": 0.696,
+      "category": "beverage"
+    },
+    {
+      "id_a": 1381,
+      "en_a": "Coffee, instant, with sugar and milk",
+      "id_b": 1386,
+      "en_b": "Tea, milk tea (with sugar and milk powder)",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 1382,
+      "en_a": "Coffee, powder",
+      "id_b": 1388,
+      "en_b": "Tea, powder",
+      "similarity": 0.72,
+      "category": "beverage"
+    },
+    {
+      "id_a": 1425,
+      "en_a": "Whiskey / Whisky (30ml)",
+      "id_b": 1429,
+      "en_b": "White Wine (150ml)",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 1426,
+      "en_a": "Rum (30ml)",
+      "id_b": 1427,
+      "en_b": "Vodka (30ml)",
+      "similarity": 0.636,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98207,
+      "en_b": "Pepsi Pizza Hut",
+      "similarity": 0.629,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98208,
+      "en_b": "7UP Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98209,
+      "en_b": "Mirinda Pizza Hut",
+      "similarity": 0.649,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98210,
+      "en_b": "Pepsi Black Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.65,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98203,
+      "en_a": "Masala Pop Pizza Hut",
+      "id_b": 98221,
+      "en_b": "Cold Coffee Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98204,
+      "en_a": "Masala Lemonade Pizza Hut",
+      "id_b": 98212,
+      "en_b": "Masala Lemonade 7UP Zero Sugar",
+      "similarity": 0.691,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98204,
+      "en_a": "Masala Lemonade Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.638,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98208,
+      "en_b": "7UP Pizza Hut",
+      "similarity": 0.629,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98210,
+      "en_b": "Pepsi Black Pizza Hut",
+      "similarity": 0.698,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98205,
+      "en_a": "Masala Pepsi Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98209,
+      "en_b": "Mirinda Pizza Hut",
+      "similarity": 0.688,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98211,
+      "en_b": "7UP Zero Sugar Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.743,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98218,
+      "en_b": "Desi Style Latte Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98207,
+      "en_a": "Pepsi Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.649,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98208,
+      "en_a": "7UP Pizza Hut",
+      "id_b": 98209,
+      "en_b": "Mirinda Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98208,
+      "en_a": "7UP Pizza Hut",
+      "id_b": 98210,
+      "en_b": "Pepsi Black Pizza Hut",
+      "similarity": 0.647,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98208,
+      "en_a": "7UP Pizza Hut",
+      "id_b": 98211,
+      "en_b": "7UP Zero Sugar Pizza Hut",
+      "similarity": 0.703,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98208,
+      "en_a": "7UP Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98208,
+      "en_a": "7UP Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.629,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98209,
+      "en_a": "Mirinda Pizza Hut",
+      "id_b": 98210,
+      "en_b": "Pepsi Black Pizza Hut",
+      "similarity": 0.632,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98209,
+      "en_a": "Mirinda Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.649,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98209,
+      "en_a": "Mirinda Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.632,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 98211,
+      "en_b": "7UP Zero Sugar Pizza Hut",
+      "similarity": 0.622,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 98217,
+      "en_b": "Cappuccino Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 98218,
+      "en_b": "Desi Style Latte Pizza Hut",
+      "similarity": 0.681,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98213,
+      "en_a": "Sunfeast Mango Smoothie 300ml",
+      "id_b": 98214,
+      "en_b": "Sunfeast Mango Smoothie with Vanilla Scoop",
+      "similarity": 0.704,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98214,
+      "en_a": "Sunfeast Mango Smoothie with Vanilla Scoop",
+      "id_b": 98216,
+      "en_b": "Sunfeast Dark Fantasy Chocolate Shake with Vanilla",
+      "similarity": 0.63,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98217,
+      "en_a": "Cappuccino Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98217,
+      "en_a": "Cappuccino Pizza Hut",
+      "id_b": 98221,
+      "en_b": "Cold Coffee Pizza Hut",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98217,
+      "en_a": "Cappuccino Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98218,
+      "en_a": "Desi Style Latte Pizza Hut",
+      "id_b": 98222,
+      "en_b": "Cold Chocolate Pizza Hut",
+      "similarity": 0.64,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98219,
+      "en_a": "Hot Chocolate Pizza Hut",
+      "id_b": 98220,
+      "en_b": "Masala Chai Pizza Hut",
+      "similarity": 0.636,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98219,
+      "en_a": "Hot Chocolate Pizza Hut",
+      "id_b": 98221,
+      "en_b": "Cold Coffee Pizza Hut",
+      "similarity": 0.636,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98219,
+      "en_a": "Hot Chocolate Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.622,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98220,
+      "en_a": "Masala Chai Pizza Hut",
+      "id_b": 98222,
+      "en_b": "Cold Chocolate Pizza Hut",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98220,
+      "en_a": "Masala Chai Pizza Hut",
+      "id_b": 98223,
+      "en_b": "Frappe Mocha Pizza Hut",
+      "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98222,
+      "en_a": "Cold Chocolate Pizza Hut",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.642,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99095,
+      "en_a": "McDonalds Black Coffee",
+      "id_b": 99109,
+      "en_b": "McDonalds Cold Coffee Float",
+      "similarity": 0.735,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99095,
+      "en_a": "McDonalds Black Coffee",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.683,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99096,
+      "en_a": "McDonalds Coca-Cola Small",
+      "id_b": 99102,
+      "en_b": "McDonalds Sprite Small",
+      "similarity": 0.681,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99096,
+      "en_a": "McDonalds Coca-Cola Small",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.704,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99097,
+      "en_a": "McDonalds Coca-Cola Medium",
+      "id_b": 99103,
+      "en_b": "McDonalds Sprite Medium",
+      "similarity": 0.694,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99097,
+      "en_a": "McDonalds Coca-Cola Medium",
+      "id_b": 99108,
+      "en_b": "McDonalds Cold Coffee",
+      "similarity": 0.638,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99097,
+      "en_a": "McDonalds Coca-Cola Medium",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.691,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99104,
+      "en_b": "McDonalds Sprite Large",
+      "similarity": 0.681,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.652,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99108,
+      "en_b": "McDonalds Cold Coffee",
+      "similarity": 0.652,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99111,
+      "en_b": "McDonalds Masala Chai Regular",
+      "similarity": 0.63,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99098,
+      "en_a": "McDonalds Coca-Cola Large",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.741,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99099,
+      "en_a": "McDonalds Fanta Small",
+      "id_b": 99105,
+      "en_b": "McDonalds Coke Float",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99100,
+      "en_a": "McDonalds Fanta Medium",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.744,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99101,
+      "en_a": "McDonalds Fanta Large",
+      "id_b": 99105,
+      "en_b": "McDonalds Coke Float",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99101,
+      "en_a": "McDonalds Fanta Large",
+      "id_b": 99111,
+      "en_b": "McDonalds Masala Chai Regular",
+      "similarity": 0.64,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99102,
+      "en_a": "McDonalds Sprite Small",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99103,
+      "en_a": "McDonalds Sprite Medium",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99105,
+      "en_b": "McDonalds Coke Float",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99106,
+      "en_b": "McDonalds Fanta Float",
+      "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99111,
+      "en_b": "McDonalds Masala Chai Regular",
+      "similarity": 0.627,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99113,
+      "en_b": "McDonalds Minute Maid Pulpy Orange",
+      "similarity": 0.643,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99104,
+      "en_a": "McDonalds Sprite Large",
+      "id_b": 99115,
+      "en_b": "McDonalds Chocolate Milkshake",
+      "similarity": 0.627,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99108,
+      "en_b": "McDonalds Cold Coffee",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99105,
+      "en_a": "McDonalds Coke Float",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.737,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99106,
+      "en_a": "McDonalds Fanta Float",
+      "id_b": 99109,
+      "en_b": "McDonalds Cold Coffee Float",
+      "similarity": 0.708,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99107,
+      "en_a": "McDonalds Sprite Float",
+      "id_b": 99109,
+      "en_b": "McDonalds Cold Coffee Float",
+      "similarity": 0.694,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99107,
+      "en_a": "McDonalds Sprite Float",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99107,
+      "en_a": "McDonalds Sprite Float",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.634,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99108,
+      "en_a": "McDonalds Cold Coffee",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.718,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99108,
+      "en_a": "McDonalds Cold Coffee",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99108,
+      "en_a": "McDonalds Cold Coffee",
+      "id_b": 99136,
+      "en_b": "McCafe Cold Coffee Frappe",
+      "similarity": 0.652,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99109,
+      "en_a": "McDonalds Cold Coffee Float",
+      "id_b": 99110,
+      "en_b": "McDonalds Iced Tea",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99109,
+      "en_a": "McDonalds Cold Coffee Float",
+      "id_b": 99114,
+      "en_b": "McDonalds Coke Zero",
+      "similarity": 0.652,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99109,
+      "en_a": "McDonalds Cold Coffee Float",
+      "id_b": 99136,
+      "en_b": "McCafe Cold Coffee Frappe",
+      "similarity": 0.692,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99111,
+      "en_a": "McDonalds Masala Chai Regular",
+      "id_b": 99132,
+      "en_b": "McCafe Mocha Regular",
+      "similarity": 0.653,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99115,
+      "en_a": "McDonalds Chocolate Milkshake",
+      "id_b": 99139,
+      "en_b": "McCafe Chocolate Shake",
+      "similarity": 0.745,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99125,
+      "en_a": "McCafe Cappuccino Small",
+      "id_b": 99127,
+      "en_b": "McCafe Latte Small",
+      "similarity": 0.683,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99125,
+      "en_a": "McCafe Cappuccino Small",
+      "id_b": 99131,
+      "en_b": "McCafe Mocha Small",
+      "similarity": 0.732,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99126,
+      "en_a": "McCafe Cappuccino Regular",
+      "id_b": 99128,
+      "en_b": "McCafe Latte Regular",
+      "similarity": 0.711,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99127,
+      "en_a": "McCafe Latte Small",
+      "id_b": 99128,
+      "en_b": "McCafe Latte Regular",
+      "similarity": 0.737,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99127,
+      "en_a": "McCafe Latte Small",
+      "id_b": 99139,
+      "en_b": "McCafe Chocolate Shake",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99127,
+      "en_a": "McCafe Latte Small",
+      "id_b": 99141,
+      "en_b": "McCafe Vanilla Shake",
+      "similarity": 0.632,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99129,
+      "en_a": "McCafe Americano Small",
+      "id_b": 99131,
+      "en_b": "McCafe Mocha Small",
+      "similarity": 0.7,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99130,
+      "en_a": "McCafe Americano Regular",
+      "id_b": 99132,
+      "en_b": "McCafe Mocha Regular",
+      "similarity": 0.727,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99131,
+      "en_a": "McCafe Mocha Small",
+      "id_b": 99132,
+      "en_b": "McCafe Mocha Regular",
+      "similarity": 0.737,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99131,
+      "en_a": "McCafe Mocha Small",
+      "id_b": 99134,
+      "en_b": "McCafe Macchiato",
+      "similarity": 0.647,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99135,
+      "en_a": "McCafe Hot Chocolate",
+      "id_b": 99138,
+      "en_b": "McCafe Choco Frappe",
+      "similarity": 0.718,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99136,
+      "en_a": "McCafe Cold Coffee Frappe",
+      "id_b": 99137,
+      "en_b": "McCafe Caramel Frappe",
+      "similarity": 0.696,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99138,
+      "en_a": "McCafe Choco Frappe",
+      "id_b": 99139,
+      "en_b": "McCafe Chocolate Shake",
+      "similarity": 0.732,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99139,
+      "en_a": "McCafe Chocolate Shake",
+      "id_b": 99140,
+      "en_b": "McCafe Strawberry Shake",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99139,
+      "en_a": "McCafe Chocolate Shake",
+      "id_b": 99141,
+      "en_b": "McCafe Vanilla Shake",
+      "similarity": 0.714,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99139,
+      "en_a": "McCafe Chocolate Shake",
+      "id_b": 99142,
+      "en_b": "McCafe Vanilla Oreo Shake",
+      "similarity": 0.681,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99140,
+      "en_a": "McCafe Strawberry Shake",
+      "id_b": 99141,
+      "en_b": "McCafe Vanilla Shake",
+      "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99140,
+      "en_a": "McCafe Strawberry Shake",
+      "id_b": 99142,
+      "en_b": "McCafe Vanilla Oreo Shake",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 99141,
+      "en_a": "McCafe Vanilla Shake",
+      "id_b": 99143,
+      "en_b": "McCafe Strawberry Banana Shake",
+      "similarity": 0.64,
+      "category": "beverage"
+    },
+    {
+      "id_a": 16,
+      "en_a": "Infinity Wellness Bowl",
+      "id_b": 236,
+      "en_b": "Fitness Bowl",
+      "similarity": 0.706,
+      "category": "salad"
+    },
+    {
+      "id_a": 16,
+      "en_a": "Infinity Wellness Bowl",
+      "id_b": 314,
+      "en_b": "Wellness Bowl",
+      "similarity": 0.743,
+      "category": "salad"
+    },
+    {
+      "id_a": 236,
+      "en_a": "Fitness Bowl",
+      "id_b": 310,
+      "en_b": "Light Dinner Bowl",
+      "similarity": 0.621,
+      "category": "salad"
+    },
+    {
+      "id_a": 236,
+      "en_a": "Fitness Bowl",
+      "id_b": 314,
+      "en_b": "Wellness Bowl",
+      "similarity": 0.72,
+      "category": "salad"
+    },
+    {
+      "id_a": 310,
+      "en_a": "Light Dinner Bowl",
+      "id_b": 311,
+      "en_b": "Light Lunch Bowl",
+      "similarity": 0.727,
+      "category": "salad"
+    },
+    {
+      "id_a": 310,
+      "en_a": "Light Dinner Bowl",
+      "id_b": 653,
+      "en_b": "High Protein Bowl",
+      "similarity": 0.647,
+      "category": "salad"
+    },
+    {
+      "id_a": 365,
+      "en_a": "Macaroni salad",
+      "id_b": 368,
+      "en_b": "Pasta salad",
+      "similarity": 0.64,
+      "category": "salad"
+    },
+    {
+      "id_a": 365,
+      "en_a": "Macaroni salad",
+      "id_b": 746,
+      "en_b": "Hawain salad",
+      "similarity": 0.692,
+      "category": "salad"
+    },
+    {
+      "id_a": 365,
+      "en_a": "Macaroni salad",
+      "id_b": 759,
+      "en_b": "Waldroff salad",
+      "similarity": 0.643,
+      "category": "salad"
+    },
+    {
+      "id_a": 368,
+      "en_a": "Pasta salad",
+      "id_b": 740,
+      "en_b": "Chickpea Salad",
+      "similarity": 0.64,
+      "category": "salad"
+    },
+    {
+      "id_a": 368,
+      "en_a": "Pasta salad",
+      "id_b": 746,
+      "en_b": "Hawain salad",
+      "similarity": 0.696,
+      "category": "salad"
+    },
+    {
+      "id_a": 368,
+      "en_a": "Pasta salad",
+      "id_b": 748,
+      "en_b": "Kale salad",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 368,
+      "en_a": "Pasta salad",
+      "id_b": 754,
+      "en_b": "Spring basket salad",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 368,
+      "en_a": "Pasta salad",
+      "id_b": 755,
+      "en_b": "Sprouts Salad",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 736,
+      "en_a": "Bathua raita",
+      "id_b": 739,
+      "en_b": "Carrot raita",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 736,
+      "en_a": "Bathua raita",
+      "id_b": 749,
+      "en_b": "Mint raita",
+      "similarity": 0.636,
+      "category": "salad"
+    },
+    {
+      "id_a": 737,
+      "en_a": "Boiled Chicken Salad",
+      "id_b": 740,
+      "en_b": "Chickpea Salad",
+      "similarity": 0.706,
+      "category": "salad"
+    },
+    {
+      "id_a": 737,
+      "en_a": "Boiled Chicken Salad",
+      "id_b": 757,
+      "en_b": "Tossed green salad",
+      "similarity": 0.632,
+      "category": "salad"
+    },
+    {
+      "id_a": 738,
+      "en_a": "Boondi raita",
+      "id_b": 749,
+      "en_b": "Mint raita",
+      "similarity": 0.636,
+      "category": "salad"
+    },
+    {
+      "id_a": 738,
+      "en_a": "Boondi raita",
+      "id_b": 756,
+      "en_b": "Tomato onion raita",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 739,
+      "en_a": "Carrot raita",
+      "id_b": 749,
+      "en_b": "Mint raita",
+      "similarity": 0.636,
+      "category": "salad"
+    },
+    {
+      "id_a": 740,
+      "en_a": "Chickpea Salad",
+      "id_b": 748,
+      "en_b": "Kale salad",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 745,
+      "en_a": "Gym Salad",
+      "id_b": 748,
+      "en_b": "Kale salad",
+      "similarity": 0.632,
+      "category": "salad"
+    },
+    {
+      "id_a": 746,
+      "en_a": "Hawain salad",
+      "id_b": 748,
+      "en_b": "Kale salad",
+      "similarity": 0.636,
+      "category": "salad"
+    },
+    {
+      "id_a": 746,
+      "en_a": "Hawain salad",
+      "id_b": 753,
+      "en_b": "Russian salad",
+      "similarity": 0.64,
+      "category": "salad"
+    },
+    {
+      "id_a": 748,
+      "en_a": "Kale salad",
+      "id_b": 758,
+      "en_b": "Tossed salad",
+      "similarity": 0.636,
+      "category": "salad"
+    },
+    {
+      "id_a": 748,
+      "en_a": "Kale salad",
+      "id_b": 759,
+      "en_b": "Waldroff salad",
+      "similarity": 0.667,
+      "category": "salad"
+    },
+    {
+      "id_a": 749,
+      "en_a": "Mint raita",
+      "id_b": 756,
+      "en_b": "Tomato onion raita",
+      "similarity": 0.643,
+      "category": "salad"
+    },
+    {
+      "id_a": 753,
+      "en_a": "Russian salad",
+      "id_b": 755,
+      "en_b": "Sprouts Salad",
+      "similarity": 0.692,
+      "category": "salad"
+    },
+    {
+      "id_a": 753,
+      "en_a": "Russian salad",
+      "id_b": 758,
+      "en_b": "Tossed salad",
+      "similarity": 0.64,
+      "category": "salad"
+    },
+    {
+      "id_a": 754,
+      "en_a": "Spring basket salad",
+      "id_b": 755,
+      "en_b": "Sprouts Salad",
+      "similarity": 0.625,
+      "category": "salad"
+    },
+    {
+      "id_a": 755,
+      "en_a": "Sprouts Salad",
+      "id_b": 758,
+      "en_b": "Tossed salad",
+      "similarity": 0.64,
+      "category": "salad"
+    },
+    {
+      "id_a": 17,
+      "en_a": "Appam",
+      "id_b": 50,
+      "en_b": "Uttapam",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 19,
+      "en_a": "Bacon and mushroom pancake",
+      "id_b": 31,
+      "en_b": "Jam and fruit pancake",
+      "similarity": 0.638,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 20,
+      "en_a": "Banana Oats",
+      "id_b": 21,
+      "en_b": "Banana appam",
+      "similarity": 0.696,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 27,
+      "en_a": "Egg Toast",
+      "id_b": 48,
+      "en_b": "Sesame toast",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 30,
+      "en_a": "Instant idli",
+      "id_b": 46,
+      "en_b": "Semolina idli",
+      "similarity": 0.64,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 32,
+      "en_a": "Jowar dosa",
+      "id_b": 20004,
+      "en_b": "Rava Dosa",
+      "similarity": 0.632,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 35,
+      "en_a": "Masala dosa",
+      "id_b": 42,
+      "en_b": "Plain dosa",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 35,
+      "en_a": "Masala dosa",
+      "id_b": 45,
+      "en_b": "Semolina dosa",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 35,
+      "en_a": "Masala dosa",
+      "id_b": 20004,
+      "en_b": "Rava Dosa",
+      "similarity": 0.7,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 35,
+      "en_a": "Masala dosa",
+      "id_b": 20006,
+      "en_b": "Set Dosa",
+      "similarity": 0.632,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 36,
+      "en_a": "Moong bean dosa",
+      "id_b": 45,
+      "en_b": "Semolina dosa",
+      "similarity": 0.643,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 36,
+      "en_a": "Moong bean dosa",
+      "id_b": 20005,
+      "en_b": "Onion Dosa",
+      "similarity": 0.64,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 42,
+      "en_a": "Plain dosa",
+      "id_b": 45,
+      "en_b": "Semolina dosa",
+      "similarity": 0.696,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 42,
+      "en_a": "Plain dosa",
+      "id_b": 20004,
+      "en_b": "Rava Dosa",
+      "similarity": 0.632,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 42,
+      "en_a": "Plain dosa",
+      "id_b": 20005,
+      "en_b": "Onion Dosa",
+      "similarity": 0.7,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 45,
+      "en_a": "Semolina dosa",
+      "id_b": 20003,
+      "en_b": "Mysore Masala Dosa",
+      "similarity": 0.645,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 45,
+      "en_a": "Semolina dosa",
+      "id_b": 20005,
+      "en_b": "Onion Dosa",
+      "similarity": 0.696,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 45,
+      "en_a": "Semolina dosa",
+      "id_b": 20006,
+      "en_b": "Set Dosa",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 46,
+      "en_a": "Semolina idli",
+      "id_b": 47,
+      "en_b": "Semolina upma",
+      "similarity": 0.692,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 47,
+      "en_a": "Semolina upma",
+      "id_b": 373,
+      "en_b": "Vermicelli upma",
+      "similarity": 0.643,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 53,
+      "en_a": "Vegetable upma",
+      "id_b": 373,
+      "en_b": "Vermicelli upma",
+      "similarity": 0.621,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 20004,
+      "en_a": "Rava Dosa",
+      "id_b": 20008,
+      "en_b": "Rava Idli",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 40002,
+      "en_a": "Indori Poha",
+      "id_b": 50005,
+      "en_b": "Kanda Poha",
+      "similarity": 0.667,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 50001,
+      "en_a": "Misal",
+      "id_b": 50002,
+      "en_b": "Misal Pav",
+      "similarity": 0.714,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 55,
+      "en_b": "Tomato Chutney",
+      "similarity": 0.72,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 381,
+      "en_b": "Peanut chutney",
+      "similarity": 0.72,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 384,
+      "en_b": "Walnut chutney",
+      "similarity": 0.72,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 435,
+      "en_b": "Coriander chutney",
+      "similarity": 0.643,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 474,
+      "en_b": "Green chutney",
+      "similarity": 0.667,
+      "category": "snack"
+    },
+    {
+      "id_a": 54,
+      "en_a": "Aam Chutney",
+      "id_b": 541,
+      "en_b": "Onion chutney",
+      "similarity": 0.667,
+      "category": "snack"
+    }
+  ],
+  "no_src": [
+    {
+      "id": 20003,
+      "en": "Mysore Masala Dosa",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20004,
+      "en": "Rava Dosa",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20005,
+      "en": "Onion Dosa",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20006,
+      "en": "Set Dosa",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20008,
+      "en": "Rava Idli",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20009,
+      "en": "Medu Vada",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20013,
+      "en": "Pongal",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20014,
+      "en": "Ven Pongal",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20018,
+      "en": "Bisibele Bath",
+      "cat": "rice"
+    },
+    {
+      "id": 20019,
+      "en": "Upma",
+      "cat": "breakfast"
+    },
+    {
+      "id": 20020,
+      "en": "Pesarattu",
+      "cat": "breakfast"
+    },
+    {
+      "id": 30003,
+      "en": "Ghanta Tarkari",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30007,
+      "en": "Dahi Pakhala",
+      "cat": "rice"
+    },
+    {
+      "id": 30008,
+      "en": "Badi Chura",
+      "cat": "snack"
+    },
+    {
+      "id": 30009,
+      "en": "Chhatu Rai",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30012,
+      "en": "Machha Jhola",
+      "cat": "fish"
+    },
+    {
+      "id": 30013,
+      "en": "Chingudi Jhola",
+      "cat": "fish"
+    },
+    {
+      "id": 30014,
+      "en": "Chingudi Checha",
+      "cat": "fish"
+    },
+    {
+      "id": 30015,
+      "en": "Crab Curry",
+      "cat": "fish"
+    },
+    {
+      "id": 30016,
+      "en": "Mutton Curry Odisha Style",
+      "cat": "meat"
+    },
+    {
+      "id": 30017,
+      "en": "Mutton Kasa",
+      "cat": "meat"
+    },
+    {
+      "id": 30018,
+      "en": "Chicken Curry Odisha Style",
+      "cat": "meat"
+    },
+    {
+      "id": 30019,
+      "en": "Chicken Kasa",
+      "cat": "meat"
+    },
+    {
+      "id": 30020,
+      "en": "Muga Dalma",
+      "cat": "legume"
+    },
+    {
+      "id": 30029,
+      "en": "Kakara Pitha",
+      "cat": "sweet"
+    },
+    {
+      "id": 30032,
+      "en": "Poda Pitha",
+      "cat": "sweet"
+    },
+    {
+      "id": 30033,
+      "en": "Aloo Bharta Odisha Style",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30034,
+      "en": "Baigana Poda",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30035,
+      "en": "Oou Khatta",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30036,
+      "en": "Tomato Khatta",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30037,
+      "en": "Ambila",
+      "cat": "soup"
+    },
+    {
+      "id": 30038,
+      "en": "Khata Mitha Dal",
+      "cat": "legume"
+    },
+    {
+      "id": 30039,
+      "en": "Poi Saag Bhaja",
+      "cat": "shaak"
+    },
+    {
+      "id": 30040,
+      "en": "Kosala Saag Bhaja",
+      "cat": "shaak"
+    },
+    {
+      "id": 30041,
+      "en": "Mandia Porridge",
+      "cat": "grain"
+    },
+    {
+      "id": 30042,
+      "en": "Mandia Pitha",
+      "cat": "sweet"
+    },
+    {
+      "id": 30043,
+      "en": "Jagannath Mahaprasad Rice",
+      "cat": "rice"
+    },
+    {
+      "id": 30044,
+      "en": "Mahura",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30045,
+      "en": "Besan Tarkari",
+      "cat": "vegetable"
+    },
+    {
+      "id": 30047,
+      "en": "Prawn Besara",
+      "cat": "fish"
+    },
+    {
+      "id": 30048,
+      "en": "Fish Ambila",
+      "cat": "fish"
+    },
+    {
+      "id": 30049,
+      "en": "Chingudi Malai Curry Odisha Style",
+      "cat": "fish"
+    },
+    {
+      "id": 30050,
+      "en": "Badi Chura Ghassa",
+      "cat": "snack"
+    },
+    {
+      "id": 40002,
+      "en": "Indori Poha",
+      "cat": "breakfast"
+    },
+    {
+      "id": 40003,
+      "en": "Poha Jalebi",
+      "cat": "breakfast"
+    },
+    {
+      "id": 40004,
+      "en": "Sabudana Khichdi",
+      "cat": "breakfast"
+    },
+    {
+      "id": 40005,
+      "en": "Sabudana Vada",
+      "cat": "snack"
+    },
+    {
+      "id": 40006,
+      "en": "Bhutte Ka Kees",
+      "cat": "snack"
+    },
+    {
+      "id": 40007,
+      "en": "Dal Bafla",
+      "cat": "legume"
+    },
+    {
+      "id": 40009,
+      "en": "Ratlami Sev",
+      "cat": "snack"
+    },
+    {
+      "id": 40010,
+      "en": "Garadu",
+      "cat": "snack"
+    },
+    {
+      "id": 40011,
+      "en": "Bhopali Gosht Korma",
+      "cat": "meat"
+    },
+    {
+      "id": 40013,
+      "en": "Bhopali Chicken Curry",
+      "cat": "meat"
+    },
+    {
+      "id": 40015,
+      "en": "Paneer Butter Masala",
+      "cat": "dairy"
+    },
+    {
+      "id": 40016,
+      "en": "Dahi Bada",
+      "cat": "snack"
+    },
+    {
+      "id": 40017,
+      "en": "Mawa Bati",
+      "cat": "sweet"
+    },
+    {
+      "id": 40018,
+      "en": "Mawa Jalebi",
+      "cat": "sweet"
+    },
+    {
+      "id": 40020,
+      "en": "Shrikhand",
+      "cat": "sweet"
+    },
+    {
+      "id": 50001,
+      "en": "Misal",
+      "cat": "breakfast"
+    },
+    {
+      "id": 50002,
+      "en": "Misal Pav",
+      "cat": "breakfast"
+    },
+    {
+      "id": 50003,
+      "en": "Vada Pav",
+      "cat": "snack"
+    },
+    {
+      "id": 50004,
+      "en": "Batata Vada",
+      "cat": "snack"
+    },
+    {
+      "id": 50005,
+      "en": "Kanda Poha",
+      "cat": "breakfast"
+    },
+    {
+      "id": 50008,
+      "en": "Thalipeeth",
+      "cat": "breakfast"
+    },
+    {
+      "id": 50009,
+      "en": "Pithla",
+      "cat": "vegetable"
+    },
+    {
+      "id": 50010,
+      "en": "Pithla Bhakri",
+      "cat": "bread"
+    },
+    {
+      "id": 50011,
+      "en": "Jowar Bhakri",
+      "cat": "bread"
+    },
+    {
+      "id": 50012,
+      "en": "Bharli Vangi",
+      "cat": "vegetable"
+    },
+    {
+      "id": 50013,
+      "en": "Matki Usal",
+      "cat": "legume"
+    },
+    {
+      "id": 50014,
+      "en": "Usal",
+      "cat": "legume"
+    },
+    {
+      "id": 50015,
+      "en": "Zunka",
+      "cat": "vegetable"
+    },
+    {
+      "id": 50016,
+      "en": "Kothimbir Vadi",
+      "cat": "snack"
+    },
+    {
+      "id": 50017,
+      "en": "Sol Kadhi",
+      "cat": "beverage"
+    },
+    {
+      "id": 50018,
+      "en": "Kolhapuri Chicken",
+      "cat": "meat"
+    },
+    {
+      "id": 50019,
+      "en": "Kolhapuri Mutton",
+      "cat": "meat"
+    },
+    {
+      "id": 50020,
+      "en": "Bombil Fry",
+      "cat": "fish"
+    },
+    {
+      "id": 50021,
+      "en": "Puran Poli",
+      "cat": "sweet"
+    },
+    {
+      "id": 50022,
+      "en": "Modak",
+      "cat": "sweet"
+    },
+    {
+      "id": 50023,
+      "en": "Ukadiche Modak",
+      "cat": "sweet"
+    },
+    {
+      "id": 50025,
+      "en": "Basundi",
+      "cat": "sweet"
+    },
+    {
+      "id": 60001,
+      "en": "Chole Bhature",
+      "cat": "legume"
+    },
+    {
+      "id": 60002,
+      "en": "Chole",
+      "cat": "legume"
+    },
+    {
+      "id": 60003,
+      "en": "Bhature",
+      "cat": "bread"
+    },
+    {
+      "id": 60004,
+      "en": "Rajma Chawal",
+      "cat": "legume"
+    },
+    {
+      "id": 60005,
+      "en": "Kadhi Chawal",
+      "cat": "rice"
+    },
+    {
+      "id": 60006,
+      "en": "Aloo Tikki",
+      "cat": "snack"
+    },
+    {
+      "id": 60007,
+      "en": "Aloo Tikki Chaat",
+      "cat": "snack"
+    },
+    {
+      "id": 60008,
+      "en": "Papdi Chaat",
+      "cat": "snack"
+    },
+    {
+      "id": 60009,
+      "en": "Dahi Bhalla",
+      "cat": "snack"
+    },
+    {
+      "id": 60010,
+      "en": "Golgappa",
+      "cat": "snack"
+    },
+    {
+      "id": 60011,
+      "en": "Matar Kulcha",
+      "cat": "legume"
+    },
+    {
+      "id": 60012,
+      "en": "Kulcha",
+      "cat": "bread"
+    },
+    {
+      "id": 60014,
+      "en": "Chicken Tikka",
+      "cat": "meat"
+    },
+    {
+      "id": 60016,
+      "en": "Seekh Kebab",
+      "cat": "meat"
+    },
+    {
+      "id": 60017,
+      "en": "Shami Kebab",
+      "cat": "meat"
+    },
+    {
+      "id": 60019,
+      "en": "Paneer Tikka",
+      "cat": "dairy"
+    },
+    {
+      "id": 60021,
+      "en": "Jalebi",
+      "cat": "sweet"
+    },
+    {
+      "id": 60022,
+      "en": "Rabri",
+      "cat": "sweet"
+    },
+    {
+      "id": 60025,
+      "en": "Daulat Ki Chaat",
+      "cat": "sweet"
+    },
+    {
+      "id": 80001,
+      "en": "Momo Steamed",
+      "cat": "snack"
+    },
+    {
+      "id": 80002,
+      "en": "Chicken Momo",
+      "cat": "snack"
+    },
+    {
+      "id": 80003,
+      "en": "Fried Momo",
+      "cat": "snack"
+    },
+    {
+      "id": 80004,
+      "en": "Thukpa",
+      "cat": "noodle"
+    },
+    {
+      "id": 80005,
+      "en": "Chicken Thukpa",
+      "cat": "noodle"
+    },
+    {
+      "id": 80006,
+      "en": "Wai Wai Chaat",
+      "cat": "snack"
+    },
+    {
+      "id": 80007,
+      "en": "Phaley",
+      "cat": "bread"
+    },
+    {
+      "id": 80008,
+      "en": "Shabaley",
+      "cat": "snack"
+    },
+    {
+      "id": 80009,
+      "en": "Sel Roti",
+      "cat": "bread"
+    },
+    {
+      "id": 80010,
+      "en": "Gundruk",
+      "cat": "vegetable"
+    },
+    {
+      "id": 80011,
+      "en": "Gundruk Soup",
+      "cat": "soup"
+    },
+    {
+      "id": 80012,
+      "en": "Kinema Curry",
+      "cat": "legume"
+    },
+    {
+      "id": 80013,
+      "en": "Aloo Dum Darjeeling Style",
+      "cat": "vegetable"
+    },
+    {
+      "id": 80014,
+      "en": "Ningro Curry",
+      "cat": "vegetable"
+    },
+    {
+      "id": 80015,
+      "en": "Chhurpi",
+      "cat": "dairy"
+    },
+    {
+      "id": 80016,
+      "en": "Chhurpi Soup",
+      "cat": "soup"
+    },
+    {
+      "id": 80017,
+      "en": "Pork Curry Nepali Style",
+      "cat": "meat"
+    },
+    {
+      "id": 80018,
+      "en": "Chicken Chilli",
+      "cat": "meat"
+    },
+    {
+      "id": 80019,
+      "en": "Veg Chowmein",
+      "cat": "noodle"
+    },
+    {
+      "id": 90105,
+      "en": "Makha Sandesh",
+      "cat": "sweet"
+    },
+    {
+      "id": 95001,
+      "en": "Litti",
+      "cat": "bread"
+    },
+    {
+      "id": 95002,
+      "en": "Litti Chokha",
+      "cat": "bread"
+    },
+    {
+      "id": 95003,
+      "en": "Baingan Chokha",
+      "cat": "vegetable"
+    },
+    {
+      "id": 95004,
+      "en": "Aloo Chokha",
+      "cat": "vegetable"
+    },
+    {
+      "id": 95005,
+      "en": "Sattu Paratha",
+      "cat": "bread"
+    },
+    {
+      "id": 95007,
+      "en": "Dal Pitha",
+      "cat": "snack"
+    },
+    {
+      "id": 95008,
+      "en": "Thekua",
+      "cat": "sweet"
+    },
+    {
+      "id": 95011,
+      "en": "Kadhi Bari",
+      "cat": "legume"
+    },
+    {
+      "id": 95012,
+      "en": "Bihari Fish Curry",
+      "cat": "fish"
+    },
+    {
+      "id": 95013,
+      "en": "Champaran Mutton",
+      "cat": "meat"
+    },
+    {
+      "id": 95014,
+      "en": "Bihari Kebab",
+      "cat": "meat"
+    },
+    {
+      "id": 95101,
+      "en": "Dhuska",
+      "cat": "snack"
+    },
+    {
+      "id": 95102,
+      "en": "Rugra Mushroom Curry",
+      "cat": "vegetable"
+    },
+    {
+      "id": 95103,
+      "en": "Marua Roti",
+      "cat": "bread"
+    },
+    {
+      "id": 95104,
+      "en": "Chilka Roti",
+      "cat": "bread"
+    },
+    {
+      "id": 95105,
+      "en": "Handia Rice Beer",
+      "cat": "beverage"
+    },
+    {
+      "id": 95106,
+      "en": "Bamboo Shoot Curry",
+      "cat": "vegetable"
+    },
+    {
+      "id": 95107,
+      "en": "Peetha",
+      "cat": "snack"
+    },
+    {
+      "id": 95108,
+      "en": "Mutton Curry Tribal Style",
+      "cat": "meat"
+    },
+    {
+      "id": 95109,
+      "en": "Fish Curry Tribal Style",
+      "cat": "fish"
+    },
+    {
+      "id": 95110,
+      "en": "Arsa Roti",
+      "cat": "sweet"
+    }
+  ],
+  "low_quality": [
+    {
+      "id": 30012,
+      "en": "Machha Jhola",
+      "quality_score": 20
+    },
+    {
+      "id": 30042,
+      "en": "Mandia Pitha",
+      "quality_score": 20
+    },
+    {
+      "id": 60017,
+      "en": "Shami Kebab",
+      "quality_score": 20
+    },
+    {
+      "id": 80019,
+      "en": "Veg Chowmein",
+      "quality_score": 20
+    },
+    {
+      "id": 842,
+      "en": "Veg Sandwich",
+      "quality_score": 25
+    },
+    {
+      "id": 98201,
+      "en": "Fresh Lime Soda Sweet Pizza Hut",
+      "quality_score": 25
+    },
+    {
+      "id": 98202,
+      "en": "Fresh Lime Soda Sweet Salty Pizza Hut",
+      "quality_score": 25
+    },
+    {
+      "id": 99075,
+      "en": "McDonalds Chicken McNuggets 6pc",
+      "quality_score": 25
+    },
+    {
+      "id": 99076,
+      "en": "McDonalds Chicken McNuggets 9pc",
+      "quality_score": 25
+    },
+    {
+      "id": 99077,
+      "en": "McDonalds Chicken McNuggets 20pc",
+      "quality_score": 25
+    }
+  ]
+}

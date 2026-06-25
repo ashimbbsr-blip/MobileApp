@@ -530,8 +530,8 @@ class AppStrings {
       'localDatasetReady': '1,057 foods available offline',
       'searchBilingual': 'Search in English or Bengali…',
       'localResults': 'Results from local dataset',
-      'searchUsda': 'Search International Database',
-      'noLocalResults': 'No local results — try International search',
+      'searchUsda': 'Search USDA Database',
+      'noLocalResults': 'No local results — try USDA search',
       // Custom Nutrition Limits
       'customNutritionLimits': 'Custom Nutrition Goals',
       'customLimitsToggle': 'Set My Own Goals',

@@ -123,6 +123,29 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
+          // ── Weight & Backup ───────────────────────────────────────────────
+          Card(
+            child: Column(
+              children: [
+                _SettingsTile(
+                  icon: Icons.monitor_weight_outlined,
+                  title: l10n.isBengali ? 'ওজন ট্র্যাকার' : 'Weight Tracker',
+                  onTap: () => context.push('/weight').then((_) {
+                    ref.read(profileProvider.notifier).refresh();
+                  }),
+                ),
+                const Divider(height: 1),
+                _SettingsTile(
+                  icon: Icons.shield_outlined,
+                  title: l10n.isBengali ? 'ব্যাকআপ ও আর্কাইভ' : 'Backup & Archive',
+                  onTap: () => context.push('/backup'),
+                ),
+              ],
+            ),
+          ),
+
+          const SizedBox(height: 16),
+
           // ── Data Export ───────────────────────────────────────────────────
           Card(
             child: Column(
@@ -767,14 +790,23 @@ class _NotificationCardState extends State<_NotificationCard> {
     setState(() => _saving = true);
     await HiveStorage.setNotificationEnabled(value);
     if (value) {
-      final granted =
-          await NotificationService.instance.requestPermissions();
+      final granted = await NotificationService.instance.requestPermissions();
       if (granted) {
-        await NotificationService.instance.scheduleReminder(
+        await NotificationService.instance.requestExactAlarmPermission();
+        final ok = await NotificationService.instance.scheduleReminder(
           hour: _hour,
           minute: _minute,
           language: HiveStorage.language,
         );
+        if (!ok && mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+            content: Text(widget.l10n.isBengali
+                ? 'রিমাইন্ডার সেট করতে সমস্যা হয়েছে। সেটিংস > অ্যাপ থেকে অ্যালার্ম অনুমতি দিন।'
+                : 'Could not schedule reminder. Allow Alarms permission in Settings > Apps.'),
+            backgroundColor: Colors.orange,
+            duration: const Duration(seconds: 5),
+          ));
+        }
       }
     } else {
       await NotificationService.instance.cancelReminder();
@@ -794,11 +826,19 @@ class _NotificationCardState extends State<_NotificationCard> {
     setState(() { _hour = picked.hour; _minute = picked.minute; _saving = true; });
     await HiveStorage.setNotificationTime(picked.hour, picked.minute);
     if (_enabled) {
-      await NotificationService.instance.scheduleReminder(
+      final ok = await NotificationService.instance.scheduleReminder(
         hour: picked.hour,
         minute: picked.minute,
         language: HiveStorage.language,
       );
+      if (!ok && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text(widget.l10n.isBengali
+              ? 'রিমাইন্ডার আপডেট করতে সমস্যা হয়েছে।'
+              : 'Could not update reminder.'),
+          backgroundColor: Colors.orange,
+        ));
+      }
     }
     if (mounted) setState(() => _saving = false);
   }

@@ -87,6 +87,18 @@ class FoodItem extends HiveObject {
   @HiveField(26)
   double? sodiumMg; // milligrams of sodium per serving
 
+  // ── Search-pipeline fields (v8 dataset, not persisted to Hive) ───────────
+  // These are populated from food_master_v8_0.json at load time and used only
+  // for in-memory search ranking. Custom foods (isCustom=true) leave them null.
+
+  String? family;          // food family cluster (e.g. "rice", "chicken")
+  int?    searchPriority;  // 0-100 combined ranking signal
+  int?    qualityScore;    // 0-100 data quality
+  int?    popularityScore; // 0-100 food popularity
+  List<String>? aliases;   // alternate search terms
+  String? nutritionSource;     // ifct | brand_official | bd_fct | usda | ifct_recipe
+  String? nutritionConfidence; // very_high | high | medium | low
+
   FoodItem({
     required this.id,
     required this.name,
@@ -115,6 +127,13 @@ class FoodItem extends HiveObject {
     this.vitaminB12Mcg,
     this.alcoholG,
     this.sodiumMg,
+    this.family,
+    this.searchPriority,
+    this.qualityScore,
+    this.popularityScore,
+    this.aliases,
+    this.nutritionSource,
+    this.nutritionConfidence,
   });
 
   // ── Factory: compact local JSON schema ───────────────────────────────────
@@ -148,19 +167,28 @@ class FoodItem extends HiveObject {
       keywords: (m['kw'] as List?)?.cast<String>(),
       source: m['src'] as String? ?? 'local',
       isCustom: false,
+      family:              m['family'] as String?,
+      searchPriority:      (m['search_priority'] as num?)?.toInt(),
+      qualityScore:        (m['quality_score'] as num?)?.toInt(),
+      popularityScore:     (m['popularity_score'] as num?)?.toInt(),
+      aliases:             (m['aliases'] as List?)?.cast<String>(),
+      nutritionSource:     m['nutrition_source'] as String?,
+      nutritionConfidence: m['nutrition_confidence'] as String?,
     );
   }
 
   // Normalise legacy/variant dataset category names to UI category names.
   static String? _normalizeCategory(String? cat) {
     switch (cat) {
-      case 'veg':       return 'vegetable';
-      case 'drink':     return 'beverage';
-      case 'fitness':   return 'other';
-      case 'brand':     return 'snack';
-      case 'condiment': return 'condiment';
-      case 'diet':      return 'other';
-      case 'meal':      return 'other';
+      case 'veg':             return 'vegetable';
+      case 'leafy_vegetable': return 'shaak';
+      case 'drink':           return 'beverage';
+      case 'fitness':         return 'other';
+      case 'brand':           return 'snack';
+      case 'condiment':       return 'snack';
+      case 'diet':            return 'other';
+      case 'meal':            return 'other';
+      case 'dessert':         return 'sweet';
       default:          return cat;
     }
   }
@@ -198,7 +226,7 @@ class FoodItem extends HiveObject {
     if (um != null) {
       final n = double.tryParse(um.group(1)!) ?? 1.0;
       final u = um.group(2)!.trim().toLowerCase();
-      const _u = <String, double>{
+      const unitMap = <String, double>{
         'bowl': 250, 'plate': 300, 'cup': 240, 'glass': 240,
         'serving': 100, 'portion': 150,
         'tablespoon': 15, 'tbsp': 15, 'teaspoon': 5, 'tsp': 5,
@@ -208,7 +236,7 @@ class FoodItem extends HiveObject {
         'small': 100, 'medium': 150, 'large': 200,
         'scoop': 30, 'handful': 30, 'sachet': 30,
       };
-      for (final e in _u.entries) {
+      for (final e in unitMap.entries) {
         if (u.startsWith(e.key)) return ((n * e.value).roundToDouble(), 'g');
       }
       // numeric-only fallback: treat the number as grams
@@ -259,6 +287,13 @@ class FoodItem extends HiveObject {
       category: category,
       source: source,
       keywords: keywords,
+      family: family,
+      searchPriority: searchPriority,
+      qualityScore: qualityScore,
+      popularityScore: popularityScore,
+      aliases: aliases,
+      nutritionSource: nutritionSource,
+      nutritionConfidence: nutritionConfidence,
     );
   }
 

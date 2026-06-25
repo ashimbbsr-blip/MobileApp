@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import '../../../models/user_profile.dart';
+import '../../../models/weight_entry.dart';
 import '../../../storage/hive_storage.dart';
 
 class ProfileState {
@@ -104,12 +105,29 @@ class ProfileNotifier extends StateNotifier<ProfileState> {
         clearPregnancyStatus: clearPregnancyStatus,
       );
       await HiveStorage.saveUserProfile(updated);
+      // Capture the weight into the weight/BMI history (one canonical entry per
+      // day — re-saving the same day updates it). Feeds the long-term trend,
+      // weight charts, and the XLSX/CSV weight sheets.
+      await _recordWeight(weightKg, heightCm);
       state = state.copyWith(profile: updated, isSaving: false, isSaved: true);
       return true;
     } catch (e) {
       state = state.copyWith(isSaving: false, error: e.toString());
       return false;
     }
+  }
+
+  Future<void> _recordWeight(double weightKg, double heightCm) async {
+    if (weightKg <= 0) return;
+    final now = DateTime.now();
+    final dateKey =
+        '${now.year}_${now.month.toString().padLeft(2, '0')}_${now.day.toString().padLeft(2, '0')}';
+    await HiveStorage.saveWeightEntry(WeightEntry(
+      id: dateKey,
+      recordedAt: now,
+      weightKg: weightKg,
+      heightCm: heightCm,
+    ));
   }
 
   int _ageFromDob(DateTime dob) {

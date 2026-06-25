@@ -34,6 +34,27 @@ class AppConstants {
   static const String hiveMonthlySummaryBox = 'monthly_summary_box';
   static const String hiveLegalBox = 'legal_box';
 
+  // Backup / Archive boxes (added v1.2 — long-term data lifecycle)
+  static const String hiveWeightHistoryBox = 'weight_history_box';
+  static const String hiveDailySummaryBox = 'daily_summary_box';   // archived daily summaries
+  static const String hiveYearlySummaryBox = 'yearly_summary_box';
+
+  // Backup / Archive constants
+  static const int backupSchemaVersion = 1;
+  static const String backupFileExtension = 'iht';
+  static const String backupMagic = 'IHTBKP'; // header magic for .iht files
+
+  // Data lifecycle thresholds (in days)
+  static const int activeDataDays = 365;          // 0–12 months: full meal detail
+  static const int archiveLevel1Days = 365;       // >12 months: meals → daily summary
+  static const int archiveLevel2Days = 365 * 2;   // >24 months: daily → monthly
+  static const int archiveLevel3Days = 365 * 5;   // >5 years: monthly → yearly
+
+  // Settings keys for archive bookkeeping
+  static const String keyLastBackupAt = 'last_backup_at';
+  static const String keyLastArchiveAt = 'last_archive_at';
+  static const String keyMeasurementUnit = 'measurement_unit'; // 'metric' | 'imperial'
+
   // Hive keys
   static const String keyUserProfile = 'user_profile';
   static const String keyThemeMode = 'theme_mode';

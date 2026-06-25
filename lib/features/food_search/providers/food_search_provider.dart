@@ -71,7 +71,7 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
   void searchLocal(String query) {
     if (_disposed) return;
     final q = query.trim().toLowerCase();
-    final results = LocalFoodRepository.search(q, category: state.localCategory);
+    final results = LocalFoodRepository.search(q, category: state.localCategory, limit: 300);
     if (!_disposed) {
       state = FoodSearchState(
         localQuery: query,
@@ -94,7 +94,7 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
     if (_disposed) return;
     final newCat = category == state.localCategory ? null : category;
     final q = state.localQuery.trim().toLowerCase();
-    final results = LocalFoodRepository.search(q, category: newCat);
+    final results = LocalFoodRepository.search(q, category: newCat, limit: 500);
     if (!_disposed) {
       state = FoodSearchState(
         localQuery: state.localQuery,

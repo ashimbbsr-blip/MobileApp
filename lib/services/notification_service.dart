@@ -44,29 +44,41 @@ class NotificationService {
     return await androidPlugin.requestNotificationsPermission() ?? false;
   }
 
+  Future<bool> requestExactAlarmPermission() async {
+    if (!Platform.isAndroid) return true;
+    final androidPlugin = _plugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>();
+    if (androidPlugin == null) return false;
+    return await androidPlugin.requestExactAlarmsPermission() ?? false;
+  }
+
   // ── Schedule / Cancel ─────────────────────────────────────────────────────
 
-  Future<void> scheduleReminder({
+  Future<bool> scheduleReminder({
     required int hour,
     required int minute,
     required String language,
   }) async {
-    await _plugin.cancel(_kReminderId);
-
-    final scheduled = _nextOccurrence(hour, minute);
-    final details = _buildDetails(language);
-
-    await _plugin.zonedSchedule(
-      _kReminderId,
-      details.$1,
-      details.$2,
-      scheduled,
-      _notificationDetails,
-      androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
-      matchDateTimeComponents: DateTimeComponents.time,
-    );
+    try {
+      await _plugin.cancel(_kReminderId);
+      final scheduled = _nextOccurrence(hour, minute);
+      final details = _buildDetails(language);
+      await _plugin.zonedSchedule(
+        _kReminderId,
+        details.$1,
+        details.$2,
+        scheduled,
+        _notificationDetails,
+        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        uiLocalNotificationDateInterpretation:
+            UILocalNotificationDateInterpretation.absoluteTime,
+        matchDateTimeComponents: DateTimeComponents.time,
+      );
+      return true;
+    } catch (_) {
+      return false;
+    }
   }
 
   Future<void> cancelReminder() async {
@@ -76,28 +88,32 @@ class NotificationService {
   // Reschedule for tomorrow (called when both breakfast + dinner are logged).
   Future<void> rescheduleForTomorrow() async {
     if (!HiveStorage.notificationEnabled) return;
-    await _plugin.cancel(_kReminderId);
+    try {
+      await _plugin.cancel(_kReminderId);
 
-    final hour = HiveStorage.notificationHour;
-    final minute = HiveStorage.notificationMinute;
-    final lang = HiveStorage.language;
+      final hour = HiveStorage.notificationHour;
+      final minute = HiveStorage.notificationMinute;
+      final lang = HiveStorage.language;
 
-    final now = DateTime.now();
-    final tomorrow = DateTime(now.year, now.month, now.day + 1, hour, minute);
-    final scheduled = tz.TZDateTime.from(tomorrow, tz.UTC);
-    final details = _buildDetails(lang);
+      final now = DateTime.now();
+      final tomorrow = DateTime(now.year, now.month, now.day + 1, hour, minute);
+      final scheduled = tz.TZDateTime.from(tomorrow, tz.UTC);
+      final details = _buildDetails(lang);
 
-    await _plugin.zonedSchedule(
-      _kReminderId,
-      details.$1,
-      details.$2,
-      scheduled,
-      _notificationDetails,
-      androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
-      matchDateTimeComponents: DateTimeComponents.time,
-    );
+      await _plugin.zonedSchedule(
+        _kReminderId,
+        details.$1,
+        details.$2,
+        scheduled,
+        _notificationDetails,
+        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        uiLocalNotificationDateInterpretation:
+            UILocalNotificationDateInterpretation.absoluteTime,
+        matchDateTimeComponents: DateTimeComponents.time,
+      );
+    } catch (_) {
+      // Best-effort reschedule — silently swallow
+    }
   }
 
   // ── Smart check ───────────────────────────────────────────────────────────
@@ -124,6 +140,7 @@ class NotificationService {
       minute: HiveStorage.notificationMinute,
       language: HiveStorage.language,
     );
+    // Ignore return value — best-effort on startup
   }
 
   // ── Helpers ───────────────────────────────────────────────────────────────

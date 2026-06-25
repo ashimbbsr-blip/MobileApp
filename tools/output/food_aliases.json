@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "aliases": {
+    "rice": [
+      "bhaat",
+      "bhat",
+      "cooked rice",
+      "boiled rice",
+      "steamed rice"
+    ],
+    "dal": [
+      "daal",
+      "lentil",
+      "lentil soup",
+      "lentil curry"
+    ],
+    "roti": [
+      "chapati",
+      "chapatti",
+      "chappati",
+      "flatbread",
+      "phulka"
+    ],
+    "paratha": [
+      "parantha",
+      "laccha paratha",
+      "aloo paratha"
+    ],
+    "puri": [
+      "poori",
+      "luchi",
+      "bhatura"
+    ],
+    "naan": [
+      "nan",
+      "garlic naan",
+      "butter naan"
+    ],
+    "dosa": [
+      "dosai",
+      "plain dosa",
+      "masala dosa"
+    ],
+    "idli": [
+      "idly",
+      "soft idli",
+      "rice cake"
+    ],
+    "chicken": [
+      "murgi",
+      "murgh",
+      "murghi"
+    ],
+    "mutton": [
+      "lamb",
+      "goat meat",
+      "mangsho",
+      "gosht"
+    ],
+    "hilsa": [
+      "ilish",
+      "ilish mach",
+      "hilsa fish",
+      "ilish maach"
+    ],
+    "rohu": [
+      "rui",
+      "rui mach",
+      "rohu fish"
+    ],
+    "prawn": [
+      "shrimp",
+      "chingri",
+      "jhinga",
+      "chingri mach"
+    ],
+    "egg": [
+      "anda",
+      "deem",
+      "dim"
+    ],
+    "paneer": [
+      "cottage cheese",
+      "chhena",
+      "chena"
+    ],
+    "ghee": [
+      "clarified butter",
+      "desi ghee"
+    ],
+    "yogurt": [
+      "dahi",
+      "curd",
+      "doi"
+    ],
+    "biryani": [
+      "biriyani",
+      "biriani"
+    ],
+    "momo": [
+      "dumpling",
+      "dimsum",
+      "dim sum",
+      "momos"
+    ],
+    "samosa": [
+      "samoosa",
+      "singara",
+      "singada"
+    ],
+    "pakora": [
+      "pakoda",
+      "bhajia",
+      "bajji"
+    ],
+    "khichdi": [
+      "khichuri",
+      "kitchdi",
+      "kichri"
+    ],
+    "kheer": [
+      "payesh",
+      "payasam",
+      "firni",
+      "phirni"
+    ],
+    "halwa": [
+      "halva",
+      "sheera"
+    ],
+    "ladoo": [
+      "laddoo",
+      "laddu",
+      "motichoor"
+    ],
+    "rasgulla": [
+      "roshogolla",
+      "rossogolla"
+    ],
+    "jalebi": [
+      "jilabi",
+      "imarti"
+    ],
+    "barfi": [
+      "burfi",
+      "barfee"
+    ],
+    "chana": [
+      "chickpea",
+      "chole",
+      "kabuli chana"
+    ],
+    "rajma": [
+      "kidney bean",
+      "red kidney bean"
+    ],
+    "moong": [
+      "mung",
+      "mung bean",
+      "green gram"
+    ],
+    "coffee": [
+      "cafe",
+      "kapi"
+    ],
+    "tea": [
+      "chai",
+      "cha"
+    ],
+    "lassi": [
+      "buttermilk",
+      "chaas",
+      "mattha"
+    ],
+    "chaat": [
+      "bhelpuri",
+      "pani puri",
+      "golgappa",
+      "papdi chaat"
+    ],
+    "mango": [
+      "aam",
+      "keri",
+      "kairi"
+    ],
+    "banana": [
+      "kela",
+      "kadali"
+    ],
+    "guava": [
+      "amrood",
+      "peru"
+    ],
+    "peanut": [
+      "groundnut",
+      "moongphali"
+    ],
+    "cashew": [
+      "kaju",
+      "kaaju"
+    ],
+    "almond": [
+      "badam"
+    ],
+    "pizza": [
+      "peetza"
+    ],
+    "noodle": [
+      "chowmein",
+      "hakka noodle",
+      "mein"
+    ],
+    "kathi roll": [
+      "kathi",
+      "kati roll",
+      "frankie"
+    ],
+    "butter": [
+      "makhan"
+    ]
+  }
+}

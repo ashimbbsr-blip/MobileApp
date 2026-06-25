@@ -1,0 +1,74 @@
+{
+  "total_issues": 5,
+  "by_type": {
+    "latin_chars": [
+      {
+        "id": 1079,
+        "en": "Rice, BR-28, parboiled, milled, raw",
+        "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া"
+      },
+      {
+        "id": 1094,
+        "en": "Rice, BR-28, boiled* (without salt)",
+        "bn": "ভাত, BR-28"
+      },
+      {
+        "id": 1181,
+        "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+        "bn": "মিষ্টি আলুর শাক (SP4)"
+      },
+      {
+        "id": 1183,
+        "en": "Sweet potato leaves, SP8, light green, mature, raw",
+        "bn": "মিষ্টি আলুর শাক (SP8)"
+      },
+      {
+        "id": 1194,
+        "en": "Potato, Diamond, raw",
+        "bn": "গোল আলু, Diamond জাত"
+      }
+    ]
+  },
+  "all_issues": [
+    {
+      "id": 1079,
+      "en": "Rice, BR-28, parboiled, milled, raw",
+      "bn": "চাল, BR-28, সিদ্ধ, কুঁড়া ছাড়া",
+      "issues": [
+        "latin_chars"
+      ]
+    },
+    {
+      "id": 1094,
+      "en": "Rice, BR-28, boiled* (without salt)",
+      "bn": "ভাত, BR-28",
+      "issues": [
+        "latin_chars"
+      ]
+    },
+    {
+      "id": 1181,
+      "en": "Sweet potato leaves, SP4, dark green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP4)",
+      "issues": [
+        "latin_chars"
+      ]
+    },
+    {
+      "id": 1183,
+      "en": "Sweet potato leaves, SP8, light green, mature, raw",
+      "bn": "মিষ্টি আলুর শাক (SP8)",
+      "issues": [
+        "latin_chars"
+      ]
+    },
+    {
+      "id": 1194,
+      "en": "Potato, Diamond, raw",
+      "bn": "গোল আলু, Diamond জাত",
+      "issues": [
+        "latin_chars"
+      ]
+    }
+  ]
+}
