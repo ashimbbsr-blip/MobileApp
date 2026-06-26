@@ -1,10 +1,10 @@
 {
-  "total": 2541,
+  "total": 2525,
   "summary": {
     "duplicates": 60,
-    "near_duplicates": 1557,
-    "variants": 5231,
-    "no_src": 140,
+    "near_duplicates": 1535,
+    "variants": 5172,
+    "no_src": 139,
     "low_quality": 55,
     "bn_qa": 5
   },
@@ -2540,14 +2540,6 @@
       "category": "sweet"
     },
     {
-      "id_a": 569,
-      "en_a": "Rasbhari",
-      "id_b": 60022,
-      "en_b": "Rabri",
-      "similarity": 0.769,
-      "category": "sweet"
-    },
-    {
       "id_a": 760,
       "en_a": "Almond biscuit",
       "id_b": 823,
@@ -2868,14 +2860,6 @@
       "category": "sweet"
     },
     {
-      "id_a": 60022,
-      "en_a": "Rabri",
-      "id_b": 96010,
-      "en_b": "Rabdi",
-      "similarity": 0.8,
-      "category": "sweet"
-    },
-    {
       "id_a": 99084,
       "en_a": "McDonalds Sundae Chocolate Regular",
       "id_b": 99085,
@@ -2889,6 +2873,22 @@
       "id_b": 99086,
       "en_b": "McDonalds Sundae Strawberry Regular",
       "similarity": 0.783,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99088,
+      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
+      "similarity": 0.895,
+      "category": "sweet"
+    },
+    {
+      "id_a": 99084,
+      "en_a": "McDonalds Sundae Chocolate Regular",
+      "id_b": 99089,
+      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
+      "similarity": 0.8,
       "category": "sweet"
     }
   ],
@@ -3043,22 +3043,6 @@
       "id_b": 99115,
       "en_b": "McDonalds Chocolate Milkshake",
       "similarity": 0.651,
-      "category": "beverage"
-    },
-    {
-      "id_a": 183,
-      "en_a": "Coconut Water",
-      "id_b": 190,
-      "en_b": "Lemon Water",
-      "similarity": 0.667,
-      "category": "beverage"
-    },
-    {
-      "id_a": 183,
-      "en_a": "Coconut Water",
-      "id_b": 1207,
-      "en_b": "Coconut milk",
-      "similarity": 0.64,
       "category": "beverage"
     },
     {
@@ -4492,6 +4476,22 @@
       "en_b": "Semolina dosa",
       "similarity": 0.643,
       "category": "breakfast"
+    },
+    {
+      "id_a": 36,
+      "en_a": "Moong bean dosa",
+      "id_b": 20005,
+      "en_b": "Onion Dosa",
+      "similarity": 0.64,
+      "category": "breakfast"
+    },
+    {
+      "id_a": 42,
+      "en_a": "Plain dosa",
+      "id_b": 45,
+      "en_b": "Semolina dosa",
+      "similarity": 0.696,
+      "category": "breakfast"
     }
   ],
   "no_src": [
@@ -4978,11 +4978,6 @@
     {
       "id": 60021,
       "en": "Jalebi",
-      "cat": "sweet"
-    },
-    {
-      "id": 60022,
-      "en": "Rabri",
       "cat": "sweet"
     },
     {
