@@ -1,9 +1,9 @@
 {
-  "total": 2534,
+  "total": 2541,
   "summary": {
     "duplicates": 60,
-    "near_duplicates": 1556,
-    "variants": 5222,
+    "near_duplicates": 1557,
+    "variants": 5231,
     "no_src": 140,
     "low_quality": 55,
     "bn_qa": 5
