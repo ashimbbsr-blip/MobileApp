@@ -1,11 +1,11 @@
 {
-  "total": 2284,
+  "total": 2534,
   "summary": {
-    "duplicates": 63,
-    "near_duplicates": 1454,
-    "variants": 5062,
+    "duplicates": 60,
+    "near_duplicates": 1556,
+    "variants": 5222,
     "no_src": 140,
-    "low_quality": 10,
+    "low_quality": 55,
     "bn_qa": 5
   },
   "duplicates": [
@@ -74,14 +74,6 @@
       "category": "legume"
     },
     {
-      "id_a": 518,
-      "en_a": "Mal pua",
-      "id_b": 96022,
-      "en_b": "Malpua",
-      "similarity": 0.923,
-      "category": "sweet"
-    },
-    {
       "id_a": 775,
       "en_a": "Christmas star biscuit",
       "id_b": 776,
@@ -114,14 +106,6 @@
       "category": "fish"
     },
     {
-      "id_a": 232,
-      "en_a": "Shorshe Ilish",
-      "id_b": 4012,
-      "en_b": "Sorshe Ilish",
-      "similarity": 0.96,
-      "category": "fish"
-    },
-    {
       "id_a": 234,
       "en_a": "Tangra Jhol",
       "id_b": 4018,
@@ -135,14 +119,6 @@
       "id_b": 1276,
       "en_b": "Anchovy, Gangetic hairfin, raw",
       "similarity": 0.903,
-      "category": "fish"
-    },
-    {
-      "id_a": 1410,
-      "en_a": "Maachha Jhola",
-      "id_b": 30012,
-      "en_b": "Machha Jhola",
-      "similarity": 0.96,
       "category": "fish"
     },
     {
@@ -162,28 +138,12 @@
       "category": "vegetable"
     },
     {
-      "id_a": 349,
-      "en_a": "Mutton chops",
-      "id_b": 3037,
-      "en_b": "Mutton Chop",
-      "similarity": 0.957,
-      "category": "meat"
-    },
-    {
-      "id_a": 350,
-      "en_a": "Mutton do piaza",
-      "id_b": 3021,
-      "en_b": "Mutton Do Pyaza",
-      "similarity": 0.933,
-      "category": "meat"
-    },
-    {
-      "id_a": 588,
-      "en_a": "Shammi kebab",
-      "id_b": 60017,
-      "en_b": "Shami Kebab",
-      "similarity": 0.957,
-      "category": "meat"
+      "id_a": 30035,
+      "en_a": "Oou Khatta",
+      "id_b": 18106,
+      "en_b": "Ou Khatta",
+      "similarity": 0.947,
+      "category": "vegetable"
     },
     {
       "id_a": 3046,
@@ -512,9 +472,33 @@
       "en_b": "Chicken Tikka Supreme Pan Pizza (Large)",
       "similarity": 0.917,
       "category": "pizza"
+    },
+    {
+      "id_a": 53202,
+      "en_a": "Cadbury Dairy Milk Silk",
+      "id_b": 53207,
+      "en_b": "Cadbury Dairy Milk Silk Oreo",
+      "similarity": 0.902,
+      "category": "chocolate"
+    },
+    {
+      "id_a": 53203,
+      "en_a": "Cadbury Dairy Milk Fruit & Nut",
+      "id_b": 53208,
+      "en_b": "Cadbury Dairy Milk Silk Fruit & Nut",
+      "similarity": 0.923,
+      "category": "chocolate"
     }
   ],
   "near_duplicates": [
+    {
+      "id_a": 10,
+      "en_a": "Kashmiri tea",
+      "id_b": 17015,
+      "en_b": "Kashmiri Kahwa",
+      "similarity": 0.769,
+      "category": "beverage"
+    },
     {
       "id_a": 179,
       "en_a": "Banana Shake",
@@ -561,6 +545,14 @@
       "id_b": 195,
       "en_b": "Sweet Lassi",
       "similarity": 0.762,
+      "category": "beverage"
+    },
+    {
+      "id_a": 194,
+      "en_a": "Salt Lassi",
+      "id_b": 54012,
+      "en_b": "Amul Lassi",
+      "similarity": 0.8,
       "category": "beverage"
     },
     {
@@ -1073,6 +1065,38 @@
       "id_b": 99142,
       "en_b": "McCafe Vanilla Oreo Shake",
       "similarity": 0.889,
+      "category": "beverage"
+    },
+    {
+      "id_a": 54011,
+      "en_a": "Amul Buttermilk",
+      "id_b": 53309,
+      "en_b": "OMFED Buttermilk",
+      "similarity": 0.774,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53006,
+      "en_a": "Sprite Zero Sugar",
+      "id_b": 53104,
+      "en_b": "7UP Zero Sugar",
+      "similarity": 0.774,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53106,
+      "en_a": "Mountain Dew",
+      "id_b": 53107,
+      "en_b": "Mountain Dew Ice",
+      "similarity": 0.857,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53310,
+      "en_a": "OMFED Flavo Elaichi",
+      "id_b": 53311,
+      "en_b": "OMFED Flavo Kesar",
+      "similarity": 0.778,
       "category": "beverage"
     },
     {
@@ -2044,6 +2068,30 @@
       "category": "dairy"
     },
     {
+      "id_a": 54001,
+      "en_a": "Amul Gold Milk",
+      "id_b": 54003,
+      "en_b": "Amul Cow Milk",
+      "similarity": 0.815,
+      "category": "dairy"
+    },
+    {
+      "id_a": 53301,
+      "en_a": "OMFED Premium Cow Milk",
+      "id_b": 53303,
+      "en_b": "OMFED Gold Premium Milk",
+      "similarity": 0.8,
+      "category": "dairy"
+    },
+    {
+      "id_a": 53301,
+      "en_a": "OMFED Premium Cow Milk",
+      "id_b": 53304,
+      "en_b": "OMFED A2 Desi Cow Milk",
+      "similarity": 0.773,
+      "category": "dairy"
+    },
+    {
       "id_a": 151,
       "en_a": "Masala urad dal vada",
       "id_b": 157,
@@ -2842,78 +2890,6 @@
       "en_b": "McDonalds Sundae Strawberry Regular",
       "similarity": 0.783,
       "category": "sweet"
-    },
-    {
-      "id_a": 99084,
-      "en_a": "McDonalds Sundae Chocolate Regular",
-      "id_b": 99088,
-      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
-      "similarity": 0.895,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99084,
-      "en_a": "McDonalds Sundae Chocolate Regular",
-      "id_b": 99089,
-      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
-      "similarity": 0.8,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99085,
-      "en_a": "McDonalds Sundae Chocolate Medium",
-      "id_b": 99087,
-      "en_b": "McDonalds Sundae Strawberry Medium",
-      "similarity": 0.776,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99085,
-      "en_a": "McDonalds Sundae Chocolate Medium",
-      "id_b": 99088,
-      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
-      "similarity": 0.773,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99085,
-      "en_a": "McDonalds Sundae Chocolate Medium",
-      "id_b": 99089,
-      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
-      "similarity": 0.892,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99086,
-      "en_a": "McDonalds Sundae Strawberry Regular",
-      "id_b": 99087,
-      "en_b": "McDonalds Sundae Strawberry Medium",
-      "similarity": 0.87,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99086,
-      "en_a": "McDonalds Sundae Strawberry Regular",
-      "id_b": 99088,
-      "en_b": "McDonalds Sundae Chocolate Brownie Regular",
-      "similarity": 0.753,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99088,
-      "en_a": "McDonalds Sundae Chocolate Brownie Regular",
-      "id_b": 99089,
-      "en_b": "McDonalds Sundae Chocolate Brownie Medium",
-      "similarity": 0.892,
-      "category": "sweet"
-    },
-    {
-      "id_a": 99090,
-      "en_a": "McFlurry Oreo Small",
-      "id_b": 99091,
-      "en_b": "McFlurry Oreo Regular",
-      "similarity": 0.75,
-      "category": "sweet"
     }
   ],
   "variants": [
@@ -2994,6 +2970,30 @@
       "en_a": "Lassi",
       "id_b": 195,
       "en_b": "Sweet Lassi",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 11,
+      "en_a": "Lassi",
+      "id_b": 19009,
+      "en_b": "Lassi Sweet",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 11,
+      "en_a": "Lassi",
+      "id_b": 54012,
+      "en_b": "Amul Lassi",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 11,
+      "en_a": "Lassi",
+      "id_b": 53308,
+      "en_b": "OMFED Lassi",
       "similarity": 0.625,
       "category": "beverage"
     },
@@ -3102,6 +3102,14 @@
       "category": "beverage"
     },
     {
+      "id_a": 195,
+      "en_a": "Sweet Lassi",
+      "id_b": 53308,
+      "en_b": "OMFED Lassi",
+      "similarity": 0.636,
+      "category": "beverage"
+    },
+    {
       "id_a": 247,
       "en_a": "Banana milkshake",
       "id_b": 284,
@@ -3187,6 +3195,14 @@
       "id_b": 561,
       "en_b": "Plum squash",
       "similarity": 0.696,
+      "category": "beverage"
+    },
+    {
+      "id_a": 532,
+      "en_a": "Mintade",
+      "id_b": 53106,
+      "en_b": "Mountain Dew",
+      "similarity": 0.632,
       "category": "beverage"
     },
     {
@@ -3459,6 +3475,38 @@
       "id_b": 98223,
       "en_b": "Frappe Mocha Pizza Hut",
       "similarity": 0.651,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98210,
+      "en_a": "Pepsi Black Pizza Hut",
+      "id_b": 53102,
+      "en_b": "Pepsi Black",
+      "similarity": 0.688,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98211,
+      "en_a": "7UP Zero Sugar Pizza Hut",
+      "id_b": 53104,
+      "en_b": "7UP Zero Sugar",
+      "similarity": 0.737,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98212,
+      "en_a": "Masala Lemonade 7UP Zero Sugar",
+      "id_b": 53104,
+      "en_b": "7UP Zero Sugar",
+      "similarity": 0.636,
+      "category": "beverage"
+    },
+    {
+      "id_a": 98212,
+      "en_a": "Masala Lemonade 7UP Zero Sugar",
+      "id_b": 53108,
+      "en_b": "Mountain Dew Zero Sugar",
+      "similarity": 0.642,
       "category": "beverage"
     },
     {
@@ -4022,6 +4070,78 @@
       "category": "beverage"
     },
     {
+      "id_a": 54012,
+      "en_a": "Amul Lassi",
+      "id_b": 53308,
+      "en_b": "OMFED Lassi",
+      "similarity": 0.667,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53002,
+      "en_a": "Coca-Cola Zero Sugar",
+      "id_b": 53104,
+      "en_b": "7UP Zero Sugar",
+      "similarity": 0.647,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53006,
+      "en_a": "Sprite Zero Sugar",
+      "id_b": 53108,
+      "en_b": "Mountain Dew Zero Sugar",
+      "similarity": 0.65,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53007,
+      "en_a": "Fanta Orange",
+      "id_b": 53105,
+      "en_b": "Mirinda Orange",
+      "similarity": 0.692,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53101,
+      "en_a": "Pepsi",
+      "id_b": 53102,
+      "en_b": "Pepsi Black",
+      "similarity": 0.625,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53104,
+      "en_a": "7UP Zero Sugar",
+      "id_b": 53108,
+      "en_b": "Mountain Dew Zero Sugar",
+      "similarity": 0.649,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53106,
+      "en_a": "Mountain Dew",
+      "id_b": 53108,
+      "en_b": "Mountain Dew Zero Sugar",
+      "similarity": 0.686,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53107,
+      "en_a": "Mountain Dew Ice",
+      "id_b": 53108,
+      "en_b": "Mountain Dew Zero Sugar",
+      "similarity": 0.718,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53308,
+      "en_a": "OMFED Lassi",
+      "id_b": 53311,
+      "en_b": "OMFED Flavo Kesar",
+      "similarity": 0.643,
+      "category": "beverage"
+    },
+    {
       "id_a": 16,
       "en_a": "Infinity Wellness Bowl",
       "id_b": 236,
@@ -4286,6 +4406,14 @@
       "category": "breakfast"
     },
     {
+      "id_a": 17,
+      "en_a": "Appam",
+      "id_b": 19202,
+      "en_b": "Idiyappam",
+      "similarity": 0.714,
+      "category": "breakfast"
+    },
+    {
       "id_a": 19,
       "en_a": "Bacon and mushroom pancake",
       "id_b": 31,
@@ -4364,158 +4492,6 @@
       "en_b": "Semolina dosa",
       "similarity": 0.643,
       "category": "breakfast"
-    },
-    {
-      "id_a": 36,
-      "en_a": "Moong bean dosa",
-      "id_b": 20005,
-      "en_b": "Onion Dosa",
-      "similarity": 0.64,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 42,
-      "en_a": "Plain dosa",
-      "id_b": 45,
-      "en_b": "Semolina dosa",
-      "similarity": 0.696,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 42,
-      "en_a": "Plain dosa",
-      "id_b": 20004,
-      "en_b": "Rava Dosa",
-      "similarity": 0.632,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 42,
-      "en_a": "Plain dosa",
-      "id_b": 20005,
-      "en_b": "Onion Dosa",
-      "similarity": 0.7,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 45,
-      "en_a": "Semolina dosa",
-      "id_b": 20003,
-      "en_b": "Mysore Masala Dosa",
-      "similarity": 0.645,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 45,
-      "en_a": "Semolina dosa",
-      "id_b": 20005,
-      "en_b": "Onion Dosa",
-      "similarity": 0.696,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 45,
-      "en_a": "Semolina dosa",
-      "id_b": 20006,
-      "en_b": "Set Dosa",
-      "similarity": 0.667,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 46,
-      "en_a": "Semolina idli",
-      "id_b": 47,
-      "en_b": "Semolina upma",
-      "similarity": 0.692,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 47,
-      "en_a": "Semolina upma",
-      "id_b": 373,
-      "en_b": "Vermicelli upma",
-      "similarity": 0.643,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 53,
-      "en_a": "Vegetable upma",
-      "id_b": 373,
-      "en_b": "Vermicelli upma",
-      "similarity": 0.621,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 20004,
-      "en_a": "Rava Dosa",
-      "id_b": 20008,
-      "en_b": "Rava Idli",
-      "similarity": 0.667,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 40002,
-      "en_a": "Indori Poha",
-      "id_b": 50005,
-      "en_b": "Kanda Poha",
-      "similarity": 0.667,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 50001,
-      "en_a": "Misal",
-      "id_b": 50002,
-      "en_b": "Misal Pav",
-      "similarity": 0.714,
-      "category": "breakfast"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 55,
-      "en_b": "Tomato Chutney",
-      "similarity": 0.72,
-      "category": "snack"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 381,
-      "en_b": "Peanut chutney",
-      "similarity": 0.72,
-      "category": "snack"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 384,
-      "en_b": "Walnut chutney",
-      "similarity": 0.72,
-      "category": "snack"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 435,
-      "en_b": "Coriander chutney",
-      "similarity": 0.643,
-      "category": "snack"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 474,
-      "en_b": "Green chutney",
-      "similarity": 0.667,
-      "category": "snack"
-    },
-    {
-      "id_a": 54,
-      "en_a": "Aam Chutney",
-      "id_b": 541,
-      "en_b": "Onion chutney",
-      "similarity": 0.667,
-      "category": "snack"
     }
   ],
   "no_src": [
@@ -5222,23 +5198,158 @@
   ],
   "low_quality": [
     {
-      "id": 30012,
-      "en": "Machha Jhola",
-      "quality_score": 20
-    },
-    {
       "id": 30042,
       "en": "Mandia Pitha",
       "quality_score": 20
     },
     {
-      "id": 60017,
-      "en": "Shami Kebab",
+      "id": 80019,
+      "en": "Veg Chowmein",
       "quality_score": 20
     },
     {
-      "id": 80019,
-      "en": "Veg Chowmein",
+      "id": 54006,
+      "en": "Amul Ghee",
+      "quality_score": 20
+    },
+    {
+      "id": 53001,
+      "en": "Coca-Cola Original Taste",
+      "quality_score": 20
+    },
+    {
+      "id": 53002,
+      "en": "Coca-Cola Zero Sugar",
+      "quality_score": 20
+    },
+    {
+      "id": 53003,
+      "en": "Thums Up",
+      "quality_score": 20
+    },
+    {
+      "id": 53004,
+      "en": "Thums Up XForce",
+      "quality_score": 20
+    },
+    {
+      "id": 53005,
+      "en": "Sprite",
+      "quality_score": 20
+    },
+    {
+      "id": 53006,
+      "en": "Sprite Zero Sugar",
+      "quality_score": 20
+    },
+    {
+      "id": 53007,
+      "en": "Fanta Orange",
+      "quality_score": 20
+    },
+    {
+      "id": 53008,
+      "en": "Limca",
+      "quality_score": 20
+    },
+    {
+      "id": 53009,
+      "en": "Limca GlucoCharge",
+      "quality_score": 20
+    },
+    {
+      "id": 53013,
+      "en": "Schweppes Soda Water",
+      "quality_score": 20
+    },
+    {
+      "id": 53014,
+      "en": "Kinley Soda",
+      "quality_score": 20
+    },
+    {
+      "id": 53015,
+      "en": "Kinley Packaged Drinking Water",
+      "quality_score": 20
+    },
+    {
+      "id": 53101,
+      "en": "Pepsi",
+      "quality_score": 20
+    },
+    {
+      "id": 53102,
+      "en": "Pepsi Black",
+      "quality_score": 20
+    },
+    {
+      "id": 53103,
+      "en": "7UP",
+      "quality_score": 20
+    },
+    {
+      "id": 53104,
+      "en": "7UP Zero Sugar",
+      "quality_score": 20
+    },
+    {
+      "id": 53105,
+      "en": "Mirinda Orange",
+      "quality_score": 20
+    },
+    {
+      "id": 53106,
+      "en": "Mountain Dew",
+      "quality_score": 20
+    },
+    {
+      "id": 53107,
+      "en": "Mountain Dew Ice",
+      "quality_score": 20
+    },
+    {
+      "id": 53108,
+      "en": "Mountain Dew Zero Sugar",
+      "quality_score": 20
+    },
+    {
+      "id": 53115,
+      "en": "Gatorade Lemon",
+      "quality_score": 20
+    },
+    {
+      "id": 53116,
+      "en": "Gatorade Orange",
+      "quality_score": 20
+    },
+    {
+      "id": 53117,
+      "en": "Aquafina Packaged Drinking Water",
+      "quality_score": 20
+    },
+    {
+      "id": 53118,
+      "en": "Aquafina Soda",
+      "quality_score": 20
+    },
+    {
+      "id": 53119,
+      "en": "Sting Energy Drink",
+      "quality_score": 20
+    },
+    {
+      "id": 53120,
+      "en": "Sting Gold Rush",
+      "quality_score": 20
+    },
+    {
+      "id": 53207,
+      "en": "Cadbury Dairy Milk Silk Oreo",
+      "quality_score": 20
+    },
+    {
+      "id": 53208,
+      "en": "Cadbury Dairy Milk Silk Fruit & Nut",
       "quality_score": 20
     },
     {
@@ -5269,6 +5380,96 @@
     {
       "id": 99077,
       "en": "McDonalds Chicken McNuggets 20pc",
+      "quality_score": 25
+    },
+    {
+      "id": 54001,
+      "en": "Amul Gold Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 54002,
+      "en": "Amul Taaza Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 54003,
+      "en": "Amul Cow Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 54004,
+      "en": "Amul Fresh Paneer",
+      "quality_score": 25
+    },
+    {
+      "id": 54005,
+      "en": "Amul Butter",
+      "quality_score": 25
+    },
+    {
+      "id": 54011,
+      "en": "Amul Buttermilk",
+      "quality_score": 25
+    },
+    {
+      "id": 54012,
+      "en": "Amul Lassi",
+      "quality_score": 25
+    },
+    {
+      "id": 54015,
+      "en": "Amul Slim n Trim Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53301,
+      "en": "OMFED Premium Cow Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53302,
+      "en": "OMFED Toned Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53303,
+      "en": "OMFED Gold Premium Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53304,
+      "en": "OMFED A2 Desi Cow Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53305,
+      "en": "OMFED Plus UHT Milk",
+      "quality_score": 25
+    },
+    {
+      "id": 53309,
+      "en": "OMFED Buttermilk",
+      "quality_score": 25
+    },
+    {
+      "id": 53310,
+      "en": "OMFED Flavo Elaichi",
+      "quality_score": 25
+    },
+    {
+      "id": 53311,
+      "en": "OMFED Flavo Kesar",
+      "quality_score": 25
+    },
+    {
+      "id": 53313,
+      "en": "OMFED Table Butter",
+      "quality_score": 25
+    },
+    {
+      "id": 53314,
+      "en": "OMFED Ghee",
       "quality_score": 25
     }
   ]
