@@ -1,9 +1,9 @@
 {
   "total": 2689,
   "summary": {
-    "duplicates": 65,
-    "near_duplicates": 1673,
-    "variants": 5638,
+    "duplicates": 66,
+    "near_duplicates": 1681,
+    "variants": 5704,
     "no_src": 139,
     "low_quality": 81,
     "bn_qa": 5
@@ -106,6 +106,22 @@
       "category": "sweet"
     },
     {
+      "id_a": 53202,
+      "en_a": "Cadbury Dairy Milk Silk",
+      "id_b": 53207,
+      "en_b": "Cadbury Dairy Milk Silk Oreo",
+      "similarity": 0.902,
+      "category": "sweet"
+    },
+    {
+      "id_a": 53203,
+      "en_a": "Cadbury Dairy Milk Fruit & Nut",
+      "id_b": 53208,
+      "en_b": "Cadbury Dairy Milk Silk Fruit & Nut",
+      "similarity": 0.923,
+      "category": "sweet"
+    },
+    {
       "id_a": 228,
       "en_a": "Pabda Jhol",
       "id_b": 1436,
@@ -152,6 +168,14 @@
       "en_b": "Ou Khatta",
       "similarity": 0.947,
       "category": "vegetable"
+    },
+    {
+      "id_a": 572,
+      "en_a": "Roghan josh",
+      "id_b": 17001,
+      "en_b": "Rogan Josh",
+      "similarity": 0.952,
+      "category": "meat"
     },
     {
       "id_a": 3046,
@@ -480,22 +504,6 @@
       "en_b": "Chicken Tikka Supreme Pan Pizza (Large)",
       "similarity": 0.917,
       "category": "pizza"
-    },
-    {
-      "id_a": 53202,
-      "en_a": "Cadbury Dairy Milk Silk",
-      "id_b": 53207,
-      "en_b": "Cadbury Dairy Milk Silk Oreo",
-      "similarity": 0.902,
-      "category": "chocolate"
-    },
-    {
-      "id_a": 53203,
-      "en_a": "Cadbury Dairy Milk Fruit & Nut",
-      "id_b": 53208,
-      "en_b": "Cadbury Dairy Milk Silk Fruit & Nut",
-      "similarity": 0.923,
-      "category": "chocolate"
     },
     {
       "id_a": 59011,
@@ -1121,6 +1129,14 @@
       "id_b": 53104,
       "en_b": "7UP Zero Sugar",
       "similarity": 0.774,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53015,
+      "en_a": "Kinley Packaged Drinking Water",
+      "id_b": 53117,
+      "en_b": "Aquafina Packaged Drinking Water",
+      "similarity": 0.839,
       "category": "beverage"
     },
     {
@@ -2364,11 +2380,35 @@
       "category": "dairy"
     },
     {
+      "id_a": 99119,
+      "en_a": "McDonalds Cheese Slice",
+      "id_b": 54008,
+      "en_b": "Amul Cheese Slice",
+      "similarity": 0.769,
+      "category": "dairy"
+    },
+    {
       "id_a": 54001,
       "en_a": "Amul Gold Milk",
       "id_b": 54003,
       "en_b": "Amul Cow Milk",
       "similarity": 0.815,
+      "category": "dairy"
+    },
+    {
+      "id_a": 54006,
+      "en_a": "Amul Ghee",
+      "id_b": 54007,
+      "en_b": "Amul Cheese",
+      "similarity": 0.8,
+      "category": "dairy"
+    },
+    {
+      "id_a": 54007,
+      "en_a": "Amul Cheese",
+      "id_b": 54008,
+      "en_b": "Amul Cheese Slice",
+      "similarity": 0.786,
       "category": "dairy"
     },
     {
@@ -2521,6 +2561,14 @@
       "id_b": 1107,
       "en_b": "Soybean, dried, raw",
       "similarity": 0.824,
+      "category": "legume"
+    },
+    {
+      "id_a": 60004,
+      "en_a": "Rajma Chawal",
+      "id_b": 19004,
+      "en_b": "Rajma Masala",
+      "similarity": 0.75,
       "category": "legume"
     },
     {
@@ -2889,46 +2937,6 @@
       "id_b": 777,
       "en_b": "Christmas wreath biscuit",
       "similarity": 0.826,
-      "category": "sweet"
-    },
-    {
-      "id_a": 774,
-      "en_a": "Christmas biscuit",
-      "id_b": 775,
-      "en_b": "Christmas star biscuit",
-      "similarity": 0.872,
-      "category": "sweet"
-    },
-    {
-      "id_a": 774,
-      "en_a": "Christmas biscuit",
-      "id_b": 776,
-      "en_b": "Christmas tree biscuit",
-      "similarity": 0.872,
-      "category": "sweet"
-    },
-    {
-      "id_a": 774,
-      "en_a": "Christmas biscuit",
-      "id_b": 777,
-      "en_b": "Christmas wreath biscuit",
-      "similarity": 0.829,
-      "category": "sweet"
-    },
-    {
-      "id_a": 775,
-      "en_a": "Christmas star biscuit",
-      "id_b": 777,
-      "en_b": "Christmas wreath biscuit",
-      "similarity": 0.826,
-      "category": "sweet"
-    },
-    {
-      "id_a": 776,
-      "en_a": "Christmas tree biscuit",
-      "id_b": 777,
-      "en_b": "Christmas wreath biscuit",
-      "similarity": 0.87,
       "category": "sweet"
     }
   ],
@@ -4110,6 +4118,14 @@
       "category": "beverage"
     },
     {
+      "id_a": 53003,
+      "en_a": "Thums Up",
+      "id_b": 53004,
+      "en_b": "Thums Up XForce",
+      "similarity": 0.696,
+      "category": "beverage"
+    },
+    {
       "id_a": 53006,
       "en_a": "Sprite Zero Sugar",
       "id_b": 53108,
@@ -4123,6 +4139,14 @@
       "id_b": 53105,
       "en_b": "Mirinda Orange",
       "similarity": 0.692,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53007,
+      "en_a": "Fanta Orange",
+      "id_b": 53116,
+      "en_b": "Gatorade Orange",
+      "similarity": 0.741,
       "category": "beverage"
     },
     {
@@ -4142,6 +4166,14 @@
       "category": "beverage"
     },
     {
+      "id_a": 53105,
+      "en_a": "Mirinda Orange",
+      "id_b": 53116,
+      "en_b": "Gatorade Orange",
+      "similarity": 0.621,
+      "category": "beverage"
+    },
+    {
       "id_a": 53106,
       "en_a": "Mountain Dew",
       "id_b": 53108,
@@ -4155,6 +4187,14 @@
       "id_b": 53108,
       "en_b": "Mountain Dew Zero Sugar",
       "similarity": 0.718,
+      "category": "beverage"
+    },
+    {
+      "id_a": 53115,
+      "en_a": "Gatorade Lemon",
+      "id_b": 53116,
+      "en_b": "Gatorade Orange",
+      "similarity": 0.69,
       "category": "beverage"
     },
     {
@@ -4499,38 +4539,6 @@
       "id_b": 59079,
       "en_b": "Subway Meatball Pepperoni Salad",
       "similarity": 0.643,
-      "category": "salad"
-    },
-    {
-      "id_a": 59067,
-      "en_a": "Subway Steak Philly Salad",
-      "id_b": 59080,
-      "en_b": "Subway Oven-Roasted Turkey Salad",
-      "similarity": 0.632,
-      "category": "salad"
-    },
-    {
-      "id_a": 59067,
-      "en_a": "Subway Steak Philly Salad",
-      "id_b": 59082,
-      "en_b": "Subway Roast Beef Salad",
-      "similarity": 0.667,
-      "category": "salad"
-    },
-    {
-      "id_a": 59067,
-      "en_a": "Subway Steak Philly Salad",
-      "id_b": 59084,
-      "en_b": "Subway Tuna Salad",
-      "similarity": 0.714,
-      "category": "salad"
-    },
-    {
-      "id_a": 59067,
-      "en_a": "Subway Steak Philly Salad",
-      "id_b": 59087,
-      "en_b": "Subway Club Salad",
-      "similarity": 0.667,
       "category": "salad"
     }
   ],

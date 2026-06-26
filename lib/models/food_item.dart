@@ -180,16 +180,46 @@ class FoodItem extends HiveObject {
   // Normalise legacy/variant dataset category names to UI category names.
   static String? _normalizeCategory(String? cat) {
     switch (cat) {
+      // Legacy aliases
       case 'veg':             return 'vegetable';
       case 'leafy_vegetable': return 'shaak';
       case 'drink':           return 'beverage';
-      case 'fitness':         return 'other';
+      case 'fitness':         return 'snack';
       case 'brand':           return 'snack';
       case 'condiment':       return 'snack';
-      case 'diet':            return 'other';
-      case 'meal':            return 'other';
+      case 'diet':            return 'beverage';
+      case 'meal':            return 'restaurant_food';
       case 'dessert':         return 'sweet';
-      default:          return cat;
+      // Meat sub-types
+      case 'mutton':          return 'meat';
+      case 'chicken':         return 'meat';
+      case 'duck':            return 'meat';
+      case 'beef':            return 'meat';
+      case 'seafood':         return 'fish';
+      // Dairy sub-types
+      case 'paneer':          return 'dairy';
+      case 'curd':            return 'dairy';
+      case 'cheese':          return 'dairy';
+      case 'butter':          return 'dairy';
+      case 'ghee':            return 'dairy';
+      case 'milk_powder':     return 'dairy';
+      // Confectionery
+      case 'chocolate':       return 'sweet';
+      case 'dark_chocolate':  return 'sweet';
+      case 'candy':           return 'sweet';
+      // Baked goods
+      case 'biscuit':         return 'bakery';
+      case 'cookie':          return 'bakery';
+      case 'rusk':            return 'bakery';
+      // Drinks
+      case 'energy_drink':    return 'beverage';
+      case 'sports_drink':    return 'beverage';
+      case 'water':           return 'beverage';
+      // Pulses
+      case 'dal':             return 'legume';
+      // Misc
+      case 'curry':           return 'vegetable';
+      default:                return cat;
     }
   }
 
