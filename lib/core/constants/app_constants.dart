@@ -2,9 +2,8 @@ class AppConstants {
   static const String appName = 'Infinite Nutrition Tracker';
   static const String appTagline = 'Better Health Every Day';
 
-  // USDA Food Data Central API
-  // Injected at build time via: flutter build apk --dart-define=USDA_API_KEY=your_key
-  // Never hard-code a real key here — this file is committed to source control.
+  // USDA Food Data Central API — built-in default key; override at build time via
+  // flutter build apk --dart-define=USDA_API_KEY=your_key
   static const String usdaApiKey = String.fromEnvironment(
     'USDA_API_KEY',
     defaultValue: 'Bgn3gF9OaAKYl2OIGvjqv1WU1bbNekWmBblfH8Ne',

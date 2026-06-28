@@ -779,6 +779,8 @@ class _ApiKeyCardState extends State<_ApiKeyCard> {
     );
   }
 
+  static const String _defaultKeyMasked = 'Bgn3gF9O••••••••••••H8Ne';
+
   @override
   Widget build(BuildContext context) {
     final l10n = widget.l10n;
@@ -799,39 +801,36 @@ class _ApiKeyCardState extends State<_ApiKeyCard> {
             ),
           ),
           ListTile(
-            leading: Icon(
-              hasKey ? Icons.vpn_key : Icons.vpn_key_outlined,
-              color: hasKey ? Colors.green : Colors.amber.shade700,
-            ),
+            leading: const Icon(Icons.vpn_key, color: Colors.green),
             title: Text(
               l10n.apiKeyLabel,
               style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w500),
             ),
             subtitle: Text(
               hasKey
-                  ? (bn ? 'আপনার API কী সক্রিয় ✓' : 'Your API key is active ✓')
+                  ? (bn ? 'আপনার কাস্টম API কী সক্রিয় ✓' : 'Your custom API key is active ✓')
                   : l10n.apiKeyUsingDemo,
               style: theme.textTheme.bodySmall?.copyWith(
-                color: hasKey ? Colors.green : Colors.amber.shade700,
+                color: Colors.green,
                 fontWeight: FontWeight.w500,
               ),
             ),
             trailing: const Icon(Icons.chevron_right, size: 20),
             onTap: _openSheet,
           ),
-          if (!hasKey)
-            Padding(
-              padding: const EdgeInsets.fromLTRB(72, 0, 16, 12),
-              child: Text(
-                l10n.apiKeyDemoNote,
-                style: theme.textTheme.bodySmall?.copyWith(
-                  color: Colors.amber.shade700,
-                  fontSize: 11,
-                ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(72, 0, 16, 12),
+            child: Text(
+              hasKey
+                  ? (bn ? 'ডিফল্ট কী: $_defaultKeyMasked' : 'Default key: $_defaultKeyMasked')
+                  : (bn ? 'কী: $_defaultKeyMasked' : 'Key: $_defaultKeyMasked'),
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
+                fontSize: 11,
+                fontFamily: 'monospace',
               ),
-            )
-          else
-            const SizedBox(height: 8),
+            ),
+          ),
         ],
       ),
     );
@@ -984,8 +983,8 @@ class _ApiKeySheetState extends State<_ApiKeySheet> {
             const SizedBox(height: 4),
             Text(
               bn
-                  ? 'আপনার নিজস্ব বিনামূল্যে USDA API কী যোগ করুন। এটি ডেমো কীর সীমাবদ্ধতা দূর করবে।'
-                  : 'Add your own free USDA API key to remove the demo rate limit.',
+                  ? 'অ্যাপটি বিল্ট-ইন ডিফল্ট কী ব্যবহার করে। চাইলে নিজের বিনামূল্যে USDA API কী যোগ করতে পারেন।'
+                  : 'The app uses a built-in key by default. You can optionally add your own free USDA API key for dedicated access.',
               style: theme.textTheme.bodySmall?.copyWith(
                 color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
               ),

@@ -5,8 +5,7 @@ class ApiKeyService {
   const ApiKeyService._();
   static const ApiKeyService instance = ApiKeyService._();
 
-  /// Returns the user's custom key if set; otherwise falls back to the
-  /// compile-time key (defaults to DEMO_KEY if built without --dart-define).
+  /// Returns the user's custom key if set; otherwise falls back to the built-in default key.
   String get activeKey {
     final stored = HiveStorage.userApiKey;
     if (stored != null && stored.isNotEmpty) return stored;
