@@ -27,6 +27,7 @@ class FoodSearchState {
 
   // ── Shared ────────────────────────────────────────────────────────────────
   final List<FoodItem> recentFoods;
+  final List<FoodItem> savedUsdaFoods;
 
   const FoodSearchState({
     this.localQuery = '',
@@ -40,6 +41,7 @@ class FoodSearchState {
     this.usdaCooldownSeconds,
     this.customFoods = const [],
     this.recentFoods = const [],
+    this.savedUsdaFoods = const [],
   });
 
   bool get localHasResults => localResults.isNotEmpty;
@@ -61,6 +63,26 @@ class FoodSearchNotifier extends StateNotifier<FoodSearchState> {
       state = FoodSearchState(
         recentFoods: HiveStorage.getCachedFoods().take(10).toList(),
         customFoods: HiveStorage.getCustomFoods(),
+        savedUsdaFoods: HiveStorage.getSavedUsdaFoods(),
+      );
+    }
+  }
+
+  void refreshSavedUsdaFoods() {
+    if (!_disposed) {
+      state = FoodSearchState(
+        localQuery: state.localQuery,
+        localCategory: state.localCategory,
+        localResults: state.localResults,
+        localHasSearched: state.localHasSearched,
+        usdaQuery: state.usdaQuery,
+        usdaResults: state.usdaResults,
+        usdaStatus: state.usdaStatus,
+        usdaError: state.usdaError,
+        usdaCooldownSeconds: state.usdaCooldownSeconds,
+        customFoods: state.customFoods,
+        recentFoods: state.recentFoods,
+        savedUsdaFoods: HiveStorage.getSavedUsdaFoods(),
       );
     }
   }

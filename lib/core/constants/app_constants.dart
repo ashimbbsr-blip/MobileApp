@@ -7,7 +7,7 @@ class AppConstants {
   // Never hard-code a real key here — this file is committed to source control.
   static const String usdaApiKey = String.fromEnvironment(
     'USDA_API_KEY',
-    defaultValue: 'DEMO_KEY',
+    defaultValue: 'Bgn3gF9OaAKYl2OIGvjqv1WU1bbNekWmBblfH8Ne',
   );
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
 
@@ -63,6 +63,9 @@ class AppConstants {
   static const String keyLegalAcceptance = 'legal_acceptance';
   static const String keyLocalDatasetLoaded = 'local_dataset_loaded';
 
+  // USDA user-supplied API key (stored in settingsBox)
+  static const String keyUserApiKey = 'user_usda_api_key';
+
   // Notification settings keys
   static const String keyNotifEnabled = 'notif_enabled';
   static const String keyNotifHour = 'notif_hour';
@@ -70,5 +73,5 @@ class AppConstants {
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.1.2';
+  static const String currentAppVersion = '1.2.0';
 }

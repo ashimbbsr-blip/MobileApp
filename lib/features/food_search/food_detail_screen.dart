@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
+import '../../storage/hive_storage.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../../core/utils/meal_time_utils.dart';
@@ -41,6 +42,12 @@ class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
   Future<void> _addToMeal() async {
     if (_quantity <= 0) return;
     await ref.read(mealProvider.notifier).addFood(widget.foodItem, _selectedMeal, _quantity);
+    // Persist USDA foods to the local saved-foods store so they are
+    // searchable later without internet access.
+    if (widget.foodItem.source == 'usda' || widget.foodItem.usdaFdcId != null) {
+      await HiveStorage.saveUsdaFood(widget.foodItem);
+      await HiveStorage.cacheFoodItem(widget.foodItem);
+    }
     ref.read(dashboardProvider.notifier).refresh();
     if (mounted) {
       final l10n = ref.read(appStringsProvider);
@@ -144,20 +151,57 @@ class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
                   children: [
                     Text(l10n.nutritionFacts, style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600)),
                     const SizedBox(height: 16),
-                    _NutrientRow(label: l10n.protein, value: '${food.proteinG.toStringAsFixed(1)}g', color: AppColors.protein),
-                    _NutrientRow(label: l10n.carbs, value: '${food.carbsG.toStringAsFixed(1)}g', color: AppColors.carbs),
-                    _NutrientRow(label: l10n.fat, value: '${food.fatG.toStringAsFixed(1)}g', color: AppColors.fat),
-                    _NutrientRow(label: l10n.fiber, value: '${food.fiberG.toStringAsFixed(1)}g', color: AppColors.fiber),
-                    if (food.vitaminCMg != null)
-                      _NutrientRow(label: l10n.vitaminC, value: '${food.vitaminCMg!.toStringAsFixed(1)}mg', color: AppColors.vitaminC),
-                    if (food.calciumMg != null)
+                    _NutrientRow(label: l10n.protein,  value: '${food.proteinG.toStringAsFixed(1)}g',  color: AppColors.protein),
+                    _NutrientRow(label: l10n.carbs,    value: '${food.carbsG.toStringAsFixed(1)}g',    color: AppColors.carbs),
+                    _NutrientRow(label: l10n.fat,      value: '${food.fatG.toStringAsFixed(1)}g',      color: AppColors.fat),
+                    _NutrientRow(label: l10n.fiber,    value: '${food.fiberG.toStringAsFixed(1)}g',    color: AppColors.fiber),
+                    if (food.sodiumMg != null && food.sodiumMg! > 0)
+                      _NutrientRow(label: l10n.sodiumLabel, value: '${food.sodiumMg!.toStringAsFixed(0)}mg', color: const Color(0xFF7B61FF)),
+                    if (food.potassiumMg != null && food.potassiumMg! > 0)
+                      _NutrientRow(label: l10n.potassium, value: '${food.potassiumMg!.toStringAsFixed(0)}mg', color: const Color(0xFF00BCD4)),
+                    if (food.calciumMg != null && food.calciumMg! > 0)
                       _NutrientRow(label: l10n.calcium, value: '${food.calciumMg!.toStringAsFixed(0)}mg', color: AppColors.calcium),
-                    if (food.ironMg != null)
+                    if (food.ironMg != null && food.ironMg! > 0)
                       _NutrientRow(label: l10n.iron, value: '${food.ironMg!.toStringAsFixed(1)}mg', color: AppColors.iron),
+                    if (food.magnesiumMg != null && food.magnesiumMg! > 0)
+                      _NutrientRow(label: l10n.magnesium, value: '${food.magnesiumMg!.toStringAsFixed(0)}mg', color: const Color(0xFF4CAF50)),
+                    if (food.zincMg != null && food.zincMg! > 0)
+                      _NutrientRow(label: l10n.zinc, value: '${food.zincMg!.toStringAsFixed(1)}mg', color: const Color(0xFF9E9E9E)),
+                    if (food.vitaminAMcg != null && food.vitaminAMcg! > 0)
+                      _NutrientRow(label: l10n.vitaminA, value: '${food.vitaminAMcg!.toStringAsFixed(0)}mcg', color: const Color(0xFFFF9800)),
+                    if (food.vitaminCMg != null && food.vitaminCMg! > 0)
+                      _NutrientRow(label: l10n.vitaminC, value: '${food.vitaminCMg!.toStringAsFixed(1)}mg', color: AppColors.vitaminC),
+                    if (food.vitaminDMcg != null && food.vitaminDMcg! > 0)
+                      _NutrientRow(label: l10n.vitaminD, value: '${food.vitaminDMcg!.toStringAsFixed(1)}mcg', color: const Color(0xFFFFEB3B)),
+                    if (food.vitaminB12Mcg != null && food.vitaminB12Mcg! > 0)
+                      _NutrientRow(label: 'Vitamin B12', value: '${food.vitaminB12Mcg!.toStringAsFixed(2)}mcg', color: const Color(0xFFE91E63)),
                   ],
                 ),
               ),
             ),
+            if (food.source == 'usda' || food.usdaFdcId != null) ...[
+              const SizedBox(height: 8),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF1565C0).withValues(alpha: 0.08),
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: const Color(0xFF1565C0).withValues(alpha: 0.25)),
+                ),
+                child: Row(
+                  children: [
+                    const Icon(Icons.verified_outlined, size: 16, color: Color(0xFF1565C0)),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        'USDA FoodData Central${food.usdaFdcId != null ? " · FDC ID: ${food.usdaFdcId}" : ""}',
+                        style: theme.textTheme.bodySmall?.copyWith(color: const Color(0xFF1565C0), fontSize: 11),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
             const SizedBox(height: 16),
             Card(
               child: Padding(

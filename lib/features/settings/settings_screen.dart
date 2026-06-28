@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -6,6 +7,7 @@ import '../../localization/app_localizations.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../storage/hive_storage.dart';
+import '../../services/api_key_service.dart';
 import '../../services/export_service.dart';
 import '../../services/notification_service.dart';
 import '../../widgets/common/app_logo.dart';
@@ -211,6 +213,11 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
+          // ── Advanced Settings (API Key) ────────────────────────────────────
+          _ApiKeyCard(l10n: l10n, theme: theme),
+
+          const SizedBox(height: 16),
+
           // ── Legal & Privacy ───────────────────────────────────────────────
           Card(
             child: Column(
@@ -332,11 +339,16 @@ class SettingsScreen extends ConsumerWidget {
       builder: (ctx) => AboutDialog(
         applicationName: l10n.appName,
         applicationVersion: AppConstants.currentAppVersion,
-        applicationLegalese: '© 2026 Infinite Nutrition Tracker\n${l10n.tagline}',
+        applicationLegalese: '© 2026 Ashim Kumar Ghosh. All rights reserved.\n${l10n.tagline}',
         children: [
           const SizedBox(height: 16),
           const Text(
-              'A bilingual (English + Bengali) nutrition tracking app.\nFully offline-first. No data leaves your device.'),
+            'A bilingual (English + Bengali) nutrition tracking app.\nFully offline-first. No data leaves your device.',
+          ),
+          const SizedBox(height: 12),
+          const Text('Developer: Ashim Kumar Ghosh', style: TextStyle(fontWeight: FontWeight.w600)),
+          const SizedBox(height: 4),
+          const Text('Feedback & Support:\ntalktoashim27@gmail.com'),
         ],
       ),
     );
@@ -722,6 +734,471 @@ class _LegalAcceptanceInfo extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// ── Advanced Settings — USDA API Key ─────────────────────────────────────────
+
+class _ApiKeyCard extends StatefulWidget {
+  final AppStrings l10n;
+  final ThemeData theme;
+  const _ApiKeyCard({required this.l10n, required this.theme});
+
+  @override
+  State<_ApiKeyCard> createState() => _ApiKeyCardState();
+}
+
+class _ApiKeyCardState extends State<_ApiKeyCard> {
+  bool _hasCustomKey = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _hasCustomKey = ApiKeyService.instance.hasCustomKey;
+  }
+
+  void _refresh() {
+    if (mounted) setState(() => _hasCustomKey = ApiKeyService.instance.hasCustomKey);
+  }
+
+  Future<void> _openSheet() async {
+    await showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (_) => _ApiKeySheet(
+        l10n: widget.l10n,
+        theme: widget.theme,
+        hasCustomKey: _hasCustomKey,
+        onChanged: _refresh,
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = widget.l10n;
+    final theme = widget.theme;
+    final bn = l10n.isBengali;
+    final hasKey = _hasCustomKey;
+
+    return Card(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+            child: Text(
+              bn ? 'উন্নত সেটিংস' : 'Advanced Settings',
+              style: theme.textTheme.bodySmall?.copyWith(
+                  color: AppColors.primary, fontWeight: FontWeight.w700),
+            ),
+          ),
+          ListTile(
+            leading: Icon(
+              hasKey ? Icons.vpn_key : Icons.vpn_key_outlined,
+              color: hasKey ? Colors.green : Colors.amber.shade700,
+            ),
+            title: Text(
+              l10n.apiKeyLabel,
+              style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w500),
+            ),
+            subtitle: Text(
+              hasKey
+                  ? (bn ? 'আপনার API কী সক্রিয় ✓' : 'Your API key is active ✓')
+                  : l10n.apiKeyUsingDemo,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: hasKey ? Colors.green : Colors.amber.shade700,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            trailing: const Icon(Icons.chevron_right, size: 20),
+            onTap: _openSheet,
+          ),
+          if (!hasKey)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(72, 0, 16, 12),
+              child: Text(
+                l10n.apiKeyDemoNote,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: Colors.amber.shade700,
+                  fontSize: 11,
+                ),
+              ),
+            )
+          else
+            const SizedBox(height: 8),
+        ],
+      ),
+    );
+  }
+}
+
+class _ApiKeySheet extends StatefulWidget {
+  final AppStrings l10n;
+  final ThemeData theme;
+  final bool hasCustomKey;
+  final VoidCallback onChanged;
+
+  const _ApiKeySheet({
+    required this.l10n,
+    required this.theme,
+    required this.hasCustomKey,
+    required this.onChanged,
+  });
+
+  @override
+  State<_ApiKeySheet> createState() => _ApiKeySheetState();
+}
+
+class _ApiKeySheetState extends State<_ApiKeySheet> {
+  final _ctrl = TextEditingController();
+  bool _validating = false;
+  String? _error;
+  bool _success = false;
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _validateAndSave() async {
+    final key = _ctrl.text.trim();
+    final l10n = widget.l10n;
+    final bn = l10n.isBengali;
+    if (key.isEmpty) {
+      setState(() => _error = bn ? 'API কী লিখুন' : 'Please enter an API key');
+      return;
+    }
+    setState(() { _validating = true; _error = null; _success = false; });
+    try {
+      final dio = Dio(BaseOptions(
+        baseUrl: AppConstants.usdaBaseUrl,
+        connectTimeout: const Duration(seconds: 10),
+        receiveTimeout: const Duration(seconds: 15),
+      ));
+      final resp = await dio.get('/foods/search',
+          queryParameters: {'query': 'apple', 'pageSize': 1, 'api_key': key});
+      if (resp.statusCode == 200) {
+        await HiveStorage.saveUserApiKey(key);
+        if (!mounted) return;
+        setState(() { _validating = false; _success = true; });
+        widget.onChanged();
+        await Future.delayed(const Duration(milliseconds: 700));
+        if (mounted) Navigator.pop(context);
+      } else {
+        setState(() { _validating = false; _error = l10n.apiKeyInvalid; });
+      }
+    } on DioException catch (e) {
+      final status = e.response?.statusCode;
+      if (status == 403 || status == 401) {
+        setState(() { _validating = false; _error = l10n.apiKeyInvalid; });
+      } else {
+        // Network unreachable — save anyway so user is not blocked
+        await HiveStorage.saveUserApiKey(key);
+        if (!mounted) return;
+        setState(() { _validating = false; _success = true; });
+        widget.onChanged();
+        await Future.delayed(const Duration(milliseconds: 700));
+        if (mounted) Navigator.pop(context);
+      }
+    } catch (_) {
+      if (mounted) setState(() { _validating = false; _error = widget.l10n.apiKeyInvalid; });
+    }
+  }
+
+  Future<void> _removeKey() async {
+    final l10n = widget.l10n;
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l10n.apiKeyRemove),
+        content: Text(l10n.apiKeyRemoveConfirm),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l10n.cancel)),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: TextButton.styleFrom(foregroundColor: Colors.red),
+            child: Text(l10n.apiKeyRemove),
+          ),
+        ],
+      ),
+    );
+    if (confirmed == true) {
+      await HiveStorage.clearUserApiKey();
+      if (mounted) {
+        widget.onChanged();
+        Navigator.pop(context);
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = widget.l10n;
+    final theme = widget.theme;
+    final bn = l10n.isBengali;
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Container(
+      decoration: BoxDecoration(
+        color: theme.scaffoldBackgroundColor,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      padding: EdgeInsets.only(
+        left: 20, right: 20, top: 12,
+        bottom: MediaQuery.of(context).viewInsets.bottom + 24,
+      ),
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Drag handle
+            Center(
+              child: Container(
+                width: 36, height: 4,
+                margin: const EdgeInsets.only(bottom: 16),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.2),
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+
+            // Title
+            Row(
+              children: [
+                const Icon(Icons.vpn_key, color: AppColors.primary, size: 20),
+                const SizedBox(width: 8),
+                Text(l10n.apiKeyLabel,
+                    style: theme.textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w700)),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Text(
+              bn
+                  ? 'আপনার নিজস্ব বিনামূল্যে USDA API কী যোগ করুন। এটি ডেমো কীর সীমাবদ্ধতা দূর করবে।'
+                  : 'Add your own free USDA API key to remove the demo rate limit.',
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Step-by-step instructions
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: isDark
+                    ? Colors.blue.shade900.withValues(alpha: 0.25)
+                    : Colors.blue.shade50,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(
+                    color: isDark
+                        ? Colors.blue.shade700.withValues(alpha: 0.4)
+                        : Colors.blue.shade200),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.info_outline,
+                          size: 14,
+                          color: isDark
+                              ? Colors.blue.shade300
+                              : Colors.blue.shade800),
+                      const SizedBox(width: 6),
+                      Text(
+                        bn ? 'বিনামূল্যে কী কীভাবে পাবেন:' : 'How to get a free API key:',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 12,
+                            color: isDark
+                                ? Colors.blue.shade300
+                                : Colors.blue.shade800),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  _Step(
+                    number: '1',
+                    text: bn
+                        ? 'fdc.nal.usda.gov ওয়েবসাইটে যান'
+                        : 'Go to fdc.nal.usda.gov in your browser',
+                    isDark: isDark,
+                  ),
+                  _Step(
+                    number: '2',
+                    text: bn
+                        ? '"Get API Key" ক্লিক করুন'
+                        : 'Click "Get API Key" at the top right',
+                    isDark: isDark,
+                  ),
+                  _Step(
+                    number: '3',
+                    text: bn
+                        ? 'নাম ও ইমেইল পূরণ করুন — একদম বিনামূল্যে, কোনো কার্ড নেই'
+                        : 'Fill in your name & email — completely free, no card needed',
+                    isDark: isDark,
+                  ),
+                  _Step(
+                    number: '4',
+                    text: bn
+                        ? 'ইমেইল চেক করুন — কয়েক মিনিটে API কী আসবে'
+                        : 'Check your email — your API key arrives within minutes',
+                    isDark: isDark,
+                  ),
+                  _Step(
+                    number: '5',
+                    text: bn
+                        ? 'নিচের ঘরে কী পেস্ট করুন এবং "যাচাই করুন" চাপুন'
+                        : 'Paste the key in the field below and tap Validate & Save',
+                    isDark: isDark,
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Text field
+            TextField(
+              controller: _ctrl,
+              autocorrect: false,
+              enableSuggestions: false,
+              decoration: InputDecoration(
+                labelText: l10n.apiKeyLabel,
+                hintText: l10n.apiKeyPaste,
+                errorText: _error,
+                prefixIcon: const Icon(Icons.vpn_key_outlined, size: 18),
+                suffixIcon: _success
+                    ? const Icon(Icons.check_circle, color: Colors.green)
+                    : null,
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                  borderSide:
+                      const BorderSide(color: AppColors.primary, width: 1.5),
+                ),
+                contentPadding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              l10n.apiKeyDialogHint,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+                fontSize: 11,
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Action buttons
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton(
+                    onPressed:
+                        _validating ? null : () => Navigator.pop(context),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                    ),
+                    child: Text(l10n.cancel),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  flex: 2,
+                  child: ElevatedButton.icon(
+                    onPressed: _validating ? null : _validateAndSave,
+                    icon: _validating
+                        ? const SizedBox(
+                            width: 16,
+                            height: 16,
+                            child: CircularProgressIndicator(
+                                strokeWidth: 2, color: Colors.white))
+                        : const Icon(Icons.check_rounded, size: 16),
+                    label: Text(_validating
+                        ? l10n.apiKeyValidating
+                        : l10n.apiKeyValidate),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.primary,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+
+            if (widget.hasCustomKey) ...[
+              const SizedBox(height: 8),
+              SizedBox(
+                width: double.infinity,
+                child: TextButton.icon(
+                  onPressed: _validating ? null : _removeKey,
+                  icon: const Icon(Icons.delete_outline,
+                      size: 16, color: Colors.red),
+                  label: Text(l10n.apiKeyRemove,
+                      style: const TextStyle(color: Colors.red)),
+                ),
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _Step extends StatelessWidget {
+  final String number;
+  final String text;
+  final bool isDark;
+
+  const _Step(
+      {required this.number, required this.text, required this.isDark});
+
+  @override
+  Widget build(BuildContext context) {
+    final color = isDark ? Colors.blue.shade300 : Colors.blue.shade800;
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 20,
+            height: 20,
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.15),
+              shape: BoxShape.circle,
+            ),
+            child: Center(
+              child: Text(number,
+                  style: TextStyle(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                      color: color)),
+            ),
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(text,
+                style: TextStyle(fontSize: 12, color: color, height: 1.4)),
           ),
         ],
       ),

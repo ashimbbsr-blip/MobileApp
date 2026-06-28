@@ -527,7 +527,7 @@ class AppStrings {
       'apiKeyPaste': 'Paste your API key here',
       'apiKeyGetFree': 'Get a free API key',
       // Local dataset
-      'localDatasetReady': '1,057 foods available offline',
+      'localDatasetReady': '2,907 foods available offline',
       'searchBilingual': 'Search in English or Bengali…',
       'localResults': 'Results from local dataset',
       'searchUsda': 'Search USDA Database',
@@ -812,7 +812,7 @@ class AppStrings {
       'apiKeyPaste': 'এখানে API কী পেস্ট করুন',
       'apiKeyGetFree': 'বিনামূল্যে API কী পান',
       // Local dataset
-      'localDatasetReady': '১,০৫৭টি খাবার অফলাইনে উপলব্ধ',
+      'localDatasetReady': '২,৯০৭টি খাবার অফলাইনে উপলব্ধ',
       'searchBilingual': 'বাংলা বা ইংরেজিতে খুঁজুন…',
       'localResults': 'স্থানীয় ডেটা থেকে ফলাফল',
       'searchUsda': 'আন্তর্জাতিক ডেটাবেজে খুঁজুন',

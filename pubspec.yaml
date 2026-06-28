@@ -1,5 +1,5 @@
 name: infinity_health_tracker
-description: Infinity Health Tracker - Better Health Every Day. A bilingual AI nutrition tracking app.
+description: Infinite Nutrition Tracker - Better Health Every Day. A bilingual nutrition tracking app.
 publish_to: 'none'
 version: 1.2.0+6
 
@@ -67,5 +67,5 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/data/food_master_v8_0.json
+    - assets/data/food_master_v8_2.json
     - assets/data/search_index_v2.json

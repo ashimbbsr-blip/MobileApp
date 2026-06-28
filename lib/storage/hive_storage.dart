@@ -283,6 +283,24 @@ class HiveStorage {
     await localFoodBox.delete(id);
   }
 
+  // ── Saved USDA Foods (user-selected from International search) ────────────
+
+  static Future<void> saveUsdaFood(FoodItem food) async {
+    final key = 'usda_${food.usdaFdcId ?? food.id}';
+    await localFoodBox.put(key, food);
+  }
+
+  static List<FoodItem> getSavedUsdaFoods() {
+    return localFoodBox.values
+        .where((f) => f.source == 'usda' && !f.isCustom)
+        .toList()
+      ..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+  }
+
+  static Future<void> deleteSavedUsdaFood(String fdcId) async {
+    await localFoodBox.delete('usda_$fdcId');
+  }
+
   static Future<void> setLocalDatasetLoaded() async {
     await settingsBox.put(AppConstants.keyLocalDatasetLoaded, true);
   }
@@ -308,6 +326,19 @@ class HiveStorage {
 
   static Future<void> setDeductBurnedCalories(bool v) async =>
       settingsBox.put('deductBurnedCalories', v);
+
+  // ── USDA User API Key ─────────────────────────────────────────────────────
+
+  static String? get userApiKey {
+    final v = settingsBox.get(AppConstants.keyUserApiKey);
+    return v is String && v.isNotEmpty ? v : null;
+  }
+
+  static Future<void> saveUserApiKey(String key) async =>
+      settingsBox.put(AppConstants.keyUserApiKey, key.trim());
+
+  static Future<void> clearUserApiKey() async =>
+      settingsBox.delete(AppConstants.keyUserApiKey);
 
   // ── Custom Nutrition Limits ──────────────────────────────────────────────
 
@@ -479,6 +510,7 @@ class HiveStorage {
     final notifEnabled = settingsBox.get(AppConstants.keyNotifEnabled);
     final notifHour = settingsBox.get(AppConstants.keyNotifHour);
     final notifMinute = settingsBox.get(AppConstants.keyNotifMinute);
+    final apiKey = settingsBox.get(AppConstants.keyUserApiKey);
 
     await userBox.clear();
     await mealsBox.clear();
@@ -498,5 +530,6 @@ class HiveStorage {
     if (notifEnabled != null) await settingsBox.put(AppConstants.keyNotifEnabled, notifEnabled);
     if (notifHour != null) await settingsBox.put(AppConstants.keyNotifHour, notifHour);
     if (notifMinute != null) await settingsBox.put(AppConstants.keyNotifMinute, notifMinute);
+    if (apiKey != null) await settingsBox.put(AppConstants.keyUserApiKey, apiKey);
   }
 }

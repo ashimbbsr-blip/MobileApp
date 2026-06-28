@@ -897,7 +897,7 @@ class _UsdaTabState extends ConsumerState<_UsdaTab>
         ),
 
         // ── Results ───────────────────────────────────────────────────────
-        Expanded(child: _UsdaResults(state: state, lang: lang, onRetry: _doSearch)),
+        Expanded(child: _UsdaResults(state: state, lang: lang, onRetry: _doSearch, isDark: isDark)),
       ],
     );
   }
@@ -906,16 +906,17 @@ class _UsdaTabState extends ConsumerState<_UsdaTab>
 class _UsdaResults extends StatelessWidget {
   final FoodSearchState state;
   final String lang;
+  final bool isDark;
   final VoidCallback onRetry;
 
   const _UsdaResults(
-      {required this.state, required this.lang, required this.onRetry});
+      {required this.state, required this.lang, required this.isDark, required this.onRetry});
 
   @override
   Widget build(BuildContext context) {
     switch (state.usdaStatus) {
       case UsdaSearchStatus.idle:
-        return _UsdaIdle(lang: lang);
+        return _UsdaIdle(lang: lang, isDark: isDark, savedFoods: state.savedUsdaFoods);
 
       case UsdaSearchStatus.loading:
         return Center(
@@ -995,10 +996,13 @@ class _UsdaResults extends StatelessWidget {
 
 class _UsdaIdle extends StatelessWidget {
   final String lang;
-  const _UsdaIdle({required this.lang});
+  final bool isDark;
+  final List<FoodItem> savedFoods;
+  const _UsdaIdle({required this.lang, required this.isDark, required this.savedFoods});
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return ListView(
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 100),
       children: [
@@ -1022,31 +1026,47 @@ class _UsdaIdle extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      lang == 'bn'
-                          ? 'আন্তর্জাতিক ডেটাবেজ'
-                          : 'USDA Database',
-                      style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.w800),
+                      lang == 'bn' ? 'আন্তর্জাতিক ডেটাবেজ' : 'USDA Database',
+                      style: const TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w800),
                     ),
                     const SizedBox(height: 4),
                     Text(
                       lang == 'bn'
                           ? 'USDA থেকে লক্ষাধিক খাবার — ইন্টারনেট প্রয়োজন'
                           : 'Millions of foods from USDA — requires internet',
-                      style: const TextStyle(
-                          color: Colors.white70, fontSize: 12),
+                      style: const TextStyle(color: Colors.white70, fontSize: 12),
                     ),
                   ],
                 ),
               ),
-              const Icon(Icons.public_rounded,
-                  color: Colors.white30, size: 44),
+              const Icon(Icons.public_rounded, color: Colors.white30, size: 44),
             ],
           ),
         ),
         const SizedBox(height: 14),
+        // ── Saved International Foods ─────────────────────────────────────
+        if (savedFoods.isNotEmpty) ...[
+          Row(
+            children: [
+              const Icon(Icons.bookmark_rounded, size: 16, color: AppColors.secondary),
+              const SizedBox(width: 6),
+              Text(
+                lang == 'bn' ? 'সংরক্ষিত আন্তর্জাতিক খাবার' : 'Saved International Foods',
+                style: theme.textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700),
+              ),
+              const Spacer(),
+              Text(
+                '${savedFoods.length} ${lang == 'bn' ? 'টি' : 'items'}',
+                style: theme.textTheme.bodySmall?.copyWith(color: AppColors.secondary),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          ...savedFoods.map((f) => _FoodCard(food: f, lang: lang)),
+          const SizedBox(height: 14),
+          const Divider(),
+          const SizedBox(height: 8),
+        ],
         _InfoCard(
           icon: Icons.info_outline_rounded,
           color: AppColors.secondary,
