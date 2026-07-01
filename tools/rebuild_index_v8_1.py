@@ -2,7 +2,7 @@
 import json, re, collections, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-INPUT = 'assets/data/food_master_v8_1.json'
+INPUT = 'assets/data/food_master_v8_2.json'
 OUTPUT = 'assets/data/search_index_v2.json'
 
 data = json.load(open(INPUT, encoding='utf-8'))
