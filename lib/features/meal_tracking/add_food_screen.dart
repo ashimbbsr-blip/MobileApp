@@ -14,8 +14,8 @@ import '../meal_tracking/providers/meal_provider.dart';
 
 const _localCategories = [
   'rice', 'bread', 'bakery', 'vegetable', 'shaak', 'legume', 'fish', 'meat', 'egg', 'dairy',
-  'fruit', 'snack', 'sweet', 'beverage', 'soup', 'breakfast',
-  'grain', 'salad', 'noodle', 'pizza',
+  'fruit', 'juice', 'snack', 'sweet', 'beverage', 'soup', 'breakfast',
+  'grain', 'salad', 'noodle', 'pizza', 'restaurant_food',
 ];
 
 const _catIcons = <String, IconData>{
@@ -30,6 +30,7 @@ const _catIcons = <String, IconData>{
   'meat':      Icons.lunch_dining_outlined,
   'egg':       Icons.egg_outlined,
   'dairy':     Icons.water_drop_outlined,
+  'juice':     Icons.local_bar_outlined,
   'snack':     Icons.cookie_outlined,
   'sweet':     Icons.cake_outlined,
   'beverage':  Icons.local_drink_outlined,
@@ -37,9 +38,10 @@ const _catIcons = <String, IconData>{
   'breakfast': Icons.free_breakfast_outlined,
   'grain':     Icons.grain_outlined,
   'salad':     Icons.local_florist_outlined,
-  'noodle':    Icons.ramen_dining_outlined,
-  'pizza':     Icons.local_pizza_outlined,
-  'other':     Icons.fastfood_outlined,
+  'noodle':           Icons.ramen_dining_outlined,
+  'pizza':            Icons.local_pizza_outlined,
+  'restaurant_food':  Icons.storefront_outlined,
+  'other':            Icons.fastfood_outlined,
 };
 
 Color _catColor(String? cat) {
@@ -62,9 +64,11 @@ Color _catColor(String? cat) {
     case 'breakfast': return const Color(0xFFF9A825);
     case 'grain':     return const Color(0xFF8D6E63);
     case 'salad':     return const Color(0xFF2E7D32);
-    case 'noodle':    return const Color(0xFFF57F17);
-    case 'pizza':     return const Color(0xFFE53935);
-    default:          return const Color(0xFF546E7A);
+    case 'juice':           return const Color(0xFFE65100);
+    case 'noodle':          return const Color(0xFFF57F17);
+    case 'pizza':           return const Color(0xFFE53935);
+    case 'restaurant_food': return const Color(0xFF7B1FA2);
+    default:                return const Color(0xFF546E7A);
   }
 }
 
@@ -82,6 +86,7 @@ String _catLabel(String cat, String lang) {
       'meat':      'মাংস',
       'egg':       'ডিম',
       'dairy':     'দুগ্ধ',
+      'juice':     'জুস',
       'snack':     'স্ন্যাকস',
       'sweet':     'মিষ্টি/ডেজার্ট',
       'beverage':  'পানীয়',
@@ -89,13 +94,15 @@ String _catLabel(String cat, String lang) {
       'breakfast': 'সকালের খাবার',
       'grain':     'শস্য',
       'salad':     'সালাদ',
-      'noodle':    'নুডুলস',
-      'pizza':     'পিৎজা',
+      'noodle':          'নুডুলস',
+      'pizza':           'পিৎজা',
+      'restaurant_food': 'রেস্তোরাঁ',
     };
     return bn[cat] ?? cat;
   }
   if (cat == 'sweet') return 'Sweet & Dessert';
   if (cat == 'shaak') return 'Leafy Greens';
+  if (cat == 'restaurant_food') return 'Restaurant';
   return cat[0].toUpperCase() + cat.substring(1);
 }
 

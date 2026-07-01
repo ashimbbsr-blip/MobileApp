@@ -93907,7 +93907,7 @@
   {
     "en": "Masoor Dal (Red Lentils, Dry)",
     "bn": "মসুর ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 352,
     "p": 24.6,
     "c": 63.4,
@@ -93933,7 +93933,7 @@
   {
     "en": "Moong Dal (Split Yellow Mung Bean, Dry)",
     "bn": "মুগ ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 347,
     "p": 24.0,
     "c": 62.6,
@@ -93959,7 +93959,7 @@
   {
     "en": "Whole Green Moong (Dry)",
     "bn": "গোটা মুগ (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 347,
     "p": 23.9,
     "c": 62.6,
@@ -93985,7 +93985,7 @@
   {
     "en": "Chana Dal (Split Bengal Gram, Dry)",
     "bn": "ছোলার ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 364,
     "p": 20.8,
     "c": 60.7,
@@ -94011,7 +94011,7 @@
   {
     "en": "Kala Chana (Whole Black Chickpeas, Dry)",
     "bn": "কালা চানা (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 364,
     "p": 19.3,
     "c": 60.6,
@@ -94036,7 +94036,7 @@
   {
     "en": "Kabuli Chana (White Chickpeas, Dry)",
     "bn": "কাবুলি চানা (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 364,
     "p": 19.3,
     "c": 60.7,
@@ -94061,7 +94061,7 @@
   {
     "en": "Toor Dal (Arhar Dal, Split Pigeon Pea, Dry)",
     "bn": "তুর ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 343,
     "p": 22.3,
     "c": 62.8,
@@ -94087,7 +94087,7 @@
   {
     "en": "Urad Dal (Split Black Gram, Dry)",
     "bn": "উরদ ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 341,
     "p": 25.2,
     "c": 58.9,
@@ -94112,7 +94112,7 @@
   {
     "en": "Whole Urad (Black Gram, Dry)",
     "bn": "গোটা উরদ (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 341,
     "p": 25.2,
     "c": 58.9,
@@ -94137,7 +94137,7 @@
   {
     "en": "Matar Dal (Split Yellow Peas, Dry)",
     "bn": "মটর ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 341,
     "p": 24.6,
     "c": 60.0,
@@ -94162,7 +94162,7 @@
   {
     "en": "Rajma (Kidney Beans, Dry)",
     "bn": "রাজমা (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 333,
     "p": 23.6,
     "c": 60.0,
@@ -94186,7 +94186,7 @@
   {
     "en": "Lobia (Black-eyed Peas, Dry)",
     "bn": "লোবিয়া (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 336,
     "p": 23.5,
     "c": 60.0,
@@ -94211,7 +94211,7 @@
   {
     "en": "Horse Gram (Kulthi Dal, Dry)",
     "bn": "কুলথি ডাল (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 321,
     "p": 22.0,
     "c": 57.2,
@@ -94235,7 +94235,7 @@
   {
     "en": "Soybean (Dry)",
     "bn": "সয়াবিন (কাঁচা)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 446,
     "p": 36.5,
     "c": 30.2,
@@ -94260,7 +94260,7 @@
   {
     "en": "Masoor Dal (Cooked)",
     "bn": "মসুর ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 116,
     "p": 9.0,
     "c": 20.1,
@@ -94282,7 +94282,7 @@
   {
     "en": "Moong Dal (Cooked)",
     "bn": "মুগ ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 105,
     "p": 7.0,
     "c": 19.2,
@@ -94304,7 +94304,7 @@
   {
     "en": "Whole Green Moong (Cooked)",
     "bn": "গোটা মুগ (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 105,
     "p": 7.0,
     "c": 19.2,
@@ -94327,7 +94327,7 @@
   {
     "en": "Chana Dal (Cooked)",
     "bn": "ছোলার ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 164,
     "p": 8.9,
     "c": 27.4,
@@ -94349,7 +94349,7 @@
   {
     "en": "Kala Chana (Cooked)",
     "bn": "কালা চানা (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 164,
     "p": 8.9,
     "c": 27.4,
@@ -94371,7 +94371,7 @@
   {
     "en": "Kabuli Chana (Cooked)",
     "bn": "কাবুলি চানা (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 164,
     "p": 8.9,
     "c": 27.4,
@@ -94394,7 +94394,7 @@
   {
     "en": "Toor Dal (Arhar Dal, Cooked)",
     "bn": "তুর ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 112,
     "p": 7.2,
     "c": 19.8,
@@ -94417,7 +94417,7 @@
   {
     "en": "Urad Dal (Cooked)",
     "bn": "উরদ ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 116,
     "p": 8.3,
     "c": 20.5,
@@ -94439,7 +94439,7 @@
   {
     "en": "Whole Urad (Cooked)",
     "bn": "গোটা উরদ (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 116,
     "p": 8.3,
     "c": 20.5,
@@ -94462,7 +94462,7 @@
   {
     "en": "Matar Dal (Cooked)",
     "bn": "মটর ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 118,
     "p": 8.3,
     "c": 21.1,
@@ -94484,7 +94484,7 @@
   {
     "en": "Rajma (Cooked)",
     "bn": "রাজমা (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 127,
     "p": 8.7,
     "c": 22.8,
@@ -94506,7 +94506,7 @@
   {
     "en": "Lobia (Black-eyed Peas, Cooked)",
     "bn": "লোবিয়া (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 116,
     "p": 7.7,
     "c": 20.8,
@@ -94529,7 +94529,7 @@
   {
     "en": "Horse Gram (Kulthi Dal, Cooked)",
     "bn": "কুলথি ডাল (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 119,
     "p": 8.2,
     "c": 21.0,
@@ -94551,7 +94551,7 @@
   {
     "en": "Soybean (Cooked)",
     "bn": "সয়াবিন (রান্না)",
-    "cat": "dal",
+    "cat": "legume",
     "k": 173,
     "p": 18.2,
     "c": 9.9,
@@ -94573,7 +94573,7 @@
   {
     "en": "Plain Masoor Dal",
     "bn": "সাদা মসুর ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 116,
     "p": 9.0,
     "c": 20.1,
@@ -94595,7 +94595,7 @@
   {
     "en": "Plain Moong Dal",
     "bn": "সাদা মুগ ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 105,
     "p": 7.0,
     "c": 19.2,
@@ -94617,7 +94617,7 @@
   {
     "en": "Bhaja Moong Dal",
     "bn": "ভাজা মুগ ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 132,
     "p": 7.2,
     "c": 19.5,
@@ -94639,7 +94639,7 @@
   {
     "en": "Sona Moong Dal",
     "bn": "সোনা মুগ ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 108,
     "p": 7.0,
     "c": 19.5,
@@ -94661,7 +94661,7 @@
   {
     "en": "Masoor Dal Tadka",
     "bn": "মসুর ডাল তড়কা",
-    "cat": "dal",
+    "cat": "legume",
     "k": 145,
     "p": 8.5,
     "c": 19.5,
@@ -94683,7 +94683,7 @@
   {
     "en": "Dal Tadka",
     "bn": "ডাল তড়কা",
-    "cat": "dal",
+    "cat": "legume",
     "k": 138,
     "p": 7.0,
     "c": 19.5,
@@ -94706,7 +94706,7 @@
   {
     "en": "Dhaba Dal Tadka",
     "bn": "ঢাবা ডাল তড়কা",
-    "cat": "dal",
+    "cat": "legume",
     "k": 158,
     "p": 7.5,
     "c": 19.0,
@@ -94729,7 +94729,7 @@
   {
     "en": "Dal Fry",
     "bn": "ডাল ফ্রাই",
-    "cat": "dal",
+    "cat": "legume",
     "k": 152,
     "p": 6.8,
     "c": 18.5,
@@ -94752,7 +94752,7 @@
   {
     "en": "Yellow Dal Fry",
     "bn": "হলুদ ডাল ফ্রাই",
-    "cat": "dal",
+    "cat": "legume",
     "k": 142,
     "p": 6.5,
     "c": 19.0,
@@ -94775,7 +94775,7 @@
   {
     "en": "Gujarati Dal",
     "bn": "গুজরাটি ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 125,
     "p": 6.5,
     "c": 20.5,
@@ -94797,7 +94797,7 @@
   {
     "en": "Sindhi Dal",
     "bn": "সিন্ধি ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 172,
     "p": 9.0,
     "c": 26.0,
@@ -94818,7 +94818,7 @@
   {
     "en": "Amti Dal",
     "bn": "আমটি ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 120,
     "p": 6.8,
     "c": 19.5,
@@ -94840,7 +94840,7 @@
   {
     "en": "Varan",
     "bn": "বরণ",
-    "cat": "dal",
+    "cat": "legume",
     "k": 112,
     "p": 7.2,
     "c": 19.8,
@@ -94862,7 +94862,7 @@
   {
     "en": "Rasam Dal",
     "bn": "রসম ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 45,
     "p": 2.5,
     "c": 7.0,
@@ -94886,7 +94886,7 @@
   {
     "en": "Tomato Dal",
     "bn": "টমেটো ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 115,
     "p": 6.8,
     "c": 19.5,
@@ -94908,7 +94908,7 @@
   {
     "en": "Palak Dal",
     "bn": "পালক ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 110,
     "p": 7.5,
     "c": 16.5,
@@ -94932,7 +94932,7 @@
   {
     "en": "Lauki Chana Dal",
     "bn": "লাউ ছানা ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 138,
     "p": 7.5,
     "c": 22.0,
@@ -94954,7 +94954,7 @@
   {
     "en": "Chana Dal Fry",
     "bn": "ছানা ডাল ফ্রাই",
-    "cat": "dal",
+    "cat": "legume",
     "k": 185,
     "p": 9.0,
     "c": 26.0,
@@ -94976,7 +94976,7 @@
   {
     "en": "Urad Dal Fry",
     "bn": "উরদ ডাল ফ্রাই",
-    "cat": "dal",
+    "cat": "legume",
     "k": 145,
     "p": 8.0,
     "c": 20.0,
@@ -94998,7 +94998,7 @@
   {
     "en": "Whole Urad Dal",
     "bn": "গোটা উরদ ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 130,
     "p": 8.5,
     "c": 20.5,
@@ -95020,7 +95020,7 @@
   {
     "en": "Rajma Curry",
     "bn": "রাজমা কারি",
-    "cat": "dal",
+    "cat": "legume",
     "k": 148,
     "p": 8.5,
     "c": 22.5,
@@ -95043,7 +95043,7 @@
   {
     "en": "Kala Chana Curry",
     "bn": "কালা চানা কারি",
-    "cat": "dal",
+    "cat": "legume",
     "k": 182,
     "p": 9.0,
     "c": 26.0,
@@ -95065,7 +95065,7 @@
   {
     "en": "Kabuli Chana Curry",
     "bn": "কাবুলি চানা কারি",
-    "cat": "dal",
+    "cat": "legume",
     "k": 178,
     "p": 8.5,
     "c": 25.5,
@@ -95088,7 +95088,7 @@
   {
     "en": "Horse Gram Dal",
     "bn": "কুলথি ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 125,
     "p": 8.0,
     "c": 21.0,
@@ -95110,7 +95110,7 @@
   {
     "en": "Navratan Dal",
     "bn": "নবরত্ন ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 132,
     "p": 8.0,
     "c": 20.5,
@@ -95132,7 +95132,7 @@
   {
     "en": "Panchratna Dal",
     "bn": "পঞ্চরত্ন ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 128,
     "p": 8.0,
     "c": 20.0,
@@ -95154,7 +95154,7 @@
   {
     "en": "Dal Palak",
     "bn": "ডাল পালক",
-    "cat": "dal",
+    "cat": "legume",
     "k": 110,
     "p": 7.5,
     "c": 16.5,
@@ -95177,7 +95177,7 @@
   {
     "en": "Dal Spinach Soup",
     "bn": "ডাল পালং স্যুপ",
-    "cat": "dal",
+    "cat": "legume",
     "k": 85,
     "p": 5.5,
     "c": 13.0,
@@ -95200,7 +95200,7 @@
   {
     "en": "Bengali Tok Dal",
     "bn": "বাংলা টক ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 115,
     "p": 8.5,
     "c": 19.5,
@@ -95225,7 +95225,7 @@
   {
     "en": "Aam Dal",
     "bn": "আম ডাল",
-    "cat": "dal",
+    "cat": "legume",
     "k": 115,
     "p": 6.5,
     "c": 21.0,
@@ -95249,7 +95249,7 @@
   {
     "en": "Grilled Chicken Breast",
     "bn": "গ্রিলড চিকেন ব্রেস্ট",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 165,
     "p": 31.0,
     "c": 0.0,
@@ -95272,7 +95272,7 @@
   {
     "en": "Roasted Chicken",
     "bn": "রোস্টেড চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 215,
     "p": 27.0,
     "c": 0.0,
@@ -95293,7 +95293,7 @@
   {
     "en": "Chicken Schnitzel",
     "bn": "চিকেন শ্নিটজেল",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 265,
     "p": 23.0,
     "c": 14.0,
@@ -95315,7 +95315,7 @@
   {
     "en": "Chicken Cordon Bleu",
     "bn": "চিকেন কর্ডন ব্লু",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 295,
     "p": 22.0,
     "c": 12.0,
@@ -95338,7 +95338,7 @@
   {
     "en": "Chicken Nuggets",
     "bn": "চিকেন নাগেটস",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 296,
     "p": 15.0,
     "c": 20.0,
@@ -95361,7 +95361,7 @@
   {
     "en": "Chicken Wings (Roasted)",
     "bn": "চিকেন উইংস",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 266,
     "p": 23.0,
     "c": 0.0,
@@ -95383,7 +95383,7 @@
   {
     "en": "Chicken Drumsticks (Roasted)",
     "bn": "চিকেন ড্রামস্টিক",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 216,
     "p": 27.0,
     "c": 0.0,
@@ -95404,7 +95404,7 @@
   {
     "en": "Chicken Thigh (Skinless, Roasted)",
     "bn": "চিকেন থাই",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 209,
     "p": 26.0,
     "c": 0.0,
@@ -95426,7 +95426,7 @@
   {
     "en": "Chicken Breast in Cream Sauce",
     "bn": "চিকেন ব্রেস্ট ক্রিম সস",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 220,
     "p": 24.0,
     "c": 4.0,
@@ -95448,7 +95448,7 @@
   {
     "en": "Chicken Fricassee",
     "bn": "চিকেন ফ্রিকাসি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 145,
     "p": 13.0,
     "c": 8.0,
@@ -95470,7 +95470,7 @@
   {
     "en": "Chicken Döner (Meat Only)",
     "bn": "চিকেন ডোনার",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 195,
     "p": 22.0,
     "c": 2.0,
@@ -95492,7 +95492,7 @@
   {
     "en": "Chicken Sausage",
     "bn": "চিকেন সসেজ",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 220,
     "p": 18.0,
     "c": 2.0,
@@ -95513,7 +95513,7 @@
   {
     "en": "Chicken Meatballs",
     "bn": "চিকেন মিটবল",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 205,
     "p": 20.0,
     "c": 8.0,
@@ -95535,7 +95535,7 @@
   {
     "en": "Chicken Burger Patty",
     "bn": "চিকেন বার্গার প্যাটি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 230,
     "p": 20.0,
     "c": 8.0,
@@ -95557,7 +95557,7 @@
   {
     "en": "Fried Chicken",
     "bn": "ফ্রাইড চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 285,
     "p": 23.0,
     "c": 10.0,
@@ -95579,7 +95579,7 @@
   {
     "en": "Chicken Cutlet",
     "bn": "চিকেন কাটলেট",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 250,
     "p": 22.0,
     "c": 10.0,
@@ -95602,7 +95602,7 @@
   {
     "en": "Chicken Stir Fry",
     "bn": "চিকেন স্টার ফ্রাই",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 145,
     "p": 19.0,
     "c": 5.0,
@@ -95625,7 +95625,7 @@
   {
     "en": "Smoked Chicken",
     "bn": "স্মোকড চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 180,
     "p": 28.0,
     "c": 0.0,
@@ -95646,7 +95646,7 @@
   {
     "en": "Chicken Liver",
     "bn": "চিকেন লিভার",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 167,
     "p": 24.0,
     "c": 1.0,
@@ -95669,7 +95669,7 @@
   {
     "en": "Dahi Bara Aloo Dum",
     "bn": "দহি বড়া আলু দম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 165,
     "p": 5.6,
     "c": 24.3,
@@ -95693,7 +95693,7 @@
   {
     "en": "Bara",
     "bn": "বড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 215,
     "p": 8.3,
     "c": 25.8,
@@ -95717,7 +95717,7 @@
   {
     "en": "Aloo Dum",
     "bn": "আলু দম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 118,
     "p": 2.3,
     "c": 18.4,
@@ -95741,7 +95741,7 @@
   {
     "en": "Gupchup (Pani Puri)",
     "bn": "গুপচুপ",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 182,
     "p": 4.2,
     "c": 34.5,
@@ -95764,7 +95764,7 @@
   {
     "en": "Mudhi Mixture",
     "bn": "মুড়ি মিক্সচার",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 352,
     "p": 8.5,
     "c": 58.4,
@@ -95787,7 +95787,7 @@
   {
     "en": "Chitou Pitha",
     "bn": "চিতউ পিঠা",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 170,
     "p": 4.8,
     "c": 32.5,
@@ -95811,7 +95811,7 @@
   {
     "en": "Suji Kakara",
     "bn": "সুজি কাকরা",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 295,
     "p": 5.0,
     "c": 48.5,
@@ -95835,7 +95835,7 @@
   {
     "en": "Chhena Tarkari",
     "bn": "ছেনা তরকারি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 185,
     "p": 10.2,
     "c": 8.8,
@@ -95858,7 +95858,7 @@
   {
     "en": "Chaat with Ghuguni",
     "bn": "চাট ঘুঘুনি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 158,
     "p": 6.4,
     "c": 24.2,
@@ -95881,7 +95881,7 @@
   {
     "en": "Egg Chop",
     "bn": "ডিমের চপ",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 248,
     "p": 10.8,
     "c": 20.2,
@@ -95905,7 +95905,7 @@
   {
     "en": "Singada (Samosa)",
     "bn": "সিঙ্গাড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 262,
     "p": 5.3,
     "c": 30.8,
@@ -95929,7 +95929,7 @@
   {
     "en": "Pakoda",
     "bn": "পাকোড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 285,
     "p": 7.1,
     "c": 24.4,
@@ -95952,7 +95952,7 @@
   {
     "en": "Bread Pakoda",
     "bn": "ব্রেড পাকোড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 295,
     "p": 7.8,
     "c": 31.5,
@@ -95975,7 +95975,7 @@
   {
     "en": "Aloo Chop",
     "bn": "আলুর চপ",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 232,
     "p": 4.8,
     "c": 28.4,
@@ -95999,7 +95999,7 @@
   {
     "en": "Chhena Bara",
     "bn": "ছেনা বড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 254,
     "p": 10.5,
     "c": 18.6,
@@ -96023,7 +96023,7 @@
   {
     "en": "Chicken Malai Tikka",
     "bn": "চিকেন মালাই টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 225,
     "p": 24.0,
     "c": 4.0,
@@ -96047,7 +96047,7 @@
   {
     "en": "Chicken Reshmi Kebab",
     "bn": "চিকেন রেশমি কাবাব",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 215,
     "p": 25.0,
     "c": 4.0,
@@ -96070,7 +96070,7 @@
   {
     "en": "Chicken Seekh Kebab",
     "bn": "চিকেন শিক কাবাব",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 205,
     "p": 22.0,
     "c": 4.5,
@@ -96093,7 +96093,7 @@
   {
     "en": "Chicken Kalmi Kebab",
     "bn": "চিকেন কালমি কাবাব",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 230,
     "p": 25.0,
     "c": 2.5,
@@ -96116,7 +96116,7 @@
   {
     "en": "Chicken Tangdi Kebab",
     "bn": "চিকেন তাংড়ি কাবাব",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 215,
     "p": 26.0,
     "c": 2.0,
@@ -96139,7 +96139,7 @@
   {
     "en": "Chicken Lollipop",
     "bn": "চিকেন ললিপপ",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 285,
     "p": 21.0,
     "c": 11.0,
@@ -96162,7 +96162,7 @@
   {
     "en": "Chicken 65",
     "bn": "চিকেন ৬৫",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 265,
     "p": 20.0,
     "c": 10.0,
@@ -96186,7 +96186,7 @@
   {
     "en": "Chicken Pakora",
     "bn": "চিকেন পাকোড়া",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 275,
     "p": 19.0,
     "c": 12.0,
@@ -96209,7 +96209,7 @@
   {
     "en": "Afghani Chicken Tikka",
     "bn": "আফগানি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 235,
     "p": 25.4,
     "c": 3.5,
@@ -96233,7 +96233,7 @@
   {
     "en": "Achari Chicken Tikka",
     "bn": "আচারি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 192,
     "p": 27.6,
     "c": 3.8,
@@ -96257,7 +96257,7 @@
   {
     "en": "Hariyali Chicken Tikka",
     "bn": "হরিয়ালি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 186,
     "p": 28.2,
     "c": 3.2,
@@ -96281,7 +96281,7 @@
   {
     "en": "Pahadi Chicken Tikka",
     "bn": "পাহাড়ি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 182,
     "p": 28.8,
     "c": 2.9,
@@ -96304,7 +96304,7 @@
   {
     "en": "Murgh Malai Tikka",
     "bn": "মুরগ মালাই টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 228,
     "p": 24.5,
     "c": 4.2,
@@ -96328,7 +96328,7 @@
   {
     "en": "Murgh Angara",
     "bn": "মুরগ আঙ্গারা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 205,
     "p": 26.5,
     "c": 4.1,
@@ -96351,7 +96351,7 @@
   {
     "en": "Murgh Lasooni",
     "bn": "মুরগ লাসুনি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 196,
     "p": 27.2,
     "c": 3.8,
@@ -96374,7 +96374,7 @@
   {
     "en": "Murgh Nawabi",
     "bn": "মুরগ নবাবি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 232,
     "p": 24.8,
     "c": 4.5,
@@ -96397,7 +96397,7 @@
   {
     "en": "Murgh Kastoori",
     "bn": "মুরগ কস্তুরি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 208,
     "p": 26.4,
     "c": 3.9,
@@ -96420,7 +96420,7 @@
   {
     "en": "Murgh Gilafi",
     "bn": "মুরগ গিলাফি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 214,
     "p": 24.2,
     "c": 6.2,
@@ -96443,7 +96443,7 @@
   {
     "en": "Chicken Banjara",
     "bn": "চিকেন বাঞ্জারা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 202,
     "p": 26.8,
     "c": 3.8,
@@ -96466,7 +96466,7 @@
   {
     "en": "Chicken Bhuna Kebab",
     "bn": "চিকেন ভুনা কাবাব",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 212,
     "p": 25.6,
     "c": 4.5,
@@ -96489,7 +96489,7 @@
   {
     "en": "Chicken Barra",
     "bn": "চিকেন বাররা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 218,
     "p": 25.1,
     "c": 3.6,
@@ -96512,7 +96512,7 @@
   {
     "en": "Murgh Irani",
     "bn": "মুরগ ইরানি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 224,
     "p": 24.3,
     "c": 4.4,
@@ -96535,7 +96535,7 @@
   {
     "en": "Murgh Zafrani",
     "bn": "মুরগ জাফরানি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 220,
     "p": 24.8,
     "c": 4.1,
@@ -96558,7 +96558,7 @@
   {
     "en": "Murgh Hariyali Seekh",
     "bn": "মুরগ হরিয়ালি শিক",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 198,
     "p": 22.6,
     "c": 5.3,
@@ -96582,7 +96582,7 @@
   {
     "en": "Chicken Cafreal",
     "bn": "চিকেন ক্যাফ্রিয়াল",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 188,
     "p": 27.4,
     "c": 2.8,
@@ -96606,7 +96606,7 @@
   {
     "en": "Chicken Ghee Roast",
     "bn": "চিকেন ঘি রোস্ট",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 286,
     "p": 23.5,
     "c": 4.6,
@@ -96629,7 +96629,7 @@
   {
     "en": "Chilli Chicken Dry",
     "bn": "চিলি চিকেন ড্রাই",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 245,
     "p": 21.0,
     "c": 10.0,
@@ -96653,7 +96653,7 @@
   {
     "en": "Dragon Chicken",
     "bn": "ড্রাগন চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 270,
     "p": 20.0,
     "c": 13.0,
@@ -96676,7 +96676,7 @@
   {
     "en": "Pepper Chicken",
     "bn": "পেপার চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 210,
     "p": 24.0,
     "c": 4.0,
@@ -96699,7 +96699,7 @@
   {
     "en": "Gola Kebab",
     "bn": "গোলা কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 305,
     "p": 18.0,
     "c": 5.0,
@@ -96721,7 +96721,7 @@
   {
     "en": "Shikampuri Kebab",
     "bn": "শিকামপুরি কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 295,
     "p": 18.0,
     "c": 6.0,
@@ -96744,7 +96744,7 @@
   {
     "en": "Burrah Kebab",
     "bn": "বুররা কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 298,
     "p": 24.5,
     "c": 2.4,
@@ -96767,7 +96767,7 @@
   {
     "en": "Chapli Kebab",
     "bn": "চাপলি কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 285,
     "p": 19.8,
     "c": 8.2,
@@ -96791,7 +96791,7 @@
   {
     "en": "Pasanda Kebab",
     "bn": "পাসান্দা কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 272,
     "p": 22.4,
     "c": 4.6,
@@ -96814,7 +96814,7 @@
   {
     "en": "Pathar Ka Gosht",
     "bn": "পাথর কা গোশত",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 301,
     "p": 24.8,
     "c": 2.3,
@@ -96838,7 +96838,7 @@
   {
     "en": "Raan Roast",
     "bn": "রান রোস্ট",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 282,
     "p": 25.5,
     "c": 2.2,
@@ -96863,7 +96863,7 @@
   {
     "en": "Dum Kebab",
     "bn": "দম কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 276,
     "p": 21.8,
     "c": 5.4,
@@ -96885,7 +96885,7 @@
   {
     "en": "Tunday Kebab",
     "bn": "টুন্ডে কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 318,
     "p": 18.6,
     "c": 4.8,
@@ -96909,7 +96909,7 @@
   {
     "en": "Lucknowi Seekh Kebab",
     "bn": "লখনৌ শিক কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 289,
     "p": 20.5,
     "c": 5.6,
@@ -96933,7 +96933,7 @@
   {
     "en": "Hyderabadi Seekh Kebab",
     "bn": "হায়দরাবাদি শিক কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 295,
     "p": 20.2,
     "c": 5.8,
@@ -96956,7 +96956,7 @@
   {
     "en": "Bhuna Gosht Starter",
     "bn": "ভুনা গোশত",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 268,
     "p": 22.8,
     "c": 4.2,
@@ -96979,7 +96979,7 @@
   {
     "en": "Afghani Mutton Kebab",
     "bn": "আফগানি মাটন কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 296,
     "p": 22.2,
     "c": 3.8,
@@ -97002,7 +97002,7 @@
   {
     "en": "Achari Mutton Kebab",
     "bn": "আচারি মাটন কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 281,
     "p": 22.5,
     "c": 3.9,
@@ -97025,7 +97025,7 @@
   {
     "en": "Hariyali Mutton Kebab",
     "bn": "হরিয়ালি মাটন কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 274,
     "p": 23.2,
     "c": 3.5,
@@ -97048,7 +97048,7 @@
   {
     "en": "Lasooni Mutton Kebab",
     "bn": "লাসুনি মাটন কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 279,
     "p": 22.8,
     "c": 3.8,
@@ -97070,7 +97070,7 @@
   {
     "en": "Mutton Barra Kebab",
     "bn": "মাটন বাররা কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 308,
     "p": 24.0,
     "c": 2.6,
@@ -97093,7 +97093,7 @@
   {
     "en": "Mutton Chaap Roast",
     "bn": "মাটন চাঁপ রোস্ট",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 315,
     "p": 23.6,
     "c": 2.5,
@@ -97115,7 +97115,7 @@
   {
     "en": "Mutton Pepper Fry",
     "bn": "মাটন পেপার ফ্রাই",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 248,
     "p": 22.6,
     "c": 3.6,
@@ -97139,7 +97139,7 @@
   {
     "en": "Mutton Sukka",
     "bn": "মাটন সুক্কা",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 258,
     "p": 21.8,
     "c": 4.5,
@@ -97162,7 +97162,7 @@
   {
     "en": "Mutton Roast",
     "bn": "মাটন রোস্ট",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 270,
     "p": 24.6,
     "c": 2.8,
@@ -97185,7 +97185,7 @@
   {
     "en": "Mutton Fry",
     "bn": "মাটন ফ্রাই",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 262,
     "p": 22.5,
     "c": 4.2,
@@ -97207,7 +97207,7 @@
   {
     "en": "Mutton Chops",
     "bn": "মাটন চপস",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 312,
     "p": 23.8,
     "c": 2.1,
@@ -97229,7 +97229,7 @@
   {
     "en": "Bhuna Mutton Chops",
     "bn": "ভুনা মাটন চপস",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 296,
     "p": 23.4,
     "c": 3.0,
@@ -97252,7 +97252,7 @@
   {
     "en": "Fish Amritsari",
     "bn": "ফিশ অমৃতসরি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 235,
     "p": 18.0,
     "c": 13.0,
@@ -97275,7 +97275,7 @@
   {
     "en": "Prawn Tikka",
     "bn": "চিংড়ি টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 170,
     "p": 25.0,
     "c": 3.0,
@@ -97298,7 +97298,7 @@
   {
     "en": "Tandoori Prawns",
     "bn": "তন্দুরি চিংড়ি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 180,
     "p": 26.0,
     "c": 3.0,
@@ -97320,7 +97320,7 @@
   {
     "en": "Pomfret Tikka",
     "bn": "পমফ্রেট টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 172,
     "p": 23.8,
     "c": 3.2,
@@ -97343,7 +97343,7 @@
   {
     "en": "Surmai Tikka",
     "bn": "সুরমাই টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 184,
     "p": 24.5,
     "c": 2.8,
@@ -97365,7 +97365,7 @@
   {
     "en": "Tandoori Pomfret",
     "bn": "তন্দুরি পমফ্রেট",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 178,
     "p": 24.0,
     "c": 2.5,
@@ -97388,7 +97388,7 @@
   {
     "en": "Fish Hariyali",
     "bn": "ফিশ হরিয়ালি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 168,
     "p": 24.2,
     "c": 3.6,
@@ -97411,7 +97411,7 @@
   {
     "en": "Fish Malai Tikka",
     "bn": "ফিশ মালাই টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 212,
     "p": 22.4,
     "c": 4.2,
@@ -97434,7 +97434,7 @@
   {
     "en": "Prawn Koliwada",
     "bn": "চিংড়ি কোলিওয়াড়া",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 242,
     "p": 20.5,
     "c": 12.4,
@@ -97457,7 +97457,7 @@
   {
     "en": "Tandoori Crab",
     "bn": "তন্দুরি কাঁকড়া",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 164,
     "p": 23.8,
     "c": 2.8,
@@ -97479,7 +97479,7 @@
   {
     "en": "Calamari Fry",
     "bn": "ক্যালামারি ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 226,
     "p": 17.8,
     "c": 13.5,
@@ -97501,7 +97501,7 @@
   {
     "en": "Garlic Butter Prawns",
     "bn": "গার্লিক বাটার চিংড়ি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 238,
     "p": 22.6,
     "c": 3.5,
@@ -97524,7 +97524,7 @@
   {
     "en": "Achari Fish Tikka",
     "bn": "আচারি ফিশ টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 176,
     "p": 24.2,
     "c": 3.8,
@@ -97547,7 +97547,7 @@
   {
     "en": "Afghani Fish Tikka",
     "bn": "আফগানি ফিশ টিক্কা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 214,
     "p": 22.8,
     "c": 4.0,
@@ -97570,7 +97570,7 @@
   {
     "en": "Hariyali Prawns",
     "bn": "হরিয়ালি চিংড়ি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 175,
     "p": 24.8,
     "c": 3.0,
@@ -97592,7 +97592,7 @@
   {
     "en": "Malai Prawns",
     "bn": "মালাই চিংড়ি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 226,
     "p": 22.5,
     "c": 4.4,
@@ -97614,7 +97614,7 @@
   {
     "en": "Prawn Pepper Fry",
     "bn": "চিংড়ি পেপার ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 196,
     "p": 23.2,
     "c": 4.5,
@@ -97638,7 +97638,7 @@
   {
     "en": "Prawn Ghee Roast",
     "bn": "চিংড়ি ঘি রোস্ট",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 268,
     "p": 22.4,
     "c": 5.8,
@@ -97661,7 +97661,7 @@
   {
     "en": "Fish Fingers",
     "bn": "ফিশ ফিঙ্গার",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 248,
     "p": 18.5,
     "c": 16.4,
@@ -97685,7 +97685,7 @@
   {
     "en": "Crab Pepper Fry",
     "bn": "কাঁকড়া পেপার ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 182,
     "p": 21.5,
     "c": 4.5,
@@ -97708,7 +97708,7 @@
   {
     "en": "Crab Masala Fry",
     "bn": "কাঁকড়া মসলা ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 194,
     "p": 20.8,
     "c": 5.6,
@@ -97731,7 +97731,7 @@
   {
     "en": "Butter Garlic Crab",
     "bn": "বাটার গার্লিক কাঁকড়া",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 228,
     "p": 21.4,
     "c": 3.8,
@@ -97755,7 +97755,7 @@
   {
     "en": "Squid Pepper Fry",
     "bn": "স্কুইড পেপার ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 192,
     "p": 18.8,
     "c": 5.2,
@@ -97778,7 +97778,7 @@
   {
     "en": "Squid Ghee Roast",
     "bn": "স্কুইড ঘি রোস্ট",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 258,
     "p": 18.5,
     "c": 5.8,
@@ -97801,7 +97801,7 @@
   {
     "en": "Prawn 65",
     "bn": "চিংড়ি ৬৫",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 252,
     "p": 20.8,
     "c": 12.2,
@@ -97824,7 +97824,7 @@
   {
     "en": "Fish 65",
     "bn": "ফিশ ৬৫",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 244,
     "p": 19.6,
     "c": 12.6,
@@ -97847,7 +97847,7 @@
   {
     "en": "Prawn Tempura",
     "bn": "চিংড়ি টেম্পুরা",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 238,
     "p": 18.2,
     "c": 17.5,
@@ -97870,7 +97870,7 @@
   {
     "en": "Crispy Fried Prawns",
     "bn": "ক্রিসপি ফ্রাইড চিংড়ি",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 246,
     "p": 19.4,
     "c": 15.8,
@@ -97893,7 +97893,7 @@
   {
     "en": "Paneer Malai Tikka",
     "bn": "পনির মালাই টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 295,
     "p": 15.0,
     "c": 8.0,
@@ -97917,7 +97917,7 @@
   {
     "en": "Achari Paneer Tikka",
     "bn": "আচারি পনির টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 272,
     "p": 15.8,
     "c": 8.6,
@@ -97941,7 +97941,7 @@
   {
     "en": "Paneer Hariyali",
     "bn": "পনির হরিয়ালি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 258,
     "p": 16.5,
     "c": 7.8,
@@ -97964,7 +97964,7 @@
   {
     "en": "Paneer Lasooni",
     "bn": "পনির লাসুনি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 276,
     "p": 16.2,
     "c": 8.4,
@@ -97986,7 +97986,7 @@
   {
     "en": "Paneer Angara",
     "bn": "পনির আঙ্গারা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 281,
     "p": 16.0,
     "c": 9.2,
@@ -98009,7 +98009,7 @@
   {
     "en": "Paneer Kastoori",
     "bn": "পনির কস্তুরি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 269,
     "p": 16.4,
     "c": 8.0,
@@ -98032,7 +98032,7 @@
   {
     "en": "Paneer Nawabi",
     "bn": "পনির নবাবি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 298,
     "p": 15.2,
     "c": 9.8,
@@ -98055,7 +98055,7 @@
   {
     "en": "Paneer Afghani",
     "bn": "পনির আফগানি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 305,
     "p": 15.0,
     "c": 8.8,
@@ -98078,7 +98078,7 @@
   {
     "en": "Paneer Reshmi Tikka",
     "bn": "পনির রেশমি টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 286,
     "p": 15.8,
     "c": 8.5,
@@ -98101,7 +98101,7 @@
   {
     "en": "Paneer Pahadi Tikka",
     "bn": "পনির পাহাড়ি টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 258,
     "p": 16.3,
     "c": 7.6,
@@ -98125,7 +98125,7 @@
   {
     "en": "Paneer Pudina Tikka",
     "bn": "পনির পুদিনা টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 254,
     "p": 16.2,
     "c": 7.8,
@@ -98148,7 +98148,7 @@
   {
     "en": "Paneer Kali Mirch",
     "bn": "পনির কালো মরিচ",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 270,
     "p": 16.0,
     "c": 8.0,
@@ -98170,7 +98170,7 @@
   {
     "en": "Paneer Chatpata",
     "bn": "পনির চাটপটা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 268,
     "p": 15.8,
     "c": 9.4,
@@ -98192,7 +98192,7 @@
   {
     "en": "Paneer Shashlik",
     "bn": "পনির শাশলিক",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 262,
     "p": 15.9,
     "c": 10.8,
@@ -98215,7 +98215,7 @@
   {
     "en": "Paneer Gilafi",
     "bn": "পনির গিলাফি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 286,
     "p": 15.6,
     "c": 10.6,
@@ -98237,7 +98237,7 @@
   {
     "en": "Paneer Tandoori",
     "bn": "পনির তন্দুরি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 260,
     "p": 16.3,
     "c": 7.8,
@@ -98260,7 +98260,7 @@
   {
     "en": "Paneer Seekh Kebab",
     "bn": "পনির শিক কাবাব",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 248,
     "p": 13.8,
     "c": 13.5,
@@ -98284,7 +98284,7 @@
   {
     "en": "Paneer Haryali Seekh",
     "bn": "পনির হরিয়ালি শিক",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 242,
     "p": 13.5,
     "c": 12.8,
@@ -98308,7 +98308,7 @@
   {
     "en": "Paneer Cheese Tikka",
     "bn": "পনির চিজ টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 322,
     "p": 17.2,
     "c": 8.2,
@@ -98331,7 +98331,7 @@
   {
     "en": "Stuffed Paneer Tikka",
     "bn": "স্টাফড পনির টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 289,
     "p": 16.8,
     "c": 9.8,
@@ -98353,7 +98353,7 @@
   {
     "en": "Paneer 65",
     "bn": "পনির ৬৫",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 298,
     "p": 14.5,
     "c": 15.2,
@@ -98376,7 +98376,7 @@
   {
     "en": "Chilli Paneer Dry",
     "bn": "চিলি পনির ড্রাই",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 276,
     "p": 14.8,
     "c": 14.5,
@@ -98400,7 +98400,7 @@
   {
     "en": "Dragon Paneer",
     "bn": "ড্রাগন পনির",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 292,
     "p": 14.2,
     "c": 16.4,
@@ -98423,7 +98423,7 @@
   {
     "en": "Crispy Paneer",
     "bn": "ক্রিসপি পনির",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 315,
     "p": 13.8,
     "c": 18.2,
@@ -98445,7 +98445,7 @@
   {
     "en": "Paneer Pakoda",
     "bn": "পনির পাকোড়া",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 318,
     "p": 13.5,
     "c": 15.8,
@@ -98468,7 +98468,7 @@
   {
     "en": "Paneer Popcorn",
     "bn": "পনির পপকর্ন",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 326,
     "p": 13.2,
     "c": 18.6,
@@ -98491,7 +98491,7 @@
   {
     "en": "Paneer Fingers",
     "bn": "পনির ফিঙ্গার",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 320,
     "p": 13.8,
     "c": 18.4,
@@ -98513,7 +98513,7 @@
   {
     "en": "Tandoori Soya Chaap",
     "bn": "তন্দুরি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 212,
     "p": 19.2,
     "c": 11.6,
@@ -98536,7 +98536,7 @@
   {
     "en": "Achari Soya Chaap",
     "bn": "আচারি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 218,
     "p": 18.8,
     "c": 12.4,
@@ -98559,7 +98559,7 @@
   {
     "en": "Hariyali Soya Chaap",
     "bn": "হরিয়ালি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 205,
     "p": 19.6,
     "c": 11.2,
@@ -98582,7 +98582,7 @@
   {
     "en": "Masala Soya Chaap",
     "bn": "মসলা সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 228,
     "p": 18.4,
     "c": 13.8,
@@ -98604,7 +98604,7 @@
   {
     "en": "Tawa Soya Chaap",
     "bn": "তাওয়া সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 236,
     "p": 18.2,
     "c": 12.5,
@@ -98626,7 +98626,7 @@
   {
     "en": "Peri Peri Soya Chaap",
     "bn": "পেরি পেরি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 224,
     "p": 18.8,
     "c": 13.6,
@@ -98648,7 +98648,7 @@
   {
     "en": "Schezwan Soya Chaap",
     "bn": "শেজওয়ান সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 232,
     "p": 18.0,
     "c": 15.2,
@@ -98671,7 +98671,7 @@
   {
     "en": "Malai Soya Chaap",
     "bn": "মালাই সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 248,
     "p": 18.2,
     "c": 11.4,
@@ -98694,7 +98694,7 @@
   {
     "en": "Afghani Soya Chaap",
     "bn": "আফগানি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 252,
     "p": 17.8,
     "c": 11.8,
@@ -98718,7 +98718,7 @@
   {
     "en": "Reshmi Soya Chaap",
     "bn": "রেশমি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 242,
     "p": 18.0,
     "c": 11.6,
@@ -98741,7 +98741,7 @@
   {
     "en": "Lasooni Soya Chaap",
     "bn": "লাসুনি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 221,
     "p": 18.9,
     "c": 12.4,
@@ -98763,7 +98763,7 @@
   {
     "en": "Angara Soya Chaap",
     "bn": "আঙ্গারা সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 229,
     "p": 18.4,
     "c": 12.8,
@@ -98786,7 +98786,7 @@
   {
     "en": "Nawabi Soya Chaap",
     "bn": "নবাবি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 246,
     "p": 17.9,
     "c": 12.5,
@@ -98809,7 +98809,7 @@
   {
     "en": "Gilafi Soya Chaap",
     "bn": "গিলাফি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 234,
     "p": 18.2,
     "c": 14.6,
@@ -98832,7 +98832,7 @@
   {
     "en": "Pudina Soya Chaap",
     "bn": "পুদিনা সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 208,
     "p": 19.4,
     "c": 11.5,
@@ -98855,7 +98855,7 @@
   {
     "en": "Lemon Pepper Soya Chaap",
     "bn": "লেমন পেপার সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 214,
     "p": 19.1,
     "c": 11.8,
@@ -98878,7 +98878,7 @@
   {
     "en": "Smoked Soya Chaap",
     "bn": "স্মোকড সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 220,
     "p": 18.8,
     "c": 12.0,
@@ -98900,7 +98900,7 @@
   {
     "en": "Butter Masala Soya Chaap",
     "bn": "বাটার মসলা সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 262,
     "p": 17.4,
     "c": 13.2,
@@ -98923,7 +98923,7 @@
   {
     "en": "Soya Chaap Seekh Kebab",
     "bn": "সয়া চাঁপ শিক কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 205,
     "p": 20.4,
     "c": 12.6,
@@ -98948,7 +98948,7 @@
   {
     "en": "Soya Chaap Tikka",
     "bn": "সয়া চাঁপ টিক্কা",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 210,
     "p": 19.8,
     "c": 11.8,
@@ -98971,7 +98971,7 @@
   {
     "en": "Crispy Soya Chaap",
     "bn": "ক্রিসপি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 276,
     "p": 17.5,
     "c": 18.2,
@@ -98993,7 +98993,7 @@
   {
     "en": "Soya Chaap 65",
     "bn": "সয়া চাঁপ ৬৫",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 268,
     "p": 17.8,
     "c": 17.4,
@@ -99017,7 +99017,7 @@
   {
     "en": "Chilli Soya Chaap",
     "bn": "চিলি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 244,
     "p": 18.0,
     "c": 16.2,
@@ -99040,7 +99040,7 @@
   {
     "en": "Dragon Soya Chaap",
     "bn": "ড্রাগন সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 258,
     "p": 17.5,
     "c": 18.5,
@@ -99063,7 +99063,7 @@
   {
     "en": "Punjabi Soya Chaap",
     "bn": "পাঞ্জাবি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 238,
     "p": 18.1,
     "c": 13.0,
@@ -99086,7 +99086,7 @@
   {
     "en": "Kastoori Soya Chaap",
     "bn": "কস্তুরি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 226,
     "p": 18.5,
     "c": 12.2,
@@ -99109,7 +99109,7 @@
   {
     "en": "Mint Soya Chaap",
     "bn": "মিন্ট সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 206,
     "p": 19.5,
     "c": 11.4,
@@ -99132,7 +99132,7 @@
   {
     "en": "Spicy Tandoori Chaap",
     "bn": "স্পাইসি তন্দুরি চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 216,
     "p": 19.0,
     "c": 12.2,
@@ -99155,7 +99155,7 @@
   {
     "en": "Chatpata Soya Chaap",
     "bn": "চাটপটা সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 223,
     "p": 18.6,
     "c": 13.5,
@@ -99178,7 +99178,7 @@
   {
     "en": "Creamy Soya Chaap",
     "bn": "ক্রিমি সয়া চাঁপ",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 255,
     "p": 17.8,
     "c": 12.4,
@@ -99201,7 +99201,7 @@
   {
     "en": "Hara Bhara Kebab",
     "bn": "হরা ভরা কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 185,
     "p": 5.0,
     "c": 20.0,
@@ -99225,7 +99225,7 @@
   {
     "en": "Veg Seekh Kebab",
     "bn": "ভেজ শিক কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 175,
     "p": 5.5,
     "c": 22.0,
@@ -99249,7 +99249,7 @@
   {
     "en": "Dahi Kebab",
     "bn": "দহি কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 245,
     "p": 10.0,
     "c": 14.0,
@@ -99273,7 +99273,7 @@
   {
     "en": "Rajma Kebab",
     "bn": "রাজমা কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 190,
     "p": 8.0,
     "c": 24.0,
@@ -99296,7 +99296,7 @@
   {
     "en": "Corn Tikki",
     "bn": "কর্ন টিক্কি",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 198,
     "p": 5.8,
     "c": 28.6,
@@ -99319,7 +99319,7 @@
   {
     "en": "Beetroot Kebab",
     "bn": "বিটরুট কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 176,
     "p": 4.6,
     "c": 24.2,
@@ -99343,7 +99343,7 @@
   {
     "en": "Spinach Corn Kebab",
     "bn": "পালং কর্ন কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 185,
     "p": 6.4,
     "c": 23.8,
@@ -99367,7 +99367,7 @@
   {
     "en": "Broccoli Tikka",
     "bn": "ব্রকোলি টিক্কা",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 132,
     "p": 5.6,
     "c": 12.4,
@@ -99391,7 +99391,7 @@
   {
     "en": "Cheese Cigars",
     "bn": "চিজ সিগার",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 328,
     "p": 10.8,
     "c": 22.6,
@@ -99414,7 +99414,7 @@
   {
     "en": "Veg Shami Kebab",
     "bn": "ভেজ শামি কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 188,
     "p": 7.2,
     "c": 22.4,
@@ -99437,7 +99437,7 @@
   {
     "en": "Mushroom Galouti",
     "bn": "মাশরুম গালৌটি",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 172,
     "p": 6.8,
     "c": 16.5,
@@ -99460,7 +99460,7 @@
   {
     "en": "Mushroom Tikka",
     "bn": "মাশরুম টিক্কা",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 142,
     "p": 6.5,
     "c": 10.2,
@@ -99483,7 +99483,7 @@
   {
     "en": "Stuffed Mushroom",
     "bn": "স্টাফড মাশরুম",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 188,
     "p": 8.0,
     "c": 12.5,
@@ -99506,7 +99506,7 @@
   {
     "en": "Mushroom Pepper Fry",
     "bn": "মাশরুম পেপার ফ্রাই",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 146,
     "p": 5.8,
     "c": 9.8,
@@ -99529,7 +99529,7 @@
   {
     "en": "Baby Corn Tikka",
     "bn": "বেবি কর্ন টিক্কা",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 156,
     "p": 5.2,
     "c": 18.4,
@@ -99551,7 +99551,7 @@
   {
     "en": "Baby Corn Pepper Fry",
     "bn": "বেবি কর্ন পেপার ফ্রাই",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 162,
     "p": 4.8,
     "c": 19.5,
@@ -99573,7 +99573,7 @@
   {
     "en": "Veg Galouti Kebab",
     "bn": "ভেজ গালৌটি কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 182,
     "p": 6.6,
     "c": 21.6,
@@ -99596,7 +99596,7 @@
   {
     "en": "Rajma Galouti Kebab",
     "bn": "রাজমা গালৌটি কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 174,
     "p": 8.4,
     "c": 22.8,
@@ -99618,7 +99618,7 @@
   {
     "en": "Lentil Kebab",
     "bn": "ডাল কাবাব",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 180,
     "p": 8.8,
     "c": 24.0,
@@ -99642,7 +99642,7 @@
   {
     "en": "Veg Cutlet",
     "bn": "ভেজ কাটলেট",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 192,
     "p": 4.8,
     "c": 24.8,
@@ -99665,7 +99665,7 @@
   {
     "en": "Vegetable Tikka",
     "bn": "সবজির টিক্কা",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 138,
     "p": 5.4,
     "c": 13.5,
@@ -99689,7 +99689,7 @@
   {
     "en": "Tandoori Broccoli",
     "bn": "তন্দুরি ব্রকোলি",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 128,
     "p": 5.8,
     "c": 11.2,
@@ -99712,7 +99712,7 @@
   {
     "en": "Crispy Corn",
     "bn": "ক্রিসপি কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 248,
     "p": 5.4,
     "c": 34.2,
@@ -99735,7 +99735,7 @@
   {
     "en": "Cheese Stuffed Potato",
     "bn": "চিজ স্টাফড পটেটো",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 254,
     "p": 8.2,
     "c": 24.5,
@@ -99758,7 +99758,7 @@
   {
     "en": "Broccoli Cheese Balls",
     "bn": "ব্রকোলি চিজ বলস",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 236,
     "p": 8.6,
     "c": 18.4,
@@ -99781,7 +99781,7 @@
   {
     "en": "Cheese Corn Balls",
     "bn": "চিজ কর্ন বলস",
-    "cat": "vegetarian",
+    "cat": "vegetable",
     "k": 310,
     "p": 9.0,
     "c": 24.0,
@@ -99805,7 +99805,7 @@
   {
     "en": "Veg Pakora",
     "bn": "ভেজ পাকোড়া",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 265,
     "p": 6.0,
     "c": 22.0,
@@ -99829,7 +99829,7 @@
   {
     "en": "Onion Bhaji",
     "bn": "পেঁয়াজ ভাজি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 250,
     "p": 5.0,
     "c": 24.0,
@@ -99853,7 +99853,7 @@
   {
     "en": "Paneer Pakora",
     "bn": "পনির পাকোড়া",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 315,
     "p": 13.0,
     "c": 15.0,
@@ -99877,7 +99877,7 @@
   {
     "en": "Honey Chilli Potato",
     "bn": "হানি চিলি পটেটো",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 245,
     "p": 3.0,
     "c": 36.0,
@@ -99901,7 +99901,7 @@
   {
     "en": "Gobi Manchurian Dry",
     "bn": "ফুলকপি মাঞ্চুরিয়ান ড্রাই",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 196,
     "p": 4.8,
     "c": 24.6,
@@ -99925,7 +99925,7 @@
   {
     "en": "Gobi Manchurian Gravy",
     "bn": "ফুলকপি মাঞ্চুরিয়ান গ্রেভি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 142,
     "p": 3.8,
     "c": 17.6,
@@ -99948,7 +99948,7 @@
   {
     "en": "Chilli Mushroom",
     "bn": "চিলি মাশরুম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 164,
     "p": 6.4,
     "c": 15.2,
@@ -99971,7 +99971,7 @@
   {
     "en": "Chilli Baby Corn",
     "bn": "চিলি বেবি কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 182,
     "p": 4.8,
     "c": 23.6,
@@ -99994,7 +99994,7 @@
   {
     "en": "Crispy Veg",
     "bn": "ক্রিসপি ভেজ",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 218,
     "p": 5.2,
     "c": 28.8,
@@ -100017,7 +100017,7 @@
   {
     "en": "Crispy Spinach",
     "bn": "ক্রিসপি পালং",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 248,
     "p": 5.0,
     "c": 24.6,
@@ -100040,7 +100040,7 @@
   {
     "en": "Veg 65",
     "bn": "ভেজ ৬৫",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 196,
     "p": 5.6,
     "c": 24.5,
@@ -100064,7 +100064,7 @@
   {
     "en": "Mushroom 65",
     "bn": "মাশরুম ৬৫",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 182,
     "p": 6.5,
     "c": 19.8,
@@ -100087,7 +100087,7 @@
   {
     "en": "Baby Corn 65",
     "bn": "বেবি কর্ন ৬৫",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 205,
     "p": 4.8,
     "c": 26.4,
@@ -100110,7 +100110,7 @@
   {
     "en": "Chilli Paneer Gravy",
     "bn": "চিলি পনির গ্রেভি",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 214,
     "p": 13.8,
     "c": 12.8,
@@ -100133,7 +100133,7 @@
   {
     "en": "Dragon Mushroom",
     "bn": "ড্রাগন মাশরুম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 196,
     "p": 6.2,
     "c": 20.5,
@@ -100155,7 +100155,7 @@
   {
     "en": "Dragon Baby Corn",
     "bn": "ড্রাগন বেবি কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 208,
     "p": 4.6,
     "c": 27.2,
@@ -100177,7 +100177,7 @@
   {
     "en": "Dragon Veg",
     "bn": "ড্রাগন ভেজ",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 214,
     "p": 5.2,
     "c": 27.8,
@@ -100200,7 +100200,7 @@
   {
     "en": "Honey Chilli Baby Corn",
     "bn": "হানি চিলি বেবি কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 214,
     "p": 4.5,
     "c": 31.2,
@@ -100223,7 +100223,7 @@
   {
     "en": "Salt and Pepper Corn",
     "bn": "সল্ট অ্যান্ড পেপার কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 208,
     "p": 5.6,
     "c": 28.4,
@@ -100245,7 +100245,7 @@
   {
     "en": "Salt and Pepper Mushroom",
     "bn": "সল্ট অ্যান্ড পেপার মাশরুম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 176,
     "p": 6.6,
     "c": 16.8,
@@ -100266,7 +100266,7 @@
   {
     "en": "Salt and Pepper Baby Corn",
     "bn": "সল্ট অ্যান্ড পেপার বেবি কর্ন",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 188,
     "p": 5.0,
     "c": 22.6,
@@ -100287,7 +100287,7 @@
   {
     "en": "Veg Manchurian Dry",
     "bn": "ভেজ মাঞ্চুরিয়ান ড্রাই",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 198,
     "p": 5.4,
     "c": 25.8,
@@ -100310,7 +100310,7 @@
   {
     "en": "Veg Manchurian Gravy",
     "bn": "ভেজ মাঞ্চুরিয়ান গ্রেভি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 154,
     "p": 4.8,
     "c": 18.2,
@@ -100332,7 +100332,7 @@
   {
     "en": "Mushroom Manchurian",
     "bn": "মাশরুম মাঞ্চুরিয়ান",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 176,
     "p": 6.5,
     "c": 18.4,
@@ -100353,7 +100353,7 @@
   {
     "en": "Baby Corn Manchurian",
     "bn": "বেবি কর্ন মাঞ্চুরিয়ান",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 186,
     "p": 5.0,
     "c": 22.8,
@@ -100374,7 +100374,7 @@
   {
     "en": "Chilli Garlic Mushroom",
     "bn": "চিলি গার্লিক মাশরুম",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 170,
     "p": 6.8,
     "c": 15.8,
@@ -100397,7 +100397,7 @@
   {
     "en": "Schezwan Vegetables",
     "bn": "শেজওয়ান সবজি",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 142,
     "p": 4.6,
     "c": 15.8,
@@ -100419,7 +100419,7 @@
   {
     "en": "Vegetable Spring Roll",
     "bn": "ভেজিটেবল স্প্রিং রোল",
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "k": 232,
     "p": 5.6,
     "c": 28.8,
@@ -100441,7 +100441,7 @@
   {
     "en": "Hyderabadi Chicken Tikka",
     "bn": "হায়দরাবাদি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 204,
     "p": 26.2,
     "c": 4.2,
@@ -100464,7 +100464,7 @@
   {
     "en": "Awadhi Galouti Kebab",
     "bn": "আওয়াধি গালৌটি কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 314,
     "p": 18.2,
     "c": 4.8,
@@ -100488,7 +100488,7 @@
   {
     "en": "Awadhi Murgh Tikka",
     "bn": "আওয়াধি মুরগ টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 216,
     "p": 25.8,
     "c": 4.1,
@@ -100511,7 +100511,7 @@
   {
     "en": "Murgh Afghani",
     "bn": "মুরগ আফগানি",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 235,
     "p": 25.4,
     "c": 3.5,
@@ -100535,7 +100535,7 @@
   {
     "en": "Mughlai Seekh Kebab",
     "bn": "মুঘলাই শিক কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 286,
     "p": 20.8,
     "c": 5.0,
@@ -100558,7 +100558,7 @@
   {
     "en": "Mughlai Boti Kebab",
     "bn": "মুঘলাই বোটি কাবাব",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 274,
     "p": 24.0,
     "c": 3.2,
@@ -100581,7 +100581,7 @@
   {
     "en": "Kashmiri Mutton Seekh",
     "bn": "কাশ্মীরি মাটন শিক",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 282,
     "p": 21.5,
     "c": 4.8,
@@ -100604,7 +100604,7 @@
   {
     "en": "Kashmiri Chicken Tikka",
     "bn": "কাশ্মীরি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 196,
     "p": 27.4,
     "c": 3.6,
@@ -100627,7 +100627,7 @@
   {
     "en": "Chicken Tikka Punjabi",
     "bn": "পাঞ্জাবি চিকেন টিক্কা",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 192,
     "p": 27.6,
     "c": 3.8,
@@ -100650,7 +100650,7 @@
   {
     "en": "Rajasthani Laal Maas Starter",
     "bn": "রাজস্থানি লাল মাংস স্টার্টার",
-    "cat": "mutton",
+    "cat": "meat",
     "k": 248,
     "p": 22.6,
     "c": 4.5,
@@ -100673,7 +100673,7 @@
   {
     "en": "Bengali Fish Fry",
     "bn": "বাংলা ফিশ ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 248,
     "p": 18.8,
     "c": 16.4,
@@ -100697,7 +100697,7 @@
   {
     "en": "Goan Chicken Cafreal",
     "bn": "গোয়ান চিকেন ক্যাফ্রিয়াল",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 188,
     "p": 27.4,
     "c": 2.8,
@@ -100721,7 +100721,7 @@
   {
     "en": "Goan Prawn Balchao",
     "bn": "গোয়ান চিংড়ি বালচাও",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 184,
     "p": 22.8,
     "c": 5.2,
@@ -100745,7 +100745,7 @@
   {
     "en": "Goan Rava Fried Fish",
     "bn": "গোয়ান রাভা ফ্রাইড ফিশ",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 242,
     "p": 19.8,
     "c": 13.8,
@@ -100769,7 +100769,7 @@
   {
     "en": "Mangalorean Chicken Ghee Roast",
     "bn": "মাঙ্গালোর চিকেন ঘি রোস্ট",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 286,
     "p": 23.5,
     "c": 4.6,
@@ -100792,7 +100792,7 @@
   {
     "en": "Mangalorean Prawn Ghee Roast",
     "bn": "মাঙ্গালোর চিংড়ি ঘি রোস্ট",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 268,
     "p": 22.4,
     "c": 5.8,
@@ -100815,7 +100815,7 @@
   {
     "en": "Mangalorean Fish Fry",
     "bn": "মাঙ্গালোর ফিশ ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 236,
     "p": 20.6,
     "c": 11.5,
@@ -100839,7 +100839,7 @@
   {
     "en": "Malabar Fish Fry",
     "bn": "মালাবার ফিশ ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 234,
     "p": 20.2,
     "c": 10.8,
@@ -100863,7 +100863,7 @@
   {
     "en": "Malabar Prawn Fry",
     "bn": "মালাবার চিংড়ি ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 226,
     "p": 22.5,
     "c": 6.5,
@@ -100886,7 +100886,7 @@
   {
     "en": "Chettinad Chicken Fry",
     "bn": "চেট্টিনাড় চিকেন ফ্রাই",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 214,
     "p": 25.8,
     "c": 4.8,
@@ -100909,7 +100909,7 @@
   {
     "en": "Chettinad Pepper Chicken",
     "bn": "চেট্টিনাড় পেপার চিকেন",
-    "cat": "chicken",
+    "cat": "meat",
     "k": 226,
     "p": 24.6,
     "c": 3.8,
@@ -100933,7 +100933,7 @@
   {
     "en": "Chettinad Prawn Fry",
     "bn": "চেট্টিনাড় চিংড়ি ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 208,
     "p": 23.2,
     "c": 4.8,
@@ -100956,7 +100956,7 @@
   {
     "en": "Chettinad Fish Fry",
     "bn": "চেট্টিনাড় ফিশ ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "k": 228,
     "p": 20.8,
     "c": 10.5,
@@ -100979,7 +100979,7 @@
   {
     "en": "Paneer Tikka Punjabi",
     "bn": "পাঞ্জাবি পনির টিক্কা",
-    "cat": "paneer",
+    "cat": "vegetable",
     "k": 265,
     "p": 16.4,
     "c": 8.1,
@@ -101223,7 +101223,7 @@
   {
     "en": "Pad Thai",
     "bn": "প্যাড থাই",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 182,
     "p": 8.5,
@@ -101249,7 +101249,7 @@
   {
     "en": "Pad See Ew",
     "bn": "প্যাড সি ইউ",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 194,
     "p": 9.2,
@@ -101275,7 +101275,7 @@
   {
     "en": "Drunken Noodles (Pad Kee Mao)",
     "bn": "প্যাড কি মাও",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 188,
     "p": 9.8,
@@ -101304,7 +101304,7 @@
   {
     "en": "Pad Woon Sen",
     "bn": "প্যাড উন সেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 168,
     "p": 7.9,
@@ -101331,7 +101331,7 @@
   {
     "en": "Pad Kra Pao Chicken",
     "bn": "প্যাড ক্রাপাও চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 176,
     "p": 17.6,
@@ -101359,7 +101359,7 @@
   {
     "en": "Pad Kra Pao Pork",
     "bn": "প্যাড ক্রাপাও পর্ক",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 228,
     "p": 16.5,
@@ -101387,7 +101387,7 @@
   {
     "en": "Pad Kra Pao Beef",
     "bn": "প্যাড ক্রাপাও বিফ",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 215,
     "p": 18.2,
@@ -101415,7 +101415,7 @@
   {
     "en": "Thai Fried Rice",
     "bn": "থাই ফ্রাইড রাইস",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 185,
     "p": 5.8,
@@ -101442,7 +101442,7 @@
   {
     "en": "Pineapple Fried Rice",
     "bn": "পাইনঅ্যাপেল ফ্রাইড রাইস",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 172,
     "p": 4.9,
@@ -101469,7 +101469,7 @@
   {
     "en": "Khao Pad Sapparod",
     "bn": "খাও প্যাড সাপ্পারট",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 171,
     "p": 5.0,
@@ -101496,7 +101496,7 @@
   {
     "en": "Khao Man Gai",
     "bn": "খাও মান গাই",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 192,
     "p": 12.6,
@@ -101523,7 +101523,7 @@
   {
     "en": "Chicken Cashew Nut",
     "bn": "চিকেন কাজু নাট",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 224,
     "p": 18.4,
@@ -101550,7 +101550,7 @@
   {
     "en": "Thai Basil Chicken",
     "bn": "থাই বেসিল চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 172,
     "p": 18.6,
@@ -101577,7 +101577,7 @@
   {
     "en": "Thai Garlic Chicken",
     "bn": "থাই গার্লিক চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 182,
     "p": 19.2,
@@ -101604,7 +101604,7 @@
   {
     "en": "Sweet & Sour Chicken",
     "bn": "সুইট অ্যান্ড সাওয়ার চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 196,
     "p": 16.1,
@@ -101631,7 +101631,7 @@
   {
     "en": "Red Curry Chicken",
     "bn": "রেড কারি চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 214,
     "p": 16.4,
@@ -101658,7 +101658,7 @@
   {
     "en": "Green Curry Chicken",
     "bn": "গ্রিন কারি চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 208,
     "p": 16.3,
@@ -101685,7 +101685,7 @@
   {
     "en": "Yellow Curry Chicken",
     "bn": "ইয়েলো কারি চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 210,
     "p": 16.0,
@@ -101712,7 +101712,7 @@
   {
     "en": "Massaman Chicken Curry",
     "bn": "মাসামান চিকেন কারি",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 226,
     "p": 15.2,
@@ -101739,7 +101739,7 @@
   {
     "en": "Panang Chicken Curry",
     "bn": "পানাং চিকেন কারি",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 218,
     "p": 16.1,
@@ -101766,7 +101766,7 @@
   {
     "en": "Jungle Curry Chicken",
     "bn": "জঙ্গল কারি চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 148,
     "p": 18.5,
@@ -101793,7 +101793,7 @@
   {
     "en": "Thai BBQ Chicken",
     "bn": "থাই বারবিকিউ চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 196,
     "p": 24.2,
@@ -101820,7 +101820,7 @@
   {
     "en": "Grilled Chicken Satay",
     "bn": "গ্রিলড চিকেন সাটে",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 208,
     "p": 22.6,
@@ -101847,7 +101847,7 @@
   {
     "en": "Chicken Larb",
     "bn": "চিকেন লার্ব",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 162,
     "p": 21.2,
@@ -101873,7 +101873,7 @@
   {
     "en": "Chicken Nam Tok",
     "bn": "চিকেন নাম টক",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 168,
     "p": 21.0,
@@ -101900,7 +101900,7 @@
   {
     "en": "Thai Omelette",
     "bn": "থাই অমলেট",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 218,
     "p": 13.6,
@@ -101926,7 +101926,7 @@
   {
     "en": "Thai Crispy Chicken",
     "bn": "থাই ক্রিসপি চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 286,
     "p": 20.4,
@@ -101953,7 +101953,7 @@
   {
     "en": "Thai Pepper Chicken",
     "bn": "থাই পেপার চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 174,
     "p": 19.1,
@@ -101980,7 +101980,7 @@
   {
     "en": "Thai Coconut Chicken",
     "bn": "থাই কোকোনাট চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 224,
     "p": 17.2,
@@ -102007,7 +102007,7 @@
   {
     "en": "Thai Lemongrass Chicken",
     "bn": "থাই লেমনগ্রাস চিকেন",
-    "cat": "thai",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 178,
     "p": 20.1,
@@ -102034,7 +102034,7 @@
   {
     "en": "Salmon Nigiri",
     "bn": "স্যালমন নিগিরি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 182,
     "p": 11.8,
@@ -102060,7 +102060,7 @@
   {
     "en": "Tuna Nigiri",
     "bn": "টুনা নিগিরি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 172,
     "p": 13.2,
@@ -102086,7 +102086,7 @@
   {
     "en": "Shrimp Nigiri",
     "bn": "চিংড়ি নিগিরি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 168,
     "p": 14.2,
@@ -102112,7 +102112,7 @@
   {
     "en": "Eel Nigiri",
     "bn": "ঈল নিগিরি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 232,
     "p": 12.5,
@@ -102138,7 +102138,7 @@
   {
     "en": "Tamago Nigiri",
     "bn": "তামাগো নিগিরি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 186,
     "p": 9.4,
@@ -102164,7 +102164,7 @@
   {
     "en": "California Roll",
     "bn": "ক্যালিফোর্নিয়া রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 168,
     "p": 6.5,
@@ -102190,7 +102190,7 @@
   {
     "en": "Spicy Tuna Roll",
     "bn": "স্পাইসি টুনা রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 192,
     "p": 11.8,
@@ -102217,7 +102217,7 @@
   {
     "en": "Salmon Roll",
     "bn": "স্যালমন রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 184,
     "p": 10.8,
@@ -102243,7 +102243,7 @@
   {
     "en": "Tuna Roll",
     "bn": "টুনা রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 176,
     "p": 11.5,
@@ -102269,7 +102269,7 @@
   {
     "en": "Cucumber Roll (Kappa Maki)",
     "bn": "শসা মাকি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 132,
     "p": 3.0,
@@ -102297,7 +102297,7 @@
   {
     "en": "Avocado Roll",
     "bn": "অ্যাভোকাডো রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 178,
     "p": 3.4,
@@ -102323,7 +102323,7 @@
   {
     "en": "Philadelphia Roll",
     "bn": "ফিলাডেলফিয়া রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 214,
     "p": 9.8,
@@ -102349,7 +102349,7 @@
   {
     "en": "Rainbow Roll",
     "bn": "রেইনবো রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 198,
     "p": 10.8,
@@ -102375,7 +102375,7 @@
   {
     "en": "Dragon Roll",
     "bn": "ড্রাগন রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 226,
     "p": 10.5,
@@ -102401,7 +102401,7 @@
   {
     "en": "Tempura Roll",
     "bn": "টেম্পুরা রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 246,
     "p": 9.6,
@@ -102427,7 +102427,7 @@
   {
     "en": "Spider Roll",
     "bn": "স্পাইডার রোল",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 236,
     "p": 10.2,
@@ -102453,7 +102453,7 @@
   {
     "en": "Salmon Sashimi",
     "bn": "স্যালমন সাশিমি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 208,
     "p": 20.4,
@@ -102479,7 +102479,7 @@
   {
     "en": "Tuna Sashimi",
     "bn": "টুনা সাশিমি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 132,
     "p": 29.0,
@@ -102505,7 +102505,7 @@
   {
     "en": "Shrimp Sashimi",
     "bn": "চিংড়ি সাশিমি",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 104,
     "p": 24.2,
@@ -102531,7 +102531,7 @@
   {
     "en": "Mixed Sushi Platter",
     "bn": "মিক্সড সুশি প্ল্যাটার",
-    "cat": "japanese",
+    "cat": "restaurant_food",
     "s": "100g",
     "k": 186,
     "p": 10.8,
@@ -103979,7 +103979,7 @@
   },
   {
     "en": "Pista Milkshake",
-    "bn": "পেস্তা মিল্কশেক",
+    "bn": "পিস্তা মিল্কশেক",
     "cat": "beverage",
     "s": "100g",
     "k": 170,
@@ -104034,7 +104034,7 @@
   },
   {
     "en": "Rose Milkshake",
-    "bn": "রোজ মিল্কশেক",
+    "bn": "গোলাপ মিল্কশেক",
     "cat": "beverage",
     "s": "100g",
     "k": 120,
@@ -104089,7 +104089,7 @@
   {
     "en": "Ferrero Rocher",
     "bn": "ফেরেরো রোশে",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 603,
     "p": 8.2,
@@ -104116,7 +104116,7 @@
   {
     "en": "Lindt Excellence Dark Chocolate 70%",
     "bn": "লিন্ট এক্সেলেন্স ডার্ক চকলেট ৭০%",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 598,
     "p": 8.8,
@@ -104145,7 +104145,7 @@
   {
     "en": "Lindt Milk Chocolate",
     "bn": "লিন্ট মিল্ক চকলেট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 535,
     "p": 7.4,
@@ -104173,7 +104173,7 @@
   {
     "en": "Lindt White Chocolate",
     "bn": "লিন্ট হোয়াইট চকলেট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 563,
     "p": 5.9,
@@ -104201,7 +104201,7 @@
   {
     "en": "Lindt Lindor Milk Chocolate Truffle",
     "bn": "লিন্ট লিন্ডর মিল্ক ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 625,
     "p": 6.3,
@@ -104231,7 +104231,7 @@
   {
     "en": "Toblerone Milk Chocolate",
     "bn": "টোবলারোন মিল্ক চকলেট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 535,
     "p": 6.0,
@@ -104259,7 +104259,7 @@
   {
     "en": "Milka Alpine Milk Chocolate",
     "bn": "মিলকা আল্পাইন মিল্ক চকলেট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 534,
     "p": 6.7,
@@ -104288,7 +104288,7 @@
   {
     "en": "Kinder Bueno",
     "bn": "কিন্ডার বুয়েনো",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 567,
     "p": 8.6,
@@ -104315,7 +104315,7 @@
   {
     "en": "Kinder Chocolate",
     "bn": "কিন্ডার চকলেট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 566,
     "p": 8.7,
@@ -104342,7 +104342,7 @@
   {
     "en": "Raffaello",
     "bn": "রাফায়েলো",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 615,
     "p": 8.0,
@@ -104368,7 +104368,7 @@
   {
     "en": "Lindt Lindor Dark Chocolate Truffles",
     "bn": "লিন্ট লিন্ডর ডার্ক চকলেট ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 612,
     "p": 7.0,
@@ -104398,7 +104398,7 @@
   {
     "en": "Lindt Lindor White Chocolate Truffles",
     "bn": "লিন্ট লিন্ডর হোয়াইট চকলেট ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 635,
     "p": 5.8,
@@ -104428,7 +104428,7 @@
   {
     "en": "Lindt Lindor Hazelnut Truffles",
     "bn": "লিন্ট লিন্ডর হ্যাজেলনাট ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 626,
     "p": 7.4,
@@ -104457,7 +104457,7 @@
   {
     "en": "Lindt Lindor Pistachio Truffles",
     "bn": "লিন্ট লিন্ডর পেস্তা ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 620,
     "p": 7.2,
@@ -104486,7 +104486,7 @@
   {
     "en": "Lindt Lindor Salted Caramel Truffles",
     "bn": "লিন্ট লিন্ডর সল্টেড ক্যারামেল ট্রাফল",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 621,
     "p": 6.2,
@@ -104516,7 +104516,7 @@
   {
     "en": "Lindt Excellence 85% Cocoa",
     "bn": "লিন্ট এক্সেলেন্স ৮৫% কোকো",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 612,
     "p": 9.4,
@@ -104544,7 +104544,7 @@
   {
     "en": "Lindt Excellence 90% Cocoa",
     "bn": "লিন্ট এক্সেলেন্স ৯০% কোকো",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 620,
     "p": 10.0,
@@ -104572,7 +104572,7 @@
   {
     "en": "Lindt Excellence Orange Intense",
     "bn": "লিন্ট এক্সেলেন্স অরেঞ্জ ইনটেন্স",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 592,
     "p": 8.5,
@@ -104601,7 +104601,7 @@
   {
     "en": "Lindt Excellence Sea Salt",
     "bn": "লিন্ট এক্সেলেন্স সি সল্ট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 600,
     "p": 8.6,
@@ -104630,7 +104630,7 @@
   {
     "en": "Lindt Excellence Mint Intense",
     "bn": "লিন্ট এক্সেলেন্স মিন্ট ইনটেন্স",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 594,
     "p": 8.5,
@@ -104659,7 +104659,7 @@
   {
     "en": "Lindt Excellence Chili",
     "bn": "লিন্ট এক্সেলেন্স চিলি",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 596,
     "p": 8.6,
@@ -104687,7 +104687,7 @@
   {
     "en": "Lindt Excellence Caramel with Sea Salt",
     "bn": "লিন্ট এক্সেলেন্স ক্যারামেল সি সল্ট",
-    "cat": "chocolate",
+    "cat": "sweet",
     "s": "100g",
     "k": 606,
     "p": 8.2,
@@ -104724,7 +104724,7 @@
     "c": 59,
     "f": 30,
     "fi": 2,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104746,7 +104746,7 @@
     "c": 46,
     "f": 43,
     "fi": 11,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104768,7 +104768,7 @@
     "c": 20,
     "f": 55,
     "fi": 13,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104790,7 +104790,7 @@
     "c": 12,
     "f": 58,
     "fi": 14,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104812,7 +104812,7 @@
     "c": 59,
     "f": 31,
     "fi": 0,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104834,7 +104834,7 @@
     "c": 57,
     "f": 33,
     "fi": 1,
-    "cat": "chocolate",
+    "cat": "sweet",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104849,14 +104849,14 @@
   },
   {
     "en": "Veg Whopper",
-    "bn": "ভেজ হোয়পার",
+    "bn": "ভেজ হোয়াপার",
     "s": "296g",
     "k": 749,
     "p": 11,
     "c": 100.6,
     "f": 31.4,
     "fi": 6,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104872,14 +104872,14 @@
   },
   {
     "en": "Chicken Whopper",
-    "bn": "চিকেন হোয়পার",
+    "bn": "চিকেন হোয়াপার",
     "s": "320g",
     "k": 650,
     "p": 28,
     "c": 50,
     "f": 32,
     "fi": 3,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104895,14 +104895,14 @@
   },
   {
     "en": "Veg Crispy Burger",
-    "bn": "ভেজ ক্রিস্পি বার্গার",
+    "bn": "ভেজ ক্রিসপি বার্গার",
     "s": "138g",
     "k": 426,
     "p": 8.4,
     "c": 52,
     "f": 20.6,
     "fi": 4,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104926,7 +104926,7 @@
     "c": 52.4,
     "f": 17.2,
     "fi": 4,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104949,7 +104949,7 @@
     "c": 49.2,
     "f": 16.5,
     "fi": 5,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104968,7 +104968,7 @@
     "c": 67.1,
     "f": 22.4,
     "fi": 3,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -104992,7 +104992,7 @@
     "c": 47,
     "f": 27,
     "fi": 3,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105016,7 +105016,7 @@
     "c": 18,
     "f": 18,
     "fi": 1,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105033,14 +105033,14 @@
   },
   {
     "en": "French Fries (Medium)",
-    "bn": "ফ্রেঞ্চ ফ্রাই (মিডিয়াম)",
+    "bn": "ফ্রেঞ্চ ফ্রাই (মাঝারি)",
     "s": "125g",
     "k": 340,
     "p": 4,
     "c": 44,
     "f": 15,
     "fi": 4,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105064,7 +105064,7 @@
     "c": 55,
     "f": 16,
     "fi": 4,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105087,7 +105087,7 @@
     "c": 48,
     "f": 20,
     "fi": 3,
-    "cat": "fast_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105103,7 +105103,7 @@
   },
   {
     "en": "Chocolate Shake (Medium)",
-    "bn": "চকলেট শেক (মিডিয়াম)",
+    "bn": "চকলেট শেক (মাঝারি)",
     "s": "350ml",
     "k": 380,
     "p": 8,
@@ -105122,7 +105122,7 @@
   },
   {
     "en": "Croissant (Plain Butter)",
-    "bn": "ক্রোসঁ (সাধারণ)",
+    "bn": "ক্রোয়াসাঁ (বাটার)",
     "s": "100g",
     "k": 420,
     "p": 7.7,
@@ -105144,7 +105144,7 @@
   },
   {
     "en": "Chocolate Croissant (Pain au Chocolat)",
-    "bn": "চকলেট ক্রোসঁ",
+    "bn": "চকলেট ক্রোয়াসাঁ",
     "s": "100g",
     "k": 455,
     "p": 7,
@@ -105167,7 +105167,7 @@
   },
   {
     "en": "Danish Pastry (Fruit Filled)",
-    "bn": "ড্যানিশ পেস্ট্রি (ফল)",
+    "bn": "ড্যানিশ পেস্ট্রি (ফল ভরা)",
     "s": "100g",
     "k": 370,
     "p": 5.5,
@@ -105338,7 +105338,7 @@
   },
   {
     "en": "Cream Puff (Profiterole)",
-    "bn": "ক্রিম পাফ",
+    "bn": "ক্রিম পাফ (প্রফিটরোল)",
     "s": "100g",
     "k": 330,
     "p": 6,
@@ -105381,14 +105381,14 @@
   },
   {
     "en": "Chicken Doner Kebab (Wrap)",
-    "bn": "চিকেন ডোনার কাবাব (র‍্যাপ)",
+    "bn": "চিকেন ডোনার কেবাব (র‍্যাপ)",
     "s": "1 wrap (~300g)",
     "k": 650,
     "p": 35,
     "c": 55,
     "f": 28,
     "fi": 4,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105406,14 +105406,14 @@
   },
   {
     "en": "Chicken Doner Kebab (Box with Rice)",
-    "bn": "চিকেন ডোনার (রাইস সহ)",
+    "bn": "চিকেন ডোনার কেবাব (বক্স রাইস)",
     "s": "1 box (~450g)",
     "k": 780,
     "p": 42,
     "c": 85,
     "f": 28,
     "fi": 5,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105433,14 +105433,14 @@
   },
   {
     "en": "Chicken Doner Kebab (Pita)",
-    "bn": "চিকেন ডোনার (পিটা)",
+    "bn": "চিকেন ডোনার কেবাব (পিটা)",
     "s": "1 pita (~280g)",
     "k": 620,
     "p": 33,
     "c": 60,
     "f": 25,
     "fi": 4,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105458,14 +105458,14 @@
   },
   {
     "en": "Chicken Shish Kebab",
-    "bn": "চিকেন শিস কাবাব",
+    "bn": "চিকেন শিশ কেবাব",
     "s": "1 serving (~200g)",
     "k": 380,
     "p": 40,
     "c": 8,
     "f": 20,
     "fi": 1,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105482,14 +105482,14 @@
   },
   {
     "en": "Mixed Kebab Plate (Chicken + Rice + Salad)",
-    "bn": "মিক্স কাবাব প্লেট",
+    "bn": "মিক্সড কেবাব প্লেট",
     "s": "1 plate (~500g)",
     "k": 850,
     "p": 45,
     "c": 95,
     "f": 32,
     "fi": 6,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105509,14 +105509,14 @@
   },
   {
     "en": "Lahmacun (Turkish Pizza)",
-    "bn": "লাহমাজুন",
+    "bn": "লাহমাচুন (তুর্কি পিজা)",
     "s": "1 piece (~180g)",
     "k": 420,
     "p": 15,
     "c": 50,
     "f": 16,
     "fi": 3,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105533,14 +105533,14 @@
   },
   {
     "en": "Chicken Durum (Large Wrap)",
-    "bn": "চিকেন দুরুম",
+    "bn": "চিকেন দুরুম (বড় র‍্যাপ)",
     "s": "1 wrap (~350g)",
     "k": 720,
     "p": 38,
     "c": 65,
     "f": 30,
     "fi": 4,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105558,14 +105558,14 @@
   },
   {
     "en": "Adana Kebab (Chicken Variant)",
-    "bn": "আদানা কাবাব (চিকেন)",
+    "bn": "আদানা কেবাব (চিকেন)",
     "s": "1 serving (~220g)",
     "k": 450,
     "p": 35,
     "c": 10,
     "f": 28,
     "fi": 2,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105590,7 +105590,7 @@
     "c": 70,
     "f": 28,
     "fi": 10,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105606,14 +105606,14 @@
   },
   {
     "en": "Turkish Fries (Street Style)",
-    "bn": "তুর্কি ফ্রাই",
+    "bn": "তুর্কি ফ্রাই (স্ট্রিট স্টাইল)",
     "s": "1 serving (~150g)",
     "k": 450,
     "p": 5,
     "c": 55,
     "f": 22,
     "fi": 5,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105631,14 +105631,14 @@
   },
   {
     "en": "Chicken Doner Salad Bowl",
-    "bn": "চিকেন ডোনার সালাদ বোল",
+    "bn": "চিকেন ডোনার সালাদ বাউল",
     "s": "1 bowl (~350g)",
     "k": 420,
     "p": 40,
     "c": 20,
     "f": 20,
     "fi": 6,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105656,14 +105656,14 @@
   },
   {
     "en": "Iskender Kebab (Chicken)",
-    "bn": "ইস্কেন্ডার কাবাব (চিকেন)",
+    "bn": "ইস্কেন্দার কেবাব (চিকেন)",
     "s": "1 plate (~500g)",
     "k": 900,
     "p": 45,
     "c": 80,
     "f": 45,
     "fi": 4,
-    "cat": "street_food",
+    "cat": "restaurant_food",
     "src": "user_curated",
     "quality_score": 72,
     "kw": [
@@ -105964,7 +105964,7 @@
   {
     "id": 100761,
     "en": "Air-Popped Popcorn (Plain)",
-    "bn": "এয়ার পপড পপকর্ন (সাধারণ)",
+    "bn": "এয়ার-পপড পপকর্ন (সাদা)",
     "cat": "snack",
     "s": "100g",
     "k": 387,
@@ -106008,7 +106008,7 @@
   {
     "id": 100763,
     "en": "Salted Popcorn",
-    "bn": "সল্টেড পপকর্ন",
+    "bn": "লবণযুক্ত পপকর্ন",
     "cat": "snack",
     "s": "100g",
     "k": 480,
@@ -106029,7 +106029,7 @@
   {
     "id": 100764,
     "en": "Caramel Popcorn",
-    "bn": "কারামেল পপকর্ন",
+    "bn": "ক্যারামেল পপকর্ন",
     "cat": "snack",
     "s": "100g",
     "k": 460,
@@ -106092,7 +106092,7 @@
   {
     "id": 100767,
     "en": "Spicy Masala Popcorn",
-    "bn": "মসলা পপকর্ন",
+    "bn": "মশলা পপকর্ন",
     "cat": "snack",
     "s": "100g",
     "k": 470,
@@ -106114,7 +106114,7 @@
   {
     "id": 100768,
     "en": "Movie Theatre Butter Popcorn (Large Serving)",
-    "bn": "সিনেমা বাটার পপকর্ন (লার্জ)",
+    "bn": "সিনেমা হলের বাটার পপকর্ন (বড়)",
     "cat": "snack",
     "s": "150g",
     "k": 795,
@@ -106157,7 +106157,7 @@
   {
     "id": 100770,
     "en": "Low Fat Popcorn",
-    "bn": "লো ফ্যাট পপকর্ন",
+    "bn": "লো-ফ্যাট পপকর্ন",
     "cat": "snack",
     "s": "100g",
     "k": 320,
@@ -106179,7 +106179,7 @@
   {
     "id": 100771,
     "en": "Plain Tortilla Chips (Nachos Base)",
-    "bn": "সাধারণ টর্টিলা চিপস",
+    "bn": "সাধারণ টর্টিলা চিপস (নাচোস)",
     "cat": "snack",
     "s": "100g",
     "k": 480,
@@ -106769,7 +106769,7 @@
   {
     "id": 100798,
     "en": "Roasted Makhana (Fox Nuts)",
-    "bn": "মখানা",
+    "bn": "ভাজা মাখানা",
     "cat": "snack",
     "s": "100g",
     "k": 350,
@@ -106792,7 +106792,7 @@
   {
     "id": 100799,
     "en": "Roasted Almonds",
-    "bn": "বাদাম",
+    "bn": "ভাজা বাদাম",
     "cat": "snack",
     "s": "100g",
     "k": 580,
@@ -106815,7 +106815,7 @@
   {
     "id": 100800,
     "en": "Spring Roll (Vegetable)",
-    "bn": "স্প্রিং রোল",
+    "bn": "সবজি স্প্রিং রোল",
     "cat": "snack",
     "s": "100g",
     "k": 250,
@@ -106860,7 +106860,7 @@
     "id": 100802,
     "en": "Indian Spicy Snail Curry",
     "bn": "ভারতীয় শামুক কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "1 bowl (~250g)",
     "k": 240,
     "p": 18,
@@ -106882,8 +106882,8 @@
   {
     "id": 100803,
     "en": "Bengali Mustard Snail Curry",
-    "bn": "শুঁটকি শামুক সর্ষে কারি",
-    "cat": "seafood",
+    "bn": "বাঙালি সর্ষে শামুক কারি",
+    "cat": "fish",
     "s": "1 bowl (~250g)",
     "k": 260,
     "p": 17,
@@ -106905,8 +106905,8 @@
   {
     "id": 100804,
     "en": "South Indian Pepper Snail Fry",
-    "bn": "সাউথ ইন্ডিয়ান পিপার শামুক ফ্রাই",
-    "cat": "seafood",
+    "bn": "দক্ষিণ ভারতীয় গোলমরিচ শামুক ভাজা",
+    "cat": "fish",
     "s": "1 serving (~200g)",
     "k": 220,
     "p": 19,
@@ -106928,7 +106928,7 @@
     "id": 100805,
     "en": "Coconut Snail Curry",
     "bn": "নারকেল শামুক কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "1 bowl (~250g)",
     "k": 310,
     "p": 16,
@@ -106951,7 +106951,7 @@
     "id": 100806,
     "en": "Squid (Raw)",
     "bn": "স্কুইড (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 92,
     "p": 15.6,
@@ -106972,7 +106972,7 @@
     "id": 100807,
     "en": "Squid Fry (Indian Style)",
     "bn": "স্কুইড ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 210,
     "p": 16,
@@ -106994,7 +106994,7 @@
     "id": 100808,
     "en": "Squid Curry (Spicy)",
     "bn": "স্কুইড কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 180,
     "p": 14,
@@ -107016,7 +107016,7 @@
     "id": 100809,
     "en": "Octopus (Raw)",
     "bn": "অক্টোপাস (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 82,
     "p": 14.9,
@@ -107037,7 +107037,7 @@
     "id": 100810,
     "en": "Grilled Octopus",
     "bn": "গ্রিলড অক্টোপাস",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 160,
     "p": 25,
@@ -107059,7 +107059,7 @@
     "id": 100811,
     "en": "Octopus Curry (Indian Style)",
     "bn": "অক্টোপাস কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 190,
     "p": 18,
@@ -107080,7 +107080,7 @@
     "id": 100812,
     "en": "Cuttlefish (Raw)",
     "bn": "কাটলফিশ (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 85,
     "p": 16.2,
@@ -107102,7 +107102,7 @@
     "id": 100813,
     "en": "Cuttlefish Curry (South Indian Style)",
     "bn": "কাটলফিশ কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 200,
     "p": 17,
@@ -107122,7 +107122,7 @@
     "id": 100814,
     "en": "Cuttlefish Fry (Garlic Pepper)",
     "bn": "কাটলফিশ ফ্রাই",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 220,
     "p": 18,
@@ -107143,7 +107143,7 @@
     "id": 100815,
     "en": "Crab (Raw Meat)",
     "bn": "কাঁকড়া (কাঁচা মাংস)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 97,
     "p": 19,
@@ -107166,7 +107166,7 @@
     "id": 100816,
     "en": "Indian Crab Curry (Spicy Masala)",
     "bn": "ভারতীয় কাঁকড়া কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 180,
     "p": 17,
@@ -107188,7 +107188,7 @@
     "id": 100817,
     "en": "Bengali Crab Curry (Mustard Style)",
     "bn": "বাঙালি কাঁকড়া সর্ষে কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 210,
     "p": 18,
@@ -107210,7 +107210,7 @@
     "id": 100818,
     "en": "European Garlic Butter Crab",
     "bn": "ইউরোপিয়ান গার্লিক বাটার কাঁকড়া",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 230,
     "p": 18,
@@ -107232,7 +107232,7 @@
     "id": 100819,
     "en": "Steamed Crab (Plain)",
     "bn": "স্টিমড কাঁকড়া",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 110,
     "p": 20,
@@ -107254,7 +107254,7 @@
     "id": 100820,
     "en": "Lobster (Raw Meat)",
     "bn": "লবস্টার (কাঁচা মাংস)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 89,
     "p": 19,
@@ -107276,7 +107276,7 @@
     "id": 100821,
     "en": "Butter Garlic Lobster (European Style)",
     "bn": "বাটার গার্লিক লবস্টার",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 220,
     "p": 18,
@@ -107298,7 +107298,7 @@
     "id": 100822,
     "en": "Indian Lobster Curry (Masala)",
     "bn": "ভারতীয় লবস্টার কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 200,
     "p": 17,
@@ -107319,7 +107319,7 @@
     "id": 100823,
     "en": "Grilled Lobster (Olive Oil)",
     "bn": "গ্রিলড লবস্টার",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 160,
     "p": 20,
@@ -107340,7 +107340,7 @@
     "id": 100824,
     "en": "Mussels (Raw)",
     "bn": "ঝিনুক (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 86,
     "p": 12,
@@ -107363,7 +107363,7 @@
     "id": 100825,
     "en": "Mussels White Wine Garlic (European)",
     "bn": "মাসেলস হোয়াইট ওয়াইন গার্লিক",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 160,
     "p": 14,
@@ -107385,7 +107385,7 @@
     "id": 100826,
     "en": "Indian Spicy Mussels Curry",
     "bn": "ভারতীয় ঝিনুক কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 170,
     "p": 13,
@@ -107407,7 +107407,7 @@
     "id": 100827,
     "en": "Steamed Mussels (Plain)",
     "bn": "স্টিমড ঝিনুক",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 110,
     "p": 12,
@@ -107428,7 +107428,7 @@
     "id": 100828,
     "en": "Mussels Coconut Curry (Coastal India)",
     "bn": "নারকেল ঝিনুক কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 210,
     "p": 13,
@@ -107450,7 +107450,7 @@
     "id": 100829,
     "en": "Salmon (Raw)",
     "bn": "স্যালমন (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 208,
     "p": 20,
@@ -107473,7 +107473,7 @@
     "id": 100830,
     "en": "Grilled Salmon (European Style)",
     "bn": "গ্রিলড স্যালমন",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 230,
     "p": 22,
@@ -107495,7 +107495,7 @@
     "id": 100831,
     "en": "Salmon Curry (Indian Style)",
     "bn": "স্যালমন কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 260,
     "p": 21,
@@ -107516,7 +107516,7 @@
     "id": 100832,
     "en": "Tuna (Raw)",
     "bn": "টুনা (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 132,
     "p": 29,
@@ -107538,7 +107538,7 @@
     "id": 100833,
     "en": "Grilled Tuna Steak",
     "bn": "গ্রিলড টুনা স্টেক",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 160,
     "p": 30,
@@ -107560,7 +107560,7 @@
     "id": 100834,
     "en": "Tuna Curry (Indian Style)",
     "bn": "টুনা কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 190,
     "p": 28,
@@ -107581,7 +107581,7 @@
     "id": 100835,
     "en": "Cod (Raw)",
     "bn": "কড মাছ (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 82,
     "p": 18,
@@ -107604,7 +107604,7 @@
     "id": 100836,
     "en": "Baked Cod (European Style)",
     "bn": "বেকড কড",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 120,
     "p": 20,
@@ -107626,7 +107626,7 @@
     "id": 100837,
     "en": "Cod Curry (Indian Style)",
     "bn": "কড কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 180,
     "p": 19,
@@ -107647,7 +107647,7 @@
     "id": 100838,
     "en": "Mackerel (Raw)",
     "bn": "ম্যাকারেল (কাঁচা)",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 205,
     "p": 19,
@@ -107669,7 +107669,7 @@
     "id": 100839,
     "en": "Grilled Mackerel",
     "bn": "গ্রিলড ম্যাকারেল",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 230,
     "p": 22,
@@ -107691,7 +107691,7 @@
     "id": 100840,
     "en": "Mackerel Curry (Indian Style)",
     "bn": "ম্যাকারেল কারি",
-    "cat": "seafood",
+    "cat": "fish",
     "s": "100g",
     "k": 260,
     "p": 20,
@@ -107712,7 +107712,7 @@
   {
     "id": 100841,
     "en": "Duck Meat (Raw, Skin On)",
-    "bn": "হাঁসের মাংস (কাঁচা)",
+    "bn": "হাঁসের মাংস (কাঁচা, চামড়াসহ)",
     "cat": "meat",
     "s": "100g",
     "k": 337,
@@ -107735,7 +107735,7 @@
   {
     "id": 100842,
     "en": "Duck Curry (Bengali Style Kosha Haanser Mangsho)",
-    "bn": "কোশা হাঁসের মাংস",
+    "bn": "কষা হাঁসের মাংস",
     "cat": "meat",
     "s": "100g",
     "k": 420,
@@ -107758,7 +107758,7 @@
   {
     "id": 100843,
     "en": "Duck Curry (Assam Style – Khar/Spiced)",
-    "bn": "অসমীয়া হাঁস কারি",
+    "bn": "অসমীয়া হাঁসের কারি",
     "cat": "meat",
     "s": "100g",
     "k": 390,
@@ -107780,7 +107780,7 @@
   {
     "id": 100844,
     "en": "Duck Curry (Kerala Style Roast Curry)",
-    "bn": "কেরালা হাঁস রোস্ট কারি",
+    "bn": "কেরালা স্টাইল হাঁস রোস্ট কারি",
     "cat": "meat",
     "s": "100g",
     "k": 410,
@@ -107802,7 +107802,7 @@
   {
     "id": 100845,
     "en": "Duck Roast (Indian Dry Roast)",
-    "bn": "হাঁস রোস্ট",
+    "bn": "হাঁস রোস্ট (ভারতীয় শুকনো রোস্ট)",
     "cat": "meat",
     "s": "100g",
     "k": 450,
@@ -107824,7 +107824,7 @@
   {
     "id": 100846,
     "en": "Duck Fry (Shallow Fried Indian Style)",
-    "bn": "হাঁস ভাজা",
+    "bn": "হাঁস ভাজা (ভারতীয় স্টাইল)",
     "cat": "meat",
     "s": "100g",
     "k": 470,
@@ -107846,7 +107846,7 @@
   {
     "id": 100847,
     "en": "Duck Curry (Street Style North India)",
-    "bn": "স্ট্রিট স্টাইল হাঁস কারি",
+    "bn": "স্ট্রিট স্টাইল হাঁসের কারি",
     "cat": "meat",
     "s": "100g",
     "k": 430,
@@ -107868,7 +107868,7 @@
   {
     "id": 100848,
     "en": "Duck Soup (Clear Broth Style)",
-    "bn": "হাঁস স্যুপ",
+    "bn": "হাঁসের স্যুপ",
     "cat": "meat",
     "s": "100g",
     "k": 180,
@@ -108023,7 +108023,7 @@
   {
     "id": 100855,
     "en": "Sesbania Flower Curry (Agathi / Agastya Phool Curry)",
-    "bn": "অগস্তি ফুল কারি",
+    "bn": "অগস্থি ফুলের তরকারি",
     "cat": "vegetable",
     "s": "100g",
     "k": 80,
@@ -108045,7 +108045,7 @@
   {
     "id": 100856,
     "en": "Sesbania Flower Stir Fry (South India Style)",
-    "bn": "অগস্তি ফুল ভাজি",
+    "bn": "অগস্থি ফুল ভাজি",
     "cat": "vegetable",
     "s": "100g",
     "k": 120,
@@ -109102,7 +109102,7 @@
   {
     "id": 100904,
     "en": "Cotton Candy (Plain Sugar Floss)",
-    "bn": "কটন ক্যান্ডি",
+    "bn": "তুলো মিষ্টি (বুড়ির চুল)",
     "cat": "sweet",
     "s": "100g",
     "k": 400,
@@ -109125,7 +109125,7 @@
   {
     "id": 100905,
     "en": "Cotton Candy (Small Fair Portion)",
-    "bn": "কটন ক্যান্ডি (ছোট পরিবেশন)",
+    "bn": "তুলো মিষ্টি (ছোট পরিবেশন)",
     "cat": "sweet",
     "s": "1 cup (~30g)",
     "k": 120,
@@ -109147,7 +109147,7 @@
   {
     "id": 100906,
     "en": "Colored Cotton Candy (Artificial Flavour)",
-    "bn": "রঙিন কটন ক্যান্ডি",
+    "bn": "রঙিন তুলো মিষ্টি",
     "cat": "sweet",
     "s": "100g",
     "k": 410,
@@ -109168,7 +109168,7 @@
   {
     "id": 100907,
     "en": "Festival Cotton Candy Cone",
-    "bn": "মেলা কটন ক্যান্ডি কন",
+    "bn": "মেলার তুলো মিষ্টি",
     "cat": "sweet",
     "s": "1 cone (~25g)",
     "k": 100,
