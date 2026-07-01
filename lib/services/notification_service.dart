@@ -22,13 +22,16 @@ class NotificationService {
   Future<void> init() async {
     if (_initialized) return;
     tz_data.initializeTimeZones();
-    // Use UTC timezone — scheduled times are derived from local DateTime,
-    // so the epoch values are already in device local time.
+    // Epoch values from DateTime.now() are already device-local, so UTC label
+    // preserves the correct wall-clock time for matchDateTimeComponents.
     tz.setLocalLocation(tz.UTC);
 
     const androidInit = AndroidInitializationSettings('@mipmap/ic_launcher');
     await _plugin.initialize(
       const InitializationSettings(android: androidInit),
+      onDidReceiveNotificationResponse: (_) {
+        // Notification tapped — nothing to do; app opens via launcher intent.
+      },
     );
     _initialized = true;
   }
@@ -64,13 +67,14 @@ class NotificationService {
       await _plugin.cancel(_kReminderId);
       final scheduled = _nextOccurrence(hour, minute);
       final details = _buildDetails(language);
+      final mode = await _exactMode();
       await _plugin.zonedSchedule(
         _kReminderId,
         details.$1,
         details.$2,
         scheduled,
         _notificationDetails,
-        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        androidScheduleMode: mode,
         uiLocalNotificationDateInterpretation:
             UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time,
@@ -79,6 +83,18 @@ class NotificationService {
     } catch (_) {
       return false;
     }
+  }
+
+  // Returns exactAllowWhileIdle when permission is available, otherwise falls
+  // back to inexact (still fires daily, just may be delayed a few minutes).
+  Future<AndroidScheduleMode> _exactMode() async {
+    if (!Platform.isAndroid) return AndroidScheduleMode.exactAllowWhileIdle;
+    final ap = _plugin.resolvePlatformSpecificImplementation<
+        AndroidFlutterLocalNotificationsPlugin>();
+    final canExact = await ap?.canScheduleExactNotifications() ?? false;
+    return canExact
+        ? AndroidScheduleMode.exactAllowWhileIdle
+        : AndroidScheduleMode.inexactAllowWhileIdle;
   }
 
   Future<void> cancelReminder() async {
@@ -99,6 +115,7 @@ class NotificationService {
       final tomorrow = DateTime(now.year, now.month, now.day + 1, hour, minute);
       final scheduled = tz.TZDateTime.from(tomorrow, tz.UTC);
       final details = _buildDetails(lang);
+      final mode = await _exactMode();
 
       await _plugin.zonedSchedule(
         _kReminderId,
@@ -106,7 +123,7 @@ class NotificationService {
         details.$2,
         scheduled,
         _notificationDetails,
-        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        androidScheduleMode: mode,
         uiLocalNotificationDateInterpretation:
             UILocalNotificationDateInterpretation.absoluteTime,
         matchDateTimeComponents: DateTimeComponents.time,

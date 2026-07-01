@@ -271,6 +271,27 @@ class InsightsService {
     return longest;
   }
 
+  /// Consecutive logged days ending on today (or yesterday if today not yet logged).
+  static int currentStreak() {
+    final days = allDailySummaries().where((d) => d.mealCount > 0).toList();
+    if (days.isEmpty) return 0;
+    final sorted = [...days]..sort((a, b) => b.date.compareTo(a.date));
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    var streak = 0;
+    var expected = today;
+    for (final d in sorted) {
+      final dd = DateTime(d.date.year, d.date.month, d.date.day);
+      if (dd == expected) {
+        streak++;
+        expected = expected.subtract(const Duration(days: 1));
+      } else if (dd.isBefore(expected)) {
+        break;
+      }
+    }
+    return streak;
+  }
+
   static DateTime _parseDayKey(String key) {
     final p = key.split('_');
     if (p.length == 3) {

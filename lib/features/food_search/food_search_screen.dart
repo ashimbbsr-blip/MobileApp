@@ -289,7 +289,14 @@ class _LocalTabState extends ConsumerState<_LocalTab>
   }
 
   void _onFocusChange() {
-    if (!_focus.hasFocus && !_pointerDownOnSuggestions) {
+    if (_focus.hasFocus) {
+      // Restore suggestions immediately when the field is tapped again,
+      // e.g. after a tab switch clears them or after picking a suggestion.
+      final q = _ctrl.text.trim();
+      if (q.isNotEmpty && _suggestions.isEmpty) {
+        _onTextChanged(_ctrl.text);
+      }
+    } else if (!_pointerDownOnSuggestions) {
       if (mounted) setState(() => _showSuggestions = false);
     }
   }

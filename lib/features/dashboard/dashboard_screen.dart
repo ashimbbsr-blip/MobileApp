@@ -13,6 +13,7 @@ import '../dashboard/providers/dashboard_provider.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../../services/recommendation_engine.dart';
 import '../../services/energy_balance_service.dart';
+import '../../services/backup/insights_service.dart';
 
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
@@ -82,6 +83,8 @@ class DashboardScreen extends ConsumerWidget {
             sliver: SliverList(
               delegate: SliverChildListDelegate([
                 _DateSelector(state: state),
+                const SizedBox(height: 12),
+                _WeeklyProgressPanel(state: state),
                 const SizedBox(height: 16),
                 _RecommendationCard(state: state),
                 const SizedBox(height: 16),
@@ -207,6 +210,180 @@ class _DateSelector extends ConsumerWidget {
         ],
       ),
     );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// Weekly Progress Panel — last 7 days calorie bars + streak counter
+// ═══════════════════════════════════════════════════════════════════════════
+
+class _WeeklyProgressPanel extends ConsumerWidget {
+  final DashboardState state;
+  const _WeeklyProgressPanel({required this.state});
+
+  static const _dayLabelsEn = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  static const _dayLabelsBn = ['সো', 'মঙ', 'বু', 'বৃ', 'শু', 'শ', 'র'];
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = ref.watch(appStringsProvider);
+    final bn = l10n.isBengali;
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+    final calGoal = state.goals?.calories ?? 2000;
+
+    // Last 7 calendar days (oldest → newest)
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final dates = List.generate(7, (i) => today.subtract(Duration(days: 6 - i)));
+
+    final dayMap = {
+      for (final s in InsightsService.allDailySummaries()) s.dateKey: s
+    };
+
+    final records = dates.map((d) {
+      final key =
+          '${d.year}_${d.month.toString().padLeft(2, '0')}_${d.day.toString().padLeft(2, '0')}';
+      final s = dayMap[key];
+      return (date: d, kcal: s?.kcal ?? 0.0, logged: (s?.mealCount ?? 0) > 0);
+    }).toList();
+
+    final streak = InsightsService.currentStreak();
+    const maxBarH = 44.0;
+    const orange = Color(0xFFFF6D00);
+
+    final cardBg = isDark ? const Color(0xFF1E1E2E) : const Color(0xFFF8F9FF);
+    final borderColor =
+        isDark ? Colors.white.withValues(alpha: 0.08) : Colors.black.withValues(alpha: 0.07);
+
+    return Container(
+      decoration: BoxDecoration(
+        color: cardBg,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: borderColor, width: 1),
+      ),
+      padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(
+                bn ? 'সাপ্তাহিক অগ্রগতি' : 'Last 7 Days',
+                style: theme.textTheme.titleSmall
+                    ?.copyWith(fontWeight: FontWeight.w700),
+              ),
+              const Spacer(),
+              if (streak > 0)
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                  decoration: BoxDecoration(
+                    color: orange.withValues(alpha: 0.12),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(color: orange.withValues(alpha: 0.3)),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text('🔥', style: TextStyle(fontSize: 12)),
+                      const SizedBox(width: 3),
+                      Text(
+                        bn ? '$streak দিন স্ট্রিক' : '$streak day streak',
+                        style: const TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w700,
+                          color: orange,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: records.asMap().entries.map((entry) {
+              final i = entry.key;
+              final r = entry.value;
+              final pct =
+                  calGoal > 0 ? (r.kcal / calGoal).clamp(0.0, 1.0) : 0.0;
+              final isToday = i == 6;
+              final barColor = _barColor(r.kcal, calGoal, r.logged);
+              final barH = r.logged
+                  ? (pct * maxBarH).clamp(4.0, maxBarH)
+                  : 0.0;
+              final dayIdx = r.date.weekday - 1; // 0=Mon…6=Sun
+              final labels = bn ? _dayLabelsBn : _dayLabelsEn;
+
+              return Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 2),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        r.logged ? '${r.kcal.round()}' : '',
+                        style: TextStyle(
+                          fontSize: 8,
+                          color: barColor,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 2),
+                      SizedBox(
+                        height: maxBarH,
+                        child: Align(
+                          alignment: Alignment.bottomCenter,
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 600),
+                            curve: Curves.easeOut,
+                            width: double.infinity,
+                            height: r.logged ? barH : 3,
+                            decoration: BoxDecoration(
+                              color: r.logged
+                                  ? barColor
+                                  : (isDark
+                                      ? Colors.white.withValues(alpha: 0.10)
+                                      : Colors.black.withValues(alpha: 0.07)),
+                              borderRadius: BorderRadius.circular(3),
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        labels[dayIdx],
+                        style: TextStyle(
+                          fontSize: 9,
+                          fontWeight:
+                              isToday ? FontWeight.w800 : FontWeight.w500,
+                          color: isToday
+                              ? AppColors.primary
+                              : theme.colorScheme.onSurface
+                                  .withValues(alpha: 0.55),
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }).toList(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Color _barColor(double kcal, double goal, bool logged) {
+    if (!logged || kcal == 0 || goal == 0) return Colors.grey;
+    final pct = kcal / goal;
+    if (pct >= 0.90 && pct <= 1.10) return const Color(0xFF27AE60);
+    if (pct >= 0.75 && pct <= 1.25) return const Color(0xFFF39C12);
+    return const Color(0xFFE74C3C);
   }
 }
 

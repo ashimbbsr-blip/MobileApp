@@ -7794,10 +7794,10 @@
     "en": "Apple banana pie",
     "bn": "আপেল কলা পাই",
     "s": "80g",
-    "k": 948.5,
-    "p": 12.2,
-    "c": 124.8,
-    "f": 44.3,
+    "k": 212.0,
+    "p": 3.2,
+    "c": 35.0,
+    "f": 8.0,
     "fi": 7.3,
     "ca": 82.5,
     "fe": 3.07,
@@ -10776,10 +10776,10 @@
     "en": "Chicken kebab",
     "bn": "চিকেন কেবাব",
     "s": "80g",
-    "k": 903.7,
-    "p": 4.6,
-    "c": 1.4,
-    "f": 78.2,
+    "k": 160.0,
+    "p": 18.0,
+    "c": 3.0,
+    "f": 8.5,
     "fi": 0.3,
     "ca": 4.3,
     "fe": 0.34,
@@ -20037,10 +20037,10 @@
     "en": "Sunflower cookies",
     "bn": "সানফ্লাওয়ার কুকিজ",
     "s": "25g",
-    "k": 954.3,
-    "p": 17.4,
-    "c": 73.4,
-    "f": 66.5,
+    "k": 120.0,
+    "p": 2.5,
+    "c": 13.0,
+    "f": 6.5,
     "fi": 7.2,
     "ca": 129.1,
     "fe": 4.04,
@@ -53416,7 +53416,12 @@
     "fi": 2.3,
     "ca": 24,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "dosa",
+      "masala",
+      "mysore"
+    ],
     "family": "dosa",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53443,7 +53448,11 @@
     "fi": 1.7,
     "ca": 16,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "dosa",
+      "rava"
+    ],
     "family": "dosa",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53470,7 +53479,11 @@
     "fi": 2.0,
     "ca": 20,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "dosa",
+      "onion"
+    ],
     "family": "dosa",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53497,7 +53510,11 @@
     "fi": 1.6,
     "ca": 20,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "dosa",
+      "set"
+    ],
     "family": "dosa",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53524,7 +53541,11 @@
     "fi": 1.8,
     "ca": 18,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "idli",
+      "rava"
+    ],
     "family": "idli",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53551,7 +53572,11 @@
     "fi": 4.0,
     "ca": 42,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "medu",
+      "vada"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53574,7 +53599,10 @@
     "fi": 2.0,
     "ca": 16,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "pongal"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53597,7 +53625,11 @@
     "fi": 2.0,
     "ca": 18,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "pongal",
+      "ven"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53620,7 +53652,11 @@
     "fi": 2.5,
     "ca": 20,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "bath",
+      "bisibele",
+      "rice"
+    ],
     "family": "rice",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53649,7 +53685,10 @@
     "fi": 2.0,
     "ca": 14,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "upma"
+    ],
     "family": "upma",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53672,7 +53711,10 @@
     "fi": 4.5,
     "ca": 35,
     "fe": 2.5,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "pesarattu"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53695,7 +53737,11 @@
     "fi": 4.0,
     "ca": 45,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "ghanta",
+      "tarkari",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53718,7 +53764,11 @@
     "fi": 0.2,
     "ca": 52,
     "fe": 0.2,
-    "kw": [],
+    "kw": [
+      "dahi",
+      "pakhala",
+      "rice"
+    ],
     "family": "yogurt",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53745,7 +53795,11 @@
     "fi": 6.0,
     "ca": 68,
     "fe": 3.2,
-    "kw": [],
+    "kw": [
+      "badi",
+      "chura",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53768,7 +53822,11 @@
     "fi": 2.5,
     "ca": 22,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "chhatu",
+      "rai",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53791,7 +53849,11 @@
     "fi": 0.4,
     "ca": 36,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "fish",
+      "jhola",
+      "machha"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53814,7 +53876,11 @@
     "fi": 0.4,
     "ca": 92,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "chingudi",
+      "fish",
+      "jhola"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53837,7 +53903,11 @@
     "fi": 0.5,
     "ca": 88,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "checha",
+      "chingudi",
+      "fish"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53860,7 +53930,11 @@
     "fi": 0.2,
     "ca": 68,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "crab",
+      "curry",
+      "fish"
+    ],
     "family": "crab",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53883,7 +53957,12 @@
     "fi": 0.6,
     "ca": 24,
     "fe": 2.6,
-    "kw": [],
+    "kw": [
+      "curry",
+      "meat",
+      "mutton",
+      "odisha"
+    ],
     "family": "mutton",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53911,7 +53990,11 @@
     "fi": 0.5,
     "ca": 22,
     "fe": 2.7,
-    "kw": [],
+    "kw": [
+      "kasa",
+      "meat",
+      "mutton"
+    ],
     "family": "mutton",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53939,7 +54022,12 @@
     "fi": 0.4,
     "ca": 20,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "curry",
+      "meat",
+      "odisha"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53966,7 +54054,11 @@
     "fi": 0.5,
     "ca": 22,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "kasa",
+      "meat"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -53993,7 +54085,11 @@
     "fi": 3.6,
     "ca": 36,
     "fe": 1.7,
-    "kw": [],
+    "kw": [
+      "dalma",
+      "legume",
+      "muga"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54016,7 +54112,11 @@
     "fi": 1.0,
     "ca": 30,
     "fe": 0.7,
-    "kw": [],
+    "kw": [
+      "kakara",
+      "pitha",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54039,7 +54139,11 @@
     "fi": 1.5,
     "ca": 55,
     "fe": 0.9,
-    "kw": [],
+    "kw": [
+      "pitha",
+      "poda",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54062,7 +54166,12 @@
     "fi": 2.2,
     "ca": 12,
     "fe": 0.7,
-    "kw": [],
+    "kw": [
+      "aloo",
+      "bharta",
+      "odisha",
+      "vegetable"
+    ],
     "family": "potato",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54085,7 +54194,11 @@
     "fi": 3.1,
     "ca": 22,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "baigana",
+      "poda",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54108,7 +54221,11 @@
     "fi": 2.4,
     "ca": 18,
     "fe": 0.4,
-    "kw": [],
+    "kw": [
+      "khatta",
+      "oou",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54131,7 +54248,11 @@
     "fi": 1.8,
     "ca": 16,
     "fe": 0.5,
-    "kw": [],
+    "kw": [
+      "khatta",
+      "tomato",
+      "vegetable"
+    ],
     "family": "tomato",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54154,7 +54275,10 @@
     "fi": 1.5,
     "ca": 18,
     "fe": 0.5,
-    "kw": [],
+    "kw": [
+      "ambila",
+      "soup"
+    ],
     "family": "soup",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54177,7 +54301,12 @@
     "fi": 3.0,
     "ca": 30,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "dal",
+      "khata",
+      "legume",
+      "mitha"
+    ],
     "family": "dal",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54205,7 +54334,12 @@
     "fi": 3.5,
     "ca": 88,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "bhaja",
+      "poi",
+      "saag",
+      "shaak"
+    ],
     "family": "shaak",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54228,7 +54362,12 @@
     "fi": 3.7,
     "ca": 105,
     "fe": 2.4,
-    "kw": [],
+    "kw": [
+      "bhaja",
+      "kosala",
+      "saag",
+      "shaak"
+    ],
     "family": "shaak",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54251,7 +54390,11 @@
     "fi": 2.5,
     "ca": 120,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "grain",
+      "mandia",
+      "porridge"
+    ],
     "family": "grain",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54274,7 +54417,11 @@
     "fi": 4.0,
     "ca": 140,
     "fe": 2.2,
-    "kw": [],
+    "kw": [
+      "mandia",
+      "pitha",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54297,7 +54444,11 @@
     "fi": 0.3,
     "ca": 8,
     "fe": 0.3,
-    "kw": [],
+    "kw": [
+      "jagannath",
+      "mahaprasad",
+      "rice"
+    ],
     "family": "rice",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54326,7 +54477,10 @@
     "fi": 4.2,
     "ca": 48,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "mahura",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54349,7 +54503,11 @@
     "fi": 2.8,
     "ca": 34,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "besan",
+      "tarkari",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54372,7 +54530,11 @@
     "fi": 0.5,
     "ca": 96,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "besara",
+      "fish",
+      "prawn"
+    ],
     "family": "prawn",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54400,7 +54562,10 @@
     "fi": 0.4,
     "ca": 38,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "ambila",
+      "fish"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54423,7 +54588,13 @@
     "fi": 0.5,
     "ca": 82,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "chingudi",
+      "curry",
+      "fish",
+      "malai",
+      "odisha"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54446,7 +54617,12 @@
     "fi": 5.5,
     "ca": 60,
     "fe": 3.0,
-    "kw": [],
+    "kw": [
+      "badi",
+      "chura",
+      "ghassa",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54469,7 +54645,11 @@
     "fi": 2.5,
     "ca": 22,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "indori",
+      "poha"
+    ],
     "family": "poha",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54492,7 +54672,11 @@
     "fi": 1.8,
     "ca": 20,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "jalebi",
+      "poha"
+    ],
     "family": "poha",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54515,7 +54699,11 @@
     "fi": 1.8,
     "ca": 15,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "khichdi",
+      "sabudana"
+    ],
     "family": "khichdi",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54542,7 +54730,11 @@
     "fi": 2.0,
     "ca": 22,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "sabudana",
+      "snack",
+      "vada"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54565,7 +54757,11 @@
     "fi": 2.8,
     "ca": 18,
     "fe": 0.9,
-    "kw": [],
+    "kw": [
+      "bhutte",
+      "kees",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54588,7 +54784,11 @@
     "fi": 4.2,
     "ca": 28,
     "fe": 2.2,
-    "kw": [],
+    "kw": [
+      "bafla",
+      "dal",
+      "legume"
+    ],
     "family": "dal",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54616,7 +54816,11 @@
     "fi": 5.5,
     "ca": 48,
     "fe": 3.8,
-    "kw": [],
+    "kw": [
+      "ratlami",
+      "sev",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54639,7 +54843,10 @@
     "fi": 3.5,
     "ca": 20,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "garadu",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54662,7 +54869,12 @@
     "fi": 0.6,
     "ca": 24,
     "fe": 2.8,
-    "kw": [],
+    "kw": [
+      "bhopali",
+      "gosht",
+      "korma",
+      "meat"
+    ],
     "family": "meat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54685,7 +54897,12 @@
     "fi": 0.4,
     "ca": 20,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "bhopali",
+      "chicken",
+      "curry",
+      "meat"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54712,7 +54929,12 @@
     "fi": 1.2,
     "ca": 220,
     "fe": 0.6,
-    "kw": [],
+    "kw": [
+      "butter",
+      "dairy",
+      "masala",
+      "paneer"
+    ],
     "family": "paneer",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54739,7 +54961,11 @@
     "fi": 1.5,
     "ca": 78,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "bada",
+      "dahi",
+      "snack"
+    ],
     "family": "yogurt",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54766,7 +54992,11 @@
     "fi": 0.0,
     "ca": 185,
     "fe": 0.5,
-    "kw": [],
+    "kw": [
+      "bati",
+      "mawa",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54789,7 +55019,11 @@
     "fi": 0.2,
     "ca": 145,
     "fe": 0.5,
-    "kw": [],
+    "kw": [
+      "jalebi",
+      "mawa",
+      "sweet"
+    ],
     "family": "jalebi",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54815,7 +55049,10 @@
     "fi": 0.0,
     "ca": 220,
     "fe": 0.2,
-    "kw": [],
+    "kw": [
+      "shrikhand",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54838,7 +55075,10 @@
     "fi": 4.2,
     "ca": 42,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "misal"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54861,7 +55101,11 @@
     "fi": 3.0,
     "ca": 36,
     "fe": 1.7,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "misal",
+      "pav"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54884,7 +55128,11 @@
     "fi": 3.5,
     "ca": 28,
     "fe": 1.6,
-    "kw": [],
+    "kw": [
+      "pav",
+      "snack",
+      "vada"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54907,7 +55155,11 @@
     "fi": 3.2,
     "ca": 24,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "batata",
+      "snack",
+      "vada"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54930,7 +55182,11 @@
     "fi": 2.2,
     "ca": 18,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "kanda",
+      "poha"
+    ],
     "family": "poha",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54953,7 +55209,10 @@
     "fi": 5.0,
     "ca": 32,
     "fe": 2.4,
-    "kw": [],
+    "kw": [
+      "breakfast",
+      "thalipeeth"
+    ],
     "family": "breakfast",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54976,7 +55235,10 @@
     "fi": 2.2,
     "ca": 26,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "pithla",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -54999,7 +55261,11 @@
     "fi": 4.5,
     "ca": 32,
     "fe": 2.1,
-    "kw": [],
+    "kw": [
+      "bhakri",
+      "bread",
+      "pithla"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55022,7 +55288,11 @@
     "fi": 6.0,
     "ca": 25,
     "fe": 2.7,
-    "kw": [],
+    "kw": [
+      "bhakri",
+      "bread",
+      "jowar"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55045,7 +55315,11 @@
     "fi": 4.0,
     "ca": 42,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "bharli",
+      "vangi",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55068,7 +55342,11 @@
     "fi": 5.0,
     "ca": 34,
     "fe": 2.3,
-    "kw": [],
+    "kw": [
+      "legume",
+      "matki",
+      "usal"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55091,7 +55369,10 @@
     "fi": 4.6,
     "ca": 30,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "legume",
+      "usal"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55114,7 +55395,10 @@
     "fi": 2.5,
     "ca": 28,
     "fe": 1.9,
-    "kw": [],
+    "kw": [
+      "vegetable",
+      "zunka"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55137,7 +55421,11 @@
     "fi": 4.5,
     "ca": 65,
     "fe": 2.5,
-    "kw": [],
+    "kw": [
+      "kothimbir",
+      "snack",
+      "vadi"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55160,7 +55448,11 @@
     "fi": 0.5,
     "ca": 28,
     "fe": 0.3,
-    "kw": [],
+    "kw": [
+      "beverage",
+      "kadhi",
+      "sol"
+    ],
     "family": "beverage",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55183,7 +55475,11 @@
     "fi": 0.8,
     "ca": 24,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "kolhapuri",
+      "meat"
+    ],
     "family": "puri",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55210,7 +55506,11 @@
     "fi": 0.7,
     "ca": 22,
     "fe": 2.8,
-    "kw": [],
+    "kw": [
+      "kolhapuri",
+      "meat",
+      "mutton"
+    ],
     "family": "puri",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55237,7 +55537,11 @@
     "fi": 0.5,
     "ca": 55,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "bombil",
+      "fish",
+      "fry"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55260,7 +55564,11 @@
     "fi": 3.2,
     "ca": 32,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "poli",
+      "puran",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55283,7 +55591,10 @@
     "fi": 2.2,
     "ca": 18,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "modak",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55306,7 +55617,11 @@
     "fi": 2.0,
     "ca": 16,
     "fe": 0.7,
-    "kw": [],
+    "kw": [
+      "modak",
+      "sweet",
+      "ukadiche"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55329,7 +55644,10 @@
     "fi": 0.0,
     "ca": 190,
     "fe": 0.2,
-    "kw": [],
+    "kw": [
+      "basundi",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55352,7 +55670,11 @@
     "fi": 5.2,
     "ca": 42,
     "fe": 2.1,
-    "kw": [],
+    "kw": [
+      "bhature",
+      "chole",
+      "legume"
+    ],
     "family": "chana",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55379,7 +55701,10 @@
     "fi": 5.8,
     "ca": 48,
     "fe": 2.4,
-    "kw": [],
+    "kw": [
+      "chole",
+      "legume"
+    ],
     "family": "chana",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55406,7 +55731,10 @@
     "fi": 1.8,
     "ca": 18,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "bhature",
+      "bread"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55429,7 +55757,11 @@
     "fi": 4.2,
     "ca": 28,
     "fe": 1.6,
-    "kw": [],
+    "kw": [
+      "chawal",
+      "legume",
+      "rajma"
+    ],
     "family": "rajma",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55455,7 +55787,11 @@
     "fi": 1.2,
     "ca": 65,
     "fe": 0.9,
-    "kw": [],
+    "kw": [
+      "chawal",
+      "kadhi",
+      "rice"
+    ],
     "family": "rice",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55484,7 +55820,11 @@
     "fi": 3.0,
     "ca": 20,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "aloo",
+      "snack",
+      "tikki"
+    ],
     "family": "potato",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55507,7 +55847,12 @@
     "fi": 3.5,
     "ca": 55,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "aloo",
+      "chaat",
+      "snack",
+      "tikki"
+    ],
     "family": "chaat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55535,7 +55880,11 @@
     "fi": 2.5,
     "ca": 60,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "chaat",
+      "papdi",
+      "snack"
+    ],
     "family": "chaat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55563,7 +55912,11 @@
     "fi": 1.5,
     "ca": 78,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "bhalla",
+      "dahi",
+      "snack"
+    ],
     "family": "yogurt",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55590,7 +55943,10 @@
     "fi": 2.8,
     "ca": 22,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "golgappa",
+      "snack"
+    ],
     "family": "chaat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55618,7 +55974,11 @@
     "fi": 4.2,
     "ca": 34,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "kulcha",
+      "legume",
+      "matar"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55641,7 +56001,10 @@
     "fi": 1.8,
     "ca": 22,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "bread",
+      "kulcha"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55664,7 +56027,11 @@
     "fi": 0.2,
     "ca": 18,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "meat",
+      "tikka"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55691,7 +56058,11 @@
     "fi": 0.2,
     "ca": 24,
     "fe": 2.5,
-    "kw": [],
+    "kw": [
+      "kebab",
+      "meat",
+      "seekh"
+    ],
     "family": "meat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55714,7 +56085,11 @@
     "fi": 1.0,
     "ca": 26,
     "fe": 2.2,
-    "kw": [],
+    "kw": [
+      "kebab",
+      "meat",
+      "shami"
+    ],
     "family": "meat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55737,7 +56112,11 @@
     "fi": 0.8,
     "ca": 310,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "dairy",
+      "paneer",
+      "tikka"
+    ],
     "family": "paneer",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55764,7 +56143,10 @@
     "fi": 0.0,
     "ca": 20,
     "fe": 0.4,
-    "kw": [],
+    "kw": [
+      "jalebi",
+      "sweet"
+    ],
     "family": "jalebi",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55790,7 +56172,11 @@
     "fi": 0.0,
     "ca": 125,
     "fe": 0.2,
-    "kw": [],
+    "kw": [
+      "chaat",
+      "daulat",
+      "sweet"
+    ],
     "family": "chaat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55818,7 +56204,10 @@
     "fi": 1.5,
     "ca": 18,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "momo",
+      "snack"
+    ],
     "family": "momo",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55846,7 +56235,11 @@
     "fi": 1.5,
     "ca": 20,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "momo",
+      "snack"
+    ],
     "family": "momo",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55874,7 +56267,10 @@
     "fi": 1.5,
     "ca": 22,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "momo",
+      "snack"
+    ],
     "family": "momo",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55902,7 +56298,10 @@
     "fi": 1.5,
     "ca": 18,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "noodle",
+      "thukpa"
+    ],
     "family": "noodle",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55929,7 +56328,11 @@
     "fi": 1.4,
     "ca": 20,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "noodle",
+      "thukpa"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55956,7 +56359,11 @@
     "fi": 2.0,
     "ca": 24,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "chaat",
+      "snack",
+      "wai"
+    ],
     "family": "chaat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -55984,7 +56391,10 @@
     "fi": 2.0,
     "ca": 25,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "bread",
+      "phaley"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56007,7 +56417,10 @@
     "fi": 1.5,
     "ca": 22,
     "fe": 1.6,
-    "kw": [],
+    "kw": [
+      "shabaley",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56030,7 +56443,11 @@
     "fi": 1.0,
     "ca": 16,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "bread",
+      "roti",
+      "sel"
+    ],
     "family": "roti",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56059,7 +56476,10 @@
     "fi": 4.5,
     "ca": 110,
     "fe": 2.4,
-    "kw": [],
+    "kw": [
+      "gundruk",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56082,7 +56502,10 @@
     "fi": 2.5,
     "ca": 80,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "gundruk",
+      "soup"
+    ],
     "family": "soup",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56105,7 +56528,11 @@
     "fi": 4.0,
     "ca": 65,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "curry",
+      "kinema",
+      "legume"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56128,7 +56555,12 @@
     "fi": 2.5,
     "ca": 18,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "aloo",
+      "darjeeling",
+      "dum",
+      "vegetable"
+    ],
     "family": "potato",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56151,7 +56583,11 @@
     "fi": 4.0,
     "ca": 65,
     "fe": 1.8,
-    "kw": [],
+    "kw": [
+      "curry",
+      "ningro",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56174,7 +56610,10 @@
     "fi": 0.0,
     "ca": 720,
     "fe": 0.5,
-    "kw": [],
+    "kw": [
+      "chhurpi",
+      "dairy"
+    ],
     "family": "dairy",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56197,7 +56636,10 @@
     "fi": 0.3,
     "ca": 110,
     "fe": 0.2,
-    "kw": [],
+    "kw": [
+      "chhurpi",
+      "soup"
+    ],
     "family": "soup",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56220,7 +56662,12 @@
     "fi": 0.5,
     "ca": 18,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "curry",
+      "meat",
+      "nepali",
+      "pork"
+    ],
     "family": "pork",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56243,7 +56690,11 @@
     "fi": 1.0,
     "ca": 20,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "chicken",
+      "chilli",
+      "meat"
+    ],
     "family": "chicken",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56270,7 +56721,11 @@
     "fi": 2.0,
     "ca": 22,
     "fe": 1.0,
-    "kw": [],
+    "kw": [
+      "chowmein",
+      "noodle",
+      "veg"
+    ],
     "family": "noodle",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56297,7 +56752,11 @@
     "fi": 0.0,
     "ca": 250,
     "fe": 0.3,
-    "kw": [],
+    "kw": [
+      "makha",
+      "sandesh",
+      "sweet"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56320,7 +56779,10 @@
     "fi": 5.8,
     "ca": 38,
     "fe": 2.6,
-    "kw": [],
+    "kw": [
+      "bread",
+      "litti"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56343,7 +56805,11 @@
     "fi": 4.8,
     "ca": 32,
     "fe": 2.0,
-    "kw": [],
+    "kw": [
+      "bread",
+      "chokha",
+      "litti"
+    ],
     "family": "bread",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56366,7 +56832,11 @@
     "fi": 3.5,
     "ca": 28,
     "fe": 0.9,
-    "kw": [],
+    "kw": [
+      "baingan",
+      "chokha",
+      "vegetable"
+    ],
     "family": "eggplant",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56389,7 +56859,11 @@
     "fi": 2.5,
     "ca": 16,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "aloo",
+      "chokha",
+      "vegetable"
+    ],
     "family": "potato",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56412,7 +56886,11 @@
     "fi": 6.0,
     "ca": 42,
     "fe": 2.8,
-    "kw": [],
+    "kw": [
+      "bread",
+      "paratha",
+      "sattu"
+    ],
     "family": "paratha",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56439,7 +56917,11 @@
     "fi": 3.0,
     "ca": 22,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "dal",
+      "pitha",
+      "snack"
+    ],
     "family": "dal",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56467,7 +56949,10 @@
     "fi": 2.0,
     "ca": 22,
     "fe": 1.3,
-    "kw": [],
+    "kw": [
+      "sweet",
+      "thekua"
+    ],
     "family": "sweet",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56490,7 +56975,11 @@
     "fi": 1.5,
     "ca": 72,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "bari",
+      "kadhi",
+      "legume"
+    ],
     "family": "legume",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56513,7 +57002,11 @@
     "fi": 0.5,
     "ca": 32,
     "fe": 1.2,
-    "kw": [],
+    "kw": [
+      "bihari",
+      "curry",
+      "fish"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56536,7 +57029,11 @@
     "fi": 0.5,
     "ca": 20,
     "fe": 2.8,
-    "kw": [],
+    "kw": [
+      "champaran",
+      "meat",
+      "mutton"
+    ],
     "family": "mutton",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56564,7 +57061,11 @@
     "fi": 0.3,
     "ca": 18,
     "fe": 2.2,
-    "kw": [],
+    "kw": [
+      "bihari",
+      "kebab",
+      "meat"
+    ],
     "family": "meat",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56587,7 +57088,10 @@
     "fi": 2.5,
     "ca": 24,
     "fe": 1.5,
-    "kw": [],
+    "kw": [
+      "dhuska",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56610,7 +57114,12 @@
     "fi": 3.0,
     "ca": 20,
     "fe": 1.4,
-    "kw": [],
+    "kw": [
+      "curry",
+      "mushroom",
+      "rugra",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56633,7 +57142,11 @@
     "fi": 4.5,
     "ca": 320,
     "fe": 3.5,
-    "kw": [],
+    "kw": [
+      "bread",
+      "marua",
+      "roti"
+    ],
     "family": "roti",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56662,7 +57175,11 @@
     "fi": 5.0,
     "ca": 35,
     "fe": 2.2,
-    "kw": [],
+    "kw": [
+      "bread",
+      "chilka",
+      "roti"
+    ],
     "family": "roti",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56691,7 +57208,12 @@
     "fi": 0.0,
     "ca": 6,
     "fe": 0.1,
-    "kw": [],
+    "kw": [
+      "beer",
+      "beverage",
+      "handia",
+      "rice"
+    ],
     "family": "rice",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56720,7 +57242,12 @@
     "fi": 3.5,
     "ca": 32,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "bamboo",
+      "curry",
+      "shoot",
+      "vegetable"
+    ],
     "family": "vegetable",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56743,7 +57270,10 @@
     "fi": 1.2,
     "ca": 18,
     "fe": 0.8,
-    "kw": [],
+    "kw": [
+      "peetha",
+      "snack"
+    ],
     "family": "snack",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56766,7 +57296,12 @@
     "fi": 0.3,
     "ca": 18,
     "fe": 2.7,
-    "kw": [],
+    "kw": [
+      "curry",
+      "meat",
+      "mutton",
+      "tribal"
+    ],
     "family": "mutton",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56794,7 +57329,11 @@
     "fi": 0.3,
     "ca": 28,
     "fe": 1.1,
-    "kw": [],
+    "kw": [
+      "curry",
+      "fish",
+      "tribal"
+    ],
     "family": "fish",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -56817,7 +57356,11 @@
     "fi": 1.0,
     "ca": 18,
     "fe": 0.7,
-    "kw": [],
+    "kw": [
+      "arsa",
+      "roti",
+      "sweet"
+    ],
     "family": "roti",
     "nutrition_source": "user_estimate",
     "nutrition_confidence": "low",
@@ -76690,7 +77233,12 @@
     "popularity_score": 88,
     "search_priority": 67,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "josh",
+      "meat",
+      "rogan"
+    ]
   },
   {
     "id": 17002,
@@ -76713,7 +77261,11 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "yakhni"
+    ]
   },
   {
     "id": 17003,
@@ -76736,7 +77288,11 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "gushtaba",
+      "meat"
+    ]
   },
   {
     "id": 17004,
@@ -76759,7 +77315,11 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "rista"
+    ]
   },
   {
     "id": 17005,
@@ -76782,7 +77342,12 @@
     "popularity_score": 88,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "maaz",
+      "meat",
+      "tabak"
+    ]
   },
   {
     "id": 17006,
@@ -76805,7 +77370,12 @@
     "popularity_score": 93,
     "search_priority": 76,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dhaniwal",
+      "korma",
+      "meat"
+    ]
   },
   {
     "id": 17007,
@@ -76828,7 +77398,12 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aab",
+      "gosht",
+      "meat"
+    ]
   },
   {
     "id": 17008,
@@ -76851,7 +77426,13 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aloo",
+      "dum",
+      "kashmiri",
+      "vegetable"
+    ]
   },
   {
     "id": 17009,
@@ -76874,7 +77455,12 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "nadru",
+      "vegetable",
+      "yakhni"
+    ]
   },
   {
     "id": 17010,
@@ -76897,7 +77483,12 @@
     "popularity_score": 70,
     "search_priority": 62,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "monje",
+      "nadru",
+      "snack"
+    ]
   },
   {
     "id": 17011,
@@ -76920,7 +77511,12 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "haak",
+      "saag",
+      "vegetable"
+    ]
   },
   {
     "id": 17013,
@@ -76943,7 +77539,12 @@
     "popularity_score": 80,
     "search_priority": 68,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chaman",
+      "dairy",
+      "kaliya"
+    ]
   },
   {
     "id": 17014,
@@ -76966,7 +77567,12 @@
     "popularity_score": 100,
     "search_priority": 80,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "modur",
+      "pulao",
+      "rice"
+    ]
   },
   {
     "id": 17015,
@@ -76989,7 +77595,12 @@
     "popularity_score": 65,
     "search_priority": 59,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "kahwa",
+      "kashmiri"
+    ]
   },
   {
     "id": 18001,
@@ -77015,7 +77626,13 @@
       "biriyani",
       "biriani"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "biryani",
+      "chicken",
+      "lucknowi",
+      "rice"
+    ]
   },
   {
     "id": 18002,
@@ -77041,7 +77658,13 @@
       "biriyani",
       "biriani"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "biryani",
+      "lucknowi",
+      "mutton",
+      "rice"
+    ]
   },
   {
     "id": 18003,
@@ -77064,7 +77687,12 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "galouti",
+      "kebab",
+      "meat"
+    ]
   },
   {
     "id": 18005,
@@ -77087,7 +77715,12 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "kakori",
+      "kebab",
+      "meat"
+    ]
   },
   {
     "id": 18006,
@@ -77110,7 +77743,11 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "nihari"
+    ]
   },
   {
     "id": 18008,
@@ -77137,7 +77774,12 @@
       "luchi",
       "bhatura"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bedmi",
+      "bread",
+      "puri"
+    ]
   },
   {
     "id": 18009,
@@ -77160,7 +77802,12 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aloo",
+      "sabzi",
+      "vegetable"
+    ]
   },
   {
     "id": 18010,
@@ -77189,7 +77836,11 @@
       "boiled rice",
       "steamed rice"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "rice",
+      "tehri"
+    ]
   },
   {
     "id": 18101,
@@ -77212,7 +77863,12 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fish",
+      "masor",
+      "tenga"
+    ]
   },
   {
     "id": 18102,
@@ -77235,7 +77891,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "khar",
+      "vegetable"
+    ]
   },
   {
     "id": 18103,
@@ -77258,7 +77918,12 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curry",
+      "duck",
+      "meat"
+    ]
   },
   {
     "id": 18104,
@@ -77285,7 +77950,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bamboo",
+      "chicken",
+      "meat",
+      "shoot"
+    ]
   },
   {
     "id": 18105,
@@ -77308,7 +77979,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "pitika",
+      "vegetable"
+    ]
   },
   {
     "id": 18106,
@@ -77331,7 +78006,11 @@
     "popularity_score": 82,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "khatta",
+      "vegetable"
+    ]
   },
   {
     "id": 18107,
@@ -77354,7 +78033,12 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fish",
+      "maas",
+      "pura"
+    ]
   },
   {
     "id": 18108,
@@ -77381,7 +78065,13 @@
       "curd",
       "doi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bora",
+      "curd",
+      "rice",
+      "saul"
+    ]
   },
   {
     "id": 18109,
@@ -77410,7 +78100,12 @@
       "boiled rice",
       "steamed rice"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhat",
+      "poita",
+      "rice"
+    ]
   },
   {
     "id": 18110,
@@ -77433,7 +78128,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "assamese",
+      "vegetable"
+    ]
   },
   {
     "id": 19004,
@@ -77459,7 +78158,12 @@
       "kidney bean",
       "red kidney bean"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "legume",
+      "masala",
+      "rajma"
+    ]
   },
   {
     "id": 19007,
@@ -77482,7 +78186,11 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amritsari",
+      "fish"
+    ]
   },
   {
     "id": 19008,
@@ -77505,7 +78213,12 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amritsari",
+      "bread",
+      "kulcha"
+    ]
   },
   {
     "id": 19009,
@@ -77532,7 +78245,12 @@
       "chaas",
       "mattha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "lassi",
+      "sweet"
+    ]
   },
   {
     "id": 19101,
@@ -77559,7 +78277,12 @@
       "kitchdi",
       "kichri"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bajra",
+      "khichdi",
+      "rice"
+    ]
   },
   {
     "id": 19103,
@@ -77586,7 +78309,12 @@
       "bhajia",
       "bajji"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "kadhi",
+      "pakora",
+      "vegetable"
+    ]
   },
   {
     "id": 19105,
@@ -77615,7 +78343,13 @@
       "flatbread",
       "phulka"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "besan",
+      "bread",
+      "masala",
+      "roti"
+    ]
   },
   {
     "id": 19106,
@@ -77638,7 +78372,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "saag",
+      "vegetable"
+    ]
   },
   {
     "id": 19107,
@@ -77666,7 +78404,12 @@
       "firni",
       "phirni"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "haryanvi",
+      "kheer",
+      "sweet"
+    ]
   },
   {
     "id": 19108,
@@ -77693,7 +78436,13 @@
       "laccha paratha",
       "aloo paratha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aloo",
+      "bajra",
+      "bread",
+      "paratha"
+    ]
   },
   {
     "id": 19202,
@@ -77716,7 +78465,11 @@
     "popularity_score": 78,
     "search_priority": 67,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "idiyappam"
+    ]
   },
   {
     "id": 19203,
@@ -77739,7 +78492,11 @@
     "popularity_score": 78,
     "search_priority": 67,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "puttu"
+    ]
   },
   {
     "id": 19204,
@@ -77762,7 +78519,12 @@
     "popularity_score": 90,
     "search_priority": 74,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curry",
+      "kadala",
+      "legume"
+    ]
   },
   {
     "id": 19206,
@@ -77785,7 +78547,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "erissery",
+      "vegetable"
+    ]
   },
   {
     "id": 19207,
@@ -77808,7 +78574,11 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "thoran",
+      "vegetable"
+    ]
   },
   {
     "id": 19208,
@@ -77831,7 +78601,11 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fish",
+      "molee"
+    ]
   },
   {
     "id": 19209,
@@ -77854,7 +78628,12 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curry",
+      "fish",
+      "kerala"
+    ]
   },
   {
     "id": 19211,
@@ -77881,7 +78660,12 @@
       "laccha paratha",
       "aloo paratha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "malabar",
+      "parotta"
+    ]
   },
   {
     "id": 19212,
@@ -77909,7 +78693,12 @@
       "jhinga",
       "chingri mach"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fish",
+      "prawn",
+      "roast"
+    ]
   },
   {
     "id": 19213,
@@ -77932,7 +78721,13 @@
     "popularity_score": 88,
     "search_priority": 73,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "fry",
+      "kerala",
+      "meat"
+    ]
   },
   {
     "id": 19214,
@@ -77960,7 +78755,11 @@
       "firni",
       "phirni"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "payasam",
+      "sweet"
+    ]
   },
   {
     "id": 19215,
@@ -77983,7 +78782,12 @@
     "popularity_score": 68,
     "search_priority": 61,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ada",
+      "pradhaman",
+      "sweet"
+    ]
   },
   {
     "id": 20011,
@@ -78006,7 +78810,13 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhaji",
+      "lai",
+      "vegetable",
+      "xaak"
+    ]
   },
   {
     "id": 20012,
@@ -78029,7 +78839,12 @@
     "popularity_score": 85,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bilahi",
+      "fish",
+      "maas"
+    ]
   },
   {
     "id": 21001,
@@ -78052,7 +78867,12 @@
     "popularity_score": 82,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "boror",
+      "tenga",
+      "vegetable"
+    ]
   },
   {
     "id": 21002,
@@ -78079,7 +78899,12 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "koldil",
+      "meat"
+    ]
   },
   {
     "id": 20015,
@@ -78106,7 +78931,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "chicken",
+      "meat",
+      "sesame"
+    ]
   },
   {
     "id": 54001,
@@ -78130,7 +78961,13 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dairy",
+      "gold",
+      "milk"
+    ]
   },
   {
     "id": 54002,
@@ -78154,7 +78991,13 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dairy",
+      "milk",
+      "taaza"
+    ]
   },
   {
     "id": 54003,
@@ -78178,7 +79021,13 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "cow",
+      "dairy",
+      "milk"
+    ]
   },
   {
     "id": 54004,
@@ -78206,7 +79055,13 @@
       "chhena",
       "chena"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dairy",
+      "fresh",
+      "paneer"
+    ]
   },
   {
     "id": 54005,
@@ -78232,7 +79087,12 @@
     "aliases": [
       "makhan"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "butter",
+      "dairy"
+    ]
   },
   {
     "id": 54006,
@@ -78259,7 +79119,12 @@
       "clarified butter",
       "desi ghee"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dairy",
+      "ghee"
+    ]
   },
   {
     "id": 54007,
@@ -78283,7 +79148,12 @@
     "popularity_score": 80,
     "search_priority": 60,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "cheese",
+      "dairy"
+    ]
   },
   {
     "id": 54008,
@@ -78307,7 +79177,13 @@
     "popularity_score": 80,
     "search_priority": 60,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "cheese",
+      "dairy",
+      "slice"
+    ]
   },
   {
     "id": 54009,
@@ -78335,7 +79211,13 @@
       "curd",
       "doi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dahi",
+      "dairy",
+      "masti"
+    ]
   },
   {
     "id": 54010,
@@ -78363,7 +79245,12 @@
       "curd",
       "doi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "curd",
+      "dairy"
+    ]
   },
   {
     "id": 54011,
@@ -78387,7 +79274,12 @@
     "popularity_score": 65,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "beverage",
+      "buttermilk"
+    ]
   },
   {
     "id": 54012,
@@ -78415,7 +79307,12 @@
       "chaas",
       "mattha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "beverage",
+      "lassi"
+    ]
   },
   {
     "id": 54013,
@@ -78439,7 +79336,13 @@
     "popularity_score": 80,
     "search_priority": 60,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "cream",
+      "dairy",
+      "fresh"
+    ]
   },
   {
     "id": 54014,
@@ -78463,7 +79366,13 @@
     "popularity_score": 68,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "mate",
+      "mithai",
+      "sweet"
+    ]
   },
   {
     "id": 54015,
@@ -78487,7 +79396,14 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amul",
+      "dairy",
+      "milk",
+      "slim",
+      "trim"
+    ]
   },
   {
     "id": 51001,
@@ -78511,7 +79427,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "gold",
+      "marie"
+    ]
   },
   {
     "id": 51002,
@@ -78537,7 +79459,15 @@
     "aliases": [
       "makhan"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "butter",
+      "cookies",
+      "day",
+      "good"
+    ]
   },
   {
     "id": 51003,
@@ -78564,7 +79494,14 @@
       "kaju",
       "kaaju"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "cashew",
+      "day",
+      "good"
+    ]
   },
   {
     "id": 51004,
@@ -78588,7 +79525,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "bourbon",
+      "britannia"
+    ]
   },
   {
     "id": 51005,
@@ -78612,7 +79554,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "bikis",
+      "britannia",
+      "milk"
+    ]
   },
   {
     "id": 51006,
@@ -78636,7 +79584,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "digestive",
+      "nutrichoice"
+    ]
   },
   {
     "id": 51007,
@@ -78660,7 +79614,11 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia"
+    ]
   },
   {
     "id": 51008,
@@ -78684,7 +79642,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "chaska",
+      "maska"
+    ]
   },
   {
     "id": 51009,
@@ -78708,7 +79672,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "jam",
+      "jim"
+    ]
   },
   {
     "id": 51010,
@@ -78732,7 +79702,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "hearts",
+      "little"
+    ]
   },
   {
     "id": 51011,
@@ -78756,7 +79732,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "original",
+      "tiger"
+    ]
   },
   {
     "id": 51012,
@@ -78780,7 +79762,13 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "britannia",
+      "wheat",
+      "whole"
+    ]
   },
   {
     "id": 51013,
@@ -78804,7 +79792,12 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "britannia",
+      "brown"
+    ]
   },
   {
     "id": 51014,
@@ -78828,7 +79821,13 @@
     "popularity_score": 80,
     "search_priority": 60,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "britannia",
+      "cheese",
+      "dairy",
+      "slices"
+    ]
   },
   {
     "id": 51015,
@@ -78852,7 +79851,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "britannia",
+      "rusk",
+      "suji"
+    ]
   },
   {
     "id": 52001,
@@ -78876,7 +79881,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "original",
+      "parle"
+    ]
   },
   {
     "id": 52002,
@@ -78904,7 +79914,13 @@
       "chaas",
       "mattha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "classic",
+      "monaco",
+      "parle"
+    ]
   },
   {
     "id": 52003,
@@ -78928,7 +79944,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "krackjack",
+      "parle"
+    ]
   },
   {
     "id": 52004,
@@ -78952,7 +79973,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "chip",
+      "chocolate",
+      "hide",
+      "parle",
+      "seek"
+    ]
   },
   {
     "id": 52005,
@@ -78976,7 +80005,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "chocolate",
+      "fab",
+      "hide",
+      "parle",
+      "seek"
+    ]
   },
   {
     "id": 52006,
@@ -79002,7 +80039,13 @@
     "aliases": [
       "makhan"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "butter",
+      "cookies",
+      "parle"
+    ]
   },
   {
     "id": 52007,
@@ -79026,7 +80069,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "milk",
+      "parle",
+      "shakti"
+    ]
   },
   {
     "id": 52008,
@@ -79050,7 +80099,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "kreams",
+      "orange",
+      "parle"
+    ]
   },
   {
     "id": 52009,
@@ -79074,7 +80129,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "chocolate",
+      "kreams",
+      "parle"
+    ]
   },
   {
     "id": 52010,
@@ -79098,7 +80159,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "cookies",
+      "parle",
+      "top"
+    ]
   },
   {
     "id": 52011,
@@ -79122,7 +80189,12 @@
     "popularity_score": 68,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "melody",
+      "parle",
+      "sweet"
+    ]
   },
   {
     "id": 52012,
@@ -79150,7 +80222,13 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bite",
+      "mango",
+      "parle",
+      "sweet"
+    ]
   },
   {
     "id": 53001,
@@ -79174,7 +80252,14 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "coca",
+      "cola",
+      "original",
+      "taste"
+    ]
   },
   {
     "id": 53002,
@@ -79198,7 +80283,14 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "coca",
+      "cola",
+      "sugar",
+      "zero"
+    ]
   },
   {
     "id": 53003,
@@ -79222,7 +80314,11 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "thums"
+    ]
   },
   {
     "id": 53004,
@@ -79246,7 +80342,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "thums",
+      "xforce"
+    ]
   },
   {
     "id": 53005,
@@ -79270,7 +80371,11 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "sprite"
+    ]
   },
   {
     "id": 53006,
@@ -79294,7 +80399,13 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "sprite",
+      "sugar",
+      "zero"
+    ]
   },
   {
     "id": 53007,
@@ -79318,7 +80429,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "fanta",
+      "orange"
+    ]
   },
   {
     "id": 53008,
@@ -79342,7 +80458,11 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "limca"
+    ]
   },
   {
     "id": 53009,
@@ -79366,7 +80486,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "glucocharge",
+      "limca"
+    ]
   },
   {
     "id": 53010,
@@ -79394,7 +80519,13 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "drink",
+      "juice",
+      "maaza",
+      "mango"
+    ]
   },
   {
     "id": 53011,
@@ -79418,7 +80549,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "maid",
+      "minute",
+      "orange",
+      "pulpy"
+    ]
   },
   {
     "id": 53012,
@@ -79442,7 +80580,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "apple",
+      "juice",
+      "maid",
+      "minute"
+    ]
   },
   {
     "id": 53013,
@@ -79466,7 +80610,13 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "schweppes",
+      "soda",
+      "water"
+    ]
   },
   {
     "id": 53014,
@@ -79490,7 +80640,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "kinley",
+      "soda"
+    ]
   },
   {
     "id": 53015,
@@ -79514,7 +80669,14 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "drinking",
+      "kinley",
+      "packaged",
+      "water"
+    ]
   },
   {
     "id": 53101,
@@ -79538,7 +80700,11 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "pepsi"
+    ]
   },
   {
     "id": 53102,
@@ -79562,7 +80728,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "black",
+      "pepsi"
+    ]
   },
   {
     "id": 53103,
@@ -79586,7 +80757,10 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage"
+    ]
   },
   {
     "id": 53104,
@@ -79610,7 +80784,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "sugar",
+      "zero"
+    ]
   },
   {
     "id": 53105,
@@ -79634,7 +80813,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "mirinda",
+      "orange"
+    ]
   },
   {
     "id": 53106,
@@ -79658,7 +80842,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "dew",
+      "mountain"
+    ]
   },
   {
     "id": 53107,
@@ -79682,7 +80871,13 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "dew",
+      "ice",
+      "mountain"
+    ]
   },
   {
     "id": 53108,
@@ -79706,7 +80901,14 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "dew",
+      "mountain",
+      "sugar",
+      "zero"
+    ]
   },
   {
     "id": 53109,
@@ -79734,7 +80936,13 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "drink",
+      "juice",
+      "mango",
+      "slice"
+    ]
   },
   {
     "id": 53110,
@@ -79758,7 +80966,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delight",
+      "juice",
+      "orange",
+      "tropicana"
+    ]
   },
   {
     "id": 53111,
@@ -79782,7 +80996,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delight",
+      "fruit",
+      "juice",
+      "tropicana"
+    ]
   },
   {
     "id": 53112,
@@ -79806,7 +81026,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "apple",
+      "delight",
+      "juice",
+      "tropicana"
+    ]
   },
   {
     "id": 53113,
@@ -79833,7 +81059,13 @@
       "amrood",
       "peru"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delight",
+      "guava",
+      "juice",
+      "tropicana"
+    ]
   },
   {
     "id": 53114,
@@ -79857,7 +81089,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delight",
+      "juice",
+      "litchi",
+      "tropicana"
+    ]
   },
   {
     "id": 53115,
@@ -79881,7 +81119,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "gatorade",
+      "lemon"
+    ]
   },
   {
     "id": 53116,
@@ -79905,7 +81148,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "gatorade",
+      "orange"
+    ]
   },
   {
     "id": 53117,
@@ -79929,7 +81177,14 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aquafina",
+      "beverage",
+      "drinking",
+      "packaged",
+      "water"
+    ]
   },
   {
     "id": 53118,
@@ -79953,7 +81208,12 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aquafina",
+      "beverage",
+      "soda"
+    ]
   },
   {
     "id": 53119,
@@ -79977,7 +81237,13 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "drink",
+      "energy",
+      "sting"
+    ]
   },
   {
     "id": 53120,
@@ -80001,7 +81267,13 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "gold",
+      "rush",
+      "sting"
+    ]
   },
   {
     "id": 53201,
@@ -80025,7 +81297,13 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "milk",
+      "sweet"
+    ]
   },
   {
     "id": 53202,
@@ -80049,7 +81327,14 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "milk",
+      "silk",
+      "sweet"
+    ]
   },
   {
     "id": 53203,
@@ -80073,7 +81358,15 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "fruit",
+      "milk",
+      "nut",
+      "sweet"
+    ]
   },
   {
     "id": 53204,
@@ -80097,7 +81390,14 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "crackle",
+      "dairy",
+      "milk",
+      "sweet"
+    ]
   },
   {
     "id": 53205,
@@ -80121,7 +81421,15 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "almond",
+      "cadbury",
+      "dairy",
+      "milk",
+      "roast",
+      "sweet"
+    ]
   },
   {
     "id": 53206,
@@ -80145,7 +81453,15 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "milk",
+      "nut",
+      "sweet",
+      "whole"
+    ]
   },
   {
     "id": 53207,
@@ -80169,7 +81485,15 @@
     "popularity_score": 68,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "milk",
+      "oreo",
+      "silk",
+      "sweet"
+    ]
   },
   {
     "id": 53208,
@@ -80193,7 +81517,16 @@
     "popularity_score": 68,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "dairy",
+      "fruit",
+      "milk",
+      "nut",
+      "silk",
+      "sweet"
+    ]
   },
   {
     "id": 53209,
@@ -80217,7 +81550,15 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bubbly",
+      "cadbury",
+      "dairy",
+      "milk",
+      "silk",
+      "sweet"
+    ]
   },
   {
     "id": 53210,
@@ -80241,7 +81582,12 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "star",
+      "sweet"
+    ]
   },
   {
     "id": 53211,
@@ -80265,7 +81611,13 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "oreo",
+      "star",
+      "sweet"
+    ]
   },
   {
     "id": 53212,
@@ -80289,7 +81641,12 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "perk",
+      "sweet"
+    ]
   },
   {
     "id": 53213,
@@ -80313,7 +81670,13 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "double",
+      "perk",
+      "sweet"
+    ]
   },
   {
     "id": 53214,
@@ -80337,7 +81700,12 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "gems",
+      "sweet"
+    ]
   },
   {
     "id": 53215,
@@ -80361,7 +81729,12 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "fuse",
+      "sweet"
+    ]
   },
   {
     "id": 53216,
@@ -80389,7 +81762,13 @@
       "chaas",
       "mattha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bournville",
+      "cadbury",
+      "classic",
+      "sweet"
+    ]
   },
   {
     "id": 53217,
@@ -80413,7 +81792,13 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bournville",
+      "cadbury",
+      "cranberry",
+      "sweet"
+    ]
   },
   {
     "id": 53218,
@@ -80437,7 +81822,14 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bournville",
+      "cadbury",
+      "nut",
+      "raisin",
+      "sweet"
+    ]
   },
   {
     "id": 53219,
@@ -80461,7 +81853,13 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "choclairs",
+      "gold",
+      "sweet"
+    ]
   },
   {
     "id": 53220,
@@ -80485,7 +81883,12 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cadbury",
+      "eclairs",
+      "sweet"
+    ]
   },
   {
     "id": 53301,
@@ -80509,7 +81912,14 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cow",
+      "dairy",
+      "milk",
+      "omfed",
+      "premium"
+    ]
   },
   {
     "id": 53302,
@@ -80533,7 +81943,13 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "milk",
+      "omfed",
+      "toned"
+    ]
   },
   {
     "id": 53303,
@@ -80557,7 +81973,14 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "gold",
+      "milk",
+      "omfed",
+      "premium"
+    ]
   },
   {
     "id": 53304,
@@ -80581,7 +82004,14 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cow",
+      "dairy",
+      "desi",
+      "milk",
+      "omfed"
+    ]
   },
   {
     "id": 53305,
@@ -80605,7 +82035,14 @@
     "popularity_score": 80,
     "search_priority": 58,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "milk",
+      "omfed",
+      "plus",
+      "uht"
+    ]
   },
   {
     "id": 53306,
@@ -80633,7 +82070,12 @@
       "curd",
       "doi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curd",
+      "dairy",
+      "omfed"
+    ]
   },
   {
     "id": 53307,
@@ -80661,7 +82103,13 @@
       "curd",
       "doi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curd",
+      "dairy",
+      "omfed",
+      "sweet"
+    ]
   },
   {
     "id": 53308,
@@ -80689,7 +82137,12 @@
       "chaas",
       "mattha"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "lassi",
+      "omfed"
+    ]
   },
   {
     "id": 53309,
@@ -80713,7 +82166,12 @@
     "popularity_score": 65,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "buttermilk",
+      "omfed"
+    ]
   },
   {
     "id": 53310,
@@ -80737,7 +82195,13 @@
     "popularity_score": 65,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "elaichi",
+      "flavo",
+      "omfed"
+    ]
   },
   {
     "id": 53311,
@@ -80761,7 +82225,13 @@
     "popularity_score": 65,
     "search_priority": 49,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beverage",
+      "flavo",
+      "kesar",
+      "omfed"
+    ]
   },
   {
     "id": 53312,
@@ -80789,7 +82259,12 @@
       "chhena",
       "chena"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "omfed",
+      "paneer"
+    ]
   },
   {
     "id": 53313,
@@ -80815,7 +82290,13 @@
     "aliases": [
       "makhan"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "butter",
+      "dairy",
+      "omfed",
+      "table"
+    ]
   },
   {
     "id": 53314,
@@ -80842,7 +82323,12 @@
       "clarified butter",
       "desi ghee"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "ghee",
+      "omfed"
+    ]
   },
   {
     "id": 53315,
@@ -80866,7 +82352,12 @@
     "popularity_score": 80,
     "search_priority": 60,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dairy",
+      "omfed",
+      "whitener"
+    ]
   },
   {
     "id": 55001,
@@ -80889,7 +82380,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dragon",
+      "fruit"
+    ]
   },
   {
     "id": 55002,
@@ -80912,7 +82407,13 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "horned",
+      "kiwano",
+      "melon"
+    ]
   },
   {
     "id": 55003,
@@ -80939,7 +82440,11 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "mangosteen"
+    ]
   },
   {
     "id": 55004,
@@ -80962,7 +82467,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "rambutan"
+    ]
   },
   {
     "id": 55005,
@@ -80985,7 +82494,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "passion"
+    ]
   },
   {
     "id": 55006,
@@ -81008,7 +82521,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "star"
+    ]
   },
   {
     "id": 55007,
@@ -81031,7 +82548,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "avocado",
+      "fruit"
+    ]
   },
   {
     "id": 55008,
@@ -81054,7 +82575,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "persimmon"
+    ]
   },
   {
     "id": 55009,
@@ -81077,7 +82602,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "longan"
+    ]
   },
   {
     "id": 55010,
@@ -81100,7 +82629,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "soursop"
+    ]
   },
   {
     "id": 55011,
@@ -81123,7 +82656,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breadfruit",
+      "fruit"
+    ]
   },
   {
     "id": 55012,
@@ -81146,7 +82683,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "durian",
+      "fruit"
+    ]
   },
   {
     "id": 55013,
@@ -81169,7 +82710,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "jabuticaba"
+    ]
   },
   {
     "id": 55014,
@@ -81192,7 +82737,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bael",
+      "fruit"
+    ]
   },
   {
     "id": 55015,
@@ -81215,7 +82764,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "apple",
+      "fruit",
+      "wood"
+    ]
   },
   {
     "id": 54101,
@@ -81238,7 +82792,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "amla",
+      "fruit",
+      "gooseberry"
+    ]
   },
   {
     "id": 54201,
@@ -81261,7 +82820,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "kaafal"
+    ]
   },
   {
     "id": 54202,
@@ -81284,7 +82847,14 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "himalayan",
+      "hisalu",
+      "raspberry",
+      "yellow"
+    ]
   },
   {
     "id": 54203,
@@ -81307,7 +82877,13 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bedu",
+      "fig",
+      "fruit",
+      "wild"
+    ]
   },
   {
     "id": 54204,
@@ -81330,7 +82906,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "mahua"
+    ]
   },
   {
     "id": 54205,
@@ -81353,7 +82933,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "kendu"
+    ]
   },
   {
     "id": 54206,
@@ -81376,7 +82960,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chironji",
+      "fruit"
+    ]
   },
   {
     "id": 54207,
@@ -81399,7 +82987,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "apple",
+      "elephant",
+      "fruit"
+    ]
   },
   {
     "id": 54208,
@@ -81422,7 +83015,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "jack",
+      "monkey"
+    ]
   },
   {
     "id": 54209,
@@ -81449,7 +83047,12 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "mango",
+      "wild"
+    ]
   },
   {
     "id": 54210,
@@ -81472,7 +83075,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ber",
+      "fruit",
+      "wild"
+    ]
   },
   {
     "id": 54211,
@@ -81495,7 +83103,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "olive"
+    ]
   },
   {
     "id": 54212,
@@ -81521,7 +83133,12 @@
       "jilabi",
       "imarti"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "jalebi",
+      "jungle"
+    ]
   },
   {
     "id": 54213,
@@ -81544,7 +83161,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "passion",
+      "wild"
+    ]
   },
   {
     "id": 54214,
@@ -81567,7 +83189,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "sohiong"
+    ]
   },
   {
     "id": 54215,
@@ -81590,7 +83216,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "sohshang"
+    ]
   },
   {
     "id": 54216,
@@ -81613,7 +83243,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "raspberry",
+      "wild"
+    ]
   },
   {
     "id": 54217,
@@ -81636,7 +83271,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "strawberry",
+      "wild"
+    ]
   },
   {
     "id": 54218,
@@ -81659,7 +83299,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "peach",
+      "wild"
+    ]
   },
   {
     "id": 54219,
@@ -81682,7 +83327,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "plum",
+      "wild"
+    ]
   },
   {
     "id": 54220,
@@ -81705,7 +83355,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "pear",
+      "wild"
+    ]
   },
   {
     "id": 54302,
@@ -81728,7 +83383,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "green",
+      "kiwi"
+    ]
   },
   {
     "id": 54303,
@@ -81751,7 +83411,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "gold",
+      "kiwi"
+    ]
   },
   {
     "id": 54315,
@@ -81774,7 +83439,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cherimoya",
+      "fruit"
+    ]
   },
   {
     "id": 54316,
@@ -81797,7 +83466,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "feijoa",
+      "fruit"
+    ]
   },
   {
     "id": 54317,
@@ -81820,7 +83493,11 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "pomelo"
+    ]
   },
   {
     "id": 54318,
@@ -81843,7 +83520,12 @@
     "popularity_score": 75,
     "search_priority": 65,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "blood",
+      "fruit",
+      "orange"
+    ]
   },
   {
     "id": 55101,
@@ -81870,7 +83552,13 @@
       "soft idli",
       "rice cake"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "idli",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55102,
@@ -81897,7 +83585,14 @@
       "soft idli",
       "rice cake"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "ghee",
+      "idli",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55103,
@@ -81920,7 +83615,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": true
+    "canonical": true,
+    "kw": [
+      "bhavan",
+      "restaurant_food",
+      "saravana",
+      "vada"
+    ]
   },
   {
     "id": 55104,
@@ -81947,7 +83648,14 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "dosa",
+      "masala",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55105,
@@ -81974,7 +83682,13 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "dosa",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55106,
@@ -82001,7 +83715,15 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "dosa",
+      "ghee",
+      "restaurant_food",
+      "roast",
+      "saravana"
+    ]
   },
   {
     "id": 55107,
@@ -82028,7 +83750,14 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "dosa",
+      "onion",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55108,
@@ -82055,7 +83784,14 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "dosa",
+      "rava",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55109,
@@ -82078,7 +83814,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "restaurant_food",
+      "sambar",
+      "saravana"
+    ]
   },
   {
     "id": 55110,
@@ -82101,7 +83843,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "chutney",
+      "coconut",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 55111,
@@ -82124,7 +83873,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "restaurant_food",
+      "saravana",
+      "upma"
+    ]
   },
   {
     "id": 55112,
@@ -82147,7 +83902,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhavan",
+      "pongal",
+      "restaurant_food",
+      "saravana"
+    ]
   },
   {
     "id": 57001,
@@ -82173,7 +83934,13 @@
       "biriyani",
       "biriani"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "biryani",
+      "calcutta",
+      "chicken",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57002,
@@ -82199,7 +83966,13 @@
       "biriyani",
       "biriani"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "biryani",
+      "calcutta",
+      "mutton",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57003,
@@ -82227,7 +84000,13 @@
       "hilsa fish",
       "ilish maach"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhaja",
+      "hilsa",
+      "restaurant",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57004,
@@ -82255,7 +84034,12 @@
       "hilsa fish",
       "ilish maach"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "hilsa",
+      "paturi",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57006,
@@ -82283,7 +84067,13 @@
       "jhinga",
       "chingri mach"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chingri",
+      "curry",
+      "malai",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57007,
@@ -82306,7 +84096,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aloo",
+      "bhaja",
+      "bhojohori",
+      "manna",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57008,
@@ -82329,7 +84126,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bengali",
+      "restaurant_food",
+      "shukto",
+      "veg"
+    ]
   },
   {
     "id": 57009,
@@ -82356,7 +84159,13 @@
       "plain dosa",
       "masala dosa"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "dosa",
+      "kamat",
+      "masala",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57010,
@@ -82383,7 +84192,12 @@
       "soft idli",
       "rice cake"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "idli",
+      "kamat",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57011,
@@ -82409,7 +84223,14 @@
       "cafe",
       "kapi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhojohori",
+      "ghonto",
+      "manna",
+      "mochar",
+      "restaurant_food"
+    ]
   },
   {
     "id": 57012,
@@ -82432,7 +84253,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "curry",
+      "kamat",
+      "restaurant_food",
+      "south",
+      "veg"
+    ]
   },
   {
     "id": 56002,
@@ -82455,7 +84283,12 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fresh",
+      "juice",
+      "mango"
+    ]
   },
   {
     "id": 56003,
@@ -82482,7 +84315,12 @@
       "keri",
       "kairi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aam",
+      "juice",
+      "panna"
+    ]
   },
   {
     "id": 56004,
@@ -82505,7 +84343,12 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "lemon",
+      "sweetened"
+    ]
   },
   {
     "id": 56005,
@@ -82528,7 +84371,13 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "lime",
+      "mosambi",
+      "sweet"
+    ]
   },
   {
     "id": 56006,
@@ -82551,7 +84400,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "pomegranate"
+    ]
   },
   {
     "id": 56007,
@@ -82574,7 +84427,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "watermelon"
+    ]
   },
   {
     "id": 56008,
@@ -82597,7 +84454,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "papaya"
+    ]
   },
   {
     "id": 56009,
@@ -82620,7 +84481,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "guava",
+      "juice"
+    ]
   },
   {
     "id": 56010,
@@ -82643,7 +84508,13 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "coconut",
+      "juice",
+      "tender",
+      "water"
+    ]
   },
   {
     "id": 56011,
@@ -82666,7 +84537,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "lychee"
+    ]
   },
   {
     "id": 56012,
@@ -82689,7 +84564,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "jamun",
+      "juice"
+    ]
   },
   {
     "id": 56013,
@@ -82712,7 +84591,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bael",
+      "juice"
+    ]
   },
   {
     "id": 56014,
@@ -82735,7 +84618,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "carrot",
+      "juice"
+    ]
   },
   {
     "id": 56015,
@@ -82758,7 +84645,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beetroot",
+      "juice"
+    ]
   },
   {
     "id": 56016,
@@ -82781,7 +84672,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cucumber",
+      "juice"
+    ]
   },
   {
     "id": 56017,
@@ -82804,7 +84699,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "pineapple"
+    ]
   },
   {
     "id": 56018,
@@ -82827,7 +84726,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "juice",
+      "orange"
+    ]
   },
   {
     "id": 56019,
@@ -82850,7 +84753,11 @@
     "popularity_score": 50,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "fruit",
+      "juice"
+    ]
   },
   {
     "id": 56020,
@@ -82873,7 +84780,12 @@
     "popularity_score": 50,
     "search_priority": 48,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aloe",
+      "juice",
+      "vera"
+    ]
   },
   {
     "id": 57013,
@@ -82896,7 +84808,13 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bakery",
+      "bread",
+      "india",
+      "white"
+    ]
   },
   {
     "id": 57014,
@@ -82919,7 +84837,13 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "germany",
+      "toastbrot",
+      "white"
+    ]
   },
   {
     "id": 57015,
@@ -82942,7 +84866,13 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "brown",
+      "india",
+      "wheat"
+    ]
   },
   {
     "id": 57016,
@@ -82965,7 +84895,14 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "germany",
+      "vollkornbrot",
+      "wheat",
+      "whole"
+    ]
   },
   {
     "id": 57017,
@@ -82988,7 +84925,12 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "packaged",
+      "white"
+    ]
   },
   {
     "id": 57018,
@@ -83011,7 +84953,12 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "brown",
+      "packaged"
+    ]
   },
   {
     "id": 57019,
@@ -83034,7 +84981,13 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "industrial",
+      "standard",
+      "white"
+    ]
   },
   {
     "id": 57020,
@@ -83057,7 +85010,13 @@
     "popularity_score": 95,
     "search_priority": 77,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "brown",
+      "standard",
+      "wholegrain"
+    ]
   },
   {
     "id": 59001,
@@ -83084,7 +85043,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bhuna",
+      "chicken",
+      "european",
+      "restaurant",
+      "restaurant_food"
+    ]
   },
   {
     "id": 59002,
@@ -83111,7 +85077,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "european",
+      "restaurant",
+      "restaurant_food",
+      "vindaloo"
+    ]
   },
   {
     "id": 59003,
@@ -83134,7 +85107,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "philly",
+      "restaurant_food",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59004,
@@ -83157,7 +85136,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chipotle",
+      "philly",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59005,
@@ -83180,7 +85165,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheesy",
+      "garlic",
+      "restaurant_food",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59006,
@@ -83207,7 +85199,12 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59008,
@@ -83234,7 +85231,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "nacho",
+      "restaurant_food",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59009,
@@ -83261,7 +85265,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bbq",
+      "chicken",
+      "honey",
+      "mustard",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59010,
@@ -83288,7 +85300,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "onion",
+      "restaurant_food",
+      "subway",
+      "sweet",
+      "teriyaki"
+    ]
   },
   {
     "id": 59011,
@@ -83311,7 +85331,11 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59012,
@@ -83334,7 +85358,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "restaurant_food",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59013,
@@ -83357,7 +85387,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "meat",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59014,
@@ -83380,7 +85416,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "marinara",
+      "meatball",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59015,
@@ -83403,7 +85445,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meatball",
+      "pepperoni",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59016,
@@ -83426,7 +85474,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "oven",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59017,
@@ -83449,7 +85503,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "forest",
+      "ham",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59018,
@@ -83472,7 +85533,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "restaurant_food",
+      "roast",
+      "subway"
+    ]
   },
   {
     "id": 59019,
@@ -83495,7 +85562,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "combo",
+      "cut",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59020,
@@ -83518,7 +85591,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "restaurant_food",
+      "subway",
+      "tuna"
+    ]
   },
   {
     "id": 59021,
@@ -83541,7 +85619,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delite",
+      "restaurant_food",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59022,
@@ -83564,7 +85648,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "all",
+      "american",
+      "club",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59023,
@@ -83587,7 +85678,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "club",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59024,
@@ -83610,7 +85706,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "big",
+      "pastrami",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59025,
@@ -83633,7 +85735,11 @@
     "popularity_score": 50,
     "search_priority": 38,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59026,
@@ -83660,7 +85766,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "buffalo",
+      "chicken",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59027,
@@ -83683,7 +85795,14 @@
     "popularity_score": 50,
     "search_priority": 38,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "oven",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59028,
@@ -83708,7 +85827,13 @@
     "aliases": [
       "peetza"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "pizza",
+      "restaurant_food",
+      "sub",
+      "subway"
+    ]
   },
   {
     "id": 59029,
@@ -83731,7 +85856,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "patty",
+      "restaurant_food",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59030,
@@ -83758,7 +85889,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "avocado",
+      "chicken",
+      "restaurant_food",
+      "smashed",
+      "subway"
+    ]
   },
   {
     "id": 59031,
@@ -83785,7 +85923,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "avocado",
+      "chicken",
+      "fresh",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59032,
@@ -83808,7 +85953,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "restaurant_food",
+      "stacker",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59033,
@@ -83831,7 +85983,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delite",
+      "ranch",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59034,
@@ -83854,7 +86013,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "avocado",
+      "restaurant_food",
+      "seasoned",
+      "smashed",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59035,
@@ -83877,7 +86044,15 @@
     "popularity_score": 50,
     "search_priority": 38,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "avocado",
+      "fresh",
+      "restaurant_food",
+      "seasoned",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59036,
@@ -83900,7 +86075,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delite",
+      "kids",
+      "mini",
+      "restaurant_food",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59037,
@@ -83923,7 +86106,16 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "forest",
+      "ham",
+      "kids",
+      "mini",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59038,
@@ -83946,7 +86138,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "kids",
+      "mini",
+      "oven",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59039,
@@ -83969,7 +86169,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": true
+    "canonical": true,
+    "kw": [
+      "philly",
+      "restaurant_food",
+      "steak",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59040,
@@ -83992,7 +86199,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chipotle",
+      "philly",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59041,
@@ -84015,7 +86229,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheesy",
+      "garlic",
+      "restaurant_food",
+      "steak",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59042,
@@ -84042,7 +86264,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59044,
@@ -84069,7 +86297,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "nacho",
+      "restaurant_food",
+      "spicy",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59045,
@@ -84096,7 +86332,16 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bbq",
+      "chicken",
+      "honey",
+      "mustard",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59046,
@@ -84123,7 +86368,16 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "onion",
+      "restaurant_food",
+      "subway",
+      "sweet",
+      "teriyaki",
+      "wrap"
+    ]
   },
   {
     "id": 59047,
@@ -84146,7 +86400,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "restaurant_food",
+      "spicy",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59048,
@@ -84169,7 +86430,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "meat",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59049,
@@ -84192,7 +86460,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "marinara",
+      "meatball",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59050,
@@ -84215,7 +86490,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meatball",
+      "pepperoni",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59051,
@@ -84238,7 +86520,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "oven",
+      "restaurant_food",
+      "subway",
+      "turkey",
+      "wrap"
+    ]
   },
   {
     "id": 59052,
@@ -84261,7 +86550,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "forest",
+      "ham",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59053,
@@ -84284,7 +86581,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "restaurant_food",
+      "roast",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59054,
@@ -84307,7 +86611,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "restaurant_food",
+      "subway",
+      "tuna",
+      "wrap"
+    ]
   },
   {
     "id": 59055,
@@ -84330,7 +86640,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delite",
+      "restaurant_food",
+      "subway",
+      "veggie",
+      "wrap"
+    ]
   },
   {
     "id": 59056,
@@ -84353,7 +86670,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "all",
+      "american",
+      "club",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59057,
@@ -84376,7 +86701,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "club",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59058,
@@ -84399,7 +86730,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "big",
+      "pastrami",
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59059,
@@ -84422,7 +86760,12 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "restaurant_food",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59060,
@@ -84445,7 +86788,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "restaurant_food",
+      "subway",
+      "turkey",
+      "wrap"
+    ]
   },
   {
     "id": 59061,
@@ -84470,7 +86820,14 @@
     "aliases": [
       "peetza"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "pizza",
+      "restaurant_food",
+      "sub",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59062,
@@ -84493,7 +86850,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "patty",
+      "restaurant_food",
+      "subway",
+      "veggie",
+      "wrap"
+    ]
   },
   {
     "id": 59063,
@@ -84520,7 +86884,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "baja",
+      "chicken",
+      "pocket",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59064,
@@ -84543,7 +86914,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "pocket",
+      "restaurant_food",
+      "subway",
+      "trio"
+    ]
   },
   {
     "id": 59065,
@@ -84570,7 +86948,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "peppercorn",
+      "pocket",
+      "ranch",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59066,
@@ -84593,7 +86979,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "pocket",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59067,
@@ -84616,7 +87009,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "philly",
+      "salad",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59068,
@@ -84639,7 +87038,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chipotle",
+      "philly",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59069,
@@ -84662,7 +87067,14 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheesy",
+      "garlic",
+      "salad",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59070,
@@ -84689,7 +87101,12 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59072,
@@ -84716,7 +87133,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "nacho",
+      "salad",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59073,
@@ -84743,7 +87167,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bbq",
+      "chicken",
+      "honey",
+      "mustard",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59074,
@@ -84770,7 +87202,15 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "onion",
+      "salad",
+      "subway",
+      "sweet",
+      "teriyaki"
+    ]
   },
   {
     "id": 59075,
@@ -84793,7 +87233,11 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59076,
@@ -84816,7 +87260,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "salad",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59077,
@@ -84839,7 +87289,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "meat",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59078,
@@ -84862,7 +87318,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "marinara",
+      "meatball",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59079,
@@ -84885,7 +87347,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meatball",
+      "pepperoni",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59080,
@@ -84908,7 +87376,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "oven",
+      "salad",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59081,
@@ -84931,7 +87405,14 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "forest",
+      "ham",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59082,
@@ -84954,7 +87435,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "roast",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59083,
@@ -84977,7 +87464,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "combo",
+      "cut",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59084,
@@ -85000,7 +87493,12 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "salad",
+      "subway",
+      "tuna"
+    ]
   },
   {
     "id": 59085,
@@ -85023,7 +87521,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "delite",
+      "salad",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59086,
@@ -85046,7 +87550,14 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "all",
+      "american",
+      "club",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59087,
@@ -85069,7 +87580,12 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "club",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59088,
@@ -85092,7 +87608,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "big",
+      "pastrami",
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59089,
@@ -85115,7 +87637,11 @@
     "popularity_score": 65,
     "search_priority": 47,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "salad",
+      "subway"
+    ]
   },
   {
     "id": 59090,
@@ -85138,7 +87664,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "salad",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59091,
@@ -85163,7 +87695,13 @@
     "aliases": [
       "peetza"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "pizza",
+      "salad",
+      "sub",
+      "subway"
+    ]
   },
   {
     "id": 59092,
@@ -85186,7 +87724,13 @@
     "popularity_score": 65,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "patty",
+      "salad",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59093,
@@ -85209,7 +87753,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "philly",
+      "protein",
+      "restaurant_food",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59094,
@@ -85232,7 +87784,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "chipotle",
+      "philly",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59095,
@@ -85255,7 +87815,16 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "cheesy",
+      "garlic",
+      "protein",
+      "restaurant_food",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59096,
@@ -85282,7 +87851,14 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "chicken",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59098,
@@ -85309,7 +87885,16 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "chicken",
+      "nacho",
+      "protein",
+      "restaurant_food",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59099,
@@ -85336,7 +87921,17 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bbq",
+      "bowl",
+      "chicken",
+      "honey",
+      "mustard",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59100,
@@ -85363,7 +87958,17 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "chicken",
+      "onion",
+      "protein",
+      "restaurant_food",
+      "subway",
+      "sweet",
+      "teriyaki"
+    ]
   },
   {
     "id": 59101,
@@ -85386,7 +87991,13 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59102,
@@ -85409,7 +88020,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "italian",
+      "protein",
+      "restaurant_food",
+      "spicy",
+      "subway"
+    ]
   },
   {
     "id": 59103,
@@ -85432,7 +88051,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "italian",
+      "meat",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59104,
@@ -85455,7 +88082,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "marinara",
+      "meatball",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59105,
@@ -85478,7 +88113,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "meatball",
+      "pepperoni",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59106,
@@ -85501,7 +88144,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "oven",
+      "protein",
+      "restaurant_food",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59107,
@@ -85524,7 +88175,16 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "bowl",
+      "forest",
+      "ham",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59108,
@@ -85547,7 +88207,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "bowl",
+      "protein",
+      "restaurant_food",
+      "roast",
+      "subway"
+    ]
   },
   {
     "id": 59109,
@@ -85570,7 +88238,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "protein",
+      "restaurant_food",
+      "subway",
+      "tuna"
+    ]
   },
   {
     "id": 59110,
@@ -85593,7 +88268,16 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "all",
+      "american",
+      "bowl",
+      "club",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59111,
@@ -85616,7 +88300,14 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "club",
+      "protein",
+      "restaurant_food",
+      "subway"
+    ]
   },
   {
     "id": 59112,
@@ -85639,7 +88330,15 @@
     "popularity_score": 50,
     "search_priority": 44,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bowl",
+      "patty",
+      "protein",
+      "restaurant_food",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59114,
@@ -85666,7 +88365,17 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "breakfast",
+      "cheese",
+      "egg",
+      "forest",
+      "ham",
+      "sub",
+      "subway"
+    ]
   },
   {
     "id": 59115,
@@ -85693,7 +88402,14 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "cheese",
+      "egg",
+      "sub",
+      "subway"
+    ]
   },
   {
     "id": 59116,
@@ -85720,7 +88436,15 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "cheese",
+      "egg",
+      "steak",
+      "sub",
+      "subway"
+    ]
   },
   {
     "id": 59118,
@@ -85747,7 +88471,17 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "breakfast",
+      "cheese",
+      "egg",
+      "forest",
+      "ham",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59119,
@@ -85774,7 +88508,14 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "cheese",
+      "egg",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59120,
@@ -85801,7 +88542,15 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "breakfast",
+      "cheese",
+      "egg",
+      "steak",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59121,
@@ -85824,7 +88573,12 @@
     "popularity_score": 60,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheese",
+      "pizza",
+      "subway"
+    ]
   },
   {
     "id": 59123,
@@ -85849,7 +88603,12 @@
     "aliases": [
       "peetza"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meatball",
+      "pizza",
+      "subway"
+    ]
   },
   {
     "id": 59124,
@@ -85874,7 +88633,12 @@
     "aliases": [
       "peetza"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "pepperoni",
+      "pizza",
+      "subway"
+    ]
   },
   {
     "id": 59125,
@@ -85897,7 +88661,14 @@
     "popularity_score": 70,
     "search_priority": 54,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "ham",
+      "jack",
+      "slider",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59126,
@@ -85920,7 +88691,14 @@
     "popularity_score": 70,
     "search_priority": 54,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "italian",
+      "slider",
+      "snack",
+      "spice",
+      "subway"
+    ]
   },
   {
     "id": 59127,
@@ -85943,7 +88721,14 @@
     "popularity_score": 70,
     "search_priority": 56,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheesesteak",
+      "little",
+      "slider",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59128,
@@ -85966,7 +88751,13 @@
     "popularity_score": 70,
     "search_priority": 56,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "slider",
+      "snack",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59129,
@@ -85989,7 +88780,13 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "artisan",
+      "bread",
+      "italian",
+      "subway"
+    ]
   },
   {
     "id": 59130,
@@ -86012,7 +88809,13 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "hearty",
+      "multigrain",
+      "subway"
+    ]
   },
   {
     "id": 59131,
@@ -86035,7 +88838,13 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "cheddar",
+      "jalapeno",
+      "subway"
+    ]
   },
   {
     "id": 59132,
@@ -86058,7 +88867,13 @@
     "popularity_score": 95,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "artisan",
+      "bread",
+      "flatbread",
+      "subway"
+    ]
   },
   {
     "id": 59133,
@@ -86081,7 +88896,12 @@
     "popularity_score": 95,
     "search_priority": 71,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bread",
+      "subway",
+      "wrap"
+    ]
   },
   {
     "id": 59134,
@@ -86104,7 +88924,14 @@
     "popularity_score": 95,
     "search_priority": 69,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "artisan",
+      "bread",
+      "italian",
+      "mini",
+      "subway"
+    ]
   },
   {
     "id": 59135,
@@ -86131,7 +88958,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "meat",
+      "protein",
+      "subway"
+    ]
   },
   {
     "id": 59136,
@@ -86154,7 +88987,14 @@
     "popularity_score": 88,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "oven",
+      "protein",
+      "subway",
+      "turkey"
+    ]
   },
   {
     "id": 59137,
@@ -86177,7 +89017,15 @@
     "popularity_score": 88,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "black",
+      "forest",
+      "ham",
+      "meat",
+      "protein",
+      "subway"
+    ]
   },
   {
     "id": 59138,
@@ -86200,7 +89048,13 @@
     "popularity_score": 88,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "protein",
+      "subway",
+      "tuna"
+    ]
   },
   {
     "id": 59139,
@@ -86223,7 +89077,14 @@
     "popularity_score": 88,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "beef",
+      "meat",
+      "protein",
+      "roast",
+      "subway"
+    ]
   },
   {
     "id": 59140,
@@ -86246,7 +89107,13 @@
     "popularity_score": 88,
     "search_priority": 63,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "protein",
+      "steak",
+      "subway"
+    ]
   },
   {
     "id": 59141,
@@ -86269,7 +89136,12 @@
     "popularity_score": 88,
     "search_priority": 67,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "meat",
+      "meatballs",
+      "subway"
+    ]
   },
   {
     "id": 59143,
@@ -86296,7 +89168,12 @@
       "deem",
       "dim"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "egg",
+      "patty",
+      "subway"
+    ]
   },
   {
     "id": 59144,
@@ -86319,7 +89196,14 @@
     "popularity_score": 70,
     "search_priority": 52,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "patty",
+      "protein",
+      "snack",
+      "subway",
+      "veggie"
+    ]
   },
   {
     "id": 59145,
@@ -86348,7 +89232,13 @@
       "flatbread",
       "phulka"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "meat",
+      "rotisserie",
+      "subway"
+    ]
   },
   {
     "id": 59146,
@@ -86371,7 +89261,14 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "baja",
+      "chipotle",
+      "sauce",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59147,
@@ -86394,7 +89291,13 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "bbq",
+      "sauce",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59148,
@@ -86417,7 +89320,12 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "mayonnaise",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59149,
@@ -86440,7 +89348,14 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "honey",
+      "mustard",
+      "sauce",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59150,
@@ -86463,7 +89378,14 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "mvp",
+      "parmesan",
+      "snack",
+      "subway",
+      "vinaigrette"
+    ]
   },
   {
     "id": 59151,
@@ -86486,7 +89408,14 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "peppercorn",
+      "ranch",
+      "sauce",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59152,
@@ -86509,7 +89438,13 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "aioli",
+      "garlic",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59153,
@@ -86532,7 +89467,15 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "onion",
+      "sauce",
+      "snack",
+      "subway",
+      "sweet",
+      "teriyaki"
+    ]
   },
   {
     "id": 59154,
@@ -86555,7 +89498,14 @@
     "popularity_score": 70,
     "search_priority": 52,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "creamy",
+      "sauce",
+      "snack",
+      "sriracha",
+      "subway"
+    ]
   },
   {
     "id": 59155,
@@ -86578,7 +89528,13 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "honey",
+      "sauce",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59156,
@@ -86601,7 +89557,14 @@
     "popularity_score": 70,
     "search_priority": 50,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "blend",
+      "oil",
+      "olive",
+      "snack",
+      "subway"
+    ]
   },
   {
     "id": 59157,
@@ -86624,7 +89587,14 @@
     "popularity_score": 68,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chip",
+      "chocolate",
+      "cookie",
+      "subway",
+      "sweet"
+    ]
   },
   {
     "id": 59158,
@@ -86647,7 +89617,14 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chocolate",
+      "cookie",
+      "double",
+      "subway",
+      "sweet"
+    ]
   },
   {
     "id": 59159,
@@ -86670,7 +89647,14 @@
     "popularity_score": 68,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cookie",
+      "oatmeal",
+      "raisin",
+      "subway",
+      "sweet"
+    ]
   },
   {
     "id": 59160,
@@ -86693,7 +89677,14 @@
     "popularity_score": 68,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "cheesecake",
+      "cookie",
+      "raspberry",
+      "subway",
+      "sweet"
+    ]
   },
   {
     "id": 59161,
@@ -86716,7 +89707,16 @@
     "popularity_score": 68,
     "search_priority": 53,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chip",
+      "cookie",
+      "macadamia",
+      "nut",
+      "subway",
+      "sweet",
+      "white"
+    ]
   },
   {
     "id": 59162,
@@ -86739,7 +89739,13 @@
     "popularity_score": 72,
     "search_priority": 55,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "broccoli",
+      "cheddar",
+      "soup",
+      "subway"
+    ]
   },
   {
     "id": 59163,
@@ -86766,7 +89772,13 @@
       "murgh",
       "murghi"
     ],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "chicken",
+      "noodle",
+      "soup",
+      "subway"
+    ]
   },
   {
     "id": 59164,
@@ -86789,7 +89801,13 @@
     "popularity_score": 72,
     "search_priority": 57,
     "aliases": [],
-    "canonical": false
+    "canonical": false,
+    "kw": [
+      "loaded",
+      "potato",
+      "soup",
+      "subway"
+    ]
   },
   {
     "en": "Dudh Puli",

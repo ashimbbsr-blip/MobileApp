@@ -4,6 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 import '../../models/user_profile.dart';
+import '../../models/meal_entry.dart';
+import '../../models/food_item.dart';
 import '../../storage/hive_storage.dart';
 import 'backup_types.dart';
 import 'insights_service.dart';
@@ -58,13 +60,17 @@ class XlsxExportEngine {
     final goals = InsightsService.goalsFor(profile);
     final insights = InsightsService.aggregateInsights();
 
+    final meals = HiveStorage.getAllMealEntries();
     return {
       'Profile': _profileSheet(profile),
+      'Food Log': _foodLogSheet(meals),
       'Daily Summary': _dailySheet(days),
+      'Weekly Summary': _weeklySheet(days, goals.calories),
       'Monthly Summary': _monthlySheet(months),
       'Yearly Summary': _yearlySheet(years),
       'Weight History': _weightSheet(weights),
       'Water History': _waterSheet(days, goals.waterMl),
+      'Micronutrients': _micronutrientsSheet(meals),
       'Health Insights': _insightsSheet(insights),
     };
   }
@@ -170,6 +176,122 @@ class XlsxExportEngine {
         _r(d.waterMl),
         _r(goalMl),
         d.waterMl >= goalMl ? 'Yes' : 'No',
+      ]);
+    }
+    return rows;
+  }
+
+  static List<List<Object?>> _foodLogSheet(List<MealEntry> entries) {
+    final rows = <List<Object?>>[
+      [
+        'Date', 'Meal', 'Food (English)', 'Food (Bengali)',
+        'Qty (g)', 'Calories', 'Protein (g)', 'Carbs (g)',
+        'Fat (g)', 'Fiber (g)', 'Category',
+      ],
+    ];
+    final mealOrder = {'breakfast': 0, 'lunch': 1, 'dinner': 2, 'snack': 3};
+    final sorted = [...entries]
+      ..sort((a, b) {
+        final dc = a.dateKey.compareTo(b.dateKey);
+        if (dc != 0) return dc;
+        return (mealOrder[a.mealType] ?? 4)
+            .compareTo(mealOrder[b.mealType] ?? 4);
+      });
+    for (final e in sorted) {
+      rows.add([
+        e.dateKey.replaceAll('_', '-'),
+        '${e.mealType[0].toUpperCase()}${e.mealType.substring(1)}',
+        e.foodItem.name,
+        e.foodItem.nameBn ?? '',
+        _r(e.quantityG),
+        _r(e.calories),
+        _r(e.proteinG),
+        _r(e.carbsG),
+        _r(e.fatG),
+        _r(e.fiberG),
+        e.foodItem.category ?? '',
+      ]);
+    }
+    return rows;
+  }
+
+  static List<List<Object?>> _weeklySheet(List days, double calGoal) {
+    final rows = <List<Object?>>[
+      [
+        'Week', 'Week Start (Mon)', 'Days Logged', 'Avg Calories',
+        'Goal Achievement %', 'Avg Protein (g)', 'Avg Carbs (g)',
+        'Avg Fat (g)', 'Avg Water (ml)',
+      ],
+    ];
+    // Group daily summaries by the Monday that starts their week
+    final byWeek = <String, List<dynamic>>{};
+    for (final d in days) {
+      final monday = d.date.subtract(Duration(days: d.date.weekday - 1));
+      final wk = _fmtDate(monday);
+      byWeek.putIfAbsent(wk, () => []).add(d);
+    }
+    final sortedWeeks = byWeek.keys.toList()..sort();
+    for (final wk in sortedWeeks) {
+      final wDays = byWeek[wk]!;
+      final logged = wDays.where((d) => d.mealCount > 0).toList();
+      if (logged.isEmpty) continue;
+      final n = logged.length;
+      final avgKcal = logged.fold<double>(0, (s, d) => s + d.kcal) / n;
+      final goalPct = calGoal > 0
+          ? logged
+                  .where((d) =>
+                      d.kcal >= calGoal * 0.9 && d.kcal <= calGoal * 1.1)
+                  .length /
+              n *
+              100
+          : 0.0;
+      rows.add([
+        'W/$wk',
+        wk,
+        n,
+        _r(avgKcal),
+        _r(goalPct),
+        _r(logged.fold<double>(0, (s, d) => s + d.protein) / n),
+        _r(logged.fold<double>(0, (s, d) => s + d.carbs) / n),
+        _r(logged.fold<double>(0, (s, d) => s + d.fat) / n),
+        _r(wDays.fold<double>(0, (s, d) => s + d.waterMl) / wDays.length),
+      ]);
+    }
+    return rows;
+  }
+
+  static List<List<Object?>> _micronutrientsSheet(List<MealEntry> entries) {
+    final rows = <List<Object?>>[
+      [
+        'Date',
+        'Vitamin A (mcg)', 'Vitamin B12 (mcg)', 'Vitamin C (mg)',
+        'Vitamin D (mcg)', 'Calcium (mg)', 'Iron (mg)',
+        'Potassium (mg)', 'Magnesium (mg)', 'Zinc (mg)',
+      ],
+    ];
+    final byDay = <String, List<MealEntry>>{};
+    for (final e in entries) {
+      byDay.putIfAbsent(e.dateKey, () => []).add(e);
+    }
+    final sortedDays = byDay.keys.toList()..sort();
+    for (final dk in sortedDays) {
+      final dayEntries = byDay[dk]!;
+      double sumMicro(double? Function(FoodItem) getter) =>
+          dayEntries.fold<double>(0, (s, e) {
+            final factor = e.quantityG / e.foodItem.servingSize;
+            return s + ((getter(e.foodItem) ?? 0.0) * factor);
+          });
+      rows.add([
+        dk.replaceAll('_', '-'),
+        _r(sumMicro((f) => f.vitaminAMcg)),
+        _r(sumMicro((f) => f.vitaminB12Mcg)),
+        _r(sumMicro((f) => f.vitaminCMg)),
+        _r(sumMicro((f) => f.vitaminDMcg)),
+        _r(sumMicro((f) => f.calciumMg)),
+        _r(sumMicro((f) => f.ironMg)),
+        _r(sumMicro((f) => f.potassiumMg)),
+        _r(sumMicro((f) => f.magnesiumMg)),
+        _r(sumMicro((f) => f.zincMg)),
       ]);
     }
     return rows;
