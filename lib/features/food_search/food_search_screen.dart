@@ -311,7 +311,7 @@ class _LocalTabState extends ConsumerState<_LocalTab>
 
   void _onTextChanged(String value) {
     final q = value.trim();
-    if (q.length >= 1) {
+    if (q.isNotEmpty) {
       final results = LocalFoodRepository.search(q, limit: 7);
       setState(() {
         _suggestions = results;
@@ -715,7 +715,7 @@ class _LocalIdle extends StatelessWidget {
                   children: [
                     Text(
                       lang == 'bn'
-                          ? 'ভারতীয় ও বাংলাদেশি খাবার'
+                          ? 'ভারতীয় ও বাঙালি খাবার'
                           : 'Indian & Bengali Foods',
                       style: const TextStyle(
                           color: Colors.white,

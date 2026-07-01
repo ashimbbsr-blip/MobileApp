@@ -186,7 +186,7 @@ class AnalyticsService {
       final meals = entry.value;
 
       final byDay = <String, int>{};
-      for (final m in meals) byDay[m.dateKey] = 1;
+      for (final m in meals) { byDay[m.dateKey] = 1; }
       final daysLogged = byDay.length;
       final daysInMonth = DateTime(year, month + 1, 0).day;
 
@@ -238,7 +238,7 @@ class AnalyticsService {
       if (entryDate.isAfter(cutoff.subtract(const Duration(days: 30)))) continue;
 
       final byDay = <String, int>{};
-      for (final m in meals) byDay[m.dateKey] = 1;
+      for (final m in meals) { byDay[m.dateKey] = 1; }
       final daysLogged = byDay.length;
       if (daysLogged == 0) continue;
 

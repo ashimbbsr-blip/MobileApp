@@ -817,7 +817,7 @@ class _ActivityBurnedSummaryCard extends StatelessWidget {
             Row(children: [
               Expanded(
                 child: _ActivityStat(
-                  value: '${totalBurned.toStringAsFixed(0)}',
+                  value: totalBurned.toStringAsFixed(0),
                   unit: 'kcal',
                   label: 'Total Burned',
                   color: green,
@@ -833,7 +833,7 @@ class _ActivityBurnedSummaryCard extends StatelessWidget {
               ),
               Expanded(
                 child: _ActivityStat(
-                  value: '${avgBurned.toStringAsFixed(0)}',
+                  value: avgBurned.toStringAsFixed(0),
                   unit: 'kcal/day',
                   label: 'Avg Burned',
                   color: AppColors.secondary,

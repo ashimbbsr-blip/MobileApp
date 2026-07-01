@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:infinity_health_tracker/services/nutrition_calculator.dart';
 import 'package:infinity_health_tracker/models/user_profile.dart';
-import 'package:infinity_health_tracker/models/nutrition_goals.dart';
 
 void main() {
   group('NutritionCalculator', () {

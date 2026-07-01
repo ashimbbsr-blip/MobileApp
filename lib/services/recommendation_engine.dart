@@ -248,9 +248,9 @@ class RecommendationEngine {
 
       // Categories — covers both local short names and USDA long group names
       if (catLower == 'sweets' || catLower.contains('sweet') ||
-          catLower.contains('sugar') || catLower.contains('confection')) sweets++;
+          catLower.contains('sugar') || catLower.contains('confection')) { sweets++; }
       if (catLower == 'beverage' || catLower.contains('beverage') ||
-          catLower.contains('drink') || catLower.contains('juice')) bev++;
+          catLower.contains('drink') || catLower.contains('juice')) { bev++; }
 
       // Fruit/vegetable: category check + USDA group names + name-based fallback
       final isFruitOrVegCat = catLower == 'vegetable' || catLower == 'fruit' ||
@@ -258,7 +258,7 @@ class RecommendationEngine {
           catLower.contains('produce') || catLower.contains('salad');
       final isFruitOrVegName = fruitNames.any((k) => name.contains(k)) ||
           vegNames.any((k) => name.contains(k));
-      if (isFruitOrVegCat || isFruitOrVegName) veg++;
+      if (isFruitOrVegCat || isFruitOrVegName) { veg++; }
 
       if (catLower == 'meat' || catLower == 'fish' || catLower == 'dairy' ||
           catLower == 'protein' || catLower == 'dal' || catLower == 'egg' ||
@@ -267,7 +267,7 @@ class RecommendationEngine {
           catLower.contains('fish') || catLower.contains('seafood') ||
           catLower.contains('dairy') || catLower.contains('egg') ||
           catLower.contains('legume') || catLower.contains('nut') ||
-          catLower.contains('grain') || catLower.contains('bean')) prot++;
+          catLower.contains('grain') || catLower.contains('bean')) { prot++; }
 
       // Fried food detection
       if (kws.contains('fried') || kws.contains('fry') ||

@@ -217,8 +217,18 @@ class FoodItem extends HiveObject {
       case 'water':           return 'beverage';
       // Pulses
       case 'dal':             return 'legume';
+      // Regional / festival
+      case 'prasad':          return 'sweet';
+      case 'chutney':         return 'snack';
+      case 'starch':          return 'grain';
+      case 'food':            return 'snack';
       // Misc
       case 'curry':           return 'vegetable';
+      case 'veg_curry':       return 'vegetable';
+      case 'street_food':     return 'restaurant_food';
+      case 'millet':          return 'grain';
+      case 'tribal_food':     return 'restaurant_food';
+      case 'restaurant':      return 'restaurant_food';
       default:                return cat;
     }
   }

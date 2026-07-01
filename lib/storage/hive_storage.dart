@@ -165,7 +165,8 @@ class HiveStorage {
       await foodCacheBox.put(key, food);
       return;
     }
-    if (foodCacheBox.length >= AppConstants.maxCachedFoods) {
+    if (foodCacheBox.length >= AppConstants.maxCachedFoods &&
+        foodCacheBox.isNotEmpty) {
       await foodCacheBox.delete(foodCacheBox.keys.first);
     }
     await foodCacheBox.put(key, food);

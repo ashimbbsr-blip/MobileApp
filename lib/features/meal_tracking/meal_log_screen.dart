@@ -257,7 +257,7 @@ class _EntryTile extends ConsumerWidget {
     final c = entry.carbsG.toStringAsFixed(1);
     final f = entry.fatG.toStringAsFixed(1);
     final macroSubtitle = isBn
-        ? '${qg}গ্রা | প্রো: ${p}গ | কার্ব: ${c}গ | ফ্যা: ${f}গ'
+        ? '$qgগ্রা | প্রো: $pগ | কার্ব: $cগ | ফ্যা: $fগ'
         : '${qg}g | P: ${p}g | C: ${c}g | F: ${f}g';
 
     return Dismissible(
