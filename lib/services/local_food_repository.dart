@@ -9,13 +9,13 @@ List<Map<String, dynamic>> _decodeJsonIsolate(String jsonStr) {
   return raw.whereType<Map<String, dynamic>>().toList();
 }
 
-/// In-memory bilingual food repository backed by assets/data/food_master_v9_0.json.
+/// In-memory bilingual food repository backed by assets/data/food_master_v10.json.
 ///
 /// Loaded once at startup via [init()]. All subsequent [search] calls are
 /// pure in-memory operations — no Hive, no network, < 5ms per query.
 ///
 /// Search uses [LocalSearchService] as a candidate pre-filter when loaded,
-/// reducing the scoring pass from 4000 to ~50–300 items per query.
+/// reducing the scoring pass from 5000 to ~50–300 items per query.
 class LocalFoodRepository {
   static List<FoodItem>? _items;
   static Map<String, FoodItem> _idMap = {};
@@ -26,9 +26,9 @@ class LocalFoodRepository {
     if (_items != null) return;
     try {
       final jsonStr =
-          await rootBundle.loadString('assets/data/food_master_v9_0.json');
+          await rootBundle.loadString('assets/data/food_master_v10.json');
       if (jsonStr.isEmpty) {
-        debugPrint('[LocalFoodRepo] food_master.json is empty');
+        _initError = 'Food database is empty. Please reinstall the app.';
         _items = [];
         return;
       }
@@ -41,15 +41,18 @@ class LocalFoodRepository {
           list.add(item);
         } catch (e) {
           skipped++;
-          debugPrint('[LocalFoodRepo] skipped item id=${m['id']}: $e');
+          debugPrint('[LocalFoodRepo] skipped id=${m['id']}: $e');
         }
       }
       _skippedCount = skipped;
       _items = list;
-      // Index by the numeric part of the local ID (e.g. 'local_1234' → 1234)
-      // so we can look up by integer IDs from LocalSearchService.
       _idMap = {for (final f in list) f.id: f};
-      if (skipped > 0) debugPrint('[LocalFoodRepo] $skipped items skipped');
+      if (skipped > 0) {
+        debugPrint('[LocalFoodRepo] $skipped items skipped');
+        if (skipped > 100) {
+          _initError = 'Warning: $skipped foods failed to load correctly.';
+        }
+      }
       debugPrint('[LocalFoodRepo] loaded ${_items!.length} items');
     } catch (e, st) {
       _initError = e.toString();
@@ -67,18 +70,17 @@ class LocalFoodRepository {
 
   /// Full-text bilingual search with multi-tier relevance scoring.
   ///
-  /// When [LocalSearchService] is loaded, uses candidate pre-filtering to
-  /// score only relevant foods (~50–300) instead of the full 4000-item list.
-  ///
   /// Score tiers:
   ///   950  exact match (EN or BN)
   ///   800  word-start match in EN/BN
   ///   700  phrase-start (EN/BN startsWith query)
-  ///   600  any word in name starts with query (single-char supported)
-  ///   500  substring match in EN or BN
-  ///   430  alias / keyword exact match
-  ///   400  keyword / alias contains query
-  ///   350  all words of query present in combined fields
+  ///   600  any word in name starts with query
+  ///   500  substring match in EN or BN name
+  ///   430  keyword/alias exact match
+  ///   400  keyword/alias contains query
+  ///   350  all query words present anywhere
+  ///   280  any query word (>=4 chars) found
+  ///   250  3-char prefix match on any word
   ///
   /// searchPriority (0-100) adds up to +90 as tiebreaker within each tier.
   static List<FoodItem> search(String query,
@@ -86,6 +88,7 @@ class LocalFoodRepository {
     if (_items == null || _items!.isEmpty) return [];
     final q = query.toLowerCase().trim();
 
+    // Category browse: no query, just show top items in that category
     if (q.isEmpty && category != null) {
       final items = _items!.where((f) => f.category == category).toList()
         ..sort((a, b) => (b.searchPriority ?? 50).compareTo(a.searchPriority ?? 50));
@@ -93,16 +96,19 @@ class LocalFoodRepository {
     }
     if (q.isEmpty) return [];
 
-    // Use search service candidate pre-filter when available.
-    // Falls back to full scan if the index isn't loaded yet or returns too few hits.
+    // Candidate pre-filter via search index (if loaded).
+    // Use a low threshold (1) so the index is always used when it returns any results.
     Iterable<FoodItem> pool;
     if (LocalSearchService.isLoaded) {
       final candidateSet = LocalSearchService.candidateIds(q);
-      if (candidateSet.length >= 5) {
-        // Search service returns int IDs; local items have 'local_N' string IDs.
+      if (candidateSet.isNotEmpty) {
         pool = candidateSet
             .map((id) => _idMap['local_$id'])
             .whereType<FoodItem>();
+        // If fewer than 20 candidates, supplement with full scan for safety
+        if (candidateSet.length < 20) {
+          pool = _items!;
+        }
       } else {
         pool = _items!;
       }
@@ -121,8 +127,8 @@ class LocalFoodRepository {
   }
 
   static int _score(FoodItem food, String q) {
-    final en     = food.name.toLowerCase();
-    final bn     = (food.nameBn ?? '').toLowerCase();
+    final en     = food.name.toLowerCase().trim();
+    final bn     = (food.nameBn ?? '').toLowerCase().trim();
     final kwList = food.keywords ?? [];
     final kw     = kwList.join(' ').toLowerCase();
     final alList = food.aliases ?? [];
@@ -133,10 +139,10 @@ class LocalFoodRepository {
     // ── Tier 1: Exact match ──────────────────────────────────────────────────
     if (en == q || bn == q) return 950 + bonus;
 
-    // ── Tier 2: Word-start match ─────────────────────────────────────────────
-    // Any word in the name starts with the entire query
-    final enWords = en.split(RegExp(r'[\s/\-\(\)]+'));
-    final bnWords = bn.split(RegExp(r'[\s/\-\(\)]+'));
+    final enWords = en.split(RegExp(r'[\s/\-\(\),\.]+'));
+    final bnWords = bn.split(RegExp(r'[\s/\-\(\),\.]+'));
+
+    // ── Tier 2: Word-start match (any word in name starts with query) ────────
     if (enWords.any((w) => w.isNotEmpty && w.startsWith(q)) ||
         bnWords.any((w) => w.isNotEmpty && w.startsWith(q))) {
       return 800 + bonus;
@@ -145,9 +151,11 @@ class LocalFoodRepository {
     // ── Tier 3: Phrase-start ─────────────────────────────────────────────────
     if (en.startsWith(q) || bn.startsWith(q)) return 700 + bonus;
 
-    // ── Single character: word-start only ────────────────────────────────────
+    // ── Single character: word-start in name or keywords ─────────────────────
     if (q.length == 1) {
-      if (kwList.any((w) => w.toLowerCase().startsWith(q))) return 600 + bonus;
+      if (enWords.any((w) => w.isNotEmpty && w.startsWith(q))) return 600 + bonus;
+      if (bnWords.any((w) => w.isNotEmpty && w.startsWith(q))) return 600 + bonus;
+      if (kwList.any((w) => w.toLowerCase().startsWith(q))) return 550 + bonus;
       return 0;
     }
 
@@ -168,24 +176,44 @@ class LocalFoodRepository {
     if (qWords.length > 1) {
       final combined = '$en $bn $kw $al';
       if (qWords.every((w) => combined.contains(w))) return 350 + bonus;
+      // Partial multi-word: most words match
+      final matchCount = qWords.where((w) => combined.contains(w)).length;
+      if (matchCount >= (qWords.length * 0.75).ceil()) return 320 + bonus;
     }
 
     // ── Fuzzy: partial word overlap (last resort) ─────────────────────────────
-    // Check if at least one meaningful word from query matches
-    if (q.length >= 4) {
+    if (q.length >= 3) {
       final combined = '$en $bn $kw $al';
       for (final w in qWords) {
         if (w.length >= 4 && combined.contains(w)) return 280 + bonus;
       }
-      // Check prefix of query against prefix of any word
-      final qPrefix3 = q.length >= 3 ? q.substring(0, 3) : q;
-      if (enWords.any((w) => w.startsWith(qPrefix3)) ||
-          bnWords.any((w) => w.startsWith(qPrefix3))) {
+      final qPfx = q.substring(0, q.length.clamp(0, 3));
+      if (enWords.any((w) => w.startsWith(qPfx)) ||
+          bnWords.any((w) => w.startsWith(qPfx))) {
         return 250 + bonus;
       }
     }
 
     return 0;
+  }
+
+  /// Returns the top foods (by searchPriority) for the initial browse state.
+  static List<FoodItem> topFoods({int limit = 50}) {
+    if (_items == null || _items!.isEmpty) return [];
+    if (LocalSearchService.isLoaded) {
+      final topIds = LocalSearchService.topFoodIds;
+      final top = topIds
+          .map((id) => _idMap['local_$id'])
+          .whereType<FoodItem>()
+          .take(limit)
+          .toList();
+      if (top.isNotEmpty) return top;
+    }
+    return (_items!.toList()
+      ..sort((a, b) =>
+          (b.searchPriority ?? 50).compareTo(a.searchPriority ?? 50)))
+        .take(limit)
+        .toList();
   }
 }
 

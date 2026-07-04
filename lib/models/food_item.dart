@@ -87,6 +87,9 @@ class FoodItem extends HiveObject {
   @HiveField(26)
   double? sodiumMg; // milligrams of sodium per serving
 
+  @HiveField(27)
+  double? sugarG; // total sugars per serving (grams)
+
   // ── Search-pipeline fields (v8 dataset, not persisted to Hive) ───────────
   // These are populated from food_master_v8_0.json at load time and used only
   // for in-memory search ranking. Custom foods (isCustom=true) leave them null.
@@ -127,6 +130,7 @@ class FoodItem extends HiveObject {
     this.vitaminB12Mcg,
     this.alcoholG,
     this.sodiumMg,
+    this.sugarG,
     this.family,
     this.searchPriority,
     this.qualityScore,
@@ -163,6 +167,7 @@ class FoodItem extends HiveObject {
       vitaminB12Mcg:  (m['b12'] as num?)?.toDouble(),
       alcoholG:       (m['alc_g'] as num?)?.toDouble(),
       sodiumMg:       (m['na'] as num?)?.toDouble(),
+      sugarG:         (m['sugar'] as num?)?.toDouble(),
       category: _normalizeCategory(m['cat'] as String?),
       keywords: (m['kw'] as List?)?.cast<String>(),
       source: m['src'] as String? ?? 'local',
@@ -227,9 +232,84 @@ class FoodItem extends HiveObject {
       case 'veg_curry':       return 'vegetable';
       case 'street_food':     return 'restaurant_food';
       case 'millet':          return 'grain';
-      case 'tribal_food':     return 'restaurant_food';
-      case 'restaurant':      return 'restaurant_food';
-      default:                return cat;
+      case 'tribal_food':       return 'restaurant_food';
+      case 'restaurant':        return 'restaurant_food';
+      // Beverage sub-types (from merged dataset)
+      case 'red_wine':          return 'beverage';
+      case 'white_wine':        return 'beverage';
+      case 'sparkling_wine':    return 'beverage';
+      case 'dessert_wine':      return 'beverage';
+      case 'rose_wine':         return 'beverage';
+      case 'vermouth':          return 'beverage';
+      case 'whiskey':           return 'beverage';
+      case 'soft_drink':        return 'beverage';
+      case 'malted_drink':      return 'beverage';
+      case 'health_drink':      return 'beverage';
+      case 'protein_drink':     return 'beverage';
+      case 'smoothie':          return 'beverage';
+      case 'frappe':            return 'beverage';
+      case 'cold_coffee':       return 'beverage';
+      case 'coffee':            return 'beverage';
+      case 'traditional_drink': return 'beverage';
+      // Dairy sub-types
+      case 'greek_yogurt':      return 'dairy';
+      case 'yogurt':            return 'dairy';
+      case 'fat_spread':        return 'dairy';
+      case 'plant_dairy':       return 'dairy';
+      case 'milk':              return 'dairy';
+      case 'probiotic':         return 'dairy';
+      // Fish sub-types
+      case 'fish_curry':        return 'fish';
+      case 'fish_fry':          return 'fish';
+      case 'fish_dish':         return 'fish';
+      case 'fried_fish':        return 'fish';
+      case 'grilled_fish':      return 'fish';
+      // Meat sub-types
+      case 'kebab':             return 'meat';
+      case 'non_veg_dish':      return 'meat';
+      case 'tandoor':           return 'meat';
+      // Legume sub-types
+      case 'pulse':             return 'legume';
+      case 'bean_curry':        return 'legume';
+      // Fruit sub-types
+      case 'dried_fruit':       return 'fruit';
+      case 'summer_fruit':      return 'fruit';
+      case 'stone_fruit':       return 'fruit';
+      case 'tropical_fruit':    return 'fruit';
+      case 'premium_dates':     return 'fruit';
+      case 'soft_dates':        return 'fruit';
+      // Vegetable sub-types
+      case 'vegetable_curry':   return 'vegetable';
+      case 'tuber':             return 'vegetable';
+      case 'veg_main':          return 'vegetable';
+      case 'vegetable_dish':    return 'vegetable';
+      // Grain sub-types
+      case 'cereal':            return 'breakfast';
+      case 'flour':             return 'grain';
+      // Rice sub-types
+      case 'biryani':           return 'rice';
+      case 'rice_meal':         return 'rice';
+      // Sweet / confectionery
+      case 'confectionery':     return 'sweet';
+      case 'cake':              return 'sweet';
+      case 'ice_cream':         return 'sweet';
+      // Restaurant / fast-food
+      case 'main_course':       return 'restaurant_food';
+      case 'ready_meal':        return 'restaurant_food';
+      case 'combo':             return 'restaurant_food';
+      case 'dish':              return 'restaurant_food';
+      case 'traditional_food':  return 'restaurant_food';
+      case 'temple_food':       return 'sweet';
+      // Snack / supplement
+      case 'protein_bar':       return 'snack';
+      case 'spread':            return 'snack';
+      case 'sweetener':         return 'snack';
+      case 'instant_food':      return 'snack';
+      case 'starter':           return 'snack';
+      case 'street_snack':      return 'snack';
+      case 'fried_snack':       return 'snack';
+      case 'fried_food':        return 'snack';
+      default:                  return cat;
     }
   }
 
@@ -298,6 +378,7 @@ class FoodItem extends HiveObject {
   // ── Scaling ───────────────────────────────────────────────────────────────
 
   FoodItem scaledTo(double grams) {
+    if (servingSize <= 0) return this;
     final factor = grams / servingSize;
     return FoodItem(
       id: id,
@@ -322,6 +403,7 @@ class FoodItem extends HiveObject {
       vitaminB12Mcg: vitaminB12Mcg != null ? vitaminB12Mcg! * factor : null,
       alcoholG: alcoholG != null ? alcoholG! * factor : null,
       sodiumMg: sodiumMg != null ? sodiumMg! * factor : null,
+      sugarG: sugarG != null ? sugarG! * factor : null,
       usdaFdcId: usdaFdcId,
       isCustom: isCustom,
       category: category,

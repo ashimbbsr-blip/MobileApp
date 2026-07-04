@@ -20,7 +20,7 @@ from collections import defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-FOOD_MASTER = 'assets/data/food_master_v9_0.json'
+FOOD_MASTER = 'assets/data/food_master_v10.json'
 OUTPUT_FILE = 'assets/data/search_index_v2.json'
 
 # ─── Alias map ─────────────────────────────────────────────────────────────────
@@ -505,7 +505,8 @@ def bn_name_lower(food):
     return food.get('bn', '').lower()
 
 def keywords_lower(food):
-    kws = food.get('k', [])
+    # 'kw' is keywords; 'k' is calories — use 'kw'
+    kws = food.get('kw', [])
     if isinstance(kws, list):
         return [k.lower() for k in kws]
     return []
@@ -578,9 +579,9 @@ def build_family_index(foods, family_seeds):
 def build_top_foods(foods, n=200):
     """Top N foods by search_priority field, then alphabetical."""
     def priority(f):
-        s = f.get('s', 50)
+        sp = f.get('search_priority', 50)
         try:
-            return -int(s)
+            return -int(sp)
         except (TypeError, ValueError):
             return -50
     sorted_foods = sorted(foods, key=lambda f: (priority(f), f.get('en', '')))

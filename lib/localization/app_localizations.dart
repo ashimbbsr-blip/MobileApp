@@ -305,6 +305,7 @@ class AppStrings {
   // Nutrition education
   String get fiberGoalInfo => _t('fiberGoalInfo');
   String get sodiumLabel => _t('sodiumLabel');
+  String get sugarLabel => _t('sugarLabel');
   String get ironWarningFemale => _t('ironWarningFemale');
 
   // Custom food units
@@ -594,6 +595,7 @@ class AppStrings {
       // Nutrition education
       'fiberGoalInfo': 'Fiber aids digestion, lowers cholesterol, and stabilises blood sugar. ICMR recommends 40 g/day for adults.',
       'sodiumLabel': 'Sodium',
+      'sugarLabel': 'Sugar',
       'ironWarningFemale': 'Iron intake is below recommended levels. Females aged 19–50 need 29 mg/day (ICMR 2020).',
       // Custom food units (Indian)
       'unitKatori': 'katori (150 ml)',
@@ -879,6 +881,7 @@ class AppStrings {
       // Nutrition education
       'fiberGoalInfo': 'ফাইবার হজম সহজ করে, কোলেস্টেরল কমায় এবং রক্তের শর্করা স্থিতিশীল রাখে। ICMR প্রাপ্তবয়স্কদের জন্য দৈনিক ৪০ গ্রাম সুপারিশ করে।',
       'sodiumLabel': 'সোডিয়াম',
+      'sugarLabel': 'চিনি',
       'ironWarningFemale': 'আয়রন গ্রহণ সুপারিশকৃত মাত্রার নিচে। ১৯–৫০ বছর বয়সী মহিলাদের দৈনিক ২৯ মিগ্রা আয়রন প্রয়োজন (ICMR 2020)।',
       // Custom food units (Indian)
       'unitKatori': 'কাটোরি (১৫০ মিলি)',

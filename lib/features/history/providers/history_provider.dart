@@ -59,7 +59,16 @@ class HistoryNotifier extends StateNotifier<HistoryState> {
   void load() {
     state = state.copyWith(isLoading: true);
     final profile = HiveStorage.getUserProfile();
-    final goals = profile != null ? NutritionCalculator.calculate(profile) : null;
+    var goals = profile != null ? NutritionCalculator.calculate(profile) : null;
+    // Apply custom nutrition limits (same logic as dashboard_provider)
+    if (goals != null && HiveStorage.useCustomLimits) {
+      goals = goals.copyWith(
+        calories: HiveStorage.customCalories ?? goals.calories,
+        proteinG: HiveStorage.customProteinG ?? goals.proteinG,
+        carbsG: HiveStorage.customCarbsG ?? goals.carbsG,
+        fatG: HiveStorage.customFatG ?? goals.fatG,
+      );
+    }
     final goalCal = goals?.calories ?? 2000;
 
     final week = AnalyticsService.getLastNDays(7);

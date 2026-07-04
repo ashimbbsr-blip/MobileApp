@@ -29,7 +29,7 @@ class HelpScreen extends StatelessWidget {
                 'Log every meal, track calories and macros (protein, carbs, fat), and see weekly trends in the History tab.',
               ),
               _Bullet(
-                'Powered by a 1,377-item local database covering Indian, Bengali, Odia, and Bangladeshi foods — plus USDA\'s global database for international items.',
+                'Powered by a 5,000-item local database covering Indian, Bengali, and Odia foods — plus USDA\'s global database for international items.',
               ),
               _Bullet(
                 'Smart recommendations appear on your dashboard after you log your first meal of the day.',
@@ -67,7 +67,7 @@ class HelpScreen extends StatelessWidget {
             title: 'Searching Foods',
             isDark: isDark,
             children: const [
-              _Bullet('Local tab (offline): 1,377 Indian / Bengali / Odia foods. Type English or Bengali — autocomplete suggestions appear after 1 character.'),
+              _Bullet('Local tab (offline): 5,000 Indian & Bengali foods. Type English or Bengali — autocomplete suggestions appear as you type.'),
               _Bullet('Category chips (rice, dal, fish…) instantly browse all items in that group.'),
               _Bullet('USDA tab (online): Search millions of global foods from the US Dept. of Agriculture database. Requires an internet connection. No account or API key needed — this is handled automatically.'),
               _Bullet('My Foods tab: Create custom entries for home-cooked dishes with your own calorie values.'),

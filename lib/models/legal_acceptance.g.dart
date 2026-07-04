@@ -1,5 +1,10 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
+
 part of 'legal_acceptance.dart';
+
+// **************************************************************************
+// TypeAdapterGenerator
+// **************************************************************************
 
 class LegalAcceptanceAdapter extends TypeAdapter<LegalAcceptance> {
   @override
@@ -15,8 +20,8 @@ class LegalAcceptanceAdapter extends TypeAdapter<LegalAcceptance> {
       acceptedAt: fields[0] as DateTime,
       policyVersion: fields[1] as String,
       appVersion: fields[2] as String,
-      termsAccepted: fields[3] as bool? ?? true,
-      healthDisclaimerAccepted: fields[4] as bool? ?? true,
+      termsAccepted: fields[3] as bool,
+      healthDisclaimerAccepted: fields[4] as bool,
     );
   }
 
@@ -37,12 +42,12 @@ class LegalAcceptanceAdapter extends TypeAdapter<LegalAcceptance> {
   }
 
   @override
+  int get hashCode => typeId.hashCode;
+
+  @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       other is LegalAcceptanceAdapter &&
           runtimeType == other.runtimeType &&
           typeId == other.typeId;
-
-  @override
-  int get hashCode => typeId.hashCode;
 }

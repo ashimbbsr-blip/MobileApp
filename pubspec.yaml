@@ -67,5 +67,5 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/data/food_master_v9_0.json
+    - assets/data/food_master_v10.json
     - assets/data/search_index_v2.json

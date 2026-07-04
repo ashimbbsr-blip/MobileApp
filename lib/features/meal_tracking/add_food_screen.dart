@@ -564,7 +564,7 @@ class _LocalIdle extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      bn ? 'ভারতীয় ও বাংলাদেশি খাবার' : 'Indian & Bengali Foods',
+                      bn ? 'ভারতীয় ও বাঙালি খাবার' : 'Indian & Bengali Foods',
                       style: const TextStyle(
                           color: Colors.white, fontSize: 16, fontWeight: FontWeight.w800),
                     ),

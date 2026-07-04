@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -274,6 +276,7 @@ class _LocalTabState extends ConsumerState<_LocalTab>
     with AutomaticKeepAliveClientMixin {
   final _ctrl = TextEditingController();
   final _focus = FocusNode();
+  Timer? _debounce;
   List<FoodItem> _suggestions = [];
   bool _showSuggestions = false;
   // Prevents the focus-loss listener from hiding suggestions before a tap lands.
@@ -290,11 +293,10 @@ class _LocalTabState extends ConsumerState<_LocalTab>
 
   void _onFocusChange() {
     if (_focus.hasFocus) {
-      // Restore suggestions immediately when the field is tapped again,
-      // e.g. after a tab switch clears them or after picking a suggestion.
+      // Restore suggestions immediately when focus returns (no debounce).
       final q = _ctrl.text.trim();
       if (q.isNotEmpty && _suggestions.isEmpty) {
-        _onTextChanged(_ctrl.text);
+        _runSearch(_ctrl.text);
       }
     } else if (!_pointerDownOnSuggestions) {
       if (mounted) setState(() => _showSuggestions = false);
@@ -303,26 +305,30 @@ class _LocalTabState extends ConsumerState<_LocalTab>
 
   @override
   void dispose() {
+    _debounce?.cancel();
     _focus.removeListener(_onFocusChange);
     _ctrl.dispose();
     _focus.dispose();
     super.dispose();
   }
 
-  void _onTextChanged(String value) {
+  void _runSearch(String value) {
     final q = value.trim();
     if (q.isNotEmpty) {
       final results = LocalFoodRepository.search(q, limit: 7);
-      setState(() {
-        _suggestions = results;
-        _showSuggestions = results.isNotEmpty;
-      });
+      if (mounted) setState(() { _suggestions = results; _showSuggestions = results.isNotEmpty; });
     } else {
-      setState(() {
-        _suggestions = [];
-        _showSuggestions = false;
-      });
+      if (mounted) setState(() { _suggestions = []; _showSuggestions = false; });
     }
+  }
+
+  void _onTextChanged(String value) {
+    _debounce?.cancel();
+    if (value.trim().isEmpty) {
+      setState(() { _suggestions = []; _showSuggestions = false; });
+      return;
+    }
+    _debounce = Timer(const Duration(milliseconds: 280), () => _runSearch(value));
   }
 
   void _pickSuggestion(FoodItem food) {

@@ -44,13 +44,14 @@ class FoodItemAdapter extends TypeAdapter<FoodItem> {
       vitaminB12Mcg: fields[24] as double?,
       alcoholG: fields[25] as double?,
       sodiumMg: fields[26] as double?,
+      sugarG: fields[27] as double?,
     );
   }
 
   @override
   void write(BinaryWriter writer, FoodItem obj) {
     writer
-      ..writeByte(27)
+      ..writeByte(28)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -104,7 +105,9 @@ class FoodItemAdapter extends TypeAdapter<FoodItem> {
       ..writeByte(25)
       ..write(obj.alcoholG)
       ..writeByte(26)
-      ..write(obj.sodiumMg);
+      ..write(obj.sodiumMg)
+      ..writeByte(27)
+      ..write(obj.sugarG);
   }
 
   @override

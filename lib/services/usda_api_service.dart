@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart' show debugPrint;
 import '../core/constants/app_constants.dart';
 import '../models/food_item.dart';
 import '../services/api_key_service.dart';
-import 'package:uuid/uuid.dart';
 
 class RateLimitException implements Exception {
   final String message;
@@ -15,7 +15,6 @@ class RateLimitException implements Exception {
 
 class UsdaApiService {
   final Dio _dio;
-  final _uuid = const Uuid();
 
   // In-flight deduplication: same query → same Future, one network request
   final Map<String, Future<List<FoodItem>>> _inFlight = {};
@@ -82,7 +81,7 @@ class UsdaApiService {
         _cooldownUntil = DateTime.now().add(
           const Duration(seconds: AppConstants.rateLimitCooldownSeconds),
         );
-        throw RateLimitException(
+        throw const RateLimitException(
           'Food search is temporarily limited. Previously searched foods are still available.',
           cooldownSeconds: AppConstants.rateLimitCooldownSeconds,
         );
@@ -132,8 +131,13 @@ class UsdaApiService {
 
   FoodItem? _parseFoodItem(Map<String, dynamic> data) {
     try {
+      final fdcId = data['fdcId']?.toString();
+      if (fdcId == null || fdcId.isEmpty) return null;
+
       final nutrients = _extractNutrients(data);
-      final servingSize = (data['servingSize'] as num?)?.toDouble() ?? 100.0;
+
+      double servingSize = (data['servingSize'] as num?)?.toDouble() ?? 100.0;
+      if (servingSize <= 0 || servingSize > 5000) servingSize = 100.0;
       final servingUnit = data['servingSizeUnit'] as String? ?? 'g';
 
       final description = data['description'] as String? ?? 'Unknown Food';
@@ -143,7 +147,7 @@ class UsdaApiService {
           data['brandedFoodCategory'] as String?;
 
       return FoodItem(
-        id: _uuid.v4(),
+        id: 'usda_$fdcId',
         name: description,
         brand: brandOwner,
         servingSize: servingSize,
@@ -163,7 +167,8 @@ class UsdaApiService {
         magnesiumMg: nutrients['magnesium'],
         zincMg: nutrients['zinc'],
         sodiumMg: nutrients['sodium'],
-        usdaFdcId: data['fdcId']?.toString(),
+        sugarG: nutrients['sugar'],
+        usdaFdcId: fdcId,
         isCustom: false,
         source: 'usda',
         category: _mapUsdaCategory(foodCategory),
@@ -175,7 +180,8 @@ class UsdaApiService {
               .take(8),
         ],
       );
-    } catch (_) {
+    } catch (e) {
+      debugPrint('[UsdaApiService] parse failed for fdcId=${data['fdcId']}: $e');
       return null;
     }
   }
@@ -211,6 +217,9 @@ class UsdaApiService {
       else if (name.contains('Zinc') || id == 1095) { result['zinc'] = value; }
       else if (name.contains('Sodium') || id == 1093) { result['sodium'] = value; }
       else if (name.contains('Vitamin B-12') || name.contains('Vitamin B12') || id == 1178) { result['vitaminB12'] = value; }
+      else if (name.contains('Sugars, total') || id == 2000 || id == 1063) { result['sugar'] = value; }
+      else if (name.contains('Vitamin E') || id == 1109) { result['vitaminE'] = value; }
+      else if (name.contains('Vitamin K') || id == 1185) { result['vitaminK'] = value; }
     }
     return result;
   }
