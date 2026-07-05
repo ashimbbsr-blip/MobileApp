@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import '../../localization/strings_provider.dart';
 import '../../theme/app_colors.dart';
 import '../../models/food_item.dart';
@@ -221,9 +222,9 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
       body: TabBarView(
         controller: _tabController,
         children: [
-          _LocalTab(lang: lang, isDark: isDark, onAdd: _addFood),
-          _UsdaTab(lang: lang, isDark: isDark, onAdd: _addFood),
-          _CustomTab(lang: lang, isDark: isDark, onAdd: _addFood),
+          _LocalTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
+          _UsdaTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
+          _CustomTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
         ],
       ),
     );
@@ -237,9 +238,10 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
 class _LocalTab extends StatefulWidget {
   final String lang;
   final bool isDark;
+  final String mealType;
   final Future<void> Function(FoodItem, double) onAdd;
 
-  const _LocalTab({required this.lang, required this.isDark, required this.onAdd});
+  const _LocalTab({required this.lang, required this.isDark, required this.mealType, required this.onAdd});
 
   @override
   State<_LocalTab> createState() => _LocalTabState();
@@ -500,6 +502,7 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
                           food: f,
                           lang: lang,
                           isDark: isDark,
+                          mealType: widget.mealType,
                           onAdd: widget.onAdd,
                           trailing: isCustom
                               ? _CustomFoodActions(
@@ -513,6 +516,7 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
               : _LocalIdle(
                   lang: lang,
                   theme: theme,
+                  mealType: widget.mealType,
                   onAdd: widget.onAdd,
                   isDark: isDark,
                   onEditCustom: _handleEditCustom,
@@ -527,6 +531,7 @@ class _LocalTabState extends State<_LocalTab> with AutomaticKeepAliveClientMixin
 class _LocalIdle extends StatelessWidget {
   final String lang;
   final ThemeData theme;
+  final String mealType;
   final Future<void> Function(FoodItem, double) onAdd;
   final bool isDark;
   final Future<void> Function(FoodItem)? onEditCustom;
@@ -535,6 +540,7 @@ class _LocalIdle extends StatelessWidget {
   const _LocalIdle({
     required this.lang,
     required this.theme,
+    required this.mealType,
     required this.onAdd,
     required this.isDark,
     this.onEditCustom,
@@ -612,6 +618,7 @@ class _LocalIdle extends StatelessWidget {
                 food: food,
                 lang: lang,
                 isDark: isDark,
+                mealType: mealType,
                 onAdd: onAdd,
                 trailing: (onEditCustom != null || onDeleteCustom != null)
                     ? _CustomFoodActions(
@@ -702,9 +709,10 @@ enum _UsdaStatus { idle, loading, success, error, offline, rateLimited }
 class _UsdaTab extends StatefulWidget {
   final String lang;
   final bool isDark;
+  final String mealType;
   final Future<void> Function(FoodItem, double) onAdd;
 
-  const _UsdaTab({required this.lang, required this.isDark, required this.onAdd});
+  const _UsdaTab({required this.lang, required this.isDark, required this.mealType, required this.onAdd});
 
   @override
   State<_UsdaTab> createState() => _UsdaTabState();
@@ -889,6 +897,7 @@ class _UsdaTabState extends State<_UsdaTab> with AutomaticKeepAliveClientMixin {
             food: _results[i],
             lang: lang,
             isDark: isDark,
+            mealType: widget.mealType,
             onAdd: widget.onAdd,
           ),
         );
@@ -992,9 +1001,10 @@ class _UsdaIdle extends StatelessWidget {
 class _CustomTab extends StatefulWidget {
   final String lang;
   final bool isDark;
+  final String mealType;
   final Future<void> Function(FoodItem, double) onAdd;
 
-  const _CustomTab({required this.lang, required this.isDark, required this.onAdd});
+  const _CustomTab({required this.lang, required this.isDark, required this.mealType, required this.onAdd});
 
   @override
   State<_CustomTab> createState() => _CustomTabState();
@@ -1357,6 +1367,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
               food: food,
               lang: lang,
               isDark: isDark,
+              mealType: widget.mealType,
               onAdd: widget.onAdd,
               trailing: _CustomFoodActions(
                 onEdit: () => _editFood(food),
@@ -1432,6 +1443,7 @@ class _AddFoodTile extends StatefulWidget {
   final FoodItem food;
   final String lang;
   final bool isDark;
+  final String mealType;
   final Future<void> Function(FoodItem, double) onAdd;
   final Widget? trailing;
 
@@ -1439,6 +1451,7 @@ class _AddFoodTile extends StatefulWidget {
     required this.food,
     required this.lang,
     required this.isDark,
+    required this.mealType,
     required this.onAdd,
     this.trailing,
   });
@@ -1506,64 +1519,81 @@ class _AddFoodTileState extends State<_AddFoodTile> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // Top row: tappable food info → opens FoodDetailScreen
           Row(
             children: [
-              Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Icon(
-                  _catIcons[food.category] ?? Icons.fastfood_outlined,
-                  color: color,
-                  size: 20,
-                ),
-              ),
-              const SizedBox(width: 10),
               Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      food.displayName(lang),
-                      style: theme.textTheme.titleSmall?.copyWith(
-                          fontWeight: FontWeight.w700, fontSize: 13),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    if (lang == 'bn' && food.name.isNotEmpty)
-                      Text(food.name,
-                          style: theme.textTheme.bodySmall
-                              ?.copyWith(fontSize: 10),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis)
-                    else if (food.nameBn != null && food.nameBn!.isNotEmpty)
-                      Text(food.nameBn!,
-                          style: theme.textTheme.bodySmall
-                              ?.copyWith(fontSize: 10),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis),
-                  ],
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: () => context.push(
+                    '/food-search/detail',
+                    extra: {'food': food, 'mealType': widget.mealType},
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 40,
+                        height: 40,
+                        decoration: BoxDecoration(
+                          color: color.withValues(alpha: 0.12),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: Icon(
+                          _catIcons[food.category] ?? Icons.fastfood_outlined,
+                          color: color,
+                          size: 20,
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              food.displayName(lang),
+                              style: theme.textTheme.titleSmall?.copyWith(
+                                  fontWeight: FontWeight.w700, fontSize: 13),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            if (lang == 'bn' && food.name.isNotEmpty)
+                              Text(food.name,
+                                  style: theme.textTheme.bodySmall
+                                      ?.copyWith(fontSize: 10),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis)
+                            else if (food.nameBn != null && food.nameBn!.isNotEmpty)
+                              Text(food.nameBn!,
+                                  style: theme.textTheme.bodySmall
+                                      ?.copyWith(fontSize: 10),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis),
+                          ],
+                        ),
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Text(
+                            '${scaledCal.toStringAsFixed(0)} kcal',
+                            style: const TextStyle(
+                              color: AppColors.calories,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 13,
+                            ),
+                          ),
+                          Text(
+                            'per ${_qty.toStringAsFixed(0)}${food.servingUnit}',
+                            style: theme.textTheme.labelSmall?.copyWith(fontSize: 9),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(width: 4),
+                      Icon(Icons.chevron_right_rounded,
+                          size: 16, color: theme.hintColor),
+                    ],
+                  ),
                 ),
-              ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: [
-                  Text(
-                    '${scaledCal.toStringAsFixed(0)} kcal',
-                    style: const TextStyle(
-                      color: AppColors.calories,
-                      fontWeight: FontWeight.w800,
-                      fontSize: 13,
-                    ),
-                  ),
-                  Text(
-                    'per ${_qty.toStringAsFixed(0)}${food.servingUnit}',
-                    style: theme.textTheme.labelSmall?.copyWith(fontSize: 9),
-                  ),
-                ],
               ),
               if (widget.trailing != null) widget.trailing!,
             ],
