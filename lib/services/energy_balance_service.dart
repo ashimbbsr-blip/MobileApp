@@ -1,12 +1,16 @@
 import '../models/user_profile.dart';
 
-// ── Activity equivalents ─────────────────────────────────────────────────────
-// Based on MET values for a 70 kg adult (Indian average BMI reference).
-// kcal/min for a 70 kg person at moderate intensity.
-const double _walkKcalPerMin = 4.0;   // 5 km/h moderate walk
-const double _runKcalPerMin = 9.0;    // 9 km/h moderate jog
-const double _cycleKcalPerMin = 6.5;  // 15 km/h cycling
-const double _stepsPerMin = 100.0;    // average 100 steps/min walking
+// ── MET values (Compendium of Physical Activities, Ainsworth 2011) ───────────
+// kcal/min = MET × weightKg / 60
+const double _walkMet = 3.5;   // moderate walking 5 km/h
+const double _runMet = 9.8;    // running 9 km/h
+const double _cycleMet = 8.0;  // cycling ~15 km/h
+const double _stepsPerMin = 100.0;
+const double _referenceWeightKg = 65.0; // Indian adult reference (ICMR 2020)
+
+double _walkRate(double kg) => _walkMet * kg / 60.0;
+double _runRate(double kg)  => _runMet  * kg / 60.0;
+double _cycleRate(double kg)=> _cycleMet * kg / 60.0;
 
 // ── Model ─────────────────────────────────────────────────────────────────────
 
@@ -86,11 +90,12 @@ class EnergyBalanceService {
     final isDeficit = balance < 0;
     final abs = balance.abs();
 
-    // Activity equivalents to burn/represent the balance
-    final walkMins = (abs / _walkKcalPerMin).round().clamp(0, 240);
+    // Activity equivalents — weight-personalized via MET × weightKg / 60
+    final kg = profile?.weightKg ?? _referenceWeightKg;
+    final walkMins = (abs / _walkRate(kg)).round().clamp(0, 240);
     final walkSteps = (walkMins * _stepsPerMin).round();
-    final runMins = (abs / _runKcalPerMin).round().clamp(0, 120);
-    final cycleMins = (abs / _cycleKcalPerMin).round().clamp(0, 180);
+    final runMins = (abs / _runRate(kg)).round().clamp(0, 120);
+    final cycleMins = (abs / _cycleRate(kg)).round().clamp(0, 180);
 
     final absRounded = abs.round();
     final balanceSign = balance > 0 ? '+' : '';
@@ -138,8 +143,8 @@ class EnergyBalanceService {
   static String _contextEn(BalanceStatus s, int abs, int wMins, int wSteps) {
     switch (s) {
       case BalanceStatus.deepDeficit:
-        return 'You\'re in a healthy deficit today — great work toward your goal! '
-            'Make sure you\'re eating enough to feel energized.';
+        return 'You\'re significantly below your calorie target today. '
+            'Make sure you\'re eating enough to feel energized — consistent under-eating can slow your metabolism.';
       case BalanceStatus.deficit:
         return 'Slightly under target — that\'s perfectly fine! '
             'A ~$abs kcal deficit is approximately $wMins min of walking (${_fmtSteps(wSteps)} steps).';
@@ -159,8 +164,8 @@ class EnergyBalanceService {
   static String _contextBn(BalanceStatus s, int abs, int wMins, int wSteps) {
     switch (s) {
       case BalanceStatus.deepDeficit:
-        return 'আজ একটি স্বাস্থ্যকর ঘাটতিতে আছেন — দারুণ কাজ! '
-            'শক্তি বজায় রাখতে পর্যাপ্ত খাবার খান।';
+        return 'আজ ক্যালোরি লক্ষ্যমাত্রার থেকে অনেক কম খাওয়া হয়েছে। '
+            'শক্তি বজায় রাখতে পর্যাপ্ত খাবার খান — নিয়মিত কম খেলে বিপাকক্রিয়া ধীর হয়ে যায়।';
       case BalanceStatus.deficit:
         return 'লক্ষ্যের থেকে সামান্য কম — এটা ঠিকই আছে! '
             '~$abs kcal ঘাটতি মানে প্রায় $wMins মিনিট হাঁটা (${_fmtSteps(wSteps)} স্টেপ)।';

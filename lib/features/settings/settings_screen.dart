@@ -9,10 +9,10 @@ import '../../theme/app_colors.dart';
 import '../../storage/hive_storage.dart';
 import '../../services/api_key_service.dart';
 import '../../services/export_service.dart';
-import '../../services/notification_service.dart';
 import '../../widgets/common/app_logo.dart';
 import '../settings/providers/settings_provider.dart';
 import '../profile/providers/profile_provider.dart';
+import '../dashboard/providers/dashboard_provider.dart';
 import '../../core/constants/app_constants.dart';
 
 class SettingsScreen extends ConsumerWidget {
@@ -176,11 +176,6 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
-          // ── Notifications ─────────────────────────────────────────────────
-          _NotificationCard(l10n: l10n, theme: theme),
-
-          const SizedBox(height: 16),
-
           // ── Data Management ───────────────────────────────────────────────
           Card(
             child: Column(
@@ -340,15 +335,15 @@ class SettingsScreen extends ConsumerWidget {
         applicationName: l10n.appName,
         applicationVersion: AppConstants.currentAppVersion,
         applicationLegalese: '© 2026 Ashim Kumar Ghosh. All rights reserved.\n${l10n.tagline}',
-        children: [
-          const SizedBox(height: 16),
-          const Text(
+        children: const [
+          SizedBox(height: 16),
+          Text(
             'A bilingual (English + Bengali) nutrition tracking app.\nFully offline-first. No data leaves your device.',
           ),
-          const SizedBox(height: 12),
-          const Text('Developer: Ashim Kumar Ghosh', style: TextStyle(fontWeight: FontWeight.w600)),
-          const SizedBox(height: 4),
-          const Text('Feedback & Support:\ntalktoashim27@gmail.com'),
+          SizedBox(height: 12),
+          Text('Developer: Ashim Kumar Ghosh', style: TextStyle(fontWeight: FontWeight.w600)),
+          SizedBox(height: 4),
+          Text('Feedback & Support:\ntalktoashim27@gmail.com'),
         ],
       ),
     );
@@ -404,6 +399,7 @@ class _CustomNutritionLimitsCardState
     await HiveStorage.saveCustomCarbsG(double.tryParse(_carbCtrl.text.trim()));
     await HiveStorage.saveCustomFatG(double.tryParse(_fatCtrl.text.trim()));
     ref.read(profileProvider.notifier).refresh();
+    ref.read(dashboardProvider.notifier).refresh();
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         content: Text(widget.l10n.isBengali
@@ -450,9 +446,9 @@ class _CustomNutritionLimitsCardState
                     ),
                     child: Text(
                       l10n.customLimitsActive,
-                      style: TextStyle(
+                      style: const TextStyle(
                           fontSize: 10,
-                          color: accent,
+                          color: AppColors.primary,
                           fontWeight: FontWeight.w700),
                     ),
                   ),
@@ -474,6 +470,7 @@ class _CustomNutritionLimitsCardState
                 setState(() => _useCustom = v);
                 await HiveStorage.setUseCustomLimits(v);
                 ref.read(profileProvider.notifier).refresh();
+                ref.read(dashboardProvider.notifier).refresh();
               },
             ),
           ),
@@ -599,6 +596,7 @@ class _CustomNutritionLimitsCardState
                       await HiveStorage.saveCustomCarbsG(null);
                       await HiveStorage.saveCustomFatG(null);
                       ref.read(profileProvider.notifier).refresh();
+                      ref.read(dashboardProvider.notifier).refresh();
                     },
                     child: Text(
                       l10n.useAutoCalculated,
@@ -1237,187 +1235,3 @@ class _SettingsTile extends StatelessWidget {
   }
 }
 
-// ── Notification Settings Card ────────────────────────────────────────────────
-
-class _NotificationCard extends StatefulWidget {
-  final AppStrings l10n;
-  final ThemeData theme;
-  const _NotificationCard({required this.l10n, required this.theme});
-
-  @override
-  State<_NotificationCard> createState() => _NotificationCardState();
-}
-
-class _NotificationCardState extends State<_NotificationCard> {
-  late bool _enabled;
-  late int _hour;
-  late int _minute;
-  bool _saving = false;
-
-  @override
-  void initState() {
-    super.initState();
-    _enabled = HiveStorage.notificationEnabled;
-    _hour = HiveStorage.notificationHour;
-    _minute = HiveStorage.notificationMinute;
-  }
-
-  Future<void> _toggleEnabled(bool value) async {
-    setState(() => _saving = true);
-    await HiveStorage.setNotificationEnabled(value);
-    if (value) {
-      final granted = await NotificationService.instance.requestPermissions();
-      if (granted) {
-        await NotificationService.instance.requestExactAlarmPermission();
-        final ok = await NotificationService.instance.scheduleReminder(
-          hour: _hour,
-          minute: _minute,
-          language: HiveStorage.language,
-        );
-        if (!ok && mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-            content: Text(widget.l10n.isBengali
-                ? 'রিমাইন্ডার সেট করতে সমস্যা হয়েছে। সেটিংস > অ্যাপ থেকে অ্যালার্ম অনুমতি দিন।'
-                : 'Could not schedule reminder. Allow Alarms permission in Settings > Apps.'),
-            backgroundColor: Colors.orange,
-            duration: const Duration(seconds: 5),
-          ));
-        }
-      }
-    } else {
-      await NotificationService.instance.cancelReminder();
-    }
-    if (mounted) setState(() { _enabled = value; _saving = false; });
-  }
-
-  Future<void> _pickTime() async {
-    final picked = await showTimePicker(
-      context: context,
-      initialTime: TimeOfDay(hour: _hour, minute: _minute),
-      helpText: widget.l10n.isBengali
-          ? 'রিমাইন্ডারের সময় বেছে নিন'
-          : 'Choose reminder time',
-    );
-    if (picked == null || !mounted) return;
-    setState(() { _hour = picked.hour; _minute = picked.minute; _saving = true; });
-    await HiveStorage.setNotificationTime(picked.hour, picked.minute);
-    if (_enabled) {
-      final ok = await NotificationService.instance.scheduleReminder(
-        hour: picked.hour,
-        minute: picked.minute,
-        language: HiveStorage.language,
-      );
-      if (!ok && mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text(widget.l10n.isBengali
-              ? 'রিমাইন্ডার আপডেট করতে সমস্যা হয়েছে।'
-              : 'Could not update reminder.'),
-          backgroundColor: Colors.orange,
-        ));
-      }
-    }
-    if (mounted) setState(() => _saving = false);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = widget.theme;
-    final l10n = widget.l10n;
-    final bn = l10n.isBengali;
-    final timeStr = NotificationService.formatTime(_hour, _minute);
-
-    return Card(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
-            child: Text(
-              bn ? 'মিল রিমাইন্ডার' : 'Meal Reminders',
-              style: theme.textTheme.bodySmall?.copyWith(
-                  color: AppColors.primary, fontWeight: FontWeight.w700),
-            ),
-          ),
-
-          // Toggle row
-          ListTile(
-            leading: Icon(
-              _enabled
-                  ? Icons.notifications_active_outlined
-                  : Icons.notifications_off_outlined,
-              color: _enabled ? AppColors.primary : Colors.grey,
-            ),
-            title: Text(
-              bn ? 'দৈনিক রিমাইন্ডার' : 'Daily reminder',
-              style: theme.textTheme.bodyLarge
-                  ?.copyWith(fontWeight: FontWeight.w500),
-            ),
-            subtitle: Text(
-              bn
-                  ? 'নাস্তা ও রাতের খাবার না লগ করলে রিমাইন্ড করবে'
-                  : 'Reminds you to log breakfast & dinner',
-              style: theme.textTheme.bodySmall,
-            ),
-            trailing: _saving
-                ? const SizedBox(
-                    width: 24,
-                    height: 24,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  )
-                : Switch(
-                    value: _enabled,
-                    activeThumbColor: AppColors.primary,
-                    activeTrackColor: AppColors.primary.withValues(alpha: 0.5),
-                    onChanged: _toggleEnabled,
-                  ),
-          ),
-
-          // Time picker row (only when enabled)
-          if (_enabled) ...[
-            const Divider(height: 1),
-            ListTile(
-              leading: const Icon(Icons.schedule_outlined,
-                  color: AppColors.primary),
-              title: Text(
-                bn ? 'রিমাইন্ডারের সময়' : 'Reminder time',
-                style: theme.textTheme.bodyLarge
-                    ?.copyWith(fontWeight: FontWeight.w500),
-              ),
-              subtitle: Text(
-                timeStr,
-                style: theme.textTheme.bodySmall?.copyWith(
-                  color: AppColors.primary,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-              trailing: const Icon(Icons.chevron_right, size: 20),
-              onTap: _pickTime,
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
-              child: Row(
-                children: [
-                  Icon(Icons.info_outline,
-                      size: 14,
-                      color: theme.colorScheme.onSurface.withValues(alpha: 0.45)),
-                  const SizedBox(width: 6),
-                  Expanded(
-                    child: Text(
-                      bn
-                          ? 'উভয় মিল লগ করলে পরের দিনের জন্য স্বয়ংক্রিয়ভাবে সেট হবে।'
-                          : 'Auto-reschedules to next day once both meals are logged.',
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurface.withValues(alpha: 0.55),
-                        fontSize: 11,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-}

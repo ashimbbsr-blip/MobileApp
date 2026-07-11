@@ -241,25 +241,6 @@ class HiveStorage {
     return stored.policyVersion != AppConstants.currentPolicyVersion;
   }
 
-  // ── Notification Settings ────────────────────────────────────────────────
-
-  static bool get notificationEnabled =>
-      settingsBox.get(AppConstants.keyNotifEnabled, defaultValue: true) as bool;
-
-  static int get notificationHour =>
-      settingsBox.get(AppConstants.keyNotifHour, defaultValue: 18) as int;
-
-  static int get notificationMinute =>
-      settingsBox.get(AppConstants.keyNotifMinute, defaultValue: 0) as int;
-
-  static Future<void> setNotificationEnabled(bool enabled) =>
-      settingsBox.put(AppConstants.keyNotifEnabled, enabled);
-
-  static Future<void> setNotificationTime(int hour, int minute) async {
-    await settingsBox.put(AppConstants.keyNotifHour, hour);
-    await settingsBox.put(AppConstants.keyNotifMinute, minute);
-  }
-
   // ── Reset ─────────────────────────────────────────────────────────────────
 
   // ── Local Dataset ─────────────────────────────────────────────────────────
@@ -508,9 +489,6 @@ class HiveStorage {
     final lang = settingsBox.get(AppConstants.keyLanguage);
     final legal = settingsBox.get(AppConstants.keyLegalAcceptance);
     final datasetLoaded = settingsBox.get(AppConstants.keyLocalDatasetLoaded);
-    final notifEnabled = settingsBox.get(AppConstants.keyNotifEnabled);
-    final notifHour = settingsBox.get(AppConstants.keyNotifHour);
-    final notifMinute = settingsBox.get(AppConstants.keyNotifMinute);
     final apiKey = settingsBox.get(AppConstants.keyUserApiKey);
 
     await userBox.clear();
@@ -528,9 +506,6 @@ class HiveStorage {
     if (lang != null) await settingsBox.put(AppConstants.keyLanguage, lang);
     if (legal != null) await settingsBox.put(AppConstants.keyLegalAcceptance, legal);
     if (datasetLoaded != null) await settingsBox.put(AppConstants.keyLocalDatasetLoaded, datasetLoaded);
-    if (notifEnabled != null) await settingsBox.put(AppConstants.keyNotifEnabled, notifEnabled);
-    if (notifHour != null) await settingsBox.put(AppConstants.keyNotifHour, notifHour);
-    if (notifMinute != null) await settingsBox.put(AppConstants.keyNotifMinute, notifMinute);
     if (apiKey != null) await settingsBox.put(AppConstants.keyUserApiKey, apiKey);
   }
 }

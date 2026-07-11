@@ -147,7 +147,7 @@ class _MealSection extends ConsumerWidget {
             ),
             title: Text(label, style: Theme.of(context).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600)),
             subtitle: totalCals > 0
-                ? Text('${totalCals.toStringAsFixed(0)} kcal', style: TextStyle(color: AppColors.calories))
+                ? Text('${totalCals.toStringAsFixed(0)} kcal', style: const TextStyle(color: AppColors.calories))
                 : Text(l10n.tapToAdd, style: Theme.of(context).textTheme.bodySmall),
             trailing: IconButton(
               icon: const Icon(Icons.add_circle, color: AppColors.primary),

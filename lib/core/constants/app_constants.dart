@@ -65,11 +65,6 @@ class AppConstants {
   // USDA user-supplied API key (stored in settingsBox)
   static const String keyUserApiKey = 'user_usda_api_key';
 
-  // Notification settings keys
-  static const String keyNotifEnabled = 'notif_enabled';
-  static const String keyNotifHour = 'notif_hour';
-  static const String keyNotifMinute = 'notif_minute';
-
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
   static const String currentAppVersion = '1.2.0';

@@ -1580,7 +1580,7 @@ class _AddCustomFoodSheetState extends State<_AddCustomFoodSheet> {
                       Expanded(
                         flex: 2,
                         child: DropdownButtonFormField<String>(
-                          value: _unit,
+                          initialValue: _unit,
                           decoration: InputDecoration(
                             labelText: bn ? 'একক' : 'Unit',
                             contentPadding: const EdgeInsets.symmetric(

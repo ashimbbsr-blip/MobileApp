@@ -9,17 +9,52 @@ import '../../widgets/common/nutrition_progress_bar.dart';
 import '../../models/meal_entry.dart';
 import '../../models/nutrition_goals.dart';
 import '../../core/constants/nutrition_constants.dart';
+import '../../core/utils/extensions.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 import '../../services/recommendation_engine.dart';
 import '../../services/energy_balance_service.dart';
 import '../../services/backup/insights_service.dart';
 
-class DashboardScreen extends ConsumerWidget {
+class DashboardScreen extends ConsumerStatefulWidget {
   const DashboardScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<DashboardScreen> createState() => _DashboardScreenState();
+}
+
+class _DashboardScreenState extends ConsumerState<DashboardScreen>
+    with WidgetsBindingObserver {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState lifecycle) {
+    if (lifecycle == AppLifecycleState.resumed) {
+      _syncDateIfChanged();
+    }
+  }
+
+  void _syncDateIfChanged() {
+    final today = DateTime.now().toLogKey();
+    if (ref.read(dashboardProvider).selectedDateKey != today) {
+      final now = DateTime.now();
+      ref.read(dashboardProvider.notifier).selectDate(now);
+      ref.read(mealProvider.notifier).setDate(now);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final state = ref.watch(dashboardProvider);
     final l10n = ref.watch(appStringsProvider);
     final theme = Theme.of(context);
@@ -194,7 +229,7 @@ class _DateSelector extends ConsumerWidget {
                 ),
                 child: Text(
                   l10n.today,
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: AppColors.primary,
                     fontSize: 12,
                     fontWeight: FontWeight.w600,
@@ -441,6 +476,11 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
         goals: goals ?? NutritionGoals.defaults,
         meals: meals,
         lang: lang,
+        ironMg: widget.state.totalIron,
+        calciumMg: widget.state.totalCalcium,
+        vitaminDMcg: widget.state.totalVitaminD,
+        vitaminB12Mcg: widget.state.totalVitaminB12,
+        gender: widget.state.userProfile?.gender,
       );
       _lastMeals = meals;
       _lastGoals = goals;
@@ -465,7 +505,7 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
     final cardBg = isDark
         ? const Color(0xFF1A2535)
         : const Color(0xFFF0F9F4);
-    final accentColor = const Color(0xFF27AE60);
+    const accentColor = Color(0xFF27AE60);
     final borderColor = isDark
         ? const Color(0xFF2D4A3A)
         : const Color(0xFFB2DFCE);
@@ -505,8 +545,8 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
                         color: accentColor.withValues(alpha: 0.15),
                         borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Icon(Icons.tips_and_updates_rounded,
-                          color: accentColor, size: 18),
+                      child: const Icon(Icons.tips_and_updates_rounded,
+                          color: Color(0xFF27AE60), size: 18),
                     ),
                     const SizedBox(width: 10),
                     Expanded(
@@ -521,8 +561,8 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
                     AnimatedRotation(
                       turns: _expanded ? 0.5 : 0.0,
                       duration: const Duration(milliseconds: 280),
-                      child: Icon(Icons.expand_more_rounded,
-                          color: accentColor, size: 20),
+                      child: const Icon(Icons.expand_more_rounded,
+                          color: Color(0xFF27AE60), size: 20),
                     ),
                   ],
                 ),
@@ -539,7 +579,7 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('💡', style: const TextStyle(fontSize: 16)),
+                      const Text('💡', style: TextStyle(fontSize: 16)),
                       const SizedBox(width: 8),
                       Expanded(
                         child: Text(
@@ -622,7 +662,7 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
                           ),
                           child: Row(
                             children: [
-                              Icon(Icons.directions_walk_rounded,
+                              const Icon(Icons.directions_walk_rounded,
                                   color: AppColors.primary, size: 18),
                               const SizedBox(width: 8),
                               Expanded(
@@ -1686,7 +1726,7 @@ class _MealCard extends StatelessWidget {
             style: Theme.of(context).textTheme.bodySmall,
           ),
           trailing: entries.isEmpty
-              ? Icon(Icons.add_circle_outline, color: AppColors.primary)
+              ? const Icon(Icons.add_circle_outline, color: AppColors.primary)
               : Text(
                   '${totalCals.toStringAsFixed(0)} kcal',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
@@ -2056,7 +2096,7 @@ class _DailySummarySheet extends StatelessWidget {
                   title: l10n.micronutrients,
                   rows: [
                     if (state.totalVitaminA > 0)
-                      _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: NutritionConstants.vitaminAMcg, unit: l10n.mcg, l10n: l10n),
+                      _SummaryRow(label: l10n.vitaminA, consumed: state.totalVitaminA, goal: NutritionConstants.vitaminAForGender(state.userProfile?.gender ?? 'male'), unit: l10n.mcg, l10n: l10n),
                     _SummaryRow(
                       label: l10n.vitaminB,
                       consumed: state.totalVitaminB12,

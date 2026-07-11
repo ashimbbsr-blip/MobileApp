@@ -6,10 +6,11 @@ class NutritionCalculator {
   static NutritionGoals calculate(UserProfile profile) {
     final bmr = _calculateBMR(profile);
     final tdee = bmr * (NutritionConstants.activityMultipliers[profile.activityLevel] ?? 1.55);
-    final baseCalories = _adjustForGoal(tdee, profile.fitnessGoal);
+    final bmi = calculateBMI(profile.weightKg, profile.heightCm);
+    final baseCalories = _adjustForGoal(tdee, profile.fitnessGoal, bmi);
     final pregnancyBonus = _pregnancyCalorieBonus(profile.gender, profile.pregnancyStatus);
     final calories = baseCalories + pregnancyBonus;
-    final calorieFloor = profile.gender == 'male' ? 1500.0 : 1200.0;
+    final calorieFloor = profile.gender == 'male' ? 1500.0 : 1400.0; // 1400 kcal minimum for Indian women (1200 kcal is at or below BMR)
 
     final protein = _calculateProtein(profile.weightKg, profile.fitnessGoal, profile.activityLevel);
     final fat = _calculateFat(calories);
@@ -39,10 +40,12 @@ class NutritionCalculator {
     }
   }
 
-  static double _adjustForGoal(double tdee, String goal) {
+  static double _adjustForGoal(double tdee, String goal, double bmi) {
     switch (goal) {
       case 'lose_weight':
       case 'healthy_fat_loss':
+        // Do not impose a deficit on underweight users — maintain TDEE instead
+        if (bmi < 18.5) return tdee;
         return tdee - NutritionConstants.fatLossDeficit;
       case 'gain_muscle':
         return tdee + 300;
@@ -89,9 +92,9 @@ class NutritionCalculator {
   static double _pregnancyCalorieBonus(String gender, String? status) {
     if (gender != 'female' || status == null) return 0;
     switch (status) {
-      case 'pregnant_1st': return 350;
-      case 'pregnant_2nd': return 350;
-      case 'pregnant_3rd': return 450;
+      case 'pregnant_1st': return 150;   // ICMR 2020: +150 kcal in 1st trimester
+      case 'pregnant_2nd': return 250;   // ICMR 2020: +250 kcal in 2nd trimester
+      case 'pregnant_3rd': return 350;   // ICMR 2020: +350 kcal in 3rd trimester
       case 'lactating':    return 550;
       default:             return 0;
     }
@@ -116,9 +119,10 @@ class NutritionCalculator {
   static bool isAtCalorieFloor(UserProfile profile) {
     final bmr = _calculateBMR(profile);
     final tdee = bmr * (NutritionConstants.activityMultipliers[profile.activityLevel] ?? 1.55);
-    final base = _adjustForGoal(tdee, profile.fitnessGoal);
+    final bmi = calculateBMI(profile.weightKg, profile.heightCm);
+    final base = _adjustForGoal(tdee, profile.fitnessGoal, bmi);
     final bonus = _pregnancyCalorieBonus(profile.gender, profile.pregnancyStatus);
-    final floor = profile.gender == 'male' ? 1500.0 : 1200.0;
+    final floor = profile.gender == 'male' ? 1500.0 : 1400.0;
     return (base + bonus) < floor;
   }
 

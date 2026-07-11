@@ -596,8 +596,8 @@ def main():
     en_prefix = build_prefix_index(foods, min_len=2, max_len=4)
     print(f'  {len(en_prefix)} tokens')
 
-    print('Building BN prefix index (2–3 char)...')
-    bn_prefix = build_bn_prefix_index(foods, min_len=2, max_len=3)
+    print('Building BN prefix index (2–4 char)...')
+    bn_prefix = build_bn_prefix_index(foods, min_len=2, max_len=4)
     print(f'  {len(bn_prefix)} tokens')
 
     print('Building alias lookup...')

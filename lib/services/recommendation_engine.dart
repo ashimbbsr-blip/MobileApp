@@ -75,6 +75,12 @@ class RecommendationEngine {
     required NutritionGoals goals,
     required List<MealEntry> meals,
     required String lang,
+    // Micronutrient totals for today (from DashboardState)
+    double? ironMg,
+    double? calciumMg,
+    double? vitaminDMcg,
+    double? vitaminB12Mcg,
+    String? gender,
   }) {
     final bn = lang == 'bn';
 
@@ -85,23 +91,33 @@ class RecommendationEngine {
     final fat = meals.fold<double>(0, (s, m) => s + m.fatG);
 
     // ── Activity suggestion ───────────────────────────────────────────────────
-    // Burn off excess calories above goal at ~4 kcal/min (moderate walking).
-    // Default to 30 min when on-target; cap at 60 min to stay actionable.
     final excess = (cal - goals.calories).clamp(0.0, 500.0);
     final walkMins = (excess > 0 ? excess / 4.0 : 30.0).clamp(15.0, 60.0).round();
-    final walkSteps = walkMins * 95; // ~95 steps/min — Indian average moderate pace (WHO 2004)
+    final walkSteps = walkMins * 100; // 100 steps/min (consistent with EnergyBalanceService)
 
     // ── Food-pattern detection ────────────────────────────────────────────────
     final p = _detectPatterns(meals);
+
+    // ── Meal timing detection ─────────────────────────────────────────────────
+    final hasBreakfast = meals.any((m) => m.mealType == 'breakfast');
+    final lateDinner = meals.any((m) =>
+        m.mealType == 'dinner' && m.loggedAt.hour >= 21);
 
     // ── Ratio helpers ─────────────────────────────────────────────────────────
     final calPct  = goals.calories > 0 ? cal / goals.calories : 0.0;
     final proPct  = goals.proteinG > 0 ? pro / goals.proteinG : 0.0;
 
-    // ── Build insights (max 2) ─────────────────────────────────────────────────
+    // ── Micronutrient thresholds (ICMR 2020 targets) ─────────────────────────
+    final ironTarget = gender == 'female' ? 19.0 : 9.0;
+    final ironLow  = (ironMg != null && ironMg > 0) && (ironMg / ironTarget) < 0.5;
+    final calciumLow = (calciumMg != null && calciumMg > 0) && (calciumMg / 600.0) < 0.5;
+    final vitDLow    = (vitaminDMcg != null && vitaminDMcg > 0) && (vitaminDMcg / 15.0) < 0.4;
+    final b12Low     = (vitaminB12Mcg != null) && (vitaminB12Mcg / 2.4) < 0.4 && cal > 200;
+
+    // ── Build insights (max 3 — added micronutrient slot) ─────────────────────
     final insights = <String>[];
 
-    if (cal > 50) {
+    if (cal > 200) {
       if (calPct >= 0.90 && calPct <= 1.1) {
         insights.add(bn
             ? 'আজকের ক্যালোরি লক্ষ্যমাত্রা একদম সঠিক আছে।'
@@ -112,27 +128,27 @@ class RecommendationEngine {
             : 'Calorie intake was a little high today.');
       }
 
-      if (proPct >= 0.8) {
+      if (proPct >= 0.8 && insights.length < 3) {
         insights.add(bn
             ? 'আজ প্রোটিনের পরিমাণ ভালো আছে।'
             : 'Protein intake looks balanced today.');
-      } else if (proPct < 0.5 && insights.length < 2) {
+      } else if (proPct < 0.5 && insights.length < 3) {
         insights.add(bn
             ? 'আজ প্রোটিন একটু কম হয়েছে।'
             : 'Protein was a little low today.');
       }
 
-      if (p.fried >= 2 && insights.length < 2) {
+      if (p.fried >= 2 && insights.length < 3) {
         insights.add(bn
             ? 'আজ ভাজাপোড়া একটু বেশি হয়েছে।'
             : 'Fried food was a bit high today.');
-      } else if (p.vegetables >= 2 && insights.length < 2) {
+      } else if (p.vegetables >= 2 && insights.length < 3) {
         insights.add(bn
             ? 'আজ সবজি ও ফলের পরিমাণ ভালো ছিল!'
             : 'Good variety of vegetables and fruits today!');
       }
 
-      if (p.alcohol >= 1 && insights.length < 2) {
+      if (p.alcohol >= 1 && insights.length < 3) {
         final drink = p.dominantDrink;
         final drinkName = bn
             ? (drink == 'beer' ? 'বিয়ার' : drink == 'spirits' ? 'স্পিরিট' : drink == 'wine' ? 'ওয়াইন' : 'অ্যালকোহল')
@@ -140,6 +156,25 @@ class RecommendationEngine {
         insights.add(bn
             ? 'আজ $drinkName খাওয়া হয়েছে — হাইড্রেশনের দিকে নজর রাখুন।'
             : '${drinkName[0].toUpperCase()}${drinkName.substring(1)} in today\'s log — stay hydrated.');
+      }
+
+      // Micronutrient alerts
+      if (ironLow && insights.length < 3) {
+        insights.add(bn
+            ? 'আজ আয়রন অনেক কম — কাল পালং শাক, কচু শাক বা ডাল বেশি খান।'
+            : 'Iron is very low today — try spinach, drumstick leaves, or dal tomorrow.');
+      } else if (calciumLow && insights.length < 3) {
+        insights.add(bn
+            ? 'ক্যালসিয়াম কম — দুধ, দই বা তিলের খাবার খেলে ভালো হবে।'
+            : 'Calcium is low today — milk, curd, or sesame-based foods will help.');
+      } else if (vitDLow && insights.length < 3) {
+        insights.add(bn
+            ? 'ভিটামিন ডি কম — সকালের রোদে ১৫ মিনিট থাকার চেষ্টা করুন।'
+            : 'Vitamin D is low — try 15 minutes of morning sun exposure.');
+      } else if (b12Low && insights.length < 3) {
+        insights.add(bn
+            ? 'ভিটামিন বি-১২ কম — দুধ, ডিম বা মাছ ভালো উৎস।'
+            : 'Vitamin B12 is low — milk, eggs, or fish are excellent sources.');
       }
     }
 
@@ -185,7 +220,39 @@ class RecommendationEngine {
             : 'Drink plenty of water and keep the next meal light.');
       }
     }
-    if (recs.length < 3 && walkSteps > 0) {
+    // Meal timing advice
+    if (!hasBreakfast && cal > 200 && recs.length < 3) {
+      recs.add(bn
+          ? 'আজ সকালের নাস্তা লগ করা হয়নি — নিয়মিত সকালের খাবার বিপাকক্রিয়া ভালো রাখে।'
+          : 'No breakfast logged today — a regular morning meal keeps metabolism steady throughout the day.');
+    }
+    if (lateDinner && recs.length < 3) {
+      recs.add(bn
+          ? 'রাত ৯টার পরে রাতের খাবার খাওয়া হয়েছে — হালকা রাখলে ঘুম ও হজম দুটোই ভালো হবে।'
+          : 'Dinner was logged after 9 PM — keeping it light improves both sleep quality and digestion.');
+    }
+
+    // Micronutrient education tips (rotate by day-of-week so they feel fresh)
+    if (recs.length < 3 && cal > 200) {
+      final dayOfWeek = DateTime.now().weekday; // 1=Mon … 7=Sun
+      if (ironLow) {
+        recs.add(bn
+            ? 'আয়রন বাড়াতে খাবারের সাথে লেবু বা টমেটো রাখুন — ভিটামিন সি আয়রন শোষণ বাড়ায়।'
+            : 'Pair iron-rich foods with lemon or tomato — vitamin C greatly enhances iron absorption.');
+      } else if (dayOfWeek == 1 || dayOfWeek == 4) {
+        recs.add(bn
+            ? 'ফোলেটের জন্য পালং শাক, মুগ ডাল বা মসুর ডাল খান — গর্ভাবস্থায় এটি অপরিহার্য।'
+            : 'For folate, eat spinach, mung dal, or masoor dal — critical for women of childbearing age.');
+      } else if (dayOfWeek == 2 || dayOfWeek == 5) {
+        recs.add(bn
+            ? 'আয়োডিনের জন্য আয়োডিনযুক্ত লবণ ব্যবহার করুন — থাইরয়েডের জন্য এটি জরুরি।'
+            : 'Use iodised salt daily — iodine is essential for thyroid health, especially in West Bengal.');
+      } else if (recs.length < 3 && walkSteps > 0) {
+        recs.add(bn
+            ? 'একটা সন্ধ্যার হাঁটা হজমে সাহায্য করতে পারে।'
+            : 'A short evening walk may help with digestion.');
+      }
+    } else if (recs.length < 3 && walkSteps > 0) {
       recs.add(bn
           ? 'একটা সন্ধ্যার হাঁটা হজমে সাহায্য করতে পারে।'
           : 'A short evening walk may help with digestion.');
@@ -200,6 +267,10 @@ class RecommendationEngine {
       pattern: p,
       steps: walkSteps,
       mins: walkMins,
+      hasBreakfast: hasBreakfast,
+      lateDinner: lateDinner,
+      ironLow: ironLow,
+      b12Low: b12Low,
     );
 
     return DailyRecommendation(
@@ -245,10 +316,17 @@ class RecommendationEngine {
       final name = m.foodItem.name.toLowerCase();
       final kws = (m.foodItem.keywords ?? []).join(' ').toLowerCase();
       final combined = '$name $kws';
+      // Declare nameBn early — used in sweets, fried, and alcohol sections
+      final nameBn = m.foodItem.nameBn?.toLowerCase() ?? '';
 
       // Categories — covers both local short names and USDA long group names
       if (catLower == 'sweets' || catLower.contains('sweet') ||
           catLower.contains('sugar') || catLower.contains('confection')) { sweets++; }
+      // Bengali sweets not always categorised — name-based fallback
+      if (name.contains('pitha') || name.contains('pithe') ||
+          name.contains('payesh') || name.contains('naru') ||
+          nameBn.contains('পিঠে') || nameBn.contains('পায়েস') ||
+          nameBn.contains('নাড়ু') || nameBn.contains('মিষ্টি')) { sweets++; }
       if (catLower == 'beverage' || catLower.contains('beverage') ||
           catLower.contains('drink') || catLower.contains('juice')) { bev++; }
 
@@ -269,17 +347,23 @@ class RecommendationEngine {
           catLower.contains('legume') || catLower.contains('nut') ||
           catLower.contains('grain') || catLower.contains('bean')) { prot++; }
 
-      // Fried food detection
+      // Fried food detection — includes Bengali/WB fried snacks
       if (kws.contains('fried') || kws.contains('fry') ||
           name.contains('fried') || name.contains(' fry') ||
           name.contains('bhaja') || name.contains('bhaji') ||
           name.contains('pakoda') || name.contains('vada') ||
-          name.contains('samosa') || name.contains('puri')) {
+          name.contains('samosa') || name.contains('puri') ||
+          name.contains('luchi') || name.contains('kochuri') ||
+          name.contains('chop') || name.contains('cutlet') ||
+          name.contains('moghlai') || name.contains('mughlai') ||
+          name.contains('telebhaja') || name.contains('tele bhaja') ||
+          nameBn.contains('ভাজা') || nameBn.contains('লুচি') ||
+          nameBn.contains('কচুরি') || nameBn.contains('চপ') ||
+          nameBn.contains('কাটলেট') || nameBn.contains('মোগলাই')) {
         fried++;
       }
 
       // Alcohol detection — English (word-boundary) + Bengali Unicode keywords
-      final nameBn = m.foodItem.nameBn?.toLowerCase() ?? '';
       final combinedBn = '$nameBn $kws';
 
       final isBeer = RegExp(r'\b(beer|lager|ale|stout|bira)\b').hasMatch(combined)
@@ -328,12 +412,30 @@ class RecommendationEngine {
     required _Pattern pattern,
     required int steps,
     required int mins,
+    bool hasBreakfast = true,
+    bool lateDinner = false,
+    bool ironLow = false,
+    bool b12Low = false,
   }) {
     // Nothing logged yet
     if (cal < 50) {
       return bn
           ? 'আজকের খাবার লগ করুন এবং ব্যক্তিগত পরামর্শ পান!'
           : 'Log your meals today to get personalized daily insights!';
+    }
+
+    // Breakfast missing — high-priority tip for Indian eating habits
+    if (!hasBreakfast && cal > 200) {
+      return bn
+          ? 'সকালের নাস্তা এড়িয়ে গেলে দুপুরে অতিরিক্ত খাওয়ার সম্ভাবনা বাড়ে — ছোট হলেও সকালের খাবার খান।'
+          : 'Skipping breakfast often leads to overeating at lunch — even a small morning meal makes a big difference.';
+    }
+
+    // Late dinner tip
+    if (lateDinner) {
+      return bn
+          ? 'রাত ৯টার পরে রাতের খাবার হজম ধীর করে — হালকা খাবার ও তাড়াতাড়ি শুয়ে পড়লে ঘুম ভালো হবে।'
+          : 'Late dinner slows digestion — eating lighter and sleeping earlier helps your body recover better.';
     }
 
     // Very under calories (< 40% of target)
@@ -416,6 +518,20 @@ class RecommendationEngine {
       return bn
           ? 'ঘুমানোর আগে এক মুঠো বাদাম বা এক গ্লাস দুধ প্রোটিন বাড়াতে সাহায্য করবে।'
           : 'A handful of nuts or a glass of milk before bed can give your protein a small boost.';
+    }
+
+    // Iron deficiency tip (very common in Indian women)
+    if (ironLow) {
+      return bn
+          ? 'আয়রন কম — ডাল বা পালং শাকের সাথে লেবু বা টমেটো রাখুন। ভিটামিন সি আয়রন শোষণ বাড়িয়ে দেয়।'
+          : 'Iron is low — pair dal or leafy greens with lemon or tomato. Vitamin C dramatically boosts iron absorption.';
+    }
+
+    // B12 deficiency (high in vegetarian WB population)
+    if (b12Low) {
+      return bn
+          ? 'ভিটামিন বি-১২ কম দেখাচ্ছে — দুধ, দই, ডিম বা মাছ নিয়মিত খান। ৪৭% ভারতীয় নিরামিষাশীদের বি-১২ ঘাটতি থাকে।'
+          : 'B12 looks low — include milk, curd, eggs, or fish regularly. Nearly half of Indian vegetarians are B12 deficient.';
     }
 
     // Default — activity tip

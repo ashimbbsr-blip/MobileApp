@@ -6,7 +6,6 @@ import 'storage/hive_storage.dart';
 import 'services/analytics_service.dart';
 import 'services/local_food_repository.dart';
 import 'services/local_search_service.dart';
-import 'services/notification_service.dart';
 import 'app.dart';
 
 void main() async {
@@ -39,16 +38,6 @@ void main() async {
   // Load search index in parallel with the rest of startup; search falls back
   // to full-scan until this completes (typically < 100ms after food data loads).
   LocalSearchService.ensureLoaded().ignore();
-
-  // Notifications are best-effort — a failure here must never crash startup.
-  try {
-    await NotificationService.instance.init();
-    if (HiveStorage.isOnboardingDone) {
-      await NotificationService.instance.ensureScheduled();
-    }
-  } catch (e) {
-    debugPrint('[Notifications] init failed (non-fatal): $e');
-  }
 
   WidgetsBinding.instance.addPostFrameCallback((_) {
     try {

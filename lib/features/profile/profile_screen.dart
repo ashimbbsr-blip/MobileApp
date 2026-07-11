@@ -143,7 +143,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
           else
             TextButton(
               onPressed: _save,
-              child: Text(l10n.save, style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.w700)),
+              child: Text(l10n.save, style: const TextStyle(color: AppColors.primary, fontWeight: FontWeight.w700)),
             ),
         ],
       ),
@@ -293,7 +293,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               _SectionHeader(l10n.isBengali ? 'গর্ভাবস্থা / স্তন্যদান' : 'Pregnancy / Lactation'),
               const SizedBox(height: 12),
               DropdownButtonFormField<String?>(
-                value: _pregnancyStatus,
+                initialValue: _pregnancyStatus,
                 decoration: InputDecoration(
                   labelText: l10n.isBengali ? 'অবস্থা' : 'Status',
                   prefixIcon: const Icon(Icons.pregnant_woman_outlined),

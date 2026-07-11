@@ -1193,7 +1193,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                       Expanded(
                         flex: 2,
                         child: DropdownButtonFormField<String>(
-                          value: _unit,
+                          initialValue: _unit,
                           decoration: InputDecoration(
                             labelText: bn ? 'একক' : 'Unit',
                             contentPadding: const EdgeInsets.symmetric(
@@ -1201,7 +1201,7 @@ class _CustomTabState extends State<_CustomTab> with AutomaticKeepAliveClientMix
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10)),
                           ),
-                          items: ['g', 'ml', 'pcs', 'oz', 'cup']
+                          items: ['g', 'ml', 'pcs', 'oz', 'cup', 'katori', 'tbsp', 'tsp']
                               .map((u) => DropdownMenuItem(value: u, child: Text(u)))
                               .toList(),
                           onChanged: (v) => setState(() => _unit = v ?? 'g'),
@@ -1866,7 +1866,7 @@ class _EditCustomFoodSheetState extends State<_EditCustomFoodSheet> {
                     Expanded(
                       flex: 2,
                       child: DropdownButtonFormField<String>(
-                        value: ['g', 'ml', 'pcs', 'oz', 'cup'].contains(_unit) ? _unit : 'g',
+                        initialValue: ['g', 'ml', 'pcs', 'oz', 'cup', 'katori', 'tbsp', 'tsp'].contains(_unit) ? _unit : 'g',
                         decoration: InputDecoration(
                           labelText: bn ? 'একক' : 'Unit',
                           contentPadding: const EdgeInsets.symmetric(
@@ -1874,7 +1874,7 @@ class _EditCustomFoodSheetState extends State<_EditCustomFoodSheet> {
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10)),
                         ),
-                        items: ['g', 'ml', 'pcs', 'oz', 'cup']
+                        items: ['g', 'ml', 'pcs', 'oz', 'cup', 'katori', 'tbsp', 'tsp']
                             .map((u) => DropdownMenuItem(value: u, child: Text(u)))
                             .toList(),
                         onChanged: (v) => setState(() => _unit = v ?? 'g'),

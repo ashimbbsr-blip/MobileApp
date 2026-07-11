@@ -105,10 +105,6 @@ class LocalFoodRepository {
         pool = candidateSet
             .map((id) => _idMap['local_$id'])
             .whereType<FoodItem>();
-        // If fewer than 20 candidates, supplement with full scan for safety
-        if (candidateSet.length < 20) {
-          pool = _items!;
-        }
       } else {
         pool = _items!;
       }
@@ -134,7 +130,7 @@ class LocalFoodRepository {
     final alList = food.aliases ?? [];
     final al     = alList.join(' ').toLowerCase();
     final pri    = food.searchPriority ?? 50;
-    final bonus  = (pri * 0.9).round(); // up to +90
+    final bonus  = (pri * 0.9).round().clamp(0, 90);
 
     // ── Tier 1: Exact match ──────────────────────────────────────────────────
     if (en == q || bn == q) return 950 + bonus;
