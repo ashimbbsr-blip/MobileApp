@@ -135,8 +135,8 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
 
   Future<void> _addFood(FoodItem food, double quantity) async {
     await ref.read(mealProvider.notifier).addFood(food, widget.mealType, quantity);
-    ref.read(dashboardProvider.notifier).refresh();
     if (!mounted) return;
+    ref.read(dashboardProvider.notifier).refresh();
     final lang = ref.read(appStringsProvider).language;
     final name = food.displayName(lang);
     ScaffoldMessenger.of(context).showSnackBar(
@@ -161,7 +161,7 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),
     );
-    Navigator.of(context).pop();
+    context.pop();
   }
 
   @override

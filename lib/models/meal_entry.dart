@@ -34,11 +34,12 @@ class MealEntry extends HiveObject {
 
   FoodItem get scaledFood => foodItem.scaledTo(quantityG);
 
-  double get calories => foodItem.calories * (quantityG / foodItem.servingSize);
-  double get proteinG => foodItem.proteinG * (quantityG / foodItem.servingSize);
-  double get carbsG => foodItem.carbsG * (quantityG / foodItem.servingSize);
-  double get fatG => foodItem.fatG * (quantityG / foodItem.servingSize);
-  double get fiberG => foodItem.fiberG * (quantityG / foodItem.servingSize);
-  double get alcoholG => (foodItem.alcoholG ?? 0) * (quantityG / foodItem.servingSize);
-  double get sodiumMg => (foodItem.sodiumMg ?? 0) * (quantityG / foodItem.servingSize);
+  double get _factor => foodItem.servingSize > 0 ? quantityG / foodItem.servingSize : 0.0;
+  double get calories => foodItem.calories * _factor;
+  double get proteinG => foodItem.proteinG * _factor;
+  double get carbsG => foodItem.carbsG * _factor;
+  double get fatG => foodItem.fatG * _factor;
+  double get fiberG => foodItem.fiberG * _factor;
+  double get alcoholG => (foodItem.alcoholG ?? 0) * _factor;
+  double get sodiumMg => (foodItem.sodiumMg ?? 0) * _factor;
 }

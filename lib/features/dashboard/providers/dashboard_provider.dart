@@ -41,7 +41,7 @@ class DashboardState {
 
   double _microSum(double? Function(FoodItem) getter) =>
       todaysMeals.fold<double>(0, (sum, m) {
-        final factor = m.quantityG / m.foodItem.servingSize;
+        final factor = m.foodItem.servingSize > 0 ? m.quantityG / m.foodItem.servingSize : 0.0;
         return sum + ((getter(m.foodItem) ?? 0) * factor);
       });
 

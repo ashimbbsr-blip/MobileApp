@@ -954,7 +954,7 @@ class _ActivityCaloriesCard extends ConsumerWidget {
           ),
         ],
       ),
-    );
+    ).then((_) => ctrl.dispose());
   }
 
   @override

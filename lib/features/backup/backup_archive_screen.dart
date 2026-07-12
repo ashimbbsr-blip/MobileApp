@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../localization/strings_provider.dart';
 import '../../services/backup/archive_engine.dart';
 import '../../services/backup/backup_schema.dart';
 import '../../services/backup/backup_types.dart';
@@ -14,14 +15,15 @@ class BackupArchiveScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final state = ref.watch(backupControllerProvider);
+    final l10n = ref.watch(appStringsProvider);
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Backup & Archive'),
+        title: Text(l10n.isBengali ? 'ব্যাকআপ ও আর্কাইভ' : 'Backup & Archive'),
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh_rounded),
-            tooltip: 'Refresh',
+            tooltip: l10n.isBengali ? 'রিফ্রেশ' : 'Refresh',
             onPressed: state.busy
                 ? null
                 : () => ref.read(backupControllerProvider.notifier).load(),

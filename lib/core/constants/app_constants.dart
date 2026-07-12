@@ -67,5 +67,5 @@ class AppConstants {
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.2.0';
+  static const String currentAppVersion = '1.3.0';
 }

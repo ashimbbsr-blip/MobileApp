@@ -43,9 +43,12 @@ class _FoodDetailScreenState extends ConsumerState<FoodDetailScreen> {
   Future<void> _addToMeal() async {
     if (_quantity <= 0) return;
     await ref.read(mealProvider.notifier).addFood(widget.foodItem, _selectedMeal, _quantity);
+    if (!mounted) return;
     if (widget.foodItem.source == 'usda' || widget.foodItem.usdaFdcId != null) {
       await HiveStorage.saveUsdaFood(widget.foodItem);
+      if (!mounted) return;
       await HiveStorage.cacheFoodItem(widget.foodItem);
+      if (!mounted) return;
     }
     ref.read(dashboardProvider.notifier).refresh();
     if (mounted) {

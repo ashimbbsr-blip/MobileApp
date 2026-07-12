@@ -7,7 +7,6 @@ import '../../storage/hive_storage.dart';
 import '../../models/legal_acceptance.dart';
 import '../../core/constants/app_constants.dart';
 import 'legal_content.dart';
-import 'legal_content_screen.dart';
 
 class LegalAcceptanceScreen extends ConsumerStatefulWidget {
   const LegalAcceptanceScreen({super.key});
@@ -45,12 +44,7 @@ class _LegalAcceptanceScreenState extends ConsumerState<LegalAcceptanceScreen> {
   }
 
   void _openDoc(LegalDocType type) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => LegalContentScreen(type: type),
-      ),
-    );
+    context.push('/legal/${type.name}');
   }
 
   @override
