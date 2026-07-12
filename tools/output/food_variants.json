@@ -1,0 +1,5316 @@
+[
+  {
+    "variant_id": 4858,
+    "canonical_key": "absolut vodka|beverage",
+    "canonical_representative_id": 4855,
+    "en": "Absolut Vodka",
+    "bn": "অ্যাবসোলুট ভদকা",
+    "src": "local",
+    "trust_score": 62,
+    "quality_score": 86,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 220.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2962,
+    "canonical_key": "aloo dum|restaurant_food",
+    "canonical_representative_id": 4129,
+    "en": "Aloo Dum",
+    "bn": "আলু দম",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 86,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 118.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 226,
+    "canonical_key": "apple|fruit",
+    "canonical_representative_id": 4613,
+    "en": "Apple",
+    "bn": "আপেল",
+    "src": "local",
+    "trust_score": 64,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 95.0,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 2250,
+    "canonical_key": "apricot|fruit",
+    "canonical_representative_id": 4619,
+    "en": "Apricot",
+    "bn": "খুবানি",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 48.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4800,
+    "canonical_key": "bacardi carta blanca|beverage",
+    "canonical_representative_id": 4781,
+    "en": "Bacardi Carta Blanca (India)",
+    "bn": "বাকার্ডি কার্টা ব্লাঙ্কা (ইন্ডিয়া)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 225.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1955,
+    "canonical_key": "baked royal spice chicken|meat",
+    "canonical_representative_id": 1954,
+    "en": "Baked Royal Spice Chicken Wings (4pc)",
+    "bn": "বেকড রয়েল স্পাইস উইংস (৪ পিস)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 359.2,
+    "serving": "157g"
+  },
+  {
+    "variant_id": 1957,
+    "canonical_key": "baked southern fiery chicken|meat",
+    "canonical_representative_id": 1956,
+    "en": "Baked Southern Fiery Chicken Wings (4pc)",
+    "bn": "বেকড সাউদার্ন ফায়ারি উইংস (৪ পিস)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 345.0,
+    "serving": "153g"
+  },
+  {
+    "variant_id": 3887,
+    "canonical_key": "banana chips|snack",
+    "canonical_representative_id": 744,
+    "en": "Banana Chips (Kerala Style)",
+    "bn": "কেরালা কলা চিপস",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 520.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3466,
+    "canonical_key": "banana flower curry|vegetable",
+    "canonical_representative_id": 4403,
+    "en": "Banana Flower Curry (Mocha Ghonto - Bengal)",
+    "bn": "মোচা ঘন্ট",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 140.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 235,
+    "canonical_key": "banana milkshake|beverage",
+    "canonical_representative_id": 4396,
+    "en": "Banana milkshake",
+    "bn": "কলা মিল্কশেক",
+    "src": "indb",
+    "trust_score": 100,
+    "quality_score": 80,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 225.6,
+    "serving": "240g"
+  },
+  {
+    "variant_id": 233,
+    "canonical_key": "banana|fruit",
+    "canonical_representative_id": 4627,
+    "en": "Banana",
+    "bn": "কলা",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 105.0,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 1953,
+    "canonical_key": "bbq chicken wings|meat",
+    "canonical_representative_id": 1951,
+    "en": "BBQ Chicken Wings (6pc)",
+    "bn": "বিবিকিউ চিকেন উইংস (৬ পিস)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 551.2,
+    "serving": "267g"
+  },
+  {
+    "variant_id": 1345,
+    "canonical_key": "beer|beverage",
+    "canonical_representative_id": 1344,
+    "en": "Beer (Strong)",
+    "bn": "স্ট্রং বিয়ার",
+    "src": "local",
+    "trust_score": 56,
+    "quality_score": 67,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 208.0,
+    "serving": "330ml"
+  },
+  {
+    "variant_id": 3586,
+    "canonical_key": "bhetki paturi|fish",
+    "canonical_representative_id": 1472,
+    "en": "Bhetki Paturi (Banana Leaf)",
+    "bn": "ভেটকি পাতুরি",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 192.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2746,
+    "canonical_key": "biulir dal|legume",
+    "canonical_representative_id": 4703,
+    "en": "Biulir Dal",
+    "bn": "বিউলির ডাল",
+    "src": "curated_estimate",
+    "trust_score": 67,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 118.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2241,
+    "canonical_key": "blueberry|fruit",
+    "canonical_representative_id": 4617,
+    "en": "Blueberry",
+    "bn": "ব্লুবেরি",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 57.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1837,
+    "canonical_key": "bold bbq veggies pan|pizza",
+    "canonical_representative_id": 1811,
+    "en": "Bold BBQ Veggies Pan Pizza (Medium)",
+    "bn": "বোল্ড বিবিকিউ ভেজি পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 246.8,
+    "serving": "102.0g"
+  },
+  {
+    "variant_id": 4509,
+    "canonical_key": "boost ready to drink|beverage",
+    "canonical_representative_id": 4508,
+    "en": "Boost Ready To Drink Vanilla",
+    "bn": "বুস্ট রেডি টও ড্রিংক ভ্যানিলা",
+    "src": "brand",
+    "trust_score": 88,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 61.0,
+    "serving": "100ml"
+  },
+  {
+    "variant_id": 4510,
+    "canonical_key": "boost ready to drink|beverage",
+    "canonical_representative_id": 4508,
+    "en": "Boost Ready To Drink Coffee",
+    "bn": "বওওসট রএঅডয টও ড্রিংক কফি",
+    "src": "brand",
+    "trust_score": 88,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 63.0,
+    "serving": "100ml"
+  },
+  {
+    "variant_id": 2510,
+    "canonical_key": "brown bread|bread",
+    "canonical_representative_id": 2515,
+    "en": "Brown Bread (India - Wheat Bread)",
+    "bn": "ব্রাউন ব্রেড (ভারতীয়)",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 247.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2513,
+    "canonical_key": "brown bread|bread",
+    "canonical_representative_id": 2515,
+    "en": "Brown Bread (Indian Packaged)",
+    "bn": "প্যাকেটজাত ব্রাউন ব্রেড",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 250.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2397,
+    "canonical_key": "cadbury dairy milk silk|sweet",
+    "canonical_representative_id": 2392,
+    "en": "Cadbury Dairy Milk Silk Oreo",
+    "bn": "ক্যাডবেরি সিল্ক ওরিও",
+    "src": "brand",
+    "trust_score": 82,
+    "quality_score": 20,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 550.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2398,
+    "canonical_key": "cadbury dairy milk silk|sweet",
+    "canonical_representative_id": 2392,
+    "en": "Cadbury Dairy Milk Silk Fruit & Nut",
+    "bn": "ক্যাডবেরি সিল্ক ফ্রুট অ্যান্ড নাট",
+    "src": "brand",
+    "trust_score": 82,
+    "quality_score": 20,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 547.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2399,
+    "canonical_key": "cadbury dairy milk silk|sweet",
+    "canonical_representative_id": 2392,
+    "en": "Cadbury Dairy Milk Silk Bubbly",
+    "bn": "ক্যাডবেরি সিল্ক বাবলি",
+    "src": "brand",
+    "trust_score": 82,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 545.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2901,
+    "canonical_key": "chana dal|legume",
+    "canonical_representative_id": 2887,
+    "en": "Chana Dal (Cooked)",
+    "bn": "ছোলার ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 164.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2247,
+    "canonical_key": "cherry|fruit",
+    "canonical_representative_id": 4615,
+    "en": "Cherry",
+    "bn": "চেরি",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 63.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3702,
+    "canonical_key": "chhanabora|sweet",
+    "canonical_representative_id": 3605,
+    "en": "Chhanabora (Krishnanagar Style)",
+    "bn": "ছানাবোরা (কৃষ্ণনগর)",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3901,
+    "canonical_key": "chhena gaja|sweet",
+    "canonical_representative_id": 1532,
+    "en": "Chhena Gaja (Ganjam Style)",
+    "bn": "ছেনা গজা",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 360.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 399,
+    "canonical_key": "chhena poda|sweet",
+    "canonical_representative_id": 4454,
+    "en": "Chhena poda",
+    "bn": "ছেনা পোড়া",
+    "src": "indb",
+    "trust_score": 100,
+    "quality_score": 75,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 265.0,
+    "serving": "1 slice (80g)"
+  },
+  {
+    "variant_id": 3861,
+    "canonical_key": "chhena poda|sweet",
+    "canonical_representative_id": 4454,
+    "en": "Chhena Poda (Festival Style)",
+    "bn": "ছেনা পোড়া",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 312.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3356,
+    "canonical_key": "chicken doner kebab|restaurant_food",
+    "canonical_representative_id": 3355,
+    "en": "Chicken Doner Kebab (Box with Rice)",
+    "bn": "চিকেন ডোনার কেবাব (বক্স রাইস)",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 780.0,
+    "serving": "1 box (~450g)"
+  },
+  {
+    "variant_id": 3357,
+    "canonical_key": "chicken doner kebab|restaurant_food",
+    "canonical_representative_id": 3355,
+    "en": "Chicken Doner Kebab (Pita)",
+    "bn": "চিকেন ডোনার কেবাব (পিটা)",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 620.0,
+    "serving": "1 pita (~280g)"
+  },
+  {
+    "variant_id": 1845,
+    "canonical_key": "chicken pepperoni pan pizza|pizza",
+    "canonical_representative_id": 1816,
+    "en": "Chicken Pepperoni Pan Pizza (Medium)",
+    "bn": "চিকেন পেপারোনি পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 281.0,
+    "serving": "93.5g"
+  },
+  {
+    "variant_id": 1875,
+    "canonical_key": "chicken pepperoni pan pizza|pizza",
+    "canonical_representative_id": 1816,
+    "en": "Chicken Pepperoni Pan Pizza (Large)",
+    "bn": "চিকেন পেপারোনি পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 347.1,
+    "serving": "115.5g"
+  },
+  {
+    "variant_id": 1841,
+    "canonical_key": "chicken sausage pan pizza|pizza",
+    "canonical_representative_id": 1812,
+    "en": "Chicken Sausage Pan Pizza (Medium)",
+    "bn": "চিকেন সোসেজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 283.2,
+    "serving": "91.5g"
+  },
+  {
+    "variant_id": 1871,
+    "canonical_key": "chicken sausage pan pizza|pizza",
+    "canonical_representative_id": 1812,
+    "en": "Chicken Sausage Pan Pizza (Large)",
+    "bn": "চিকেন সোসেজ পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 349.8,
+    "serving": "113.0g"
+  },
+  {
+    "variant_id": 1924,
+    "canonical_key": "chicken sausage ultimate cheese|pizza",
+    "canonical_representative_id": 1918,
+    "en": "Chicken Sausage Ultimate Cheese Pizza (Medium)",
+    "bn": "চিকেন সোসেজ আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 345.7,
+    "serving": "117.2g"
+  },
+  {
+    "variant_id": 1848,
+    "canonical_key": "chicken supreme pan pizza|pizza",
+    "canonical_representative_id": 1819,
+    "en": "Chicken Supreme Pan Pizza (Medium)",
+    "bn": "চিকেন সুপ্রিম পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 292.3,
+    "serving": "107.0g"
+  },
+  {
+    "variant_id": 1878,
+    "canonical_key": "chicken supreme pan pizza|pizza",
+    "canonical_representative_id": 1819,
+    "en": "Chicken Supreme Pan Pizza (Large)",
+    "bn": "চিকেন সুপ্রিম পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 360.7,
+    "serving": "132.0g"
+  },
+  {
+    "variant_id": 1846,
+    "canonical_key": "chicken tikka pan pizza|pizza",
+    "canonical_representative_id": 1817,
+    "en": "Chicken Tikka Pan Pizza (Medium)",
+    "bn": "চিকেন টিক্কা পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 294.4,
+    "serving": "107.0g"
+  },
+  {
+    "variant_id": 1876,
+    "canonical_key": "chicken tikka pan pizza|pizza",
+    "canonical_representative_id": 1817,
+    "en": "Chicken Tikka Pan Pizza (Large)",
+    "bn": "চিকেন টিক্কা পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 349.4,
+    "serving": "127.0g"
+  },
+  {
+    "variant_id": 1849,
+    "canonical_key": "chicken tikka supreme pan|pizza",
+    "canonical_representative_id": 1820,
+    "en": "Chicken Tikka Supreme Pan Pizza (Medium)",
+    "bn": "চিকেন টিক্কা সুপ্রিম পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 281.8,
+    "serving": "105.5g"
+  },
+  {
+    "variant_id": 1879,
+    "canonical_key": "chicken tikka supreme pan|pizza",
+    "canonical_representative_id": 1820,
+    "en": "Chicken Tikka Supreme Pan Pizza (Large)",
+    "bn": "চিকেন টিক্কা সুপ্রিম পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 351.2,
+    "serving": "131.5g"
+  },
+  {
+    "variant_id": 1925,
+    "canonical_key": "chicken tikka ultimate cheese|pizza",
+    "canonical_representative_id": 1919,
+    "en": "Chicken Tikka Ultimate Cheese Pizza (Medium)",
+    "bn": "চিকেন টিক্কা আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 356.8,
+    "serving": "128.5g"
+  },
+  {
+    "variant_id": 3344,
+    "canonical_key": "chocolate croissant|bakery",
+    "canonical_representative_id": 2190,
+    "en": "Chocolate Croissant (Pain au Chocolat)",
+    "bn": "চকলেট ক্রোয়াসাঁ",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 455.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 141,
+    "canonical_key": "cholar dal|legume",
+    "canonical_representative_id": 4844,
+    "en": "Cholar Dal",
+    "bn": "ছোলার ডাল",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 240.0,
+    "serving": "250g"
+  },
+  {
+    "variant_id": 1828,
+    "canonical_key": "corn n cheese pan|pizza",
+    "canonical_representative_id": 1799,
+    "en": "Corn n Cheese Pan Pizza (Medium)",
+    "bn": "কর্ন এন চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 279.6,
+    "serving": "87.5g"
+  },
+  {
+    "variant_id": 1857,
+    "canonical_key": "corn n cheese pan|pizza",
+    "canonical_representative_id": 1799,
+    "en": "Corn n Cheese Pan Pizza (Large)",
+    "bn": "কর্ন এন চিজ পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 340.3,
+    "serving": "106.5g"
+  },
+  {
+    "variant_id": 1976,
+    "canonical_key": "cosy comfort white sauce|noodle",
+    "canonical_representative_id": 1977,
+    "en": "Cosy Comfort White Sauce Pasta",
+    "bn": "কোজি কমফোর্ট হোয়াইট সস পাস্তা",
+    "src": "pizzahut_india",
+    "trust_score": 98,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 664.0,
+    "serving": "322g"
+  },
+  {
+    "variant_id": 3518,
+    "canonical_key": "cotton candy|sweet",
+    "canonical_representative_id": 3517,
+    "en": "Cotton Candy (Small Fair Portion)",
+    "bn": "তুলো মিষ্টি (ছোট পরিবেশন)",
+    "src": "user_curated",
+    "trust_score": 58,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 120.0,
+    "serving": "1 cup (~30g)"
+  },
+  {
+    "variant_id": 1833,
+    "canonical_key": "country feast pan pizza|pizza",
+    "canonical_representative_id": 1804,
+    "en": "Country Feast Pan Pizza (Medium)",
+    "bn": "কান্ট্রি ফিস্ট পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 273.4,
+    "serving": "112.0g"
+  },
+  {
+    "variant_id": 1862,
+    "canonical_key": "country feast pan pizza|pizza",
+    "canonical_representative_id": 1804,
+    "en": "Country Feast Pan Pizza (Large)",
+    "bn": "কান্ট্রি ফিস্ট পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 331.9,
+    "serving": "136.0g"
+  },
+  {
+    "variant_id": 4150,
+    "canonical_key": "curd|dairy",
+    "canonical_representative_id": 4149,
+    "en": "Curd (Low Fat)",
+    "bn": "লো-ফ্যাট টক দই",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 49.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4151,
+    "canonical_key": "curd|dairy",
+    "canonical_representative_id": 4149,
+    "en": "Curd (High Fat / Full Cream)",
+    "bn": "ফুল ক্রিম টক দই",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 97.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4152,
+    "canonical_key": "curd|dairy",
+    "canonical_representative_id": 4149,
+    "en": "Curd (Medium Fat)",
+    "bn": "মিডিয়াম ফ্যাট টক দই",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 72.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3346,
+    "canonical_key": "danish pastry|bakery",
+    "canonical_representative_id": 3345,
+    "en": "Danish Pastry (Cheese)",
+    "bn": "ড্যানিশ পেস্ট্রি (চিজ)",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2022,
+    "canonical_key": "desi paneer golden hand|pizza",
+    "canonical_representative_id": 2020,
+    "en": "Desi Paneer Golden Hand Stretched WCD",
+    "bn": "দেশি পনির গোল্ডেন হ্যান্ড স্ট্রেচড ডব্লিউসিডি",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 142.8,
+    "serving": "51.3g"
+  },
+  {
+    "variant_id": 1844,
+    "canonical_key": "dhabe da keema pan|pizza",
+    "canonical_representative_id": 1815,
+    "en": "Dhabe Da Keema Pan Pizza (Medium)",
+    "bn": "ধাবে দা কিমা পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 277.0,
+    "serving": "102.5g"
+  },
+  {
+    "variant_id": 1874,
+    "canonical_key": "dhabe da keema pan|pizza",
+    "canonical_representative_id": 1815,
+    "en": "Dhabe Da Keema Pan Pizza (Large)",
+    "bn": "ধাবে দা কিমা পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 335.1,
+    "serving": "124.0g"
+  },
+  {
+    "variant_id": 1732,
+    "canonical_key": "dominos 5 pepper|pizza",
+    "canonical_representative_id": 1731,
+    "en": "Dominos 5 Pepper (Medium)",
+    "bn": "ডমিনোজ ৫ মরিচ (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 167.5,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1733,
+    "canonical_key": "dominos 5 pepper|pizza",
+    "canonical_representative_id": 1731,
+    "en": "Dominos 5 Pepper (Large)",
+    "bn": "ডমিনোজ ৫ মরিচ (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 225.4,
+    "serving": "107g"
+  },
+  {
+    "variant_id": 1756,
+    "canonical_key": "dominos bbq chicken|pizza",
+    "canonical_representative_id": 1755,
+    "en": "Dominos BBQ Chicken (Medium)",
+    "bn": "ডমিনোজ বিবিকিউ চিকেন (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 185.5,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1757,
+    "canonical_key": "dominos bbq chicken|pizza",
+    "canonical_representative_id": 1755,
+    "en": "Dominos BBQ Chicken (Large)",
+    "bn": "ডমিনোজ বিবিকিউ চিকেন (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 255.4,
+    "serving": "109g"
+  },
+  {
+    "variant_id": 1750,
+    "canonical_key": "dominos cheese bbq chicken|pizza",
+    "canonical_representative_id": 1749,
+    "en": "Dominos Cheese BBQ Chicken (Medium)",
+    "bn": "ডমিনোজ চিজ বিবিকিউ চিকেন (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 180.5,
+    "serving": "77g"
+  },
+  {
+    "variant_id": 1751,
+    "canonical_key": "dominos cheese bbq chicken|pizza",
+    "canonical_representative_id": 1749,
+    "en": "Dominos Cheese BBQ Chicken (Large)",
+    "bn": "ডমিনোজ চিজ বিবিকিউ চিকেন (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 224.6,
+    "serving": "96g"
+  },
+  {
+    "variant_id": 1783,
+    "canonical_key": "dominos cheese pepperoni|pizza",
+    "canonical_representative_id": 1782,
+    "en": "Dominos Cheese Pepperoni (Medium)",
+    "bn": "ডমিনোজ চিজ পেপারোনি (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 210.0,
+    "serving": "75g"
+  },
+  {
+    "variant_id": 1784,
+    "canonical_key": "dominos cheese pepperoni|pizza",
+    "canonical_representative_id": 1782,
+    "en": "Dominos Cheese Pepperoni (Large)",
+    "bn": "ডমিনোজ চিজ পেপারোনি (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 272.3,
+    "serving": "99g"
+  },
+  {
+    "variant_id": 1771,
+    "canonical_key": "dominos chefs chicken choice|pizza",
+    "canonical_representative_id": 1770,
+    "en": "Dominos Chefs Chicken Choice (Medium)",
+    "bn": "ডমিনোজ শেফস চিকেন চয়েস (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 194.3,
+    "serving": "85g"
+  },
+  {
+    "variant_id": 1772,
+    "canonical_key": "dominos chefs chicken choice|pizza",
+    "canonical_representative_id": 1770,
+    "en": "Dominos Chefs Chicken Choice (Large)",
+    "bn": "ডমিনোজ শেফস চিকেন চয়েস (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 254.7,
+    "serving": "112g"
+  },
+  {
+    "variant_id": 1747,
+    "canonical_key": "dominos chefs veg wonder|pizza",
+    "canonical_representative_id": 1746,
+    "en": "Dominos Chefs Veg Wonder (Medium)",
+    "bn": "ডমিনোজ শেফস ভেজ ওয়ান্ডার (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 178.9,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1748,
+    "canonical_key": "dominos chefs veg wonder|pizza",
+    "canonical_representative_id": 1746,
+    "en": "Dominos Chefs Veg Wonder (Large)",
+    "bn": "ডমিনোজ শেফস ভেজ ওয়ান্ডার (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 253.4,
+    "serving": "112g"
+  },
+  {
+    "variant_id": 1774,
+    "canonical_key": "dominos chicken dominator|pizza",
+    "canonical_representative_id": 1773,
+    "en": "Dominos Chicken Dominator (Medium)",
+    "bn": "ডমিনোজ চিকেন ডমিনেটর (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 226.7,
+    "serving": "92g"
+  },
+  {
+    "variant_id": 1775,
+    "canonical_key": "dominos chicken dominator|pizza",
+    "canonical_representative_id": 1773,
+    "en": "Dominos Chicken Dominator (Large)",
+    "bn": "ডমিনোজ চিকেন ডমিনেটর (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 399.0,
+    "serving": "155g"
+  },
+  {
+    "variant_id": 1759,
+    "canonical_key": "dominos chicken fiesta|pizza",
+    "canonical_representative_id": 1758,
+    "en": "Dominos Chicken Fiesta (Medium)",
+    "bn": "ডমিনোজ চিকেন ফিয়েস্তা (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 217.4,
+    "serving": "94g"
+  },
+  {
+    "variant_id": 1760,
+    "canonical_key": "dominos chicken fiesta|pizza",
+    "canonical_representative_id": 1758,
+    "en": "Dominos Chicken Fiesta (Large)",
+    "bn": "ডমিনোজ চিকেন ফিয়েস্তা (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 227.7,
+    "serving": "99g"
+  },
+  {
+    "variant_id": 1768,
+    "canonical_key": "dominos chicken golden delight|pizza",
+    "canonical_representative_id": 1767,
+    "en": "Dominos Chicken Golden Delight (Medium)",
+    "bn": "ডমিনোজ চিকেন গোল্ডেন ডিলাইট (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 185.2,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1769,
+    "canonical_key": "dominos chicken golden delight|pizza",
+    "canonical_representative_id": 1767,
+    "en": "Dominos Chicken Golden Delight (Large)",
+    "bn": "ডমিনোজ চিকেন গোল্ডেন ডিলাইট (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 225.1,
+    "serving": "96g"
+  },
+  {
+    "variant_id": 1762,
+    "canonical_key": "dominos chicken lovers|pizza",
+    "canonical_representative_id": 1761,
+    "en": "Dominos Chicken Lovers (Medium)",
+    "bn": "ডমিনোজ চিকেন লাভার্স (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 172.7,
+    "serving": "78g"
+  },
+  {
+    "variant_id": 1763,
+    "canonical_key": "dominos chicken lovers|pizza",
+    "canonical_representative_id": 1761,
+    "en": "Dominos Chicken Lovers (Large)",
+    "bn": "ডমিনোজ চিকেন লাভার্স (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 238.0,
+    "serving": "108g"
+  },
+  {
+    "variant_id": 1765,
+    "canonical_key": "dominos chicken mexicana|pizza",
+    "canonical_representative_id": 1764,
+    "en": "Dominos Chicken Mexicana (Medium)",
+    "bn": "ডমিনোজ চিকেন মেক্সিকানা (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 197.5,
+    "serving": "87g"
+  },
+  {
+    "variant_id": 1766,
+    "canonical_key": "dominos chicken mexicana|pizza",
+    "canonical_representative_id": 1764,
+    "en": "Dominos Chicken Mexicana (Large)",
+    "bn": "ডমিনোজ চিকেন মেক্সিকানা (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 241.4,
+    "serving": "107g"
+  },
+  {
+    "variant_id": 1753,
+    "canonical_key": "dominos chicken salami special|pizza",
+    "canonical_representative_id": 1752,
+    "en": "Dominos Chicken Salami Special (Medium)",
+    "bn": "ডমিনোজ চিকেন সালামি স্পেশাল (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 209.2,
+    "serving": "71g"
+  },
+  {
+    "variant_id": 1754,
+    "canonical_key": "dominos chicken salami special|pizza",
+    "canonical_representative_id": 1752,
+    "en": "Dominos Chicken Salami Special (Large)",
+    "bn": "ডমিনোজ চিকেন সালামি স্পেশাল (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 283.7,
+    "serving": "97g"
+  },
+  {
+    "variant_id": 1744,
+    "canonical_key": "dominos cloud 9|pizza",
+    "canonical_representative_id": 1743,
+    "en": "Dominos Cloud 9 (Medium)",
+    "bn": "ডমিনোজ ক্লাউড ৯ (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 231.2,
+    "serving": "106g"
+  },
+  {
+    "variant_id": 1745,
+    "canonical_key": "dominos cloud 9|pizza",
+    "canonical_representative_id": 1743,
+    "en": "Dominos Cloud 9 (Large)",
+    "bn": "ডমিনোজ ক্লাউড ৯ (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 274.2,
+    "serving": "126g"
+  },
+  {
+    "variant_id": 1717,
+    "canonical_key": "dominos country special|pizza",
+    "canonical_representative_id": 1716,
+    "en": "Dominos Country Special (Medium)",
+    "bn": "ডমিনোজ কান্ট্রি স্পেশাল (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 175.5,
+    "serving": "80g"
+  },
+  {
+    "variant_id": 1718,
+    "canonical_key": "dominos country special|pizza",
+    "canonical_representative_id": 1716,
+    "en": "Dominos Country Special (Large)",
+    "bn": "ডমিনোজ কান্ট্রি স্পেশাল (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 268.1,
+    "serving": "123g"
+  },
+  {
+    "variant_id": 1714,
+    "canonical_key": "dominos double cheese margherita|pizza",
+    "canonical_representative_id": 1713,
+    "en": "Dominos Double Cheese Margherita (Medium)",
+    "bn": "ডমিনোজ ডবল চিজ মার্গেরিটা (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 166.7,
+    "serving": "64g"
+  },
+  {
+    "variant_id": 1715,
+    "canonical_key": "dominos double cheese margherita|pizza",
+    "canonical_representative_id": 1713,
+    "en": "Dominos Double Cheese Margherita (Large)",
+    "bn": "ডমিনোজ ডবল চিজ মার্গেরিটা (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 279.3,
+    "serving": "108g"
+  },
+  {
+    "variant_id": 1720,
+    "canonical_key": "dominos farm house|pizza",
+    "canonical_representative_id": 1719,
+    "en": "Dominos Farm House (Medium)",
+    "bn": "ডমিনোজ ফার্ম হাউস (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 184.6,
+    "serving": "83g"
+  },
+  {
+    "variant_id": 1721,
+    "canonical_key": "dominos farm house|pizza",
+    "canonical_representative_id": 1719,
+    "en": "Dominos Farm House (Large)",
+    "bn": "ডমিনোজ ফার্ম হাউস (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 253.5,
+    "serving": "114g"
+  },
+  {
+    "variant_id": 1711,
+    "canonical_key": "dominos margherita|pizza",
+    "canonical_representative_id": 1710,
+    "en": "Dominos Margherita (Medium)",
+    "bn": "ডমিনোজ মার্গেরিটা (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 184.3,
+    "serving": "69g"
+  },
+  {
+    "variant_id": 1712,
+    "canonical_key": "dominos margherita|pizza",
+    "canonical_representative_id": 1710,
+    "en": "Dominos Margherita (Large)",
+    "bn": "ডমিনোজ মার্গেরিটা (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 256.4,
+    "serving": "96g"
+  },
+  {
+    "variant_id": 1723,
+    "canonical_key": "dominos mexican green wave|pizza",
+    "canonical_representative_id": 1722,
+    "en": "Dominos Mexican Green Wave (Medium)",
+    "bn": "ডমিনোজ মেক্সিকান গ্রিন ওয়েভ (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 181.9,
+    "serving": "82g"
+  },
+  {
+    "variant_id": 1724,
+    "canonical_key": "dominos mexican green wave|pizza",
+    "canonical_representative_id": 1722,
+    "en": "Dominos Mexican Green Wave (Large)",
+    "bn": "ডমিনোজ মেক্সিকান গ্রিন ওয়েভ (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 253.4,
+    "serving": "114g"
+  },
+  {
+    "variant_id": 1780,
+    "canonical_key": "dominos non veg supreme|pizza",
+    "canonical_representative_id": 1779,
+    "en": "Dominos Non-Veg Supreme (Medium)",
+    "bn": "ডমিনোজ নন-ভেজ সুপ্রিম (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 199.2,
+    "serving": "91g"
+  },
+  {
+    "variant_id": 1781,
+    "canonical_key": "dominos non veg supreme|pizza",
+    "canonical_representative_id": 1779,
+    "en": "Dominos Non-Veg Supreme (Large)",
+    "bn": "ডমিনোজ নন-ভেজ সুপ্রিম (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 287.9,
+    "serving": "132g"
+  },
+  {
+    "variant_id": 1729,
+    "canonical_key": "dominos peppy paneer|pizza",
+    "canonical_representative_id": 1728,
+    "en": "Dominos Peppy Paneer (Medium)",
+    "bn": "ডমিনোজ পেপি পনির (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 198.4,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1730,
+    "canonical_key": "dominos peppy paneer|pizza",
+    "canonical_representative_id": 1728,
+    "en": "Dominos Peppy Paneer (Large)",
+    "bn": "ডমিনোজ পেপি পনির (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 271.9,
+    "serving": "109g"
+  },
+  {
+    "variant_id": 1777,
+    "canonical_key": "dominos seventh heaven|pizza",
+    "canonical_representative_id": 1776,
+    "en": "Dominos Seventh Heaven (Medium)",
+    "bn": "ডমিনোজ সেভেন্থ হেভেন (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 224.4,
+    "serving": "108g"
+  },
+  {
+    "variant_id": 1778,
+    "canonical_key": "dominos seventh heaven|pizza",
+    "canonical_representative_id": 1776,
+    "en": "Dominos Seventh Heaven (Large)",
+    "bn": "ডমিনোজ সেভেন্থ হেভেন (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 237.9,
+    "serving": "115g"
+  },
+  {
+    "variant_id": 1726,
+    "canonical_key": "dominos spicy triple tango|pizza",
+    "canonical_representative_id": 1725,
+    "en": "Dominos Spicy Triple Tango (Medium)",
+    "bn": "ডমিনোজ স্পাইসি ট্রিপল ট্যাঙ্গো (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 175.1,
+    "serving": "75g"
+  },
+  {
+    "variant_id": 1727,
+    "canonical_key": "dominos spicy triple tango|pizza",
+    "canonical_representative_id": 1725,
+    "en": "Dominos Spicy Triple Tango (Large)",
+    "bn": "ডমিনোজ স্পাইসি ট্রিপল ট্যাঙ্গো (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 254.8,
+    "serving": "109g"
+  },
+  {
+    "variant_id": 1741,
+    "canonical_key": "dominos veg extravaganza|pizza",
+    "canonical_representative_id": 1740,
+    "en": "Dominos Veg Extravaganza (Medium)",
+    "bn": "ডমিনোজ ভেজ এক্সট্রাভাগানজা (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 184.2,
+    "serving": "97g"
+  },
+  {
+    "variant_id": 1742,
+    "canonical_key": "dominos veg extravaganza|pizza",
+    "canonical_representative_id": 1740,
+    "en": "Dominos Veg Extravaganza (Large)",
+    "bn": "ডমিনোজ ভেজ এক্সট্রাভাগানজা (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 242.6,
+    "serving": "128g"
+  },
+  {
+    "variant_id": 1738,
+    "canonical_key": "dominos veggie deluxe|pizza",
+    "canonical_representative_id": 1737,
+    "en": "Dominos Veggie Deluxe (Medium)",
+    "bn": "ডমিনোজ ভেজি ডিলাক্স (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 175.6,
+    "serving": "79g"
+  },
+  {
+    "variant_id": 1739,
+    "canonical_key": "dominos veggie deluxe|pizza",
+    "canonical_representative_id": 1737,
+    "en": "Dominos Veggie Deluxe (Large)",
+    "bn": "ডমিনোজ ভেজি ডিলাক্স (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 220.5,
+    "serving": "99g"
+  },
+  {
+    "variant_id": 1735,
+    "canonical_key": "dominos veggie paradise|pizza",
+    "canonical_representative_id": 1734,
+    "en": "Dominos Veggie Paradise (Medium)",
+    "bn": "ডমিনোজ ভেজি প্যারাডাইস (মিডিয়াম)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 167.7,
+    "serving": "77g"
+  },
+  {
+    "variant_id": 1736,
+    "canonical_key": "dominos veggie paradise|pizza",
+    "canonical_representative_id": 1734,
+    "en": "Dominos Veggie Paradise (Large)",
+    "bn": "ডমিনোজ ভেজি প্যারাডাইস (লার্জ)",
+    "src": "dominos_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 210.9,
+    "serving": "97g"
+  },
+  {
+    "variant_id": 2027,
+    "canonical_key": "double chicken feast golden|pizza",
+    "canonical_representative_id": 2025,
+    "en": "Double Chicken Feast Golden Hand Stretched WCD",
+    "bn": "ডাবল চিকেন ফিস্ট গোল্ডেন হ্যান্ড স্ট্রেচড ডব্লিউসিডি",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 138.9,
+    "serving": "51.5g"
+  },
+  {
+    "variant_id": 3666,
+    "canonical_key": "dragon fruit|fruit",
+    "canonical_representative_id": 2426,
+    "en": "Dragon Fruit (Pitaya)",
+    "bn": "ড্রাগন ফল",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 55.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2280,
+    "canonical_key": "duck curry|meat",
+    "canonical_representative_id": 3457,
+    "en": "Duck Curry",
+    "bn": "হাঁসের ঝোল",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 238.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3455,
+    "canonical_key": "duck curry|meat",
+    "canonical_representative_id": 3457,
+    "en": "Duck Curry (Bengali Style Kosha Haanser Mangsho)",
+    "bn": "কষা হাঁসের মাংস",
+    "src": "user_curated",
+    "trust_score": 59,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 420.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3456,
+    "canonical_key": "duck curry|meat",
+    "canonical_representative_id": 3457,
+    "en": "Duck Curry (Assam Style – Khar/Spiced)",
+    "bn": "অসমীয়া হাঁসের কারি",
+    "src": "user_curated",
+    "trust_score": 59,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3460,
+    "canonical_key": "duck curry|meat",
+    "canonical_representative_id": 3457,
+    "en": "Duck Curry (Street Style North India)",
+    "bn": "স্ট্রিট স্টাইল হাঁসের কারি",
+    "src": "user_curated",
+    "trust_score": 59,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 430.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 766,
+    "canonical_key": "egg devil|egg",
+    "canonical_representative_id": 1044,
+    "en": "Egg Devil",
+    "bn": "এগ ডেভিল",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 2183,
+    "canonical_key": "fafda|snack",
+    "canonical_representative_id": 4693,
+    "en": "Fafda",
+    "bn": "ফাফড়া",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 455.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3975,
+    "canonical_key": "fast up reload|beverage",
+    "canonical_representative_id": 4554,
+    "en": "Fast&Up Reload",
+    "bn": "ফাস্ট অ্যান্ড আপ রিলোড",
+    "src": "brand",
+    "trust_score": 88,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 10.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4217,
+    "canonical_key": "fresh cream|dairy",
+    "canonical_representative_id": 4216,
+    "en": "Fresh Cream (30% Fat)",
+    "bn": "ফ্রেশ ক্রিম (৩০%)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 293.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1998,
+    "canonical_key": "fresh lime soda sweet|beverage",
+    "canonical_representative_id": 1997,
+    "en": "Fresh Lime Soda Sweet Salty Pizza Hut",
+    "bn": "ফ্রেশ লাইম সোডা (মিষ্টি-নোনতা)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 25,
+    "differs_in": [
+      "en",
+      "s"
+    ],
+    "nutrition_k": 43.0,
+    "serving": "216g"
+  },
+  {
+    "variant_id": 2740,
+    "canonical_key": "gobindobhog rice|rice",
+    "canonical_representative_id": 4023,
+    "en": "Gobindobhog Rice (Cooked)",
+    "bn": "গোবিন্দভোগ ভাত",
+    "src": "curated_estimate",
+    "trust_score": 64,
+    "quality_score": 85,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 131.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4171,
+    "canonical_key": "greek yogurt|dairy",
+    "canonical_representative_id": 4170,
+    "en": "Greek Yogurt (5% Fat)",
+    "bn": "গ্রিক ইয়োগার্ট (৫% ফ্যাট)",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 97.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4859,
+    "canonical_key": "grey goose vodka|beverage",
+    "canonical_representative_id": 4854,
+    "en": "Grey Goose Vodka",
+    "bn": "গ্রে গুজ ভদকা",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 235.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4773,
+    "canonical_key": "grover zampa la reserve|beverage",
+    "canonical_representative_id": 4769,
+    "en": "Grover Zampa La Réserve Red",
+    "bn": "গরোভের জাম্পা লঅ রéসেরভএ রেড",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 95.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2175,
+    "canonical_key": "handvo|snack",
+    "canonical_representative_id": 4691,
+    "en": "Handvo",
+    "bn": "হান্ডভো",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 205.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2910,
+    "canonical_key": "horse gram|legume",
+    "canonical_representative_id": 2896,
+    "en": "Horse Gram (Kulthi Dal, Cooked)",
+    "bn": "কুলথি ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 119.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1631,
+    "canonical_key": "jalebi|sweet",
+    "canonical_representative_id": 1042,
+    "en": "Jalebi",
+    "bn": "জেলেবি",
+    "src": "",
+    "trust_score": 34,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2903,
+    "canonical_key": "kabuli chana|legume",
+    "canonical_representative_id": 2889,
+    "en": "Kabuli Chana (Cooked)",
+    "bn": "কাবুলি চানা (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 164.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1853,
+    "canonical_key": "kadhai chicken pan pizza|pizza",
+    "canonical_representative_id": 1824,
+    "en": "Kadhai Chicken Pan Pizza (Medium)",
+    "bn": "কড়াই চিকেন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 311.1,
+    "serving": "114.0g"
+  },
+  {
+    "variant_id": 1883,
+    "canonical_key": "kadhai chicken pan pizza|pizza",
+    "canonical_representative_id": 1824,
+    "en": "Kadhai Chicken Pan Pizza (Large)",
+    "bn": "কড়াই চিকেন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 370.9,
+    "serving": "137.6g"
+  },
+  {
+    "variant_id": 1839,
+    "canonical_key": "kadhai paneer pan pizza|pizza",
+    "canonical_representative_id": 1809,
+    "en": "Kadhai Paneer Pan Pizza (Medium)",
+    "bn": "কড়াই পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 389.7,
+    "serving": "118.2g"
+  },
+  {
+    "variant_id": 1869,
+    "canonical_key": "kadhai paneer pan pizza|pizza",
+    "canonical_representative_id": 1809,
+    "en": "Kadhai Paneer Pan Pizza (Large)",
+    "bn": "কড়াই পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 356.1,
+    "serving": "143.2g"
+  },
+  {
+    "variant_id": 4142,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Classic)",
+    "bn": "কাজু কাতলি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 530.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4143,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Sugar Free)",
+    "bn": "চিনি ছাড়া কাজু কাতলি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 480.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4144,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Saffron / Kesar)",
+    "bn": "কেশর কাজু কাতলি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 540.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4146,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Chocolate Coated)",
+    "bn": "চকলেট কোটেড কাজু কাতলি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 570.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4147,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Rose Flavor)",
+    "bn": "গোলাপ কাজু কাতলি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 535.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4148,
+    "canonical_key": "kaju katli|sweet",
+    "canonical_representative_id": 4145,
+    "en": "Kaju Katli (Dry Fruit Blend)",
+    "bn": "ড্রাই ফ্রুট কাজু কাতলি",
+    "src": "local",
+    "trust_score": 62,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 590.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2902,
+    "canonical_key": "kala chana|legume",
+    "canonical_representative_id": 2888,
+    "en": "Kala Chana (Cooked)",
+    "bn": "কালা চানা (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 164.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4079,
+    "canonical_key": "kamranga|fruit",
+    "canonical_representative_id": 4078,
+    "en": "Kamranga (Sour Star Fruit)",
+    "bn": "টক কামরাঙা",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 29.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3807,
+    "canonical_key": "khaja|sweet",
+    "canonical_representative_id": 1533,
+    "en": "Khaja (Mahaprasad)",
+    "bn": "খজা",
+    "src": "local",
+    "trust_score": 53,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 468.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 480,
+    "canonical_key": "khakhra|snack",
+    "canonical_representative_id": 4699,
+    "en": "Khakhra",
+    "bn": "খাখরা",
+    "src": "indb",
+    "trust_score": 100,
+    "quality_score": 80,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 135.1,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 481,
+    "canonical_key": "khaman|snack",
+    "canonical_representative_id": 4689,
+    "en": "Khaman",
+    "bn": "খামান",
+    "src": "indb",
+    "trust_score": 100,
+    "quality_score": 80,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 64.9,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 3480,
+    "canonical_key": "koi macher jhol|fish",
+    "canonical_representative_id": 4645,
+    "en": "Koi Macher Jhol (Simple Curry)",
+    "bn": "কৈ মাছের ঝোল",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 190.0,
+    "serving": "1 bowl (~250g)"
+  },
+  {
+    "variant_id": 4470,
+    "canonical_key": "kul chutney|snack",
+    "canonical_representative_id": 4467,
+    "en": "Kul Chutney (Jujube with Jaggery)",
+    "bn": "কুলের চাটনি (গুড় সহ)",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 50,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 140.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 937,
+    "canonical_key": "labra|vegetable",
+    "canonical_representative_id": 4841,
+    "en": "Labra",
+    "bn": "লাবড়া",
+    "src": "local",
+    "trust_score": 64,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 160.0,
+    "serving": "250g"
+  },
+  {
+    "variant_id": 3924,
+    "canonical_key": "langcha|sweet",
+    "canonical_representative_id": 1525,
+    "en": "Langcha (Shaktigarh)",
+    "bn": "শক্তিগড়ের ল্যাংচা",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 360.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2909,
+    "canonical_key": "lobia|legume",
+    "canonical_representative_id": 2895,
+    "en": "Lobia (Black-eyed Peas, Cooked)",
+    "bn": "লোবিয়া (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 116.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4085,
+    "canonical_key": "local jackfruit|fruit",
+    "canonical_representative_id": 4084,
+    "en": "Local Jackfruit (Ripe)",
+    "bn": "কাঁঠাল (পাকা)",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 102.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3368,
+    "canonical_key": "maaza mango|beverage",
+    "canonical_representative_id": 3367,
+    "en": "Maaza Mango (Bottle)",
+    "bn": "মাজা ম্যাঙ্গো (বোতল)",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 150.0,
+    "serving": "250ml"
+  },
+  {
+    "variant_id": 3369,
+    "canonical_key": "maaza mango|beverage",
+    "canonical_representative_id": 3367,
+    "en": "Maaza Mango (Large Bottle)",
+    "bn": "মাজা ম্যাঙ্গো (বড় বোতল)",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 360.0,
+    "serving": "600ml"
+  },
+  {
+    "variant_id": 3453,
+    "canonical_key": "mackerel curry|fish",
+    "canonical_representative_id": 1485,
+    "en": "Mackerel Curry (Indian Style)",
+    "bn": "ম্যাকারেল কারি",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1463,
+    "canonical_key": "magur curry|fish",
+    "canonical_representative_id": 3482,
+    "en": "Magur Curry",
+    "bn": "মাগুর মাছের ঝোল",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 140.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2664,
+    "canonical_key": "malpua|sweet",
+    "canonical_representative_id": 1706,
+    "en": "Malpua (Bengali)",
+    "bn": "বাংলা মালপোয়া",
+    "src": "curated_estimate",
+    "trust_score": 67,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 342.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 255,
+    "canonical_key": "mango|fruit",
+    "canonical_representative_id": 4626,
+    "en": "Mango",
+    "bn": "আম",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 135.0,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 1826,
+    "canonical_key": "margherita pan pizza|pizza",
+    "canonical_representative_id": 1797,
+    "en": "Margherita Pan Pizza (Medium)",
+    "bn": "মার্ঘেরিটা প্যান পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 229.5,
+    "serving": "78.5g"
+  },
+  {
+    "variant_id": 1855,
+    "canonical_key": "margherita pan pizza|pizza",
+    "canonical_representative_id": 1797,
+    "en": "Margherita Pan Pizza (Large)",
+    "bn": "মার্ঘেরিটা প্যান পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 283.6,
+    "serving": "97.0g"
+  },
+  {
+    "variant_id": 1922,
+    "canonical_key": "margherita ultimate cheese pizza|pizza",
+    "canonical_representative_id": 1914,
+    "en": "Margherita Ultimate Cheese Pizza (Medium)",
+    "bn": "মার্ঘেরিটা আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 291.9,
+    "serving": "102.8g"
+  },
+  {
+    "variant_id": 4874,
+    "canonical_key": "martini bianco|beverage",
+    "canonical_representative_id": 4870,
+    "en": "Martini Bianco (India)",
+    "bn": "মার্টিনি বইঅনকও (ইনডইঅ)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 145.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4873,
+    "canonical_key": "martini extra dry|beverage",
+    "canonical_representative_id": 4869,
+    "en": "Martini Extra Dry (India)",
+    "bn": "মার্টিনি এক্সট্রা ড্রাই (ইনডইঅ)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 110.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4872,
+    "canonical_key": "martini rosso|beverage",
+    "canonical_representative_id": 4868,
+    "en": "Martini Rosso (India import)",
+    "bn": "মার্টিনি রোসো (ইনডইঅ ইমপোরট)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 160.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2884,
+    "canonical_key": "masoor dal|legume",
+    "canonical_representative_id": 151,
+    "en": "Masoor Dal (Red Lentils, Dry)",
+    "bn": "মসুর ডাল (কাঁচা)",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 86,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 352.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2898,
+    "canonical_key": "masoor dal|legume",
+    "canonical_representative_id": 151,
+    "en": "Masoor Dal (Cooked)",
+    "bn": "মসুর ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 86,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 116.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2907,
+    "canonical_key": "matar dal|legume",
+    "canonical_representative_id": 2893,
+    "en": "Matar Dal (Cooked)",
+    "bn": "মটর ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 118.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1836,
+    "canonical_key": "mazedar makhni paneer pan|pizza",
+    "canonical_representative_id": 1807,
+    "en": "Mazedar Makhni Paneer Pan Pizza (Medium)",
+    "bn": "মজেদার মাখনি পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 287.6,
+    "serving": "100.0g"
+  },
+  {
+    "variant_id": 1865,
+    "canonical_key": "mazedar makhni paneer pan|pizza",
+    "canonical_representative_id": 1807,
+    "en": "Mazedar Makhni Paneer Pan Pizza (Large)",
+    "bn": "মজেদার মাখনি পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 353.7,
+    "serving": "123.0g"
+  },
+  {
+    "variant_id": 2116,
+    "canonical_key": "mcdonalds sundae chocolate brownie|sweet",
+    "canonical_representative_id": 2115,
+    "en": "McDonalds Sundae Chocolate Brownie Medium",
+    "bn": "ম্যাকডোনাল্ডস ব্রাউনি সানডেই মিডিয়াম",
+    "src": "mcdonalds_india",
+    "trust_score": 100,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 311.4,
+    "serving": "155g"
+  },
+  {
+    "variant_id": 4796,
+    "canonical_key": "mcdowell s no 1|beverage",
+    "canonical_representative_id": 4793,
+    "en": "McDowell’s No.1 Dark Rum",
+    "bn": "ম্যাকডাওয়েল’স নও.1 ডার্ক রাম",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 250.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1831,
+    "canonical_key": "mexican fiesta veg pan|pizza",
+    "canonical_representative_id": 1802,
+    "en": "Mexican Fiesta Veg Pan Pizza (Medium)",
+    "bn": "মেক্সিকান ফিয়েস্তা পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 275.0,
+    "serving": "103.5g"
+  },
+  {
+    "variant_id": 1860,
+    "canonical_key": "mexican fiesta veg pan|pizza",
+    "canonical_representative_id": 1802,
+    "en": "Mexican Fiesta Veg Pan Pizza (Large)",
+    "bn": "মেক্সিকান ফিয়েস্তা পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 333.5,
+    "serving": "125.5g"
+  },
+  {
+    "variant_id": 3604,
+    "canonical_key": "mihidana|sweet",
+    "canonical_representative_id": 1528,
+    "en": "Mihidana (Bardhaman style)",
+    "bn": "মিহিদানা (বর্ধমান স্টাইল)",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 220.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3923,
+    "canonical_key": "mihidana|sweet",
+    "canonical_representative_id": 1528,
+    "en": "Mihidana (Bardhaman)",
+    "bn": "মিহিদানা",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 420.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2862,
+    "canonical_key": "mirchi vada|snack",
+    "canonical_representative_id": 1702,
+    "en": "Mirchi Vada (Jodhpur)",
+    "bn": "জোধপুরি মির্চি বড়া",
+    "src": "curated_estimate",
+    "trust_score": 68,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 272.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2868,
+    "canonical_key": "missi roti|bread",
+    "canonical_representative_id": 1693,
+    "en": "Missi Roti (Rajasthan Style)",
+    "bn": "রাজস্থানি মিস্সি রুটি",
+    "src": "curated_estimate",
+    "trust_score": 64,
+    "quality_score": 85,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 256.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2885,
+    "canonical_key": "moong dal|legume",
+    "canonical_representative_id": 4848,
+    "en": "Moong Dal (Split Yellow Mung Bean, Dry)",
+    "bn": "মুগ ডাল (কাঁচা)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 347.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2899,
+    "canonical_key": "moong dal|legume",
+    "canonical_representative_id": 4848,
+    "en": "Moong Dal (Cooked)",
+    "bn": "মুগ ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 105.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1847,
+    "canonical_key": "murg malai chicken pan|pizza",
+    "canonical_representative_id": 1818,
+    "en": "Murg Malai Chicken Pan Pizza (Medium)",
+    "bn": "মুর্গ মালাই চিকেন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 274.7,
+    "serving": "102.0g"
+  },
+  {
+    "variant_id": 1877,
+    "canonical_key": "murg malai chicken pan|pizza",
+    "canonical_representative_id": 1818,
+    "en": "Murg Malai Chicken Pan Pizza (Large)",
+    "bn": "মুর্গ মালাই চিকেন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 342.0,
+    "serving": "127.0g"
+  },
+  {
+    "variant_id": 4244,
+    "canonical_key": "muscleblaze biozyme protein bar|snack",
+    "canonical_representative_id": 4243,
+    "en": "MuscleBlaze Biozyme Protein Bar Choco Almond",
+    "bn": "মাসলব্লেজ বায়োজাইম চোকো আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 386.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1850,
+    "canonical_key": "nawabi murg makhni pan|pizza",
+    "canonical_representative_id": 1821,
+    "en": "Nawabi Murg Makhni Pan Pizza (Medium)",
+    "bn": "নবাবি মুর্গ মাখনি পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 284.2,
+    "serving": "113.0g"
+  },
+  {
+    "variant_id": 1880,
+    "canonical_key": "nawabi murg makhni pan|pizza",
+    "canonical_representative_id": 1821,
+    "en": "Nawabi Murg Makhni Pan Pizza (Large)",
+    "bn": "নবাবি মুর্গ মাখনি পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 355.9,
+    "serving": "141.5g"
+  },
+  {
+    "variant_id": 4377,
+    "canonical_key": "nendran banana|fruit",
+    "canonical_representative_id": 4074,
+    "en": "Nendran Banana (Plantain)",
+    "bn": "নেন্দ্রান কলা",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 50,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 116.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 168,
+    "canonical_key": "nolen gur sandesh|sweet",
+    "canonical_representative_id": 3510,
+    "en": "Nolen Gur Sandesh",
+    "bn": "নলেন গুড় সন্দেশ",
+    "src": "local",
+    "trust_score": 62,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 140.0,
+    "serving": "60g"
+  },
+  {
+    "variant_id": 4581,
+    "canonical_key": "oziva kids plant protein|snack",
+    "canonical_representative_id": 4552,
+    "en": "OZiva Kids Plant Protein",
+    "bn": "ওজিভা কিডস প্ল্যান্ট প্রোটিন",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 365.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4323,
+    "canonical_key": "patanjali biscuits|snack",
+    "canonical_representative_id": 4322,
+    "en": "Patanjali Biscuits (Marie)",
+    "bn": "পতঞ্জলি মেরি বিস্কুট",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 430.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4352,
+    "canonical_key": "patanjali ready to eat|restaurant_food",
+    "canonical_representative_id": 4353,
+    "en": "Patanjali Ready to Eat Khichdi",
+    "bn": "পতঞ্জলি রেডি টু ইট খিচুড়ি",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 130.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3884,
+    "canonical_key": "payasam|sweet",
+    "canonical_representative_id": 2307,
+    "en": "Payasam (Kerala Style)",
+    "bn": "কেরালা পায়সাম",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 220.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 170,
+    "canonical_key": "payesh|sweet",
+    "canonical_representative_id": 4132,
+    "en": "Payesh",
+    "bn": "পায়েশ",
+    "src": "local",
+    "trust_score": 61,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 224.0,
+    "serving": "1 bowl"
+  },
+  {
+    "variant_id": 4845,
+    "canonical_key": "payesh|sweet",
+    "canonical_representative_id": 4132,
+    "en": "Payesh (Rice Kheer with milk & jaggery)",
+    "bn": "পায়েশ (চাল পায়েস সহ দুধ & জ্যাগারি)",
+    "src": "local",
+    "trust_score": 59,
+    "quality_score": 78,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 310.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2251,
+    "canonical_key": "peach|fruit",
+    "canonical_representative_id": 4620,
+    "en": "Peach",
+    "bn": "পিচ",
+    "src": "usda",
+    "trust_score": 95,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 39.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2237,
+    "canonical_key": "pear|fruit",
+    "canonical_representative_id": 4614,
+    "en": "Pear",
+    "bn": "নাশপাতি",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 57.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4168,
+    "canonical_key": "plain yogurt|dairy",
+    "canonical_representative_id": 4167,
+    "en": "Plain Yogurt (Semi-Skimmed 1.5%)",
+    "bn": "সেমি-স্কিমড দই",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 48.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4169,
+    "canonical_key": "plain yogurt|dairy",
+    "canonical_representative_id": 4167,
+    "en": "Plain Yogurt (Skimmed 0.1%)",
+    "bn": "স্কিমড দই",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 36.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2248,
+    "canonical_key": "plum|fruit",
+    "canonical_representative_id": 4618,
+    "en": "Plum",
+    "bn": "আলুবোখারা",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 46.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3470,
+    "canonical_key": "pumpkin flower curry|vegetable",
+    "canonical_representative_id": 3462,
+    "en": "Pumpkin Flower Curry (South Indian Coconut Style)",
+    "bn": "কুমড়ো ফুল নারকেল কারি",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 110.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4174,
+    "canonical_key": "quark|dairy",
+    "canonical_representative_id": 4173,
+    "en": "Quark (20% Fat)",
+    "bn": "কোয়ার্ক (২০% ফ্যাট)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 124.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2908,
+    "canonical_key": "rajma|legume",
+    "canonical_representative_id": 2894,
+    "en": "Rajma (Cooked)",
+    "bn": "রাজমা (রান্না)",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 78,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 127.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4761,
+    "canonical_key": "riesling|beverage",
+    "canonical_representative_id": 4760,
+    "en": "Riesling (Off-dry - Kabinett)",
+    "bn": "রইএসলিনগ (ওফফ-ড্রাই - কাবিনেট)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 85.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4762,
+    "canonical_key": "riesling|beverage",
+    "canonical_representative_id": 4760,
+    "en": "Riesling (Sweet - Spätlese)",
+    "bn": "রইএসলিনগ (মিষ্টি - সপäটলেসএ)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 73,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 110.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4261,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Choco Almond",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ চোকো আলমন্ড",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 365.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4263,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Chocolate Deluxe",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ চকলেট ডিলাক্স",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 362.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4264,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Peanut Butter",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ পিনাট বাটার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 378.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4265,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Cookies & Cream",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ কুকিজ অ্যান্ড ক্রিম",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 368.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4266,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Mocha",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ মোকা",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 366.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4267,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Hazelnut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ হ্যাজেলনাট",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 372.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4268,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Dark Chocolate",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ ডার্ক চকলেট",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 363.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4269,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Mixed Nuts",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ মিক্সড নাটস",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 382.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4270,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Caramel",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ ক্যারামেল",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 370.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4271,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Coffee",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ কফি",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 365.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4272,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Brownie",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ ব্রাউনি",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 367.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4273,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Coconut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ নারকেল",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 373.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4274,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Fruit & Nut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ ফ্রুট অ্যান্ড নাট",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 379.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4275,
+    "canonical_key": "ritebite max protein active|snack",
+    "canonical_representative_id": 4262,
+    "en": "RiteBite Max Protein Active Choco Fudge",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন অ্যাক্টিভ চোকো ফাজ",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 369.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4246,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Choco Almond",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট চোকো আলমন্ড",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 382.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4248,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Chocolate Deluxe",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট চকলেট ডিলাক্স",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 384.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4249,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Peanut Butter",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট পিনাট বাটার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 396.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4250,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Cookies & Cream",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট কুকিজ অ্যান্ড ক্রিম",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 386.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4251,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Mocha",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট মোকা",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 382.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4252,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Hazelnut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট হ্যাজেলনাট",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 392.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4253,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Dark Chocolate",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট ডার্ক চকলেট",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 385.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4254,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Mixed Nuts",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট মিক্সড নাটস",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 401.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4255,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Caramel",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট ক্যারামেল",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4256,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Coffee",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট কফি",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 383.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4257,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Brownie",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট ব্রাউনি",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 388.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4258,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Coconut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট নারকেল",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 391.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4259,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Fruit & Nut",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট ফ্রুট অ্যান্ড নাট",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 397.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4260,
+    "canonical_key": "ritebite max protein ultimate|snack",
+    "canonical_representative_id": 4247,
+    "en": "RiteBite Max Protein Ultimate Choco Fudge",
+    "bn": "রাইটবাইট ম্যাক্স প্রোটিন আলটিমেট চোকো ফাজ",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 387.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2256,
+    "canonical_key": "rogan josh|meat",
+    "canonical_representative_id": 2817,
+    "en": "Rogan Josh",
+    "bn": "রোগান জোশ",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 248.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1852,
+    "canonical_key": "royal spice chicken pan|pizza",
+    "canonical_representative_id": 1823,
+    "en": "Royal Spice Chicken Pan Pizza (Medium)",
+    "bn": "রয়েল স্পাইস চিকেন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 323.6,
+    "serving": "117.0g"
+  },
+  {
+    "variant_id": 1882,
+    "canonical_key": "royal spice chicken pan|pizza",
+    "canonical_representative_id": 1823,
+    "en": "Royal Spice Chicken Pan Pizza (Large)",
+    "bn": "রয়েল স্পাইস চিকেন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 331.3,
+    "serving": "139.5g"
+  },
+  {
+    "variant_id": 1838,
+    "canonical_key": "royal spice paneer pan|pizza",
+    "canonical_representative_id": 1808,
+    "en": "Royal Spice Paneer Pan Pizza (Medium)",
+    "bn": "রয়েল স্পাইস পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 299.2,
+    "serving": "120.0g"
+  },
+  {
+    "variant_id": 1868,
+    "canonical_key": "royal spice paneer pan|pizza",
+    "canonical_representative_id": 1808,
+    "en": "Royal Spice Paneer Pan Pizza (Large)",
+    "bn": "রয়েল স্পাইস পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 368.9,
+    "serving": "145.1g"
+  },
+  {
+    "variant_id": 3445,
+    "canonical_key": "salmon curry|fish",
+    "canonical_representative_id": 1489,
+    "en": "Salmon Curry (Indian Style)",
+    "bn": "স্যালমন কারি",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 561,
+    "canonical_key": "sattu drink|beverage",
+    "canonical_representative_id": 4556,
+    "en": "Sattu drink",
+    "bn": "সাতু দরিনক",
+    "src": "indb",
+    "trust_score": 100,
+    "quality_score": 80,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 124.9,
+    "serving": "240g"
+  },
+  {
+    "variant_id": 1842,
+    "canonical_key": "sausage sweet corn pan|pizza",
+    "canonical_representative_id": 1813,
+    "en": "Sausage Sweet Corn Pan Pizza (Medium)",
+    "bn": "সোসেজ সুইট কর্ন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 268.3,
+    "serving": "97.0g"
+  },
+  {
+    "variant_id": 1872,
+    "canonical_key": "sausage sweet corn pan|pizza",
+    "canonical_representative_id": 1813,
+    "en": "Sausage Sweet Corn Pan Pizza (Large)",
+    "bn": "সোসেজ সুইট কর্ন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 319.4,
+    "serving": "115.5g"
+  },
+  {
+    "variant_id": 1827,
+    "canonical_key": "schezwan margherita pan pizza|pizza",
+    "canonical_representative_id": 1798,
+    "en": "Schezwan Margherita Pan Pizza (Medium)",
+    "bn": "শেজোয়ান মার্ঘেরিটা পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 235.4,
+    "serving": "78.5g"
+  },
+  {
+    "variant_id": 1856,
+    "canonical_key": "schezwan margherita pan pizza|pizza",
+    "canonical_representative_id": 1798,
+    "en": "Schezwan Margherita Pan Pizza (Large)",
+    "bn": "শেজোয়ান মার্ঘেরিটা পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 99,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 298.4,
+    "serving": "99.5g"
+  },
+  {
+    "variant_id": 3603,
+    "canonical_key": "sitabhog|sweet",
+    "canonical_representative_id": 1529,
+    "en": "Sitabhog (Bardhaman style)",
+    "bn": "সীতাভোগ (বর্ধমান স্টাইল)",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 210.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3922,
+    "canonical_key": "sitabhog|sweet",
+    "canonical_representative_id": 1529,
+    "en": "Sitabhog (Bardhaman)",
+    "bn": "সীতাভোগ",
+    "src": "local",
+    "trust_score": 54,
+    "quality_score": 70,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 385.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1843,
+    "canonical_key": "sizzling schezwan chicken pan|pizza",
+    "canonical_representative_id": 1814,
+    "en": "Sizzling Schezwan Chicken Pan Pizza (Medium)",
+    "bn": "সিজলিং শেজোয়ান চিকেন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 243.3,
+    "serving": "88.0g"
+  },
+  {
+    "variant_id": 1873,
+    "canonical_key": "sizzling schezwan chicken pan|pizza",
+    "canonical_representative_id": 1814,
+    "en": "Sizzling Schezwan Chicken Pan Pizza (Large)",
+    "bn": "সিজলিং শেজোয়ান চিকেন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 283.4,
+    "serving": "102.5g"
+  },
+  {
+    "variant_id": 3371,
+    "canonical_key": "slice mango|beverage",
+    "canonical_representative_id": 3370,
+    "en": "Slice Mango (Large Bottle)",
+    "bn": "স্লাইস ম্যাঙ্গো (বড় বোতল)",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "600ml"
+  },
+  {
+    "variant_id": 1854,
+    "canonical_key": "southern fiery chicken pan|pizza",
+    "canonical_representative_id": 1825,
+    "en": "Southern Fiery Chicken Pan Pizza (Medium)",
+    "bn": "সাউদার্ন ফায়ারি চিকেন পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 319.9,
+    "serving": "115.8g"
+  },
+  {
+    "variant_id": 1884,
+    "canonical_key": "southern fiery chicken pan|pizza",
+    "canonical_representative_id": 1825,
+    "en": "Southern Fiery Chicken Pan Pizza (Large)",
+    "bn": "সাউদার্ন ফায়ারি চিকেন পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 333.3,
+    "serving": "138.4g"
+  },
+  {
+    "variant_id": 1840,
+    "canonical_key": "southern fiery paneer pan|pizza",
+    "canonical_representative_id": 1810,
+    "en": "Southern Fiery Paneer Pan Pizza (Medium)",
+    "bn": "সাউদার্ন ফায়ারি পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 399.7,
+    "serving": "121.2g"
+  },
+  {
+    "variant_id": 1870,
+    "canonical_key": "southern fiery paneer pan|pizza",
+    "canonical_representative_id": 1810,
+    "en": "Southern Fiery Paneer Pan Pizza (Large)",
+    "bn": "সাউদার্ন ফায়ারি পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 342.8,
+    "serving": "144.0g"
+  },
+  {
+    "variant_id": 2911,
+    "canonical_key": "soybean|legume",
+    "canonical_representative_id": 2897,
+    "en": "Soybean (Cooked)",
+    "bn": "সয়াবিন (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 173.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1830,
+    "canonical_key": "spiced paneer pan pizza|pizza",
+    "canonical_representative_id": 1801,
+    "en": "Spiced Paneer Pan Pizza (Medium)",
+    "bn": "স্পাইসড পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 265.9,
+    "serving": "96.5g"
+  },
+  {
+    "variant_id": 1859,
+    "canonical_key": "spiced paneer pan pizza|pizza",
+    "canonical_representative_id": 1801,
+    "en": "Spiced Paneer Pan Pizza (Large)",
+    "bn": "স্পাইসড পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 326.5,
+    "serving": "118.5g"
+  },
+  {
+    "variant_id": 1952,
+    "canonical_key": "spicy baked chicken wings|meat",
+    "canonical_representative_id": 1950,
+    "en": "Spicy Baked Chicken Wings (6pc)",
+    "bn": "স্পাইসি বেকড চিকেন উইংস (৬ পিস)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 30,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 420.6,
+    "serving": "222g"
+  },
+  {
+    "variant_id": 2026,
+    "canonical_key": "spicy tikka golden hand|pizza",
+    "canonical_representative_id": 2024,
+    "en": "Spicy Tikka Golden Hand Stretched 100% Mozzarella",
+    "bn": "স্পাইসি টিক্কা গোল্ডেন হ্যান্ড স্ট্রেচড মোজারেলা",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 121.3,
+    "serving": "50.7g"
+  },
+  {
+    "variant_id": 3414,
+    "canonical_key": "spring roll|snack",
+    "canonical_representative_id": 815,
+    "en": "Spring Roll (Vegetable)",
+    "bn": "সবজি স্প্রিং রোল",
+    "src": "user_curated",
+    "trust_score": 63,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 250.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2389,
+    "canonical_key": "sting energy drink|beverage",
+    "canonical_representative_id": 4653,
+    "en": "Sting Energy Drink",
+    "bn": "স্টিং এনার্জি ড্রিংক",
+    "src": "brand",
+    "trust_score": 79,
+    "quality_score": 20,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 47.0,
+    "serving": "100ml"
+  },
+  {
+    "variant_id": 2238,
+    "canonical_key": "strawberry|fruit",
+    "canonical_representative_id": 4616,
+    "en": "Strawberry",
+    "bn": "স্ট্রবেরি",
+    "src": "usda",
+    "trust_score": 97,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "src"
+    ],
+    "nutrition_k": 32.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2604,
+    "canonical_key": "subway 5 meat italian|restaurant_food",
+    "canonical_representative_id": 2556,
+    "en": "Subway 5 Meat Italian Protein Bowl",
+    "bn": "সাবোয়ে ফাইভ মিট ইতালিয়ান প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 83,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 181.8,
+    "serving": "per serving (528g)"
+  },
+  {
+    "variant_id": 2521,
+    "canonical_key": "subway 6 grilled chicken|restaurant_food",
+    "canonical_representative_id": 2541,
+    "en": "Subway 6\" Grilled Chicken",
+    "bn": "সাবোয়ে গ্রিলড চিকেন (৬ ইঞ্চি)",
+    "src": "subway_us",
+    "trust_score": 86,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 206.5,
+    "serving": "per serving (247g)"
+  },
+  {
+    "variant_id": 2542,
+    "canonical_key": "subway 6 grilled chicken|restaurant_food",
+    "canonical_representative_id": 2541,
+    "en": "Subway 6\" Grilled Chicken & Fresh Avocado",
+    "bn": "সাবোয়ে গ্রিলড চিকেন ফ্রেশ অ্যাভোকাডো (ফ্রেশ ফিট)",
+    "src": "subway_us",
+    "trust_score": 88,
+    "quality_score": 20,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 148.0,
+    "serving": "per serving (304g)"
+  },
+  {
+    "variant_id": 2545,
+    "canonical_key": "subway 6 seasoned steak|restaurant_food",
+    "canonical_representative_id": 2544,
+    "en": "Subway 6\" Seasoned Steak & Fresh Avocado",
+    "bn": "সাবোয়ে সিজন্ড স্টেক ফ্রেশ অ্যাভোকাডো (ফ্রেশ ফিট)",
+    "src": "subway_us",
+    "trust_score": 87,
+    "quality_score": 20,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 148.3,
+    "serving": "per serving (290g)"
+  },
+  {
+    "variant_id": 2609,
+    "canonical_key": "subway all american club|restaurant_food",
+    "canonical_representative_id": 2562,
+    "en": "Subway All American Club Protein Bowl",
+    "bn": "সাবোয়ে অল আমেরিকান ক্লাব প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 83,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 170.4,
+    "serving": "per serving (405g)"
+  },
+  {
+    "variant_id": 2597,
+    "canonical_key": "subway cheesy garlic steak|restaurant_food",
+    "canonical_representative_id": 2550,
+    "en": "Subway Cheesy Garlic Steak Protein Bowl",
+    "bn": "সাবোয়ে চিজি গার্লিক স্টেক প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 85,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 151.1,
+    "serving": "per serving (417g)"
+  },
+  {
+    "variant_id": 2600,
+    "canonical_key": "subway honey mustard bbq|restaurant_food",
+    "canonical_representative_id": 2553,
+    "en": "Subway Honey Mustard BBQ Chicken Protein Bowl",
+    "bn": "সাবোয়ে বিবিকিউ চিকেন প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 86,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 133.0,
+    "serving": "per serving (466g)"
+  },
+  {
+    "variant_id": 2607,
+    "canonical_key": "subway oven roasted turkey|restaurant_food",
+    "canonical_representative_id": 2559,
+    "en": "Subway Oven-Roasted Turkey Protein Bowl",
+    "bn": "সাবোয়ে টার্কি প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 83,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 145.1,
+    "serving": "per serving (386g)"
+  },
+  {
+    "variant_id": 2599,
+    "canonical_key": "subway spicy nacho chicken|restaurant_food",
+    "canonical_representative_id": 2552,
+    "en": "Subway Spicy Nacho Chicken Protein Bowl",
+    "bn": "সাবোয়ে স্পাইসি নাচো চিকেন প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 86,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 120.0,
+    "serving": "per serving (425g)"
+  },
+  {
+    "variant_id": 2601,
+    "canonical_key": "subway sweet onion teriyaki|restaurant_food",
+    "canonical_representative_id": 2554,
+    "en": "Subway Sweet Onion Teriyaki Chicken Protein Bowl",
+    "bn": "সাবোয়ে তেরিয়াকি চিকেন প্রোটিন বোল",
+    "src": "subway_us",
+    "trust_score": 86,
+    "quality_score": 35,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 108.8,
+    "serving": "per serving (432g)"
+  },
+  {
+    "variant_id": 2012,
+    "canonical_key": "sunfeast dark fantasy chocolate|beverage",
+    "canonical_representative_id": 2011,
+    "en": "Sunfeast Dark Fantasy Chocolate Shake with Vanilla",
+    "bn": "সানফিস্ট চকোলেট শেক ভ্যানিলা",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 439.0,
+    "serving": "355g"
+  },
+  {
+    "variant_id": 3973,
+    "canonical_key": "sweet potato|vegetable",
+    "canonical_representative_id": 3972,
+    "en": "Sweet Potato (White Flesh)",
+    "bn": "সাদা মিষ্টি আলু",
+    "src": "local",
+    "trust_score": 63,
+    "quality_score": 60,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 76.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1832,
+    "canonical_key": "tandoori paneer pan pizza|pizza",
+    "canonical_representative_id": 1803,
+    "en": "Tandoori Paneer Pan Pizza (Medium)",
+    "bn": "তান্দুরি পনির পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 341.5,
+    "serving": "102.0g"
+  },
+  {
+    "variant_id": 1861,
+    "canonical_key": "tandoori paneer pan pizza|pizza",
+    "canonical_representative_id": 1803,
+    "en": "Tandoori Paneer Pan Pizza (Large)",
+    "bn": "তান্দুরি পনির পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 418.5,
+    "serving": "125.0g"
+  },
+  {
+    "variant_id": 1921,
+    "canonical_key": "tandoori paneer ultimate cheese|pizza",
+    "canonical_representative_id": 1916,
+    "en": "Tandoori Paneer Ultimate Cheese Pizza (Medium)",
+    "bn": "তান্দুরি পনির আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 439.2,
+    "serving": "127.2g"
+  },
+  {
+    "variant_id": 222,
+    "canonical_key": "tangra jhol|fish",
+    "canonical_representative_id": 3472,
+    "en": "Tangra Jhol",
+    "bn": "ট্যাংরা ঝোল",
+    "src": "local",
+    "trust_score": 62,
+    "quality_score": 85,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 3475,
+    "canonical_key": "tel koi|fish",
+    "canonical_representative_id": 4644,
+    "en": "Tel Koi (Mustard Oil Curry)",
+    "bn": "তেল কৈ",
+    "src": "user_curated",
+    "trust_score": 59,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 250.0,
+    "serving": "1 bowl (~250g)"
+  },
+  {
+    "variant_id": 4276,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Chocolate Peanut Butter",
+    "bn": "দ্য হোল ট্রুথ চকলেট পিনাট বাটার প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 410.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4277,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Dark Chocolate Almond",
+    "bn": "দ্য হোল ট্রুথ ডার্ক চকলেট আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 405.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4279,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Coffee Hazelnut",
+    "bn": "দ্য হোল ট্রুথ কফি হ্যাজেলনাট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 402.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4280,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Choco Coconut",
+    "bn": "দ্য হোল ট্রুথ চকলেট নারকেল প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 407.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4281,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Almond Date",
+    "bn": "দ্য হোল ট্রুথ আলমন্ড ডেট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 399.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4282,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Choco Berry",
+    "bn": "দ্য হোল ট্রুথ চোকো বেরি প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 395.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4283,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Peanut Butter Crunch",
+    "bn": "দ্য হোল ট্রুথ পিনাট বাটার ক্রাঞ্চ প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 415.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4284,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Mango Almond",
+    "bn": "দ্য হোল ট্রুথ ম্যাঙ্গো আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4285,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Choco Orange",
+    "bn": "দ্য হোল ট্রুথ চকলেট অরেঞ্জ প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 392.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4286,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Choco Banana",
+    "bn": "দ্য হোল ট্রুথ চকলেট কলা প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 400.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4287,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Coffee Cocoa",
+    "bn": "দ্য হোল ট্রুথ কফি কোকো প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 401.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4288,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Nutty Chocolate",
+    "bn": "দ্য হোল ট্রুথ নাট্টি চকলেট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 408.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4289,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Choco Mint",
+    "bn": "দ্য হোল ট্রুথ চোকো মিন্ট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 396.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4290,
+    "canonical_key": "the whole truth protein|snack",
+    "canonical_representative_id": 4278,
+    "en": "The Whole Truth Protein Bar Date Coconut Almond",
+    "bn": "দ্য হোল ট্রুথ ডেট নারকেল আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en"
+    ],
+    "nutrition_k": 398.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2904,
+    "canonical_key": "toor dal|legume",
+    "canonical_representative_id": 2890,
+    "en": "Toor Dal (Arhar Dal, Cooked)",
+    "bn": "তুর ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 86,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 112.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1851,
+    "canonical_key": "triple chicken feast pan|pizza",
+    "canonical_representative_id": 1822,
+    "en": "Triple Chicken Feast Pan Pizza (Medium)",
+    "bn": "ট্রিপল চিকেন ফিস্ট পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 313.0,
+    "serving": "119.5g"
+  },
+  {
+    "variant_id": 1881,
+    "canonical_key": "triple chicken feast pan|pizza",
+    "canonical_representative_id": 1822,
+    "en": "Triple Chicken Feast Pan Pizza (Large)",
+    "bn": "ট্রিপল চিকেন ফিস্ট পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 381.1,
+    "serving": "145.5g"
+  },
+  {
+    "variant_id": 1923,
+    "canonical_key": "triple chicken feast ultimate|pizza",
+    "canonical_representative_id": 1917,
+    "en": "Triple Chicken Feast Ultimate Cheese Pizza (Medium)",
+    "bn": "ট্রিপল চিকেন আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 381.4,
+    "serving": "146.5g"
+  },
+  {
+    "variant_id": 3448,
+    "canonical_key": "tuna curry|fish",
+    "canonical_representative_id": 1488,
+    "en": "Tuna Curry (Indian Style)",
+    "bn": "টুনা কারি",
+    "src": "user_curated",
+    "trust_score": 62,
+    "quality_score": 72,
+    "differs_in": [
+      "en",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 190.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1834,
+    "canonical_key": "ultimate tandoori veggie pan|pizza",
+    "canonical_representative_id": 1805,
+    "en": "Ultimate Tandoori Veggie Pan Pizza (Medium)",
+    "bn": "আল্টিমেট তান্দুরি ভেজি পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 343.8,
+    "serving": "109.5g"
+  },
+  {
+    "variant_id": 1863,
+    "canonical_key": "ultimate tandoori veggie pan|pizza",
+    "canonical_representative_id": 1805,
+    "en": "Ultimate Tandoori Veggie Pan Pizza (Large)",
+    "bn": "আল্টিমেট তান্দুরি ভেজি পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 419.2,
+    "serving": "133.5g"
+  },
+  {
+    "variant_id": 2179,
+    "canonical_key": "undhiyu|vegetable",
+    "canonical_representative_id": 4673,
+    "en": "Undhiyu",
+    "bn": "উন্ধিয়ু",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 155.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2905,
+    "canonical_key": "urad dal|legume",
+    "canonical_representative_id": 2891,
+    "en": "Urad Dal (Cooked)",
+    "bn": "উরদ ডাল (রান্না)",
+    "src": "local",
+    "trust_score": 57,
+    "quality_score": 86,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 116.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 1829,
+    "canonical_key": "veggie feast pan pizza|pizza",
+    "canonical_representative_id": 1800,
+    "en": "Veggie Feast Pan Pizza (Medium)",
+    "bn": "ভেজি ফিস্ট পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 267.6,
+    "serving": "99.5g"
+  },
+  {
+    "variant_id": 1858,
+    "canonical_key": "veggie feast pan pizza|pizza",
+    "canonical_representative_id": 1800,
+    "en": "Veggie Feast Pan Pizza (Large)",
+    "bn": "ভেজি ফিস্ট পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 326.7,
+    "serving": "121.5g"
+  },
+  {
+    "variant_id": 2023,
+    "canonical_key": "veggie lover golden hand|pizza",
+    "canonical_representative_id": 2021,
+    "en": "Veggie Lover Golden Hand Stretched WCD",
+    "bn": "ভেজি লাভার গোল্ডেন হ্যান্ড স্ট্রেচড ডব্লিউসিডি",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 118.4,
+    "serving": "50.8g"
+  },
+  {
+    "variant_id": 1835,
+    "canonical_key": "veggie supreme pan pizza|pizza",
+    "canonical_representative_id": 1806,
+    "en": "Veggie Supreme Pan Pizza (Medium)",
+    "bn": "ভেজি সুপ্রিম পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 275.5,
+    "serving": "108.5g"
+  },
+  {
+    "variant_id": 1864,
+    "canonical_key": "veggie supreme pan pizza|pizza",
+    "canonical_representative_id": 1806,
+    "en": "Veggie Supreme Pan Pizza (Large)",
+    "bn": "ভেজি সুপ্রিম পিৎজা (লার্জ)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 335.2,
+    "serving": "132.0g"
+  },
+  {
+    "variant_id": 1920,
+    "canonical_key": "veggie supreme ultimate cheese|pizza",
+    "canonical_representative_id": 1915,
+    "en": "Veggie Supreme Ultimate Cheese Pizza (Medium)",
+    "bn": "ভেজি সুপ্রিম আল্টিমেট চিজ পিৎজা (মিডিয়াম)",
+    "src": "pizzahut_india",
+    "trust_score": 100,
+    "quality_score": 45,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 340.6,
+    "serving": "134.8g"
+  },
+  {
+    "variant_id": 283,
+    "canonical_key": "watermelon|fruit",
+    "canonical_representative_id": 4621,
+    "en": "Watermelon",
+    "bn": "তরমুজ",
+    "src": "local",
+    "trust_score": 64,
+    "quality_score": 55,
+    "differs_in": [
+      "en",
+      "s",
+      "k"
+    ],
+    "nutrition_k": 50.0,
+    "serving": "240g"
+  },
+  {
+    "variant_id": 2509,
+    "canonical_key": "white bread|bread",
+    "canonical_representative_id": 2508,
+    "en": "White Bread (Germany - Toastbrot)",
+    "bn": "জার্মান সাদা টোস্ট ব্রেড",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 255.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2512,
+    "canonical_key": "white bread|bread",
+    "canonical_representative_id": 2508,
+    "en": "White Bread (Indian Packaged)",
+    "bn": "প্যাকেটজাত সাদা ব্রেড",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 270.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2514,
+    "canonical_key": "white bread|bread",
+    "canonical_representative_id": 2508,
+    "en": "White Bread (EU Industrial Standard)",
+    "bn": "ইউরোপীয় সাদা ব্রেড",
+    "src": "local",
+    "trust_score": 60,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 260.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2900,
+    "canonical_key": "whole green moong|legume",
+    "canonical_representative_id": 2886,
+    "en": "Whole Green Moong (Cooked)",
+    "bn": "গোটা মুগ (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 105.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2892,
+    "canonical_key": "whole urad|legume",
+    "canonical_representative_id": 617,
+    "en": "Whole Urad (Black Gram, Dry)",
+    "bn": "গোটা উরদ (কাঁচা)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 341.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 2906,
+    "canonical_key": "whole urad|legume",
+    "canonical_representative_id": 617,
+    "en": "Whole Urad (Cooked)",
+    "bn": "গোটা উরদ (রান্না)",
+    "src": "local",
+    "trust_score": 58,
+    "quality_score": 90,
+    "differs_in": [
+      "en",
+      "s",
+      "src",
+      "k"
+    ],
+    "nutrition_k": 116.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4291,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Chocolate Almond",
+    "bn": "ইয়োগা বার চকলেট আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 395.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4292,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Chocolate Peanut",
+    "bn": "ইয়োগা বার চকলেট পিনাট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 400.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4294,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Nuts & Seeds",
+    "bn": "ইয়োগা বার নাটস অ্যান্ড সিডস প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 410.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4295,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Peanut Butter Chocolate",
+    "bn": "ইয়োগা বার পিনাট বাটার চকলেট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 415.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4296,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Coffee Mocha",
+    "bn": "ইয়োগা বার কফি মোচা প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 398.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4297,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Fruit & Nut",
+    "bn": "ইয়োগা বার ফ্রুট অ্যান্ড নাট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 405.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4298,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Choco Orange",
+    "bn": "ইয়োগা বার চকলেট অরেঞ্জ প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 390.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4299,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Choco Banana",
+    "bn": "ইয়োগা বার চকলেট কলা প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 402.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4300,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Coconut Almond",
+    "bn": "ইয়োগা বার নারকেল আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 92,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 408.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4301,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Honey Peanut",
+    "bn": "ইয়োগা বার হানি পিনাট প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 412.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4302,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Chocolate Cranberry Almond",
+    "bn": "ইয়োগা বার চকলেট ক্র্যানবেরি আলমন্ড প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 396.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4303,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Choco Fig",
+    "bn": "ইয়োগা বার চকলেট ফিগ প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 93,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 403.0,
+    "serving": "100g"
+  },
+  {
+    "variant_id": 4304,
+    "canonical_key": "yoga bar protein bar|snack",
+    "canonical_representative_id": 4293,
+    "en": "Yoga Bar Protein Bar Mixed Nuts Cocoa",
+    "bn": "ইয়োগা বার মিক্সড নাটস কোকো প্রোটিন বার",
+    "src": "brand",
+    "trust_score": 89,
+    "quality_score": 50,
+    "differs_in": [
+      "en",
+      "k"
+    ],
+    "nutrition_k": 410.0,
+    "serving": "100g"
+  }
+]

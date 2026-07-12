@@ -1,0 +1,6 @@
+issue_type,severity,count,example_ids
+macro_calorie_mismatch,medium,39,"1094,1141,1181,1188,574"
+suspicious_high_calories,medium,18,"133,316,351,651,667"
+no_canonical_in_group,low,3658,"3,6,7,8,9"
+alias_collision,low,119,
+low_quality_canonical,low,19,"4609,4610,4611,4612,4613"
