@@ -322,6 +322,19 @@ class HiveStorage {
   static Future<void> clearUserApiKey() async =>
       settingsBox.delete(AppConstants.keyUserApiKey);
 
+  // ── Gemini User API Key (photo food scan) ─────────────────────────────────
+
+  static String? get userGeminiApiKey {
+    final v = settingsBox.get(AppConstants.keyUserGeminiApiKey);
+    return v is String && v.isNotEmpty ? v : null;
+  }
+
+  static Future<void> saveUserGeminiApiKey(String key) async =>
+      settingsBox.put(AppConstants.keyUserGeminiApiKey, key.trim());
+
+  static Future<void> clearUserGeminiApiKey() async =>
+      settingsBox.delete(AppConstants.keyUserGeminiApiKey);
+
   // ── Custom Nutrition Limits ──────────────────────────────────────────────
 
   static bool get useCustomLimits =>
@@ -490,6 +503,7 @@ class HiveStorage {
     final legal = settingsBox.get(AppConstants.keyLegalAcceptance);
     final datasetLoaded = settingsBox.get(AppConstants.keyLocalDatasetLoaded);
     final apiKey = settingsBox.get(AppConstants.keyUserApiKey);
+    final geminiKey = settingsBox.get(AppConstants.keyUserGeminiApiKey);
 
     await userBox.clear();
     await mealsBox.clear();
@@ -507,5 +521,6 @@ class HiveStorage {
     if (legal != null) await settingsBox.put(AppConstants.keyLegalAcceptance, legal);
     if (datasetLoaded != null) await settingsBox.put(AppConstants.keyLocalDatasetLoaded, datasetLoaded);
     if (apiKey != null) await settingsBox.put(AppConstants.keyUserApiKey, apiKey);
+    if (geminiKey != null) await settingsBox.put(AppConstants.keyUserGeminiApiKey, geminiKey);
   }
 }

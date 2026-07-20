@@ -10,6 +10,17 @@ class AppConstants {
   );
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
 
+  // Google Gemini API (photo food scan) — no built-in default key; supply via
+  // flutter build apk --dart-define=GEMINI_API_KEY=your_key or in Settings.
+  static const String geminiApiKey = String.fromEnvironment(
+    'GEMINI_API_KEY',
+    defaultValue: '',
+  );
+  static const String geminiBaseUrl =
+      'https://generativelanguage.googleapis.com/v1beta';
+  static const String geminiModel = 'gemini-3.5-flash';
+  static const int geminiCooldownSeconds = 60;
+
   // Search & Cache
   static const int maxRecentSearches = 10;
   static const int maxCachedFoods = 200;
@@ -64,6 +75,9 @@ class AppConstants {
 
   // USDA user-supplied API key (stored in settingsBox)
   static const String keyUserApiKey = 'user_usda_api_key';
+
+  // Gemini user-supplied API key (stored in settingsBox)
+  static const String keyUserGeminiApiKey = 'user_gemini_api_key';
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';

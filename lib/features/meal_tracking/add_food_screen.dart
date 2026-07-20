@@ -9,6 +9,7 @@ import '../../services/usda_api_service.dart';
 import '../../services/local_food_repository.dart';
 import '../../storage/hive_storage.dart';
 import '../dashboard/providers/dashboard_provider.dart';
+import '../food_scan/scan_tab.dart';
 import '../meal_tracking/providers/meal_provider.dart';
 
 // ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
@@ -124,7 +125,7 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 4, vsync: this);
   }
 
   @override
@@ -214,6 +215,16 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
                     ],
                   ),
                 ),
+                Tab(
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.photo_camera_outlined, size: 15),
+                      const SizedBox(width: 4),
+                      Text(lang == 'bn' ? 'স্ক্যান' : 'Scan'),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
@@ -225,6 +236,7 @@ class _AddFoodScreenState extends ConsumerState<AddFoodScreen>
           _LocalTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
           _UsdaTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
           _CustomTab(lang: lang, isDark: isDark, mealType: widget.mealType, onAdd: _addFood),
+          ScanTab(lang: lang, isDark: isDark, mealType: widget.mealType),
         ],
       ),
     );

@@ -12,6 +12,7 @@ import '../features/food_search/food_search_screen.dart';
 import '../features/food_search/food_detail_screen.dart';
 import '../features/meal_tracking/meal_log_screen.dart';
 import '../features/meal_tracking/add_food_screen.dart';
+import '../features/food_scan/scan_review_screen.dart';
 import '../features/micronutrients/micronutrient_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/history/history_screen.dart';
@@ -100,6 +101,13 @@ final appRouterProvider = Provider<GoRouter>((ref) {
                 builder: (context, state) {
                   final mealType = state.extra as String? ?? 'snack';
                   return AddFoodScreen(mealType: mealType);
+                },
+              ),
+              GoRoute(
+                path: 'scan-review',
+                builder: (context, state) {
+                  final mealType = state.extra as String? ?? mealTypeForNow();
+                  return ScanReviewScreen(initialMealType: mealType);
                 },
               ),
             ],
