@@ -165,7 +165,26 @@ class LegalContent {
           'Search results are cached locally on your device to reduce repeat API calls.',
     ),
     LegalSection(
-      '5. User Data Control',
+      '5. AI Photo Food Recognition (Gemini)',
+      'The App includes an optional Photo Food Scan feature. When you choose to use '
+          'it, the meal photo you capture or select is sent to Google\'s Gemini API '
+          '(generativelanguage.googleapis.com) to identify the food and estimate '
+          'portions and nutrition. This is the only App feature that transmits data '
+          'off your device:\n\n'
+          '• Only the photo you submit is sent — your profile, body data, and other '
+          'meal logs are never included\n'
+          '• Google processes the image to return detected food names and estimated '
+          'nutrition; Google\'s own privacy policy (policies.google.com/privacy) '
+          'governs this processing\n'
+          '• Detected results are shown to you for review, and nothing is logged '
+          'until you confirm\n'
+          '• Photo Food Scan is entirely optional — no photo is ever sent unless you '
+          'actively choose to use this feature; you can log food manually instead\n'
+          '• The developer does not store, view, or retain the photos you submit for '
+          'scanning',
+    ),
+    LegalSection(
+      '6. User Data Control',
       'You have full and unconditional control over your data at all times:\n\n'
           '• Reset All Data: Permanently delete all locally stored data\n'
           '• Clear Cache: Remove cached food search results\n'
@@ -175,7 +194,7 @@ class LegalContent {
           'has no access to these files.',
     ),
     LegalSection(
-      '6. Data Security',
+      '7. Data Security',
       'Since all data is stored locally on your device, the security of your '
           'data depends on your device\'s own security configuration (screen lock, '
           'biometric authentication, device encryption, etc.).\n\n'
@@ -184,7 +203,7 @@ class LegalContent {
           'your device secured with a strong PIN or biometric lock.',
     ),
     LegalSection(
-      '7. Child Safety',
+      '8. Child Safety',
       'The App is designed for general wellness use and is intended for users '
           'who are of the applicable legal age in their jurisdiction.\n\n'
           'Users under the applicable legal age should use the App under parental '
@@ -192,12 +211,12 @@ class LegalContent {
           'data from children.',
     ),
     LegalSection(
-      '8. Privacy Policy Updates',
+      '9. Privacy Policy Updates',
       'This Privacy Notice may be updated to reflect changes in App features or '
           'applicable law. You will be notified and asked to re-acknowledge updated '
           'notices before continuing to use the App.\n\n'
-          'Policy Version: 1.0.0\n'
-          'Effective Date: May 2026',
+          'Policy Version: 1.1.0\n'
+          'Effective Date: July 2026',
     ),
   ];
 
@@ -398,7 +417,26 @@ class LegalContent {
           'ক্যাশ করা হয়।',
     ),
     LegalSection(
-      '৫. ডেটার নিয়ন্ত্রণ',
+      '৫. AI ফটো খাদ্য শনাক্তকরণ (Gemini)',
+      'অ্যাপে একটি ঐচ্ছিক ফটো ফুড স্ক্যান ফিচার রয়েছে। আপনি এটি ব্যবহার '
+          'করলে, আপনার তোলা বা বাছাই করা খাবারের ছবি Google-এর Gemini API-তে '
+          '(generativelanguage.googleapis.com) পাঠানো হয় খাবার শনাক্ত ও '
+          'পরিমাণ/পুষ্টি অনুমান করার জন্য। এটিই একমাত্র ফিচার যা আপনার '
+          'ডিভাইস থেকে বাইরে ডেটা পাঠায়:\n\n'
+          '• শুধুমাত্র আপনার জমা দেওয়া ছবিটি পাঠানো হয় — আপনার প্রোফাইল, '
+          'শারীরিক তথ্য বা অন্যান্য খাবারের লগ কখনও অন্তর্ভুক্ত হয় না\n'
+          '• Google ছবিটি প্রক্রিয়া করে শনাক্ত করা খাবারের নাম ও অনুমানকৃত '
+          'পুষ্টি ফেরত দেয়; Google-এর নিজস্ব গোপনীয়তা নীতি '
+          '(policies.google.com/privacy) এই প্রক্রিয়াকরণের ক্ষেত্রে প্রযোজ্য\n'
+          '• শনাক্ত করা ফলাফল আপনাকে পর্যালোচনার জন্য দেখানো হয়, এবং আপনি '
+          'নিশ্চিত না করা পর্যন্ত কিছুই লগ করা হয় না\n'
+          '• ফটো ফুড স্ক্যান সম্পূর্ণ ঐচ্ছিক — আপনি সক্রিয়ভাবে এই ফিচার '
+          'ব্যবহার না করলে কোনো ছবি কখনও পাঠানো হয় না; আপনি চাইলে ম্যানুয়ালি '
+          'খাবার লগ করতে পারেন\n'
+          '• নির্মাতা স্ক্যানের জন্য জমা দেওয়া ছবি সংরক্ষণ, দেখা বা ধরে রাখেন না',
+    ),
+    LegalSection(
+      '৬. ডেটার নিয়ন্ত্রণ',
       'আপনার কাছে সবসময় আপনার তথ্যের সম্পূর্ণ নিয়ন্ত্রণ রয়েছে:\n\n'
           '• সব ডেটা রিসেট: স্থানীয়ভাবে সংরক্ষিত সমস্ত ডেটা স্থায়ীভাবে মুছুন\n'
           '• ক্যাশ পরিষ্কার: ক্যাশ করা খাদ্য অনুসন্ধান ফলাফল মুছুন\n'
@@ -408,7 +446,7 @@ class LegalContent {
           'এই ফাইলে কোনো অ্যাক্সেস নেই।',
     ),
     LegalSection(
-      '৬. ডেটা সুরক্ষা',
+      '৭. ডেটা সুরক্ষা',
       'সমস্ত ডেটা স্থানীয়ভাবে আপনার ডিভাইসে সংরক্ষিত হওয়ায়, আপনার তথ্যের '
           'নিরাপত্তা নির্ভর করে আপনার ডিভাইসের নিজস্ব নিরাপত্তা কনফিগারেশনের '
           'উপর (স্ক্রিন লক, বায়োমেট্রিক, ডিভাইস এনক্রিপশন ইত্যাদি)।\n\n'
@@ -417,7 +455,7 @@ class LegalContent {
           'ডিভাইস সুরক্ষিত রাখার পরামর্শ দিই।',
     ),
     LegalSection(
-      '৭. শিশু সুরক্ষা',
+      '৮. শিশু সুরক্ষা',
       'অ্যাপটি সাধারণ সুস্বাস্থ্য ব্যবহারের জন্য ডিজাইন করা হয়েছে এবং '
           'ব্যবহারকারীর আইনগত বয়সের সীমার মধ্যে থাকা ব্যক্তিদের জন্য।\n\n'
           'আইনগত বয়সসীমার নিচে থাকা ব্যবহারকারীরা অভিভাবকের তত্ত্বাবধানে '
@@ -425,12 +463,12 @@ class LegalContent {
           'সংগ্রহ বা প্রক্রিয়া করি না।',
     ),
     LegalSection(
-      '৮. গোপনীয়তা নীতি আপডেট',
+      '৯. গোপনীয়তা নীতি আপডেট',
       'অ্যাপের ফিচার বা প্রযোজ্য আইনে পরিবর্তনের ক্ষেত্রে এই গোপনীয়তা '
           'বিজ্ঞপ্তি আপডেট করা হতে পারে। আপডেট হলে আপনাকে নতুন বিজ্ঞপ্তি '
           'পর্যালোচনা ও স্বীকৃতি দিতে বলা হবে।\n\n'
-          'নীতি সংস্করণ: 1.0.0\n'
-          'কার্যকর তারিখ: মে ২০২৬',
+          'নীতি সংস্করণ: 1.1.0\n'
+          'কার্যকর তারিখ: জুলাই ২০২৬',
     ),
   ];
 
