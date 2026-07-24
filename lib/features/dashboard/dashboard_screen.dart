@@ -25,9 +25,12 @@ class DashboardScreen extends ConsumerStatefulWidget {
 
 class _DashboardScreenState extends ConsumerState<DashboardScreen>
     with WidgetsBindingObserver {
+  late String _lastKnownTodayKey;
+
   @override
   void initState() {
     super.initState();
+    _lastKnownTodayKey = DateTime.now().toLogKey();
     WidgetsBinding.instance.addObserver(this);
   }
 
@@ -44,8 +47,14 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen>
     }
   }
 
+  // Only snap the selected date back to "today" if the calendar day has
+  // actually rolled over while backgrounded. A brief inactive/resumed cycle
+  // (e.g. dismissing the date picker) must not override a date the user
+  // deliberately picked, including a past date.
   void _syncDateIfChanged() {
     final today = DateTime.now().toLogKey();
+    if (today == _lastKnownTodayKey) return;
+    _lastKnownTodayKey = today;
     if (ref.read(dashboardProvider).selectedDateKey != today) {
       final now = DateTime.now();
       ref.read(dashboardProvider.notifier).selectDate(now);
