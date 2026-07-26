@@ -193,6 +193,36 @@ class LocalFoodRepository {
     return 0;
   }
 
+  /// Same as [search] but returns each food paired with its relevance score.
+  /// Used by FoodMatchService to rank cross-query results by score.
+  static List<(FoodItem, int)> searchScored(String query, {int limit = 25}) {
+    if (_items == null || _items!.isEmpty) return [];
+    final q = query.toLowerCase().trim();
+    if (q.isEmpty) return [];
+
+    Iterable<FoodItem> pool;
+    if (LocalSearchService.isLoaded) {
+      final candidateSet = LocalSearchService.candidateIds(q);
+      if (candidateSet.isNotEmpty) {
+        pool = candidateSet
+            .map((id) => _idMap['local_$id'])
+            .whereType<FoodItem>();
+      } else {
+        pool = _items!;
+      }
+    } else {
+      pool = _items!;
+    }
+
+    final results = <_Scored>[];
+    for (final food in pool) {
+      final s = _score(food, q);
+      if (s > 0) results.add(_Scored(food, s));
+    }
+    results.sort((a, b) => b.score.compareTo(a.score));
+    return results.take(limit).map((s) => (s.food, s.score)).toList();
+  }
+
   /// Returns the top foods (by searchPriority) for the initial browse state.
   static List<FoodItem> topFoods({int limit = 50}) {
     if (_items == null || _items!.isEmpty) return [];

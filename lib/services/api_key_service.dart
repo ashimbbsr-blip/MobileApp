@@ -13,4 +13,15 @@ class ApiKeyService {
   }
 
   bool get hasCustomKey => HiveStorage.userApiKey != null;
+
+  /// Gemini key for photo food scan: user's custom key, else the build-time default.
+  String get activeGeminiKey {
+    final stored = HiveStorage.userGeminiApiKey;
+    if (stored != null && stored.isNotEmpty) return stored;
+    return AppConstants.geminiApiKey;
+  }
+
+  bool get hasGeminiKey => activeGeminiKey.isNotEmpty;
+
+  bool get hasCustomGeminiKey => HiveStorage.userGeminiApiKey != null;
 }

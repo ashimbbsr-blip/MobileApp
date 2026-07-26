@@ -213,6 +213,11 @@ class SettingsScreen extends ConsumerWidget {
 
           const SizedBox(height: 16),
 
+          // ── Gemini API Key (photo food scan) ──────────────────────────────
+          _GeminiKeyCard(l10n: l10n, theme: theme),
+
+          const SizedBox(height: 16),
+
           // ── Legal & Privacy ───────────────────────────────────────────────
           Card(
             child: Column(
@@ -1198,6 +1203,385 @@ class _Step extends StatelessWidget {
                 style: TextStyle(fontSize: 12, color: color, height: 1.4)),
           ),
         ],
+      ),
+    );
+  }
+}
+
+// ── Gemini API Key (photo food scan) ─────────────────────────────────────────
+
+class _GeminiKeyCard extends StatefulWidget {
+  final AppStrings l10n;
+  final ThemeData theme;
+  const _GeminiKeyCard({required this.l10n, required this.theme});
+
+  @override
+  State<_GeminiKeyCard> createState() => _GeminiKeyCardState();
+}
+
+class _GeminiKeyCardState extends State<_GeminiKeyCard> {
+  bool _hasKey = false;
+  bool _hasCustomKey = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _hasKey = ApiKeyService.instance.hasGeminiKey;
+    _hasCustomKey = ApiKeyService.instance.hasCustomGeminiKey;
+  }
+
+  void _refresh() {
+    if (mounted) {
+      setState(() {
+        _hasKey = ApiKeyService.instance.hasGeminiKey;
+        _hasCustomKey = ApiKeyService.instance.hasCustomGeminiKey;
+      });
+    }
+  }
+
+  Future<void> _openSheet() async {
+    await showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (_) => _GeminiKeySheet(
+        l10n: widget.l10n,
+        theme: widget.theme,
+        hasCustomKey: _hasCustomKey,
+        onChanged: _refresh,
+      ),
+    );
+  }
+
+  String get _maskedKey {
+    final k = HiveStorage.userGeminiApiKey ?? AppConstants.geminiApiKey;
+    if (k.length < 8) return '';
+    return '${k.substring(0, 8)}••••••••••${k.substring(k.length - 4)}';
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = widget.l10n;
+    final theme = widget.theme;
+    final bn = l10n.isBengali;
+
+    return Card(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+            child: Text(
+              bn ? 'AI ফটো ফুড স্ক্যান' : 'AI Photo Food Scan',
+              style: theme.textTheme.bodySmall?.copyWith(
+                  color: AppColors.primary, fontWeight: FontWeight.w700),
+            ),
+          ),
+          ListTile(
+            leading: const Icon(Icons.auto_awesome, color: Colors.deepPurple),
+            title: Text(
+              bn ? 'Gemini API কী' : 'Gemini API Key',
+              style: theme.textTheme.bodyLarge?.copyWith(fontWeight: FontWeight.w500),
+            ),
+            subtitle: Text(
+              _hasKey
+                  ? (bn ? 'কী সক্রিয় আছে ✓' : 'Key is active ✓')
+                  : (bn ? 'কোনো কী কনফিগার করা নেই — ফটো স্ক্যান বন্ধ' : 'No key configured — photo scan disabled'),
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: _hasKey ? Colors.deepPurple : Colors.red,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            trailing: const Icon(Icons.chevron_right, size: 20),
+            onTap: _openSheet,
+          ),
+          if (_hasKey && _maskedKey.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(72, 0, 16, 12),
+              child: Text(
+                _maskedKey,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.45),
+                  fontSize: 11,
+                  fontFamily: 'monospace',
+                ),
+              ),
+            )
+          else
+            const SizedBox(height: 8),
+        ],
+      ),
+    );
+  }
+}
+
+class _GeminiKeySheet extends StatefulWidget {
+  final AppStrings l10n;
+  final ThemeData theme;
+  final bool hasCustomKey;
+  final VoidCallback onChanged;
+
+  const _GeminiKeySheet({
+    required this.l10n,
+    required this.theme,
+    required this.hasCustomKey,
+    required this.onChanged,
+  });
+
+  @override
+  State<_GeminiKeySheet> createState() => _GeminiKeySheetState();
+}
+
+class _GeminiKeySheetState extends State<_GeminiKeySheet> {
+  final _ctrl = TextEditingController();
+  String? _error;
+  bool _success = false;
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    super.dispose();
+  }
+
+  Future<void> _validateAndSave() async {
+    final key = _ctrl.text.trim();
+    final bn = widget.l10n.isBengali;
+    if (key.isEmpty) {
+      setState(() => _error = bn ? 'API কী লিখুন' : 'Please enter an API key');
+      return;
+    }
+    if (key.contains(' ') || key.length < 20) {
+      setState(() {
+        _error = bn
+            ? 'কী সঠিক নয়। Google AI Studio থেকে কী কপি করুন।'
+            : 'Invalid key. Copy it directly from Google AI Studio (aistudio.google.com).';
+      });
+      return;
+    }
+    await HiveStorage.saveUserGeminiApiKey(key);
+    if (!mounted) return;
+    setState(() { _success = true; });
+    widget.onChanged();
+    await Future.delayed(const Duration(milliseconds: 700));
+    if (mounted) Navigator.pop(context);
+  }
+
+  Future<void> _removeKey() async {
+    final bn = widget.l10n.isBengali;
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(bn ? 'Gemini কী মুছুন' : 'Remove Gemini Key'),
+        content: Text(bn
+            ? 'Gemini কী মুছে ফেললে ফটো ফুড স্ক্যান বন্ধ হয়ে যাবে।'
+            : 'Removing the Gemini key will disable photo food scan.'),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.pop(ctx, false),
+              child: Text(widget.l10n.cancel)),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: TextButton.styleFrom(foregroundColor: Colors.red),
+            child: Text(bn ? 'মুছুন' : 'Remove'),
+          ),
+        ],
+      ),
+    );
+    if (confirmed == true) {
+      await HiveStorage.clearUserGeminiApiKey();
+      if (mounted) {
+        widget.onChanged();
+        Navigator.pop(context);
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = widget.l10n;
+    final theme = widget.theme;
+    final bn = l10n.isBengali;
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Container(
+      decoration: BoxDecoration(
+        color: theme.scaffoldBackgroundColor,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      padding: EdgeInsets.only(
+        left: 20, right: 20, top: 12,
+        bottom: MediaQuery.of(context).viewInsets.bottom + 24,
+      ),
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 36, height: 4,
+                margin: const EdgeInsets.only(bottom: 16),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.2),
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
+
+            Row(
+              children: [
+                const Icon(Icons.auto_awesome, color: Colors.deepPurple, size: 20),
+                const SizedBox(width: 8),
+                Text(
+                  bn ? 'Gemini API কী' : 'Gemini API Key',
+                  style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+                ),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Text(
+              bn
+                  ? 'ফটো ফুড স্ক্যান ব্যবহার করতে একটি Gemini API কী প্রয়োজন। Google AI Studio থেকে বিনামূল্যে পাওয়া যায়।'
+                  : 'A Gemini API key is required to use photo food scan. Get one free from Google AI Studio.',
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: isDark
+                    ? Colors.purple.shade900.withValues(alpha: 0.25)
+                    : Colors.purple.shade50,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(
+                    color: isDark
+                        ? Colors.purple.shade700.withValues(alpha: 0.4)
+                        : Colors.purple.shade200),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Icon(Icons.info_outline,
+                          size: 14,
+                          color: isDark
+                              ? Colors.purple.shade300
+                              : Colors.purple.shade800),
+                      const SizedBox(width: 6),
+                      Text(
+                        bn ? 'বিনামূল্যে কী কীভাবে পাবেন:' : 'How to get a free key:',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 12,
+                            color: isDark
+                                ? Colors.purple.shade300
+                                : Colors.purple.shade800),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  _Step(number: '1',
+                    text: bn
+                        ? 'aistudio.google.com ওয়েবসাইটে যান'
+                        : 'Go to aistudio.google.com in your browser',
+                    isDark: isDark),
+                  _Step(number: '2',
+                    text: bn
+                        ? '"Get API Key" ক্লিক করুন'
+                        : 'Click "Get API Key" and sign in with Google',
+                    isDark: isDark),
+                  _Step(number: '3',
+                    text: bn
+                        ? '"Create API Key" ক্লিক করুন — একদম বিনামূল্যে'
+                        : 'Click "Create API Key" — completely free, no card needed',
+                    isDark: isDark),
+                  _Step(number: '4',
+                    text: bn
+                        ? 'কী কপি করুন, নিচে পেস্ট করুন এবং "সেভ করুন" ট্যাপ করুন'
+                        : 'Copy the key, paste it below, and tap "Save Key"',
+                    isDark: isDark),
+                ],
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            TextField(
+              controller: _ctrl,
+              autocorrect: false,
+              enableSuggestions: false,
+              decoration: InputDecoration(
+                labelText: bn ? 'Gemini API কী' : 'Gemini API Key',
+                hintText: bn ? 'এখানে কী পেস্ট করুন…' : 'Paste your key here…',
+                errorText: _error,
+                prefixIcon: const Icon(Icons.auto_awesome_outlined, size: 18),
+                suffixIcon: _success
+                    ? const Icon(Icons.check_circle, color: Colors.green)
+                    : null,
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                  borderSide:
+                      const BorderSide(color: Colors.deepPurple, width: 1.5),
+                ),
+                contentPadding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton(
+                    onPressed: () => Navigator.pop(context),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                    ),
+                    child: Text(l10n.cancel),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  flex: 2,
+                  child: ElevatedButton.icon(
+                    onPressed: _validateAndSave,
+                    icon: const Icon(Icons.check_rounded, size: 16),
+                    label: Text(bn ? 'সেভ করুন' : 'Save Key'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+
+            if (widget.hasCustomKey) ...[
+              const SizedBox(height: 8),
+              SizedBox(
+                width: double.infinity,
+                child: TextButton.icon(
+                  onPressed: _removeKey,
+                  icon: const Icon(Icons.delete_outline, size: 16, color: Colors.red),
+                  label: Text(
+                    bn ? 'কাস্টম কী মুছুন' : 'Remove Custom Key',
+                    style: const TextStyle(color: Colors.red),
+                  ),
+                ),
+              ),
+            ],
+          ],
+        ),
       ),
     );
   }

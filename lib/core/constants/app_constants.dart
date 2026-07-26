@@ -10,6 +10,20 @@ class AppConstants {
   );
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
 
+  // Google Gemini API (photo food scan) — set at build time via --dart-define=GEMINI_API_KEY=...
+  // No hardcoded default: an empty string causes a clear "no key configured" prompt in Settings.
+  static const String geminiApiKey = String.fromEnvironment(
+    'GEMINI_API_KEY',
+    defaultValue: '',
+  );
+  static const String geminiBaseUrl =
+      'https://generativelanguage.googleapis.com/v1beta';
+  static const String geminiModel = 'gemini-3.5-flash';
+  static const int geminiCooldownSeconds = 60;
+
+  // Gemini user-supplied API key (stored in settingsBox)
+  static const String keyUserGeminiApiKey = 'user_gemini_api_key';
+
   // Search & Cache
   static const int maxRecentSearches = 10;
   static const int maxCachedFoods = 200;
@@ -67,5 +81,5 @@ class AppConstants {
 
   // Legal / policy versioning
   static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.3.0';
+  static const String currentAppVersion = '1.3.3';
 }

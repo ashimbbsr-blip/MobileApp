@@ -10,7 +10,9 @@ class SplashScreen extends StatefulWidget {
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderStateMixin {
+class _SplashScreenState extends State<SplashScreen>
+    with SingleTickerProviderStateMixin {
+  late final bool _isFirstInstall;
   late AnimationController _controller;
   late Animation<double> _imageFade;
   late Animation<double> _taglineFade;
@@ -19,32 +21,54 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(vsync: this, duration: const Duration(milliseconds: 1800));
+    _isFirstInstall = !HiveStorage.isOnboardingDone;
 
-    // Front image fades in quickly
-    _imageFade = Tween<double>(begin: 0, end: 1).animate(
-      CurvedAnimation(parent: _controller, curve: const Interval(0, 0.4, curve: Curves.easeOut)),
-    );
-
-    // Tagline fades in and slides up after image appears
-    _taglineFade = Tween<double>(begin: 0, end: 1).animate(
-      CurvedAnimation(parent: _controller, curve: const Interval(0.5, 1.0, curve: Curves.easeOut)),
-    );
-    _taglineSlide = Tween<Offset>(begin: const Offset(0, 0.3), end: Offset.zero).animate(
-      CurvedAnimation(parent: _controller, curve: const Interval(0.5, 1.0, curve: Curves.easeOut)),
-    );
-
-    _controller.forward();
-    _navigate();
+    if (_isFirstInstall) {
+      // Full branded splash — only shown once on fresh install
+      _controller = AnimationController(
+        vsync: this,
+        duration: const Duration(milliseconds: 1800),
+      );
+      _imageFade = Tween<double>(begin: 0, end: 1).animate(
+        CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.4, curve: Curves.easeOut)),
+      );
+      _taglineFade = Tween<double>(begin: 0, end: 1).animate(
+        CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.5, 1.0, curve: Curves.easeOut)),
+      );
+      _taglineSlide =
+          Tween<Offset>(begin: const Offset(0, 0.3), end: Offset.zero).animate(
+        CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.5, 1.0, curve: Curves.easeOut)),
+      );
+      _controller.forward();
+      _navigateAfter(const Duration(milliseconds: 2400));
+    } else {
+      // Returning user — minimal fast splash, just the logo
+      _controller = AnimationController(
+        vsync: this,
+        duration: const Duration(milliseconds: 350),
+      );
+      _imageFade = Tween<double>(begin: 0, end: 1).animate(_controller);
+      _taglineFade = _imageFade;
+      _taglineSlide =
+          Tween<Offset>(begin: Offset.zero, end: Offset.zero).animate(_controller);
+      _controller.forward();
+      _navigateAfter(const Duration(milliseconds: 450));
+    }
   }
 
-  Future<void> _navigate() async {
-    await Future.delayed(const Duration(milliseconds: 2400));
+  Future<void> _navigateAfter(Duration delay) async {
+    await Future.delayed(delay);
     if (!mounted) return;
-    if (HiveStorage.isOnboardingDone) {
-      context.go('/dashboard');
-    } else {
+    if (_isFirstInstall) {
       context.go('/onboarding');
+    } else {
+      context.go('/dashboard');
     }
   }
 
@@ -56,8 +80,15 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    if (!_isFirstInstall) {
+      return _buildMinimalSplash(context);
+    }
+    return _buildFullSplash(context);
+  }
 
+  // ── Full splash (first install only) ────────────────────────────────────────
+  Widget _buildFullSplash(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: const Color(0xFF0F1923),
       body: AnimatedBuilder(
@@ -66,7 +97,6 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
           return Stack(
             fit: StackFit.expand,
             children: [
-              // ── Full-screen front image ──────────────────────────────────
               FadeTransition(
                 opacity: _imageFade,
                 child: Image.asset(
@@ -77,8 +107,6 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                   alignment: Alignment.center,
                 ),
               ),
-
-              // ── Bottom gradient for tagline readability ──────────────────
               Positioned(
                 left: 0,
                 right: 0,
@@ -93,15 +121,13 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         end: Alignment.bottomCenter,
                         colors: [
                           Colors.transparent,
-                          Colors.black.withValues(alpha:0.72),
+                          Colors.black.withValues(alpha: 0.72),
                         ],
                       ),
                     ),
                   ),
                 ),
               ),
-
-              // ── Logo + tagline over the image ────────────────────────────
               Positioned(
                 left: 24,
                 right: 24,
@@ -131,9 +157,10 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                         ),
                         const SizedBox(height: 6),
                         Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 4),
                           decoration: BoxDecoration(
-                            color: AppColors.primary.withValues(alpha:0.9),
+                            color: AppColors.primary.withValues(alpha: 0.9),
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: const Text(
@@ -154,6 +181,42 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
             ],
           );
         },
+      ),
+    );
+  }
+
+  // ── Minimal splash (returning users) ────────────────────────────────────────
+  Widget _buildMinimalSplash(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFF0F1923),
+      body: AnimatedBuilder(
+        animation: _controller,
+        builder: (context, child) => FadeTransition(
+          opacity: _imageFade,
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset(
+                  'assets/images/infinitehealthtrackerlogo.png',
+                  height: 72,
+                  fit: BoxFit.fitHeight,
+                ),
+                const SizedBox(height: 14),
+                const Text(
+                  'INFINITE NUTRITION TRACKER',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 2.0,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
