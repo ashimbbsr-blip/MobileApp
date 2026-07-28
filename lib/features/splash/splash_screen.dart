@@ -90,7 +90,7 @@ class _SplashScreenState extends State<SplashScreen>
   Widget _buildFullSplash(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: const Color(0xFF0F1923),
+      backgroundColor: AppColors.darkBackground,
       body: AnimatedBuilder(
         animation: _controller,
         builder: (context, child) {
@@ -188,7 +188,7 @@ class _SplashScreenState extends State<SplashScreen>
   // ── Minimal splash (returning users) ────────────────────────────────────────
   Widget _buildMinimalSplash(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0F1923),
+      backgroundColor: AppColors.darkBackground,
       body: AnimatedBuilder(
         animation: _controller,
         builder: (context, child) => FadeTransition(

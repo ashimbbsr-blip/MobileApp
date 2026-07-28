@@ -89,19 +89,23 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen>
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        l10n.appName,
-                        style: theme.textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.w800,
-                          color: AppColors.primary,
-                          fontSize: 16,
-                          letterSpacing: -0.3,
+                      ShaderMask(
+                        shaderCallback: (bounds) =>
+                            AppColors.primaryGradient.createShader(bounds),
+                        child: Text(
+                          l10n.appName,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w800,
+                            color: Colors.white,
+                            fontSize: 16,
+                            letterSpacing: -0.3,
+                          ),
                         ),
                       ),
                       Text(
                         l10n.tagline,
                         style: theme.textTheme.bodySmall?.copyWith(
-                          color: AppColors.primary.withValues(alpha: 0.70),
+                          color: AppColors.secondary.withValues(alpha: 0.80),
                           fontSize: 10,
                           fontWeight: FontWeight.w500,
                           letterSpacing: 0.2,
@@ -142,12 +146,27 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen>
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => context.go('/meals'),
-        backgroundColor: AppColors.primary,
-        foregroundColor: Colors.white,
-        icon: const Icon(Icons.add),
-        label: Text(l10n.addFood),
+      floatingActionButton: Container(
+        decoration: BoxDecoration(
+          gradient: AppColors.primaryGradient,
+          borderRadius: BorderRadius.circular(30),
+          boxShadow: [
+            BoxShadow(
+              color: AppColors.primary.withValues(alpha: 0.4),
+              blurRadius: 12,
+              offset: const Offset(0, 4),
+            ),
+          ],
+        ),
+        child: FloatingActionButton.extended(
+          onPressed: () => context.go('/meals'),
+          backgroundColor: Colors.transparent,
+          foregroundColor: Colors.white,
+          elevation: 0,
+          icon: const Icon(Icons.add_rounded),
+          label: Text(l10n.addFood,
+              style: const TextStyle(fontWeight: FontWeight.w600)),
+        ),
       ),
     );
   }
@@ -287,9 +306,10 @@ class _WeeklyProgressPanel extends ConsumerWidget {
     const maxBarH = 44.0;
     const orange = Color(0xFFFF6D00);
 
-    final cardBg = isDark ? const Color(0xFF1E1E2E) : const Color(0xFFF8F9FF);
-    final borderColor =
-        isDark ? Colors.white.withValues(alpha: 0.08) : Colors.black.withValues(alpha: 0.07);
+    final cardBg = isDark ? AppColors.darkCard : const Color(0xFFF4F6FF);
+    final borderColor = isDark
+        ? AppColors.darkDivider.withValues(alpha: 0.8)
+        : AppColors.primary.withValues(alpha: 0.08);
 
     return Container(
       decoration: BoxDecoration(
@@ -414,11 +434,11 @@ class _WeeklyProgressPanel extends ConsumerWidget {
   }
 
   Color _barColor(double kcal, double goal, bool logged) {
-    if (!logged || kcal == 0 || goal == 0) return Colors.grey;
+    if (!logged || kcal == 0 || goal == 0) return Colors.grey.shade600;
     final pct = kcal / goal;
-    if (pct >= 0.90 && pct <= 1.10) return const Color(0xFF27AE60);
-    if (pct >= 0.75 && pct <= 1.25) return const Color(0xFFF39C12);
-    return const Color(0xFFE74C3C);
+    if (pct >= 0.90 && pct <= 1.10) return AppColors.secondary;
+    if (pct >= 0.75 && pct <= 1.25) return const Color(0xFFFFA726);
+    return AppColors.primary;
   }
 }
 
@@ -502,12 +522,10 @@ class _RecommendationCardState extends ConsumerState<_RecommendationCard>
     final stepsDisplay = ((rec.walkingSteps / 500).round() * 500);
     final minsDisplay  = ((rec.walkingMinutes / 5).round() * 5).clamp(10, 90);
 
-    final cardBg = isDark
-        ? const Color(0xFF1A2535)
-        : const Color(0xFFF0F9F4);
+    final cardBg = isDark ? AppColors.darkCard : const Color(0xFFF0F9F4);
     const accentColor = Color(0xFF27AE60);
     final borderColor = isDark
-        ? const Color(0xFF2D4A3A)
+        ? const Color(0xFF1A3A2A)
         : const Color(0xFFB2DFCE);
 
     return Container(
@@ -967,10 +985,8 @@ class _ActivityCaloriesCard extends ConsumerWidget {
     final burned = state.burnedCaloriesKcal;
     final deduct = state.deductBurnedCalories;
 
-    final cardBg = isDark ? const Color(0xFF1A2A1F) : const Color(0xFFF0FFF4);
-    final borderColor = isDark
-        ? green.withValues(alpha: 0.3)
-        : green.withValues(alpha: 0.3);
+    final cardBg = isDark ? AppColors.darkCard : const Color(0xFFF0FFF4);
+    final borderColor = green.withValues(alpha: 0.3);
 
     return Container(
       decoration: BoxDecoration(
@@ -1218,10 +1234,8 @@ class _EnergyBalanceCardState extends ConsumerState<_EnergyBalanceCard>
     );
 
     final statusColor = _statusColor(balance.status);
-    final cardBg = isDark ? const Color(0xFF1A2030) : const Color(0xFFF8F9FF);
-    final borderColor = isDark
-        ? statusColor.withValues(alpha: 0.3)
-        : statusColor.withValues(alpha: 0.25);
+    final cardBg = isDark ? AppColors.darkCard : const Color(0xFFF8F9FF);
+    final borderColor = statusColor.withValues(alpha: isDark ? 0.3 : 0.25);
 
     final balanceLabelFull = bn
         ? (balance.isDeficit
@@ -1713,8 +1727,18 @@ class _MealCard extends StatelessWidget {
           leading: Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: AppColors.primary.withValues(alpha: 0.1),
+              gradient: LinearGradient(
+                colors: [
+                  AppColors.primary.withValues(alpha: 0.15),
+                  AppColors.secondary.withValues(alpha: 0.10),
+                ],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
               borderRadius: BorderRadius.circular(10),
+              border: Border.all(
+                color: AppColors.primary.withValues(alpha: 0.2),
+              ),
             ),
             child: Icon(icon, color: AppColors.primary, size: 20),
           ),

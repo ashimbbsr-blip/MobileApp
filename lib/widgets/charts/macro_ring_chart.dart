@@ -88,18 +88,27 @@ class MacroRingChart extends StatelessWidget {
             children: [
               Text(
                 calories.toStringAsFixed(0),
-                style: theme.textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  color: AppColors.calories,
+                style: theme.textTheme.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.w800,
+                  color: AppColors.primary,
+                  fontSize: 28,
                 ),
               ),
               Text(
                 'kcal',
-                style: theme.textTheme.bodySmall,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: AppColors.secondary,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.5,
+                ),
               ),
+              const SizedBox(height: 2),
               Text(
                 '/ ${calorieGoal.toStringAsFixed(0)}',
-                style: theme.textTheme.bodySmall?.copyWith(fontSize: 10),
+                style: theme.textTheme.bodySmall?.copyWith(
+                  fontSize: 10,
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+                ),
               ),
             ],
           ),
