@@ -193,9 +193,9 @@ class LocalFoodRepository {
     return 0;
   }
 
-  /// Like [search] but returns (item, score) pairs so callers can apply
-  /// their own confidence thresholds (used by the photo food-scan matcher).
-  static List<(FoodItem, int)> searchScored(String query, {int limit = 10}) {
+  /// Same as [search] but returns each food paired with its relevance score.
+  /// Used by FoodMatchService to rank cross-query results by score.
+  static List<(FoodItem, int)> searchScored(String query, {int limit = 25}) {
     if (_items == null || _items!.isEmpty) return [];
     final q = query.toLowerCase().trim();
     if (q.isEmpty) return [];

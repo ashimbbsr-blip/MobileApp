@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 import '../../services/api_key_service.dart';
 import '../../theme/app_colors.dart';
@@ -23,17 +24,61 @@ class ScanTab extends ConsumerWidget {
 
   Future<void> _startScan(
       BuildContext context, WidgetRef ref, ImageSource source) async {
+    final bn = lang == 'bn';
+
+    // ── Runtime camera permission (Android requires this for ImageSource.camera) ──
+    if (source == ImageSource.camera) {
+      final status = await Permission.camera.request();
+      if (!context.mounted) return;
+      if (status.isPermanentlyDenied) {
+        await showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text(bn ? 'ক্যামেরার অনুমতি নেই' : 'Camera Permission Denied'),
+            content: Text(bn
+                ? 'ক্যামেরা ব্যবহার করতে ফোনের সেটিংসে গিয়ে অ্যাপকে অনুমতি দিন।'
+                : 'Camera access was permanently denied. Please enable it in the app\'s system settings.'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(ctx),
+                child: Text(bn ? 'বাতিল' : 'Cancel'),
+              ),
+              FilledButton(
+                onPressed: () {
+                  Navigator.pop(ctx);
+                  openAppSettings();
+                },
+                child: Text(bn ? 'সেটিংস খুলুন' : 'Open Settings'),
+              ),
+            ],
+          ),
+        );
+        return;
+      }
+      if (!status.isGranted) {
+        if (!context.mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text(bn
+              ? 'ফটো স্ক্যানের জন্য ক্যামেরার অনুমতি প্রয়োজন।'
+              : 'Camera permission is required for photo scan.'),
+          backgroundColor: Colors.red.shade700,
+          behavior: SnackBarBehavior.floating,
+          margin: const EdgeInsets.all(12),
+        ));
+        return;
+      }
+    }
+
     final notifier = ref.read(foodScanProvider.notifier);
     final ok = await notifier.pickImage(source);
     if (!context.mounted) return;
     if (!ok) {
-      // pickImage sets an error state when no API key is configured.
       if (ref.read(foodScanProvider).errorKind == ScanErrorKind.noApiKey) {
         context.push('/meals/scan-review', extra: mealType);
       }
       return;
     }
-    notifier.analyze(); // fire and navigate; review screen shows progress
+    notifier.analyze();
     context.push('/meals/scan-review', extra: mealType);
   }
 
@@ -125,8 +170,8 @@ class ScanTab extends ConsumerWidget {
                   Expanded(
                     child: Text(
                       bn
-                          ? 'ফটো স্ক্যানের জন্য একটি ফ্রি Gemini API কী প্রয়োজন। সেটিংসে যোগ করুন।'
-                          : 'Photo scan needs a free Gemini API key. Add one in Settings.',
+                          ? 'ফটো স্ক্যানের জন্য একটি Gemini API কী প্রয়োজন। সেটিংসে যোগ করুন।'
+                          : 'Photo scan needs a Gemini API key. Add one in Settings.',
                       style: const TextStyle(fontSize: 12.5),
                     ),
                   ),

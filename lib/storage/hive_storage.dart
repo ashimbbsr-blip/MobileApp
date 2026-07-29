@@ -322,7 +322,7 @@ class HiveStorage {
   static Future<void> clearUserApiKey() async =>
       settingsBox.delete(AppConstants.keyUserApiKey);
 
-  // ── Gemini User API Key (photo food scan) ─────────────────────────────────
+  // ── Gemini User API Key (photo food scan) ────────────────────────────────
 
   static String? get userGeminiApiKey {
     final v = settingsBox.get(AppConstants.keyUserGeminiApiKey);

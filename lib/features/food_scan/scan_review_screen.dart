@@ -72,7 +72,8 @@ class _ScanReviewScreenState extends ConsumerState<ScanReviewScreen> {
         title: Text(bn ? 'স্ক্যান ফলাফল' : 'Scan Results'),
       ),
       body: switch (scan.status) {
-        ScanStatus.analyzing => _AnalyzingView(imagePath: scan.imagePath, bn: bn),
+        ScanStatus.analyzing =>
+          _AnalyzingView(imagePath: scan.imagePath, bn: bn),
         ScanStatus.error => _ErrorView(
             kind: scan.errorKind ?? ScanErrorKind.generic,
             message: scan.errorMessage,
@@ -277,8 +278,8 @@ class _ErrorView extends StatelessWidget {
           Icons.key_off_rounded,
           bn ? 'API কী প্রয়োজন' : 'API key needed',
           bn
-              ? 'ফটো স্ক্যানের জন্য সেটিংসে ফ্রি Gemini API কী যোগ করুন।'
-              : 'Add a free Gemini API key in Settings to use photo scan.',
+              ? 'ফটো স্ক্যানের জন্য সেটিংসে Gemini API কী যোগ করুন।'
+              : 'Add a Gemini API key in Settings to use photo scan.',
         ),
       ScanErrorKind.invalidKey => (
           Icons.key_off_rounded,
@@ -298,8 +299,8 @@ class _ErrorView extends StatelessWidget {
           Icons.hourglass_top_rounded,
           bn ? 'একটু অপেক্ষা করুন' : 'Please wait a minute',
           bn
-              ? 'ফ্রি কোটা সাময়িকভাবে শেষ। এক মিনিট পরে আবার চেষ্টা করুন।'
-              : 'Free quota briefly exceeded. Try again in a minute.',
+              ? 'কোটা সাময়িকভাবে শেষ। এক মিনিট পরে আবার চেষ্টা করুন।'
+              : 'Quota briefly exceeded. Try again in a minute.',
         ),
       ScanErrorKind.nothingRecognized => (
           Icons.no_food_outlined,

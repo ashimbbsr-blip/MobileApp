@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -74,13 +75,24 @@ class FoodScanNotifier extends StateNotifier<FoodScanState> {
     try {
       final picked = await ImagePicker().pickImage(
         source: source,
-        maxWidth: 1024,
-        maxHeight: 1024,
-        imageQuality: 85,
+        maxWidth: 800,
+        maxHeight: 800,
+        imageQuality: 72,
       );
       if (picked == null) return false;
       state = FoodScanState(status: ScanStatus.idle, imagePath: picked.path);
       return true;
+    } on PlatformException catch (e) {
+      final msg = e.message ?? '';
+      final isPermission = msg.toLowerCase().contains('permission') ||
+          msg.toLowerCase().contains('denied') ||
+          e.code == 'camera_access_denied';
+      state = FoodScanState(
+        status: ScanStatus.error,
+        errorKind: isPermission ? ScanErrorKind.noApiKey : ScanErrorKind.generic,
+        errorMessage: msg.isNotEmpty ? msg : 'Camera unavailable.',
+      );
+      return false;
     } catch (_) {
       return false;
     }

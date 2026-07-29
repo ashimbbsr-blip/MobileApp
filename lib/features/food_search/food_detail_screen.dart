@@ -378,6 +378,7 @@ class _SubSectionHeader extends StatelessWidget {
   }
 }
 
+
 class _MealSelector extends StatelessWidget {
   final String selected;
   final void Function(String) onSelected;

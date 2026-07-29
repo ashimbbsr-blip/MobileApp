@@ -1,5 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
+import 'dart:ui' as ui;
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' show debugPrint;
@@ -80,8 +82,7 @@ class ScanModelUnavailableException implements Exception {
 }
 
 /// Sends a meal photo to Gemini and returns the detected dishes with portion
-/// and nutrition estimates. Mirrors the error-handling patterns of
-/// [UsdaApiService].
+/// and nutrition estimates.
 class GeminiFoodScanService {
   final Dio _dio;
   DateTime? _cooldownUntil;
@@ -89,9 +90,8 @@ class GeminiFoodScanService {
   GeminiFoodScanService()
       : _dio = Dio(BaseOptions(
           baseUrl: AppConstants.geminiBaseUrl,
-          connectTimeout: const Duration(seconds: 10),
-          // Vision inference is slower than a plain search API.
-          receiveTimeout: const Duration(seconds: 60),
+          connectTimeout: const Duration(seconds: 15),
+          receiveTimeout: const Duration(seconds: 90),
         ));
 
   bool get isRateLimited =>
@@ -168,11 +168,60 @@ Only include actual food or drink. If nothing edible is visible, return {"items"
           'No Gemini API key configured. Add one in Settings.');
     }
 
-    final b64 = base64Encode(await image.readAsBytes());
-    return _doAnalyze(b64, key);
+    // Resize + re-encode before base64. This is critical on Android:
+    // image_picker ignores imageQuality when maxWidth/maxHeight is set,
+    // so Android camera photos arrive as full-resolution JPEGs (8-15 MB).
+    // Sending that to Gemini exhausts the free-tier tokens-per-minute quota.
+    final imageBytes = await _prepareImageBytes(image);
+    final mimeType = _detectMimeType(imageBytes);
+    final b64 = base64Encode(imageBytes);
+    debugPrint('[GeminiFoodScanService] sending ${imageBytes.length ~/ 1024}KB $mimeType');
+    return _doAnalyze(b64, key, mimeType);
   }
 
-  Future<List<DetectedFoodItem>> _doAnalyze(String b64, String key,
+  /// Resize image to max 768×768 using Flutter's built-in GPU codec, then
+  /// re-export as PNG. PNG is lossless but at 768×768 is typically 200–400 KB —
+  /// far below the Gemini free-tier token limit.
+  static Future<Uint8List> _prepareImageBytes(File image) async {
+    final raw = await image.readAsBytes();
+    try {
+      final codec = await ui.instantiateImageCodec(
+        raw,
+        targetWidth: 768,
+        targetHeight: 768,
+        allowUpscaling: false,
+      );
+      final frame = await codec.getNextFrame();
+      final img = frame.image;
+      final byteData = await img.toByteData(format: ui.ImageByteFormat.png);
+      img.dispose();
+      codec.dispose();
+      if (byteData != null) {
+        final png = byteData.buffer.asUint8List();
+        debugPrint(
+            '[GeminiFoodScanService] resized: ${raw.length ~/ 1024}KB → ${png.length ~/ 1024}KB PNG');
+        return png;
+      }
+    } catch (e) {
+      debugPrint('[GeminiFoodScanService] resize failed, using raw: $e');
+    }
+    return raw;
+  }
+
+  /// Detect MIME type from magic bytes.
+  static String _detectMimeType(Uint8List bytes) {
+    if (bytes.length >= 4 &&
+        bytes[0] == 0x89 &&
+        bytes[1] == 0x50 &&
+        bytes[2] == 0x4E &&
+        bytes[3] == 0x47) {
+      return 'image/png';
+    }
+    return 'image/jpeg';
+  }
+
+  Future<List<DetectedFoodItem>> _doAnalyze(
+      String b64, String key, String mimeType,
       {int attempt = 0}) async {
     try {
       final response = await _dio.post(
@@ -183,7 +232,7 @@ Only include actual food or drink. If nothing edible is visible, return {"items"
             {
               'parts': [
                 {
-                  'inline_data': {'mime_type': 'image/jpeg', 'data': b64}
+                  'inline_data': {'mime_type': mimeType, 'data': b64}
                 },
                 {'text': _prompt},
               ],
@@ -204,6 +253,13 @@ Only include actual food or drink. If nothing edible is visible, return {"items"
       final status = e.response?.statusCode;
 
       if (status == 429) {
+        // Log the actual error body for debugging
+        final body = e.response?.data;
+        final msg = body is Map
+            ? (body['error']?['message'] as String? ?? '')
+            : body?.toString() ?? '';
+        debugPrint('[GeminiFoodScanService] 429: $msg');
+
         _cooldownUntil = DateTime.now().add(
           const Duration(seconds: AppConstants.geminiCooldownSeconds),
         );
@@ -222,7 +278,7 @@ Only include actual food or drink. If nothing edible is visible, return {"items"
           e.type == DioExceptionType.sendTimeout;
       if (isTimeout && attempt < 1) {
         await Future.delayed(Duration(seconds: 1 << attempt));
-        return _doAnalyze(b64, key, attempt: attempt + 1);
+        return _doAnalyze(b64, key, mimeType, attempt: attempt + 1);
       }
       if (isTimeout || e.type == DioExceptionType.receiveTimeout) {
         throw Exception(
