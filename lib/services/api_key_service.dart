@@ -14,7 +14,8 @@ class ApiKeyService {
 
   bool get hasCustomKey => HiveStorage.userApiKey != null;
 
-  /// Gemini key for photo food scan: user's custom key, else the build-time default.
+  /// Gemini key for photo food scan: user's custom key, else the build-time
+  /// --dart-define default (empty when neither is set).
   String get activeGeminiKey {
     final stored = HiveStorage.userGeminiApiKey;
     if (stored != null && stored.isNotEmpty) return stored;

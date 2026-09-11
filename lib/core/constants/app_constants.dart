@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Infinite Nutrition Tracker';
+  static const String appName = 'Infinity Health Tracker';
   static const String appTagline = 'Better Health Every Day';
 
   // USDA Food Data Central API — built-in default key; override at build time via
@@ -10,8 +10,8 @@ class AppConstants {
   );
   static const String usdaBaseUrl = 'https://api.nal.usda.gov/fdc/v1';
 
-  // Google Gemini API (photo food scan) — set at build time via --dart-define=GEMINI_API_KEY=...
-  // No hardcoded default: an empty string causes a clear "no key configured" prompt in Settings.
+  // Google Gemini API (photo food scan) — no built-in default key; supply via
+  // flutter build apk --dart-define=GEMINI_API_KEY=your_key or in Settings.
   static const String geminiApiKey = String.fromEnvironment(
     'GEMINI_API_KEY',
     defaultValue: '',
@@ -20,9 +20,6 @@ class AppConstants {
       'https://generativelanguage.googleapis.com/v1beta';
   static const String geminiModel = 'gemini-3.5-flash';
   static const int geminiCooldownSeconds = 60;
-
-  // Gemini user-supplied API key (stored in settingsBox)
-  static const String keyUserGeminiApiKey = 'user_gemini_api_key';
 
   // Search & Cache
   static const int maxRecentSearches = 10;
@@ -79,7 +76,10 @@ class AppConstants {
   // USDA user-supplied API key (stored in settingsBox)
   static const String keyUserApiKey = 'user_usda_api_key';
 
+  // Gemini user-supplied API key (stored in settingsBox)
+  static const String keyUserGeminiApiKey = 'user_gemini_api_key';
+
   // Legal / policy versioning
-  static const String currentPolicyVersion = '1.0.0';
-  static const String currentAppVersion = '1.3.3';
+  static const String currentPolicyVersion = '1.1.0';
+  static const String currentAppVersion = '1.3.0';
 }

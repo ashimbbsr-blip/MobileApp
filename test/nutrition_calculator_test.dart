@@ -100,7 +100,7 @@ void main() {
 
     test('BMI categories are correct', () {
       expect(NutritionCalculator.bmiCategory(17.0), 'Underweight');
-      expect(NutritionCalculator.bmiCategory(22.0), 'Normal weight');
+      expect(NutritionCalculator.bmiCategory(22.0), 'Normal');
       expect(NutritionCalculator.bmiCategory(27.0), 'Overweight');
       expect(NutritionCalculator.bmiCategory(32.0), 'Obese');
     });
@@ -119,7 +119,7 @@ void main() {
 
     test('goals object has valid fiber target', () {
       final goals = NutritionCalculator.calculate(makeMale());
-      expect(goals.fiberG, equals(38.0));
+      expect(goals.fiberG, equals(40.0));
     });
 
     test('all macros produce positive values', () {

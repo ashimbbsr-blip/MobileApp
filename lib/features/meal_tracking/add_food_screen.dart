@@ -9,8 +9,8 @@ import '../../services/usda_api_service.dart';
 import '../../services/local_food_repository.dart';
 import '../../storage/hive_storage.dart';
 import '../dashboard/providers/dashboard_provider.dart';
-import '../meal_tracking/providers/meal_provider.dart';
 import '../food_scan/scan_tab.dart';
+import '../meal_tracking/providers/meal_provider.dart';
 
 // ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
 

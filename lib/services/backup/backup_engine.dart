@@ -55,8 +55,8 @@ class BackupEngine {
     try {
       await Share.shareXFiles(
         [XFile(outcome.filePath!, mimeType: 'application/octet-stream')],
-        subject: 'Infinity Nutrition Backup',
-        text: 'Infinity Nutrition Tracker — full backup (.iht). '
+        subject: 'Infinity Health Tracker Backup',
+        text: 'Infinity Health Tracker — full backup (.iht). '
             'Keep this file safe to restore on a new device.',
       );
       return outcome;

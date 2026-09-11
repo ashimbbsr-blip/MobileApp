@@ -13,6 +13,7 @@ import '../features/food_search/food_search_screen.dart';
 import '../features/food_search/food_detail_screen.dart';
 import '../features/meal_tracking/meal_log_screen.dart';
 import '../features/meal_tracking/add_food_screen.dart';
+import '../features/food_scan/scan_review_screen.dart';
 import '../features/micronutrients/micronutrient_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/history/history_screen.dart';
@@ -20,7 +21,6 @@ import '../features/profile/profile_screen.dart';
 import '../features/help/help_screen.dart';
 import '../features/backup/backup_archive_screen.dart';
 import '../features/weight/weight_screen.dart';
-import '../features/food_scan/scan_review_screen.dart';
 import '../models/food_item.dart';
 import '../core/utils/meal_time_utils.dart';
 
@@ -107,7 +107,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
               GoRoute(
                 path: 'scan-review',
                 builder: (context, state) {
-                  final mealType = state.extra as String? ?? 'snack';
+                  final mealType = state.extra as String? ?? mealTypeForNow();
                   return ScanReviewScreen(initialMealType: mealType);
                 },
               ),

@@ -26,6 +26,12 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses the camera to photograph your meal so it can recognize the food and estimate calories.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Infinity Health Tracker does not track your location. Location is only used if you choose to attach it to a photo taken with the in-app camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to your photo library so you can set a profile photo or scan a meal photo.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

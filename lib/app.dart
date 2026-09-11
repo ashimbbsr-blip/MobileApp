@@ -14,7 +14,7 @@ class InfinityHealthApp extends ConsumerWidget {
     final router = ref.watch(appRouterProvider);
 
     return MaterialApp.router(
-      title: 'Infinite Nutrition Tracker',
+      title: 'Infinity Health Tracker',
       debugShowCheckedModeBanner: false,
       themeMode: settings.themeMode,
       theme: AppTheme.lightTheme(settings.language),

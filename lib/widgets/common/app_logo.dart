@@ -22,7 +22,7 @@ class AppLogo extends StatelessWidget {
         ),
         const SizedBox(height: 8),
         Text(
-          'Infinite Nutrition Tracker',
+          'Infinity Health Tracker',
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
             fontWeight: FontWeight.w700,
             color: textColor,

@@ -39,7 +39,7 @@ class XlsxExportEngine {
               mimeType:
                   'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
         ],
-        subject: 'Infinity Nutrition Report',
+        subject: 'Infinity Health Tracker Report',
       );
       onProgress?.call(const BackupProgress(1.0, 'Done'));
       return BackupOutcome(success: true, filePath: file.path, sizeBytes: bytes.length);
@@ -77,7 +77,7 @@ class XlsxExportEngine {
 
   static List<List<Object?>> _profileSheet(UserProfile? p) {
     final rows = <List<Object?>>[
-      ['Infinity Nutrition Tracker — Profile'],
+      ['Infinity Health Tracker — Profile'],
       [],
       ['Field', 'Value'],
     ];

@@ -317,7 +317,7 @@ class AppStrings {
 
   static const Map<String, Map<String, String>> _translations = {
     'en': {
-      'appName': 'Infinite Nutrition Tracker',
+      'appName': 'Infinity Health Tracker',
       'tagline': 'Better Health Every Day',
       'dashboard': 'Dashboard',
       'foodSearch': 'Food Search',
@@ -393,7 +393,7 @@ class AppStrings {
       'nutritionFacts': 'Nutrition Facts',
       'vitamins': 'Vitamins',
       'minerals': 'Minerals',
-      'welcomeTitle': 'Welcome to\nInfinite Nutrition Tracker',
+      'welcomeTitle': 'Welcome to\nInfinity Health Tracker',
       'welcomeSubtitle': 'Your personal nutrition companion.\nTrack calories, macros & vitamins.',
       'getStarted': 'Get Started',
       'profile': 'Profile',
@@ -603,7 +603,7 @@ class AppStrings {
       'unitTsp': 'tsp (5 ml)',
     },
     'bn': {
-      'appName': 'ইনফিনিট নিউট্রিশন ট্র্যাকার',
+      'appName': 'ইনফিনিটি হেলথ ট্র্যাকার',
       'tagline': 'প্রতিদিন সুস্বাস্থ্য',
       'dashboard': 'ড্যাশবোর্ড',
       'foodSearch': 'খাবার খুঁজুন',
@@ -679,7 +679,7 @@ class AppStrings {
       'nutritionFacts': 'পুষ্টির তথ্য',
       'vitamins': 'ভিটামিন',
       'minerals': 'খনিজ',
-      'welcomeTitle': 'ইনফিনিট নিউট্রিশন\nট্র্যাকারে স্বাগতম',
+      'welcomeTitle': 'ইনফিনিটি হেলথ\nট্র্যাকারে স্বাগতম',
       'welcomeSubtitle': 'আপনার ব্যক্তিগত পুষ্টি সহায়ক।\nক্যালোরি, ম্যাক্রো এবং ভিটামিন ট্র্যাক করুন।',
       'getStarted': 'শুরু করুন',
       'profile': 'প্রোফাইল',
