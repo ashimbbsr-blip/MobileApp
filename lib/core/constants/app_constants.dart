@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Infinite Nutrition Tracker';
+  static const String appName = 'Infinity Health Tracker';
   static const String appTagline = 'Better Health Every Day';
 
   // USDA Food Data Central API — built-in default key; override at build time via

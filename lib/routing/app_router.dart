@@ -21,7 +21,6 @@ import '../features/profile/profile_screen.dart';
 import '../features/help/help_screen.dart';
 import '../features/backup/backup_archive_screen.dart';
 import '../features/weight/weight_screen.dart';
-import '../features/food_scan/scan_review_screen.dart';
 import '../models/food_item.dart';
 import '../core/utils/meal_time_utils.dart';
 

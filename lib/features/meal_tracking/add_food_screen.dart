@@ -11,7 +11,6 @@ import '../../storage/hive_storage.dart';
 import '../dashboard/providers/dashboard_provider.dart';
 import '../food_scan/scan_tab.dart';
 import '../meal_tracking/providers/meal_provider.dart';
-import '../food_scan/scan_tab.dart';
 
 // ── Category metadata (mirrors FoodSearchScreen) ─────────────────────────────
 

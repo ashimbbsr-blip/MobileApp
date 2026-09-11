@@ -19,7 +19,7 @@ class HelpScreen extends StatelessWidget {
         children: [
           _Section(
             icon: Icons.info_outline_rounded,
-            title: 'What is Infinite Nutrition Tracker?',
+            title: 'What is Infinity Health Tracker?',
             isDark: isDark,
             children: const [
               _Bullet(

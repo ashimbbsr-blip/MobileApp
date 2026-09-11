@@ -33,7 +33,7 @@ class LegalContent {
   static const List<LegalSection> _termsEn = [
     LegalSection(
       '1. General Use',
-      'Infinite Nutrition Tracker ("the App") is provided "as is" for informational '
+      'Infinity Health Tracker ("the App") is provided "as is" for informational '
           'and personal wellness purposes only. By using the App, you acknowledge that '
           'you do so at your own discretion and risk.\n\n'
           'The App is designed to assist in tracking nutrition and wellness habits — not '
@@ -91,7 +91,7 @@ class LegalContent {
     LegalSection(
       '6. Limitation of Liability',
       'To the maximum extent permitted by applicable law, the developer of '
-          'Infinite Nutrition Tracker shall NOT be liable for:\n\n'
+          'Infinity Health Tracker shall NOT be liable for:\n\n'
           '• Any health issues arising directly or indirectly from App use\n'
           '• Adverse dietary or allergic reactions\n'
           '• Inaccurate food identification from manual entry errors\n'
@@ -225,7 +225,7 @@ class LegalContent {
   static const List<LegalSection> _healthEn = [
     LegalSection(
       'General Health Disclaimer',
-      'Infinite Nutrition Tracker provides general nutrition and wellness tracking '
+      'Infinity Health Tracker provides general nutrition and wellness tracking '
           'tools. The information provided by the App is for general informational '
           'purposes only.\n\n'
           'It is NOT intended as:\n'
@@ -294,7 +294,7 @@ class LegalContent {
   static const List<LegalSection> _termsBn = [
     LegalSection(
       '১. সাধারণ ব্যবহার',
-      'ইনফিনিট নিউট্রিশন ট্র্যাকার ("অ্যাপ") "যেমন আছে" (as is) ভিত্তিতে শুধুমাত্র '
+      'ইনফিনিটি হেলথ ট্র্যাকার ("অ্যাপ") "যেমন আছে" (as is) ভিত্তিতে শুধুমাত্র '
           'তথ্যগত ও ব্যক্তিগত সুস্বাস্থ্যের উদ্দেশ্যে প্রদান করা হয়েছে। অ্যাপটি '
           'ব্যবহার করে আপনি স্বীকার করছেন যে আপনি নিজের বিবেচনায় ও ঝুঁকিতে এটি ব্যবহার করছেন।\n\n'
           'অ্যাপটি পুষ্টি ও সুস্বাস্থ্য অভ্যাস ট্র্যাক করতে সহায়তার জন্য ডিজাইন করা হয়েছে — '
@@ -346,7 +346,7 @@ class LegalContent {
     ),
     LegalSection(
       '৬. দায়বদ্ধতার সীমাবদ্ধতা',
-      'প্রযোজ্য আইনের সর্বোচ্চ সীমার মধ্যে, ইনফিনিট নিউট্রিশন ট্র্যাকারের '
+      'প্রযোজ্য আইনের সর্বোচ্চ সীমার মধ্যে, ইনফিনিটি হেলথ ট্র্যাকারের '
           'নির্মাতা দায়ী থাকবেন না:\n\n'
           '• অ্যাপ ব্যবহারের ফলে সৃষ্ট যেকোনো স্বাস্থ্যগত সমস্যার জন্য\n'
           '• খাদ্যাভ্যাসগত বা অ্যালার্জিক প্রতিক্রিয়ার জন্য\n'
@@ -477,7 +477,7 @@ class LegalContent {
   static const List<LegalSection> _healthBn = [
     LegalSection(
       'সাধারণ স্বাস্থ্য দাবিত্যাগ',
-      'ইনফিনিট নিউট্রিশন ট্র্যাকার সাধারণ পুষ্টি ও সুস্বাস্থ্য ট্র্যাকিং সরঞ্জাম প্রদান করে। '
+      'ইনফিনিটি হেলথ ট্র্যাকার সাধারণ পুষ্টি ও সুস্বাস্থ্য ট্র্যাকিং সরঞ্জাম প্রদান করে। '
           'অ্যাপের তথ্য শুধুমাত্র সাধারণ তথ্যের উদ্দেশ্যে।\n\n'
           'এটি নিম্নলিখিত হিসেবে প্রদান করা হয় না:\n'
           '• চিকিৎসা পরামর্শ বা ক্লিনিক্যাল রোগ নির্ণয়\n'

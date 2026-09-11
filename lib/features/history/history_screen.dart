@@ -473,11 +473,13 @@ class _WeeklyEnergyBalanceCard extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 2),
-                          Container(
-                            height: barH,
-                            decoration: BoxDecoration(
-                              color: barColor,
-                              borderRadius: BorderRadius.circular(3),
+                          Flexible(
+                            child: Container(
+                              height: barH,
+                              decoration: BoxDecoration(
+                                color: barColor,
+                                borderRadius: BorderRadius.circular(3),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 4),
